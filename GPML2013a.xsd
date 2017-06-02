@@ -17,8 +17,8 @@
 		============================================================== 
 	-->
 	<xsd:import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/gml.xsd"/>
-	<xsd:import namespace="http://www.w3.org/2002/07/owl" schemaLocation="http://www.w3.org/2002/07/owl.xsd"/>
-	<xsd:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns" schemaLocation="http://www.w3.org/1999/02/22-rdf-syntax-ns.xsd"/>
+	<xsd:import namespace="http://www.w3.org/2002/07/owl" schemaLocation="http://www.w3.org/2002/07/owl"/>
+	<xsd:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns" schemaLocation="http://www.w3.org/1999/02/22-rdf-syntax-ns"/>
 	<xsd:import namespace="http://www.biopax.org/release/biopax-level3.owl" schemaLocation="http://www.biopax.org/release/biopax-level3.owl.xsd"/>
 	
 	<!-- Type Definitions -->	
