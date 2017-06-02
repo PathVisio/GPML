@@ -1,6 +1,9 @@
 <xsd:schema targetNamespace="http://pathvisio.org/GPML/2013a"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
 	xmlns:gpml="http://pathvisio.org/GPML/2013a"
+	xmlns:owl="http://www.w3.org/2002/07/owl"
+ 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns"
+ 	xmlns:bp="http://www.biopax.org/release/biopax-level3.owl"
 	elementFormDefault="qualified"
 	>
 
