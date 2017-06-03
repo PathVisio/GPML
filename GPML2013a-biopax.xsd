@@ -1,0 +1,112 @@
+<xsd:schema targetNamespace="http://www.biopax.org/release/biopax-level3.owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"
+	xml:base="http://www.biopax.org/release/biopax-level3.owl"
+	elementFormDefault="qualified"
+	>
+
+	<!-- BioPAX as used in Graphical Pathway Markup Language version 2013a
+
+		BioPAX as used in GPML2013a differs from BioPAX Level 3 (http://www.biopax.org/release/biopax-level3.owl#)
+		in several ways, such as pluralization and capitalization:
+		* rdf:id vs. rdf:ID
+			RDF spec calls for uppercase ID
+			https://www.w3.org/TR/rdf-syntax-grammar/#section-Syntax-ID-xml-base
+			http://www.w3.org/1999/02/22-rdf-syntax-ns#ID
+		* AUTHORS vs. author
+			BioPAX spec calls for singular and lowercase
+		  	http://biopax.org/owldoc/Level3/dataproperties/author___446097204.html
+		* ID vs. id, DB vs. db, TITLE vs. title, SOURCE vs. source, YEAR vs. year
+			BioPAX spec calls for lowercase
+
+		Note that there is not an XSD available for BioPAX Level 3, because:
+		"An early vote resulted in the decision to use OWL instead of XML Schema to represent BioPAX. The main reasons were:
+		* The ability to describe a class hierarchy
+		* The ability to use the same language for the ontology and the data exchange format
+		* Compatible with future technologies like the semantic web that some users are interested in
+		* There was a promise that many tools for OWL would quickly become available to match the existing tools for XML Schema.
+			As of 2005, these tools are still being matured.
+		* OWL is a type of XML, so XML tools would still be useful for parsing OWL"
+		(See http://www.biopax.org/mediawiki/index.php/FAQ)
+	     -->
+
+	<!--
+	 ==============================================================
+		Includes and Imports
+		============================================================== 
+	-->
+	<xsd:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="http://www.w3.org/1999/02/22-rdf-syntax-ns"/>
+	
+	<xsd:element name="PublicationXref" minOccurs="0">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="ID" minOccurs="1"
+					maxOccurs="1">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="xsd:string">
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="DB" minOccurs="1"
+					maxOccurs="1">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="xsd:string">
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="TITLE" minOccurs="1"
+					maxOccurs="1">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="xsd:string">
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="SOURCE" minOccurs="1"
+					maxOccurs="1">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="xsd:string">
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="YEAR" minOccurs="1"
+					maxOccurs="1">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="xsd:integer">
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="AUTHORS" minOccurs="1"
+					maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="xsd:string">
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="OpenControlledVocabulary" minOccurs="0">
+		<xsd:complexType>
+			<xsd:sequence>
+				<!--
+				     TODO fill this in
+				-->
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+</xsd:schema>
