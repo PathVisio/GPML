@@ -1,11 +1,10 @@
 <xsd:schema targetNamespace="http://pathvisio.org/GPML/2013a"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-	xmlns:gpml="http://pathvisio.org/GPML/2013a"
-	xmlns:owl="http://www.w3.org/2002/07/owl"
- 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns"
- 	xmlns:bp="http://www.biopax.org/release/biopax-level3.owl"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
- 	xmlns:gml="http://www.opengis.net/gml"
+ 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+ 	xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"
+	xmlns:gpml="http://pathvisio.org/GPML/2013a"
 	elementFormDefault="qualified"
 	>
 
@@ -15,11 +14,12 @@
 	 ==============================================================
 		Includes and Imports
 		============================================================== 
+	<xsd:import namespace="http://www.w3.org/1999/xlink" schemaLocation="https://www.w3.org/1999/xlink.xsd"/>
+	<xsd:import namespace="http://www.biopax.org/release/biopax-level3.owl#" schemaLocation="http://www.biopax.org/release/biopax-level3.owl"/>
+	<xsd:import namespace="http://www.w3.org/2002/07/owl#" schemaLocation="http://www.w3.org/2009/09/owl2-xml.xsd"/>
 	-->
-	<xsd:import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/gml.xsd"/>
-	<xsd:import namespace="http://www.w3.org/2002/07/owl" schemaLocation="http://www.w3.org/2002/07/owl"/>
-	<xsd:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns" schemaLocation="http://www.w3.org/1999/02/22-rdf-syntax-ns"/>
-	<xsd:import namespace="http://www.biopax.org/release/biopax-level3.owl" schemaLocation="http://www.biopax.org/release/biopax-level3.owl.xsd"/>
+	<xsd:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="http://www.w3.org/1999/02/22-rdf-syntax-ns"/>
+	<xsd:import namespace="http://www.biopax.org/release/biopax-level3.owl#" schemaLocation="./GPML2013a-biopax.xsd"/>
 	
 	<!-- Type Definitions -->	
 	<xsd:attributeGroup name="FontAttributes">
@@ -570,7 +570,9 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:any namespace="http://www.biopax.org/release/biopax-level3.owl#"
-					processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+					minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="bp:PublicationXref"/>
+				<xsd:element ref="bp:OpenControlledVocabulary"/>
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
