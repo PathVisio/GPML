@@ -1,22 +1,11 @@
 <xsd:schema targetNamespace="http://pathvisio.org/GPML/2013a"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
- 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
- 	xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"
 	xmlns:gpml="http://pathvisio.org/GPML/2013a"
 	elementFormDefault="qualified"
 	>
 
-	<!-- Graphical Pathway Markup Language version 2013a -->
+	<!-- GenMAPP Pathway Markup Language version 2013a -->
 
-	<!--
-	 ==============================================================
-		Includes and Imports
-		============================================================== 
-	-->
-	<xsd:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="http://www.w3.org/1999/02/22-rdf-syntax-ns"/>
-	<xsd:import namespace="http://www.biopax.org/release/biopax-level3.owl#" schemaLocation="./GPML2013a-biopax.xsd"/>
-	
 	<!-- Type Definitions -->	
 	<xsd:attributeGroup name="FontAttributes">
 		<xsd:attribute name="FontName" default="Arial"
@@ -566,9 +555,7 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:any namespace="http://www.biopax.org/release/biopax-level3.owl#"
-					minOccurs="0" maxOccurs="unbounded"/>
-				<xsd:element ref="bp:PublicationXref"/>
-				<xsd:element ref="bp:OpenControlledVocabulary"/>
+					processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
