@@ -10,7 +10,11 @@
 	<!-- BioPAX as used in Graphical Pathway Markup Language version 2013a
 
 		BioPAX as used in GPML2013a differs from BioPAX Level 3 (http://www.biopax.org/release/biopax-level3.owl#)
-		in several ways, such as pluralization and capitalization:
+		in several ways, such as:
+		* "openControlledVocabulary" is not in BioPAX Level 3 (it is in Level 2). Level 3 does have "ControlledVocabulary".
+			http://biopax.org/owldoc/Level2/classes/openControlledVocabulary___928462216.html
+			http://biopax.org/owldoc/Level3/classes/ControlledVocabulary___36696285.html
+		* "ontology" is not in Level 3 (technically, it's in there as a concept, but not as a term, class, property, etc.)
 		* rdf:id vs. rdf:ID
 			RDF spec calls for uppercase ID
 			https://www.w3.org/TR/rdf-syntax-grammar/#section-Syntax-ID-xml-base
@@ -18,7 +22,7 @@
 		* AUTHORS vs. author
 			BioPAX spec calls for singular and lowercase
 		  	http://biopax.org/owldoc/Level3/dataproperties/author___446097204.html
-		* ID vs. id, DB vs. db, TITLE vs. title, SOURCE vs. source, YEAR vs. year
+		* ID vs. id, DB vs. db, TITLE vs. title, SOURCE vs. source, YEAR vs. year, TERM vs. term
 			BioPAX spec calls for lowercase
 
 		Note that there is not an XSD available for BioPAX Level 3, because:
@@ -100,14 +104,37 @@
 		</xsd:complexType>
 	</xsd:element>
 	
-	<xsd:element name="OpenControlledVocabulary" minOccurs="0">
+	<xsd:element name="openControlledVocabulary" minOccurs="0">
 		<xsd:complexType>
 			<xsd:sequence>
-				<!--
-				     TODO fill this in
-				-->
+				<xsd:element name="TERM" minOccurs="1"
+					maxOccurs="1">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="xsd:string">
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="ID" minOccurs="1"
+					maxOccurs="1">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="xsd:string">
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="Ontology" minOccurs="1"
+					maxOccurs="1">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="xsd:string">
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
-
 </xsd:schema>
