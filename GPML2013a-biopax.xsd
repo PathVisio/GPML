@@ -43,7 +43,7 @@
 	-->
 	<xsd:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="http://www.w3.org/1999/02/22-rdf-syntax-ns"/>
 	
-	<xsd:element name="PublicationXref" minOccurs="0">
+	<xsd:element name="PublicationXref" minOccurs="0" maxOccurs="unbounded">
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:element name="ID" minOccurs="1"
@@ -104,7 +104,7 @@
 		</xsd:complexType>
 	</xsd:element>
 	
-	<xsd:element name="openControlledVocabulary" minOccurs="0">
+	<xsd:element name="openControlledVocabulary" minOccurs="0" maxOccurs="unbounded">
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:element name="TERM" minOccurs="1"
