@@ -74,7 +74,9 @@
   </group>
 
   <attributeGroup name="idAboutAttrOpt">
+    <!--
     <annotation><documentation source="http://www.w3.org/TR/1999/REC-rdf-syntax-19990222/#aboutAttr"/></annotation>
+    -->
     <attributeGroup ref="rdf:aboutAttrOpt"/>
     <attributeGroup ref="rdf:idAttrOpt"/>
     <!-- @@leave out aboutEachAttr for now -->
@@ -106,9 +108,11 @@
            type="rdf:propertyEltType" />
 
   <complexType name="propertyEltType" base="rdf:item" derivedBy="restriction">
+    <!--
     <annotation><documentation>this is a "union type"; use
     xsi:type in the instance to discriminate between concrete subtypes
     </documentation></annotation>
+    -->
   </complexType>
 
   <complexType name="propertyEltValue" content="textOnly"
@@ -192,10 +196,12 @@
   </complexType>
 
   <complexType name="item">
+    <!--
     <annotation><documentation>this is a "union type"; use
     xsi:type in the instance to discriminate between concrete subtypes.
     @@hmm... can I mark this as "abstract" somehow?
     </documentation></annotation>
+    -->
   </complexType>
 
   <complexType name="referencedItem" base="rdf:item" content="empty"
