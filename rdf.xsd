@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<schema
-        xmlns="http://www.w3.org/1999/XMLSchema"
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        targetNamespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<xsd:schema targetNamespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xml:base="http://www.w3.org/1999/02/22-rdf-syntax-ns"
+	>
 
 	<!--
+	Taken from https://www.w3.org/2000/07/rdf.xsd
 	  <annotation>
 	    <documentation>
 	      <div xmlns="http://www.w3.org/1999/xhtml">
@@ -43,58 +46,59 @@
 
 
   <!-- Top-level of RDF Document -->
-  <element name="RDF">
-    <complexType  content="elementOnly" >
-      <sequence  maxOccurs="unbounded" >
-        <group ref="rdf:obj"/> <!-- abstract -->
-      </sequence>
-    </complexType>
-  </element>
+  <xsd:element name="RDF">
+    <xsd:complexType>
+      <xsd:sequence  maxOccurs="unbounded" >
+        <xsd:group ref="obj"/> <!-- abstract -->
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
 
-  <group name="obj">
-    <choice>
-      <element ref="rdf:typedNode"/>
-      <group ref="rdf:container"/>
-    </choice>
-  </group>
+  <xsd:group name="obj">
+    <xsd:choice>
+      <xsd:element ref="typedNode"/>
+      <xsd:group ref="container"/>
+    </xsd:choice>
+  </xsd:group>
 
   <!-- @@check this after doing typednode -->
-  <element name="Description"
-           type="rdf:typedNodeType" equivClass="rdf:typedNode" />
+  <xsd:element name="Description"
+           type="typedNodeType" />
 
 
-  <group name="container">
+  <xsd:group name="container">
     <!-- @@ spec says you can subclass this, but that
          makes parsing depend on schema info. Bad. -->
-    <choice>
-      <element ref="rdf:Bag"/>
-      <element ref="rdf:Seq"/>
-      <element ref="rdf:Alt"/>
-    </choice>
-  </group>
+    <xsd:choice>
+      <xsd:element ref="Bag"/>
+      <xsd:element ref="Seq"/>
+      <xsd:element ref="Alt"/>
+    </xsd:choice>
+  </xsd:group>
 
-  <attributeGroup name="idAboutAttrOpt">
+  <xsd:attributeGroup name="idAboutAttrOpt">
     <!--
     <annotation><documentation source="http://www.w3.org/TR/1999/REC-rdf-syntax-19990222/#aboutAttr"/></annotation>
     -->
-    <attributeGroup ref="rdf:aboutAttrOpt"/>
-    <attributeGroup ref="rdf:idAttrOpt"/>
+    <xsd:attributeGroup ref="aboutAttrOpt"/>
+    <xsd:attributeGroup ref="idAttrOpt"/>
     <!-- @@leave out aboutEachAttr for now -->
 
-  </attributeGroup>
+  </xsd:attributeGroup>
 
-  <attribute name="ID" type="ID" />
+  <xsd:attribute name="ID" type="xsd:ID" />
+  <!--
+  -->
 
-  <attributeGroup name="idAttrOpt">
-    <attribute name="ID" use='optional' type="ID" />
-    <attribute ref="rdf:ID" use='optional'/>
-  </attributeGroup>
+  <xsd:attributeGroup name="idAttrOpt">
+    <xsd:attribute ref="ID" use='optional'/>
+  </xsd:attributeGroup>
 
-  <attribute name="about" type="uriReference" />
-  <attributeGroup name="aboutAttrOpt">
-    <attribute name="about" use='optional' type="uriReference" />
-    <attribute ref="rdf:about" use='optional' />
-  </attributeGroup>
+  <xsd:attribute name="about" type="xsd:anyURI" />
+  <xsd:attributeGroup name="aboutAttrOpt">
+    <xsd:attribute name="about" use='optional' type="xsd:anyURI" />
+    <xsd:attribute ref="about" use='optional' />
+  </xsd:attributeGroup>
 
   <!-- leaving out aboutEachAttr for now @@-->
 
@@ -104,110 +108,105 @@
 
   <!-- leaving out typeAttr @@-->
 
-  <element name="propertyElt" abstract="true"
-           type="rdf:propertyEltType" />
+  <xsd:element name="propertyElt" abstract="true"
+           type="propertyEltType" />
 
-  <complexType name="propertyEltType" base="rdf:item" derivedBy="restriction">
+  <xsd:complexType name="propertyEltType">
     <!--
     <annotation><documentation>this is a "union type"; use
     xsi:type in the instance to discriminate between concrete subtypes
     </documentation></annotation>
     -->
-  </complexType>
+  </xsd:complexType>
 
-  <complexType name="propertyEltValue" content="textOnly"
-	       base="rdf:propertyEltType" derivedBy="restriction">
-    <attributeGroup ref="rdf:idAttrOpt"/>
-  </complexType>
+  <xsd:complexType name="propertyEltValue">
+    <xsd:attributeGroup ref="idAttrOpt"/>
+  </xsd:complexType>
 
-  <complexType name="propertyEltLiteral" content="mixed"
-	       base="rdf:propertyEltType"  derivedBy="restriction">
-    <any minOccurs="0" processContents="skip"/>
-    <attributeGroup ref="rdf:idAttrOpt"/>
-    <attributeGroup ref="rdf:parseLiteral"/>
-  </complexType>
+  <xsd:complexType name="propertyEltLiteral">
+    <xsd:sequence>
+      <xsd:any minOccurs="0" processContents="skip"/>
+    </xsd:sequence>
+    <xsd:attributeGroup ref="idAttrOpt"/>
+    <xsd:attributeGroup ref="parseLiteral"/>
+  </xsd:complexType>
 
-  <complexType name="propertyEltResource" content="elementOnly"
-	       base="rdf:propertyEltType"  derivedBy="restriction">
-    <sequence maxOccurs="unbounded" >
-      <element ref="rdf:propertyElt"   /><!--abstract !-->
-    </sequence>
-  </complexType>
+  <xsd:complexType name="propertyEltResource">
+    <xsd:sequence maxOccurs="unbounded" >
+      <xsd:element ref="propertyElt"   /><!--abstract !-->
+    </xsd:sequence>
+  </xsd:complexType>
 
-  <complexType name="propertyEltRef" content="empty"
-	       base="rdf:propertyEltType"  derivedBy="restriction">
-    <attributeGroup ref="rdf:idRefAttrOpt"/>
+  <xsd:complexType name="propertyEltRef">
+    <xsd:attributeGroup ref="idRefAttrOpt"/>
     <!-- @@leaving out bagIdAttr? -->
     <!-- @@leaving out propAttr* -->
-  </complexType>
+  </xsd:complexType>
 
-  <element name="typedNode" abstract="true"
-	   type="rdf:typedNodeType"/>
+  <xsd:element name="typedNode" abstract="true"
+	   type="typedNodeType"/>
 
-  <complexType name="typedNodeType">
-    <sequence maxOccurs="unbounded">
-      <element ref="rdf:propertyElt"/>
-    </sequence>
-    <attributeGroup ref="rdf:idAboutAttrOpt"/>
+  <xsd:complexType name="typedNodeType">
+    <xsd:sequence maxOccurs="unbounded">
+      <xsd:element ref="propertyElt"/>
+    </xsd:sequence>
+    <xsd:attributeGroup ref="idAboutAttrOpt"/>
     <!--@@leaving out bagidattr, propattr -->
-  </complexType>
+  </xsd:complexType>
 
-  <attributeGroup name="idRefAttrOpt">
-    <attributeGroup ref="rdf:idAttrOpt"/>
-    <attributeGroup ref="rdf:resourceAttrOpt"/>
-  </attributeGroup>
+  <xsd:attributeGroup name="idRefAttrOpt">
+    <xsd:attributeGroup ref="idAttrOpt"/>
+    <xsd:attributeGroup ref="resourceAttrOpt"/>
+  </xsd:attributeGroup>
 
  <!--@@ can complex types be abstract? or just elements? -->
-  <complexType name="value" abstract="true"
-	       base="rdf:propertyEltType"  derivedBy="restriction"/>
+  <xsd:complexType name="value" abstract="true"/>
 
-  <complexType name="valueObj" base="rdf:value" derivedBy="restriction">
-    <group ref="rdf:obj"/>
-  </complexType>
+  <xsd:complexType name="valueObj">
+    <xsd:group ref="obj"/>
+  </xsd:complexType>
 
-  <complexType name="valueString" base="rdf:value"
-	       content="mixed" derivedBy="restriction">
-    <sequence/> <!-- no subelements -->
-  </complexType>
+  <xsd:complexType name="valueString">
+    <xsd:sequence/> <!-- no subelements -->
+  </xsd:complexType>
 
-  <attribute name="resource" type="uriReference" />
-  <attributeGroup name="resourceAttrOpt">
-    <attribute name="resource" use='optional' type="uriReference" />
-    <attribute ref="rdf:resource" use='optional' />
-  </attributeGroup>
+  <xsd:attribute name="resource" type="xsd:anyURI" />
+  <xsd:attributeGroup name="resourceAttrOpt">
+    <xsd:attribute name="resource" use='optional' type="xsd:anyURI" />
+    <xsd:attribute ref="resource" use='optional' />
+  </xsd:attributeGroup>
 
-  <attributeGroup name="resourceAttr">
+  <xsd:attributeGroup name="resourceAttr">
     <!-- @@er... which one to require? -->
-    <attribute name="resource" use='optional' type="uriReference" />
-    <attribute ref="rdf:resource" use='optional' />
-  </attributeGroup>
+    <xsd:attribute name="resource" use='optional' type="xsd:anyURI" />
+    <xsd:attribute ref="resource" use='optional' />
+  </xsd:attributeGroup>
 
-  <element name="Seq" type="rdf:members"/>
-  <element name="Bag" type="rdf:members"/>
-  <element name="Alt" type="rdf:members"/>
+  <xsd:element name="Seq" type="members"/>
+  <xsd:element name="Bag" type="members"/>
+  <xsd:element name="Alt" type="members"/>
   <!-- @@restrict Alt to have at least one member -->
 
-  <complexType name="members" content="elementOnly">
-    <sequence maxOccurs="unbounded">
-      <element name="li" type="rdf:item"/>
-    </sequence>
-    <attributeGroup ref="rdf:idAttrOpt"/>
+  <xsd:complexType name="members">
+    <xsd:sequence maxOccurs="unbounded">
+      <xsd:element name="li" type="item"/>
+    </xsd:sequence>
+    <xsd:attributeGroup ref="idAttrOpt"/>
     <!-- @@leaving out memberAttr* -->
-  </complexType>
+  </xsd:complexType>
 
-  <complexType name="item">
+  <xsd:complexType name="item">
     <!--
     <annotation><documentation>this is a "union type"; use
     xsi:type in the instance to discriminate between concrete subtypes.
     @@hmm... can I mark this as "abstract" somehow?
     </documentation></annotation>
     -->
-  </complexType>
+  </xsd:complexType>
 
-  <complexType name="referencedItem" base="rdf:item" content="empty"
-	       derivedBy="restriction">
-   <attributeGroup ref="rdf:resourceAttr"/>
-  </complexType>
+  <xsd:complexType name="referencedItem">
+   <xsd:attributeGroup ref="resourceAttr"/>
+  </xsd:complexType>
 
   <!-- @@strictly speaking, inlineItem should be
        specified as subtypes, one of propertyEltValue,
@@ -215,42 +214,42 @@
        with use="prohibited" on some attributes to
        get rid of them. But I'm gonna skip it for now -->
 
-  <attribute name="parseType"/>
-  <attributeGroup name="parseLiteral">
-    <attribute name="parseType" use='fixed' value="Literal" />
-    <attribute ref="rdf:parseType" use='fixed' value="Literal" />
-  </attributeGroup>
+  <xsd:attribute name="parseType"/>
+  <xsd:attributeGroup name="parseLiteral">
+    <xsd:attribute name="parseType" fixed="Literal" />
+    <xsd:attribute ref="parseType" fixed="Literal" />
+  </xsd:attributeGroup>
 
-  <attributeGroup name="parseResource">
-    <attribute name="parseType"  use='fixed' value="Resource" />
-    <attribute ref="rdf:parseType"  use='fixed' value="Resource" />
-  </attributeGroup>
+  <xsd:attributeGroup name="parseResource">
+    <xsd:attribute name="parseType"  fixed="Resource" />
+    <xsd:attribute ref="parseType"  fixed="Resource" />
+  </xsd:attributeGroup>
 
   <!-- so much for syntax structure. Now for the particular
        properties and classes... -->
 
-  <element name="Statement"
-	   type="rdf:typedNodeType" equivClass="rdf:typedNode" />
+  <xsd:element name="Statement"
+	   type="typedNodeType" />
 
-  <element name="Property"
-           type="rdf:typedNodeType" equivClass="rdf:typedNode" />
+  <xsd:element name="Property"
+           type="typedNodeType" />
 
 	   <!-- these are is constrained to use resource="...";
 		use xsi:type to do something else -->
-  <element name="subject"
-	   type="rdf:propertyEltRef" equivClass="rdf:propertyElt" />
+  <xsd:element name="subject"
+	   type="propertyEltRef" />
 
-  <element name="predicate"
-	   type="rdf:propertyEltRef" equivClass="rdf:propertyElt" />
+  <xsd:element name="predicate"
+	   type="propertyEltRef" />
 
-  <element name="object"
-	   type="rdf:propertyEltRef" equivClass="rdf:propertyElt" />
+  <xsd:element name="object"
+	   type="propertyEltRef" />
 
-  <element name="type"
-	   type="rdf:propertyEltRef" equivClass="rdf:propertyElt" />
+  <xsd:element name="type"
+	   type="propertyEltRef" />
 
   <!-- constrained to the <value>...</value> syntax -->
-  <element name="value"
-	   type="rdf:valueString" equivClass="rdf:propertyElt" />
+  <xsd:element name="value"
+	   type="valueString" />
 
-</schema>
+</xsd:schema>
