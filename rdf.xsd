@@ -1,104 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsd:schema targetNamespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<xs:schema targetNamespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
  	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xml:base="http://www.w3.org/1999/02/22-rdf-syntax-ns"
 	>
 
-	<!--
-	Taken from https://www.w3.org/2000/07/rdf.xsd
-	  <annotation>
-	    <documentation>
-	      <div xmlns="http://www.w3.org/1999/xhtml">
-				<h1>XML Schema for RDF</h1>
-	<p>$Id: rdf.xsd,v 1.17 2000/08/04 14:37:44 swick Exp $</p>
+  <xs:annotation>
+    <xs:documentation>
+	    <div xmlns="http://www.w3.org/1999/xhtml">
+		    <h1>XML Schema for RDF</h1>
+		    <p>$Id: rdf.xsd,v 1.17 2000/08/04 14:37:44 swick Exp $</p>
 
-	<p>originally derived from <a
-	href="http://www.oasis-open.org/cover/xmlSchemaForRDF.html">Rick J's
-	work</a>:
-	</p>
+		    <p>originally derived from <a
+				    href="http://www.oasis-open.org/cover/xmlSchemaForRDF.html">Rick J's
+				    work</a>:
+		    </p>
 
-	<pre>
-	From:      Rick JELLIFFE &lt;ricko@allette.com.au>
-	To:        xml-dev@xml.org
-	Subject:   Re: new public working draft of XML Schema
-	Date:      Sat, 26 Feb 2000 23:05:20 +0800
-	</pre>
+		    <pre>
+			    From:      Rick JELLIFFE &lt;ricko@allette.com.au>
+			    To:        xml-dev@xml.org
+			    Subject:   Re: new public working draft of XML Schema
+			    Date:      Sat, 26 Feb 2000 23:05:20 +0800
+		    </pre>
 
-	<p>then modified to match 
-	<a href="http://www.w3.org/TR/1999/REC-rdf-syntax-19990222/#grammar">the RDF formal grammar</a></p>
+		    <p>then modified to match 
+			    <a href="http://www.w3.org/TR/1999/REC-rdf-syntax-19990222/#grammar">the RDF formal grammar</a></p>
 
-	<blockquote>
-				<p>created 2000-12-25,               <br />
-				Rick Jelliffe,
-	<br />
-				Academia Sinica Computing Centre.  <br />
-				Thanks to Henry Thompson for help.  </p>
-				<p>RDF Specification at
-				<a href="http://www.w3.org/TR">W3C</a>.
-				</p>
-	</blockquote>
-	</div>
-			</documentation>
-	 </annotation>
-	-->
+		    <blockquote>
+			    <p>created 2000-12-25,               <br />
+				    Rick Jelliffe,
+				    <br />
+				    Academia Sinica Computing Centre.  <br />
+				    Thanks to Henry Thompson for help.  </p>
+			    <p>RDF Specification at
+				    <a href="http://www.w3.org/TR">W3C</a>.
+			    </p>
+		    </blockquote>
+		    <p>Later, taken from http://www.w3.org/2001/XMLSchema and updated</p>
+	    </div>
+    </xs:documentation>
+  </xs:annotation>
 
 
   <!-- Top-level of RDF Document -->
-  <xsd:element name="RDF">
-    <xsd:complexType>
-      <xsd:sequence  maxOccurs="unbounded" >
-        <xsd:group ref="obj"/> <!-- abstract -->
-      </xsd:sequence>
-    </xsd:complexType>
-  </xsd:element>
+  <xs:element name="RDF">
+    <xs:complexType>
+      <xs:sequence  maxOccurs="unbounded" >
+        <xs:group ref="obj"/> <!-- abstract -->
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 
-  <xsd:group name="obj">
-    <xsd:choice>
-      <xsd:element ref="typedNode"/>
-      <xsd:group ref="container"/>
-    </xsd:choice>
-  </xsd:group>
+  <xs:group name="obj">
+    <xs:choice>
+      <xs:element ref="typedNode"/>
+      <xs:group ref="container"/>
+    </xs:choice>
+  </xs:group>
 
   <!-- @@check this after doing typednode -->
-  <xsd:element name="Description"
+  <xs:element name="Description"
            type="typedNodeType" />
 
 
-  <xsd:group name="container">
+  <xs:group name="container">
     <!-- @@ spec says you can subclass this, but that
          makes parsing depend on schema info. Bad. -->
-    <xsd:choice>
-      <xsd:element ref="Bag"/>
-      <xsd:element ref="Seq"/>
-      <xsd:element ref="Alt"/>
-    </xsd:choice>
-  </xsd:group>
+    <xs:choice>
+      <xs:element ref="Bag"/>
+      <xs:element ref="Seq"/>
+      <xs:element ref="Alt"/>
+    </xs:choice>
+  </xs:group>
 
-  <xsd:attributeGroup name="idAboutAttrOpt">
-    <!--
-    <annotation><documentation source="http://www.w3.org/TR/1999/REC-rdf-syntax-19990222/#aboutAttr"/></annotation>
-    -->
-    <xsd:attributeGroup ref="aboutAttrOpt"/>
-    <xsd:attributeGroup ref="idAttrOpt"/>
+  <xs:attributeGroup name="idAboutAttrOpt">
+    <xs:annotation><xs:documentation source="http://www.w3.org/TR/1999/REC-rdf-syntax-19990222/#aboutAttr"/></xs:annotation>
+    <xs:attributeGroup ref="aboutAttrOpt"/>
+    <xs:attributeGroup ref="idAttrOpt"/>
     <!-- @@leave out aboutEachAttr for now -->
 
-  </xsd:attributeGroup>
+  </xs:attributeGroup>
 
-  <xsd:attribute name="ID" type="xsd:ID" />
+  <xs:attribute name="ID" type="xs:ID" />
   <!--
   -->
 
-  <xsd:attributeGroup name="idAttrOpt">
-    <xsd:attribute ref="ID" use='optional'/>
-  </xsd:attributeGroup>
+  <xs:attributeGroup name="idAttrOpt">
+    <xs:attribute ref="ID" use='optional'/>
+  </xs:attributeGroup>
 
-  <xsd:attribute name="about" type="xsd:anyURI" />
-  <xsd:attributeGroup name="aboutAttrOpt">
-    <xsd:attribute name="about" use='optional' type="xsd:anyURI" />
-    <xsd:attribute ref="about" use='optional' />
-  </xsd:attributeGroup>
+  <xs:attribute name="about" type="xs:anyURI" />
+  <xs:attributeGroup name="aboutAttrOpt">
+    <xs:attribute name="about" use='optional' type="xs:anyURI" />
+    <xs:attribute ref="about" use='optional' />
+  </xs:attributeGroup>
 
   <!-- leaving out aboutEachAttr for now @@-->
 
@@ -108,105 +104,105 @@
 
   <!-- leaving out typeAttr @@-->
 
-  <xsd:element name="propertyElt" abstract="true"
+  <xs:element name="propertyElt" abstract="true"
            type="propertyEltType" />
 
-  <xsd:complexType name="propertyEltType">
-    <!--
-    <annotation><documentation>this is a "union type"; use
-    xsi:type in the instance to discriminate between concrete subtypes
-    </documentation></annotation>
-    -->
-  </xsd:complexType>
+  <xs:complexType name="propertyEltType">
+	  <xs:annotation>
+		  <xs:documentation>this is a "union type"; use
+			  xsi:type in the instance to discriminate between concrete subtypes
+		  </xs:documentation>
+	  </xs:annotation>
+  </xs:complexType>
 
-  <xsd:complexType name="propertyEltValue">
-    <xsd:attributeGroup ref="idAttrOpt"/>
-  </xsd:complexType>
+  <xs:complexType name="propertyEltValue">
+    <xs:attributeGroup ref="idAttrOpt"/>
+  </xs:complexType>
 
-  <xsd:complexType name="propertyEltLiteral">
-    <xsd:sequence>
-      <xsd:any minOccurs="0" processContents="skip"/>
-    </xsd:sequence>
-    <xsd:attributeGroup ref="idAttrOpt"/>
-    <xsd:attributeGroup ref="parseLiteral"/>
-  </xsd:complexType>
+  <xs:complexType name="propertyEltLiteral">
+    <xs:sequence>
+      <xs:any minOccurs="0" processContents="skip"/>
+    </xs:sequence>
+    <xs:attributeGroup ref="idAttrOpt"/>
+    <xs:attributeGroup ref="parseLiteral"/>
+  </xs:complexType>
 
-  <xsd:complexType name="propertyEltResource">
-    <xsd:sequence maxOccurs="unbounded" >
-      <xsd:element ref="propertyElt"   /><!--abstract !-->
-    </xsd:sequence>
-  </xsd:complexType>
+  <xs:complexType name="propertyEltResource">
+    <xs:sequence maxOccurs="unbounded" >
+      <xs:element ref="propertyElt"   /><!--abstract !-->
+    </xs:sequence>
+  </xs:complexType>
 
-  <xsd:complexType name="propertyEltRef">
-    <xsd:attributeGroup ref="idRefAttrOpt"/>
+  <xs:complexType name="propertyEltRef">
+    <xs:attributeGroup ref="idRefAttrOpt"/>
     <!-- @@leaving out bagIdAttr? -->
     <!-- @@leaving out propAttr* -->
-  </xsd:complexType>
+  </xs:complexType>
 
-  <xsd:element name="typedNode" abstract="true"
+  <xs:element name="typedNode" abstract="true"
 	   type="typedNodeType"/>
 
-  <xsd:complexType name="typedNodeType">
-    <xsd:sequence maxOccurs="unbounded">
-      <xsd:element ref="propertyElt"/>
-    </xsd:sequence>
-    <xsd:attributeGroup ref="idAboutAttrOpt"/>
+  <xs:complexType name="typedNodeType">
+    <xs:sequence maxOccurs="unbounded">
+      <xs:element ref="propertyElt"/>
+    </xs:sequence>
+    <xs:attributeGroup ref="idAboutAttrOpt"/>
     <!--@@leaving out bagidattr, propattr -->
-  </xsd:complexType>
+  </xs:complexType>
 
-  <xsd:attributeGroup name="idRefAttrOpt">
-    <xsd:attributeGroup ref="idAttrOpt"/>
-    <xsd:attributeGroup ref="resourceAttrOpt"/>
-  </xsd:attributeGroup>
+  <xs:attributeGroup name="idRefAttrOpt">
+    <xs:attributeGroup ref="idAttrOpt"/>
+    <xs:attributeGroup ref="resourceAttrOpt"/>
+  </xs:attributeGroup>
 
  <!--@@ can complex types be abstract? or just elements? -->
-  <xsd:complexType name="value" abstract="true"/>
+  <xs:complexType name="value" abstract="true"/>
 
-  <xsd:complexType name="valueObj">
-    <xsd:group ref="obj"/>
-  </xsd:complexType>
+  <xs:complexType name="valueObj">
+    <xs:group ref="obj"/>
+  </xs:complexType>
 
-  <xsd:complexType name="valueString">
-    <xsd:sequence/> <!-- no subelements -->
-  </xsd:complexType>
+  <xs:complexType name="valueString">
+    <xs:sequence/> <!-- no subelements -->
+  </xs:complexType>
 
-  <xsd:attribute name="resource" type="xsd:anyURI" />
-  <xsd:attributeGroup name="resourceAttrOpt">
-    <xsd:attribute name="resource" use='optional' type="xsd:anyURI" />
-    <xsd:attribute ref="resource" use='optional' />
-  </xsd:attributeGroup>
+  <xs:attribute name="resource" type="xs:anyURI" />
+  <xs:attributeGroup name="resourceAttrOpt">
+    <xs:attribute name="resource" use='optional' type="xs:anyURI" />
+    <xs:attribute ref="resource" use='optional' />
+  </xs:attributeGroup>
 
-  <xsd:attributeGroup name="resourceAttr">
+  <xs:attributeGroup name="resourceAttr">
     <!-- @@er... which one to require? -->
-    <xsd:attribute name="resource" use='optional' type="xsd:anyURI" />
-    <xsd:attribute ref="resource" use='optional' />
-  </xsd:attributeGroup>
+    <xs:attribute name="resource" use='optional' type="xs:anyURI" />
+    <xs:attribute ref="resource" use='optional' />
+  </xs:attributeGroup>
 
-  <xsd:element name="Seq" type="members"/>
-  <xsd:element name="Bag" type="members"/>
-  <xsd:element name="Alt" type="members"/>
+  <xs:element name="Seq" type="members"/>
+  <xs:element name="Bag" type="members"/>
+  <xs:element name="Alt" type="members"/>
   <!-- @@restrict Alt to have at least one member -->
 
-  <xsd:complexType name="members">
-    <xsd:sequence maxOccurs="unbounded">
-      <xsd:element name="li" type="item"/>
-    </xsd:sequence>
-    <xsd:attributeGroup ref="idAttrOpt"/>
+  <xs:complexType name="members">
+    <xs:sequence maxOccurs="unbounded">
+      <xs:element name="li" type="item"/>
+    </xs:sequence>
+    <xs:attributeGroup ref="idAttrOpt"/>
     <!-- @@leaving out memberAttr* -->
-  </xsd:complexType>
+  </xs:complexType>
 
-  <xsd:complexType name="item">
-    <!--
-    <annotation><documentation>this is a "union type"; use
-    xsi:type in the instance to discriminate between concrete subtypes.
-    @@hmm... can I mark this as "abstract" somehow?
-    </documentation></annotation>
-    -->
-  </xsd:complexType>
+  <xs:complexType name="item">
+	  <xs:annotation>
+		  <xs:documentation>this is a "union type"; use
+			  xsi:type in the instance to discriminate between concrete subtypes.
+			  @@hmm... can I mark this as "abstract" somehow?
+		  </xs:documentation>
+	  </xs:annotation>
+  </xs:complexType>
 
-  <xsd:complexType name="referencedItem">
-   <xsd:attributeGroup ref="resourceAttr"/>
-  </xsd:complexType>
+  <xs:complexType name="referencedItem">
+   <xs:attributeGroup ref="resourceAttr"/>
+  </xs:complexType>
 
   <!-- @@strictly speaking, inlineItem should be
        specified as subtypes, one of propertyEltValue,
@@ -214,42 +210,42 @@
        with use="prohibited" on some attributes to
        get rid of them. But I'm gonna skip it for now -->
 
-  <xsd:attribute name="parseType"/>
-  <xsd:attributeGroup name="parseLiteral">
-    <xsd:attribute name="parseType" fixed="Literal" />
-    <xsd:attribute ref="parseType" fixed="Literal" />
-  </xsd:attributeGroup>
+  <xs:attribute name="parseType"/>
+  <xs:attributeGroup name="parseLiteral">
+    <xs:attribute name="parseType" fixed="Literal" />
+    <xs:attribute ref="parseType" fixed="Literal" />
+  </xs:attributeGroup>
 
-  <xsd:attributeGroup name="parseResource">
-    <xsd:attribute name="parseType"  fixed="Resource" />
-    <xsd:attribute ref="parseType"  fixed="Resource" />
-  </xsd:attributeGroup>
+  <xs:attributeGroup name="parseResource">
+    <xs:attribute name="parseType"  fixed="Resource" />
+    <xs:attribute ref="parseType"  fixed="Resource" />
+  </xs:attributeGroup>
 
   <!-- so much for syntax structure. Now for the particular
        properties and classes... -->
 
-  <xsd:element name="Statement"
+  <xs:element name="Statement"
 	   type="typedNodeType" />
 
-  <xsd:element name="Property"
+  <xs:element name="Property"
            type="typedNodeType" />
 
 	   <!-- these are is constrained to use resource="...";
 		use xsi:type to do something else -->
-  <xsd:element name="subject"
+  <xs:element name="subject"
 	   type="propertyEltRef" />
 
-  <xsd:element name="predicate"
+  <xs:element name="predicate"
 	   type="propertyEltRef" />
 
-  <xsd:element name="object"
+  <xs:element name="object"
 	   type="propertyEltRef" />
 
-  <xsd:element name="type"
+  <xs:element name="type"
 	   type="propertyEltRef" />
 
   <!-- constrained to the <value>...</value> syntax -->
-  <xsd:element name="value"
+  <xs:element name="value"
 	   type="valueString" />
 
-</xsd:schema>
+</xs:schema>

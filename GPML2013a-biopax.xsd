@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsd:schema targetNamespace="http://www.biopax.org/release/biopax-level3.owl#"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+<xs:schema targetNamespace="http://www.biopax.org/release/biopax-level3.owl#"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
  	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
 	xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"
@@ -42,100 +42,100 @@
 		Includes and Imports
 		============================================================== 
 	-->
-	<xsd:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="https://cdn.rawgit.com/ariutta/GPML/c21208e7/rdf.xsd"/>
+	<xs:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="https://cdn.rawgit.com/ariutta/GPML/c21208e7/rdf.xsd"/>
 	
-	<xsd:element name="PublicationXref" minOccurs="0" maxOccurs="unbounded">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element name="ID" minOccurs="1"
+	<xs:element name="PublicationXref" minOccurs="0" maxOccurs="unbounded">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ID" minOccurs="1"
 					maxOccurs="1">
-					<xsd:complexType>
-						<xsd:simpleContent>
-							<xsd:extension base="xsd:string">
-							</xsd:extension>
-						</xsd:simpleContent>
-					</xsd:complexType>
-				</xsd:element>
-				<xsd:element name="DB" minOccurs="1"
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="DB" minOccurs="1"
 					maxOccurs="1">
-					<xsd:complexType>
-						<xsd:simpleContent>
-							<xsd:extension base="xsd:string">
-							</xsd:extension>
-						</xsd:simpleContent>
-					</xsd:complexType>
-				</xsd:element>
-				<xsd:element name="TITLE" minOccurs="1"
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TITLE" minOccurs="1"
 					maxOccurs="1">
-					<xsd:complexType>
-						<xsd:simpleContent>
-							<xsd:extension base="xsd:string">
-							</xsd:extension>
-						</xsd:simpleContent>
-					</xsd:complexType>
-				</xsd:element>
-				<xsd:element name="SOURCE" minOccurs="1"
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="SOURCE" minOccurs="1"
 					maxOccurs="1">
-					<xsd:complexType>
-						<xsd:simpleContent>
-							<xsd:extension base="xsd:string">
-							</xsd:extension>
-						</xsd:simpleContent>
-					</xsd:complexType>
-				</xsd:element>
-				<xsd:element name="YEAR" minOccurs="1"
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="YEAR" minOccurs="1"
 					maxOccurs="1">
-					<xsd:complexType>
-						<xsd:simpleContent>
-							<xsd:extension base="xsd:integer">
-							</xsd:extension>
-						</xsd:simpleContent>
-					</xsd:complexType>
-				</xsd:element>
-				<xsd:element name="AUTHORS" minOccurs="1"
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:integer">
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="AUTHORS" minOccurs="1"
 					maxOccurs="unbounded">
-					<xsd:complexType>
-						<xsd:simpleContent>
-							<xsd:extension base="xsd:string">
-							</xsd:extension>
-						</xsd:simpleContent>
-					</xsd:complexType>
-				</xsd:element>
-			</xsd:sequence>
-		</xsd:complexType>
-	</xsd:element>
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 	
-	<xsd:element name="openControlledVocabulary" minOccurs="0" maxOccurs="unbounded">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element name="TERM" minOccurs="1"
+	<xs:element name="openControlledVocabulary" minOccurs="0" maxOccurs="unbounded">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="TERM" minOccurs="1"
 					maxOccurs="1">
-					<xsd:complexType>
-						<xsd:simpleContent>
-							<xsd:extension base="xsd:string">
-							</xsd:extension>
-						</xsd:simpleContent>
-					</xsd:complexType>
-				</xsd:element>
-				<xsd:element name="ID" minOccurs="1"
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ID" minOccurs="1"
 					maxOccurs="1">
-					<xsd:complexType>
-						<xsd:simpleContent>
-							<xsd:extension base="xsd:string">
-							</xsd:extension>
-						</xsd:simpleContent>
-					</xsd:complexType>
-				</xsd:element>
-				<xsd:element name="Ontology" minOccurs="1"
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Ontology" minOccurs="1"
 					maxOccurs="1">
-					<xsd:complexType>
-						<xsd:simpleContent>
-							<xsd:extension base="xsd:string">
-							</xsd:extension>
-						</xsd:simpleContent>
-					</xsd:complexType>
-				</xsd:element>
-			</xsd:sequence>
-		</xsd:complexType>
-	</xsd:element>
-</xsd:schema>
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
