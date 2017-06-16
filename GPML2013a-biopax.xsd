@@ -42,7 +42,7 @@
 		Includes and Imports
 		============================================================== 
 	-->
-	<xsd:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="http://www.w3.org/1999/02/22-rdf-syntax-ns"/>
+	<xsd:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="https://raw.githubusercontent.com/ariutta/GPML/master/rdf.xsd"/>
 	
 	<xsd:element name="PublicationXref" minOccurs="0" maxOccurs="unbounded">
 		<xsd:complexType>
