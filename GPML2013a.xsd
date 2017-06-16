@@ -105,7 +105,6 @@
 				<xsd:restriction base="xsd:float"/> <!-- rotation is always measured in radians !-->
 			</xsd:simpleType>
 		</xsd:union>
-
 	</xsd:simpleType>
 
 	<xsd:simpleType name="ColorType">
@@ -217,10 +216,30 @@
 
 		<xsd:attribute name="TextLabel" use="required" type="xsd:string"/>
 
-		<xsd:attribute name="Type" type="xsd:string" default="Unknown">
-			<!-- Old versions of GPML only allowed these values for Type:
-			"Protein", "Rna", "Complex", "GeneProduct", "Metabolite" and "Unknown". 
-			It's recommended that you use these values as often as possible. -->
+		<xsd:attribute name="Type" default="Unknown">
+			<xsd:simpleType>
+				<xsd:union>
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+							<!--
+							These are the values used at WikiPathways.
+							You can use any string, but we recommend
+							that you use these values whenever possible.
+							-->
+							<xsd:enumeration value="Unknown"/>
+							<xsd:enumeration value="Rna"/>
+							<xsd:enumeration value="Protein"/>
+							<xsd:enumeration value="Complex"/>
+							<xsd:enumeration value="GeneProduct"/>
+							<xsd:enumeration value="Metabolite"/>
+							<xsd:enumeration value="Pathway"/>
+						</xsd:restriction>
+					</xsd:simpleType>
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:string"/>
+					</xsd:simpleType>
+				</xsd:union>
+			</xsd:simpleType>
 		</xsd:attribute>
 
 	</xsd:complexType>
