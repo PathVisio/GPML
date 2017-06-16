@@ -42,6 +42,7 @@
     </xs:documentation>
   </xs:annotation>
 
+  <xs:attribute name="datatype" type="xs:string" />
 
   <!-- Top-level of RDF Document -->
   <xs:element name="RDF">

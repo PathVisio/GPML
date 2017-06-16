@@ -42,14 +42,18 @@
 		Includes and Imports
 		============================================================== 
 	-->
-	<xs:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="https://cdn.rawgit.com/ariutta/GPML/c21208e7/rdf.xsd"/>
+	<xs:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="https://cdn.rawgit.com/ariutta/GPML/0df753f705288ac0d4c767e5f3d72a3f94bd155b/rdf.xsd"/>
 	
-	<xs:element name="PublicationXref" minOccurs="0" maxOccurs="unbounded">
+	<xs:attributeGroup name="RDFAttributes">
+		<xs:attribute ref="rdf:datatype" use="optional"/>
+	</xs:attributeGroup>
+	<xs:element name="PublicationXref">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element name="ID" minOccurs="1"
 					maxOccurs="1">
 					<xs:complexType>
+						<xs:attributeGroup ref="bp:RDFAttributes"/>
 						<xs:simpleContent>
 							<xs:extension base="xs:string">
 							</xs:extension>
@@ -105,7 +109,7 @@
 		</xs:complexType>
 	</xs:element>
 	
-	<xs:element name="openControlledVocabulary" minOccurs="0" maxOccurs="unbounded">
+	<xs:element name="openControlledVocabulary">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element name="TERM" minOccurs="1"
