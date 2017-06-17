@@ -502,25 +502,25 @@
 					</xs:complexType>
 				</xs:element>
 
-				<xs:element name="DataNode" type="DataNodeType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="DataNode" type="gpml:DataNodeType" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xs:element name="State" type="StateType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="State" type="gpml:StateType" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xs:element name="Interaction" type="InteractionType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="Interaction" type="gpml:InteractionType" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xs:element name="GraphicalLine" type="GraphicalLineType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="GraphicalLine" type="gpml:GraphicalLineType" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xs:element name="Label" type="LabelType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="Label" type="gpml:LabelType" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xs:element name="Shape" type="ShapeType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="Shape" type="gpml:ShapeType" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xs:element name="Group" type="GroupType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="Group" type="gpml:GroupType" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xs:element name="InfoBox" type="InfoBoxType" minOccurs="1" maxOccurs="1" />
+				<xs:element name="InfoBox" type="gpml:InfoBoxType" minOccurs="1" maxOccurs="1" />
 
-				<xs:element name="Legend" type="LegendType" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="Legend" type="gpml:LegendType" minOccurs="0" maxOccurs="1"/>
 
-				<xs:element name="Biopax" type="BiopaxType" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="Biopax" type="gpml:BiopaxType" minOccurs="0" maxOccurs="1"/>
 
 			</xs:sequence>
 
