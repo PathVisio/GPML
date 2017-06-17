@@ -42,70 +42,58 @@
 		Includes and Imports
 		============================================================== 
 	-->
-	<xs:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="https://cdn.rawgit.com/ariutta/GPML/0df753f705288ac0d4c767e5f3d72a3f94bd155b/rdf.xsd"/>
-	
+	<xs:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="https://cdn.rawgit.com/ariutta/GPML/cfd6704/rdf.xsd"/>
+
 	<xs:attributeGroup name="RDFAttributes">
 		<xs:attribute ref="rdf:datatype" use="optional"/>
 	</xs:attributeGroup>
+
+	<xs:complexType name="IntegerElementType">
+		<xs:simpleContent>
+			<xs:extension base="xs:integer">
+				<xs:attributeGroup ref="bp:RDFAttributes"/>
+				<xs:anyAttribute/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:complexType name="StringElementType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attributeGroup ref="bp:RDFAttributes"/>
+				<xs:anyAttribute/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
 	<xs:element name="PublicationXref">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element name="ID" minOccurs="1"
-					maxOccurs="1">
-					<xs:complexType>
-						<xs:attributeGroup ref="bp:RDFAttributes"/>
-						<xs:simpleContent>
-							<xs:extension base="xs:string">
-							</xs:extension>
-						</xs:simpleContent>
-					</xs:complexType>
+					maxOccurs="1" type="bp:StringElementType">
 				</xs:element>
 				<xs:element name="DB" minOccurs="1"
-					maxOccurs="1">
-					<xs:complexType>
-						<xs:simpleContent>
-							<xs:extension base="xs:string">
-							</xs:extension>
-						</xs:simpleContent>
-					</xs:complexType>
+					maxOccurs="1" type="bp:StringElementType">
 				</xs:element>
 				<xs:element name="TITLE" minOccurs="1"
-					maxOccurs="1">
-					<xs:complexType>
-						<xs:simpleContent>
-							<xs:extension base="xs:string">
-							</xs:extension>
-						</xs:simpleContent>
-					</xs:complexType>
+					maxOccurs="1" type="bp:StringElementType">
 				</xs:element>
 				<xs:element name="SOURCE" minOccurs="1"
-					maxOccurs="1">
-					<xs:complexType>
-						<xs:simpleContent>
-							<xs:extension base="xs:string">
-							</xs:extension>
-						</xs:simpleContent>
-					</xs:complexType>
+					maxOccurs="1" type="bp:StringElementType">
 				</xs:element>
 				<xs:element name="YEAR" minOccurs="1"
-					maxOccurs="1">
-					<xs:complexType>
-						<xs:simpleContent>
-							<xs:extension base="xs:integer">
-							</xs:extension>
-						</xs:simpleContent>
-					</xs:complexType>
+					maxOccurs="1" type="bp:IntegerElementType">
 				</xs:element>
 				<xs:element name="AUTHORS" minOccurs="1"
-					maxOccurs="unbounded">
-					<xs:complexType>
-						<xs:simpleContent>
-							<xs:extension base="xs:string">
-							</xs:extension>
-						</xs:simpleContent>
-					</xs:complexType>
+					maxOccurs="unbounded" type="bp:StringElementType">
 				</xs:element>
 			</xs:sequence>
+			<!-- The actual GPML uses rdf:id, which is wrong, because "id" is not the name
+			     of an attribute in rdf. It's "ID".
+			     It's not possible to specify a name of "rdf:id" here, so our actual GPML
+			     will always fail when validated against any XSD.
+			     -->
+			<xs:attribute ref="rdf:ID"/>
 		</xs:complexType>
 	</xs:element>
 	
