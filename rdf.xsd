@@ -216,8 +216,8 @@
        get rid of them. But I'm gonna skip it for now -->
 
   <!--
-  <xs:attribute name="parseType"/>
   -->
+  <xs:attribute name="parseType"/>
   <xs:attributeGroup name="parseLiteral">
     <xs:attribute name="parseType" fixed="Literal" />
     <xs:attribute ref="parseType" fixed="Literal" />
