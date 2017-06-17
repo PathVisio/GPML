@@ -125,7 +125,11 @@
       <xs:any minOccurs="0" processContents="skip"/>
     </xs:sequence>
     <xs:attributeGroup ref="idAttrOpt"/>
+    <!--
+    TODO cxsd complains if I don't comment this out:
+    "Member with multiple types: parseType"
     <xs:attributeGroup ref="parseLiteral"/>
+    -->
   </xs:complexType>
 
   <xs:complexType name="propertyEltResource">
@@ -211,7 +215,9 @@
        with use="prohibited" on some attributes to
        get rid of them. But I'm gonna skip it for now -->
 
+  <!--
   <xs:attribute name="parseType"/>
+  -->
   <xs:attributeGroup name="parseLiteral">
     <xs:attribute name="parseType" fixed="Literal" />
     <xs:attribute ref="parseType" fixed="Literal" />
