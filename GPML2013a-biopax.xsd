@@ -42,7 +42,7 @@
 		Includes and Imports
 		============================================================== 
 	-->
-	<xs:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="https://cdn.rawgit.com/ariutta/GPML/cfd6704/rdf.xsd"/>
+	<xs:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="https://cdn.rawgit.com/ariutta/GPML/3fac165/rdf.xsd"/>
 
 	<xs:attributeGroup name="RDFAttributes">
 		<xs:attribute ref="rdf:datatype" use="optional"/>

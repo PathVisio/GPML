@@ -15,7 +15,7 @@
 		Includes and Imports
 		============================================================== 
 	-->
-	<xs:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="https://cdn.rawgit.com/ariutta/GPML/0df753f705288ac0d4c767e5f3d72a3f94bd155b/rdf.xsd"/>
+	<xs:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="https://cdn.rawgit.com/ariutta/GPML/3fac165/rdf.xsd"/>
 	<xs:import namespace="http://www.biopax.org/release/biopax-level3.owl#" schemaLocation="./GPML2013a-biopax.xsd"/>
 
 	<!-- Type Definitions -->	
