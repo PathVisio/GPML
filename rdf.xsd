@@ -216,16 +216,20 @@
        get rid of them. But I'm gonna skip it for now -->
 
   <!--
-  -->
   <xs:attribute name="parseType"/>
+  -->
   <xs:attributeGroup name="parseLiteral">
     <xs:attribute name="parseType" fixed="Literal" />
+    <!--
     <xs:attribute ref="parseType" fixed="Literal" />
+    -->
   </xs:attributeGroup>
 
   <xs:attributeGroup name="parseResource">
     <xs:attribute name="parseType"  fixed="Resource" />
+    <!--
     <xs:attribute ref="parseType"  fixed="Resource" />
+    -->
   </xs:attributeGroup>
 
   <!-- so much for syntax structure. Now for the particular
