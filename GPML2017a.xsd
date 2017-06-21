@@ -1,10 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <xsd:schema targetNamespace="http://pathvisio.org/GPML/2017a" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gpml="http://pathvisio.org/GPML/2017a" elementFormDefault="qualified">
+
 	<!-- Graphical Pathway Markup Language version 2017a -->
 
 	<!-- 
 	     Type Definitions 
          This block declares all the properties which would then be attached
-         to elements in the GPML heirarchy, most of them are intuitive
+         to elements in the GPML hierarchy, most of them are intuitive
          like FontAttributes, RotationType, ColorType
     -->
 
@@ -161,7 +163,7 @@
 				</xsd:complexType>
 			</xsd:element>
 			<xsd:element name="BiopaxRef" minOccurs="0" maxOccurs="unbounded"/>
-			--> 
+			-->
 			<!-- Additional information can be added as attribute key value pairs 
 				 can be used or ignored by readers -->
 			<xsd:element name="Attribute" minOccurs="0" maxOccurs="unbounded">
@@ -176,7 +178,7 @@
 	<!-- End: Type Definitions -->
 
 	<!-- ###################################################################### -->
-	
+
 	<!-- 
 		Pathway 
         This is the root element of the structure, it encloses
@@ -184,35 +186,35 @@
         Interaction, Line, Label, Link, Shape, Group, InfoBox,
         Legend, Biopax
 	-->
-	
+
 	<xsd:element name="Pathway">
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:group ref="gpml:CommentGroup"/>
 
-				<xsd:element ref="gpml:DataNode" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="DataNode" type="DataNode" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xsd:element ref="gpml:State" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="State" type="State" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xsd:element ref="gpml:Interaction" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="Interaction" type="Interaction" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xsd:element ref="gpml:GraphicalLine" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="GraphicalLine" type="GraphicalLine" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xsd:element ref="gpml:Label" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="Label" type="Label" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xsd:element ref="gpml:Shape" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="Shape" type="Shape" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xsd:element ref="gpml:Group" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="Group" type="Group" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xsd:element ref="gpml:InfoBox" minOccurs="1" maxOccurs="1" />
+				<xsd:element name="InfoBox" type="InfoBox" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="1" maxOccurs="1" />
 
-				<xsd:element ref="gpml:Legend" minOccurs="0" maxOccurs="1"/>
-				
-				<xsd:element ref="gpml:Citations" minOccurs="0" maxOccurs="1"/>
-				
-				<xsd:element ref="gpml:OntologyTerms" minOccurs="0" maxOccurs="1"/>
+				<xsd:element name="Legend" type="Legend" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="1"/>
+
+				<xsd:element name="Citations" type="Citations" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="1"/>
+
+				<xsd:element name="OntologyTerms" type="OntologyTerms" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="1"/>
 			</xsd:sequence>
-			
+
 			<!-- Metadata for the pathway -->
 			<xsd:attribute name="name" type="xsd:string" use="required"/>
 
@@ -254,47 +256,63 @@
         These are the elements with biological context
         forming the basis of the biological pathway
     -->
-	
-	<xsd:element name="DataNode">
+
+	<xsd:complexType name="DataNode">
 		<!-- DataNode represents all possible biological entities in a pathway
 			 like GeneProduct, Metabolite, Pathway, Protein, RNA, Unknown. -->
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:group ref="gpml:CommentGroup"/>
-				<xsd:element name="Xref" minOccurs="1" maxOccurs="1">
-					<xsd:complexType>
-						<xsd:attribute name="dataSource" type="xsd:string" use="required"/>
-						<xsd:attribute name="ID" type="xsd:string" use="required"/>
-					</xsd:complexType>
-				</xsd:element>
-			</xsd:sequence>
+		<xsd:sequence>
+			<xsd:group ref="gpml:CommentGroup"/>
+			<xsd:element name="Xref" minOccurs="1" maxOccurs="1">
+				<xsd:complexType>
+					<xsd:attribute name="dataSource" type="xsd:string" use="required"/>
+					<xsd:attribute name="ID" type="xsd:string" use="required"/>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
 
-			<!-- Graphics related attributes-->
-			<xsd:attributeGroup ref="gpml:RectAttributes"/>
-			<xsd:attributeGroup ref="gpml:FontAttributes"/>
-			<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
-			<xsd:attribute name="fillColor" type="gpml:ColorType" default="White"/>
-			<xsd:attribute name="shapeType" type="xsd:string" default="Rectangle"/>
-			<xsd:attribute name="backgroundImage" type="xsd:string"/>
-			<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
-			<!-- End Graphics related attributes-->
+		<!-- Graphics related attributes-->
+		<xsd:attributeGroup ref="gpml:RectAttributes"/>
+		<xsd:attributeGroup ref="gpml:FontAttributes"/>
+		<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
+		<xsd:attribute name="fillColor" type="gpml:ColorType" default="White"/>
+		<xsd:attribute name="shapeType" type="xsd:string" default="Rectangle"/>
+		<xsd:attribute name="backgroundImage" type="xsd:string"/>
+		<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
+		<!-- End Graphics related attributes-->
 
-			<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
+		<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
 
-			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
+		<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+		<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 
-			<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
+		<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
 
-			<xsd:attribute name="type" type="xsd:string" default="Unknown">
-				<!-- Basic GPML types are:
-                    "Protein", "Rna", "GeneProduct", "Metabolite", "Pathway" and "Unknown".
-                    It's recommended that you use these values as often as possible. -->
-			</xsd:attribute>
-		</xsd:complexType>
-	</xsd:element>
+		<xsd:attribute name="type" default="Unknown">
+			<!-- Basic GPML types are:
+				"Protein", "Rna", "GeneProduct", "Metabolite", "Pathway" and "Unknown".
+				It's recommended that you use these values as often as possible. -->
+			<xsd:simpleType>
+				<xsd:union>
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+							<xsd:enumeration value="Unknown"/>
+							<xsd:enumeration value="Rna"/>
+							<xsd:enumeration value="Protein"/>
+							<xsd:enumeration value="Complex"/>
+							<xsd:enumeration value="GeneProduct"/>
+							<xsd:enumeration value="Metabolite"/>
+							<xsd:enumeration value="Pathway"/>
+						</xsd:restriction>
+					</xsd:simpleType>
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:string"/>
+					</xsd:simpleType>
+				</xsd:union>
+			</xsd:simpleType>
+		</xsd:attribute>
+	</xsd:complexType>
 	<!-- End: DataNode -->
-	
+
 	<!-- ###################################################################### -->
 
 	<!-- 
@@ -302,43 +320,41 @@
         Always linked to a DataNode representing a specific state of the biological 
 		entity (e.g. phosphorylation, genetic variants, etc)
     -->
-	
-	<xsd:element name="State">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:group ref="gpml:CommentGroup"/>
-				<xsd:element name="Xref" minOccurs="0" maxOccurs="1">
-					<xsd:complexType>
-						<xsd:attribute name="dataSource" type="xsd:string" use="required"/>
-						<xsd:attribute name="ID" type="xsd:string" use="required"/>
-					</xsd:complexType>
-				</xsd:element>
-			</xsd:sequence>
 
-			<!-- Graphics related attributes-->
-			<xsd:attribute name="relX" type="xsd:float" use="required"/>
-			<xsd:attribute name="relY" type="xsd:float" use="required"/>
-			<xsd:attribute name="width" type="gpml:Dimension" use="required" />
-			<xsd:attribute name="height" type="gpml:Dimension" use="required" />
-			<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
-			<xsd:attribute name="fillColor" type="gpml:ColorType" default="White"/>
-			<xsd:attribute name="shapeType" type="xsd:string" default="Rectangle"/>
-			<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
-			<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
-			<!-- End Graphics related attributes-->
+	<xsd:complexType name="State">
+		<xsd:sequence>
+			<xsd:group ref="gpml:CommentGroup"/>
+			<xsd:element name="Xref" minOccurs="0" maxOccurs="1">
+				<xsd:complexType>
+					<xsd:attribute name="dataSource" type="xsd:string" use="required"/>
+					<xsd:attribute name="ID" type="xsd:string" use="required"/>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
 
-			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+		<!-- Graphics related attributes-->
+		<xsd:attribute name="relX" type="xsd:float" use="required"/>
+		<xsd:attribute name="relY" type="xsd:float" use="required"/>
+		<xsd:attribute name="width" type="gpml:Dimension" use="required" />
+		<xsd:attribute name="height" type="gpml:Dimension" use="required" />
+		<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
+		<xsd:attribute name="fillColor" type="gpml:ColorType" default="White"/>
+		<xsd:attribute name="shapeType" type="xsd:string" default="Rectangle"/>
+		<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
+		<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
+		<!-- End Graphics related attributes-->
 
-			<!-- TODO: I think this should be required since a state always needs to be linked to a DataNode -->
-			<xsd:attribute name="graphRef" type="xsd:IDREF" use="required" />
+		<xsd:attribute name="graphId" type="xsd:ID" use="required" />
 
-			<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
+		<!-- TODO: I think this should be required since a state always needs to be linked to a DataNode -->
+		<xsd:attribute name="graphRef" type="xsd:IDREF" use="required" />
 
-			<xsd:attribute name="stateType" type="xsd:string" default="Unknown"/>
-			<!-- Biological modification type. suggested values: Phosphorylated, Glycosylated, Activated, ... !-->
+		<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
 
-		</xsd:complexType>
-	</xsd:element>
+		<xsd:attribute name="stateType" type="xsd:string" default="Unknown"/>
+		<!-- Biological modification type. suggested values: Phosphorylated, Glycosylated, Activated, ... !-->
+
+	</xsd:complexType>
 	<!-- End: State -->
 
 	<!-- ###################################################################### -->
@@ -352,117 +368,113 @@
 		GraphicalLines are graphical annotations without semantic meaning
     -->
 
-	<xsd:element name="GraphicalLine">
-		<xsd:complexType>
-			<xsd:sequence>
+	<xsd:complexType name="GraphicalLine">
+		<xsd:sequence>
 
-				<xsd:group ref="gpml:CommentGroup" />
+			<xsd:group ref="gpml:CommentGroup" />
 
-				<xsd:element name="Point" minOccurs="2" maxOccurs="unbounded">
-					<xsd:complexType>
-						<xsd:attribute name="x" type="xsd:float" use="required" />
-						<xsd:attribute name="y" type="xsd:float" use="required" />
-						<!-- relX and relY are the coordinates used when
-						a point is linked to another object (when graphRef
-						is defined). They represent he coordinates of the
-						point relative to the object that it's linked to, where
-						0,0 lies at the center of the object and 1,1 at the bottom-right
-						corner -->
-						<xsd:attribute name="relX" type="xsd:float" use="optional" />
-						<xsd:attribute name="relY" type="xsd:float" use="optional" />
-						<xsd:attribute name="graphRef" type="xsd:IDREF" use="optional" />
-						<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-						<!-- Note: only the arrowHead attribute on first and last points are used, the rest is ignored. !-->
-						<xsd:attribute name="arrowHead" default="Line" type="xsd:string" />
-					</xsd:complexType>
-				</xsd:element>
-				<xsd:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
-					<xsd:complexType>
-						<xsd:attribute name="position" type="xsd:float" use="required" />
-						<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-						<xsd:attribute name="shape" default="ReceptorRound" type="xsd:string" />
-					</xsd:complexType>
-				</xsd:element>
-			</xsd:sequence>
+			<xsd:element name="Point" minOccurs="2" maxOccurs="unbounded">
+				<xsd:complexType>
+					<xsd:attribute name="x" type="xsd:float" use="required" />
+					<xsd:attribute name="y" type="xsd:float" use="required" />
+					<!-- relX and relY are the coordinates used when
+					a point is linked to another object (when graphRef
+					is defined). They represent he coordinates of the
+					point relative to the object that it's linked to, where
+					0,0 lies at the center of the object and 1,1 at the bottom-right
+					corner -->
+					<xsd:attribute name="relX" type="xsd:float" use="optional" />
+					<xsd:attribute name="relY" type="xsd:float" use="optional" />
+					<xsd:attribute name="graphRef" type="xsd:IDREF" use="optional" />
+					<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+					<!-- Note: only the arrowHead attribute on first and last points are used, the rest is ignored. !-->
+					<xsd:attribute name="arrowHead" default="Line" type="xsd:string" />
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
+				<xsd:complexType>
+					<xsd:attribute name="position" type="xsd:float" use="required" />
+					<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+					<xsd:attribute name="shape" default="None" type="xsd:string" />
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
 
 
-			<!-- Graphics related attributes-->
-			<xsd:attribute name="color" type="gpml:ColorType" default="Black" />
-			<xsd:attribute name="lineThickness" type="xsd:float"/>
-			<xsd:attribute name="lineStyle" type="gpml:StyleType" default="Solid" />
-			<xsd:attribute name="connectorType" type="xsd:string" use="optional" default="Straight"/>
-			<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
-			<!-- End Graphics related attributes-->
+		<!-- Graphics related attributes-->
+		<xsd:attribute name="color" type="gpml:ColorType" default="Black" />
+		<xsd:attribute name="lineThickness" type="xsd:float"/>
+		<xsd:attribute name="lineStyle" type="gpml:StyleType" default="Solid" />
+		<xsd:attribute name="connectorType" type="xsd:string" use="optional" default="Straight"/>
+		<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
+		<!-- End Graphics related attributes-->
 
-			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
-			
-			<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
+		<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 
-			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-			<xsd:attribute name="type" type="xsd:string" use="optional" />
-		</xsd:complexType>
-	</xsd:element>
+		<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
+
+		<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+		<xsd:attribute name="type" type="xsd:string" use="optional" />
+	</xsd:complexType>
 	<!-- End: Graphical Line -->
-	
+
 	<!-- Interaction -->
-	<xsd:element name="Interaction">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:group ref="gpml:CommentGroup" />
+	<xsd:complexType name="Interaction">
+		<xsd:sequence>
+			<xsd:group ref="gpml:CommentGroup" />
 
-				<xsd:element name="Xref" minOccurs="1" maxOccurs="1">
-					<xsd:complexType>
-						<xsd:attribute name="dataSource" type="xsd:string" use="required"/>
-						<xsd:attribute name="ID" type="xsd:string" use="required"/>
-					</xsd:complexType>
-				</xsd:element>
+			<xsd:element name="Xref" minOccurs="1" maxOccurs="1">
+				<xsd:complexType>
+					<xsd:attribute name="dataSource" type="xsd:string" use="required"/>
+					<xsd:attribute name="ID" type="xsd:string" use="required"/>
+				</xsd:complexType>
+			</xsd:element>
 
-				<xsd:element name="Point" minOccurs="2" maxOccurs="unbounded">
-					<xsd:complexType>
-						<xsd:attribute name="x" type="xsd:float" use="required" />
-						<xsd:attribute name="y" type="xsd:float" use="required" />
-						<!-- relX and relY are the coordinates used when
-						a point is linked to another object (when graphRef
-						is defined). They represent he coordinates of the
-						point relative to the object that it's linked to, where
-						0,0 lies at the center of the object and 1,1 at the bottom-right
-						corner -->
-						<xsd:attribute name="relX" type="xsd:float" use="optional" />
-						<xsd:attribute name="relY" type="xsd:float" use="optional" />
-						<xsd:attribute name="graphRef" type="xsd:IDREF" use="optional" />
-						<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-						<!-- Note: only the arrowHead attribute on first and last points are used, the rest is ignored. !-->
-						<xsd:attribute name="arrowHead" default="Line" type="xsd:string" />
-					</xsd:complexType>
-				</xsd:element>
+			<xsd:element name="Point" minOccurs="2" maxOccurs="unbounded">
+				<xsd:complexType>
+					<xsd:attribute name="x" type="xsd:float" use="required" />
+					<xsd:attribute name="y" type="xsd:float" use="required" />
+					<!-- relX and relY are the coordinates used when
+					a point is linked to another object (when graphRef
+					is defined). They represent he coordinates of the
+					point relative to the object that it's linked to, where
+					0,0 lies at the center of the object and 1,1 at the bottom-right
+					corner -->
+					<xsd:attribute name="relX" type="xsd:float" use="optional" />
+					<xsd:attribute name="relY" type="xsd:float" use="optional" />
+					<xsd:attribute name="graphRef" type="xsd:IDREF" use="optional" />
+					<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+					<!-- Note: only the arrowHead attribute on first and last points are used, the rest is ignored. !-->
+					<xsd:attribute name="arrowHead" default="Line" type="xsd:string" />
+				</xsd:complexType>
+			</xsd:element>
 
-				<xsd:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
-					<xsd:complexType>
-						<xsd:attribute name="position" type="xsd:float" use="required" />
-						<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-						<xsd:attribute name="shape" default="ReceptorRound" type="xsd:string" />
-					</xsd:complexType>
-				</xsd:element>
+			<xsd:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
+				<xsd:complexType>
+					<xsd:attribute name="position" type="xsd:float" use="required" />
+					<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+					<xsd:attribute name="shape" default="None" type="xsd:string" />
+				</xsd:complexType>
+			</xsd:element>
 
-			</xsd:sequence>
+		</xsd:sequence>
 
 
-			<!-- Graphics related attributes-->
-			<xsd:attribute name="color" type="gpml:ColorType" default="Black" />
-			<xsd:attribute name="lineThickness" type="xsd:float"/>
-			<xsd:attribute name="lineStyle" type="gpml:StyleType" default="Solid" />
-			<xsd:attribute name="connectorType" type="xsd:string" use="optional" default="Straight"/>
-			<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
-			<!-- End Graphics related attributes-->
+		<!-- Graphics related attributes-->
+		<xsd:attribute name="color" type="gpml:ColorType" default="Black" />
+		<xsd:attribute name="lineThickness" type="xsd:float"/>
+		<xsd:attribute name="lineStyle" type="gpml:StyleType" default="Solid" />
+		<xsd:attribute name="connectorType" type="xsd:string" use="optional" default="Straight"/>
+		<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
+		<!-- End Graphics related attributes-->
 
-			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
-			
-			<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
-			
-			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-			<xsd:attribute name="type" type="xsd:string" use="optional" />
-		</xsd:complexType>
-	</xsd:element>
+		<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
+
+		<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
+
+		<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+		<xsd:attribute name="type" type="xsd:string" use="optional" />
+	</xsd:complexType>
 	<!-- End: Interaction -->
 
 	<!-- ###################################################################### -->
@@ -473,34 +485,32 @@
 		No semantic meaning - graphical attributes
     -->
 
-	<xsd:element name="Label">
+	<xsd:complexType name="Label">
 
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:group ref="gpml:CommentGroup"/>
-			</xsd:sequence>
+		<xsd:sequence>
+			<xsd:group ref="gpml:CommentGroup"/>
+		</xsd:sequence>
 
-			<!-- Graphics related attributes-->
-			<xsd:attributeGroup ref="gpml:RectAttributes"/>
-			<xsd:attributeGroup ref="gpml:FontAttributes" />
-			<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
-			<xsd:attribute name="fillColor" type="gpml:ColorType" default="Transparent"/>
-			<xsd:attribute name="shapeType" type="xsd:string" default="None"/>
-			<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
-			<!-- End Graphics related attributes-->
+		<!-- Graphics related attributes-->
+		<xsd:attributeGroup ref="gpml:RectAttributes"/>
+		<xsd:attributeGroup ref="gpml:FontAttributes" />
+		<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
+		<xsd:attribute name="fillColor" type="gpml:ColorType" default="Transparent"/>
+		<xsd:attribute name="shapeType" type="xsd:string" default="None"/>
+		<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
+		<!-- End Graphics related attributes-->
 
-			<!-- for a reference to a url !-->
-			<xsd:attribute name="href" use="optional" type="xsd:string" />
+		<!-- for a reference to a url !-->
+		<xsd:attribute name="href" use="optional" type="xsd:string" />
 
-			<!-- TODO: does a label need a publication xref? -->
-			<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
-			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
+		<!-- TODO: does a label need a publication xref? -->
+		<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
+		<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+		<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 
-			<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
-		</xsd:complexType>
+		<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
+	</xsd:complexType>
 
-	</xsd:element>
 	<!-- End: Label -->
 
 	<!-- ###################################################################### -->
@@ -510,31 +520,29 @@
         Graphical elements - shapes with or without a text label
     -->
 
-	<xsd:element name="Shape">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:group ref="gpml:CommentGroup" />
-			</xsd:sequence>
+	<xsd:complexType name="Shape">
+		<xsd:sequence>
+			<xsd:group ref="gpml:CommentGroup" />
+		</xsd:sequence>
 
-			<!-- Graphics related attributes-->
-			<xsd:attributeGroup ref="gpml:RectAttributes"/>
-			<xsd:attributeGroup ref="gpml:FontAttributes" />
-			<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
-			<xsd:attribute name="fillColor" type="gpml:ColorType" default="Transparent"/>
-			<xsd:attribute name="shapeType" type="xsd:string" use="required"/>
-			<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
-			<xsd:attribute name="rotation" type="gpml:RotationType" default="Top" />
-			<!-- End Graphics related attributes-->
+		<!-- Graphics related attributes-->
+		<xsd:attributeGroup ref="gpml:RectAttributes"/>
+		<xsd:attributeGroup ref="gpml:FontAttributes" />
+		<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
+		<xsd:attribute name="fillColor" type="gpml:ColorType" default="Transparent"/>
+		<xsd:attribute name="shapeType" type="xsd:string" use="required"/>
+		<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
+		<xsd:attribute name="rotation" type="gpml:RotationType" default="Top" />
+		<!-- End Graphics related attributes-->
 
-			<!-- TODO: does a shape need a publication xref? -->
-			<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
-			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
+		<!-- TODO: does a shape need a publication xref? -->
+		<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
+		<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+		<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 
-			<xsd:attribute name="textLabel" use="optional" type="xsd:string"/>
-		</xsd:complexType>
+		<xsd:attribute name="textLabel" use="optional" type="xsd:string"/>
+	</xsd:complexType>
 
-	</xsd:element>
 	<!-- End: Shape -->
 
 	<!-- ###################################################################### -->
@@ -546,24 +554,22 @@
 		None, Pathway, Group, Complex
 	-->
 
-	<xsd:element name="Group">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:group ref="gpml:CommentGroup" />
-			</xsd:sequence>
-			<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
-			
-			<!-- TODO: needed? --> 
-			<xsd:attribute name="groupId" type="xsd:string" use="optional" />
-			
-			<!-- TODO: can a group be part of a group? -->
-			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
-			
-			<xsd:attribute name="style" type="xsd:string" default="None" />
-			<xsd:attribute name="textLabel" type="xsd:string" use="optional" />
-			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-		</xsd:complexType>
-	</xsd:element>
+	<xsd:complexType name="Group">
+		<xsd:sequence>
+			<xsd:group ref="gpml:CommentGroup" />
+		</xsd:sequence>
+		<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
+
+		<!-- TODO: needed? -->
+		<xsd:attribute name="groupId" type="xsd:string" use="optional" />
+
+		<!-- TODO: can a group be part of a group? -->
+		<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
+
+		<xsd:attribute name="style" type="xsd:string" default="None" />
+		<xsd:attribute name="textLabel" type="xsd:string" use="optional" />
+		<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+	</xsd:complexType>
 	<!-- End: Group -->
 
 	<!-- ###################################################################### -->
@@ -573,22 +579,18 @@
 		General properties/annotations of the pathway
 	-->
 
-	<xsd:element name="InfoBox">
+	<xsd:complexType name="InfoBox">
 		<!-- InfoBox element holds the coordinates where name and organism are displayed in the pathway -->
-		<xsd:complexType>
-			<xsd:attribute name="centerX" type="xsd:float" use="required"/>
-			<xsd:attribute name="centerY" type="xsd:float" use="required"/>
-		</xsd:complexType>
-	</xsd:element>
+		<xsd:attribute name="centerX" type="xsd:float" use="required"/>
+		<xsd:attribute name="centerY" type="xsd:float" use="required"/>
+	</xsd:complexType>
 	<!-- End: InfoBox -->
-	
+
 	<!-- Legend -->
-	<xsd:element name="Legend">
-		<xsd:complexType>
-			<xsd:attribute name="centerX" type="xsd:float" use="required"/>
-			<xsd:attribute name="centerY" type="xsd:float" use="required"/>
-		</xsd:complexType>
-	</xsd:element>
+	<xsd:complexType name="Legend">
+		<xsd:attribute name="centerX" type="xsd:float" use="required"/>
+		<xsd:attribute name="centerY" type="xsd:float" use="required"/>
+	</xsd:complexType>
 	<!-- End: Legend -->
 
 
@@ -599,35 +601,33 @@
 		List of all Citations referred in the pathway
 	-->
 
-	<xsd:element name="Citations">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element name="Citation" minOccurs="0" maxOccurs="unbounded">
-					<!-- TODO: should we use a graphId to reference the publication xrefs or create another unique id -->
-					<xsd:complexType>
-						<xsd:sequence>
-							<xsd:element name="Xref" minOccurs="0" maxOccurs="1">
-								<xsd:complexType>
-									<xsd:attribute name="ID" type="xsd:string" use="required"/>
-									<xsd:attribute name="dataSource" type="xsd:string" use="required"/>
-								</xsd:complexType>
-							</xsd:element>
-							<xsd:element name="Author" minOccurs="0" maxOccurs="unbounded">
-								<xsd:complexType>
-									<xsd:attribute name="name" type="xsd:string" use="required"/>
-								</xsd:complexType>
-							</xsd:element>
-						</xsd:sequence>
-						<xsd:attribute name="citationId" type="xsd:ID" use="required" />
-						<xsd:attribute name="title" use="required"/>
-						<xsd:attribute name="year" use="optional"/>
-						<xsd:attribute name="URL" use="required"/>
-						<xsd:attribute name="source" use="optional"/>
-					</xsd:complexType>
-				</xsd:element>
-			</xsd:sequence>
-		</xsd:complexType>
-	</xsd:element>
+	<xsd:complexType name="Citations">
+		<xsd:sequence>
+			<xsd:element name="Citation" minOccurs="0" maxOccurs="unbounded">
+				<!-- TODO: should we use a graphId to reference the publication xrefs or create another unique id -->
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="Xref" minOccurs="0" maxOccurs="1">
+							<xsd:complexType>
+								<xsd:attribute name="ID" type="xsd:string" use="required"/>
+								<xsd:attribute name="dataSource" type="xsd:string" use="required"/>
+							</xsd:complexType>
+						</xsd:element>
+						<xsd:element name="Author" minOccurs="0" maxOccurs="unbounded">
+							<xsd:complexType>
+								<xsd:attribute name="name" type="xsd:string" use="required"/>
+							</xsd:complexType>
+						</xsd:element>
+					</xsd:sequence>
+					<xsd:attribute name="citationId" type="xsd:ID" use="required" />
+					<xsd:attribute name="title" use="required"/>
+					<xsd:attribute name="year" use="optional"/>
+					<xsd:attribute name="URL" use="required"/>
+					<xsd:attribute name="source" use="optional"/>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
 	<!-- End: Citations -->
 
 	<!-- ###################################################################### -->
@@ -636,19 +636,17 @@
 		OntologyTerms
 		List of all OntologyTerms used for the pathway
 	-->
-	<xsd:element name="OntologyTerms">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element name="OntologyTerm" minOccurs="0" maxOccurs="unbounded">
-				<!-- TODO: should we use a graphId to reference the ontologytag or create another unique id -->
-					<xsd:complexType>
-						<xsd:attribute name="ID" type="xsd:string" use="required"/>
-						<xsd:attribute name="term" type="xsd:string" use="required"/>
-						<xsd:attribute name="ontology" type="xsd:string" use="required"/>
-						<xsd:attribute name="ontologyTermId" type="xsd:ID" use="required" />
-					</xsd:complexType>
-				</xsd:element>
-			</xsd:sequence>
-		</xsd:complexType>
-	</xsd:element>
+	<xsd:complexType name="OntologyTerms">
+		<xsd:sequence>
+			<xsd:element name="OntologyTerm" minOccurs="0" maxOccurs="unbounded">
+				<!-- TODO: should we use a graphId to reference the ontologyTag or create another unique id -->
+				<xsd:complexType>
+					<xsd:attribute name="ID" type="xsd:string" use="required"/>
+					<xsd:attribute name="term" type="xsd:string" use="required"/>
+					<xsd:attribute name="ontology" type="xsd:string" use="required"/>
+					<xsd:attribute name="ontologyTermId" type="xsd:ID" use="required" />
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
 </xsd:schema>
