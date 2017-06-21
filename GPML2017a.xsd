@@ -189,12 +189,6 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:group ref="gpml:CommentGroup"/>
-				<xsd:element name="Graphics" minOccurs="0" maxOccurs="1">
-					<xsd:complexType>
-						<xsd:attribute name="boardWidth" type="gpml:Dimension" use="required"/>
-						<xsd:attribute name="boardHeight" type="gpml:Dimension" use="required"/>
-					</xsd:complexType>
-				</xsd:element>
 
 				<xsd:element ref="gpml:DataNode" minOccurs="0" maxOccurs="unbounded"/>
 
@@ -241,9 +235,14 @@
 			</xsd:attribute>
 
 			<!-- Not separate elements but a reference to the elements at the end of the GPML -->
-			<xsd:attribute name="publicationXrefRef" type="xsd:string" use="optional" />
-			
-			<xsd:attribute name="ontologyTagRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="ontologyTermRef" type="xsd:string" use="optional" />
+
+			<!-- Graphics related attributes-->
+			<xsd:attribute name="boardWidth" type="gpml:Dimension" use="optional"/>
+			<xsd:attribute name="boardHeight" type="gpml:Dimension" use="optional"/>
+			<!-- End Graphics related attributes-->
+
 		</xsd:complexType>
 	</xsd:element>
 	<!-- End: Pathway -->
@@ -262,17 +261,6 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:group ref="gpml:CommentGroup"/>
-				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
-					<xsd:complexType>
-						<xsd:attributeGroup ref="gpml:RectAttributes"/>
-						<xsd:attributeGroup ref="gpml:FontAttributes"/>
-						<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
-						<xsd:attribute name="fillColor" type="gpml:ColorType" default="White"/>
-						<xsd:attribute name="shapeType" type="xsd:string" default="Rectangle"/>
-						<xsd:attribute name="backgroundImage" type="xsd:string"/>
-						<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
-					</xsd:complexType>
-				</xsd:element>
 				<xsd:element name="Xref" minOccurs="1" maxOccurs="1">
 					<xsd:complexType>
 						<xsd:attribute name="dataSource" type="xsd:string" use="required"/>
@@ -281,7 +269,17 @@
 				</xsd:element>
 			</xsd:sequence>
 
-			<xsd:attribute name="publicationXrefRef" type="xsd:string" use="optional" />
+			<!-- Graphics related attributes-->
+			<xsd:attributeGroup ref="gpml:RectAttributes"/>
+			<xsd:attributeGroup ref="gpml:FontAttributes"/>
+			<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
+			<xsd:attribute name="fillColor" type="gpml:ColorType" default="White"/>
+			<xsd:attribute name="shapeType" type="xsd:string" default="Rectangle"/>
+			<xsd:attribute name="backgroundImage" type="xsd:string"/>
+			<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
+			<!-- End Graphics related attributes-->
+
+			<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
 
 			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
 			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
@@ -309,18 +307,6 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:group ref="gpml:CommentGroup"/>
-				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
-					<xsd:complexType>
-						<xsd:attribute name="relX" type="xsd:float" use="required"/>
-						<xsd:attribute name="relY" type="xsd:float" use="required"/>
-						<xsd:attribute name="width" type="gpml:Dimension" use="required" />
-						<xsd:attribute name="height" type="gpml:Dimension" use="required" />
-						<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
-						<xsd:attribute name="fillColor" type="gpml:ColorType" default="White"/>
-						<xsd:attribute name="shapeType" type="xsd:string" default="Rectangle"/>
-						<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
-					</xsd:complexType>
-				</xsd:element>
 				<xsd:element name="Xref" minOccurs="0" maxOccurs="1">
 					<xsd:complexType>
 						<xsd:attribute name="dataSource" type="xsd:string" use="required"/>
@@ -329,10 +315,20 @@
 				</xsd:element>
 			</xsd:sequence>
 
-			<xsd:attribute name="publicationXrefRef" type="xsd:string" use="optional" />
+			<!-- Graphics related attributes-->
+			<xsd:attribute name="relX" type="xsd:float" use="required"/>
+			<xsd:attribute name="relY" type="xsd:float" use="required"/>
+			<xsd:attribute name="width" type="gpml:Dimension" use="required" />
+			<xsd:attribute name="height" type="gpml:Dimension" use="required" />
+			<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
+			<xsd:attribute name="fillColor" type="gpml:ColorType" default="White"/>
+			<xsd:attribute name="shapeType" type="xsd:string" default="Rectangle"/>
+			<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
+			<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
+			<!-- End Graphics related attributes-->
 
 			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-			
+
 			<!-- TODO: I think this should be required since a state always needs to be linked to a DataNode -->
 			<xsd:attribute name="graphRef" type="xsd:IDREF" use="required" />
 
@@ -359,47 +355,48 @@
 	<xsd:element name="GraphicalLine">
 		<xsd:complexType>
 			<xsd:sequence>
+
 				<xsd:group ref="gpml:CommentGroup" />
-				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+
+				<xsd:element name="Point" minOccurs="2" maxOccurs="unbounded">
 					<xsd:complexType>
-						<xsd:sequence>
-							<xsd:element name="Point" minOccurs="2" maxOccurs="unbounded">
-								<xsd:complexType>
-									<xsd:attribute name="x" type="xsd:float" use="required" />
-									<xsd:attribute name="y" type="xsd:float" use="required" />
-									<!-- relX and relY are the coordinates used when
-                                    a point is linked to another object (when graphRef
-                                    is defined). They represent he coordinates of the
-                                    point relative to the object that it's linked to, where
-                                    0,0 lies at the center of the object and 1,1 at the bottom-right
-                                    corner -->
-									<xsd:attribute name="relX" type="xsd:float" use="optional" />
-									<xsd:attribute name="relY" type="xsd:float" use="optional" />
-									<xsd:attribute name="graphRef" type="xsd:IDREF" use="optional" />
-									<xsd:attribute name="graphId" type="xsd:ID" use="optional" />
-									<!-- Note: only the arrowHead attribute on first and last points are used, the rest is ignored. !-->
-									<xsd:attribute name="arrowHead" default="Line" type="xsd:string" />
-								</xsd:complexType>
-							</xsd:element>
-							<xsd:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
-								<xsd:complexType>
-									<xsd:attribute name="position" type="xsd:float" use="required" />
-									<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-									<xsd:attribute name="shape" default="ReceptorRound" type="xsd:string" />
-								</xsd:complexType>
-							</xsd:element>
-						</xsd:sequence>
-						<xsd:attribute name="color" type="gpml:ColorType" default="Black" />
-						<xsd:attribute name="lineThickness" type="xsd:float"/>
-						<xsd:attribute name="lineStyle" type="gpml:StyleType" default="Solid" />
-						<xsd:attribute name="connectorType" type="xsd:string" use="optional" default="Straight"/>
-						<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
+						<xsd:attribute name="x" type="xsd:float" use="required" />
+						<xsd:attribute name="y" type="xsd:float" use="required" />
+						<!-- relX and relY are the coordinates used when
+						a point is linked to another object (when graphRef
+						is defined). They represent he coordinates of the
+						point relative to the object that it's linked to, where
+						0,0 lies at the center of the object and 1,1 at the bottom-right
+						corner -->
+						<xsd:attribute name="relX" type="xsd:float" use="optional" />
+						<xsd:attribute name="relY" type="xsd:float" use="optional" />
+						<xsd:attribute name="graphRef" type="xsd:IDREF" use="optional" />
+						<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+						<!-- Note: only the arrowHead attribute on first and last points are used, the rest is ignored. !-->
+						<xsd:attribute name="arrowHead" default="Line" type="xsd:string" />
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:attribute name="position" type="xsd:float" use="required" />
+						<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+						<xsd:attribute name="shape" default="ReceptorRound" type="xsd:string" />
 					</xsd:complexType>
 				</xsd:element>
 			</xsd:sequence>
+
+
+			<!-- Graphics related attributes-->
+			<xsd:attribute name="color" type="gpml:ColorType" default="Black" />
+			<xsd:attribute name="lineThickness" type="xsd:float"/>
+			<xsd:attribute name="lineStyle" type="gpml:StyleType" default="Solid" />
+			<xsd:attribute name="connectorType" type="xsd:string" use="optional" default="Straight"/>
+			<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
+			<!-- End Graphics related attributes-->
+
 			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 			
-			<xsd:attribute name="publicationXrefRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
 
 			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
 			<xsd:attribute name="type" type="xsd:string" use="optional" />
@@ -412,52 +409,55 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:group ref="gpml:CommentGroup" />
-				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
-					<xsd:complexType>
-						<xsd:sequence>
-							<xsd:element name="Point" minOccurs="2" maxOccurs="unbounded">
-								<xsd:complexType>
-									<xsd:attribute name="x" type="xsd:float" use="required" />
-									<xsd:attribute name="y" type="xsd:float" use="required" />
-									<!-- relX and relY are the coordinates used when
-                                    a point is linked to another object (when graphRef
-                                    is defined). They represent he coordinates of the
-                                    point relative to the object that it's linked to, where
-                                    0,0 lies at the center of the object and 1,1 at the bottom-right
-                                    corner -->
-									<xsd:attribute name="relX" type="xsd:float" use="optional" />
-									<xsd:attribute name="relY" type="xsd:float" use="optional" />
-									<xsd:attribute name="graphRef" type="xsd:IDREF" use="optional" />
-									<xsd:attribute name="graphId" type="xsd:ID" use="optional" />
-									<!-- Note: only the arrowHead attribute on first and last points are used, the rest is ignored. !-->
-									<xsd:attribute name="arrowHead" default="Line" type="xsd:string" />
-								</xsd:complexType>
-							</xsd:element>
-							<xsd:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
-								<xsd:complexType>
-									<xsd:attribute name="position" type="xsd:float" use="required" />
-									<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-									<xsd:attribute name="shape" default="ReceptorRound" type="xsd:string" />
-								</xsd:complexType>
-							</xsd:element>
-						</xsd:sequence>
-						<xsd:attribute name="color" type="gpml:ColorType" default="Black" />
-						<xsd:attribute name="lineThickness" type="xsd:float"/>
-						<xsd:attribute name="lineStyle" type="gpml:StyleType" default="Solid" />
-						<xsd:attribute name="connectorType" type="xsd:string" use="optional" default="Straight"/>
-						<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
-					</xsd:complexType>
-				</xsd:element>
+
 				<xsd:element name="Xref" minOccurs="1" maxOccurs="1">
 					<xsd:complexType>
 						<xsd:attribute name="dataSource" type="xsd:string" use="required"/>
 						<xsd:attribute name="ID" type="xsd:string" use="required"/>
 					</xsd:complexType>
 				</xsd:element>
+
+				<xsd:element name="Point" minOccurs="2" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:attribute name="x" type="xsd:float" use="required" />
+						<xsd:attribute name="y" type="xsd:float" use="required" />
+						<!-- relX and relY are the coordinates used when
+						a point is linked to another object (when graphRef
+						is defined). They represent he coordinates of the
+						point relative to the object that it's linked to, where
+						0,0 lies at the center of the object and 1,1 at the bottom-right
+						corner -->
+						<xsd:attribute name="relX" type="xsd:float" use="optional" />
+						<xsd:attribute name="relY" type="xsd:float" use="optional" />
+						<xsd:attribute name="graphRef" type="xsd:IDREF" use="optional" />
+						<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+						<!-- Note: only the arrowHead attribute on first and last points are used, the rest is ignored. !-->
+						<xsd:attribute name="arrowHead" default="Line" type="xsd:string" />
+					</xsd:complexType>
+				</xsd:element>
+
+				<xsd:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:attribute name="position" type="xsd:float" use="required" />
+						<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+						<xsd:attribute name="shape" default="ReceptorRound" type="xsd:string" />
+					</xsd:complexType>
+				</xsd:element>
+
 			</xsd:sequence>
+
+
+			<!-- Graphics related attributes-->
+			<xsd:attribute name="color" type="gpml:ColorType" default="Black" />
+			<xsd:attribute name="lineThickness" type="xsd:float"/>
+			<xsd:attribute name="lineStyle" type="gpml:StyleType" default="Solid" />
+			<xsd:attribute name="connectorType" type="xsd:string" use="optional" default="Straight"/>
+			<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
+			<!-- End Graphics related attributes-->
+
 			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 			
-			<xsd:attribute name="publicationXrefRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
 			
 			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
 			<xsd:attribute name="type" type="xsd:string" use="optional" />
@@ -478,25 +478,22 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:group ref="gpml:CommentGroup"/>
-
-				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
-					<xsd:complexType>
-						<xsd:attributeGroup ref="gpml:RectAttributes"/>
-						<xsd:attributeGroup ref="gpml:FontAttributes" />
-						<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
-						<xsd:attribute name="fillColor" type="gpml:ColorType" default="Transparent"/>
-						<xsd:attribute name="shapeType" type="xsd:string" default="None"/>
-						<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
-					</xsd:complexType>
-				</xsd:element>
-
 			</xsd:sequence>
+
+			<!-- Graphics related attributes-->
+			<xsd:attributeGroup ref="gpml:RectAttributes"/>
+			<xsd:attributeGroup ref="gpml:FontAttributes" />
+			<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
+			<xsd:attribute name="fillColor" type="gpml:ColorType" default="Transparent"/>
+			<xsd:attribute name="shapeType" type="xsd:string" default="None"/>
+			<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
+			<!-- End Graphics related attributes-->
 
 			<!-- for a reference to a url !-->
 			<xsd:attribute name="href" use="optional" type="xsd:string" />
 
 			<!-- TODO: does a label need a publication xref? -->
-			<xsd:attribute name="publicationXrefRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
 			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 
@@ -517,22 +514,20 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:group ref="gpml:CommentGroup" />
-				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
-					<xsd:complexType>
-						<xsd:attributeGroup ref="gpml:RectAttributes"/>
-						<xsd:attributeGroup ref="gpml:FontAttributes" />
-						<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
-						<xsd:attribute name="fillColor" type="gpml:ColorType" default="Transparent"/>
-						<xsd:attribute name="shapeType" type="xsd:string" use="required"/>
-						<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
-						<xsd:attribute name="rotation" type="gpml:RotationType" default="Top" />
-					</xsd:complexType>
-				</xsd:element>
-
 			</xsd:sequence>
 
+			<!-- Graphics related attributes-->
+			<xsd:attributeGroup ref="gpml:RectAttributes"/>
+			<xsd:attributeGroup ref="gpml:FontAttributes" />
+			<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
+			<xsd:attribute name="fillColor" type="gpml:ColorType" default="Transparent"/>
+			<xsd:attribute name="shapeType" type="xsd:string" use="required"/>
+			<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
+			<xsd:attribute name="rotation" type="gpml:RotationType" default="Top" />
+			<!-- End Graphics related attributes-->
+
 			<!-- TODO: does a shape need a publication xref? -->
-			<xsd:attribute name="publicationXrefRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
 			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 
@@ -556,7 +551,7 @@
 			<xsd:sequence>
 				<xsd:group ref="gpml:CommentGroup" />
 			</xsd:sequence>
-			<xsd:attribute name="publicationXrefRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="citationRef" type="xsd:string" use="optional" />
 			
 			<!-- TODO: needed? --> 
 			<xsd:attribute name="groupId" type="xsd:string" use="optional" />
