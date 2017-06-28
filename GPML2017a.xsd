@@ -142,7 +142,10 @@
 		</xsd:restriction>
 	</xsd:simpleType>
 
-	<!--TODO: Rename group since it now bundles CitationRefs too-->
+	<!--TODO: Rename group since it bundles `Attribute`, `CitationRef`
+		- How about CommonGroup, since it is that way in code too..
+		  mapCommon, updateCommon
+	-->
     <!-- One or more comments bundled together !-->
 	<xsd:group name="CommentGroup">
 		<xsd:sequence>
@@ -200,6 +203,7 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:group ref="gpml:CommentGroup"/>
+				<xsd:element name="OntologyTermRef" type="OntologyTermRef" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="unbounded"/>
 
 				<xsd:element name="DataNode" type="DataNode" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="unbounded"/>
 
@@ -222,10 +226,6 @@
 				<xsd:element name="Citations" type="Citations" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="1"/>
 
 				<xsd:element name="OntologyTerms" type="OntologyTerms" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="1"/>
-
-				<xsd:element name="CitationRefs" type="CitationRefs" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="1"/>
-
-				<xsd:element name="OntologyTermRefs" type="OntologyTermRefs" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="1"/>
 
 			</xsd:sequence>
 
@@ -612,7 +612,6 @@
 	<xsd:complexType name="Citations">
 		<xsd:sequence>
 			<xsd:element name="Citation" minOccurs="0" maxOccurs="unbounded">
-				<!-- TODO: should we use a graphId to reference the publication xrefs or create another unique id -->
 				<xsd:complexType>
 					<xsd:sequence>
 						<xsd:element name="Xref" minOccurs="0" maxOccurs="1">
@@ -658,24 +657,12 @@
 		</xsd:sequence>
 	</xsd:complexType>
 
-	<xsd:complexType name="OntologyTermRefs">
-		<xsd:sequence>
-			<xsd:element name="OntologyTermRef" minOccurs="0" maxOccurs="unbounded">
-				<xsd:complexType>
-					<xsd:attribute name="ID" type="xsd:string" use="required"/>
-				</xsd:complexType>
-			</xsd:element>
-		</xsd:sequence>
-	</xsd:complexType>
-
-	<xsd:complexType name="CitationRefs">
-		<xsd:sequence>
-			<xsd:element name="CitationRef" minOccurs="0" maxOccurs="unbounded">
-				<xsd:complexType>
-					<xsd:attribute name="ID" type="xsd:string" use="required"/>
-				</xsd:complexType>
-			</xsd:element>
-		</xsd:sequence>
+	<!--
+		OntologyTermRefs
+		List of all OntologyTermRefs used for the pathway
+	-->
+	<xsd:complexType name="OntologyTermRef">
+		<xsd:attribute name="ID" type="xsd:string" use="required"/>
 	</xsd:complexType>
 
 </xsd:schema>
