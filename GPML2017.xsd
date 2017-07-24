@@ -203,7 +203,12 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:group ref="gpml:CommentGroup"/>
-				<xsd:element name="OntologyTermRef" type="OntologyTermRef" xmlns="http://pathvisio.org/GPML/2017" minOccurs="0" maxOccurs="unbounded"/>
+
+				<xsd:element name="OntologyTermRef" type="OntologyTermRef" xmlns="http://pathvisio.org/GPML/2017" minOccurs="0" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:attribute name="ontologyTermID" type="xsd:string" use="required"/>
+					</xsd:complexType>
+				</xsd:element>
 
 				<xsd:element name="DataNode" type="DataNode" xmlns="http://pathvisio.org/GPML/2017" minOccurs="0" maxOccurs="unbounded"/>
 
@@ -646,23 +651,14 @@
 	<xsd:complexType name="OntologyTerms">
 		<xsd:sequence>
 			<xsd:element name="OntologyTerm" minOccurs="0" maxOccurs="unbounded">
-				<!-- TODO: should we use a graphId to reference ontologyTermyTag or create another unique id -->
 				<xsd:complexType>
-					<xsd:attribute name="ID" type="xsd:string" use="required"/>
 					<xsd:attribute name="term" type="xsd:string" use="required"/>
 					<xsd:attribute name="ontology" type="xsd:string" use="required"/>
-					<xsd:attribute name="ontologyTermId" type="xsd:ID" use="required" />
+					<!-- use this ontologyTermID to refer to ontology terms with OntologyTermRef -->
+					<xsd:attribute name="ontologyTermID" type="xsd:ID" use="required" />
 				</xsd:complexType>
 			</xsd:element>
 		</xsd:sequence>
-	</xsd:complexType>
-
-	<!--
-		OntologyTermRefs
-		List of all OntologyTermRefs used for the pathway
-	-->
-	<xsd:complexType name="OntologyTermRef">
-		<xsd:attribute name="ID" type="xsd:string" use="required"/>
 	</xsd:complexType>
 
 </xsd:schema>
