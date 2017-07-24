@@ -293,7 +293,7 @@
 		<!-- End Graphics related attributes-->
 
 
-		<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+		<xsd:attribute name="elementID" type="xsd:ID" use="required" />
 		<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 
 		<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
@@ -355,10 +355,10 @@
 		<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
 		<!-- End Graphics related attributes-->
 
-		<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+		<xsd:attribute name="elementID" type="xsd:ID" use="required" />
 
 		<!-- TODO: I think this should be required since a state always needs to be linked to a DataNode -->
-		<xsd:attribute name="graphRef" type="xsd:IDREF" use="required" />
+		<xsd:attribute name="elementRef" type="xsd:IDREF" use="required" />
 
 		<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
 
@@ -389,15 +389,15 @@
 					<xsd:attribute name="x" type="xsd:float" use="required" />
 					<xsd:attribute name="y" type="xsd:float" use="required" />
 					<!-- relX and relY are the coordinates used when
-					a point is linked to another object (when graphRef
+					a point is linked to another object (when elementID
 					is defined). They represent he coordinates of the
 					point relative to the object that it's linked to, where
 					0,0 lies at the center of the object and 1,1 at the bottom-right
 					corner -->
 					<xsd:attribute name="relX" type="xsd:float" use="optional" />
 					<xsd:attribute name="relY" type="xsd:float" use="optional" />
-					<xsd:attribute name="graphRef" type="xsd:IDREF" use="optional" />
-					<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+					<xsd:attribute name="elementRef" type="xsd:IDREF" use="optional" />
+					<xsd:attribute name="elementID" type="xsd:ID" use="required" />
 					<!-- Note: only the arrowHead attribute on first and last points are used, the rest is ignored. !-->
 					<xsd:attribute name="arrowHead" default="Line" type="xsd:string" />
 				</xsd:complexType>
@@ -405,7 +405,7 @@
 			<xsd:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
 				<xsd:complexType>
 					<xsd:attribute name="position" type="xsd:float" use="required" />
-					<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+					<xsd:attribute name="elementID" type="xsd:ID" use="required" />
 					<xsd:attribute name="shape" default="None" type="xsd:string" />
 				</xsd:complexType>
 			</xsd:element>
@@ -424,7 +424,7 @@
 		<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 
 
-		<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+		<xsd:attribute name="elementID" type="xsd:ID" use="required" />
 		<xsd:attribute name="type" type="xsd:string" use="optional" />
 	</xsd:complexType>
 	<!-- End: Graphical Line -->
@@ -446,15 +446,15 @@
 					<xsd:attribute name="x" type="xsd:float" use="required" />
 					<xsd:attribute name="y" type="xsd:float" use="required" />
 					<!-- relX and relY are the coordinates used when
-					a point is linked to another object (when graphRef
+					a point is linked to another object (when elementID
 					is defined). They represent he coordinates of the
 					point relative to the object that it's linked to, where
 					0,0 lies at the center of the object and 1,1 at the bottom-right
 					corner -->
 					<xsd:attribute name="relX" type="xsd:float" use="optional" />
 					<xsd:attribute name="relY" type="xsd:float" use="optional" />
-					<xsd:attribute name="graphRef" type="xsd:IDREF" use="optional" />
-					<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+					<xsd:attribute name="elementRef" type="xsd:IDREF" use="optional" />
+					<xsd:attribute name="elementID" type="xsd:ID" use="required" />
 					<!-- Note: only the arrowHead attribute on first and last points are used, the rest is ignored. !-->
 					<xsd:attribute name="arrowHead" default="Line" type="xsd:string" />
 				</xsd:complexType>
@@ -463,7 +463,7 @@
 			<xsd:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
 				<xsd:complexType>
 					<xsd:attribute name="position" type="xsd:float" use="required" />
-					<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+					<xsd:attribute name="elementID" type="xsd:ID" use="required" />
 					<xsd:attribute name="shape" default="None" type="xsd:string" />
 				</xsd:complexType>
 			</xsd:element>
@@ -483,7 +483,7 @@
 		<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 
 
-		<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+		<xsd:attribute name="elementID" type="xsd:ID" use="required" />
 		<xsd:attribute name="type" type="xsd:string" use="optional" />
 	</xsd:complexType>
 	<!-- End: Interaction -->
@@ -515,7 +515,7 @@
 		<xsd:attribute name="href" use="optional" type="xsd:string" />
 
 		<!-- TODO: does a label need a publication xref? -->
-		<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+		<xsd:attribute name="elementID" type="xsd:ID" use="required" />
 		<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 
 		<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
@@ -546,7 +546,7 @@
 		<!-- End Graphics related attributes-->
 
 		<!-- TODO: does a shape need a publication xref? -->
-		<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+		<xsd:attribute name="elementID" type="xsd:ID" use="required" />
 		<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 
 		<xsd:attribute name="textLabel" use="optional" type="xsd:string"/>
@@ -576,7 +576,7 @@
 
 		<xsd:attribute name="style" type="xsd:string" default="None" />
 		<xsd:attribute name="textLabel" type="xsd:string" use="optional" />
-		<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+		<xsd:attribute name="elementID" type="xsd:ID" use="required" />
 	</xsd:complexType>
 	<!-- End: Group -->
 
