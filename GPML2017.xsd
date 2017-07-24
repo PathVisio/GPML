@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsd:schema targetNamespace="http://pathvisio.org/GPML/2017a" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gpml="http://pathvisio.org/GPML/2017a" elementFormDefault="qualified">
+<xsd:schema targetNamespace="http://pathvisio.org/GPML/2017" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gpml="http://pathvisio.org/GPML/2017" elementFormDefault="qualified">
 
-	<!-- Graphical Pathway Markup Language version 2017a -->
+	<!-- Graphical Pathway Markup Language version 2017 -->
 
 	<!-- 
 	     Type Definitions 
@@ -203,29 +203,29 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:group ref="gpml:CommentGroup"/>
-				<xsd:element name="OntologyTermRef" type="OntologyTermRef" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="OntologyTermRef" type="OntologyTermRef" xmlns="http://pathvisio.org/GPML/2017" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xsd:element name="DataNode" type="DataNode" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="DataNode" type="DataNode" xmlns="http://pathvisio.org/GPML/2017" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xsd:element name="State" type="State" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="State" type="State" xmlns="http://pathvisio.org/GPML/2017" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xsd:element name="Interaction" type="Interaction" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="Interaction" type="Interaction" xmlns="http://pathvisio.org/GPML/2017" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xsd:element name="GraphicalLine" type="GraphicalLine" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="GraphicalLine" type="GraphicalLine" xmlns="http://pathvisio.org/GPML/2017" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xsd:element name="Label" type="Label" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="Label" type="Label" xmlns="http://pathvisio.org/GPML/2017" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xsd:element name="Shape" type="Shape" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="Shape" type="Shape" xmlns="http://pathvisio.org/GPML/2017" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xsd:element name="Group" type="Group" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="Group" type="Group" xmlns="http://pathvisio.org/GPML/2017" minOccurs="0" maxOccurs="unbounded"/>
 
-				<xsd:element name="InfoBox" type="InfoBox" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="1" maxOccurs="1" />
+				<xsd:element name="InfoBox" type="InfoBox" xmlns="http://pathvisio.org/GPML/2017" minOccurs="1" maxOccurs="1" />
 
-				<xsd:element name="Legend" type="Legend" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="1"/>
+				<xsd:element name="Legend" type="Legend" xmlns="http://pathvisio.org/GPML/2017" minOccurs="0" maxOccurs="1"/>
 
-				<xsd:element name="Citations" type="Citations" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="1"/>
+				<xsd:element name="Citations" type="Citations" xmlns="http://pathvisio.org/GPML/2017" minOccurs="0" maxOccurs="1"/>
 
-				<xsd:element name="OntologyTerms" type="OntologyTerms" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="1"/>
+				<xsd:element name="OntologyTerms" type="OntologyTerms" xmlns="http://pathvisio.org/GPML/2017" minOccurs="0" maxOccurs="1"/>
 
 			</xsd:sequence>
 
