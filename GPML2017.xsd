@@ -32,32 +32,6 @@
 				</xsd:restriction>
 			</xsd:simpleType>
 		</xsd:attribute>
-		<xsd:attribute name="fontDecoration" default="Normal">
-			<xsd:annotation>
-				<xsd:documentation>
-					Deprecated: Not in use.
-				</xsd:documentation>
-			</xsd:annotation>
-			<xsd:simpleType>
-				<xsd:restriction base="xsd:string">
-					<xsd:enumeration value="Normal"/>
-					<xsd:enumeration value="Underline"/>
-				</xsd:restriction>
-			</xsd:simpleType>
-		</xsd:attribute>
-		<xsd:attribute name="fontStrikethru" default="Normal">
-			<xsd:annotation>
-				<xsd:documentation>
-					Deprecated: Not in use.
-				</xsd:documentation>
-			</xsd:annotation>
-			<xsd:simpleType>
-				<xsd:restriction base="xsd:string">
-					<xsd:enumeration value="Normal"/>
-					<xsd:enumeration value="Strikethru"/>
-				</xsd:restriction>
-			</xsd:simpleType>
-		</xsd:attribute>
 		<xsd:attribute name="fontWeight" default="Normal">
 			<xsd:annotation>
 				<xsd:documentation>
@@ -222,6 +196,13 @@
 					A GroupRef indicates that its element is part of the gpml:Group
 					with the specified GroupId. DataNode, GraphicalLine, Group, Interaction,
 					Label and Shape can be part of a group.
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="textLabel" type="xsd:string" use="optional">
+			<xsd:annotation>
+				<xsd:documentation>
+					TextLabel of an object (DataNode, Group, Label, Shape, State).
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
@@ -467,9 +448,22 @@
 				</xsd:annotation>
 			</xsd:attribute>
 
-			<xsd:attribute name="dataSource" type="xsd:string" use="optional"/>
+			<!--TODO conflicts with Xref.dataSource -->
+			<xsd:attribute name="dataSource" type="xsd:string" use="optional">
+				<xsd:annotation>
+					<xsd:documentation>
+						Deprecated: Not in use.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
 
-			<xsd:attribute name="revision" type="xsd:string" use="optional"/>
+			<xsd:attribute name="revision" type="xsd:string" use="optional">
+				<xsd:annotation>
+					<xsd:documentation>
+						The version of a Pathway (currently not used in WP).
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
 
 			<xsd:attribute name="license" type="xsd:string" use="optional">
 				<xsd:annotation>
@@ -524,8 +518,6 @@
 
 		<xsd:attributeGroup ref="gpml:IdentifierRefGroup" />
 
-		<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
-
 		<xsd:attribute name="type" default="Unknown">
 			<!-- Basic GPML types are:
 				"Protein", "Rna", "GeneProduct", "Metabolite", "Pathway" and "Unknown".
@@ -577,13 +569,13 @@
 		<xsd:attributeGroup ref="gpml:RelativeCoordinates" />
 		<!-- Graphics related attributes-->
 		<xsd:attributeGroup ref="gpml:DimensionAttributes"/>
+		<xsd:attributeGroup ref="gpml:FontAttributes" />
 		<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
 		<!-- End Graphics related attributes-->
 
 		<xsd:attributeGroup ref="gpml:IdentifierGroup" />
 
 		<xsd:attribute name="elementRef" type="xsd:IDREF" use="required" />
-		<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
 
 		<xsd:attribute name="stateType" type="xsd:string" default="Unknown"/>
 		<!-- Biological modification type. suggested values: Phosphorylated, Glycosylated, Activated, ... !-->
@@ -695,7 +687,6 @@
 
 		<xsd:attributeGroup ref="gpml:IdentifierRefGroup" />
 
-		<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
 	</xsd:complexType>
 
 
@@ -726,7 +717,9 @@
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
+
 		<xsd:attributeGroup ref="gpml:LineAttributes" />
+
 		<xsd:attribute name="fillColor" type="gpml:ColorType" default="Transparent">
 			<xsd:annotation>
 				<xsd:documentation>
@@ -741,8 +734,7 @@
 
 		<xsd:attributeGroup ref="gpml:IdentifierRefGroup" />
 
-		<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
-		<xsd:attribute name="groupAliasRef " use="required" type="xsd:IDREF"/>
+		<xsd:attribute name="groupAliasRef" use="required" type="xsd:IDREF"/>
 	</xsd:complexType>
 
 	<!--
@@ -769,10 +761,8 @@
 		<xsd:attribute name="rotation" type="gpml:RotationType" default="Top" />
 		<!-- End Graphics related attributes-->
 
-		<!-- TODO: does a shape need a publication xref? -->
 		<xsd:attributeGroup ref="gpml:IdentifierRefGroup" />
 
-		<xsd:attribute name="textLabel" use="optional" type="xsd:string"/>
 	</xsd:complexType>
 
 	<!-- End: Shape -->
@@ -796,11 +786,6 @@
 			<xsd:group ref="gpml:CommentGroup" />
 		</xsd:sequence>
 
-		<!-- TODO: remove - replace with elementID -->
-		<!--<xsd:attribute name="groupId" type="xsd:string" use="optional" >
-		</xsd:attribute>-->
-
-		<!-- TODO: can a group be part of a group? -->
 		<xsd:attributeGroup ref="gpml:IdentifierRefGroup" />
 
 		<!-- renamed to groupType -->
@@ -822,7 +807,6 @@
 				</xsd:union>
 			</xsd:simpleType>
 		</xsd:attribute>
-		<xsd:attribute name="textLabel" type="xsd:string" use="optional" />
 	</xsd:complexType>
 	<!-- End: Group -->
 
@@ -905,7 +889,6 @@
 				<xsd:complexType>
 					<xsd:attribute name="term" type="xsd:string" use="required"/>
 					<xsd:attribute name="ontology" type="xsd:string" use="required"/>
-					<!-- TODO: use ontologyTermID to refer to ontology terms -->
 					<xsd:attribute name="ontologyTermID" type="xsd:string" use="required" />
 				</xsd:complexType>
 			</xsd:element>
@@ -960,12 +943,35 @@
 		</xsd:attribute>
 		<xsd:attributeGroup ref="gpml:IdentifierGroup" />
 		<!-- Note: only the arrowHead attribute on first and last points are used, the rest is ignored. !-->
-		<xsd:attribute name="arrowHead" default="Line" type="xsd:string">
+		<xsd:attribute name="arrowHead" default="Line">
 			<xsd:annotation>
 				<xsd:documentation>
 					Specifies the glyph at the ends of lines and interactions.
 				</xsd:documentation>
 			</xsd:annotation>
+            <xsd:simpleType>
+                <xsd:union>
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="Line"/>
+                            <xsd:enumeration value="Arrow"/>
+                            <xsd:enumeration value="TBar"/>
+                            <xsd:enumeration value="mim-necessary-stimulation"/>
+                            <xsd:enumeration value="mim-binding"/>
+                            <xsd:enumeration value="mim-conversion"/>
+                            <xsd:enumeration value="mim-stimulation"/>
+                            <xsd:enumeration value="mim-catalysis"/>
+                            <xsd:enumeration value="mim-modification"/>
+                            <xsd:enumeration value="mim-inhibition"/>
+                            <xsd:enumeration value="mim-covalent-bond"/>
+                            <xsd:enumeration value="mim-transcription-translation"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string"/>
+                    </xsd:simpleType>
+                </xsd:union>
+            </xsd:simpleType>
 		</xsd:attribute>
 	</xsd:complexType>
 
