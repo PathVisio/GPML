@@ -188,6 +188,52 @@
 		</xs:sequence>
 	</xs:group>
 
+	<!-- Anchor -->
+	<xs:complexType name="AnchorType">
+		<xs:attribute name="Position" type="xs:float" use="required" />
+		<xs:attribute name="GraphId" type="xs:ID" use="optional" />
+		<xs:attribute name="Shape" default="None" type="xs:string" />
+	</xs:complexType>
+	<!--
+	<xs:group name="AnchorGroup">
+		<xs:sequence>
+			<xs:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:attribute name="Position" type="xs:float" use="required" />
+					<xs:attribute name="GraphId" type="xs:ID" use="optional" />
+					<xs:attribute name="Shape" default="None" type="xs:string" />
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	-->
+	<!-- End: Anchor -->
+
+	<!-- Point -->
+	<xs:group name="PointGroup">
+		<xs:sequence>
+			<xs:element name="Point" minOccurs="2" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:attribute name="X" type="xs:float" use="required" />
+					<xs:attribute name="Y" type="xs:float" use="required" />
+					<!-- relX and relY are the coordinates used when
+					a point is linked to another object (when GraphRef
+					is defined). They represent he coordinates of the
+					point relative to the object that it's linked to, where
+					0,0 lies at the center of the object and 1,1 at the bottom-right
+					corner -->
+					<xs:attribute name="RelX" type="xs:float" use="optional" />
+					<xs:attribute name="RelY" type="xs:float" use="optional" />
+					<xs:attribute name="GraphRef" type="xs:IDREF" use="optional" />
+					<xs:attribute name="GraphId" type="xs:ID" use="optional" />
+					<!-- Note: only the ArrowHead attribute on first and last points are used, the rest is ignored. !-->
+					<xs:attribute name="ArrowHead" default="Line" type="xs:string" />
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	<!-- End: Point -->
+
 	<!-- DataNode -->
 	<!-- DataNode is the old GeneProduct, a gene in GenMAPP
 			terminology. -->
@@ -288,31 +334,11 @@
 			<xs:element name="Graphics" minOccurs="1" maxOccurs="1">
 				<xs:complexType>
 					<xs:sequence>
-						<xs:element name="Point" minOccurs="2" maxOccurs="unbounded">
-							<xs:complexType>
-								<xs:attribute name="X" type="xs:float" use="required" />
-								<xs:attribute name="Y" type="xs:float" use="required" />
-								<!-- relX and relY are the coordinates used when
-								a point is linked to another object (when GraphRef
-								is defined). They represent he coordinates of the
-								point relative to the object that it's linked to, where
-								0,0 lies at the center of the object and 1,1 at the bottom-right
-								corner -->
-								<xs:attribute name="RelX" type="xs:float" use="optional" />
-								<xs:attribute name="RelY" type="xs:float" use="optional" />
-								<xs:attribute name="GraphRef" type="xs:IDREF" use="optional" />
-								<xs:attribute name="GraphId" type="xs:ID" use="optional" />
-								<!-- Note: only the ArrowHead attribute on first and last points are used, the rest is ignored. !-->
-								<xs:attribute name="ArrowHead" default="Line" type="xs:string" />
-							</xs:complexType>
-						</xs:element>
-						<xs:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
-							<xs:complexType>
-								<xs:attribute name="Position" type="xs:float" use="required" />
-								<xs:attribute name="GraphId" type="xs:ID" use="optional" />
-								<xs:attribute name="Shape" default="None" type="xs:string" />
-							</xs:complexType>
-						</xs:element>
+						<xs:group ref="gpml:PointGroup"/>
+						<!--
+						<xs:group ref="gpml:AnchorGroup"/>
+						-->
+						<xs:element name="Anchor" type="gpml:AnchorType" minOccurs="0" maxOccurs="unbounded"/>
 					</xs:sequence>
 					<xs:attribute name="Color" type="gpml:ColorType" default="Black" />
 					<xs:attribute name="LineThickness" type="xs:float"/> 
@@ -335,31 +361,11 @@
 			<xs:element name="Graphics" minOccurs="1" maxOccurs="1">
 				<xs:complexType>
 					<xs:sequence>
-						<xs:element name="Point" minOccurs="2" maxOccurs="unbounded">
-							<xs:complexType>
-								<xs:attribute name="X" type="xs:float" use="required" />
-								<xs:attribute name="Y" type="xs:float" use="required" />
-								<!-- relX and relY are the coordinates used when
-									a point is linked to another object (when GraphRef
-									is defined). They represent he coordinates of the
-									point relative to the object that it's linked to, where
-									0,0 lies at the center of the object and 1,1 at the bottom-right
-									corner -->
-							<xs:attribute name="RelX" type="xs:float" use="optional" />
-							<xs:attribute name="RelY" type="xs:float" use="optional" />
-							<xs:attribute name="GraphRef" type="xs:IDREF" use="optional" />
-							<xs:attribute name="GraphId" type="xs:ID" use="optional" />
-							<!-- Note: only the ArrowHead attribute on first and last points are used, the rest is ignored. !-->
-							<xs:attribute name="ArrowHead" default="Line" type="xs:string" />
-						</xs:complexType>
-						</xs:element>
-						<xs:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
-							<xs:complexType>
-								<xs:attribute name="Position" type="xs:float" use="required" />
-								<xs:attribute name="GraphId" type="xs:ID" use="optional" />
-								<xs:attribute name="Shape" default="None" type="xs:string" />
-							</xs:complexType>
-						</xs:element>
+						<xs:group ref="gpml:PointGroup"/>
+						<!--
+						<xs:group ref="gpml:AnchorGroup"/>
+						-->
+						<xs:element name="Anchor" type="gpml:AnchorType" minOccurs="0" maxOccurs="unbounded"/>
 					</xs:sequence>
 					<xs:attribute name="Color" type="gpml:ColorType" default="Black" />
 					<xs:attribute name="LineThickness" type="xs:float"/> 

@@ -93,7 +93,7 @@
 			     It's not possible to specify a name of "rdf:id" here, so our actual GPML
 			     will always fail when validated against any XSD.
 			     -->
-			<xs:attribute ref="rdf:ID"/>
+			<xs:attribute ref="rdf:id"/>
 		</xs:complexType>
 	</xs:element>
 	
