@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://pathvisio.org/GPML/2013b"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"
+	xmlns:gpml="http://pathvisio.org/GPML/2013b"
+	elementFormDefault="qualified"
+	>
+
+	<!-- Graphical Pathway Markup Language version 2013b -->
+
+	<!--
+	 ==============================================================
+		Includes and Imports
+		============================================================== 
+	-->
+	<xs:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="./rdf.xsd"/>
+	<xs:import namespace="http://www.biopax.org/release/biopax-level3.owl#" schemaLocation="./GPML2013b-BioPAX.xsd"/>
+
+	<!-- Type Definitions -->	
+	<xs:attributeGroup name="FontAttributes">
+		<xs:attribute name="FontName" default="Arial"
+			type="xs:string"/>
+		<xs:attribute name="FontStyle" default="Normal">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Normal"/>
+					<xs:enumeration value="Italic"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="FontDecoration" default="Normal">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Normal"/>
+					<xs:enumeration value="Underline"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="FontStrikethru" default="Normal">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Normal"/>
+					<xs:enumeration value="Strikethru"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="FontWeight" default="Normal">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Normal"/>
+					<xs:enumeration value="Bold"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="FontSize" type="xs:nonNegativeInteger"
+			default="12"/>
+		<xs:attribute name="Align" default="Center">
+			<!-- Horizontal alignment -->
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Left"/>
+					<xs:enumeration value="Center"/>
+					<xs:enumeration value="Right"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="Valign" default="Top">
+			<!-- Vertical alignment -->
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Top"/>
+					<xs:enumeration value="Middle"/>
+					<xs:enumeration value="Bottom"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:attributeGroup>
+
+	<xs:attributeGroup name="RectAttributes">
+		<xs:attribute name="CenterX" type="xs:float" use="required"/>
+		<xs:attribute name="CenterY" type="xs:float" use="required"/>
+		<xs:attribute name="Width" type="gpml:Dimension" use="required" />
+		<xs:attribute name="Height" type="gpml:Dimension" use="required" />
+	</xs:attributeGroup>
+
+	<xs:attributeGroup name="ShapeStyleAttributes">
+		<xs:attribute name="Color" type="gpml:ColorType" default="Black"/>
+		<xs:attribute name="LineStyle" type="gpml:StyleType" default="Solid" />
+		<xs:attribute name="LineThickness" type="xs:float" default="1.0" />
+	</xs:attributeGroup>
+
+	<!-- a rotation is either a float value or a string for each of the four right angles !-->
+	<xs:simpleType name="RotationType">
+		<xs:union>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Top"/> <!-- rotation of 0.0 !-->
+					<xs:enumeration value="Right"/> <!-- rotation of 1/2 pi !-->
+					<xs:enumeration value="Bottom"/> <!-- rotation of 1 pi !-->
+					<xs:enumeration value="Left"/> <!-- rotation of 3/2 pi !-->
+				</xs:restriction>
+			</xs:simpleType>
+			<xs:simpleType>
+				<xs:restriction base="xs:float"/> <!-- rotation is always measured in radians !-->
+			</xs:simpleType>
+		</xs:union>
+	</xs:simpleType>
+
+	<xs:simpleType name="ColorType">
+		<xs:union>
+			<xs:simpleType>
+				<xs:restriction base="xs:hexBinary"/>
+			</xs:simpleType>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Aqua"/>
+					<xs:enumeration value="Black"/>
+					<xs:enumeration value="Blue"/>
+					<xs:enumeration value="Fuchsia"/>
+					<xs:enumeration value="Gray"/>
+					<xs:enumeration value="Green"/>
+					<xs:enumeration value="Lime"/>
+					<xs:enumeration value="Maroon"/>
+					<xs:enumeration value="Navy"/>
+					<xs:enumeration value="Olive"/>
+					<xs:enumeration value="Purple"/>
+					<xs:enumeration value="Red"/>
+					<xs:enumeration value="Silver"/>
+					<xs:enumeration value="Teal"/>
+					<xs:enumeration value="White"/>
+					<xs:enumeration value="Yellow"/>
+					<xs:enumeration value="Transparent"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:union>
+	</xs:simpleType>
+
+	<xs:simpleType name="StyleType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Solid"/>
+			<xs:enumeration value="Broken"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!-- use Dimension for width and height, they can't be nagative !-->
+	<xs:simpleType name="Dimension">
+		<xs:restriction base="xs:float">
+			<xs:minInclusive value="0" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!-- One or more comments - bundles GenMAPP notes and GenMAPP remarks together !-->
+	<xs:group name="CommentGroup">
+		<xs:sequence>
+			<xs:element name="Comment" minOccurs="0"
+				maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="Source" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="PublicationXref" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:attribute name="ID" type="xs:string" use="required"/>
+					<xs:attribute name="Database" type="xs:string" use="required"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="BiopaxRef" minOccurs="0"
+				maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string"/>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Attribute" minOccurs="0"
+				maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:attribute name="Key" type="xs:string" use="required"/>
+					<xs:attribute name="Value" type="xs:string" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+
+	<!-- Anchor -->
+	<xs:complexType name="AnchorType">
+		<xs:attribute name="Position" type="xs:float" use="required" />
+		<xs:attribute name="GraphId" type="xs:ID" use="optional" />
+		<xs:attribute name="Shape" default="None" type="xs:string" />
+	</xs:complexType>
+	<!--
+	<xs:group name="AnchorGroup">
+		<xs:sequence>
+			<xs:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:attribute name="Position" type="xs:float" use="required" />
+					<xs:attribute name="GraphId" type="xs:ID" use="optional" />
+					<xs:attribute name="Shape" default="None" type="xs:string" />
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	-->
+	<!-- End: Anchor -->
+
+	<!-- Point -->
+	<xs:group name="PointGroup">
+		<xs:sequence>
+			<xs:element name="Point" minOccurs="2" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:attribute name="X" type="xs:float" use="required" />
+					<xs:attribute name="Y" type="xs:float" use="required" />
+					<!-- relX and relY are the coordinates used when
+					a point is linked to another object (when GraphRef
+					is defined). They represent he coordinates of the
+					point relative to the object that it's linked to, where
+					0,0 lies at the center of the object and 1,1 at the bottom-right
+					corner -->
+					<xs:attribute name="RelX" type="xs:float" use="optional" />
+					<xs:attribute name="RelY" type="xs:float" use="optional" />
+					<xs:attribute name="GraphRef" type="xs:IDREF" use="optional" />
+					<xs:attribute name="GraphId" type="xs:ID" use="optional" />
+					<!-- Note: only the ArrowHead attribute on first and last points are used, the rest is ignored. !-->
+					<xs:attribute name="ArrowHead" default="Line" type="xs:string" />
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	<!-- End: Point -->
+
+	<!-- DataNode -->
+	<!-- DataNode is the old GeneProduct, a gene in GenMAPP
+			terminology. -->
+	<xs:complexType name="DataNodeType">
+		<xs:sequence>
+			<xs:group ref="gpml:CommentGroup"/>
+			<xs:element name="Graphics" minOccurs="1" maxOccurs="1">
+				<xs:complexType>
+					<xs:attributeGroup ref="gpml:RectAttributes"/>
+					<xs:attributeGroup ref="gpml:FontAttributes"/>
+					<xs:attributeGroup ref="gpml:ShapeStyleAttributes"/>
+					<xs:attribute name="FillColor" type="gpml:ColorType" default="White"/>
+					<xs:attribute name="ShapeType" type="xs:string" default="Rectangle"/>
+					<xs:attribute name="ZOrder" type="xs:integer" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Xref" minOccurs="1" maxOccurs="1">
+				<xs:complexType>
+					<xs:attribute name="Database" type="xs:string" use="required"/>
+					<xs:attribute name="ID" type="xs:string" use="required"/>						
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+
+		<xs:attribute name="GraphId" type="xs:ID" use="optional" />
+		<xs:attribute name="GroupRef" type="xs:string" use="optional" />
+
+		<xs:attribute name="TextLabel" use="required" type="xs:string"/>
+
+		<xs:attribute name="Type" default="Unknown">
+			<xs:simpleType>
+				<xs:union>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<!--
+							These are the values used at WikiPathways.
+							You can use any string, but we recommend
+							that you use these values whenever possible.
+							-->
+							<xs:enumeration value="Unknown"/>
+							<xs:enumeration value="Rna"/>
+							<xs:enumeration value="Protein"/>
+							<xs:enumeration value="Complex"/>
+							<xs:enumeration value="GeneProduct"/>
+							<xs:enumeration value="Metabolite"/>
+							<xs:enumeration value="Pathway"/>
+						</xs:restriction>
+					</xs:simpleType>
+					<xs:simpleType>
+						<xs:restriction base="xs:string"/>
+					</xs:simpleType>
+				</xs:union>
+			</xs:simpleType>
+		</xs:attribute>
+
+	</xs:complexType>
+	<!-- End: DataNode -->
+
+	<!-- State -->
+	<xs:complexType name="StateType">
+		<xs:sequence>
+			<xs:group ref="gpml:CommentGroup"/>
+			<xs:element name="Graphics" minOccurs="1" maxOccurs="1">
+				<xs:complexType>
+					<xs:attribute name="RelX" type="xs:float" use="required"/>
+					<xs:attribute name="RelY" type="xs:float" use="required"/>
+					<xs:attribute name="Width" type="gpml:Dimension" use="required" />
+					<xs:attribute name="Height" type="gpml:Dimension" use="required" />
+					<xs:attributeGroup ref="gpml:ShapeStyleAttributes"/>
+					<xs:attribute name="FillColor" type="gpml:ColorType" default="White"/>
+					<xs:attribute name="ShapeType" type="xs:string" default="Rectangle"/>
+					<xs:attribute name="ZOrder" type="xs:integer" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Xref" minOccurs="0" maxOccurs="1">
+				<xs:complexType>
+					<xs:attribute name="Database" type="xs:string" use="required"/>
+					<xs:attribute name="ID" type="xs:string" use="required"/>						
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+
+		<xs:attribute name="GraphId" type="xs:ID" use="optional" />
+		<xs:attribute name="GraphRef" type="xs:IDREF" use="optional" />
+
+		<xs:attribute name="TextLabel" use="required" type="xs:string"/>
+
+		<xs:attribute name="StateType" type="xs:string" default="Unknown"/>
+		<!-- Biological modification type. suggested values: Phosphorylated, Glycosylated, Activated, ... !-->
+
+	</xs:complexType>
+	<!-- End: State -->
+
+	<!-- Graphical Line -->
+	<xs:complexType name="GraphicalLineType">
+		<xs:sequence>
+			<xs:group ref="gpml:CommentGroup" />
+			<xs:element name="Graphics" minOccurs="1" maxOccurs="1">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:group ref="gpml:PointGroup"/>
+						<!--
+						<xs:group ref="gpml:AnchorGroup"/>
+						-->
+						<xs:element name="Anchor" type="gpml:AnchorType" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+					<xs:attribute name="Color" type="gpml:ColorType" default="Black" />
+					<xs:attribute name="LineThickness" type="xs:float"/> 
+					<xs:attribute name="LineStyle" type="gpml:StyleType" default="Solid" />
+					<xs:attribute name="ConnectorType" type="xs:string" use="optional" default="Straight"/>
+					<xs:attribute name="ZOrder" type="xs:integer" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="GroupRef" type="xs:string" use="optional" />
+		<xs:attribute name="GraphId" type="xs:ID" use="optional" />
+		<xs:attribute name="Type" type="xs:string" use="optional" />
+	</xs:complexType>
+	<!-- End: Graphical Line -->
+
+	<!-- Interaction -->
+	<xs:complexType name="InteractionType">
+		<xs:sequence>
+			<xs:group ref="gpml:CommentGroup" />
+			<xs:element name="Graphics" minOccurs="1" maxOccurs="1">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:group ref="gpml:PointGroup"/>
+						<!--
+						<xs:group ref="gpml:AnchorGroup"/>
+						-->
+						<xs:element name="Anchor" type="gpml:AnchorType" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+					<xs:attribute name="Color" type="gpml:ColorType" default="Black" />
+					<xs:attribute name="LineThickness" type="xs:float"/> 
+					<xs:attribute name="LineStyle" type="gpml:StyleType" default="Solid" />
+					<xs:attribute name="ConnectorType" type="xs:string" use="optional" default="Straight"/>
+					<xs:attribute name="ZOrder" type="xs:integer" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Xref" minOccurs="1" maxOccurs="1">
+				<xs:complexType>
+					<xs:attribute name="Database" type="xs:string" use="required"/>
+					<xs:attribute name="ID" type="xs:string" use="required"/>						
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="GroupRef" type="xs:string" use="optional" />
+		<xs:attribute name="GraphId" type="xs:ID" use="optional" />
+		<xs:attribute name="Type" type="xs:string" use="optional" />
+	</xs:complexType>
+	<!-- End: Interaction -->
+
+	<!-- Label -->
+	<xs:complexType name="LabelType">
+		<!--  This is text on a GenMAPP map that
+			can have associated comments. -->
+
+		<xs:sequence>
+
+			<xs:group ref="gpml:CommentGroup"/>
+
+			<xs:element name="Graphics" minOccurs="1" maxOccurs="1">
+				<xs:complexType>
+					<xs:attributeGroup ref="gpml:RectAttributes"/>
+					<xs:attributeGroup ref="gpml:FontAttributes" />
+					<xs:attributeGroup ref="gpml:ShapeStyleAttributes" />
+					<xs:attribute name="FillColor" type="gpml:ColorType" default="Transparent"/>
+					<xs:attribute name="ShapeType" type="xs:string" default="None"/>
+					<xs:attribute name="ZOrder" type="xs:integer" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+
+		</xs:sequence>
+
+		<!-- for a reference to a url !-->
+		<xs:attribute name="Href" use="optional" type="xs:string" />
+
+		<xs:attribute name="GraphId" type="xs:ID" use="optional" />
+		<xs:attribute name="GroupRef" type="xs:string" use="optional" />
+
+		<xs:attribute name="TextLabel" use="required" type="xs:string"/>			
+	</xs:complexType>
+	<!-- End: Label -->
+
+	<!-- Shape -->
+	<xs:complexType name="ShapeType">
+
+		<xs:sequence>
+
+			<xs:group ref="gpml:CommentGroup" />
+
+			<xs:element name="Graphics" minOccurs="1" maxOccurs="1">
+				<xs:complexType>
+					<xs:attributeGroup ref="gpml:RectAttributes"/>
+					<xs:attributeGroup ref="gpml:FontAttributes" />
+					<xs:attributeGroup ref="gpml:ShapeStyleAttributes" />
+					<xs:attribute name="FillColor" type="gpml:ColorType" default="Transparent"/>
+					<xs:attribute name="ShapeType" type="xs:string" use="required"/>
+					<xs:attribute name="ZOrder" type="xs:integer" use="optional"/>
+					<xs:attribute name="Rotation" type="gpml:RotationType" default="Top" />
+				</xs:complexType>
+			</xs:element>
+
+		</xs:sequence>
+
+		<xs:attribute name="GraphId" type="xs:ID" use="optional" />
+		<xs:attribute name="GroupRef" type="xs:string" use="optional" />
+
+		<xs:attribute name="TextLabel" use="optional" type="xs:string"/>
+
+	</xs:complexType>
+	<!-- End: Shape -->
+
+	<!-- Group -->
+	<xs:complexType name="GroupType">
+		<xs:sequence>
+			<xs:group ref="gpml:CommentGroup" />
+		</xs:sequence>
+		<xs:attribute name="GroupId" type="xs:string" use="required" />
+		<xs:attribute name="GroupRef" type="xs:string"
+			use="optional" />
+		<xs:attribute name="Style" type="xs:string" default="None" />
+		<xs:attribute name="TextLabel" type="xs:string"
+			use="optional" />
+		<xs:attribute name="GraphId" type="xs:ID" use="optional" />
+	</xs:complexType>
+
+	<!-- InfoBox -->
+	<!-- InfoBox element holds the
+		coordinates on the GenMAPP layout where the Information kept in the
+		Info table will be displayed in the mapp. -->
+	<xs:complexType name="InfoBoxType">
+		<xs:attribute name="CenterX" type="xs:float" use="required"/>
+		<xs:attribute name="CenterY" type="xs:float" use="required"/>
+	</xs:complexType>
+	<!-- End: InfoBox -->
+
+	<!-- Legend -->
+	<xs:complexType name="LegendType">
+		<xs:attribute name="CenterX" type="xs:float" use="required"/>
+		<xs:attribute name="CenterY" type="xs:float" use="required"/>
+	</xs:complexType>
+	<!-- End: Legend -->
+
+	<!-- Biopax -->
+	<xs:complexType name="BiopaxType">
+		<xs:sequence>
+			<xs:any namespace="http://www.biopax.org/release/biopax-level3.owl#"
+				minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="bp:PublicationXref" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="bp:openControlledVocabulary" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- End: Biopax -->
+
+	<!-- End: Type Definitions -->
+
+	<!-- Pathway -->
+	<xs:element name="Pathway">
+		<xs:complexType>
+			<xs:sequence>
+
+				<xs:group ref="gpml:CommentGroup"/>
+
+				<xs:element name="Graphics" minOccurs="0" maxOccurs="1">
+					<xs:complexType>
+						<xs:attribute name="BoardWidth" type="gpml:Dimension"
+							use="required"/>
+						<xs:attribute name="BoardHeight" type="gpml:Dimension"
+							use="required"/>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="DataNode" type="gpml:DataNodeType" minOccurs="0" maxOccurs="unbounded"/>
+
+				<xs:element name="State" type="gpml:StateType" minOccurs="0" maxOccurs="unbounded"/>
+
+				<xs:element name="Interaction" type="gpml:InteractionType" minOccurs="0" maxOccurs="unbounded"/>
+
+				<xs:element name="GraphicalLine" type="gpml:GraphicalLineType" minOccurs="0" maxOccurs="unbounded"/>
+
+				<xs:element name="Label" type="gpml:LabelType" minOccurs="0" maxOccurs="unbounded"/>
+
+				<xs:element name="Shape" type="gpml:ShapeType" minOccurs="0" maxOccurs="unbounded"/>
+
+				<xs:element name="Group" type="gpml:GroupType" minOccurs="0" maxOccurs="unbounded"/>
+
+				<xs:element name="InfoBox" type="gpml:InfoBoxType" minOccurs="1" maxOccurs="1" />
+
+				<xs:element name="Legend" type="gpml:LegendType" minOccurs="0" maxOccurs="1"/>
+
+				<xs:element name="Biopax" type="gpml:BiopaxType" minOccurs="0" maxOccurs="1"/>
+
+			</xs:sequence>
+
+			<xs:attribute name="Name" type="xs:string" use="required">
+				<!--  GenMAPP Pathway Title -->
+			</xs:attribute>
+
+			<xs:attribute name="Organism" type="xs:string" use="optional">
+				<!-- Organism is not a field in the
+						GenMAPP database at this time, but we want to preserve this
+						information when importing maps, and also when exporting maps.
+						GenMAPP maps have the organism implied from the
+						filename. -->
+			</xs:attribute>
+
+			<xs:attribute name="Data-Source" type="xs:string" use="optional">
+				<!-- On import to GenMAPP,
+						Data-Source value could be 'KEGG', 'Cytoscape', etc.  On export
+						from GenMAPP, value should be 'GenMAPP' with version
+						number. -->
+			</xs:attribute>
+
+			<xs:attribute name="Version" type="xs:string" use="optional">
+				<!-- GenMAPP version, use for export
+					of maps from GenMAPP only. -->
+			</xs:attribute>
+
+			<xs:attribute name="Author" type="xs:string" use="optional"/>
+
+			<xs:attribute name="Maintainer" type="xs:string" use="optional"/>
+
+			<xs:attribute name="Email" type="xs:string" use="optional"/>
+
+			<xs:attribute name="License" type="xs:string" use="optional"/>
+
+			<xs:attribute name="Last-Modified" type="xs:string" use="optional">
+				<!-- Last modification date, in the form of YYYYMMDD -->
+			</xs:attribute>
+
+		</xs:complexType>
+	</xs:element>
+	<!-- End: Pathway -->
+	
+</xs:schema>

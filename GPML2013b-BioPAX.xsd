@@ -8,9 +8,9 @@
 	elementFormDefault="qualified"
 	>
 
-	<!-- BioPAX as used in Graphical Pathway Markup Language version 2013a
+	<!-- BioPAX as used in Graphical Pathway Markup Language version 2013b
 
-		BioPAX as used in GPML2013a differs from BioPAX Level 3 (http://www.biopax.org/release/biopax-level3.owl#)
+		BioPAX as used in GPML2013b differs from BioPAX Level 3 (http://www.biopax.org/release/biopax-level3.owl#)
 		in several ways, such as:
 		* "openControlledVocabulary" is not in BioPAX Level 3 (it is in Level 2). Level 3 does have "ControlledVocabulary".
 			http://biopax.org/owldoc/Level2/classes/openControlledVocabulary___928462216.html
