@@ -151,9 +151,9 @@
 		</xs:restriction>
 	</xs:simpleType>
 
-	<!-- One or more comments - bundles GenMAPP notes and GenMAPP remarks together !-->
-	<xs:group name="CommentGroup">
+	<xs:group name="CommentEtcGroup">
 		<xs:sequence>
+			<!-- One or more comments - bundles GenMAPP notes and GenMAPP remarks together !-->
 			<xs:element name="Comment" minOccurs="0"
 				maxOccurs="unbounded">
 				<xs:complexType>
@@ -188,40 +188,19 @@
 		</xs:sequence>
 	</xs:group>
 
-	<!-- Anchor -->
-	<xs:complexType name="AnchorType">
-		<xs:attribute name="Position" type="xs:float" use="required" />
-		<xs:attribute name="GraphId" type="xs:ID" use="optional" />
-		<xs:attribute name="Shape" default="None" type="xs:string" />
-	</xs:complexType>
-	<!--
-	<xs:group name="AnchorGroup">
-		<xs:sequence>
-			<xs:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
-				<xs:complexType>
-					<xs:attribute name="Position" type="xs:float" use="required" />
-					<xs:attribute name="GraphId" type="xs:ID" use="optional" />
-					<xs:attribute name="Shape" default="None" type="xs:string" />
-				</xs:complexType>
-			</xs:element>
-		</xs:sequence>
-	</xs:group>
-	-->
-	<!-- End: Anchor -->
-
-	<!-- Point -->
-	<xs:group name="PointGroup">
+	<!-- EdgeGraphics -->
+	<xs:complexType name="EdgeGraphicsType">
 		<xs:sequence>
 			<xs:element name="Point" minOccurs="2" maxOccurs="unbounded">
 				<xs:complexType>
 					<xs:attribute name="X" type="xs:float" use="required" />
 					<xs:attribute name="Y" type="xs:float" use="required" />
 					<!-- relX and relY are the coordinates used when
-					a point is linked to another object (when GraphRef
-					is defined). They represent he coordinates of the
-					point relative to the object that it's linked to, where
-					0,0 lies at the center of the object and 1,1 at the bottom-right
-					corner -->
+						a point is linked to another object (when GraphRef
+						is defined). They represent he coordinates of the
+						point relative to the object that it's linked to, where
+						0,0 lies at the center of the object and 1,1 at the bottom-right
+						corner -->
 					<xs:attribute name="RelX" type="xs:float" use="optional" />
 					<xs:attribute name="RelY" type="xs:float" use="optional" />
 					<xs:attribute name="GraphRef" type="xs:IDREF" use="optional" />
@@ -230,16 +209,28 @@
 					<xs:attribute name="ArrowHead" default="Line" type="xs:string" />
 				</xs:complexType>
 			</xs:element>
+			<xs:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:attribute name="Position" type="xs:float" use="required" />
+					<xs:attribute name="GraphId" type="xs:ID" use="optional" />
+					<xs:attribute name="Shape" default="None" type="xs:string" />
+				</xs:complexType>
+			</xs:element>
 		</xs:sequence>
-	</xs:group>
-	<!-- End: Point -->
+		<xs:attribute name="Color" type="gpml:ColorType" default="Black" />
+		<xs:attribute name="LineThickness" type="xs:float"/> 
+		<xs:attribute name="LineStyle" type="gpml:StyleType" default="Solid" />
+		<xs:attribute name="ConnectorType" type="xs:string" use="optional" default="Straight"/>
+		<xs:attribute name="ZOrder" type="xs:integer" use="optional"/>
+	</xs:complexType>
+	<!-- End: EdgeGraphics -->
 
 	<!-- DataNode -->
 	<!-- DataNode is the old GeneProduct, a gene in GenMAPP
 			terminology. -->
 	<xs:complexType name="DataNodeType">
 		<xs:sequence>
-			<xs:group ref="gpml:CommentGroup"/>
+			<xs:group ref="gpml:CommentEtcGroup"/>
 			<xs:element name="Graphics" minOccurs="1" maxOccurs="1">
 				<xs:complexType>
 					<xs:attributeGroup ref="gpml:RectAttributes"/>
@@ -295,7 +286,7 @@
 	<!-- State -->
 	<xs:complexType name="StateType">
 		<xs:sequence>
-			<xs:group ref="gpml:CommentGroup"/>
+			<xs:group ref="gpml:CommentEtcGroup"/>
 			<xs:element name="Graphics" minOccurs="1" maxOccurs="1">
 				<xs:complexType>
 					<xs:attribute name="RelX" type="xs:float" use="required"/>
@@ -330,23 +321,8 @@
 	<!-- Graphical Line -->
 	<xs:complexType name="GraphicalLineType">
 		<xs:sequence>
-			<xs:group ref="gpml:CommentGroup" />
-			<xs:element name="Graphics" minOccurs="1" maxOccurs="1">
-				<xs:complexType>
-					<xs:sequence>
-						<xs:group ref="gpml:PointGroup"/>
-						<!--
-						<xs:group ref="gpml:AnchorGroup"/>
-						-->
-						<xs:element name="Anchor" type="gpml:AnchorType" minOccurs="0" maxOccurs="unbounded"/>
-					</xs:sequence>
-					<xs:attribute name="Color" type="gpml:ColorType" default="Black" />
-					<xs:attribute name="LineThickness" type="xs:float"/> 
-					<xs:attribute name="LineStyle" type="gpml:StyleType" default="Solid" />
-					<xs:attribute name="ConnectorType" type="xs:string" use="optional" default="Straight"/>
-					<xs:attribute name="ZOrder" type="xs:integer" use="optional"/>
-				</xs:complexType>
-			</xs:element>
+			<xs:group ref="gpml:CommentEtcGroup" />
+			<xs:element name="Graphics" type="gpml:EdgeGraphicsType" minOccurs="1" maxOccurs="1" />
 		</xs:sequence>
 		<xs:attribute name="GroupRef" type="xs:string" use="optional" />
 		<xs:attribute name="GraphId" type="xs:ID" use="optional" />
@@ -357,23 +333,8 @@
 	<!-- Interaction -->
 	<xs:complexType name="InteractionType">
 		<xs:sequence>
-			<xs:group ref="gpml:CommentGroup" />
-			<xs:element name="Graphics" minOccurs="1" maxOccurs="1">
-				<xs:complexType>
-					<xs:sequence>
-						<xs:group ref="gpml:PointGroup"/>
-						<!--
-						<xs:group ref="gpml:AnchorGroup"/>
-						-->
-						<xs:element name="Anchor" type="gpml:AnchorType" minOccurs="0" maxOccurs="unbounded"/>
-					</xs:sequence>
-					<xs:attribute name="Color" type="gpml:ColorType" default="Black" />
-					<xs:attribute name="LineThickness" type="xs:float"/> 
-					<xs:attribute name="LineStyle" type="gpml:StyleType" default="Solid" />
-					<xs:attribute name="ConnectorType" type="xs:string" use="optional" default="Straight"/>
-					<xs:attribute name="ZOrder" type="xs:integer" use="optional"/>
-				</xs:complexType>
-			</xs:element>
+			<xs:group ref="gpml:CommentEtcGroup" />
+			<xs:element name="Graphics" type="gpml:EdgeGraphicsType" minOccurs="1" maxOccurs="1" />
 			<xs:element name="Xref" minOccurs="1" maxOccurs="1">
 				<xs:complexType>
 					<xs:attribute name="Database" type="xs:string" use="required"/>
@@ -394,7 +355,7 @@
 
 		<xs:sequence>
 
-			<xs:group ref="gpml:CommentGroup"/>
+			<xs:group ref="gpml:CommentEtcGroup"/>
 
 			<xs:element name="Graphics" minOccurs="1" maxOccurs="1">
 				<xs:complexType>
@@ -421,11 +382,8 @@
 
 	<!-- Shape -->
 	<xs:complexType name="ShapeType">
-
 		<xs:sequence>
-
-			<xs:group ref="gpml:CommentGroup" />
-
+			<xs:group ref="gpml:CommentEtcGroup" />
 			<xs:element name="Graphics" minOccurs="1" maxOccurs="1">
 				<xs:complexType>
 					<xs:attributeGroup ref="gpml:RectAttributes"/>
@@ -451,7 +409,7 @@
 	<!-- Group -->
 	<xs:complexType name="GroupType">
 		<xs:sequence>
-			<xs:group ref="gpml:CommentGroup" />
+			<xs:group ref="gpml:CommentEtcGroup" />
 		</xs:sequence>
 		<xs:attribute name="GroupId" type="xs:string" use="required" />
 		<xs:attribute name="GroupRef" type="xs:string"
@@ -497,7 +455,7 @@
 		<xs:complexType>
 			<xs:sequence>
 
-				<xs:group ref="gpml:CommentGroup"/>
+				<xs:group ref="gpml:CommentEtcGroup"/>
 
 				<xs:element name="Graphics" minOccurs="0" maxOccurs="1">
 					<xs:complexType>
