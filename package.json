@@ -1,0 +1,23 @@
+{
+  "name": "@wikipathways/gpml",
+  "version": "1.0.1",
+  "description": "Schemas and test cases for GPML XML file format.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariutta/GPML.git"
+  },
+  "keywords": [
+    "GPML",
+    "pathway",
+    "PathVisio"
+  ],
+  "author": "WikiPathways team",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ariutta/GPML/issues"
+  },
+  "homepage": "https://github.com/ariutta/GPML#readme"
+}
