@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" License="Freely available under Creative Commons license" Name="test case">
-  <Attribute Key="org.pathvisio.model.WindowHeight" Value="11190.0" />
-  <Attribute Key="org.pathvisio.model.WindowWidth" Value="15480.0" />
-  <Graphics BoardHeight="1214.0" BoardWidth="933.0" />
-  <InfoBox CenterX="15.0" CenterY="8.333333333333334" />
-</Pathway>
