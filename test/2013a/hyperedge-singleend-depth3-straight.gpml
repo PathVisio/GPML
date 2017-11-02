@@ -1,51 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="hyperedge-singleend-depth3-straight" Version="20130715" Organism="Anopheles gambiae">
-  <Comment Source="WikiPathways-description">This pathway can be deleted once release 36 is shipped.</Comment>
-  <Graphics BoardWidth="447.7009507346585" BoardHeight="372.4925040280843" />
-  <DataNode TextLabel="Catalyzer" GraphId="faa53" Type="GeneProduct">
-    <Graphics CenterX="233.22556206451424" CenterY="332.4925040280843" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+<?xml version='1.0' encoding='utf-8'?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="test case" Version="20130715">
+  <Graphics BoardHeight="372.4925040280843" BoardWidth="447.7009507346585" />
+  <DataNode GraphId="faa53" TextLabel="Catalyzer" Type="GeneProduct">
+    <Graphics CenterX="233.22556206451424" CenterY="332.4925040280843" FontSize="10" Height="20.0" Valign="Middle" Width="80.0" ZOrder="32768" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="Inhibitor1" GraphId="dde22" Type="GeneProduct">
-    <Graphics CenterX="377.7009507346585" CenterY="191.01123595505615" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+  <DataNode GraphId="dde22" TextLabel="Inhibitor1" Type="GeneProduct">
+    <Graphics CenterX="377.7009507346585" CenterY="191.01123595505615" FontSize="10" Height="20.0" Valign="Middle" Width="80.0" ZOrder="32768" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="Inhibitor2" GraphId="d93ba" Type="GeneProduct">
-    <Graphics CenterX="296.94900605012964" CenterY="271.019878997407" Width="80.0" Height="20.0" ZOrder="32769" FontSize="10" Valign="Middle" />
+  <DataNode GraphId="d93ba" TextLabel="Inhibitor2" Type="GeneProduct">
+    <Graphics CenterX="296.94900605012964" CenterY="271.019878997407" FontSize="10" Height="20.0" Valign="Middle" Width="80.0" ZOrder="32769" />
     <Xref Database="" ID="" />
   </DataNode>
   <Interaction GraphId="idaf905386">
-    <Graphics ZOrder="12288" LineThickness="1.0">
+    <Graphics LineThickness="1.0" ZOrder="12288">
       <Point X="160.09831016073218" Y="151.36848170556027" />
       <Point X="293.43164349406544" Y="151.36848170556024" />
-      <Anchor Position="0.5617283950617287" Shape="None" GraphId="e0874" />
+      <Anchor GraphId="e0874" Position="0.5617283950617287" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id28382a1c">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="233.22556206451424" Y="322.4925040280843" GraphRef="faa53" RelX="0.0" RelY="-1.0" />
-      <Point X="234.99542950229596" Y="151.36848170556024" GraphRef="e0874" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
-      <Anchor Position="0.7632149127793446" Shape="None" GraphId="e4378" />
+    <Graphics LineThickness="1.0" ZOrder="12288">
+      <Point GraphRef="faa53" RelX="0.0" RelY="-1.0" X="233.22556206451424" Y="322.4925040280843" />
+      <Point ArrowHead="mim-catalysis" GraphRef="e0874" RelX="0.0" RelY="0.0" X="234.99542950229596" Y="151.36848170556024" />
+      <Anchor GraphId="e4378" Position="0.7632149127793446" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idc088e267">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="337.7009507346585" Y="191.01123595505615" GraphRef="dde22" RelX="-1.0" RelY="0.0" />
-      <Point X="234.5763512866718" Y="191.88809825674846" GraphRef="e4378" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
-      <Anchor Position="0.4" Shape="None" GraphId="acbce" />
+    <Graphics LineThickness="1.0" ZOrder="12288">
+      <Point GraphRef="dde22" RelX="-1.0" RelY="0.0" X="337.7009507346585" Y="191.01123595505615" />
+      <Point ArrowHead="mim-inhibition" GraphRef="e4378" RelX="0.0" RelY="0.0" X="234.5763512866718" Y="191.88809825674846" />
+      <Anchor GraphId="acbce" Position="0.4" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id6d7f3bae">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="296.94900605012964" Y="261.019878997407" GraphRef="d93ba" RelX="0.0" RelY="-1.0" />
-      <Point X="296.45111095546383" Y="191.36198087573308" GraphRef="acbce" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    <Graphics LineThickness="1.0" ZOrder="12288">
+      <Point GraphRef="d93ba" RelX="0.0" RelY="-1.0" X="296.94900605012964" Y="261.019878997407" />
+      <Point ArrowHead="mim-inhibition" GraphRef="acbce" RelX="0.0" RelY="0.0" X="296.45111095546383" Y="191.36198087573308" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax />
 </Pathway>
-

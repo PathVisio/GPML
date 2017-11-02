@@ -1,29 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="hyperedge-singleend-depth1-segmented" Version="20130715" Organism="Anopheles gambiae">
-  <Comment Source="WikiPathways-description">This pathway can be deleted once release 36 is shipped.</Comment>
-  <Graphics BoardWidth="227.0819304152649" BoardHeight="199.57351290684608" />
-  <DataNode TextLabel="GeneProduct" GraphId="faa53" Type="GeneProduct">
-    <Graphics CenterX="157.0819304152649" CenterY="159.57351290684608" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+<?xml version='1.0' encoding='utf-8'?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="test case" Version="20130715">
+  <Graphics BoardHeight="199.57351290684608" BoardWidth="227.0819304152649" />
+  <DataNode GraphId="faa53" TextLabel="GeneProduct" Type="GeneProduct">
+    <Graphics CenterX="157.0819304152649" CenterY="159.57351290684608" FontSize="10" Height="20.0" Valign="Middle" Width="80.0" ZOrder="32768" />
     <Xref Database="" ID="" />
   </DataNode>
   <Interaction GraphId="idaf905386">
-    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+    <Graphics ConnectorType="Segmented" LineThickness="1.0" ZOrder="12288">
       <Point X="30.452674897119397" Y="66.6666666666666" />
       <Point X="94.54545454545453" Y="89.09090909090908" />
       <Point X="163.78600823045275" Y="66.66666666666659" />
-      <Anchor Position="0.7074315746170173" Shape="None" GraphId="e0874" />
+      <Anchor GraphId="e0874" Position="0.7074315746170173" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id28382a1c">
-    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
-      <Point X="157.0819304152649" Y="149.57351290684608" GraphRef="faa53" RelX="0.0" RelY="-1.0" />
+    <Graphics ConnectorType="Segmented" LineThickness="1.0" ZOrder="12288">
+      <Point GraphRef="faa53" RelX="0.0" RelY="-1.0" X="157.0819304152649" Y="149.57351290684608" />
       <Point X="158.18181818181816" Y="117.27272727272727" />
-      <Point X="124.62875863416231" Y="79.34813165911122" GraphRef="e0874" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+      <Point ArrowHead="mim-catalysis" GraphRef="e0874" RelX="0.0" RelY="0.0" X="124.62875863416231" Y="79.34813165911122" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax />
 </Pathway>
-
