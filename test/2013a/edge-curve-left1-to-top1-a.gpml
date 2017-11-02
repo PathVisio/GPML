@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="edge-curve-left1-to-top1-a" Version="20130813" Organism="Anopheles gambiae">
+  <Comment Source="WikiPathways-description">This pathway can be deleted once release 36 is shipped.</Comment>
+  <Graphics BoardWidth="1047.7865523249097" BoardHeight="783.1967827425314" />
+  <DataNode TextLabel="GeneProduct" GraphId="e1286" Type="GeneProduct">
+    <Graphics CenterX="212.62773588583175" CenterY="140.84692599240793" Width="80.0" Height="20.0" ZOrder="32996" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="0016" GraphId="c42ad" Type="GeneProduct">
+    <Graphics CenterX="84.55789552213477" CenterY="73.36536354459298" Width="80.0" Height="20.0" ZOrder="32997" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <Interaction GraphId="a6c76">
+    <Graphics ConnectorType="Curved" ZOrder="32995" LineThickness="1.0">
+      <Point X="44.55789552213477" Y="73.36536354459298" GraphRef="c42ad" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="212.62773588583175" Y="130.84692599240793" GraphRef="e1286" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax />
+</Pathway>
+

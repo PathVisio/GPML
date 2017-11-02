@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="test case" Version="20130813" Organism="Anopheles gambiae">
+  <Comment Source="WikiPathways-description">This pathway can be deleted once release 36 is shipped.</Comment>
+  <Graphics BoardWidth="263.5319777888035" BoardHeight="177.73163340840773" />
+  <DataNode TextLabel="GeneProduct" GraphId="a97fd" Type="GeneProduct">
+    <Graphics CenterX="193.5319777888035" CenterY="137.73163340840773" Width="80.0" Height="20.0" ZOrder="32987" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="0013" GraphId="c3303" Type="GeneProduct">
+    <Graphics CenterX="62.403019470276114" CenterY="70.3727956140714" Width="80.0" Height="20.0" ZOrder="32988" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <Interaction GraphId="fe51b">
+    <Graphics ConnectorType="Curved" ZOrder="32986" LineThickness="1.0">
+      <Point X="62.403019470276114" Y="80.3727956140714" GraphRef="c3303" RelX="0.0" RelY="1.0" ArrowHead="TBar" />
+      <Point X="233.5319777888035" Y="137.73163340840773" GraphRef="a97fd" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax />
+</Pathway>
+

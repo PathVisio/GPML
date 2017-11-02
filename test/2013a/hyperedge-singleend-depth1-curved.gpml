@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="hyperedge-singleend-depth1-curved" Version="20130715" Organism="Anopheles gambiae">
+  <Comment Source="WikiPathways-description">This pathway can be deleted once release 36 is shipped.</Comment>
+  <Graphics BoardWidth="233.44556677890117" BoardHeight="198.66442199775517" />
+  <DataNode TextLabel="GeneProduct" GraphId="faa53" Type="GeneProduct">
+    <Graphics CenterX="163.44556677890117" CenterY="158.66442199775517" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <Interaction GraphId="idaf905386">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="30.452674897119397" Y="66.6666666666666" />
+      <Point X="10.452674897119397" Y="77.42424242424238" />
+      <Point X="95.22633744855968" Y="88.18181818181817" />
+      <Point X="179.99999999999997" Y="77.42424242424238" />
+      <Point X="163.78600823045275" Y="66.66666666666659" />
+      <Anchor Position="0.5617283950617287" Shape="None" GraphId="e0874" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id28382a1c">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="163.44556677890117" Y="148.66442199775517" GraphRef="faa53" RelX="0.0" RelY="-1.0" />
+      <Point X="107.31199399397426" Y="88.03521680709882" GraphRef="e0874" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax />
+</Pathway>
+
