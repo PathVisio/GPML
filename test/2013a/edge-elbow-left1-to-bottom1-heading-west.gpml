@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="test case" Version="20130813">
-  <Graphics BoardHeight="825.09187756604" BoardWidth="1047.7865523249097" />
+  <Graphics BoardHeight="139.24230153957924" BoardWidth="244.43112626346007" />
   <DataNode GraphId="a9dcb" TextLabel="0019" Type="GeneProduct">
     <Graphics CenterX="59.93342924238979" CenterY="55.42017286709599" FontSize="10" Height="20.0" Valign="Middle" Width="80.0" ZOrder="32999" />
     <Xref Database="" ID="" />
@@ -10,7 +10,7 @@
     <Xref Database="" ID="" />
   </DataNode>
   <Interaction GraphId="e8d93">
-    <Graphics ConnectorType="Curved" LineThickness="1.0" ZOrder="32998">
+    <Graphics ConnectorType="Elbow" LineThickness="1.0" ZOrder="32998">
       <Point ArrowHead="TBar" GraphRef="a90f1" RelX="-1.0" RelY="0.0" X="134.43112626346007" Y="99.24230153957924" />
       <Point ArrowHead="Arrow" GraphRef="a9dcb" RelX="0.0" RelY="1.0" X="59.93342924238979" Y="65.420172867096" />
     </Graphics>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="test case" Version="20130813">
+  <Graphics BoardHeight="818.1126371280204" BoardWidth="1047.7865523249097" />
+  <DataNode GraphId="e691a" TextLabel="0017" Type="GeneProduct">
+    <Graphics CenterX="62.01847189693042" CenterY="91.49192448464771" FontSize="10" Height="20.0" Valign="Middle" Width="80.0" ZOrder="32960" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode GraphId="a00ff" TextLabel="GeneProduct" Type="GeneProduct">
+    <Graphics CenterX="234.0067284219814" CenterY="142.68506052813458" FontSize="10" Height="20.0" Valign="Middle" Width="80.0" ZOrder="32961" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <Interaction GraphId="ebee3">
+    <Graphics ConnectorType="Elbow" LineThickness="1.0" ZOrder="32959">
+      <Point ArrowHead="TBar" GraphRef="a00ff" RelX="-1.0" RelY="0.0" X="194.0067284219814" Y="142.68506052813458" />
+      <Point ArrowHead="Arrow" GraphRef="e691a" RelX="0.0" RelY="-1.0" X="62.01847189693042" Y="81.49192448464771" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax />
+</Pathway>
