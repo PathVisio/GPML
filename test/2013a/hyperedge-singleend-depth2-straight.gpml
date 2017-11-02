@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="test case" Version="20130715">
+  <Graphics BoardHeight="270.50460428737574" BoardWidth="447.7009507346585" />
+  <DataNode GraphId="faa53" TextLabel="Catalyzer" Type="GeneProduct">
+    <Graphics CenterX="235.81847476978646" CenterY="230.50460428737577" FontSize="10" Height="20.0" Valign="Middle" Width="80.0" ZOrder="32768" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode GraphId="dde22" TextLabel="Inhibitor" Type="GeneProduct">
+    <Graphics CenterX="377.7009507346585" CenterY="192.73984442523766" FontSize="10" Height="20.0" Valign="Middle" Width="80.0" ZOrder="32768" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <Interaction GraphId="idaf905386">
+    <Graphics LineThickness="1.0" ZOrder="12288">
+      <Point X="160.09831016073218" Y="151.36848170556027" />
+      <Point X="293.43164349406544" Y="151.36848170556024" />
+      <Anchor GraphId="e0874" Position="0.5617283950617287" Shape="None" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id28382a1c">
+    <Graphics LineThickness="1.0" ZOrder="12288">
+      <Point GraphRef="faa53" RelX="0.0" RelY="-1.0" X="235.81847476978646" Y="220.50460428737577" />
+      <Point ArrowHead="mim-catalysis" GraphRef="e0874" RelX="0.0" RelY="0.0" X="234.99542950229596" Y="151.36848170556024" />
+      <Anchor GraphId="e4378" Position="0.4" Shape="None" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idc088e267">
+    <Graphics LineThickness="1.0" ZOrder="12288">
+      <Point GraphRef="dde22" RelX="-1.0" RelY="0.0" X="337.7009507346585" Y="192.73984442523766" />
+      <Point ArrowHead="mim-inhibition" GraphRef="e4378" RelX="0.0" RelY="0.0" X="235.48925666279027" Y="192.85015525464956" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax />
+</Pathway>
