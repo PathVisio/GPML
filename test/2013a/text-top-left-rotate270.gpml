@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="test case" Version="20171102">
+  <Graphics BoardHeight="212.1276595744681" BoardWidth="554.2553191489361" />
+  <Shape GraphId="e933b" TextLabel="Label for&#10;the rendering of&#10;text">
+    <Graphics Align="Left" CenterX="75.05319148936172" CenterY="128.2446808510639" FillColor="ffffcc" FontSize="10" Height="100.95744680851064" Rotation="4.71238898038469" ShapeType="RoundedRectangle" Width="156.27659574468078" ZOrder="16384" />
+  </Shape>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax />
+</Pathway>
