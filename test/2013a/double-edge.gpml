@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="New Pathway" Version="20171009">
+  <Graphics BoardWidth="1103.0114676388162" BoardHeight="726.4197530864194" />
+  <Shape GraphId="f9392">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="126.57874644042892" CenterY="148.03174123914124" Width="63.08503401360538" Height="63.08503401360531" ZOrder="28690" FillColor="ffcccc" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="db851">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="273.2794267125372" CenterY="148.03174123914124" Width="206.82653061224403" Height="63.08503401360531" ZOrder="28691" FillColor="ffcccc" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="dc334">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="126.57874644042892" CenterY="281.60316981056917" Width="63.08503401360538" Height="176.8945578231295" ZOrder="28692" FillColor="ffcccc" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="daa35">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="542.5155713209733" CenterY="59.62426800067874" Width="63.08503401360538" Height="63.08503401360531" ZOrder="28693" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="c07f6">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="689.2162515930913" CenterY="59.62426800067874" Width="206.82653061224403" Height="63.08503401360531" ZOrder="28694" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="bf413">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="542.5155713209733" CenterY="193.19569657210283" Width="63.08503401360538" Height="176.8945578231295" ZOrder="28695" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="a5baf">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="49.177171637280054" CenterY="71.41756801079498" Width="63.08503401360538" Height="63.08503401360531" ZOrder="28696" FillColor="ffcccc" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="ed50c">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="195.87785190938837" CenterY="71.41756801079498" Width="206.82653061224403" Height="63.08503401360531" ZOrder="28697" FillColor="ffcccc" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="f9f79">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="49.177171637280054" CenterY="204.98899658222302" Width="63.08503401360538" Height="176.8945578231295" ZOrder="28698" FillColor="ffcccc" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="d13b7">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="622.502112370772" CenterY="138.26491403028868" Width="63.08503401360538" Height="63.08503401360531" ZOrder="28701" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="edd26">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="769.2027926428898" CenterY="138.26491403028868" Width="206.82653061224403" Height="63.08503401360531" ZOrder="28702" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="da897">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="622.502112370772" CenterY="271.8363426017123" Width="63.08503401360538" Height="176.8945578231295" ZOrder="28703" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="fe6b5">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="709.8216999996373" CenterY="225.5845016591542" Width="63.08503401360538" Height="63.08503401360531" ZOrder="28704" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="ab407">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="859.6376450692649" CenterY="225.5845016591542" Width="206.82653061224403" Height="63.08503401360531" ZOrder="28705" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="afb28">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="709.8216999996373" CenterY="359.1559302305788" Width="63.08503401360538" Height="176.8945578231295" ZOrder="28706" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="f4e60">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="212.18012101087584" CenterY="235.35132886800685" Width="63.08503401360538" Height="63.08503401360531" ZOrder="28707" FillColor="ffcccc" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="eb8a3">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="361.0956407071254" CenterY="235.35132886800685" Width="206.82653061224403" Height="63.08503401360531" ZOrder="28708" FillColor="ffcccc" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="f4e10">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="212.18012101087584" CenterY="368.9227574394364" Width="63.08503401360538" Height="176.8945578231295" ZOrder="28709" FillColor="ffcccc" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="c7675">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="298.45130745155467" CenterY="331.50952095840404" Width="63.08503401360538" Height="63.08503401360531" ZOrder="28710" FillColor="ffcccc" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="4.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="e7556">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="450.80170523778656" CenterY="331.50952095840404" Width="206.82653061224403" Height="63.08503401360531" ZOrder="28711" FillColor="ffcccc" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="4.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="f2036">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="298.45130745155467" CenterY="470.73066704395603" Width="63.08503401360538" Height="176.8945578231295" ZOrder="28712" FillColor="ffcccc" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="4.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="b4a2a">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="797.5053158188475" CenterY="309.0308293427721" Width="63.08503401360538" Height="63.08503401360531" ZOrder="28713" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="4.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="f32af">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="950.4365256859871" CenterY="309.0308293427721" Width="206.82653061224403" Height="63.08503401360531" ZOrder="28714" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="4.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="b3b3e">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="797.5053158188475" CenterY="445.4271166712574" Width="63.08503401360538" Height="176.8945578231295" ZOrder="28715" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="4.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="ec4f0">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="900.4900114661939" CenterY="466.6244082309685" Width="63.08503401360538" Height="176.8945578231295" ZOrder="28716" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="6.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="d4458">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="390.550903683049" CenterY="479.38477202376737" Width="63.08503401360538" Height="176.8945578231295" ZOrder="28717" FillColor="ffcccc" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="6.0" Color="999999" Rotation="0.0" />
+  </Shape>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax />
+</Pathway>
+
