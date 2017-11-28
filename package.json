@@ -7,8 +7,6 @@
   ],
   "description": "Schemas and test cases for GPML XML file format.",
   "scripts": {
-    "prepare": "npm-run-all prepare:* && echo ok || echo not ok",
-    "prepare:gpml2pvjson": "echo 'Setting expected JSON versions of GPML files' && source_dirname=./test; for source_file in $source_dirname/**/*.gpml*; do output_file=`echo $source_file | sed 's/\\.xml//' | sed 's/\\.gpml//'`\".json\"; echo $output_file; cat \"$source_file\" | gpml2pvjson > \"$output_file\"; done && echo ok || echo not ok",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
