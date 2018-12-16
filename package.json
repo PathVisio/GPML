@@ -1,6 +1,6 @@
 {
   "name": "@wikipathways/gpml",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "files": [
     "*.xsd",
     "test",
@@ -24,9 +24,5 @@
   "bugs": {
     "url": "https://github.com/ariutta/GPML/issues"
   },
-  "homepage": "https://github.com/ariutta/GPML#readme",
-  "dependencies": {
-    "gpml2pvjson": "3.0.0-2",
-    "npm-run-all": "^4.1.2"
-  }
+  "homepage": "https://github.com/ariutta/GPML#readme"
 }
