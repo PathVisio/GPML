@@ -1,0 +1,930 @@
+<xsd:schema targetNamespace="http://pathvisio.org/GPML/2013a"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gpml="http://pathvisio.org/GPML/2013a"
+	elementFormDefault="qualified"
+	>
+	
+	<!-- Graphical Pathway Markup Language version 2013a -->
+
+	<!-- 
+	     Type Definitions 
+         This block declares all the properties which would then be attached
+         to elements in the GPML hierarchy, most of them are intuitive like:
+		 - attributeGroups: FontAttributes, RectAttributes, ShapeStyleAttributes
+		 - simpleTypes: RotationType, ColorType, StyleType, Dimension
+		 - element group: CommentGroup
+    -->
+	
+	<!-- 2017 version implements camelCase for attributes--> 
+		
+	<xsd:attributeGroup name="FontAttributes">
+		<xsd:annotation>
+			<xsd:documentation>
+				Common font properties. 
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:attribute name="FontName" default="Arial" type="xsd:string">
+			<xsd:annotation>
+				<xsd:documentation>
+					The name of the set of printable text characters to be used for visualization.
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="FontStyle" default="Normal">
+			<xsd:annotation>
+				<xsd:documentation>
+					The typographic style or font face applied to displayed text, e.g., Arial.
+				</xsd:documentation>
+			</xsd:annotation>
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="Normal"/>
+					<xsd:enumeration value="Italic"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+		</xsd:attribute>
+		<xsd:attribute name="FontDecoration" default="Normal">
+			<xsd:annotation>
+				<xsd:documentation>
+					The typographic style for underline or normal.  
+				</xsd:documentation>
+			</xsd:annotation>
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="Normal"/>
+					<xsd:enumeration value="Underline"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+		</xsd:attribute>
+		<xsd:attribute name="FontStrikethru" default="Normal">
+			<xsd:annotation>
+				<xsd:documentation>
+					The typographic style for strikethru or normal.  
+				</xsd:documentation>
+			</xsd:annotation>
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="Normal"/>
+					<xsd:enumeration value="Strikethru"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+		</xsd:attribute>
+		<xsd:attribute name="FontWeight" default="Normal">
+			<xsd:annotation>
+				<xsd:documentation>
+					Thickness of the font used, e.g a bold font would
+					have more weight. Used for DataNodes, Labels and Shapes.
+				</xsd:documentation>
+			</xsd:annotation>
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="Normal"/>
+					<xsd:enumeration value="Bold"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+		</xsd:attribute>
+		<xsd:attribute name="FontSize" type="xsd:nonNegativeInteger"
+			default="12">
+			<xsd:annotation>
+				<xsd:documentation>
+					The point value for the size of the font.
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="Align" default="Center">
+			<xsd:annotation>
+				<xsd:documentation>
+					Horizontal alignment of displayed text, e.g., Left, Center, Right.
+				</xsd:documentation>
+			</xsd:annotation>
+			<!-- Horizontal alignment -->
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="Left"/>
+					<xsd:enumeration value="Center"/>
+					<xsd:enumeration value="Right"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+		</xsd:attribute>
+		<xsd:attribute name="Valign" default="Top">
+			<xsd:annotation>
+				<xsd:documentation>
+					Vertical alignment of displayed text, e.g., Top, Middle, Bottom.
+				</xsd:documentation>
+			</xsd:annotation>
+			<!-- Vertical alignment -->
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="Top"/>
+					<xsd:enumeration value="Middle"/>
+					<xsd:enumeration value="Bottom"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+		</xsd:attribute>
+	</xsd:attributeGroup>
+
+	<!--
+		2017 version adds 
+		attributeGroup CenterAttributes and DimensionAttributes
+		and RectAttributes inherits said attributeGroups
+	--> 
+
+	<xsd:attributeGroup name="RectAttributes">
+		<xsd:annotation>
+			<xsd:documentation>
+				Group of attributes for a pathway element, e.g. rectangular node.  
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:attribute name="CenterX" type="xsd:float" use="required">
+					<xsd:annotation>
+				<xsd:documentation>
+					Middle of a pathway element in the x-direction.
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="CenterY" type="xsd:float" use="required">
+		<xsd:annotation>
+				<xsd:documentation>
+					Middle of a pathway element in the y-direction.
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="Width" type="gpml:Dimension" use="required">
+			<xsd:annotation>
+				<xsd:documentation>
+					The pixel value for the x-dimensional length of a pathway element.
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="Height" type="gpml:Dimension" use="required">
+		<xsd:annotation>
+				<xsd:documentation>
+					The pixel value for the y-dimensional length of a pathway element.
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>	
+	</xsd:attributeGroup>
+
+	<!-- 
+		2017 version adds 
+		attributeGroup LineAttributes (lineStyle, lineThickness)
+		attributegroup LineGraphic Attributes(color, connectorType, zorder)
+	-->
+
+	<xsd:attributeGroup name="ShapeStyleAttributes">
+		<xsd:annotation>
+			<xsd:documentation>
+				Group of attributes defining the style (e.g. color, line style) of a pathway element.   
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:attribute name="Color" type="gpml:ColorType" default="Black">
+			<xsd:annotation>
+				<xsd:documentation>
+					The color to be used for visualization.
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<!-- 2017 adds fillColor attribute -->
+		<xsd:attribute name="LineStyle" type="gpml:StyleType" default="Solid">
+		<xsd:annotation>
+				<xsd:documentation>
+					The visual appearance of a line or border, e.g., Solid or Broken.
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="LineThickness" type="xsd:float" default="1.0">
+		<xsd:annotation>
+				<xsd:documentation>
+					The pixel value for the width of a given line, interaction or border.
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+	</xsd:attributeGroup>
+
+
+	<!-- 
+		2017 added attributeGroup IdentifierRefGroup and RelativeCoordinates
+	--> 
+
+	<xsd:simpleType name="RotationType">
+		<xsd:annotation>
+			<xsd:documentation>
+				 A float value (rotation in radians) or a string (Top, Right, Bottom, Left) 
+				 for each of the four right angles.
+			</xsd:documentation>
+		</xsd:annotation>	
+		<xsd:union>
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="Top"/> <!-- rotation of 0.0 !-->
+					<xsd:enumeration value="Right"/> <!-- rotation of 1/2 pi !-->
+					<xsd:enumeration value="Bottom"/> <!-- rotation of 1 pi !-->
+					<xsd:enumeration value="Left"/> <!-- rotation of 3/2 pi !-->
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:float"/> <!-- rotation is always measured in radians !-->
+			</xsd:simpleType>
+		</xsd:union>
+	</xsd:simpleType>
+
+	<xsd:simpleType name="ColorType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Color as a hexadecimal number, binary code, or string (enumerated colors).
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:union>
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:hexBinary"/>
+			</xsd:simpleType>
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="Aqua"/>
+					<xsd:enumeration value="Black"/>
+					<xsd:enumeration value="Blue"/>
+					<xsd:enumeration value="Fuchsia"/>
+					<xsd:enumeration value="Gray"/>
+					<xsd:enumeration value="Green"/>
+					<xsd:enumeration value="Lime"/>
+					<xsd:enumeration value="Maroon"/>
+					<xsd:enumeration value="Navy"/>
+					<xsd:enumeration value="Olive"/>
+					<xsd:enumeration value="Purple"/>
+					<xsd:enumeration value="Red"/>
+					<xsd:enumeration value="Silver"/>
+					<xsd:enumeration value="Teal"/>
+					<xsd:enumeration value="White"/>
+					<xsd:enumeration value="Yellow"/>
+					<xsd:enumeration value="Transparent"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+		</xsd:union>
+	</xsd:simpleType>
+
+	<xsd:simpleType name="StyleType">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="Solid"/>
+			<xsd:enumeration value="Broken"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:simpleType name="Dimension">
+		<xsd:annotation>
+			<xsd:documentation>
+				Dimension for width and height. Cannot be negative values. 
+			</xsd:documentation>
+		</xsd:annotation>	
+		<xsd:restriction base="xsd:float">
+			<xsd:minInclusive value="0" />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+
+	<!-- Changes for annotations here in 2017 version --> 
+
+	<xsd:group name="CommentGroup">
+		<xsd:annotation>
+			<xsd:documentation>
+				One or more comments, references, and key value attributes.  
+			</xsd:documentation>
+		</xsd:annotation>	
+		<xsd:sequence>
+			<xsd:element name="Comment" minOccurs="0"
+			maxOccurs="unbounded">
+				<xsd:annotation>
+					<xsd:documentation>
+						Elements used to provide descriptions and arbitrary notes for a given object.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:complexType>
+					<xsd:simpleContent>
+						<xsd:extension base="xsd:string">
+							<xsd:attribute name="Source" type="xsd:string"/>
+						</xsd:extension>
+					</xsd:simpleContent>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="PublicationXref" minOccurs="0" maxOccurs="unbounded">
+				<xsd:complexType>
+					<xsd:attribute name="ID" type="xsd:string" use="required"/>
+					<xsd:attribute name="Database" type="xsd:string" use="required"/>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="BiopaxRef" minOccurs="0" maxOccurs="unbounded"/>		
+			<xsd:element name="Attribute" minOccurs="0"
+			maxOccurs="unbounded">
+				<xsd:complexType>
+					<xsd:attribute name="Key" type="xsd:string" use="required"/>
+					<xsd:attribute name="Value" type="xsd:string" use="required"/>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:group>
+	
+	<!-- End: Type Definitions -->
+
+	<!-- ###################################################################### -->
+
+	<!-- 
+		Pathway 
+        This is the root element of the structure, it encloses: 
+		- complex type sequence of elements: CommentGroup, Graphics(local), DataNode, State, Interaction, 
+		GraphicalLine, Label, Shape, Group, InfoBox, Legend, Biopax
+		- local attributes: Name, Organism, Data-Source, Version, Author, Maintainer, Email, License, 
+		Last-Modified, BiopaxRef
+	
+	-->
+
+	<xsd:element name="Pathway">
+		<xsd:annotation>
+			<xsd:documentation>
+				A graph diagram representing a biological process as a set of interactions
+				and relationships among genes, proteins, metabolites, and other factors in
+				the context of cellular compartments, tissues and organisms.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+
+				<xsd:group ref="gpml:CommentGroup"/>
+				
+				<xsd:element name="Graphics" minOccurs="0" maxOccurs="1">
+					<xsd:complexType>
+						<xsd:attribute name="BoardWidth" type="gpml:Dimension"
+							use="required"/>
+						<xsd:attribute name="BoardHeight" type="gpml:Dimension"
+							use="required"/>
+					</xsd:complexType>
+				</xsd:element>
+
+				<xsd:element ref="gpml:DataNode" minOccurs="0" maxOccurs="unbounded"/>
+
+				<xsd:element ref="gpml:State" minOccurs="0" maxOccurs="unbounded"/>
+
+				<xsd:element ref="gpml:Interaction" minOccurs="0" maxOccurs="unbounded"/>
+				
+				<xsd:element ref="gpml:GraphicalLine" minOccurs="0" maxOccurs="unbounded"/>
+
+				<xsd:element ref="gpml:Label" minOccurs="0" maxOccurs="unbounded"/>
+
+				<xsd:element ref="gpml:Shape" minOccurs="0" maxOccurs="unbounded"/>
+				
+				<xsd:element ref="gpml:Group" minOccurs="0" maxOccurs="unbounded"/>
+
+				<xsd:element ref="gpml:InfoBox" minOccurs="1" maxOccurs="1" />
+				
+				<xsd:element ref="gpml:Legend" minOccurs="0" maxOccurs="1"/>
+
+				<xsd:element ref="gpml:Biopax" minOccurs="0" maxOccurs="1"/>
+				
+			</xsd:sequence>
+
+			<xsd:attribute name="Name" type="xsd:string" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						The name of a pathway.
+					</xsd:documentation>
+				</xsd:annotation><!--  GenMAPP Pathway Title -->
+			</xsd:attribute>
+
+			<xsd:attribute name="Organism" type="xsd:string" use="optional">
+				<!-- Organism is not a field in the
+						GenMAPP database at this time, but we want to preserve this
+						information when importing maps, and also when exporting maps.
+						GenMAPP maps have the organism implied from the
+						filename. -->
+				<xsd:annotation>
+					<xsd:documentation>
+						The scientific name (e.g., Homo sapiens) of the
+						species being described by the pathway.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+
+			<xsd:attribute name="Data-Source" type="xsd:string" use="optional">
+				<!-- On import to GenMAPP,
+						Data-Source value could be 'KEGG', 'Cytoscape', etc.  On export
+						from GenMAPP, value should be 'GenMAPP' with version
+						number. 
+					Deprecated in 2017 version
+				-->
+			</xsd:attribute>
+
+			<xsd:attribute name="Version" type="xsd:string" use="optional">
+				<!-- GenMAPP version, use for export
+					of maps from GenMAPP only. -->
+				<xsd:annotation>
+					<xsd:documentation>
+						The version of a Pathway (currently not used in WP).
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+
+			<xsd:attribute name="Author" type="xsd:string" use="optional">
+				<xsd:annotation>
+					<xsd:documentation>
+						The people who created/edited the pathway in question.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="Maintainer" type="xsd:string" use="optional">
+				<xsd:annotation>
+					<xsd:documentation>
+						The people who edited/maintained the pathway in question.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="Email" type="xsd:string" use="optional"/>
+			<xsd:attribute name="License" type="xsd:string" use="optional">
+				<xsd:annotation>
+					<xsd:documentation>
+						The license of a pathway.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="Last-Modified" type="xsd:string" use="optional">
+				<xsd:annotation>
+					<xsd:documentation>
+						Last modification date, in the form of YYYYMMDD
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="BiopaxRef" type="xsd:string" use="optional" />
+
+		</xsd:complexType>
+	</xsd:element>
+	<!-- End: Pathway -->
+
+	<!-- ###################################################################### -->
+
+	<!-- 
+		Data Node 
+		The elements with biological context forming the basis of the biological pathway
+		Encloses: 
+		- complex type sequence of elements: CommentGroup, Graphics(local), Xref(local)
+		- local attributes: BiopaxRef, GraphId, GroupRef, TextLabel, Type
+	
+	-->
+	<xsd:element name="DataNode">
+		<!-- 
+			DataNode is the old GeneProduct, a gene in GenMAPP terminology. 
+			DataNode represents all possible biological entities in a pathway
+				like GeneProduct, Metabolite, Pathway, Protein, RNA, Unknown.
+		-->
+		<xsd:annotation>
+			<xsd:documentation>
+				Denotes a biological entity that forms a node in a pathway and
+				has some biological meaning associated with it. For a list of
+				the gpml:DataNode types supported at WikiPathways, see subclasses
+				of wp:DataNode or the wpTypes vocabulary defined for use in applications.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:group ref="gpml:CommentGroup"/>
+				
+				<!-- Graphics related attributes-->
+				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+					<xsd:complexType>
+						<xsd:attributeGroup ref="gpml:RectAttributes"/>
+						<xsd:attributeGroup ref="gpml:FontAttributes"/>
+						<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
+						<xsd:attribute name="FillColor" type="gpml:ColorType" default="White"/>
+						<xsd:attribute name="ShapeType" type="xsd:string" default="Rectangle"/>
+						<xsd:attribute name="ZOrder" type="xsd:integer" use="optional"/>
+					</xsd:complexType>
+				</xsd:element>
+				<!-- End Graphics related attributes-->
+
+				<xsd:element name="Xref" minOccurs="1" maxOccurs="1">
+					<xsd:complexType>
+						<xsd:attribute name="Database" type="xsd:string" use="required"/>
+						<xsd:attribute name="ID" type="xsd:string" use="required"/>						
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+			
+			<xsd:attribute name="BiopaxRef" type="xsd:string" use="optional" />
+            		<xsd:attribute name="GraphId" type="xsd:ID" use="optional" />
+            		<xsd:attribute name="GroupRef" type="xsd:string" use="optional" />
+
+			<xsd:attribute name="TextLabel" use="required" type="xsd:string"/>
+		
+			<xsd:attribute name="Type" type="xsd:string" default="Unknown">
+				<xsd:annotation>
+					<xsd:documentation>
+						Basic GPML types are:"Protein", "Rna", "Complex", "GeneProduct", 
+						"Metabolite" and "Unknown".
+					</xsd:documentation>
+				</xsd:annotation>
+				<!-- Old versions of GPML only allowed these values for Type: 
+				It's recommended that you use these values as often as possible. -->
+			</xsd:attribute>
+
+		</xsd:complexType>
+
+	</xsd:element>
+	<!-- End: DataNode -->
+
+	<!-- ###################################################################### -->
+
+	<!-- 
+		State         
+		Always linked to a DataNode representing a specific state of the biological 
+		entity (e.g. phosphorylation, genetic variants, etc)
+		Encloses: 
+		- complex type sequence of elements: CommentGroup, Graphics(local), Xref(local)
+		- local attributes: BiopaxRef, GraphId, GroupRef, TextLabel, StateType
+	
+	-->
+	<xsd:element name="State">
+		<xsd:annotation>
+			<xsd:documentation>
+				Always linked to a DataNode representing a specific state of the biological 
+				entity (e.g. phosphorylation, genetic variants, etc)
+			</xsd:documentation>
+		</xsd:annotation>	
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:group ref="gpml:CommentGroup"/>
+				
+				<!-- Graphics related attributes-->
+				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+					<xsd:complexType>
+						<xsd:attribute name="RelX" type="xsd:float" use="required"/>
+						<xsd:attribute name="RelY" type="xsd:float" use="required"/>
+						<xsd:attribute name="Width" type="gpml:Dimension" use="required" />
+						<xsd:attribute name="Height" type="gpml:Dimension" use="required" />
+						<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
+						<xsd:attribute name="FillColor" type="gpml:ColorType" default="White"/>
+						<xsd:attribute name="ShapeType" type="xsd:string" default="Rectangle"/>
+						<xsd:attribute name="ZOrder" type="xsd:integer" use="optional"/>
+					</xsd:complexType>
+				</xsd:element>
+				<!-- End Graphics related attributes-->
+				
+				<xsd:element name="Xref" minOccurs="0" maxOccurs="1">
+					<xsd:complexType>
+						<xsd:attribute name="Database" type="xsd:string" use="required"/>
+						<xsd:attribute name="ID" type="xsd:string" use="required"/>						
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+			
+			<xsd:attribute name="BiopaxRef" type="xsd:string" use="optional" />
+            <xsd:attribute name="GraphId" type="xsd:ID" use="optional" />
+			<xsd:attribute name="GraphRef" type="xsd:IDREF" use="optional" />
+			
+			<xsd:attribute name="TextLabel" use="required" type="xsd:string"/>
+		
+			<xsd:attribute name="StateType" type="xsd:string" default="Unknown"/>
+			<!-- Biological modification type. suggested values: Phosphorylated, Glycosylated, Activated, ... !-->
+
+		</xsd:complexType>
+
+	</xsd:element>
+	<!-- End: State -->
+	<!-- ###################################################################### -->
+
+	<!-- 
+		Interaction and Graphical Lines together are the only elements which can be used to 
+		connect data nodes, for implementing any kind of connections or interactions.
+		
+		GrapicalLine are graphical annotations without semantic meaning
+		
+		GraphicalLine element encloses: 
+		- complex type sequence of elements: CommentGroup, Graphics(local)
+		- local attributes: GroupRef, BiopaxRef, GraphId, Type
+	
+    -->
+
+	<xsd:element name="GraphicalLine">
+		<xsd:annotation>
+			<xsd:documentation>
+				A visual annotation, often used to partition space or connect other annotation,
+				e.g., Shapes. GrapicalLine are graphical annotations without semantic meaning
+				An Xref cannot be specified for GraphicalLines (in contrast to Interactions).
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:group ref="gpml:CommentGroup" />
+				
+				<!-- Graphics related attributes-->
+				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="Point" minOccurs="2" maxOccurs="unbounded">
+								<xsd:complexType>
+									<xsd:attribute name="X" type="xsd:float" use="required" />
+									<xsd:attribute name="Y" type="xsd:float" use="required" />
+									<!-- relX and relY are the coordinates used when
+	                                a point is linked to another object (when GraphRef
+	                                is defined). They represent he coordinates of the
+	                                point relative to the object that it's linked to, where
+	                                0,0 lies at the center of the object and 1,1 at the bottom-right
+	                                corner -->
+	                                <xsd:attribute name="RelX" type="xsd:float" use="optional" />
+	                                <xsd:attribute name="RelY" type="xsd:float" use="optional" />
+	                                <xsd:attribute name="GraphRef" type="xsd:IDREF" use="optional" />
+	                                <xsd:attribute name="GraphId" type="xsd:ID" use="optional" />
+	                                <!-- Note: only the ArrowHead attribute on first and last points are used, the rest is ignored. !-->
+	                                <xsd:attribute name="ArrowHead" default="Line" type="xsd:string" />
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
+	                            <xsd:complexType>
+	                                <xsd:attribute name="Position" type="xsd:float" use="required" />
+	                                <xsd:attribute name="GraphId" type="xsd:ID" use="optional" />
+	                                <xsd:attribute name="Shape" default="ReceptorRound" type="xsd:string" />
+	                            </xsd:complexType>
+	                        </xsd:element>
+	                    </xsd:sequence>
+	                    <xsd:attribute name="Color" type="gpml:ColorType" default="Black" />
+	                    <xsd:attribute name="LineThickness" type="xsd:float"/> 
+						<xsd:attribute name="LineStyle" type="gpml:StyleType" default="Solid" />
+	                    <xsd:attribute name="ConnectorType" type="xsd:string" use="optional" default="Straight"/>
+	                    <xsd:attribute name="ZOrder" type="xsd:integer" use="optional"/>
+	                </xsd:complexType>
+	            </xsd:element>
+				<!-- End Graphics related attributes-->
+				
+			</xsd:sequence>
+		<xsd:attribute name="GroupRef" type="xsd:string" use="optional" />
+	    <xsd:attribute name="BiopaxRef" type="xsd:string" use="optional" />
+		<xsd:attribute name="GraphId" type="xsd:ID" use="optional" />
+		<xsd:attribute name="Type" type="xsd:string" use="optional" />
+		</xsd:complexType>
+	</xsd:element>
+
+	<!-- End: Graphical Line -->
+
+	<!-- ###################################################################### -->
+
+
+	<!-- 
+		Interaction and Graphical Lines together are the only elements which can be used to 
+		connect data nodes, for implementing any kind of connections or interactions.
+		
+		Interaction
+		Represent biological relation between entities - should always be attached to DataNodes
+		
+		Interaction element encloses: 
+		- complex type sequence of elements: CommentGroup, Graphics(local)
+		- local attributes: GroupRef, BiopaxRef, GraphId, Type
+	-->
+	<xsd:element name="Interaction">
+		<xsd:annotation>
+			<xsd:documentation>
+				Defines the biochemical relationship between DataNodes
+				or with Anchors on other Interactions. An Xref can be
+				specified for Interactions (in contrast to GraphicalLines).
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:group ref="gpml:CommentGroup" />
+				
+				<!-- Graphics related attributes-->
+				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+					<xsd:complexType>
+	                    <xsd:sequence>
+	                        <xsd:element name="Point" minOccurs="2" maxOccurs="unbounded">
+	                            <xsd:complexType>
+	                                <xsd:attribute name="X" type="xsd:float" use="required" />
+	                                <xsd:attribute name="Y" type="xsd:float" use="required" />
+	                                <!-- relX and relY are the coordinates used when
+	                                a point is linked to another object (when GraphRef
+	                                is defined). They represent he coordinates of the
+	                                point relative to the object that it's linked to, where
+	                                0,0 lies at the center of the object and 1,1 at the bottom-right
+	                                corner -->
+	                                <xsd:attribute name="RelX" type="xsd:float" use="optional" />
+	                                <xsd:attribute name="RelY" type="xsd:float" use="optional" />
+	                                <xsd:attribute name="GraphRef" type="xsd:IDREF" use="optional" />
+	                                <xsd:attribute name="GraphId" type="xsd:ID" use="optional" />
+	                                <!-- Note: only the ArrowHead attribute on first and last points are used, the rest is ignored. !-->
+	                                <xsd:attribute name="ArrowHead" default="Line" type="xsd:string" />
+	                            </xsd:complexType>
+	                        </xsd:element>
+							<xsd:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
+								<xsd:complexType>
+	                                <xsd:attribute name="Position" type="xsd:float" use="required" />
+	                                <xsd:attribute name="GraphId" type="xsd:ID" use="optional" />
+	                                <xsd:attribute name="Shape" default="ReceptorRound" type="xsd:string" />
+	                            </xsd:complexType>
+	                        </xsd:element>
+	                    </xsd:sequence>
+						<xsd:attribute name="Color" type="gpml:ColorType" default="Black" />
+	                    <xsd:attribute name="LineThickness" type="xsd:float"/> 
+						<xsd:attribute name="LineStyle" type="gpml:StyleType" default="Solid" />
+	                    <xsd:attribute name="ConnectorType" type="xsd:string" use="optional" default="Straight"/>
+	                    <xsd:attribute name="ZOrder" type="xsd:integer" use="optional"/>
+	                </xsd:complexType>
+	            </xsd:element>
+				<!-- End Graphics related attributes-->
+				
+				<xsd:element name="Xref" minOccurs="1" maxOccurs="1">
+					<xsd:complexType>
+						<xsd:attribute name="Database" type="xsd:string" use="required"/>
+						<xsd:attribute name="ID" type="xsd:string" use="required"/>						
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+			<xsd:attribute name="GroupRef" type="xsd:string" use="optional" />
+	        <xsd:attribute name="BiopaxRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="GraphId" type="xsd:ID" use="optional" />
+			<xsd:attribute name="Type" type="xsd:string" use="optional" />
+		</xsd:complexType>
+	</xsd:element>
+	<!-- End: Interaction -->
+
+	<!-- ###################################################################### -->
+
+	<!-- Label 
+		An element to attach simple labels to the pathway
+		No semantic meaning - graphical attributes
+		Label element encloses: 
+		- complex type sequence of elements: CommentGroup, Graphics(local)
+		- local attributes: Href, BiopaxRef, GraphId, GroupRef, TextLabel
+	-->
+	<xsd:element name="Label">
+		<xsd:annotation>
+			<xsd:documentation>
+				A text field which can be used to annotate any aspect of a pathway.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<!--  This is text on a GenMAPP map that
+				can have associated comments. -->
+			<xsd:sequence>
+				<xsd:group ref="gpml:CommentGroup"/>
+				
+				<!-- Graphics related attributes-->
+				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+					<xsd:complexType>
+						<xsd:attributeGroup ref="gpml:RectAttributes"/>
+						<xsd:attributeGroup ref="gpml:FontAttributes" />
+						<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
+						<xsd:attribute name="FillColor" type="gpml:ColorType" default="Transparent"/>
+						<xsd:attribute name="ShapeType" type="xsd:string" default="None"/>
+						<xsd:attribute name="ZOrder" type="xsd:integer" use="optional"/>
+					</xsd:complexType>
+				</xsd:element>
+				<!-- End Graphics related attributes-->
+				
+			</xsd:sequence>
+			
+			<xsd:attribute name="Href" use="optional" type="xsd:string">
+				<xsd:annotation>
+					<xsd:documentation>
+						The hyperlink optionally specified in a Label for a reference to a url.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="BiopaxRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="GraphId" type="xsd:ID" use="optional" />
+			<xsd:attribute name="GroupRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="TextLabel" use="required" type="xsd:string"/>			
+		</xsd:complexType>
+
+	</xsd:element>
+	<!-- End: Label -->
+	
+	<!-- ###################################################################### -->
+
+	<!-- 
+		Shape 
+	    Graphical elements - shapes with or without a text label
+		
+		Shape element encloses: 
+		- complex type sequence of elements: CommentGroup, Graphics(local)
+		- local attributes: BiopaxRef, GraphId, GroupRef, TextLabel
+	-->
+	<xsd:element name="Shape">
+		<xsd:annotation>
+			<xsd:documentation>
+				Shape can refer to two different things in GPML,
+				both of which are associated with graphical elements.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+
+				<xsd:group ref="gpml:CommentGroup" />
+
+				<!-- Graphics related attributes-->
+				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+					<xsd:complexType>
+						<xsd:attributeGroup ref="gpml:RectAttributes"/>
+						<xsd:attributeGroup ref="gpml:FontAttributes" />
+						<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
+						<xsd:attribute name="FillColor" type="gpml:ColorType" default="Transparent"/>
+						<xsd:attribute name="ShapeType" type="xsd:string" use="required"/>
+						<xsd:attribute name="ZOrder" type="xsd:integer" use="optional"/>
+						<xsd:attribute name="Rotation" type="gpml:RotationType" default="Top" />
+					</xsd:complexType>
+				</xsd:element>
+				<!-- End Graphics related attributes-->
+
+			</xsd:sequence>
+
+			<xsd:attribute name="BiopaxRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="GraphId" type="xsd:ID" use="optional" />
+			<xsd:attribute name="GroupRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="TextLabel" use="optional" type="xsd:string"/>
+
+		</xsd:complexType>
+
+	</xsd:element>
+	<!-- End: Shape -->
+	
+	<!-- ###################################################################### -->
+
+	<!-- 
+		Group 
+		Elements in the pathway can be grouped. 
+		Basic GPML group styles are: 
+		None, Pathway, Group, Complex
+		
+		Group element encloses: 
+		- complex type sequence of elements: CommentGroup
+		- local attributes: BiopaxRef, GroupId, GroupRef, Style, TextLabel, GraphId
+	-->
+	<xsd:element name="Group">	
+		<xsd:annotation>
+			<xsd:documentation>
+				A collection of structurally or functionally similar or related pathway elements.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:group ref="gpml:CommentGroup" />
+			</xsd:sequence>
+			<xsd:attribute name="BiopaxRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="GroupId" type="xsd:string" use="required" />
+			<xsd:attribute name="GroupRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="Style" type="xsd:string" default="None" />
+			<xsd:attribute name="TextLabel" type="xsd:string" use="optional" />
+			<xsd:attribute name="GraphId" type="xsd:ID" use="optional" />
+		</xsd:complexType>
+	</xsd:element>
+	<!-- End: Group -->
+
+	<!-- ###################################################################### -->
+
+	<!-- InfoBox -->
+	<xsd:element name="InfoBox">
+		<xsd:annotation>
+			<xsd:documentation>
+				InfoBox element holds the coordinates on the GenMAPP layout where the 
+				Information kept in the	Info table will be displayed in the mapp.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:attribute name="CenterX" type="xsd:float" use="required"/>
+			<xsd:attribute name="CenterY" type="xsd:float" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+	<!-- End: InfoBox -->
+	
+	
+	<!-- Legend -->
+	<xsd:element name="Legend">	
+		<xsd:annotation>
+			<xsd:documentation>
+				An explanatory list of the colors used for visualizing data on the pathway. 
+				Not currently used.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:attribute name="CenterX" type="xsd:float" use="required"/>
+			<xsd:attribute name="CenterY" type="xsd:float" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+	<!-- End: Legend -->
+
+	<!-- ###################################################################### -->
+
+	<!-- 
+		Biopax 
+		Extensible 
+	
+	-->
+	<xsd:element name="Biopax">
+		<xsd:annotation>
+			<xsd:documentation>
+				Integration of annotation, references, and ontology from Biopax. 
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:any namespace="http://www.biopax.org/release/biopax-level3.owl#"
+					processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<!-- End: Biopax -->
+
+</xsd:schema>
