@@ -10,7 +10,8 @@
 	     Type Definitions 
          This block declares all the properties which would then be attached
          to elements in the GPML hierarchy, most of them are intuitive like:
-		 - attributeGroups: FontAttributes, RectAttributes, ShapeStyleAttributes
+		 - attributeGroups: FontAttributes, CenterAttributes, DimensionAttributes, 
+		   RectAttributes, ShapeStyleAttributes
 		 - simpleTypes: RotationType, ColorType, StyleType, Dimension
 		 - element group: CommentGroup
     -->
@@ -121,46 +122,58 @@
 		</xsd:attribute>
 	</xsd:attributeGroup>
 
-	<!--
-		2017 version adds 
-		attributeGroup CenterAttributes and DimensionAttributes
-		and RectAttributes inherits said attributeGroups
-	--> 
-
-	<xsd:attributeGroup name="RectAttributes">
+	<xsd:attributeGroup name="CenterAttributes">
 		<xsd:annotation>
 			<xsd:documentation>
-				Group of attributes for a pathway element, e.g. rectangular node.  
+				Center coordinates of a given object. 
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:attribute name="centerX" type="xsd:float" use="required">
-					<xsd:annotation>
+			<xsd:annotation>
 				<xsd:documentation>
-					Middle of a pathway element in the x-direction.
+					Middle of a given object in the x-direction.
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
 		<xsd:attribute name="centerY" type="xsd:float" use="required">
-		<xsd:annotation>
-				<xsd:documentation>
-					Middle of a pathway element in the y-direction.
-				</xsd:documentation>
-			</xsd:annotation>
-		</xsd:attribute>
-		<xsd:attribute name="width" type="gpml:Dimension" use="required">
 			<xsd:annotation>
 				<xsd:documentation>
-					The pixel value for the x-dimensional length of a pathway element.
+					Middle of a given object in the y-direction.
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
-		<xsd:attribute name="height" type="gpml:Dimension" use="required">
+	</xsd:attributeGroup>
+	
+	<xsd:attributeGroup name="DimensionAttributes">
 		<xsd:annotation>
+			<xsd:documentation>
+				Dimension of width and height of a given object. 
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:attribute name="width" type="gpml:Dimension" use="required" >
+			<xsd:annotation>
 				<xsd:documentation>
-					The pixel value for the y-dimensional length of a pathway element.
+					The pixel value for the x-dimensional length of a given object.
 				</xsd:documentation>
 			</xsd:annotation>
-		</xsd:attribute>	
+		</xsd:attribute>
+		<xsd:attribute name="height" type="gpml:Dimension" use="required" >
+			<xsd:annotation>
+				<xsd:documentation>
+					The pixel value for the y-dimensional length of a given object.
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+	</xsd:attributeGroup>
+
+	<xsd:attributeGroup name="RectAttributes">
+		<xsd:annotation>
+			<xsd:documentation>
+				Group of attributes for a pathway element, e.g. rectangular DataNode.  
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:attributeGroup ref="gpml:CenterAttributes" />
+		<xsd:attributeGroup ref="gpml:DimensionAttributes" />	
 	</xsd:attributeGroup>
 
 	<!-- 
@@ -331,6 +344,7 @@
 		GraphicalLine, Label, Shape, Group, InfoBox, Legend, Biopax
 		- local attributes: name, organism, dataSource, version, author, maintainer, email, license, 
 		lastModified, biopaxRef
+		- attributeGroup: DimensionAttributes
 	
 	-->
 
@@ -414,7 +428,7 @@
 					of maps from GenMAPP only. -->
 				<xsd:annotation>
 					<xsd:documentation>
-						The version of a Pathway (currently not used in WP).
+						The version of a pathway (currently not used in WP).
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
@@ -422,14 +436,14 @@
 			<xsd:attribute name="author" type="xsd:string" use="optional">
 				<xsd:annotation>
 					<xsd:documentation>
-						The people who created/edited the pathway in question.
+						The people who created/edited the given pathway .
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
 			<xsd:attribute name="maintainer" type="xsd:string" use="optional">
 				<xsd:annotation>
 					<xsd:documentation>
-						The people who edited/maintained the pathway in question.
+						The people who edited/maintained the given pathway.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
@@ -449,6 +463,16 @@
 				</xsd:annotation>
 			</xsd:attribute>
 			<xsd:attribute name="biopaxRef" type="xsd:string" use="optional" />
+			
+			<!-- Graphics related attributes-->
+			<xsd:attributeGroup ref="gpml:DimensionAttributes">
+				<xsd:annotation>
+					<xsd:documentation>
+						The width and height of a pathway.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attributeGroup>
+			<!-- End Graphics related attributes-->
 
 		</xsd:complexType>
 	</xsd:element>
@@ -531,6 +555,7 @@
 		entity (e.g. phosphorylation, genetic variants, etc)
 		Encloses: 
 		- complex type sequence of elements: CommentGroup, Graphics(local), Xref(local)
+		- attributeGroup: DimensionAttributes
 		- local attributes: biopaxRef, graphId, groupRef, textLabel, stateType
 	
 	-->
@@ -550,8 +575,6 @@
 					<xsd:complexType>
 						<xsd:attribute name="relX" type="xsd:float" use="required"/>
 						<xsd:attribute name="relY" type="xsd:float" use="required"/>
-						<xsd:attribute name="width" type="gpml:Dimension" use="required" />
-						<xsd:attribute name="height" type="gpml:Dimension" use="required" />
 						
 						<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
 						
@@ -560,6 +583,8 @@
 						<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
 					</xsd:complexType>
 				</xsd:element>
+				
+				<xsd:attributeGroup ref="gpml:DimensionAttributes"/>
 				<!-- End Graphics related attributes-->
 				
 				<xsd:element name="Xref" minOccurs="0" maxOccurs="1">
@@ -583,6 +608,7 @@
 
 	</xsd:element>
 	<!-- End: State -->
+	
 	<!-- ###################################################################### -->
 
 	<!-- 
@@ -876,18 +902,16 @@
 	<xsd:element name="InfoBox">
 		<xsd:annotation>
 			<xsd:documentation>
-				InfoBox element holds the coordinates on the GenMAPP layout where the 
-				Information kept in the	Info table will be displayed in the mapp.
+				InfoBox element holds the coordinates where information (e.g. name and organism) 
+				are displayed in the pathway. Currently just a placeholder -- not used.
 			</xsd:documentation>
 		</xsd:annotation>
-		<xsd:complexType>
-			<xsd:attribute name="centerX" type="xsd:float" use="required"/>
-			<xsd:attribute name="centerY" type="xsd:float" use="required"/>
-		</xsd:complexType>
+		<xsd:attributeGroup ref="gpml:CenterAttributes" />
 	</xsd:element>
 	<!-- End: InfoBox -->
 	
-	
+	<!-- ###################################################################### -->
+
 	<!-- Legend -->
 	<xsd:element name="Legend">	
 		<xsd:annotation>
@@ -896,10 +920,7 @@
 				Not currently used.
 			</xsd:documentation>
 		</xsd:annotation>
-		<xsd:complexType>
-			<xsd:attribute name="centerX" type="xsd:float" use="required"/>
-			<xsd:attribute name="centerY" type="xsd:float" use="required"/>
-		</xsd:complexType>
+		<xsd:attributeGroup ref="gpml:CenterAttributes" />
 	</xsd:element>
 	<!-- End: Legend -->
 
