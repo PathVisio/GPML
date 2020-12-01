@@ -90,7 +90,7 @@
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
-		<xsd:attribute name="align" default="Center">
+		<xsd:attribute name="hAlign" default="Center">
 			<xsd:annotation>
 				<xsd:documentation>
 					Horizontal alignment of displayed text, e.g., Left, Center, Right.
