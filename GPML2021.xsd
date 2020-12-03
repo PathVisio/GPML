@@ -639,31 +639,8 @@
 				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
 					<xsd:complexType>
 						<xsd:sequence>
-							<xsd:element name="Point" minOccurs="2" maxOccurs="unbounded">
-								<xsd:complexType>
-									<xsd:attribute name="x" type="xsd:float" use="required" />
-									<xsd:attribute name="y" type="xsd:float" use="required" />
-									<!-- relX and relY are the coordinates used when
-	                                a point is linked to another object (when GraphRef
-	                                is defined). They represent he coordinates of the
-	                                point relative to the object that it's linked to, where
-	                                0,0 lies at the center of the object and 1,1 at the bottom-right
-	                                corner -->
-	                                <xsd:attribute name="relX" type="xsd:float" use="optional" />
-	                                <xsd:attribute name="relY" type="xsd:float" use="optional" />
-	                                <xsd:attribute name="graphRef" type="xsd:IDREF" use="optional" />
-	                                <xsd:attribute name="graphId" type="xsd:ID" use="optional" />
-	                                <!-- Note: only the arrowHead attribute on first and last points are used, the rest is ignored. !-->
-	                                <xsd:attribute name="arrowHead" default="Line" type="xsd:string" />
-								</xsd:complexType>
-							</xsd:element>
-							<xsd:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
-	                            <xsd:complexType>
-	                                <xsd:attribute name="position" type="xsd:float" use="required" />
-	                                <xsd:attribute name="graphId" type="xsd:ID" use="optional" />
-	                                <xsd:attribute name="shapeType" default="ReceptorRound" type="xsd:string" />
-	                            </xsd:complexType>
-	                        </xsd:element>
+							<xsd:element name="Point" type="gpml:Point" minOccurs="2" maxOccurs="unbounded" />
+							<xsd:element name="Anchor" type="gpml:Anchor" minOccurs="0" maxOccurs="unbounded" />
 	                    </xsd:sequence>
 	                    <xsd:attribute name="color" type="gpml:ColorType" default="Black" />
 	                    <xsd:attribute name="lineThickness" type="xsd:float"/> 
@@ -714,31 +691,8 @@
 				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
 					<xsd:complexType>
 	                    <xsd:sequence>
-	                        <xsd:element name="Point" minOccurs="2" maxOccurs="unbounded">
-	                            <xsd:complexType>
-	                                <xsd:attribute name="x" type="xsd:float" use="required" />
-	                                <xsd:attribute name="y" type="xsd:float" use="required" />
-	                                <!-- relX and relY are the coordinates used when
-	                                a point is linked to another object (when GraphRef
-	                                is defined). They represent the coordinates of the
-	                                point relative to the object that it's linked to, where
-	                                0,0 lies at the center of the object and 1,1 at the bottom-right
-	                                corner -->
-	                                <xsd:attribute name="relX" type="xsd:float" use="optional" />
-	                                <xsd:attribute name="relY" type="xsd:float" use="optional" />
-	                                <xsd:attribute name="graphRef" type="xsd:IDREF" use="optional" />
-	                                <xsd:attribute name="graphId" type="xsd:ID" use="optional" />
-	                                <!-- Note: only the arrowHead attribute on first and last points are used, the rest is ignored. !-->
-	                                <xsd:attribute name="arrowHead" default="Line" type="xsd:string" />
-	                            </xsd:complexType>
-	                        </xsd:element>
-							<xsd:element name="Anchor" minOccurs="0" maxOccurs="unbounded">
-								<xsd:complexType>
-	                                <xsd:attribute name="position" type="xsd:float" use="required" />
-	                                <xsd:attribute name="graphId" type="xsd:ID" use="optional" />
-	                                <xsd:attribute name="shapeType" default="ReceptorRound" type="xsd:string" />
-	                            </xsd:complexType>
-	                        </xsd:element>
+							<xsd:element name="Point" type="gpml:Point" minOccurs="2" maxOccurs="unbounded" />
+							<xsd:element name="Anchor" type="gpml:Anchor" minOccurs="0" maxOccurs="unbounded" />
 	                    </xsd:sequence>
 						<xsd:attribute name="color" type="gpml:ColorType" default="Black" />
 	                    <xsd:attribute name="lineThickness" type="xsd:float"/> 
@@ -945,5 +899,100 @@
 		</xsd:complexType>
 	</xsd:element>
 	<!-- End: Biopax -->
+
+	<!-- ###################################################################### -->
+
+	<!-- 
+		Point
+		A location in 2-dimensional space defined by x and y coordinates.
+		
+		Point element encloses: 
+		- attributes: x, y, relX, relY, graphRef, graphId, arrowHead
+	--> 
+	<xsd:element name="Point">
+		<xsd:annotation>
+			<xsd:documentation>
+				A location in 2-dimensional space defined by x and y coordinates.
+			</xsd:documentation>
+		</xsd:annotation>	
+		<xsd:complexType>
+			<xsd:attribute name="x" type="xsd:float" use="required" />
+			<xsd:attribute name="y" type="xsd:float" use="required" />
+			<xsd:attribute name="relX" type="xsd:float" use="optional" >
+				<xsd:annotation>
+					<xsd:documentation>
+						When the given point is linked to an object, relX and relY are 
+						the relative coordinates on the object, where 0,0 is at the center 
+						of the object and 1,1 at the bottom-right corner of the object.    
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="relY" type="xsd:float" use="optional" >
+				<xsd:annotation>
+					<xsd:documentation>
+						When the given point is linked to an object, relX and relY are 
+						the relative coordinates on the object, where 0,0 is at the center 
+						of the object and 1,1 at the bottom-right corner of the object.  
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="graphRef" type="xsd:IDREF" use="optional" >
+				<xsd:annotation>
+					<xsd:documentation>
+						A graphRef indicates a child/parent relationship between objects. 
+						The graphRef of the child specifies the graphID of the parent. 
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="graphId" type="xsd:ID" use="optional" />
+	        <!-- Note: only the arrowHead attribute on first and last points are used, the rest is ignored. -->
+	        <xsd:attribute name="arrowHead" default="Line" type="xsd:string" >
+				<xsd:annotation>
+					<xsd:documentation>
+						Specifies the glyph at the ends of lines and interactions.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+
+	<!-- End: Point -->
+	
+	<!-- ###################################################################### -->
+
+	<!-- 
+		Anchor
+		A connection point on a graphical line or an interaction
+		
+		Anchor element encloses: 
+		- attributes: position, shapeType, graphID
+	--> 
+	<xsd:element name="Anchor">
+		<xsd:annotation>
+			<xsd:documentation>
+				A connection point on a graphical line or an interaction, 
+				where another graphical line or interaction can be connected.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+	        <xsd:attribute name="position" type="xsd:float" use="required" >
+				<xsd:annotation>
+					<xsd:documentation>
+						Proportional distance of an anchor along the line it belongs to, between 0 and 1.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+	        <xsd:attribute name="shapeType" default="ReceptorRound" type="xsd:string" >
+				<xsd:annotation>
+					<xsd:documentation>
+						The visual representation of an anchor, e.g., Circle or None.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="graphId" type="xsd:ID" use="optional" />
+	    </xsd:complexType>
+	</xsd:element>
+	<!-- End: Anchor -->
+
 
 </xsd:schema>
