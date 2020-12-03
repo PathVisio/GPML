@@ -624,6 +624,7 @@
 						<xsd:attribute name="relX" type="xsd:float" use="required" />
 						<xsd:attribute name="relY" type="xsd:float" use="required" />
 						<xsd:attributeGroup ref="gpml:DimensionAttributes" />
+						<xsd:attributeGroup ref="gpml:FontAttributes"/>
 						<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
 					</xsd:complexType>
 				</xsd:element>
