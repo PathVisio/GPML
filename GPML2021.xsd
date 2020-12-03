@@ -424,8 +424,18 @@
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
-
 				<xsd:group ref="gpml:CommentGroup"/>
+				
+				<xsd:element name="Author" minOccurs="0" maxOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							The people who created or edited the given pathway.
+						</xsd:documentation>
+					</xsd:annotation>
+					<xsd:complexType>
+						<xsd:attribute name="name" type="xsd:string" use="required"/>
+					</xsd:complexType>
+				</xsd:element>				
 				
 				<xsd:element name="Graphics" minOccurs="0" maxOccurs="1">
 					<xsd:complexType>
@@ -497,15 +507,8 @@
 						The version of a pathway (currently not used in WP).
 					</xsd:documentation>
 				</xsd:annotation>
-			</xsd:attribute>
-
-			<xsd:attribute name="author" type="xsd:string" use="optional">
-				<xsd:annotation>
-					<xsd:documentation>
-						The people who created/edited the given pathway .
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
+			</xsd:attribute>	
+			
 			<xsd:attribute name="maintainer" type="xsd:string" use="optional">
 				<xsd:annotation>
 					<xsd:documentation>
