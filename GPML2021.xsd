@@ -414,7 +414,7 @@
 				</xsd:annotation>
 			</xsd:attribute>
 
-			<xsd:attribute name="dataSource" type="xsd:string" use="optional">
+			<xsd:attribute name="source" type="xsd:string" use="optional">
 				<!-- On import to GenMAPP,
 						dataSource value could be 'KEGG', 'Cytoscape', etc.  On export
 						from GenMAPP, value should be 'GenMAPP' with version
@@ -521,8 +521,8 @@
 
 				<xsd:element name="Xref" minOccurs="1" maxOccurs="1">
 					<xsd:complexType>
-						<xsd:attribute name="database" type="xsd:string" use="required"/>
-						<xsd:attribute name="id" type="xsd:string" use="required"/>						
+						<xsd:attribute name="dataSource" type="xsd:string" use="required"/>
+						<xsd:attribute name="identifier" type="xsd:string" use="required"/>						
 					</xsd:complexType>
 				</xsd:element>
 			</xsd:sequence>
@@ -661,7 +661,7 @@
 	                            <xsd:complexType>
 	                                <xsd:attribute name="position" type="xsd:float" use="required" />
 	                                <xsd:attribute name="graphId" type="xsd:ID" use="optional" />
-	                                <xsd:attribute name="shape" default="ReceptorRound" type="xsd:string" />
+	                                <xsd:attribute name="shapeType" default="ReceptorRound" type="xsd:string" />
 	                            </xsd:complexType>
 	                        </xsd:element>
 	                    </xsd:sequence>
@@ -736,7 +736,7 @@
 								<xsd:complexType>
 	                                <xsd:attribute name="position" type="xsd:float" use="required" />
 	                                <xsd:attribute name="graphId" type="xsd:ID" use="optional" />
-	                                <xsd:attribute name="shape" default="ReceptorRound" type="xsd:string" />
+	                                <xsd:attribute name="shapeType" default="ReceptorRound" type="xsd:string" />
 	                            </xsd:complexType>
 	                        </xsd:element>
 	                    </xsd:sequence>
