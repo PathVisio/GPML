@@ -384,8 +384,7 @@
 			</xsd:element>
 			<xsd:element name="PublicationXref" minOccurs="0" maxOccurs="unbounded">
 				<xsd:complexType>
-					<xsd:attribute name="identifier" type="xsd:string" use="required"/>
-					<xsd:attribute name="dataSource" type="xsd:string" use="required"/>
+					<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 				</xsd:complexType>
 			</xsd:element>
 			<xsd:element name="BiopaxRef" minOccurs="0" maxOccurs="unbounded"/>		
@@ -435,17 +434,22 @@
 					<xsd:complexType>
 						<xsd:attribute name="name" type="xsd:string" use="required"/>
 					</xsd:complexType>
-				</xsd:element>				
+				</xsd:element>		
 				
+				<!-- Graphics related attributes-->
 				<xsd:element name="Graphics" minOccurs="0" maxOccurs="1">
 					<xsd:complexType>
-						<xsd:attribute name="boardWidth" type="gpml:Dimension"
-							use="required"/>
-						<xsd:attribute name="boardHeight" type="gpml:Dimension"
-							use="required"/>
+						<xsd:attributeGroup ref="gpml:DimensionAttributes">
+							<xsd:annotation>
+								<xsd:documentation>
+									The width and height of a pathway.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attributeGroup>
 					</xsd:complexType>
 				</xsd:element>
-
+				<!-- End Graphics related attributes-->			
+	
 				<xsd:element ref="gpml:DataNode" minOccurs="0" maxOccurs="unbounded"/>
 
 				<xsd:element ref="gpml:State" minOccurs="0" maxOccurs="unbounded"/>
@@ -533,15 +537,6 @@
 			</xsd:attribute>
 			<xsd:attribute name="biopaxRef" type="xsd:string" use="optional" />
 			
-			<!-- Graphics related attributes-->
-			<xsd:attributeGroup ref="gpml:DimensionAttributes">
-				<xsd:annotation>
-					<xsd:documentation>
-						The width and height of a pathway.
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attributeGroup>
-			<!-- End Graphics related attributes-->
 
 		</xsd:complexType>
 	</xsd:element>
@@ -581,12 +576,7 @@
 					</xsd:complexType>
 				</xsd:element>
 				<!-- End Graphics related attributes-->
-				<xsd:element name="Xref" minOccurs="1" maxOccurs="1">
-					<xsd:complexType>
-						<xsd:attribute name="dataSource" type="xsd:string" use="required"/>
-						<xsd:attribute name="identifier" type="xsd:string" use="required"/>						
-					</xsd:complexType>
-				</xsd:element>
+				<xsd:element name="Xref" type="gpml:Xref" minOccurs="1" maxOccurs="1"/>
 			</xsd:sequence>
 			<xsd:attribute name="biopaxRef" type="xsd:string" use="optional" />
             <xsd:attribute name="graphId" type="xsd:ID" use="optional" />
@@ -638,12 +628,7 @@
 					</xsd:complexType>
 				</xsd:element>
 				<!-- End Graphics related attributes-->
-				<xsd:element name="Xref" minOccurs="0" maxOccurs="1">
-					<xsd:complexType>
-						<xsd:attribute name="dataSource" type="xsd:string" use="required" />
-						<xsd:attribute name="identifier" type="xsd:string" use="required" />						
-					</xsd:complexType>
-				</xsd:element>
+				<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 			</xsd:sequence>
 			<xsd:attribute name="biopaxRef" type="xsd:string" use="optional" />
             <xsd:attribute name="graphId" type="xsd:ID" use="optional" />
@@ -739,12 +724,7 @@
 					</xsd:complexType>
 				</xsd:element>
 				<!-- End Graphics related attributes-->
-				<xsd:element name="Xref" minOccurs="1" maxOccurs="1">
-					<xsd:complexType>
-						<xsd:attribute name="dataSource" type="xsd:string" use="required"/>
-						<xsd:attribute name="identifier" type="xsd:string" use="required"/>						
-					</xsd:complexType>
-				</xsd:element>
+				<xsd:element name="Xref" type="gpml:Xref" minOccurs="1" maxOccurs="1"/>
 			</xsd:sequence>	
 			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 	        <xsd:attribute name="biopaxRef" type="xsd:string" use="optional" />
@@ -861,6 +841,7 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:group ref="gpml:CommentGroup" />
+				<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 			</xsd:sequence>
 			<xsd:attribute name="biopaxRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="groupId" type="xsd:string" use="required" />
@@ -899,6 +880,41 @@
 		<xsd:attributeGroup ref="gpml:CenterAttributes" />
 	</xsd:element>
 	<!-- End: Legend -->
+
+	<!-- ###################################################################### -->
+
+	<!-- 
+		Xref 
+		Reference to a database entry.
+
+		Xref element encloses: 
+		- attributes: identifier, dataSource		
+	-->
+	<xsd:element name="Xref">
+		<xsd:annotation>
+			<xsd:documentation>
+				Reference to a database entry.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:attribute name="identifier" type="xsd:string" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						The identifier of a PublicationXref or Xref object.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="dataSource" type="xsd:string" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						Specifies the datasource for the identifier provided as an Xref.
+						Equivalent to http://vocabularies.bridgedb.org/ops#DataSource conventional name.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>	 
+	<!-- End: Xref -->
 
 	<!-- ###################################################################### -->
 
@@ -977,7 +993,6 @@
 			</xsd:attribute>
 		</xsd:complexType>
 	</xsd:element>
-
 	<!-- End: Point -->
 	
 	<!-- ###################################################################### -->
