@@ -96,7 +96,6 @@
 					Horizontal alignment of displayed text, e.g., Left, Center, Right.
 				</xsd:documentation>
 			</xsd:annotation>
-			<!-- Horizontal alignment -->
 			<xsd:simpleType>
 				<xsd:restriction base="xsd:string">
 					<xsd:enumeration value="Left"/>
@@ -111,7 +110,6 @@
 					Vertical alignment of displayed text, e.g., Top, Middle, Bottom.
 				</xsd:documentation>
 			</xsd:annotation>
-			<!-- Vertical alignment -->
 			<xsd:simpleType>
 				<xsd:restriction base="xsd:string">
 					<xsd:enumeration value="Top"/>
@@ -468,7 +466,6 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:group ref="gpml:CommentGroup"/>
-				
 				<xsd:element name="Author" minOccurs="0" maxOccurs="1">
 					<xsd:annotation>
 						<xsd:documentation>
@@ -479,7 +476,6 @@
 						<xsd:attribute name="name" type="xsd:string" use="required"/>
 					</xsd:complexType>
 				</xsd:element>		
-				
 				<!-- Graphics related attributes-->
 				<xsd:element name="Graphics" minOccurs="0" maxOccurs="1">
 					<xsd:complexType>
@@ -532,8 +528,8 @@
 						filename. -->
 				<xsd:annotation>
 					<xsd:documentation>
-						The scientific name (e.g., Homo sapiens) of the
-						species being described by the pathway.
+						The scientific name (e.g., Homo sapiens) of the species 
+						being described by the pathway.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
@@ -546,7 +542,6 @@
 					Deprecated in 2017 version
 				-->
 			</xsd:attribute>
-
 			<xsd:attribute name="version" type="xsd:string" use="optional">
 				<!-- GenMAPP version, use for export
 					of maps from GenMAPP only. -->
@@ -555,33 +550,14 @@
 						The version of a pathway (currently not used in WP).
 					</xsd:documentation>
 				</xsd:annotation>
-			</xsd:attribute>	
-			
-			<xsd:attribute name="maintainer" type="xsd:string" use="optional">
-				<xsd:annotation>
-					<xsd:documentation>
-						The people who edited/maintained the given pathway.
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
-			<xsd:attribute name="email" type="xsd:string" use="optional"/>
+			</xsd:attribute>		
 			<xsd:attribute name="license" type="xsd:string" use="optional">
 				<xsd:annotation>
 					<xsd:documentation>
 						The license of a pathway.
 					</xsd:documentation>
 				</xsd:annotation>
-			</xsd:attribute>
-			<xsd:attribute name="lastModified" type="xsd:string" use="optional">
-				<xsd:annotation>
-					<xsd:documentation>
-						Last modification date, in the form of YYYYMMDD
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
-			<xsd:attribute name="biopaxRef" type="xsd:string" use="optional" />
-			
-
+			</xsd:attribute>		
 		</xsd:complexType>
 	</xsd:element>
 	<!-- End: Pathway -->
@@ -595,8 +571,8 @@
 		Metabolite, Pathway, Protein, RNA, Unknown.
 		
 		Encloses: 
-		- complex type sequence of elements: CommentGroup, Graphics(local), Xref(local)
-		- local attributes: biopaxRef, graphId, groupRef, textLabel, type
+		- complex type sequence of elements: CommentGroup, Graphics(local), Xref
+		- local attributes: graphId, groupRef, textLabel, type
 	
 	-->
 	<xsd:element name="DataNode">
@@ -622,9 +598,15 @@
 				<!-- End Graphics related attributes-->
 				<xsd:element name="Xref" type="gpml:Xref" minOccurs="1" maxOccurs="1"/>
 			</xsd:sequence>
-			<xsd:attribute name="biopaxRef" type="xsd:string" use="optional" />
             <xsd:attribute name="graphId" type="xsd:ID" use="optional" />
-            <xsd:attribute name="groupRef" type="xsd:string" use="optional" />
+            <xsd:attribute name="groupRef" type="xsd:string" use="optional">
+				<xsd:annotation>
+					<xsd:documentation>
+						A groupRef indicates an object is part of a gpml:Group with a groupId. 
+						DataNode, GraphicalLine, Group, Interaction, Label and Shape can be part of a group.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
 			<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
 			<xsd:attribute name="type" type="xsd:string" default="Unknown">
 				<xsd:annotation>
@@ -647,9 +629,10 @@
 		Always linked to a DataNode representing a specific state of the biological 
 		entity (e.g. phosphorylation, genetic variants, etc)
 		Encloses: 
-		- complex type sequence of elements: CommentGroup, Graphics(local), Xref(local)
-		- attributeGroup: DimensionAttributes
-		- local attributes: biopaxRef, graphId, groupRef, textLabel, stateType
+		- complex type sequence of elements: CommentGroup, Graphics(DimensionAttributes,
+		  FontAttributes, ShapeStyleAttributes), Xref
+		- attributeGroup: DimensionAttributes, FontAttributes, ShapeStyleAttributes
+		- local attributes: graphId, groupRef, textLabel, stateType
 	
 	-->
 	<xsd:element name="State">
@@ -675,9 +658,15 @@
 				<!-- End Graphics related attributes-->
 				<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 			</xsd:sequence>
-			<xsd:attribute name="biopaxRef" type="xsd:string" use="optional" />
             <xsd:attribute name="graphId" type="xsd:ID" use="optional" />
-			<xsd:attribute name="graphRef" type="xsd:IDREF" use="optional" />
+			<xsd:attribute name="graphRef" type="xsd:IDREF" use="optional">
+				<xsd:annotation>
+					<xsd:documentation>
+						A graphRef indicates a child/parent relationship between objects. 
+						The graphRef of the child specifies the graphID of the parent. 
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>	
 			<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
 			<xsd:attribute name="stateType" type="xsd:string" default="Unknown">
 				<xsd:annotation>
@@ -700,8 +689,8 @@
 		GrapicalLine are graphical annotations without semantic meaning
 		
 		GraphicalLine element encloses: 
-		- complex type sequence of elements: CommentGroup, Graphics(local)
-		- local attributes: groupRef, biopaxRef, graphId, type
+		- complex type sequence of elements: CommentGroup, Graphics(Point, Anchor, LineStyleAttributes)
+		- local attributes: groupRef, graphId, type
 	
     -->
 
@@ -727,7 +716,6 @@
 				<!-- End Graphics related attributes-->
 			</xsd:sequence>
 			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
-			<xsd:attribute name="biopaxRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="graphId" type="xsd:ID" use="optional" />
 			<xsd:attribute name="type" type="xsd:string" use="optional" />
 		</xsd:complexType>
@@ -746,8 +734,9 @@
 		Represent biological relation between entities - should always be attached to DataNodes
 		
 		Interaction element encloses: 
-		- complex type sequence of elements: CommentGroup, Graphics(local)
-		- local attributes: groupRef, biopaxRef, graphId, type
+		- complex type sequence of elements: CommentGroup, Graphics(Point, Anchor,
+		  LineStyleAttributes), Xref
+		- local attributes: groupRef, graphId, type
 	-->
 	<xsd:element name="Interaction">
 		<xsd:annotation>
@@ -772,7 +761,6 @@
 				<xsd:element name="Xref" type="gpml:Xref" minOccurs="1" maxOccurs="1"/>
 			</xsd:sequence>	
 			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
-	        <xsd:attribute name="biopaxRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="graphId" type="xsd:ID" use="optional" />
 			<xsd:attribute name="type" type="xsd:string" use="optional" />
 		</xsd:complexType>
@@ -785,8 +773,9 @@
 		An element to attach simple labels to the pathway
 		No semantic meaning - graphical attributes
 		Label element encloses: 
-		- complex type sequence of elements: CommentGroup, Graphics(local)
-		- local attributes: href, biopaxRef, graphId, groupRef, textLabel
+		- complex type sequence of elements: CommentGroup, Graphics(RectAttributes, 
+		  FontAttributes, ShapeStyleAttributes)
+		- local attributes: href, graphId, groupRef, textLabel
 	-->
 	<xsd:element name="Label">
 		<xsd:annotation>
@@ -816,7 +805,6 @@
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
-			<xsd:attribute name="biopaxRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="graphId" type="xsd:ID" use="optional" />
 			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="textLabel" use="required" type="xsd:string"/>			
@@ -831,8 +819,9 @@
 	    Graphical elements - shapes with or without a text label
 		
 		Shape element encloses: 
-		- complex type sequence of elements: CommentGroup, Graphics(local)
-		- local attributes: biopaxRef, graphId, groupRef, textLabel
+		- complex type sequence of elements: CommentGroup, Graphics(RectAttributes,
+		  FontAttributes, ShapeStyleAttributes, rotation)
+		- local attributes: graphId, groupRef, textLabel
 	-->
 	<xsd:element name="Shape">
 		<xsd:annotation>
@@ -855,7 +844,6 @@
 				</xsd:element>
 				<!-- End Graphics related attributes-->
 			</xsd:sequence>
-			<xsd:attribute name="biopaxRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="graphId" type="xsd:ID" use="optional" />
 			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="textLabel" use="optional" type="xsd:string"/>
@@ -874,8 +862,8 @@
 		None, Pathway, Group, Complex
 		
 		Group element encloses: 
-		- complex type sequence of elements: CommentGroup
-		- local attributes: biopaxRef, groupId, groupRef, style, textLabel, graphId
+		- complex type sequence of elements: CommentGroup, Xref
+		- local attributes: groupId, groupRef, style, textLabel, graphId
 	-->
 	<xsd:element name="Group">	
 		<xsd:annotation>
@@ -888,7 +876,6 @@
 				<xsd:group ref="gpml:CommentGroup" />
 				<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 			</xsd:sequence>
-			<xsd:attribute name="biopaxRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="groupId" type="xsd:string" use="required" />
 			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="style" type="xsd:string" default="None" />
