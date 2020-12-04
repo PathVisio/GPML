@@ -357,21 +357,17 @@
 		</xsd:restriction>
 	</xsd:simpleType>
 
-
-	<!-- Changes for annotations here in 2017 version --> 
-
 	<xsd:group name="CommentGroup">
 		<xsd:annotation>
 			<xsd:documentation>
-				One or more comments, references, and key value attributes.  
+				One or more comments, key value attributes, or references. 
 			</xsd:documentation>
 		</xsd:annotation>	
 		<xsd:sequence>
-			<xsd:element name="Comment" minOccurs="0"
-			maxOccurs="unbounded">
+			<xsd:element name="Comment" minOccurs="0" maxOccurs="unbounded">
 				<xsd:annotation>
 					<xsd:documentation>
-						Elements used to provide descriptions and arbitrary notes for a given object.
+						Descriptions and arbitrary notes for a given object.
 					</xsd:documentation>
 				</xsd:annotation>
 				<xsd:complexType>
@@ -382,17 +378,65 @@
 					</xsd:simpleContent>
 				</xsd:complexType>
 			</xsd:element>
-			<xsd:element name="PublicationXref" minOccurs="0" maxOccurs="unbounded">
+			<xsd:element name="Attribute" minOccurs="0" maxOccurs="unbounded">
+				<xsd:annotation>
+					<xsd:documentation>
+						Key-value pair information for a given object.
+					</xsd:documentation>
+				</xsd:annotation>
 				<xsd:complexType>
-					<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+					<xsd:attribute name="key" type="xsd:string" use="required">
+						<xsd:annotation>
+							<xsd:documentation>
+								Key of a key-value pair.
+							</xsd:documentation>
+						</xsd:annotation>
+					</xsd:attribute>
+					<xsd:attribute name="value" type="xsd:string" use="required">
+						<xsd:annotation>
+							<xsd:documentation>
+								Value of a key-value pair.
+							</xsd:documentation>
+						</xsd:annotation>
+					</xsd:attribute>
 				</xsd:complexType>
 			</xsd:element>
-			<xsd:element name="BiopaxRef" minOccurs="0" maxOccurs="unbounded"/>		
-			<xsd:element name="Attribute" minOccurs="0"
-			maxOccurs="unbounded">
+			<xsd:element name="CitationRef" minOccurs="0" maxOccurs="unbounded">
+				<xsd:annotation>
+					<xsd:documentation>
+						Citation references, works, specified by identifier and data source.  
+					</xsd:documentation>
+				</xsd:annotation>
 				<xsd:complexType>
-					<xsd:attribute name="key" type="xsd:string" use="required"/>
-					<xsd:attribute name="value" type="xsd:string" use="required"/>
+				<xsd:complexType>
+					<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+					<xsd:attribute name="url" type="xsd:string" use="optional">
+						<xsd:annotation>
+							<xsd:documentation>
+								Url or web address of work being cited.
+							</xsd:documentation>
+						</xsd:annotation>
+					</xsd:attribute>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="AnnotationRef" minOccurs="0" maxOccurs="unbounded">
+				<xsd:annotation>
+					<xsd:documentation>
+						Annotation references specified by identifier and data source, 
+						E.g. ontology terms, evidence, metadata, subcellular location, 
+						protein complex, and organism
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:complexType>
+				<xsd:complexType>
+					<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+					<xsd:attribute name="textLabel" type="xsd:string" use="optional">
+						<xsd:annotation>
+							<xsd:documentation>
+								Text annotation to be visualized. 
+							</xsd:documentation>
+						</xsd:annotation>
+					</xsd:attribute>
 				</xsd:complexType>
 			</xsd:element>
 		</xsd:sequence>
