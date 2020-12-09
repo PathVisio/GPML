@@ -14,7 +14,7 @@
 		   RectAttributes, ShapeStyleAttributes
 		 - simpleTypes: RotationType, ColorType, StyleType, Dimension
 		 - element group: CommentGroup
-    -->
+    --> 
 			
 	<xsd:attributeGroup name="FontAttributes">
 		<xsd:annotation>
@@ -447,9 +447,9 @@
 	<!-- 
 		Pathway 
         This is the root element of the structure, it encloses: 
-		- complex type sequence of elements: CommentGroup, Graphics(local), DataNode, State, Interaction, 
-		GraphicalLine, Label, Shape, Group, InfoBox, Legend, Biopax
-		- local attributes: name, organism, dataSource, version, author, maintainer, email, license, 
+		- complex type sequence of elements: CommentGroup, Author, Graphics(DimensionAttributes), 
+		  DataNode, State, Interaction, GraphicalLine, Label, Shape, Group, InfoBox, Legend, Biopax
+		- local attributes: name, organism, dataSource, version, license, 
 		lastModified, biopaxRef
 		- attributeGroup: DimensionAttributes
 	
@@ -863,7 +863,7 @@
 		
 		Group element encloses: 
 		- complex type sequence of elements: CommentGroup, Xref
-		- local attributes: groupId, groupRef, style, textLabel, graphId
+		- local attributes: graphId, groupRef, textLabel, groupType
 	-->
 	<xsd:element name="Group">	
 		<xsd:annotation>
@@ -876,11 +876,27 @@
 				<xsd:group ref="gpml:CommentGroup" />
 				<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 			</xsd:sequence>
-			<xsd:attribute name="groupId" type="xsd:string" use="required" />
-			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
-			<xsd:attribute name="style" type="xsd:string" default="None" />
-			<xsd:attribute name="textLabel" type="xsd:string" use="optional" />
 			<xsd:attribute name="graphId" type="xsd:ID" use="optional" />
+			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="textLabel" type="xsd:string" use="optional" />
+			<xsd:attribute name="groupType" default="Group">
+				<xsd:simpleType>
+					<xsd:union>
+						<xsd:simpleType>
+							<xsd:restriction base="xsd:string">
+								<xsd:enumeration value="Group"/>
+								<xsd:enumeration value="Complex"/>
+								<xsd:enumeration value="Pathway"/>
+								<xsd:enumeration value="Analog"/>
+								<xsd:enumeration value="Paralog"/>
+							</xsd:restriction>
+						</xsd:simpleType>
+						<xsd:simpleType>
+							<xsd:restriction base="xsd:string"/>
+						</xsd:simpleType>
+					</xsd:union>
+				</xsd:simpleType>
+			</xsd:attribute>
 		</xsd:complexType>
 	</xsd:element>
 	<!-- End: Group -->
