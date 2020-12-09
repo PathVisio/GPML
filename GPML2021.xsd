@@ -406,7 +406,14 @@
 					</xsd:documentation>
 				</xsd:annotation>
 				<xsd:complexType>
-					<xsd:attribute name="graphRef" type="xsd:string" use="required"/>
+					<xsd:attribute name="graphRef" type="xsd:string" use="required">
+						<xsd:annotation>
+							<xsd:documentation>
+								A graphRef indicates a child/parent relationship between objects. 
+								The graphRef of the child refers to the graphID of the parent. 
+							</xsd:documentation>
+						</xsd:annotation>
+					</xsd:attribute>
 				</xsd:complexType>
 			</xsd:element>
 			<xsd:element name="CitationRef" minOccurs="0" maxOccurs="unbounded">
@@ -416,7 +423,14 @@
 					</xsd:documentation>
 				</xsd:annotation>
 				<xsd:complexType>
-					<xsd:attribute name="graphRef" type="xsd:string" use="required"/>
+					<xsd:attribute name="graphRef" type="xsd:string" use="required">
+						<xsd:annotation>
+							<xsd:documentation>
+								A graphRef indicates a child/parent relationship between objects. 
+								The graphRef of the child refers to the graphID of the parent. 
+							</xsd:documentation>
+						</xsd:annotation>
+					</xsd:attribute>
 				</xsd:complexType>
 			</xsd:element>
 		</xsd:sequence>
@@ -644,15 +658,15 @@
 				<xsd:group ref="gpml:CommentGroup"/>
 			</xsd:sequence>
             <xsd:attribute name="graphId" type="xsd:ID" use="required" />
-			<xsd:attribute name="graphRef" type="xsd:IDREF" use="optional">
-			<xsd:attribute name="groupRef" type="xsd:string" use="optional">
+			<xsd:attribute name="graphRef" type="xsd:IDREF" use="required">
 				<xsd:annotation>
 					<xsd:documentation>
 						A graphRef indicates a child/parent relationship between objects. 
-						The graphRef of the child specifies the graphID of the parent. 
+						The graphRef of the child refers to the graphID of the parent. 
 					</xsd:documentation>
 				</xsd:annotation>
-			</xsd:attribute>	
+			</xsd:attribute>
+			<xsd:attribute name="groupRef" type="xsd:string" use="optional">			
 			<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
 			<xsd:attribute name="stateType" type="xsd:string" default="Unknown">
 				<xsd:annotation>
@@ -710,7 +724,6 @@
 	<!-- End: Graphical Line -->
 
 	<!-- ###################################################################### -->
-
 
 	<!-- 
 		Interaction and Graphical Lines together are the only elements which can be used to 
@@ -1052,7 +1065,7 @@
 				<xsd:annotation>
 					<xsd:documentation>
 						A graphRef indicates a child/parent relationship between objects. 
-						The graphRef of the child specifies the graphID of the parent. 
+						The graphRef of the child refers to the graphID of the parent. 
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
