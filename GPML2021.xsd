@@ -583,7 +583,7 @@
 				<!-- End Graphics related attributes-->
 				<xsd:group ref="gpml:CommentGroup"/>				
 			</xsd:sequence>
-            <xsd:attribute name="graphId" type="xsd:ID" use="optional" />
+            <xsd:attribute name="graphId" type="xsd:ID" use="required" />
             <xsd:attribute name="groupRef" type="xsd:string" use="optional">
 				<xsd:annotation>
 					<xsd:documentation>
@@ -643,8 +643,9 @@
 				<!-- End Graphics related attributes-->
 				<xsd:group ref="gpml:CommentGroup"/>
 			</xsd:sequence>
-            <xsd:attribute name="graphId" type="xsd:ID" use="optional" />
+            <xsd:attribute name="graphId" type="xsd:ID" use="required" />
 			<xsd:attribute name="graphRef" type="xsd:IDREF" use="optional">
+			<xsd:attribute name="groupRef" type="xsd:string" use="optional">
 				<xsd:annotation>
 					<xsd:documentation>
 						A graphRef indicates a child/parent relationship between objects. 
@@ -700,8 +701,8 @@
 				<xsd:group ref="gpml:CommentGroup" />
 				<!-- End Graphics related attributes-->
 			</xsd:sequence>
+			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
 			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
-			<xsd:attribute name="graphId" type="xsd:ID" use="optional" />
 			<xsd:attribute name="type" type="xsd:string" use="optional" />
 		</xsd:complexType>
 	</xsd:element>
@@ -745,8 +746,8 @@
 				<!-- End Graphics related attributes-->
 				<xsd:group ref="gpml:CommentGroup" />
 			</xsd:sequence>	
+			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
 			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
-			<xsd:attribute name="graphId" type="xsd:ID" use="optional" />
 			<xsd:attribute name="type" type="xsd:string" use="optional" />
 		</xsd:complexType>
 	</xsd:element>
@@ -790,7 +791,7 @@
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
-			<xsd:attribute name="graphId" type="xsd:ID" use="optional" />
+			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
 			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="textLabel" use="required" type="xsd:string"/>			
 		</xsd:complexType>
@@ -829,7 +830,7 @@
 				<xsd:group ref="gpml:CommentGroup" />
 				<!-- End Graphics related attributes-->
 			</xsd:sequence>
-			<xsd:attribute name="graphId" type="xsd:ID" use="optional" />
+			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
 			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="textLabel" use="optional" type="xsd:string"/>
 
@@ -861,7 +862,7 @@
 				<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 				<xsd:group ref="gpml:CommentGroup" />
 			</xsd:sequence>
-			<xsd:attribute name="graphId" type="xsd:ID" use="optional" />
+			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
 			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="textLabel" type="xsd:string" use="optional" />
 			<xsd:attribute name="groupType" default="Group">
@@ -1055,7 +1056,7 @@
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
-			<xsd:attribute name="graphId" type="xsd:ID" use="optional" />
+			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
 	        <!-- Note: only the arrowHead attribute on first and last points are used, the rest is ignored. -->
 	        <xsd:attribute name="arrowHead" default="Line" type="xsd:string" >
 				<xsd:annotation>
@@ -1099,7 +1100,7 @@
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
-			<xsd:attribute name="graphId" type="xsd:ID" use="optional" />
+			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
 	    </xsd:complexType>
 	</xsd:element>
 	<!-- End: Anchor -->
