@@ -104,7 +104,7 @@
 				</xsd:restriction>
 			</xsd:simpleType>
 		</xsd:attribute>
-		<xsd:attribute name="vAlign" default="Top">
+		<xsd:attribute name="vAlign" default="Middle">
 			<xsd:annotation>
 				<xsd:documentation>
 					Vertical alignment of displayed text, e.g., Top, Middle, Bottom.
