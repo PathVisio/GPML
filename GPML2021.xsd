@@ -21,6 +21,13 @@
 				Common font properties. 
 			</xsd:documentation>
 		</xsd:annotation>
+		<xsd:attribute name="textColor" type="gpml:ColorType" default="White">
+			<xsd:annotation>
+				<xsd:documentation>
+					The color of text, e.g. label.
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
 		<xsd:attribute name="fontName" default="Arial" type="xsd:string">
 			<xsd:annotation>
 				<xsd:documentation>
@@ -206,13 +213,6 @@
 				Visual appearance of a two-dimensional object.
 			</xsd:documentation>
 		</xsd:annotation>
-		<xsd:attribute name="labelColor" type="gpml:ColorType" default="White">
-			<xsd:annotation>
-				<xsd:documentation>
-					The color of a label.
-				</xsd:documentation>
-			</xsd:annotation>
-		</xsd:attribute>
 		<xsd:attribute name="borderColor" type="gpml:ColorType" default="Black">
 			<xsd:annotation>
 				<xsd:documentation>
