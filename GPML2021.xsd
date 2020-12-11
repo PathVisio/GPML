@@ -12,7 +12,7 @@
          to elements in the GPML hierarchy:
 		 - attributeGroups: FontAttributes,RectAttributes, LineStyleAttributes, ShapeStyleAttributes
 		 - simpleTypes: RotationType, ColorType, StyleType, Dimension
-		 - element group: CommentGroup
+		 - element group: CommentGroup(Comment, Attribute, AnnotationRef, CitationRef) 
     --> 
 			
 	<xsd:attributeGroup name="FontAttributes">
@@ -257,11 +257,6 @@
 		</xsd:attribute>
 	</xsd:attributeGroup>
 
-
-	<!-- 
-		2017 added attributeGroup IdentifierRefGroup and RelativeCoordinates
-	--> 
-
 	<xsd:simpleType name="RotationType">
 		<xsd:annotation>
 			<xsd:documentation>
@@ -424,10 +419,9 @@
 	<!-- 
 		Pathway 
         This is the root element of the structure, it encloses: 
-		- complex type sequence of elements: CommentGroup, Author, Graphics (boardWidth,boardHeight)
-		  DataNode, State, Interaction, GraphicalLine, Label, Shape, Group, InfoBox, Legend, Biopax
-		- local attributes: name, organism, dataSource, version, license  
-	
+		- complex type sequence of elements: Xref, Author, CommentGroup, Graphics (boardWidth,boardHeight),
+		  DataNode, State, Interaction, GraphicalLine, Label, Shape, Group, InfoBox, Legend, Annotation, Citation
+		- local attributes: name, organism, source, version, license  
 	-->
 
 	<xsd:element name="Pathway">
@@ -549,9 +543,9 @@
 		Metabolite, Pathway, Protein, RNA, Unknown.
 		
 		Encloses: 
-		- complex type sequence of elements: CommentGroup, Graphics(local), Xref
+		- complex type sequence of elements: Xref, Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes), 
+		  CommentGroup
 		- local attributes: graphId, groupRef, textLabel, type
-	
 	-->
 	<xsd:element name="DataNode">
 		<xsd:annotation>
@@ -607,11 +601,9 @@
 		Always linked to a DataNode representing a specific state of the biological 
 		entity (e.g. phosphorylation, genetic variants, etc)
 		Encloses: 
-		- complex type sequence of elements: CommentGroup, Graphics
-		  FontAttributes, ShapeStyleAttributes), Xref
-		- attributeGroup: FontAttributes, ShapeStyleAttributes
-		- local attributes: relX, relY, width, height, graphId, groupRef, textLabel, stateType
-	
+		- complex type sequence of elements: Xref, Graphics (relX, relY, width, height, FontAttributes, 
+		  ShapeStyleAttributes), CommentGroup
+		- local attributes: graphId, graphRef, groupRef, textLabel, stateType
 	-->
 	<xsd:element name="State">
 		<xsd:annotation>
@@ -661,50 +653,7 @@
 	<!-- End: State -->
 	
 	<!-- ###################################################################### -->
-
-	<!-- 
-		Interaction and Graphical Lines together are the only elements which can be used to 
-		connect data nodes, for implementing any kind of connections or interactions.
-		
-		GrapicalLine are graphical annotations without semantic meaning
-		
-		GraphicalLine element encloses: 
-		- complex type sequence of elements: CommentGroup, Graphics(Point, Anchor, LineStyleAttributes)
-		- local attributes: groupRef, graphId, type
 	
-    -->
-
-	<xsd:element name="GraphicalLine">
-		<xsd:annotation>
-			<xsd:documentation>
-				A visual annotation, often used to partition space or connect other annotation,
-				e.g., Shapes. GrapicalLine are graphical annotations without semantic meaning
-				An Xref cannot be specified for GraphicalLines (in contrast to Interactions).
-			</xsd:documentation>
-		</xsd:annotation>
-		<xsd:complexType>
-			<xsd:sequence>
-				<!-- Graphics related attributes-->
-				<xsd:element name="Point" type="gpml:Point" minOccurs="2" maxOccurs="unbounded" />
-				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
-					<xsd:complexType>	
-						<xsd:element name="Anchor" type="gpml:Anchor" minOccurs="0" maxOccurs="unbounded" />
-						<xsd:attributeGroup ref="gpml:LineStyleAttributes" />
-					</xsd:complexType>
-				</xsd:element>
-				<xsd:group ref="gpml:CommentGroup" />
-				<!-- End Graphics related attributes-->
-			</xsd:sequence>
-			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
-			<xsd:attribute name="type" type="xsd:string" use="optional" />
-		</xsd:complexType>
-	</xsd:element>
-
-	<!-- End: Graphical Line -->
-
-	<!-- ###################################################################### -->
-
 	<!-- 
 		Interaction and Graphical Lines together are the only elements which can be used to 
 		connect data nodes, for implementing any kind of connections or interactions.
@@ -713,9 +662,8 @@
 		Represent biological relation between entities - should always be attached to DataNodes
 		
 		Interaction element encloses: 
-		- complex type sequence of elements: CommentGroup, Graphics(Point, Anchor,
-		  LineStyleAttributes), Xref
-		- local attributes: groupRef, graphId, type
+		- complex type sequence of elements: Xref, Point, Graphics(Anchor, LineStyleAttributes), CommentGroup
+		- local attributes: graphId, groupRef, type
 	-->
 	<xsd:element name="Interaction">
 		<xsd:annotation>
@@ -748,12 +696,50 @@
 
 	<!-- ###################################################################### -->
 
+	<!-- 
+		GrapicalLine are graphical annotations without semantic meaning
+		
+		GraphicalLine element encloses: 
+		- complex type sequence of elements: Point, Graphics(Anchor, LineStyleAttributes), CommentGroup
+		- local attributes: graphId, groupRef, type
+    -->
+	<xsd:element name="GraphicalLine">
+		<xsd:annotation>
+			<xsd:documentation>
+				A visual annotation, often used to partition space or connect other annotation,
+				e.g., Shapes. GrapicalLine are graphical annotations without semantic meaning
+				An Xref cannot be specified for GraphicalLines (in contrast to Interactions).
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<!-- Graphics related attributes-->
+				<xsd:element name="Point" type="gpml:Point" minOccurs="2" maxOccurs="unbounded" />
+				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+					<xsd:complexType>	
+						<xsd:element name="Anchor" type="gpml:Anchor" minOccurs="0" maxOccurs="unbounded" />
+						<xsd:attributeGroup ref="gpml:LineStyleAttributes" />
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:group ref="gpml:CommentGroup" />
+				<!-- End Graphics related attributes-->
+			</xsd:sequence>
+			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="type" type="xsd:string" use="optional" />
+		</xsd:complexType>
+	</xsd:element>
+
+	<!-- End: Graphical Line -->
+
+	<!-- ###################################################################### -->
+
 	<!-- Label 
 		An element to attach simple labels to the pathway
 		No semantic meaning - graphical attributes
 		Label element encloses: 
-		- complex type sequence of elements: CommentGroup, Graphics(RectAttributes, 
-		  FontAttributes, ShapeStyleAttributes)
+		- complex type sequence of elements: Graphics(RectAttributes, FontAttributes, ShapeStyleAttributes),
+		  CommentGroup
 		- local attributes: href, graphId, groupRef, textLabel
 	-->
 	<xsd:element name="Label">
@@ -798,8 +784,8 @@
 	    Graphical elements - shapes with or without a text label
 		
 		Shape element encloses: 
-		- complex type sequence of elements: CommentGroup, Graphics(RectAttributes,
-		  FontAttributes, ShapeStyleAttributes, rotation)
+		- complex type sequence of elements: Graphics(RectAttributes, FontAttributes, 
+		  ShapeStyleAttributes, rotation), CommentGroup
 		- local attributes: graphId, groupRef, textLabel
 	-->
 	<xsd:element name="Shape">
@@ -841,8 +827,8 @@
 		None, Pathway, Group, Complex
 		
 		Group element encloses: 
-		- complex type sequence of elements: CommentGroup, Xref
-		- local attributes: graphId, groupRef, textLabel, groupType
+		- complex type sequence of elements: Xref, CommentGroup
+		- local attributes: graphId, groupRef, textLabel, groupType(enums)
 	-->
 	<xsd:element name="Group">	
 		<xsd:annotation>
@@ -985,7 +971,7 @@
 	
 	<!-- 
 		Citation
-		Referred to in the pathway
+		Referred to in the pathway.
 		
 		Citation element encloses:
 		- element: Xref
