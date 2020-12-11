@@ -10,8 +10,7 @@
 	     Type Definitions 
          This block declares all the properties which would then be attached
          to elements in the GPML hierarchy:
-		 - attributeGroups: FontAttributes, CenterAttributes, DimensionAttributes, 
-		   RectAttributes, LineStyleAttributes, ShapeStyleAttributes
+		 - attributeGroups: FontAttributes,RectAttributes, LineStyleAttributes, ShapeStyleAttributes
 		 - simpleTypes: RotationType, ColorType, StyleType, Dimension
 		 - element group: CommentGroup
     --> 
@@ -120,58 +119,40 @@
 		</xsd:attribute>
 	</xsd:attributeGroup>
 
-	<xsd:attributeGroup name="CenterAttributes">
+	<xsd:attributeGroup name="RectAttributes">
 		<xsd:annotation>
 			<xsd:documentation>
-				Center coordinates of a given object. 
+				Centering(position) and dimension attributes for an object.  
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:attribute name="centerX" type="xsd:float" use="required">
-			<xsd:annotation>
+					<xsd:annotation>
 				<xsd:documentation>
 					Middle of a given object in the x-direction.
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
 		<xsd:attribute name="centerY" type="xsd:float" use="required">
-			<xsd:annotation>
+		<xsd:annotation>
 				<xsd:documentation>
 					Middle of a given object in the y-direction.
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
-	</xsd:attributeGroup>
-	
-	<xsd:attributeGroup name="DimensionAttributes">
-		<xsd:annotation>
-			<xsd:documentation>
-				Dimension of width and height of a given object. 
-			</xsd:documentation>
-		</xsd:annotation>
-		<xsd:attribute name="width" type="gpml:Dimension" use="required" >
+		<xsd:attribute name="width" type="gpml:Dimension" use="required">
 			<xsd:annotation>
 				<xsd:documentation>
 					The pixel value for the x-dimensional length of a given object.
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
-		<xsd:attribute name="height" type="gpml:Dimension" use="required" >
-			<xsd:annotation>
+		<xsd:attribute name="height" type="gpml:Dimension" use="required">
+		<xsd:annotation>
 				<xsd:documentation>
 					The pixel value for the y-dimensional length of a given object.
 				</xsd:documentation>
 			</xsd:annotation>
-		</xsd:attribute>
-	</xsd:attributeGroup>
-
-	<xsd:attributeGroup name="RectAttributes">
-		<xsd:annotation>
-			<xsd:documentation>
-				Spatial attributes of a object, e.g. position and dimension. 
-			</xsd:documentation>
-		</xsd:annotation>
-		<xsd:attributeGroup ref="gpml:CenterAttributes" />
-		<xsd:attributeGroup ref="gpml:DimensionAttributes" />	
+		</xsd:attribute>	
 	</xsd:attributeGroup>
 
 	<xsd:attributeGroup name="LineStyleAttributes">
@@ -443,11 +424,9 @@
 	<!-- 
 		Pathway 
         This is the root element of the structure, it encloses: 
-		- complex type sequence of elements: CommentGroup, Author, Graphics(DimensionAttributes), 
+		- complex type sequence of elements: CommentGroup, Author, Graphics (boardWidth,boardHeight)
 		  DataNode, State, Interaction, GraphicalLine, Label, Shape, Group, InfoBox, Legend, Biopax
-		- local attributes: name, organism, dataSource, version, license, 
-		lastModified, biopaxRef
-		- attributeGroup: DimensionAttributes
+		- local attributes: name, organism, dataSource, version, license  
 	
 	-->
 
@@ -475,14 +454,14 @@
 				<xsd:group ref="gpml:CommentGroup"/>
 				<!-- Graphics related attributes-->
 				<xsd:element name="Graphics" minOccurs="0" maxOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							The width and height of a pathway.
+						</xsd:documentation>
+					</xsd:annotation>
 					<xsd:complexType>
-						<xsd:attributeGroup ref="gpml:DimensionAttributes">
-							<xsd:annotation>
-								<xsd:documentation>
-									The width and height of a pathway.
-								</xsd:documentation>
-							</xsd:annotation>
-						</xsd:attributeGroup>
+						<xsd:attribute name="boardWidth" type="gpml:Dimension" use="required"/>				
+						<xsd:attribute name="boardHeight" type="gpml:Dimension" use="required"/>
 					</xsd:complexType>
 				</xsd:element>
 				<!-- End Graphics related attributes-->	
@@ -628,10 +607,10 @@
 		Always linked to a DataNode representing a specific state of the biological 
 		entity (e.g. phosphorylation, genetic variants, etc)
 		Encloses: 
-		- complex type sequence of elements: CommentGroup, Graphics(DimensionAttributes,
+		- complex type sequence of elements: CommentGroup, Graphics
 		  FontAttributes, ShapeStyleAttributes), Xref
-		- attributeGroup: DimensionAttributes, FontAttributes, ShapeStyleAttributes
-		- local attributes: graphId, groupRef, textLabel, stateType
+		- attributeGroup: FontAttributes, ShapeStyleAttributes
+		- local attributes: relX, relY, width, height, graphId, groupRef, textLabel, stateType
 	
 	-->
 	<xsd:element name="State">
@@ -649,7 +628,8 @@
 					<xsd:complexType>
 						<xsd:attribute name="relX" type="xsd:float" use="required" />
 						<xsd:attribute name="relY" type="xsd:float" use="required" />
-						<xsd:attributeGroup ref="gpml:DimensionAttributes" />
+						<xsd:attribute name="width" type="gpml:Dimension" use="required" />
+						<xsd:attribute name="height" type="gpml:Dimension" use="required" />
 						<xsd:attributeGroup ref="gpml:FontAttributes"/>
 						<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
 					</xsd:complexType>
@@ -910,7 +890,10 @@
 				are displayed in the pathway. Currently just a placeholder -- not used.
 			</xsd:documentation>
 		</xsd:annotation>
-		<xsd:attributeGroup ref="gpml:CenterAttributes" />
+		<xsd:complexType>
+			<xsd:attribute name="centerX" type="xsd:float" use="required"/>
+			<xsd:attribute name="centerY" type="xsd:float" use="required"/>
+		</xsd:complexType>
 	</xsd:element>
 	<!-- End: InfoBox -->
 	
@@ -924,7 +907,10 @@
 				Not currently used.
 			</xsd:documentation>
 		</xsd:annotation>
-		<xsd:attributeGroup ref="gpml:CenterAttributes" />
+		<xsd:complexType>
+			<xsd:attribute name="centerX" type="xsd:float" use="required"/>
+			<xsd:attribute name="centerY" type="xsd:float" use="required"/>
+		</xsd:complexType>
 	</xsd:element>
 	<!-- End: Legend -->
 
@@ -1043,7 +1029,7 @@
 		<xsd:complexType>
 			<xsd:attribute name="x" type="xsd:float" use="required" />
 			<xsd:attribute name="y" type="xsd:float" use="required" />
-			<xsd:attribute name="relX" type="xsd:float" use="optional" >
+			<xsd:attribute name="relX" type="xsd:float" use="optional">
 				<xsd:annotation>
 					<xsd:documentation>
 						When the given point is linked to an object, relX and relY are 
@@ -1052,7 +1038,7 @@
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
-			<xsd:attribute name="relY" type="xsd:float" use="optional" >
+			<xsd:attribute name="relY" type="xsd:float" use="optional">
 				<xsd:annotation>
 					<xsd:documentation>
 						When the given point is linked to an object, relX and relY are 
