@@ -435,7 +435,7 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1"/>
-				<xsd:element name="Author" minOccurs="0" maxOccurs="1">
+				<xsd:element name="Author" minOccurs="0" maxOccurs="unbounded">
 					<xsd:annotation>
 						<xsd:documentation>
 							The people who created or edited the given pathway.
@@ -574,7 +574,7 @@
             <xsd:attribute name="groupRef" type="xsd:string" use="optional">
 				<xsd:annotation>
 					<xsd:documentation>
-						A groupRef indicates an object is part of a gpml:Group with a groupId. 
+						A groupRef indicates an object is part of a gpml:Group with a graphId. 
 						DataNode, GraphicalLine, Group, Interaction, Label and Shape can be part of a group.
 					</xsd:documentation>
 				</xsd:annotation>
@@ -638,7 +638,7 @@
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
-			<xsd:attribute name="groupRef" type="xsd:string" use="optional">			
+			<xsd:attribute name="groupRef" type="xsd:string" use="optional"/>			
 			<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
 			<xsd:attribute name="stateType" type="xsd:string" default="Unknown">
 				<xsd:annotation>
@@ -648,7 +648,6 @@
 				</xsd:annotation>
 			</xsd:attribute>
 		</xsd:complexType>
-
 	</xsd:element>
 	<!-- End: State -->
 	
