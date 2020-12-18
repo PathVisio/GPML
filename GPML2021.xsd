@@ -961,6 +961,20 @@
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
+			<xsd:attribute name="url" type="xsd:string" use="optional">
+				<xsd:annotation>
+					<xsd:documentation>
+						Url or web address of work being cited.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="type" type="xsd:string" use="optional">
+				<xsd:annotation>
+					<xsd:documentation>
+						The type of annotation, e.g. Ontology term, metadata...
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
 			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
 		</xsd:complexType>
 	</xsd:element>
