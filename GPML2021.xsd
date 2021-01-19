@@ -352,7 +352,7 @@
 					</xsd:simpleContent>
 				</xsd:complexType>
 			</xsd:element>
-			<xsd:element name="Attribute" minOccurs="0" maxOccurs="unbounded">
+			<xsd:element name="Property" minOccurs="0" maxOccurs="unbounded">
 				<xsd:annotation>
 					<xsd:documentation>
 						Key-value pair information for a given object.
