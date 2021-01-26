@@ -1,30 +1,30 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="test case" Version="20130715">
-  <Graphics BoardHeight="222.47894511414458" BoardWidth="308.97388914338075" />
+<Pathway xmlns="http://pathvisio.org/GPML/2021" name="test case" version="20210128">
+  <Graphics boardHeight="222.47894511414458" boardWidth="308.97388914338075" />
   <Interaction GraphId="idaf905386">
-    <Graphics LineThickness="1.0" ZOrder="12288">
-      <Point X="90.92744437969687" Y="78.0748490898938" />
-      <Point X="278.97388914338075" Y="78.3325698579936" />
-      <Anchor GraphId="e0874" Position="0.09380500038409093" Shape="None" />
-      <Anchor GraphId="a67c1" Position="0.9220507933786898" Shape="None" />
+    <Graphics lineWidth="1.0" zOrder="12288">
+      <Point x="90.92744437969687" y="78.0748490898938" />
+      <Point x="278.97388914338075" y="78.3325698579936" />
+      <Anchor GraphId="e0874" position="0.09380500038409093" shapeType="None" />
+      <Anchor GraphId="a67c1" position="0.9220507933786898" shapeType="None" />
     </Graphics>
-    <Xref Database="" ID="" />
+    <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="id28382a1c">
-    <Graphics LineThickness="1.0" ZOrder="12288">
-      <Point X="175.1244935731248" Y="192.47894511414458" />
-      <Point ArrowHead="mim-catalysis" GraphRef="e0874" RelX="0.0" RelY="0.0" X="108.56714120298116" Y="78.09902458664439" />
-      <Anchor GraphId="f4b98" Position="0.09919868499280665" Shape="None" />
+    <Graphics lineWidth="1.0" zOrder="12288">
+      <Point x="175.1244935731248" y="192.47894511414458" />
+      <Point arrowHead="mim-catalysis" GraphRef="e0874" relX="0.0" relY="0.0" x="108.56714120298116" y="78.09902458664439" />
+      <Anchor GraphId="f4b98" position="0.09919868499280665" shapeType="None" />
     </Graphics>
-    <Xref Database="" ID="" />
+    <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="idc088e267">
-    <Graphics LineThickness="1.0" ZOrder="12288">
-      <Point GraphRef="a67c1" RelX="0.0" RelY="0.0" X="264.31581796609356" Y="78.31248072859039" />
-      <Point ArrowHead="mim-inhibition" GraphRef="f4b98" RelX="0.0" RelY="0.0" X="168.52209174140367" Y="181.13260740823483" />
+    <Graphics lineWidth="1.0" zOrder="12288">
+      <Point GraphRef="a67c1" relX="0.0" relY="0.0" x="264.31581796609356" y="78.31248072859039" />
+      <Point arrowHead="mim-inhibition" GraphRef="f4b98" relX="0.0" relY="0.0" x="168.52209174140367" y="181.13260740823483" />
     </Graphics>
-    <Xref Database="" ID="" />
+    <Xref dataSource="" identifier="" />
   </Interaction>
-  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <InfoBox centerX="0.0" centerY="0.0" />
   <Biopax />
 </Pathway>

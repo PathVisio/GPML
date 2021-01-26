@@ -1,42 +1,42 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="test case" Version="20130807">
-  <Graphics BoardHeight="526.1553615404016" BoardWidth="472.4153917921197" />
-  <Label GraphId="c8e4a" TextLabel="Label&#10;Fill: white&#10;Stroke width: 0&#10;z-index: in front">
-    <Graphics CenterX="159.24126688022554" CenterY="430.31979663925216" FillColor="ffffff" FontSize="12" Height="119.30921454152683" LineThickness="0.0" ShapeType="Rectangle" Valign="Middle" Width="138.829874074335" ZOrder="32971" />
+<Pathway xmlns="http://pathvisio.org/GPML/2021" name="test case" version="20210128">
+  <Graphics boardHeight="526.1553615404016" boardWidth="472.4153917921197" />
+  <Label GraphId="c8e4a" textLabel="Label&#10;Fill: white&#10;Stroke width: 0&#10;z-index: in front">
+    <Graphics centerX="159.24126688022554" centerY="430.31979663925216" fillColor="ffffff" fontSize="12" height="119.30921454152683" lineWidth="0.0" shapeType="Rectangle" vAlign="Middle" width="138.829874074335" zOrder="32971" />
   </Label>
-  <Label GraphId="d9e67" TextLabel="Label&#10;Stroke: black&#10;Fill: white&#10;z-index: in front">
-    <Graphics CenterX="153.64655322383825" CenterY="295.87045743220307" FillColor="ffffff" FontSize="12" Height="119.30921454152683" ShapeType="Rectangle" Valign="Middle" Width="138.829874074335" ZOrder="32972" />
+  <Label GraphId="d9e67" textLabel="Label&#10;Stroke: black&#10;Fill: white&#10;z-index: in front">
+    <Graphics centerX="153.64655322383825" centerY="295.87045743220307" fillColor="ffffff" fontSize="12" height="119.30921454152683" shapeType="Rectangle" vAlign="Middle" width="138.829874074335" zOrder="32972" />
   </Label>
-  <Label GraphId="c77d0" TextLabel="Label&#10;Stroke: black&#10;Fill: transparent&#10;z-index: in front">
-    <Graphics CenterX="150.25448273925733" CenterY="153.71186712383405" FontSize="12" Height="119.30921454152683" ShapeType="Rectangle" Valign="Middle" Width="138.829874074335" ZOrder="32976" />
+  <Label GraphId="c77d0" textLabel="Label&#10;Stroke: black&#10;Fill: transparent&#10;z-index: in front">
+    <Graphics centerX="150.25448273925733" centerY="153.71186712383405" fontSize="12" height="119.30921454152683" shapeType="Rectangle" vAlign="Middle" width="138.829874074335" zOrder="32976" />
   </Label>
   <Shape GraphId="fd2a7">
-    <Graphics CenterX="79.7036329261303" CenterY="171.9606322608814" FillColor="993300" FontSize="10" Height="46.75550660792965" Rotation="0.0" ShapeType="Rectangle" Valign="Middle" Width="106.22687224669693" ZOrder="32965" />
+    <Graphics centerX="79.7036329261303" centerY="171.9606322608814" fillColor="993300" fontSize="10" height="46.75550660792965" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="106.22687224669693" zOrder="32965" />
   </Shape>
   <Shape GraphId="f017c">
-    <Graphics CenterX="84.09470440971228" CenterY="312.1212205712492" FillColor="993300" FontSize="10" Height="46.75550660792965" Rotation="0.0" ShapeType="Rectangle" Valign="Middle" Width="106.22687224669693" ZOrder="32966" />
+    <Graphics centerX="84.09470440971228" centerY="312.1212205712492" fillColor="993300" fontSize="10" height="46.75550660792965" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="106.22687224669693" zOrder="32966" />
   </Shape>
   <Shape GraphId="d1115">
-    <Graphics CenterX="89.68941806609956" CenterY="446.57055977829754" FillColor="993300" FontSize="10" Height="46.75550660792965" Rotation="0.0" ShapeType="Rectangle" Valign="Middle" Width="106.22687224669693" ZOrder="32967" />
+    <Graphics centerX="89.68941806609956" centerY="446.57055977829754" fillColor="993300" fontSize="10" height="46.75550660792965" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="106.22687224669693" zOrder="32967" />
   </Shape>
-  <Shape GraphId="ef0d5" TextLabel="z-index: behind">
-    <Graphics CenterX="322.61362967758043" CenterY="68.4725421571527" Color="cccccc" FillColor="0000ff" FontSize="10" Height="100.48458149779776" Rotation="0.0" ShapeType="Rectangle" Valign="Middle" Width="115.90308370044096" ZOrder="32968" />
+  <Shape GraphId="ef0d5" textLabel="z-index: behind">
+    <Graphics centerX="322.61362967758043" centerY="68.4725421571527" Color="cccccc" fillColor="0000ff" fontSize="10" height="100.48458149779776" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="115.90308370044096" zOrder="32968" />
   </Shape>
-  <Shape GraphId="b47f2" TextLabel="z-index: behind">
-    <Graphics CenterX="384.4638499418992" CenterY="288.9130707915033" FillColor="ff6600" FontSize="10" Height="100.48458149779776" Rotation="0.0" ShapeType="Rectangle" Valign="Middle" Width="115.90308370044096" ZOrder="32969" />
+  <Shape GraphId="b47f2" textLabel="z-index: behind">
+    <Graphics centerX="384.4638499418992" centerY="288.9130707915033" fillColor="ff6600" fontSize="10" height="100.48458149779776" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="115.90308370044096" zOrder="32969" />
   </Shape>
-  <Shape GraphId="d2d79" TextLabel="z-index: in front">
-    <Graphics CenterX="327.1070217480666" CenterY="239.26549369899877" Color="cccccc" FillColor="0000ff" FontSize="10" Height="100.48458149779776" Rotation="0.0" ShapeType="Rectangle" Valign="Middle" Width="115.90308370044096" ZOrder="32970" />
+  <Shape GraphId="d2d79" textLabel="z-index: in front">
+    <Graphics centerX="327.1070217480666" centerY="239.26549369899877" Color="cccccc" fillColor="0000ff" fontSize="10" height="100.48458149779776" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="115.90308370044096" zOrder="32970" />
   </Shape>
-  <Shape GraphId="cd14e" TextLabel="z-index: behind">
-    <Graphics CenterX="369.4638499418992" CenterY="445.91307079150266" FillColor="ff6600" FontSize="10" Height="100.48458149779776" Rotation="0.0" ShapeType="Rectangle" Valign="Middle" Width="115.90308370044096" ZOrder="32973" />
+  <Shape GraphId="cd14e" textLabel="z-index: behind">
+    <Graphics centerX="369.4638499418992" centerY="445.91307079150266" fillColor="ff6600" fontSize="10" height="100.48458149779776" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="115.90308370044096" zOrder="32973" />
   </Shape>
-  <Shape GraphId="c43e6" TextLabel="z-index: in front&#10;fill: transparent">
-    <Graphics CenterX="312.10702174806676" CenterY="396.26549369899755" Color="999999" FontSize="10" Height="100.48458149779776" Rotation="0.0" ShapeType="Rectangle" Valign="Middle" Width="115.90308370044096" ZOrder="32974" />
+  <Shape GraphId="c43e6" textLabel="z-index: in front&#10;fill: transparent">
+    <Graphics centerX="312.10702174806676" centerY="396.26549369899755" Color="999999" fontSize="10" height="100.48458149779776" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="115.90308370044096" zOrder="32974" />
   </Shape>
-  <Shape GraphId="f9f51" TextLabel="z-index: in front">
-    <Graphics CenterX="379.97045787141303" CenterY="118.12011924965793" FillColor="ff6600" FontSize="10" Height="100.48458149779776" Rotation="0.0" ShapeType="Rectangle" Valign="Middle" Width="115.90308370044096" ZOrder="32975" />
+  <Shape GraphId="f9f51" textLabel="z-index: in front">
+    <Graphics centerX="379.97045787141303" centerY="118.12011924965793" fillColor="ff6600" fontSize="10" height="100.48458149779776" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="115.90308370044096" zOrder="32975" />
   </Shape>
-  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <InfoBox centerX="0.0" centerY="0.0" />
   <Biopax />
 </Pathway>

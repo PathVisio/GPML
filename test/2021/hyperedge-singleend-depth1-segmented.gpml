@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="test case" Version="20130715">
-  <Graphics BoardHeight="199.57351290684608" BoardWidth="227.0819304152649" />
-  <DataNode GraphId="faa53" TextLabel="GeneProduct" Type="GeneProduct">
-    <Graphics CenterX="157.0819304152649" CenterY="159.57351290684608" FontSize="10" Height="20.0" Valign="Middle" Width="80.0" ZOrder="32768" />
-    <Xref Database="" ID="" />
+<Pathway xmlns="http://pathvisio.org/GPML/2021" name="test case" version="20210128">
+  <Graphics boardHeight="199.57351290684608" boardWidth="227.0819304152649" />
+  <DataNode GraphId="faa53" textLabel="GeneProduct" type="GeneProduct">
+    <Graphics centerX="157.0819304152649" centerY="159.57351290684608" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
+    <Xref dataSource="" identifier="" />
   </DataNode>
   <Interaction GraphId="idaf905386">
-    <Graphics ConnectorType="Segmented" LineThickness="1.0" ZOrder="12288">
-      <Point X="30.452674897119397" Y="66.6666666666666" />
-      <Point X="94.54545454545453" Y="89.09090909090908" />
-      <Point X="163.78600823045275" Y="66.66666666666659" />
-      <Anchor GraphId="e0874" Position="0.7074315746170173" Shape="None" />
+    <Graphics connectorType="Segmented" lineWidth="1.0" zOrder="12288">
+      <Point x="30.452674897119397" y="66.6666666666666" />
+      <Point x="94.54545454545453" y="89.09090909090908" />
+      <Point x="163.78600823045275" y="66.66666666666659" />
+      <Anchor GraphId="e0874" position="0.7074315746170173" shapeType="None" />
     </Graphics>
-    <Xref Database="" ID="" />
+    <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="id28382a1c">
-    <Graphics ConnectorType="Segmented" LineThickness="1.0" ZOrder="12288">
-      <Point GraphRef="faa53" RelX="0.0" RelY="-1.0" X="157.0819304152649" Y="149.57351290684608" />
-      <Point X="158.18181818181816" Y="117.27272727272727" />
-      <Point ArrowHead="mim-catalysis" GraphRef="e0874" RelX="0.0" RelY="0.0" X="124.62875863416231" Y="79.34813165911122" />
+    <Graphics connectorType="Segmented" lineWidth="1.0" zOrder="12288">
+      <Point GraphRef="faa53" relX="0.0" relY="-1.0" x="157.0819304152649" y="149.57351290684608" />
+      <Point x="158.18181818181816" y="117.27272727272727" />
+      <Point arrowHead="mim-catalysis" GraphRef="e0874" relX="0.0" relY="0.0" x="124.62875863416231" y="79.34813165911122" />
     </Graphics>
-    <Xref Database="" ID="" />
+    <Xref dataSource="" identifier="" />
   </Interaction>
-  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <InfoBox centerX="0.0" centerY="0.0" />
   <Biopax />
 </Pathway>

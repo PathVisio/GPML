@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="test case" Version="20130813">
-  <Graphics BoardHeight="783.1967827425314" BoardWidth="1045.87076968672" />
-  <DataNode GraphId="a739c" TextLabel="GeneProduct" Type="GeneProduct">
-    <Graphics CenterX="220.3444354561113" CenterY="125.56929497810864" FontSize="10" Height="20.0" Valign="Middle" Width="80.0" ZOrder="33011" />
-    <Xref Database="" ID="" />
+<Pathway xmlns="http://pathvisio.org/GPML/2021" name="test case" version="20210128">
+  <Graphics boardHeight="783.1967827425314" boardWidth="1045.87076968672" />
+  <DataNode GraphId="a739c" textLabel="GeneProduct" type="GeneProduct">
+    <Graphics centerX="220.3444354561113" centerY="125.56929497810864" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="33011" />
+    <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="d3ec7" TextLabel="0023" Type="GeneProduct">
-    <Graphics CenterX="55.28604108781412" CenterY="70.00623839468847" FontSize="10" Height="20.0" Valign="Middle" Width="80.0" ZOrder="33012" />
-    <Xref Database="" ID="" />
+  <DataNode GraphId="d3ec7" textLabel="0023" type="GeneProduct">
+    <Graphics centerX="55.28604108781412" centerY="70.00623839468847" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="33012" />
+    <Xref dataSource="" identifier="" />
   </DataNode>
   <Interaction GraphId="e4b31">
-    <Graphics ConnectorType="Curved" LineThickness="1.0" ZOrder="33010">
-      <Point ArrowHead="TBar" GraphRef="d3ec7" RelX="1.0" RelY="0.0" X="95.28604108781411" Y="70.00623839468847" />
-      <Point ArrowHead="Arrow" GraphRef="a739c" RelX="-1.0" RelY="0.0" X="180.34443545611134" Y="125.56929497810864" />
+    <Graphics connectorType="Curved" lineWidth="1.0" zOrder="33010">
+      <Point arrowHead="TBar" GraphRef="d3ec7" relX="1.0" relY="0.0" x="95.28604108781411" y="70.00623839468847" />
+      <Point arrowHead="Arrow" GraphRef="a739c" relX="-1.0" relY="0.0" x="180.34443545611134" y="125.56929497810864" />
     </Graphics>
-    <Xref Database="" ID="" />
+    <Xref dataSource="" identifier="" />
   </Interaction>
-  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <InfoBox centerX="0.0" centerY="0.0" />
   <Biopax />
 </Pathway>

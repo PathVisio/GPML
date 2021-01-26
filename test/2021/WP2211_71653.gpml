@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Geranylgeranyldiphosphate biosynthesis II (plastidic)" Data-Source="RiceCyc" Version="20110915" Organism="Oryza sativa" Last-Modified="10/17/2013">
-  <Comment Source="WikiPathways-category">Metabolic Process</Comment>
-  <Comment Source="WikiPathways-description">In plants the geranyl-geranyl diphosphate (GGPP) as a precursor molecule that feeds in the biosynthesis of essential compounds such as chlorophylls, carotenoids, plastoquinones, growth hormone gibberellin and other secondary metabolites. Occurs in plastids.</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" Name="Geranylgeranyldiphosphate biosynthesis II (plastidic)" Data-Source="RiceCyc" Version="20110915" Organism="Oryza sativa" Last-Modified="10/17/2013">
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment source="WikiPathways-description">In plants the geranyl-geranyl diphosphate (GGPP) as a precursor molecule that feeds in the biosynthesis of essential compounds such as chlorophylls, carotenoids, plastoquinones, growth hormone gibberellin and other secondary metabolites. Occurs in plastids.</Comment>
   <BiopaxRef>b1a</BiopaxRef>
   <BiopaxRef>a22</BiopaxRef>
   <BiopaxRef>f44</BiopaxRef>
@@ -9,254 +9,254 @@
   <BiopaxRef>acd</BiopaxRef>
   <BiopaxRef>d3e</BiopaxRef>
   <BiopaxRef>d01</BiopaxRef>
-  <Graphics BoardWidth="1021.5571635209417" BoardHeight="965.4425607010502"/>
-  <DataNode TextLabel="Delta3-isopentenyl-PP" GraphId="d120d" Type="Metabolite">
-    <Graphics CenterX="501.5" CenterY="72.10648585782997" Width="149.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff"/>
-    <Xref Database="KEGG Compound" ID="C00129"/>
+  <Graphics boardWidth="1021.5571635209417" boardHeight="965.4425607010502"/>
+  <DataNode textLabel="Delta3-isopentenyl-PP" GraphId="d120d" type="Metabolite">
+    <Graphics centerX="501.5" centerY="72.10648585782997" width="149.0" height="20.0" zOrder="32768" fontSize="12" vAlign="Middle" borderColor="0000ff" textColor="0000ff" />
+    <Xref dataSource="KEGG Compound" identifier="C00129"/>
   </DataNode>
-  <DataNode TextLabel="Geranyl-PP" GraphId="bc11b" Type="Metabolite">
-    <Graphics CenterX="501.7375865285658" CenterY="396.2077846481381" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff"/>
-    <Xref Database="KEGG Compound" ID="C00341"/>
+  <DataNode textLabel="Geranyl-PP" GraphId="bc11b" type="Metabolite">
+    <Graphics centerX="501.7375865285658" centerY="396.2077846481381" width="80.0" height="20.0" zOrder="32768" fontSize="12" vAlign="Middle" borderColor="0000ff" textColor="0000ff" />
+    <Xref dataSource="KEGG Compound" identifier="C00341"/>
   </DataNode>
-  <DataNode TextLabel="EC:2.5.1.1 (Geranyl-diphosphate synthase)" GraphId="a45cf" Type="GeneProduct">
-    <Graphics CenterX="667.1109936575651" CenterY="233.9420316163951" Width="251.3067378915166" Height="19.996739289128186" ZOrder="32768" FontSize="12" Valign="Middle"/>
-    <Xref Database="Enzyme Nomenclature" ID="2.5.1.1"/>
+  <DataNode textLabel="EC:2.5.1.1 (Geranyl-diphosphate synthase)" GraphId="a45cf" type="GeneProduct">
+    <Graphics centerX="667.1109936575651" centerY="233.9420316163951" width="251.3067378915166" height="19.996739289128186" zOrder="32768" fontSize="12" vAlign="Middle"/>
+    <Xref dataSource="Enzyme Nomenclature" identifier="2.5.1.1"/>
   </DataNode>
-  <DataNode TextLabel="trans, trans-farnesyl diphosphate" GraphId="ddf5c" Type="Metabolite">
-    <Graphics CenterX="501.3687932642829" CenterY="680.9924047776798" Width="184.73758652856577" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff"/>
-    <Xref Database="CAS" ID="13058-04-3"/>
+  <DataNode textLabel="trans, trans-farnesyl diphosphate" GraphId="ddf5c" type="Metabolite">
+    <Graphics centerX="501.3687932642829" centerY="680.9924047776798" width="184.73758652856577" height="20.0" zOrder="32768" fontSize="12" vAlign="Middle" borderColor="0000ff" textColor="0000ff" />
+    <Xref dataSource="CAS" identifier="13058-04-3"/>
   </DataNode>
-  <DataNode TextLabel="EC:2.5.1.10 (Farnesyl pyrophosphate synthetase)" GraphId="e8e55" Type="GeneProduct">
-    <Graphics CenterX="677.5618429429942" CenterY="538.0842992270278" Width="268.0233551252387" Height="20.21787917688985" ZOrder="32768" FontSize="12" Valign="Middle"/>
-    <Xref Database="Enzyme Nomenclature" ID="2.5.1.10"/>
+  <DataNode textLabel="EC:2.5.1.10 (Farnesyl pyrophosphate synthetase)" GraphId="e8e55" type="GeneProduct">
+    <Graphics centerX="677.5618429429942" centerY="538.0842992270278" width="268.0233551252387" height="20.21787917688985" zOrder="32768" fontSize="12" vAlign="Middle"/>
+    <Xref dataSource="Enzyme Nomenclature" identifier="2.5.1.10"/>
   </DataNode>
-  <DataNode TextLabel="Geranylgeranyl diphosphate" GraphId="b9fc8" Type="Metabolite">
-    <Graphics CenterX="501.73758652856577" CenterY="925.4425607010502" Width="168.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
-    <Xref Database="ChEBI" ID="15831"/>
+  <DataNode textLabel="Geranylgeranyl diphosphate" GraphId="b9fc8" type="Metabolite">
+    <Graphics centerX="501.73758652856577" centerY="925.4425607010502" width="168.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" borderColor="0000ff" textColor="0000ff" />
+    <Xref dataSource="ChEBI" identifier="15831"/>
   </DataNode>
-  <DataNode TextLabel="EC:2.5.1.29 (Geranylgeranyl pyrophosphate synthase)" GraphId="ac174" Type="GeneProduct">
-    <Graphics CenterX="683.0108545429134" CenterY="819.1639580023904" Width="298.76702330853914" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle"/>
-    <Xref Database="Enzyme Nomenclature" ID="2.5.1.29"/>
+  <DataNode textLabel="EC:2.5.1.29 (Geranylgeranyl pyrophosphate synthase)" GraphId="ac174" type="GeneProduct">
+    <Graphics centerX="683.0108545429134" centerY="819.1639580023904" width="298.76702330853914" height="20.0" zOrder="32768" fontSize="12" vAlign="Middle"/>
+    <Xref dataSource="Enzyme Nomenclature" identifier="2.5.1.29"/>
   </DataNode>
-  <DataNode TextLabel="Diphosphate" GraphId="c0317" Type="Metabolite">
-    <Graphics CenterX="397.0224445695248" CenterY="602.1125863451811" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff"/>
-    <Xref Database="CAS" ID="2466-09-3"/>
+  <DataNode textLabel="Diphosphate" GraphId="c0317" type="Metabolite">
+    <Graphics centerX="397.0224445695248" centerY="602.1125863451811" width="80.0" height="20.0" zOrder="32768" fontSize="12" vAlign="Middle" borderColor="0000ff" textColor="0000ff" />
+    <Xref dataSource="CAS" identifier="2466-09-3"/>
   </DataNode>
-  <DataNode TextLabel="Dimethylallyl-PP" GraphId="b77de" Type="Metabolite">
-    <Graphics CenterX="397.1830985915493" CenterY="188.96263634108848" Width="95.77464788732395" Height="30.525431543175145" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff"/>
-    <Xref Database="CAS" ID="358-71-4"/>
+  <DataNode textLabel="Dimethylallyl-PP" GraphId="b77de" type="Metabolite">
+    <Graphics centerX="397.1830985915493" centerY="188.96263634108848" width="95.77464788732395" height="30.525431543175145" zOrder="32768" fontSize="12" vAlign="Middle" borderColor="0000ff" textColor="0000ff" />
+    <Xref dataSource="CAS" identifier="358-71-4"/>
   </DataNode>
-  <DataNode TextLabel="Methylerythritol phosphate pathway" GraphId="f0fdd" Type="Pathway">
-    <Graphics CenterX="161.2891099110305" CenterY="255.98031060381635" Width="260.52037172723476" Height="28.884449214902588" ZOrder="32768" FontWeight="Bold" FontSize="14" Valign="Middle" ShapeType="None" Color="14961e"/>
-    <Xref Database="WikiPathways" ID="WP2212"/>
+  <DataNode textLabel="Methylerythritol phosphate pathway" GraphId="f0fdd" type="Pathway">
+    <Graphics centerX="161.2891099110305" centerY="255.98031060381635" width="260.52037172723476" height="28.884449214902588" zOrder="32768" fontWeight="Bold" fontSize="14" vAlign="Middle" shapeType="None" borderColor="ffffff" textColor="14961e" />
+    <Xref dataSource="WikiPathways" identifier="WP2212"/>
   </DataNode>
-  <DataNode TextLabel="LOC_Os12g17320" GraphId="bf01c" Type="GeneProduct" GroupRef="f76fa">
+  <DataNode textLabel="LOC_Os12g17320" GraphId="bf01c" type="GeneProduct" GroupRef="f76fa">
     <Comment>polyprenyl synthetase, putative, expressed</Comment>
-    <Graphics CenterX="913.9759803820787" CenterY="245.58932172618202" Width="142.89710289710294" Height="19.999999999999986" ZOrder="32768" FontSize="12" Valign="Middle"/>
-    <Xref Database="Gramene Rice" ID="LOC_Os12g17320"/>
+    <Graphics centerX="913.9759803820787" centerY="245.58932172618202" width="142.89710289710294" height="19.999999999999986" zOrder="32768" fontSize="12" vAlign="Middle"/>
+    <Xref dataSource="Gramene Rice" identifier="LOC_Os12g17320"/>
   </DataNode>
-  <DataNode TextLabel="LOC_Os08g09370" GraphId="aceee" Type="GeneProduct" GroupRef="f76fa">
+  <DataNode textLabel="LOC_Os08g09370" GraphId="aceee" type="GeneProduct" GroupRef="f76fa">
     <Comment>polyprenyl synthetase, putative, expressed</Comment>
-    <Graphics CenterX="913.9759803820788" CenterY="217.27826461804216" Width="142.89710289710294" Height="19.999999999999986" ZOrder="32768" FontSize="12" Valign="Middle"/>
-    <Xref Database="Gramene Rice" ID="LOC_Os08g09370"/>
+    <Graphics centerX="913.9759803820788" centerY="217.27826461804216" width="142.89710289710294" height="19.999999999999986" zOrder="32768" fontSize="12" vAlign="Middle"/>
+    <Xref dataSource="Gramene Rice" identifier="LOC_Os08g09370"/>
   </DataNode>
-  <DataNode TextLabel="LOC_Os06g46450" GraphId="e4cf8" Type="GeneProduct" GroupRef="f76fa">
+  <DataNode textLabel="LOC_Os06g46450" GraphId="e4cf8" type="GeneProduct" GroupRef="f76fa">
     <Comment>polyprenyl synthetase, putative, expressed</Comment>
-    <Graphics CenterX="913.9759803820787" CenterY="192.41799730333952" Width="142.89710289710294" Height="19.999999999999986" ZOrder="32768" FontSize="12" Valign="Middle"/>
-    <Xref Database="Gramene Rice" ID="LOC_Os06g46450"/>
+    <Graphics centerX="913.9759803820787" centerY="192.41799730333952" width="142.89710289710294" height="19.999999999999986" zOrder="32768" fontSize="12" vAlign="Middle"/>
+    <Xref dataSource="Gramene Rice" identifier="LOC_Os06g46450"/>
   </DataNode>
-  <DataNode TextLabel="LOC_Os05g50550" GraphId="e8b8e" Type="GeneProduct" GroupRef="f76fa">
+  <DataNode textLabel="LOC_Os05g50550" GraphId="e8b8e" type="GeneProduct" GroupRef="f76fa">
     <Comment>polyprenyl synthetase, putative, expressed</Comment>
-    <Graphics CenterX="913.9759803820787" CenterY="272.05347725473763" Width="142.89710289710294" Height="19.999999999999986" ZOrder="32768" FontSize="12" Valign="Middle"/>
-    <Xref Database="Gramene Rice" ID="LOC_Os05g50550"/>
+    <Graphics centerX="913.9759803820787" centerY="272.05347725473763" width="142.89710289710294" height="19.999999999999986" zOrder="32768" fontSize="12" vAlign="Middle"/>
+    <Xref dataSource="Gramene Rice" identifier="LOC_Os05g50550"/>
   </DataNode>
-  <DataNode TextLabel="LOC_Os09g33930" GraphId="bb3cb" Type="GeneProduct" GroupRef="fb9da">
+  <DataNode textLabel="LOC_Os09g33930" GraphId="bb3cb" type="GeneProduct" GroupRef="fb9da">
     <Comment>farnesyltransferase/geranylgeranyltransferase type-1 subunitalpha, putative, expressed//farnesyltranstransferase</Comment>
-    <Graphics CenterX="919.6892147196315" CenterY="859.6249709045146" Width="126.0440713536198" Height="19.999999999999943" ZOrder="32768" FontSize="12" Valign="Middle"/>
-    <Xref Database="Gramene Rice" ID="LOC_Os09g33930"/>
+    <Graphics centerX="919.6892147196315" centerY="859.6249709045146" width="126.0440713536198" height="19.999999999999943" zOrder="32768" fontSize="12" vAlign="Middle"/>
+    <Xref dataSource="Gramene Rice" identifier="LOC_Os09g33930"/>
   </DataNode>
-  <DataNode TextLabel="LOC_Os01g53600" GraphId="f11ad" Type="GeneProduct" GroupRef="fb9da">
+  <DataNode textLabel="LOC_Os01g53600" GraphId="f11ad" type="GeneProduct" GroupRef="fb9da">
     <Comment>farnesyltransferase subunit beta, putative, expressed//farnesyltranstransferase//protein farnesyltransferase</Comment>
-    <Graphics CenterX="919.6892147196313" CenterY="839.4330652124545" Width="126.0440713536198" Height="19.999999999999943" ZOrder="32768" FontSize="12" Valign="Middle"/>
-    <Xref Database="Gramene Rice" ID="LOC_Os01g53600"/>
+    <Graphics centerX="919.6892147196313" centerY="839.4330652124545" width="126.0440713536198" height="19.999999999999943" zOrder="32768" fontSize="12" vAlign="Middle"/>
+    <Xref dataSource="Gramene Rice" identifier="LOC_Os01g53600"/>
   </DataNode>
-  <DataNode TextLabel="LOC_Os07g39270" GraphId="de7e8" Type="GeneProduct" GroupRef="fb9da">
+  <DataNode textLabel="LOC_Os07g39270" GraphId="de7e8" type="GeneProduct" GroupRef="fb9da">
     <Comment>polyprenyl synthetase, putative, expressed//isoprenoid biosynthetic process//diterpene phytoalexin metabolic process//farnesyltranstransferase</Comment>
-    <Graphics CenterX="919.6892147196315" CenterY="819.4330652124547" Width="126.0440713536198" Height="19.999999999999943" ZOrder="32768" FontSize="12" Valign="Middle"/>
-    <Xref Database="Gramene Rice" ID="LOC_Os07g39270"/>
+    <Graphics centerX="919.6892147196315" centerY="819.4330652124547" width="126.0440713536198" height="19.999999999999943" zOrder="32768" fontSize="12" vAlign="Middle" />
+    <Xref dataSource="Gramene Rice" identifier="LOC_Os07g39270"/>
   </DataNode>
-  <DataNode TextLabel="LOC_Os02g44780" GraphId="fcdd2" Type="GeneProduct" GroupRef="fb9da">
+  <DataNode textLabel="LOC_Os02g44780" GraphId="fcdd2" type="GeneProduct" GroupRef="fb9da">
     <Comment>polyprenyl synthetase, putative, expressed//isoprenoid biosynthetic process//diterpene phytoalexin metabolic process//farnesyltranstransferase</Comment>
-    <Graphics CenterX="919.689214719619" CenterY="799.4330652124562" Width="126.04407135361987" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle"/>
-    <Xref Database="Gramene Rice" ID="LOC_Os02g44780"/>
+    <Graphics centerX="919.689214719619" centerY="799.4330652124562" width="126.04407135361987" height="20.0" zOrder="32768" fontSize="12" vAlign="Middle"/>
+    <Xref dataSource="Gramene Rice" identifier="LOC_Os02g44780"/>
   </DataNode>
-  <DataNode TextLabel="LOC_OS01G14630" GraphId="f8ee9" Type="GeneProduct" GroupRef="fb9da">
+  <DataNode textLabel="LOC_OS01G14630" GraphId="f8ee9" type="GeneProduct" GroupRef="fb9da">
     <Comment>polyprenyl synthetase, putative, expressed//diterpene phytoalexin metabolic process</Comment>
-    <Graphics CenterX="919.6892147196313" CenterY="779.4330652124546" Width="126.0440713536198" Height="19.999999999999943" ZOrder="32768" FontSize="12" Valign="Middle"/>
-    <Xref Database="Gramene Rice" ID="LOC_OS01G14630"/>
+    <Graphics centerX="919.6892147196313" centerY="779.4330652124546" width="126.0440713536198" height="19.999999999999943" zOrder="32768" fontSize="12" vAlign="Middle" />
+    <Xref dataSource="Gramene Rice" identifier="LOC_OS01G14630"/>
   </DataNode>
-  <DataNode TextLabel="Delta3-isopentenyl-PP" GraphId="f7d12" Type="Metabolite">
-    <Graphics CenterX="382.4374724514299" CenterY="456.5178500441604" Width="130.87494490285985" Height="19.999999999999986" ZOrder="32769" FontSize="12" Valign="Middle" Color="0000ff"/>
-    <Xref Database="KEGG Compound" ID="C00129"/>
+  <DataNode textLabel="Delta3-isopentenyl-PP" GraphId="f7d12" type="Metabolite">
+    <Graphics centerX="382.4374724514299" centerY="456.5178500441604" width="130.87494490285985" height="19.999999999999986" zOrder="32769" fontSize="12" vAlign="Middle" borderColor="0000ff" textColor="0000ff" />
+    <Xref dataSource="KEGG Compound" identifier="C00129"/>
   </DataNode>
-  <DataNode TextLabel="Diphosphate" GraphId="b62ef" Type="Metabolite">
-    <Graphics CenterX="384.22345061821323" CenterY="885.2934231910757" Width="80.0" Height="20.0" ZOrder="32772" FontSize="12" Valign="Middle" Color="0000ff"/>
-    <Xref Database="CAS" ID="2466-09-3"/>
+  <DataNode textLabel="Diphosphate" GraphId="b62ef" type="Metabolite">
+    <Graphics centerX="384.22345061821323" centerY="885.2934231910757" width="80.0" height="20.0" zOrder="32772" fontSize="12" vAlign="Middle" borderColor="0000ff" textColor="0000ff" />
+    <Xref dataSource="CAS" identifier="2466-09-3"/>
   </DataNode>
-  <DataNode TextLabel="Delta3-isopentenyl-PP" GraphId="eb4a5" Type="Metabolite">
-    <Graphics CenterX="370.7136066702674" CenterY="753.1492197710415" Width="125.42721334053476" Height="20.0" ZOrder="32773" FontSize="12" Valign="Middle" Color="0000ff"/>
-    <Xref Database="KEGG Compound" ID="C00129"/>
+  <DataNode textLabel="Delta3-isopentenyl-PP" GraphId="eb4a5" type="Metabolite">
+    <Graphics centerX="370.7136066702674" centerY="753.1492197710415" width="125.42721334053476" height="20.0" zOrder="32773" fontSize="12" vAlign="Middle" borderColor="0000ff" textColor="0000ff" />
+    <Xref dataSource="KEGG Compound" identifier="C00129"/>
   </DataNode>
-  <DataNode TextLabel="Diphosphate" GraphId="aa664" Type="Metabolite">
-    <Graphics CenterX="405.92068295247265" CenterY="309.4529790664672" Width="80.00000000000003" Height="19.999999999999986" ZOrder="32775" FontSize="12" Valign="Middle" Color="0000ff"/>
-    <Xref Database="CAS" ID="2466-09-3"/>
+  <DataNode textLabel="Diphosphate" GraphId="aa664" type="Metabolite">
+    <Graphics centerX="405.92068295247265" centerY="309.4529790664672" width="80.00000000000003" height="19.999999999999986" zOrder="32775" fontSize="12" vAlign="Middle" borderColor="0000ff" textColor="0000ff" />
+    <Xref dataSource="CAS" identifier="2466-09-3"/>
   </DataNode>
-  <DataNode TextLabel="LOC_Os04g56230" GraphId="baeec" Type="GeneProduct" GroupRef="d85f9">
+  <DataNode textLabel="LOC_Os04g56230" GraphId="baeec" type="GeneProduct" GroupRef="d85f9">
     <Comment>TRAF-type zinc finger family protein</Comment>
-    <Graphics CenterX="920.1086120723902" CenterY="573.5928671688508" Width="142.8971028971029" Height="19.999999999999943" ZOrder="32783" FontSize="12" Valign="Middle"/>
-    <Xref Database="Gramene Rice" ID="LOC_Os04g56230"/>
+    <Graphics centerX="920.1086120723902" centerY="573.5928671688508" width="142.8971028971029" height="19.999999999999943" zOrder="32783" fontSize="12" vAlign="Middle" />
+    <Xref dataSource="Gramene Rice" identifier="LOC_Os04g56230"/>
   </DataNode>
-  <DataNode TextLabel="LOC_Os01g50760 (FPPS)" GraphId="dcd6a" Type="GeneProduct" GroupRef="d85f9">
+  <DataNode textLabel="LOC_Os01g50760 (FPPS)" GraphId="dcd6a" type="GeneProduct" GroupRef="d85f9">
     <Comment>polyprenyl synthetase, putative, expressed</Comment>
     <BiopaxRef>d01</BiopaxRef>
-    <Graphics CenterX="920.1086120723902" CenterY="502.7525310343967" Width="142.8971028971029" Height="20.000000000000004" ZOrder="32784" FontSize="12" Valign="Middle"/>
-    <Xref Database="Gramene Rice" ID="LOC_Os01g50760"/>
+    <Graphics centerX="920.1086120723902" centerY="502.7525310343967" width="142.8971028971029" height="20.000000000000004" zOrder="32784" fontSize="12" vAlign="Middle"/>
+    <Xref dataSource="Gramene Rice" identifier="LOC_Os01g50760"/>
   </DataNode>
-  <DataNode TextLabel="LOC_Os04g56210" GraphId="ce9a2" Type="GeneProduct" GroupRef="d85f9">
+  <DataNode textLabel="LOC_Os04g56210" GraphId="ce9a2" type="GeneProduct" GroupRef="d85f9">
     <Comment>polyprenyl synthetase, putative, expressed</Comment>
-    <Graphics CenterX="920.1086120723902" CenterY="550.0634554041316" Width="142.8971028971029" Height="19.999999999999943" ZOrder="32786" FontSize="12" Valign="Middle"/>
-    <Xref Database="Gramene Rice" ID="LOC_Os04g56210"/>
+    <Graphics centerX="920.1086120723902" centerY="550.0634554041316" width="142.8971028971029" height="19.999999999999943" zOrder="32786" fontSize="12" vAlign="Middle"/>
+    <Xref dataSource="Gramene Rice" identifier="LOC_Os04g56210"/>
   </DataNode>
-  <DataNode TextLabel="LOC_Os01g50050" GraphId="a0a07" Type="GeneProduct" GroupRef="d85f9">
+  <DataNode textLabel="LOC_Os01g50050" GraphId="a0a07" type="GeneProduct" GroupRef="d85f9">
     <Comment>polyprenyl synthetase, putative, expressed</Comment>
-    <Graphics CenterX="920.1086120723901" CenterY="527.5004301940446" Width="142.8971028971029" Height="19.999999999999943" ZOrder="32789" FontSize="12" Valign="Middle"/>
-    <Xref Database="Gramene Rice" ID="LOC_Os01g50050"/>
+    <Graphics centerX="920.1086120723901" centerY="527.5004301940446" width="142.8971028971029" height="19.999999999999943" zOrder="32789" fontSize="12" vAlign="Middle"/>
+    <Xref dataSource="Gramene Rice" identifier="LOC_Os01g50050"/>
   </DataNode>
   <Interaction GraphId="idb3e022e0">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="501.73758652856577" Y="406.2077846481381" GraphRef="bc11b" RelX="0.0" RelY="1.0"/>
-      <Point X="501.3687932642829" Y="670.9924047776798" GraphRef="ddf5c" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
-      <Anchor Position="0.5" Shape="None" GraphId="b91da"/>
+    <Graphics zOrder="12288" lineWidth="1.0">
+      <Point x="501.73758652856577" y="406.2077846481381" GraphRef="bc11b" relX="0.0" relY="1.0"/>
+      <Point x="501.3687932642829" y="670.9924047776798" GraphRef="ddf5c" relX="0.0" relY="-1.0" arrowHead="Arrow"/>
+      <Anchor position="0.5" shapeType="None" GraphId="b91da"/>
     </Graphics>
-    <Xref Database="" ID=""/>
+    <Xref dataSource="" identifier=""/>
   </Interaction>
   <Interaction GraphId="id206ac4ab">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="543.5501653803749" Y="538.0842992270277" GraphRef="e8e55" RelX="-1.0" RelY="0.0"/>
-      <Point X="501.5531898964243" Y="538.6000947129089" GraphRef="b91da" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    <Graphics zOrder="12288" lineWidth="1.0">
+      <Point x="543.5501653803749" y="538.0842992270277" GraphRef="e8e55" relX="-1.0" relY="0.0"/>
+      <Point x="501.5531898964243" y="538.6000947129089" GraphRef="b91da" relX="0.0" relY="0.0" arrowHead="mim-catalysis"/>
     </Graphics>
-    <Xref Database="" ID=""/>
+    <Xref dataSource="" identifier=""/>
   </Interaction>
   <Interaction GraphId="ida3507e27">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="501.3687932642829" Y="690.9924047776798" GraphRef="ddf5c" RelX="0.0" RelY="1.0"/>
-      <Point X="501.73758652856577" Y="915.4425607010502" GraphRef="b9fc8" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
-      <Anchor Position="0.5672174806337065" Shape="None" GraphId="ce68b"/>
+    <Graphics zOrder="12288" lineWidth="1.0">
+      <Point x="501.3687932642829" y="690.9924047776798" GraphRef="ddf5c" relX="0.0" relY="1.0"/>
+      <Point x="501.73758652856577" y="915.4425607010502" GraphRef="b9fc8" relX="0.0" relY="-1.0" arrowHead="Arrow"/>
+      <Anchor position="0.5672174806337065" shapeType="None" GraphId="ce68b"/>
     </Graphics>
-    <Xref Database="" ID=""/>
+    <Xref dataSource="" identifier=""/>
   </Interaction>
   <Interaction GraphId="id471f45d8">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="533.6273428886439" Y="819.1639580023904" GraphRef="ac174" RelX="-1.0" RelY="0.0"/>
-      <Point X="501.5779792505241" Y="818.3044567483765" GraphRef="ce68b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    <Graphics zOrder="12288" lineWidth="1.0">
+      <Point x="533.6273428886439" y="819.1639580023904" GraphRef="ac174" relX="-1.0" relY="0.0"/>
+      <Point x="501.5779792505241" y="818.3044567483765" GraphRef="ce68b" relX="0.0" relY="0.0" arrowHead="mim-catalysis"/>
     </Graphics>
-    <Xref Database="" ID=""/>
+    <Xref dataSource="" identifier=""/>
   </Interaction>
   <Interaction GraphId="idb12262c">
-    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
-      <Point X="447.87494490285985" Y="456.5178500441604" GraphRef="f7d12" RelX="1.0" RelY="0.0"/>
-      <Point X="502.81690140845075" Y="497.5589723785347"/>
-      <Point X="501.5531898964243" Y="538.6000947129089" GraphRef="b91da" RelX="0.0" RelY="0.0" ArrowHead="Arrow"/>
+    <Graphics ConnectorType="Curved" zOrder="12288" lineWidth="1.0">
+      <Point x="447.87494490285985" y="456.5178500441604" GraphRef="f7d12" relX="1.0" relY="0.0"/>
+      <Point x="502.81690140845075" y="497.5589723785347"/>
+      <Point x="501.5531898964243" y="538.6000947129089" GraphRef="b91da" relX="0.0" relY="0.0" arrowHead="Arrow"/>
     </Graphics>
-    <Xref Database="" ID=""/>
+    <Xref dataSource="" identifier=""/>
   </Interaction>
   <Interaction GraphId="id1e219796">
-    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
-      <Point X="501.5531898964243" Y="538.6000947129089" GraphRef="b91da" RelX="0.0" RelY="0.0"/>
-      <Point X="502.81690140845075" Y="570.3563405290449"/>
-      <Point X="437.0224445695248" Y="602.1125863451811" GraphRef="c0317" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+    <Graphics ConnectorType="Curved" zOrder="12288" lineWidth="1.0">
+      <Point x="501.5531898964243" y="538.6000947129089" GraphRef="b91da" relX="0.0" relY="0.0"/>
+      <Point x="502.81690140845075" y="570.3563405290449"/>
+      <Point x="437.0224445695248" y="602.1125863451811" GraphRef="c0317" relX="1.0" relY="0.0" arrowHead="Arrow"/>
     </Graphics>
-    <Xref Database="" ID=""/>
+    <Xref dataSource="" identifier=""/>
   </Interaction>
   <Interaction GraphId="id14ee7ceb">
-    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
-      <Point X="445.07042253521126" Y="181.33127845529467" GraphRef="b77de" RelX="1.0" RelY="-0.5"/>
-      <Point X="498.59154929577466" Y="207.74420685413935"/>
-      <Point X="501.6187932642829" Y="234.15713525298403" GraphRef="f34f8" RelX="0.0" RelY="0.0" ArrowHead="Arrow"/>
+    <Graphics ConnectorType="Curved" zOrder="12288" lineWidth="1.0">
+      <Point x="445.07042253521126" y="181.33127845529467" GraphRef="b77de" relX="1.0" relY="-0.5"/>
+      <Point x="498.59154929577466" y="207.74420685413935"/>
+      <Point x="501.6187932642829" y="234.15713525298403" GraphRef="f34f8" relX="0.0" relY="0.0" arrowHead="Arrow"/>
     </Graphics>
-    <Xref Database="" ID=""/>
+    <Xref dataSource="" identifier=""/>
   </Interaction>
   <Interaction GraphId="id15a83c9f">
-    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
-      <Point X="427.0" Y="72.10648585782997" GraphRef="d120d" RelX="-1.0" RelY="0.0"/>
-      <Point X="161.2891099110305" Y="241.53808599636506" GraphRef="f0fdd" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+    <Graphics ConnectorType="Curved" zOrder="12288" lineWidth="1.0">
+      <Point x="427.0" y="72.10648585782997" GraphRef="d120d" relX="-1.0" relY="0.0"/>
+      <Point x="161.2891099110305" y="241.53808599636506" GraphRef="f0fdd" relX="0.0" relY="-1.0" arrowHead="Arrow"/>
     </Graphics>
-    <Xref Database="" ID=""/>
+    <Xref dataSource="" identifier=""/>
   </Interaction>
   <Interaction GraphId="idd5d26da">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="834.5274289335271" Y="232.23573727903857" GraphRef="d9dea" RelX="-1.0" RelY="0.0"/>
-      <Point X="792.7643626033234" Y="233.9420316163951" GraphRef="a45cf" RelX="1.0" RelY="0.0"/>
+    <Graphics zOrder="12288" lineWidth="1.0">
+      <Point x="834.5274289335271" y="232.23573727903857" GraphRef="d9dea" relX="-1.0" relY="0.0"/>
+      <Point x="792.7643626033234" y="233.9420316163951" GraphRef="a45cf" relX="1.0" relY="0.0"/>
     </Graphics>
-    <Xref Database="" ID=""/>
+    <Xref dataSource="" identifier=""/>
   </Interaction>
   <Interaction GraphId="id1f159e35">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="840.6600606238385" Y="538.1726991016237" GraphRef="ea2e7" RelX="-1.0" RelY="0.0"/>
-      <Point X="811.5735205056135" Y="538.0842992270277" GraphRef="e8e55" RelX="1.0" RelY="0.0"/>
+    <Graphics zOrder="12288" lineWidth="1.0">
+      <Point x="840.6600606238385" y="538.1726991016237" GraphRef="ea2e7" relX="-1.0" relY="0.0"/>
+      <Point x="811.5735205056135" y="538.0842992270277" GraphRef="e8e55" relX="1.0" relY="0.0"/>
     </Graphics>
-    <Xref Database="" ID=""/>
+    <Xref dataSource="" identifier=""/>
   </Interaction>
   <Interaction GraphId="idf1083275">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="848.667179042809" Y="819.5290180584846" GraphRef="aa588" RelX="-1.0" RelY="0.0"/>
-      <Point X="832.394366197183" Y="819.1639580023904" GraphRef="ac174" RelX="1.0" RelY="0.0"/>
+    <Graphics zOrder="12288" lineWidth="1.0">
+      <Point x="848.667179042809" y="819.5290180584846" GraphRef="aa588" relX="-1.0" relY="0.0"/>
+      <Point x="832.394366197183" y="819.1639580023904" GraphRef="ac174" relX="1.0" relY="0.0"/>
     </Graphics>
-    <Xref Database="" ID=""/>
+    <Xref dataSource="" identifier=""/>
   </Interaction>
   <Interaction GraphId="d0763">
-    <Graphics ConnectorType="Curved" ZOrder="32770" LineThickness="1.0">
-      <Point X="433.42721334053476" Y="753.1492197710415" GraphRef="eb4a5" RelX="1.0" RelY="0.0"/>
-      <Point X="500.0" Y="785.726838259709"/>
-      <Point X="501.5779792505241" Y="818.3044567483765" GraphRef="ce68b" RelX="0.0" RelY="0.0" ArrowHead="Arrow"/>
+    <Graphics ConnectorType="Curved" zOrder="32770" lineWidth="1.0">
+      <Point x="433.42721334053476" y="753.1492197710415" GraphRef="eb4a5" relX="1.0" relY="0.0"/>
+      <Point x="500.0" y="785.726838259709"/>
+      <Point x="501.5779792505241" y="818.3044567483765" GraphRef="ce68b" relX="0.0" relY="0.0" arrowHead="Arrow"/>
     </Graphics>
-    <Xref Database="" ID=""/>
+    <Xref dataSource="" identifier=""/>
   </Interaction>
   <Interaction GraphId="c8ee2">
-    <Graphics ConnectorType="Curved" ZOrder="32771" LineThickness="1.0">
-      <Point X="501.5779792505241" Y="818.3044567483765" GraphRef="ce68b" RelX="0.0" RelY="0.0"/>
-      <Point X="501.4084507042254" Y="851.7989399697261"/>
-      <Point X="424.22345061821323" Y="885.2934231910757" GraphRef="b62ef" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+    <Graphics ConnectorType="Curved" zOrder="32771" lineWidth="1.0">
+      <Point x="501.5779792505241" y="818.3044567483765" GraphRef="ce68b" relX="0.0" relY="0.0"/>
+      <Point x="501.4084507042254" y="851.7989399697261"/>
+      <Point x="424.22345061821323" y="885.2934231910757" GraphRef="b62ef" relX="1.0" relY="0.0" arrowHead="Arrow"/>
     </Graphics>
-    <Xref Database="" ID=""/>
+    <Xref dataSource="" identifier=""/>
   </Interaction>
   <Interaction GraphId="c9038">
-    <Graphics ConnectorType="Curved" ZOrder="32774" LineThickness="1.0">
-      <Point X="501.6187932642829" Y="234.15713525298403" GraphRef="f34f8" RelX="0.0" RelY="0.0"/>
-      <Point X="502.81690140845075" Y="271.8050571597256"/>
-      <Point X="445.9206829524727" Y="309.4529790664672" GraphRef="aa664" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+    <Graphics ConnectorType="Curved" zOrder="32774" lineWidth="1.0">
+      <Point x="501.6187932642829" y="234.15713525298403" GraphRef="f34f8" relX="0.0" relY="0.0"/>
+      <Point x="502.81690140845075" y="271.8050571597256"/>
+      <Point x="445.9206829524727" y="309.4529790664672" GraphRef="aa664" relX="1.0" relY="0.0" arrowHead="Arrow"/>
     </Graphics>
-    <Xref Database="" ID=""/>
+    <Xref dataSource="" identifier=""/>
   </Interaction>
   <Interaction GraphId="d039a">
-    <Graphics ZOrder="32787" LineThickness="1.0">
-      <Point X="501.5" Y="82.10648585782997" GraphRef="d120d" RelX="0.0" RelY="1.0"/>
-      <Point X="501.73758652856577" Y="386.2077846481381" GraphRef="bc11b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
-      <Anchor Position="0.5" Shape="None" GraphId="f34f8"/>
+    <Graphics zOrder="32787" lineWidth="1.0">
+      <Point x="501.5" y="82.10648585782997" GraphRef="d120d" relX="0.0" relY="1.0"/>
+      <Point x="501.73758652856577" y="386.2077846481381" GraphRef="bc11b" relX="0.0" relY="-1.0" arrowHead="Arrow"/>
+      <Anchor position="0.5" shapeType="None" GraphId="f34f8"/>
     </Graphics>
-    <Xref Database="" ID=""/>
+    <Xref dataSource="" identifier=""/>
   </Interaction>
   <Interaction GraphId="de6d5">
-    <Graphics ZOrder="32788" LineThickness="1.0">
-      <Point X="541.4576247118068" Y="233.9420316163951" GraphRef="a45cf" RelX="-1.0" RelY="0.0"/>
-      <Point X="501.6187932642829" Y="234.15713525298403" GraphRef="f34f8" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    <Graphics zOrder="32788" lineWidth="1.0">
+      <Point x="541.4576247118068" y="233.9420316163951" GraphRef="a45cf" relX="-1.0" relY="0.0"/>
+      <Point x="501.6187932642829" y="234.15713525298403" GraphRef="f34f8" relX="0.0" relY="0.0" arrowHead="mim-catalysis"/>
     </Graphics>
-    <Xref Database="" ID=""/>
+    <Xref dataSource="" identifier=""/>
   </Interaction>
-  <Group GroupId="fb9da" GraphId="aa588" Style="Group"/>
-  <Group GroupId="d85f9" GraphId="ea2e7" Style="Group"/>
-  <Group GroupId="f76fa" GraphId="d9dea" Style="Group"/>
-  <InfoBox CenterX="0.0" CenterY="0.0"/>
+  <Group GroupId="fb9da" GraphId="aa588" groupType="Group"/>
+  <Group GroupId="d85f9" GraphId="ea2e7" groupType="Group"/>
+  <Group GroupId="f76fa" GraphId="d9dea" groupType="Group"/>
+  <InfoBox centerX="0.0" centerY="0.0"/>
   <Biopax>
     <bp:PublicationXref xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" rdf:id="d3e">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10353221</bp:ID>

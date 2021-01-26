@@ -1,57 +1,57 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" xmlns:ns1="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" Name="test case" Version="20130815">
+<Pathway xmlns="http://pathvisio.org/GPML/2021" xmlns:ns1="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" name="test case" version="20210128">
   <BiopaxRef>ee4</BiopaxRef>
-  <Graphics BoardHeight="378.76221498371376" BoardWidth="412.7991886409736" />
-  <DataNode GraphId="e114e" TextLabel="Hmgcr" Type="GeneProduct">
+  <Graphics boardHeight="378.76221498371376" boardWidth="412.7991886409736" />
+  <DataNode GraphId="e114e" textLabel="Hmgcr" type="GeneProduct">
     <BiopaxRef>e0d</BiopaxRef>
     <BiopaxRef>c0d</BiopaxRef>
     <BiopaxRef>cf5</BiopaxRef>
     <BiopaxRef>b4f</BiopaxRef>
-    <Graphics CenterX="148.2084690553746" CenterY="184.03908794788273" FontSize="10" Height="20.0" Valign="Middle" Width="80.0" ZOrder="32768" />
-    <Xref Database="Entrez Gene" ID="15357" />
+    <Graphics centerX="148.2084690553746" centerY="184.03908794788273" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
+    <Xref dataSource="Entrez Gene" identifier="15357" />
   </DataNode>
-  <DataNode GraphId="c9fbc" TextLabel="Metabolite" Type="Metabolite">
-    <Graphics CenterX="195.4397394136808" CenterY="338.76221498371376" Color="0000ff" FontSize="10" Height="20.0" Valign="Middle" Width="80.0" ZOrder="32768" />
-    <Xref Database="" ID="" />
+  <DataNode GraphId="c9fbc" textLabel="Metabolite" type="Metabolite">
+    <Graphics centerX="195.4397394136808" centerY="338.76221498371376" Color="0000ff" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
+    <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="ccc39" TextLabel="Pathway" Type="Pathway">
+  <DataNode GraphId="ccc39" textLabel="Pathway" type="Pathway">
     <BiopaxRef>ba5</BiopaxRef>
     <BiopaxRef>e88</BiopaxRef>
-    <Graphics CenterX="342.7991886409736" CenterY="308.316430020284" Color="14961e" FontSize="12" FontWeight="Bold" Height="20.0" ShapeType="None" Valign="Middle" Width="80.0" ZOrder="32768" />
-    <Xref Database="" ID="" />
+    <Graphics centerX="342.7991886409736" centerY="308.316430020284" Color="14961e" fontSize="12" FontWeight="Bold" height="20.0" shapeType="None" vAlign="Middle" width="80.0" zOrder="32768" />
+    <Xref dataSource="" identifier="" />
   </DataNode>
   <Interaction GraphId="id9ee2ea1d">
     <BiopaxRef>b7a</BiopaxRef>
-    <Graphics LineThickness="1.0" ZOrder="12288">
-      <Point GraphRef="e114e" RelX="0.0" RelY="1.0" X="148.2084690553746" Y="194.03908794788273" />
-      <Point ArrowHead="Arrow" GraphRef="c9fbc" RelX="0.0" RelY="-1.0" X="195.4397394136808" Y="328.76221498371376" />
+    <Graphics lineWidth="1.0" zOrder="12288">
+      <Point GraphRef="e114e" relX="0.0" relY="1.0" x="148.2084690553746" y="194.03908794788273" />
+      <Point arrowHead="Arrow" GraphRef="c9fbc" relX="0.0" relY="-1.0" x="195.4397394136808" y="328.76221498371376" />
     </Graphics>
-    <Xref Database="" ID="" />
+    <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="id8ee9f3be">
     <BiopaxRef>b8e</BiopaxRef>
     <BiopaxRef>e88</BiopaxRef>
-    <Graphics LineThickness="1.0" ZOrder="12288">
-      <Point GraphRef="c9fbc" RelX="1.0" RelY="0.0" X="235.4397394136808" Y="338.76221498371376" />
-      <Point ArrowHead="Arrow" X="311.10708469055373" Y="234.5276872964169" />
+    <Graphics lineWidth="1.0" zOrder="12288">
+      <Point GraphRef="c9fbc" relX="1.0" relY="0.0" x="235.4397394136808" y="338.76221498371376" />
+      <Point arrowHead="Arrow" x="311.10708469055373" y="234.5276872964169" />
     </Graphics>
-    <Xref Database="" ID="" />
+    <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="id788e2f55">
-    <Graphics LineThickness="1.0" ZOrder="12288">
-      <Point X="285.01628664495115" Y="262.214983713355" />
-      <Point ArrowHead="Arrow" GraphRef="e114e" RelX="1.0" RelY="0.0" X="188.2084690553746" Y="184.03908794788273" />
+    <Graphics lineWidth="1.0" zOrder="12288">
+      <Point x="285.01628664495115" y="262.214983713355" />
+      <Point arrowHead="Arrow" GraphRef="e114e" relX="1.0" relY="0.0" x="188.2084690553746" y="184.03908794788273" />
     </Graphics>
-    <Xref Database="" ID="" />
+    <Xref dataSource="" identifier="" />
   </Interaction>
   <Shape GraphId="ed0ee">
     <BiopaxRef>b8e</BiopaxRef>
     <BiopaxRef>c86</BiopaxRef>
     <BiopaxRef>d54</BiopaxRef>
-    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Mitochondria" />
-    <Graphics CenterX="331.18322475570034" CenterY="207.40472312703582" Color="c0c0c0" FontSize="10" Height="54.2459283387622" LineThickness="3.0" Rotation="0.0" ShapeType="Mitochondria" Valign="Middle" Width="80.3045602605863" ZOrder="16384" />
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Mitochondria" />
+    <Graphics centerX="331.18322475570034" centerY="207.40472312703582" Color="c0c0c0" fontSize="10" height="54.2459283387622" lineWidth="3.0" rotation="0.0" shapeType="Mitochondria" vAlign="Middle" width="80.3045602605863" zOrder="16384" />
   </Shape>
-  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <InfoBox centerX="0.0" centerY="0.0" />
   <Biopax>
     <ns1:PublicationXref rdf:id="ba5">
       <ns1:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25</ns1:ID>

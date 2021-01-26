@@ -1,48 +1,48 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="test case" Version="20130813">
-  <Graphics BoardHeight="185.993665670104" BoardWidth="1442.3016983016983" />
-  <Label GraphId="a14a0" TextLabel="Label&#10;font:  Times New Roman">
-    <Graphics CenterX="135.38705458426008" CenterY="112.58468126724739" FillColor="99ffff" FontName="Times New Roman" FontSize="15" Height="86.8179688057132" ShapeType="Rectangle" Valign="Middle" Width="176.21451268746466" ZOrder="32832" />
+<Pathway xmlns="http://pathvisio.org/GPML/2021" name="test case" version="20210128">
+  <Graphics boardHeight="185.993665670104" boardWidth="1442.3016983016983" />
+  <Label GraphId="a14a0" textLabel="Label&#10;font:  Times New Roman">
+    <Graphics centerX="135.38705458426008" centerY="112.58468126724739" fillColor="99ffff" fontName="Times New Roman" fontSize="15" height="86.8179688057132" shapeType="Rectangle" vAlign="Middle" width="176.21451268746466" zOrder="32832" />
   </Label>
-  <Label GraphId="bd539" TextLabel="Label">
-    <Graphics CenterX="329.3300451978405" CenterY="78.47028504632709" FillColor="99ffff" FontSize="10" Height="20.0" ShapeType="Rectangle" Valign="Middle" Width="80.0" ZOrder="32833" />
+  <Label GraphId="bd539" textLabel="Label">
+    <Graphics centerX="329.3300451978405" centerY="78.47028504632709" fillColor="99ffff" fontSize="10" height="20.0" shapeType="Rectangle" vAlign="Middle" width="80.0" zOrder="32833" />
   </Label>
-  <Label GraphId="f4e58" TextLabel="Label">
-    <Graphics CenterX="364.5465341408019" CenterY="128.97339819311014" FillColor="99ffff" FontSize="10" Height="20.0" ShapeType="Rectangle" Valign="Middle" Width="80.0" ZOrder="32863" />
+  <Label GraphId="f4e58" textLabel="Label">
+    <Graphics centerX="364.5465341408019" centerY="128.97339819311014" fillColor="99ffff" fontSize="10" height="20.0" shapeType="Rectangle" vAlign="Middle" width="80.0" zOrder="32863" />
   </Label>
-  <Label GraphId="ac5bb" TextLabel="Label">
-    <Graphics CenterX="335.5083891468851" CenterY="115.22187740301501" FontSize="10" Height="20.0" ShapeType="Rectangle" Valign="Middle" Width="80.0" ZOrder="32864" />
+  <Label GraphId="ac5bb" textLabel="Label">
+    <Graphics centerX="335.5083891468851" centerY="115.22187740301501" fontSize="10" height="20.0" shapeType="Rectangle" vAlign="Middle" width="80.0" zOrder="32864" />
   </Label>
-  <Label GraphId="f3bc5" TextLabel="Label">
-    <Graphics CenterX="494.744057936694" CenterY="75.73143154314242" FillColor="99ffff" FontSize="10" FontWeight="Bold" Height="20.0" ShapeType="Rectangle" Valign="Middle" Width="80.0" ZOrder="32865" />
+  <Label GraphId="f3bc5" textLabel="Label">
+    <Graphics centerX="494.744057936694" centerY="75.73143154314242" fillColor="99ffff" fontSize="10" FontWeight="Bold" height="20.0" shapeType="Rectangle" vAlign="Middle" width="80.0" zOrder="32865" />
   </Label>
-  <Label GraphId="a2cca" TextLabel="Label">
-    <Graphics CenterX="498.3746311851016" CenterY="120.4958360252928" FillColor="99ffff" FontSize="10" FontStyle="Italic" Height="20.0" ShapeType="Rectangle" Valign="Middle" Width="80.0" ZOrder="32866" />
+  <Label GraphId="a2cca" textLabel="Label">
+    <Graphics centerX="498.3746311851016" centerY="120.4958360252928" fillColor="99ffff" fontSize="10" FontStyle="Italic" height="20.0" shapeType="Rectangle" vAlign="Middle" width="80.0" zOrder="32866" />
   </Label>
-  <Label GraphId="fb9a8" TextLabel="Label">
-    <Graphics CenterX="610.2854592105792" CenterY="80.44480733932077" Color="ff0000" FillColor="99ffff" FontSize="10" FontStyle="Italic" Height="20.0" ShapeType="Rectangle" Valign="Middle" Width="80.0" ZOrder="32867" />
+  <Label GraphId="fb9a8" textLabel="Label">
+    <Graphics centerX="610.2854592105792" centerY="80.44480733932077" Color="ff0000" fillColor="99ffff" fontSize="10" FontStyle="Italic" height="20.0" shapeType="Rectangle" vAlign="Middle" width="80.0" zOrder="32867" />
   </Label>
-  <Label GraphId="dab04" TextLabel="Label">
-    <Graphics CenterX="612.6421471086685" CenterY="126.11359714823796" Color="ff0000" FillColor="99ffff" FontSize="10" Height="20.0" ShapeType="Oval" Valign="Middle" Width="80.0" ZOrder="32868" />
+  <Label GraphId="dab04" textLabel="Label">
+    <Graphics centerX="612.6421471086685" centerY="126.11359714823796" Color="ff0000" fillColor="99ffff" fontSize="10" height="20.0" shapeType="Oval" vAlign="Middle" width="80.0" zOrder="32868" />
   </Label>
-  <Label GraphId="fcadd" TextLabel="Label">
-    <Graphics CenterX="734.3783983950985" CenterY="134.13960112188965" FillColor="99ffff" FontSize="20" Height="37.45328183265377" ShapeType="Rectangle" Valign="Middle" Width="93.02664270024869" ZOrder="32870" />
+  <Label GraphId="fcadd" textLabel="Label">
+    <Graphics centerX="734.3783983950985" centerY="134.13960112188965" fillColor="99ffff" fontSize="20" height="37.45328183265377" shapeType="Rectangle" vAlign="Middle" width="93.02664270024869" zOrder="32870" />
   </Label>
-  <Label GraphId="ff6ef" TextLabel="Label">
-    <Graphics CenterX="882.4443112269889" CenterY="85.31096732814464" FillColor="99ffff" FontSize="10" Height="27.363507689997107" LineThickness="5.0" ShapeType="Rectangle" Valign="Middle" Width="86.23497305164017" ZOrder="32871" />
+  <Label GraphId="ff6ef" textLabel="Label">
+    <Graphics centerX="882.4443112269889" centerY="85.31096732814464" fillColor="99ffff" fontSize="10" height="27.363507689997107" lineWidth="5.0" shapeType="Rectangle" vAlign="Middle" width="86.23497305164017" zOrder="32871" />
   </Label>
-  <Label GraphId="da678" Href="http://www.pathvisio.org" TextLabel="Label">
-    <Graphics CenterX="881.8141216309621" CenterY="134.13907485524436" Color="0000ff" FillColor="99ffff" FontSize="10" Height="20.0" ShapeType="Rectangle" Valign="Middle" Width="80.0" ZOrder="32872" />
+  <Label GraphId="da678" Href="http://www.pathvisio.org" textLabel="Label">
+    <Graphics centerX="881.8141216309621" centerY="134.13907485524436" Color="0000ff" fillColor="99ffff" fontSize="10" height="20.0" shapeType="Rectangle" vAlign="Middle" width="80.0" zOrder="32872" />
   </Label>
-  <Label GraphId="f83ef" TextLabel="Label">
-    <Graphics CenterX="739.3300451978403" CenterY="75.46215496502629" FillColor="99ffff" FontSize="10" Height="20.0" LineStyle="Broken" ShapeType="Rectangle" Valign="Middle" Width="80.0" ZOrder="32873" />
+  <Label GraphId="f83ef" textLabel="Label">
+    <Graphics centerX="739.3300451978403" centerY="75.46215496502629" fillColor="99ffff" fontSize="10" height="20.0" borderStyle="Broken" shapeType="Rectangle" vAlign="Middle" width="80.0" zOrder="32873" />
   </Label>
-  <Label GraphId="e7b2b" TextLabel="SAVE">
-    <Graphics CenterX="212.78721278721278" CenterY="28.986013986013994" FillColor="ffffff" FontSize="30" FontWeight="Bold" Height="27.982017982017986" Valign="Middle" Width="95.94405594405595" ZOrder="33015" />
+  <Label GraphId="e7b2b" textLabel="SAVE">
+    <Graphics centerX="212.78721278721278" centerY="28.986013986013994" fillColor="ffffff" fontSize="30" FontWeight="Bold" height="27.982017982017986" vAlign="Middle" width="95.94405594405595" zOrder="33015" />
   </Label>
-  <Label GraphId="cbd2a" TextLabel="This pathway is to be saved long-term to test the ability of&#10;GPML renderers to handle the element type named in the title.">
-    <Graphics Align="Left" CenterX="414.08591408591417" CenterY="25.489510489510494" FillColor="ffffff" FontSize="10" Height="32.977022977022976" Width="290.7492507492508" ZOrder="33016" />
+  <Label GraphId="cbd2a" textLabel="This pathway is to be saved long-term to test the ability of&#10;GPML renderers to handle the element type named in the title.">
+    <Graphics hAlign="Left" centerX="414.08591408591417" centerY="25.489510489510494" fillColor="ffffff" fontSize="10" height="32.977022977022976" width="290.7492507492508" zOrder="33016" />
   </Label>
-  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <InfoBox centerX="0.0" centerY="0.0" />
   <Biopax />
 </Pathway>

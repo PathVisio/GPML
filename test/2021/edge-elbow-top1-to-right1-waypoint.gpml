@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="test case" Version="20130813">
-  <Graphics BoardHeight="825.09187756604" BoardWidth="1047.7865523249097" />
-  <DataNode GraphId="fe12c" TextLabel="GeneProduct" Type="GeneProduct">
-    <Graphics CenterX="213.9937029287637" CenterY="104.91908337772578" FontSize="10" Height="20.0" Valign="Middle" Width="80.0" ZOrder="32972" />
-    <Xref Database="" ID="" />
+<Pathway xmlns="http://pathvisio.org/GPML/2021" name="test case" version="20210128">
+  <Graphics boardHeight="825.09187756604" boardWidth="1047.7865523249097" />
+  <DataNode GraphId="fe12c" textLabel="GeneProduct" type="GeneProduct">
+    <Graphics centerX="213.9937029287637" centerY="104.91908337772578" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32972" />
+    <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="fc22c" TextLabel="0004" Type="GeneProduct">
-    <Graphics CenterX="63.354108824975164" CenterY="85.64749377680056" FontSize="10" Height="20.0" Valign="Middle" Width="80.0" ZOrder="32973" />
-    <Xref Database="" ID="" />
+  <DataNode GraphId="fc22c" textLabel="0004" type="GeneProduct">
+    <Graphics centerX="63.354108824975164" centerY="85.64749377680056" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32973" />
+    <Xref dataSource="" identifier="" />
   </DataNode>
   <Interaction GraphId="c0fac">
-    <Graphics ConnectorType="Elbow" LineThickness="1.0" ZOrder="32971">
-      <Point ArrowHead="TBar" GraphRef="fc22c" RelX="0.0" RelY="-1.0" X="63.354108824975164" Y="75.64749377680056" />
-      <Point X="182.6889787043376" Y="66.33070321840864" />
-      <Point X="302.0238485837" Y="85.6248932980672" />
-      <Point ArrowHead="Arrow" GraphRef="fe12c" RelX="1.0" RelY="0.0" X="253.9937029287637" Y="104.91908337772578" />
+    <Graphics connectorType="Elbow" lineWidth="1.0" zOrder="32971">
+      <Point arrowHead="TBar" GraphRef="fc22c" relX="0.0" relY="-1.0" x="63.354108824975164" y="75.64749377680056" />
+      <Point x="182.6889787043376" y="66.33070321840864" />
+      <Point x="302.0238485837" y="85.6248932980672" />
+      <Point arrowHead="Arrow" GraphRef="fe12c" relX="1.0" relY="0.0" x="253.9937029287637" y="104.91908337772578" />
     </Graphics>
-    <Xref Database="" ID="" />
+    <Xref dataSource="" identifier="" />
   </Interaction>
-  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <InfoBox centerX="0.0" centerY="0.0" />
   <Biopax />
 </Pathway>
