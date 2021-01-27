@@ -10,17 +10,17 @@
     <Comment>daf-18 acts downstream of age-1</Comment>
     <BiopaxRef>ee0</BiopaxRef>
     <BiopaxRef>e61</BiopaxRef>
-    <Graphics centerX="267.0" centerY="245.0" width="80.0" height="20.0" zOrder="32768" fillColor="009900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" Color="ffffff"/>
+    <Graphics centerX="267.0" centerY="245.0" width="80.0" height="20.0" zOrder="32768" fillColor="009900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="WormBase" identifier="T07A9.6"/>
   </DataNode>
   <DataNode textLabel="AGE-1/PI3K" GraphId="c95c0" type="GeneProduct">
     <Comment>age-1 encodes a homologue of mammalian phosphatidylinositol-3-OH kinase catalytic subunit.</Comment>
     <BiopaxRef>f57</BiopaxRef>
-    <Graphics centerX="267.0" centerY="162.0" width="80.0" height="20.0" zOrder="32768" fillColor="ff6666" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" Color="ffffff"/>
+    <Graphics centerX="267.0" centerY="162.0" width="80.0" height="20.0" zOrder="32768" fillColor="ff6666" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="WormBase" identifier="B0334.8"/>
   </DataNode>
   <DataNode textLabel="PIP2" GraphId="f7754" type="Metabolite">
-    <Graphics centerX="219.0" centerY="198.5" width="44.0" height="19.0" zOrder="32768" fontSize="10" vAlign="Middle" shapeType="None" Color="0000ff"/>
+    <Graphics centerX="219.0" centerY="198.5" width="44.0" height="19.0" zOrder="32768" fontSize="10" vAlign="Middle" shapeType="None" textColor="0000ff"/>
     <Xref dataSource="ChEBI" identifier="18348"/>
   </DataNode>
   <DataNode textLabel="14-3-3" GraphId="e9b6a" type="GeneProduct" GroupRef="ce35a">
@@ -30,31 +30,31 @@
   <DataNode textLabel="DAF-2/InR" GraphId="ee0b6" type="GeneProduct">
     <Comment>insulin/IGF-1 pathway can diverge to regulate the timing of reproduction independently of longevity (Dillin et al., 2002a).</Comment>
     <BiopaxRef>eef</BiopaxRef>
-    <Graphics centerX="268.0" centerY="96.0" width="80.0" height="20.0" zOrder="32769" fillColor="ff6666" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" Color="ffffff"/>
+    <Graphics centerX="268.0" centerY="96.0" width="80.0" height="20.0" zOrder="32769" fillColor="ff6666" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="WormBase" identifier="Y55D5A.5"/>
   </DataNode>
   <DataNode textLabel="PIP3" GraphId="ab2b3" type="Metabolite">
-    <Graphics centerX="310.0" centerY="198.5" width="42.0" height="19.0" zOrder="32770" fontSize="10" vAlign="Middle" shapeType="None" Color="0000ff"/>
+    <Graphics centerX="310.0" centerY="198.5" width="42.0" height="19.0" zOrder="32770" fontSize="10" vAlign="Middle" shapeType="None" textColor="0000ff"/>
     <Xref dataSource="ChEBI" identifier="16618"/>
   </DataNode>
   <DataNode textLabel="PDK-1/PKD1" GraphId="fd8e3" type="GeneProduct">
     <Comment/>
     <BiopaxRef>d91</BiopaxRef>
-    <Graphics centerX="208.0" centerY="345.0" width="80.0" height="20.0" zOrder="32772" fillColor="ff6666" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" Color="ffffff"/>
+    <Graphics centerX="208.0" centerY="345.0" width="80.0" height="20.0" zOrder="32772" fillColor="ff6666" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="WormBase" identifier="H42K12.1"/>
   </DataNode>
   <DataNode textLabel="AKT-1/Akt/PKB" GraphId="be992" type="GeneProduct" GroupRef="cffec">
     <Comment/>
     <BiopaxRef>d91</BiopaxRef>
     <BiopaxRef>a81</BiopaxRef>
-    <Graphics centerX="364.0" centerY="344.0" width="80.0" height="20.0" zOrder="32773" fillColor="ff6666" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" Color="ffffff"/>
+    <Graphics centerX="364.0" centerY="344.0" width="80.0" height="20.0" zOrder="32773" fillColor="ff6666" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="WormBase" identifier="C12D8.10"/>
   </DataNode>
   <DataNode textLabel="AKT-2/Akt/PKB" GraphId="a64c1" type="GeneProduct" GroupRef="cffec">
     <Comment/>
     <BiopaxRef>d91</BiopaxRef>
     <BiopaxRef>a81</BiopaxRef>
-    <Graphics centerX="448.0" centerY="344.0" width="80.0" height="20.0" zOrder="32774" fillColor="ff6666" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" Color="ffffff"/>
+    <Graphics centerX="448.0" centerY="344.0" width="80.0" height="20.0" zOrder="32774" fillColor="ff6666" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="WormBase" identifier="F28H6.1"/>
   </DataNode>
   <DataNode textLabel="DAF-16/FOXO" GraphId="fc419" type="GeneProduct" GroupRef="ce35a">
@@ -65,32 +65,32 @@
     <BiopaxRef>b69</BiopaxRef>
     <BiopaxRef>ed9</BiopaxRef>
     <BiopaxRef>a81</BiopaxRef>
-    <Graphics centerX="570.0" centerY="442.0" width="80.0" height="20.0" zOrder="32776" fillColor="339900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" Color="ffffff"/>
+    <Graphics centerX="570.0" centerY="442.0" width="80.0" height="20.0" zOrder="32776" fillColor="339900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="WormBase" identifier="R13H8.1"/>
   </DataNode>
   <DataNode textLabel="JNK-1" GraphId="e2e8a" type="GeneProduct">
     <Comment>DAF-16 binds to JNK-1.</Comment>
     <Comment>JNK-1 binds and phosphorylates DAF-16.</Comment>
     <BiopaxRef>f8b</BiopaxRef>
-    <Graphics centerX="192.0" centerY="450.0" width="80.0" height="20.0" zOrder="32777" fillColor="009900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" Color="ffffff"/>
+    <Graphics centerX="192.0" centerY="450.0" width="80.0" height="20.0" zOrder="32777" fillColor="009900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="WormBase" identifier="B0478.1"/>
   </DataNode>
   <DataNode textLabel="DAF-16/FOXO" GraphId="bb21e" type="GeneProduct">
     <BiopaxRef>a47</BiopaxRef>
     <BiopaxRef>b69</BiopaxRef>
     <BiopaxRef>f8b</BiopaxRef>
-    <Graphics centerX="407.0" centerY="613.0" width="80.0" height="20.0" zOrder="32778" fillColor="339900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" Color="ffffff"/>
+    <Graphics centerX="407.0" centerY="613.0" width="80.0" height="20.0" zOrder="32778" fillColor="339900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="WormBase" identifier="R13H8.1"/>
   </DataNode>
   <DataNode textLabel="JKK-1" GraphId="fe08c" type="GeneProduct">
     <BiopaxRef>f8b</BiopaxRef>
-    <Graphics centerX="116.0" centerY="405.0" width="80.0" height="20.0" zOrder="32780" fillColor="009900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" Color="ffffff"/>
+    <Graphics centerX="116.0" centerY="405.0" width="80.0" height="20.0" zOrder="32780" fillColor="009900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="WormBase" identifier="F35C8.3"/>
   </DataNode>
   <DataNode textLabel="PRMT-1" GraphId="c1060" type="GeneProduct">
     <Comment/>
     <BiopaxRef>ed9</BiopaxRef>
-    <Graphics centerX="338.0" centerY="407.0" width="80.0" height="20.0" zOrder="32783" fillColor="009900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" Color="ffffff"/>
+    <Graphics centerX="338.0" centerY="407.0" width="80.0" height="20.0" zOrder="32783" fillColor="009900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="WormBase" identifier="Y113G7B.17"/>
   </DataNode>
   <DataNode textLabel="DAF-16/FOXO" GraphId="dd9c0" type="GeneProduct">
@@ -98,19 +98,19 @@
 coexpressed.</Comment>
     <Comment/>
     <BiopaxRef>ed9</BiopaxRef>
-    <Graphics centerX="233.0" centerY="483.0" width="80.0" height="20.0" zOrder="32784" fillColor="339900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" Color="ffffff"/>
+    <Graphics centerX="233.0" centerY="483.0" width="80.0" height="20.0" zOrder="32784" fillColor="339900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="WormBase" identifier="R13H8.1"/>
   </DataNode>
   <DataNode textLabel="DAF-16/FOXO" GraphId="a11d5" type="GeneProduct">
     <BiopaxRef>ee4</BiopaxRef>
-    <Graphics centerX="365.00000000000006" centerY="821.0" width="80.0" height="20.0" zOrder="32785" fillColor="339900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" Color="ffffff"/>
+    <Graphics centerX="365.00000000000006" centerY="821.0" width="80.0" height="20.0" zOrder="32785" fillColor="339900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="WormBase" identifier="R13H8.1"/>
   </DataNode>
   <DataNode textLabel="RLE-1" GraphId="d0ba6" type="GeneProduct">
     <Comment>age-1 encodes a homologue of mammalian phosphatidylinositol-3-OH kinase catalytic subunit.</Comment>
     <Comment>RLE-1 physically interacts with DAF-16.  RLE-1 C terminus is required for the interaction of RLE-1 with DAF-16.</Comment>
     <BiopaxRef>ee4</BiopaxRef>
-    <Graphics centerX="345.0" centerY="782.0" width="80.0" height="20.0" zOrder="32786" fillColor="ff6666" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" Color="ffffff"/>
+    <Graphics centerX="345.0" centerY="782.0" width="80.0" height="20.0" zOrder="32786" fillColor="ff6666" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="WormBase" identifier="M142.6"/>
   </DataNode>
   <DataNode textLabel="SMK-1" GraphId="d1f62" type="GeneProduct">
@@ -120,27 +120,27 @@ coexpressed.</Comment>
     <Comment>SMK-1 specifies the longevity function of DAF-16 by
 affecting the efficiency of transcription of DAF-16 target genes involved in oxidative and UV stress response and innate immunity but is not required for DAF-16 regulation of heat-stress-response genes.</Comment>
     <BiopaxRef>e0e</BiopaxRef>
-    <Graphics centerX="442.0" centerY="577.0" width="80.0" height="20.0" zOrder="32787" fillColor="009900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" Color="ffffff"/>
+    <Graphics centerX="442.0" centerY="577.0" width="80.0" height="20.0" zOrder="32787" fillColor="009900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="WormBase" identifier="F41E6.4"/>
   </DataNode>
   <DataNode textLabel="SGK-1" GraphId="a9aac" type="GeneProduct">
     <Comment>DAF-16 is predominantly localized in the cytoplasm as a result of inhibitory phosphorylation of Ser/Thr residues by the AKT and SGK kinases.</Comment>
-    <Graphics centerX="557.0" centerY="343.0" width="80.0" height="20.0" zOrder="32788" fillColor="ff6666" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" Color="ffffff"/>
+    <Graphics centerX="557.0" centerY="343.0" width="80.0" height="20.0" zOrder="32788" fillColor="ff6666" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="WormBase" identifier="W10G6.2"/>
   </DataNode>
   <DataNode textLabel="daf-15" GraphId="ec6ad" type="GeneProduct">
     <Comment>Reduced smk-1 resulted in increased expression of daf-15 mRNA, suggesting that SMK-1 is required for
 the transcriptional repressor activity of DAF-16</Comment>
     <BiopaxRef>e0e</BiopaxRef>
-    <Graphics centerX="282.0" centerY="640.0" width="80.0" height="20.0" zOrder="32789" fillColor="330033" fontWeight="Bold" fontSize="10" vAlign="Middle" Color="ffffff"/>
+    <Graphics centerX="282.0" centerY="640.0" width="80.0" height="20.0" zOrder="32789" fillColor="330033" fontWeight="Bold" fontSize="10" vAlign="Middle" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="WormBase" identifier="C10C5.6"/>
   </DataNode>
   <DataNode textLabel="" GraphId="cf05a">
-    <Graphics centerX="734.0" centerY="246.0" width="80.0" height="20.0" zOrder="32793" fillColor="009900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" Color="ffffff"/>
+    <Graphics centerX="734.0" centerY="246.0" width="80.0" height="20.0" zOrder="32793" fillColor="009900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="" identifier=""/>
   </DataNode>
   <DataNode textLabel="" GraphId="d2a0d">
-    <Graphics centerX="734.0" centerY="279.0" width="80.0" height="20.0" zOrder="32794" fillColor="ff6666" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" Color="ffffff"/>
+    <Graphics centerX="734.0" centerY="279.0" width="80.0" height="20.0" zOrder="32794" fillColor="ff6666" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="" identifier=""/>
   </DataNode>
   <DataNode textLabel="DAF-16/FOXO" GraphId="d29ee" type="GeneProduct">
@@ -151,7 +151,7 @@ the transcriptional repressor activity of DAF-16</Comment>
     <BiopaxRef>b69</BiopaxRef>
     <BiopaxRef>ed9</BiopaxRef>
     <BiopaxRef>a81</BiopaxRef>
-    <Graphics centerX="408.0" centerY="450.0" width="80.0" height="20.0" zOrder="32800" fillColor="339900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" Color="ffffff"/>
+    <Graphics centerX="408.0" centerY="450.0" width="80.0" height="20.0" zOrder="32800" fillColor="339900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="WormBase" identifier="R13H8.1"/>
   </DataNode>
   <State GraphRef="fc419" textLabel="P" GraphId="b2dc4">
@@ -227,7 +227,7 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
   <Interaction GraphId="id43cd63bf">
     <BiopaxRef>a81</BiopaxRef>
     <BiopaxRef>ed9</BiopaxRef>
-    <Graphics zOrder="12288" lineWidth="2.0" Color="009933">
+    <Graphics zOrder="12288" lineWidth="2.0" lineColor="009933">
       <Point x="570.0" y="452.0" GraphRef="fc419" relX="0.0" relY="1.0"/>
       <Point x="570.0" y="468.0" GraphRef="e9b6a" relX="0.0" relY="-1.0"/>
     </Graphics>
@@ -268,14 +268,14 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
     <Comment>JNK-1 phosphorylates DAF-16 leading to its translocation to the nucleus.</Comment>
     <BiopaxRef>ed9</BiopaxRef>
     <BiopaxRef>f8b</BiopaxRef>
-    <Graphics zOrder="12288" lineStyle="Broken" lineWidth="1.0" Color="9999ff">
+    <Graphics zOrder="12288" lineStyle="Broken" lineWidth="1.0" lineColor="9999ff">
       <Point x="233.0" y="493.0" GraphRef="dd9c0" relX="0.0" relY="1.0"/>
       <Point x="407.0" y="603.0" GraphRef="bb21e" relX="0.0" relY="-1.0" arrowHead="Arrow"/>
     </Graphics>
     <Xref dataSource="" identifier=""/>
   </Interaction>
   <Interaction GraphId="idef34bebb">
-    <Graphics zOrder="12288" lineStyle="Broken" lineWidth="1.0" Color="9999ff">
+    <Graphics zOrder="12288" lineStyle="Broken" lineWidth="1.0" lineColor="9999ff">
       <Point x="407.0" y="623.0" GraphRef="bb21e" relX="0.0" relY="1.0"/>
       <Point x="385.00000000000006" y="811.0" GraphRef="a11d5" relX="0.5" relY="-1.0" arrowHead="Arrow"/>
     </Graphics>
@@ -300,7 +300,7 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
   <Interaction GraphId="ida293497b">
     <Comment>RLE-1 physically interacts with DAF-16.  RLE-1 C terminus is required for the interaction of RLE-1 with DAF-16.</Comment>
     <BiopaxRef>ee4</BiopaxRef>
-    <Graphics zOrder="12288" lineWidth="2.0" Color="339900">
+    <Graphics zOrder="12288" lineWidth="2.0" lineColor="339900">
       <Point x="365.0" y="792.0" GraphRef="d0ba6" relX="0.5" relY="1.0"/>
       <Point x="365.00000000000006" y="811.0" GraphRef="a11d5" relX="0.0" relY="-1.0"/>
     </Graphics>
@@ -364,7 +364,7 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
   <Interaction GraphId="c8b89">
     <Comment>JNK-1 phosphorylates DAF-16 leading to its translocation to the nucleus.</Comment>
     <BiopaxRef>f8b</BiopaxRef>
-    <Graphics zOrder="32781" lineWidth="2.0" Color="339900">
+    <Graphics zOrder="32781" lineWidth="2.0" lineColor="339900">
       <Point x="192.0" y="460.0" GraphRef="e2e8a" relX="0.0" relY="1.0"/>
       <Point x="213.0" y="473.0" GraphRef="dd9c0" relX="-0.5" relY="-1.0"/>
     </Graphics>
@@ -483,7 +483,7 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
   <Shape GraphId="ec34d">
     <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus"/>
     <Attribute key="org.pathvisio.DoubleLineProperty" value="Double"/>
-    <Graphics centerX="415.5" centerY="625.0" width="429.0" height="224.0" zOrder="16384" fontSize="10" vAlign="Middle" shapeType="Oval" lineWidth="3.0" Color="c0c0c0" rotation="0.0"/>
+    <Graphics centerX="415.5" centerY="625.0" width="429.0" height="224.0" zOrder="16384" fontSize="10" vAlign="Middle" shapeType="Oval" borderWidth="3.0" borderColor="c0c0c0" rotation="0.0"/>
   </Shape>
   <Shape GraphId="e054d">
     <Graphics centerX="804.0" centerY="212.25" width="240.0" height="399.5" zOrder="16384" fontSize="10" vAlign="Middle" shapeType="Rectangle" rotation="0.0"/>

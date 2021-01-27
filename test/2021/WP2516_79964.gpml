@@ -26,7 +26,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="Ensembl" identifier="ENSG00000164045" />
   </DataNode>
   <DataNode textLabel="DNA&#xA;Repair" GraphId="cf170" type="Pathway">
-    <Graphics centerX="431.21894920457385" centerY="499.3115308353242" width="56.0" height="33.0" zOrder="33036" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" Color="003399" />
+    <Graphics centerX="431.21894920457385" centerY="499.3115308353242" width="56.0" height="33.0" zOrder="33036" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" textColor="003399" />
     <Xref dataSource="WikiPathways" identifier="WP707" />
   </DataNode>
   <DataNode textLabel="Cyclin B" GraphId="ffa91" type="GeneProduct">
@@ -91,7 +91,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
   </DataNode>
   <DataNode textLabel="SMC1A" GraphId="b6c07" type="Protein">
     <BiopaxRef>b80</BiopaxRef>
-    <Graphics centerX="969.790265040953" centerY="220.9933778244167" width="50.5210382526715" height="24.994573701427782" zOrder="33044" fillColor="00cc00" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" Color="ffffff" />
+    <Graphics centerX="969.790265040953" centerY="220.9933778244167" width="50.5210382526715" height="24.994573701427782" zOrder="33044" fillColor="00cc00" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" textColor="ffffff" />
     <Xref dataSource="Uniprot-TrEMBL" identifier="Q14683" />
   </DataNode>
   <DataNode textLabel="Apoptosis" GraphId="cca26" type="Pathway">
@@ -105,20 +105,20 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>ad1</BiopaxRef>
     <BiopaxRef>d3a</BiopaxRef>
     <BiopaxRef>dfc</BiopaxRef>
-    <Graphics centerX="123.38364563952757" centerY="390.54686671557056" width="80.0" height="20.0" zOrder="33045" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" Color="003399" />
+    <Graphics centerX="123.38364563952757" centerY="390.54686671557056" width="80.0" height="20.0" zOrder="33045" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" textColor="003399" />
     <Xref dataSource="WikiPathways" identifier="WP254" />
   </DataNode>
   <DataNode textLabel="AP3B2" GraphId="a4eab" type="Protein">
-    <Graphics centerX="781.5220397579956" centerY="339.2212618841834" width="54.0" height="20.0" zOrder="33046" fillColor="ffff00" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" Color="003399" />
+    <Graphics centerX="781.5220397579956" centerY="339.2212618841834" width="54.0" height="20.0" zOrder="33046" fillColor="ffff00" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" borderColor="003399" textColor="003399" />
     <Xref dataSource="Uniprot-TrEMBL" identifier="Q13367" />
   </DataNode>
   <DataNode textLabel="Apoptosis" GraphId="f4c60" type="Pathway">
-    <Graphics centerX="729.8156783567586" centerY="755.3634065416168" width="76.30077787381167" height="20.0" zOrder="33047" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" Color="003399" />
+    <Graphics centerX="729.8156783567586" centerY="755.3634065416168" width="76.30077787381167" height="20.0" zOrder="33047" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" textColor="003399" />
     <Xref dataSource="WikiPathways" identifier="WP254" />
   </DataNode>
   <DataNode textLabel="G2/M Transition" GraphId="e75f4" type="Pathway">
     <BiopaxRef>d8e</BiopaxRef>
-    <Graphics centerX="474.0991243998364" centerY="852.2808065720687" width="100.28128336406996" height="20.911127707244223" zOrder="33048" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" Color="003399" />
+    <Graphics centerX="474.0991243998364" centerY="852.2808065720687" width="100.28128336406996" height="20.911127707244223" zOrder="33048" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" textColor="003399" />
     <Xref dataSource="WikiPathways" identifier="WP1859" />
   </DataNode>
   <DataNode textLabel="CDK1" GraphId="aa362" type="GeneProduct">
@@ -128,7 +128,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>ecc</BiopaxRef>
     <BiopaxRef>f9d</BiopaxRef>
     <BiopaxRef>d75</BiopaxRef>
-    <Graphics centerX="140.10313156053255" centerY="597.2699194627573" width="46.898005598320516" height="20.0" zOrder="33049" fillColor="990099" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" Color="ffffff" />
+    <Graphics centerX="140.10313156053255" centerY="597.2699194627573" width="46.898005598320516" height="20.0" zOrder="33049" fillColor="990099" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="Ensembl" identifier="ENSG00000170312" />
   </DataNode>
   <DataNode textLabel="ATM" GraphId="c6daf" type="GeneProduct" GroupRef="ff136">
@@ -138,7 +138,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>b19</BiopaxRef>
     <BiopaxRef>a3e</BiopaxRef>
     <BiopaxRef>c42</BiopaxRef>
-    <Graphics centerX="377.9746079163556" centerY="299.0" width="38.0" height="20.0" zOrder="33050" fillColor="333333" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" Color="ffff00" />
+    <Graphics centerX="377.9746079163556" centerY="299.0" width="38.0" height="20.0" zOrder="33050" fillColor="333333" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" borderColor="ffff00" textColor="ffff00" />
     <Xref dataSource="Ensembl" identifier="ENSG00000149311" />
   </DataNode>
   <DataNode textLabel="H2AX" GraphId="ce4b5" type="Protein">
@@ -148,13 +148,13 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>ea3</BiopaxRef>
     <BiopaxRef>b2b</BiopaxRef>
     <BiopaxRef>b59</BiopaxRef>
-    <Graphics centerX="853.2666168782673" centerY="310.95369678864824" width="54.53323375653474" height="25.882001493652048" zOrder="33051" fillColor="66ccff" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Hexagon" Color="333333" />
+    <Graphics centerX="853.2666168782673" centerY="310.95369678864824" width="54.53323375653474" height="25.882001493652048" zOrder="33051" fillColor="66ccff" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Hexagon" borderColor="333333" textColor="333333" />
     <Xref dataSource="Uniprot-TrEMBL" identifier="P16104" />
   </DataNode>
   <DataNode textLabel="RAD9A" GraphId="c46cc" type="GeneProduct" GroupRef="fea99">
     <BiopaxRef>ad2</BiopaxRef>
     <BiopaxRef>eaa</BiopaxRef>
-    <Graphics centerX="511.41439412193154" centerY="249.16650703211195" width="54.52147314523285" height="27.631138288277793" zOrder="33052" fillColor="990099" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Hexagon" Color="ffff00" />
+    <Graphics centerX="511.41439412193154" centerY="249.16650703211195" width="54.52147314523285" height="27.631138288277793" zOrder="33052" fillColor="990099" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Hexagon" borderColor="ffff00" textColor="ffff00" />
     <Xref dataSource="Ensembl" identifier="ENSG00000172613" />
   </DataNode>
   <DataNode textLabel="PIDD" GraphId="afc0e" type="GeneProduct" GroupRef="c6f5d">
@@ -164,7 +164,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>de4</BiopaxRef>
     <BiopaxRef>fa9</BiopaxRef>
     <BiopaxRef>bf0</BiopaxRef>
-    <Graphics centerX="627.608950120774" centerY="497.30937512204446" width="48.6430423509075" height="20.0" zOrder="33053" fillColor="ff0033" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" Color="ffffff" />
+    <Graphics centerX="627.608950120774" centerY="497.30937512204446" width="48.6430423509075" height="20.0" zOrder="33053" fillColor="ff0033" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="Ensembl" identifier="ENSG00000177595" />
   </DataNode>
   <DataNode textLabel="RAD51" GraphId="c079d" type="GeneProduct" GroupRef="e4b72">
@@ -193,7 +193,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>a88</BiopaxRef>
     <BiopaxRef>e3b</BiopaxRef>
     <BiopaxRef>c31</BiopaxRef>
-    <Graphics centerX="444.51626654135725" centerY="734.3175550958226" width="50.0" height="20.0" zOrder="33056" fillColor="339900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" Color="ffff00" />
+    <Graphics centerX="444.51626654135725" centerY="734.3175550958226" width="50.0" height="20.0" zOrder="33056" fillColor="339900" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" borderColor="ffff00" textColor="ffff00" />
     <Xref dataSource="Entrez Gene" identifier="983" />
   </DataNode>
   <DataNode textLabel="IKBA" GraphId="ef6e7" type="Protein" GroupRef="b5dbd">
@@ -212,7 +212,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
   <DataNode textLabel="Cyclin-E1" GraphId="fb62b" type="GeneProduct" GroupRef="d3610">
     <BiopaxRef>d5e</BiopaxRef>
     <BiopaxRef>c58</BiopaxRef>
-    <Graphics centerX="120.80748823585893" centerY="804.8927277935811" width="52.681319824578395" height="26.49232219061536" zOrder="33059" fillColor="ffff00" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" Color="339900" />
+    <Graphics centerX="120.80748823585893" centerY="804.8927277935811" width="52.681319824578395" height="26.49232219061536" zOrder="33059" fillColor="ffff00" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" borderColor="339900" textColor="339900" />
     <Xref dataSource="Uniprot-TrEMBL" identifier="F6KX26" />
   </DataNode>
   <DataNode textLabel="c-Abl" GraphId="e7db6" type="GeneProduct" GroupRef="b96fc">
@@ -230,7 +230,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>bf1</BiopaxRef>
     <BiopaxRef>c32</BiopaxRef>
     <BiopaxRef>ffa</BiopaxRef>
-    <Graphics centerX="511.0694778820821" centerY="477.2699964646231" width="46.0" height="20.0" zOrder="33061" fillColor="666666" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" Color="ffffff" />
+    <Graphics centerX="511.0694778820821" centerY="477.2699964646231" width="46.0" height="20.0" zOrder="33061" fillColor="666666" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="Uniprot-TrEMBL" identifier="O14757" />
   </DataNode>
   <DataNode textLabel="BRCA1" GraphId="e795d" type="Protein">
@@ -254,7 +254,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>fa3</BiopaxRef>
     <BiopaxRef>ed9</BiopaxRef>
     <BiopaxRef>de0</BiopaxRef>
-    <Graphics centerX="636.8382352941173" centerY="822.7579100784651" width="73.11668107173728" height="20.0" zOrder="33064" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" Color="003399" />
+    <Graphics centerX="636.8382352941173" centerY="822.7579100784651" width="73.11668107173728" height="20.0" zOrder="33064" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" textColor="003399" />
     <Xref dataSource="WikiPathways" identifier="WP254" />
   </DataNode>
   <DataNode textLabel="FANCD2" GraphId="a7664" type="Protein" GroupRef="fe3dc">
@@ -275,7 +275,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>c61</BiopaxRef>
     <BiopaxRef>c1d</BiopaxRef>
     <BiopaxRef>c89</BiopaxRef>
-    <Graphics centerX="78.02069441402254" centerY="474.5853860708683" width="83.52676894500414" height="20.51580138150281" zOrder="33066" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" Color="003399" />
+    <Graphics centerX="78.02069441402254" centerY="474.5853860708683" width="83.52676894500414" height="20.51580138150281" zOrder="33066" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" textColor="003399" />
     <Xref dataSource="WikiPathways" identifier="WP615" />
   </DataNode>
   <DataNode textLabel="MDMX&#xA;(MDM4)" GraphId="ad995" type="GeneProduct" GroupRef="dabbe">
@@ -290,7 +290,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="Uniprot-TrEMBL" identifier="O15151" />
   </DataNode>
   <DataNode textLabel="S Phase&#xA;Arrest" GraphId="da824" type="Pathway">
-    <Graphics centerX="731.6169126451957" centerY="424.3525469867345" width="64.76617470960855" height="32.62823935986455" zOrder="33068" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" Color="003399" />
+    <Graphics centerX="731.6169126451957" centerY="424.3525469867345" width="64.76617470960855" height="32.62823935986455" zOrder="33068" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" textColor="003399" />
     <Xref dataSource="WikiPathways" identifier="WP45" />
   </DataNode>
   <DataNode textLabel="TP53" GraphId="d5bed" type="GeneProduct" GroupRef="cf482">
@@ -302,7 +302,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="Ensembl" identifier="ENSG00000141510" />
   </DataNode>
   <DataNode textLabel="DNA Repair" GraphId="cae06" type="Pathway" GroupRef="eaba8">
-    <Graphics centerX="925.8540681173131" centerY="749.833463356045" width="118.97934386391243" height="30.33307328791011" zOrder="33070" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" Color="003399" />
+    <Graphics centerX="925.8540681173131" centerY="749.833463356045" width="118.97934386391243" height="30.33307328791011" zOrder="33070" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" textColor="003399" />
     <Xref dataSource="WikiPathways" identifier="WP707" />
   </DataNode>
   <DataNode textLabel="MDM2" GraphId="dc880" type="Protein" GroupRef="dabbe">
@@ -330,7 +330,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>f21</BiopaxRef>
     <BiopaxRef>f2b</BiopaxRef>
     <BiopaxRef>b02</BiopaxRef>
-    <Graphics centerX="326.14396788057775" centerY="427.71134919103173" width="52.91525622844438" height="29.35893799666022" zOrder="33073" fillColor="0000ff" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Hexagon" Color="ffff00" />
+    <Graphics centerX="326.14396788057775" centerY="427.71134919103173" width="52.91525622844438" height="29.35893799666022" zOrder="33073" fillColor="0000ff" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Hexagon" borderColor="ffff00" textColor="ffff00" />
     <Xref dataSource="Uniprot-TrEMBL" identifier="Q14676" />
   </DataNode>
   <DataNode textLabel="RAIDD" GraphId="e417c" type="GeneProduct">
@@ -340,7 +340,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>f7e</BiopaxRef>
     <BiopaxRef>b85</BiopaxRef>
     <BiopaxRef>c90</BiopaxRef>
-    <Graphics centerX="636.8786114071377" centerY="640.6520755888596" width="45.28982722306551" height="30.072995947001345" zOrder="33074" fillColor="999999" fontWeight="Bold" fontSize="10" vAlign="Middle" hAlign="Left" shapeType="Pentagon" Color="ffff00" />
+    <Graphics centerX="636.8786114071377" centerY="640.6520755888596" width="45.28982722306551" height="30.072995947001345" zOrder="33074" fillColor="999999" fontWeight="Bold" fontSize="10" vAlign="Middle" hAlign="Left" shapeType="Pentagon" borderColor="ffff00" textColor="ffff00" />
     <Xref dataSource="Uniprot-TrEMBL" identifier="P78560" />
   </DataNode>
   <DataNode textLabel="NF kappa B Pathway" GraphId="c909a" type="Pathway">
@@ -348,11 +348,11 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>efc</BiopaxRef>
     <BiopaxRef>b76</BiopaxRef>
     <BiopaxRef>c01</BiopaxRef>
-    <Graphics centerX="981.5542942323126" centerY="555.7053663570695" width="149.0" height="27.0" zOrder="33075" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" Color="003399" />
+    <Graphics centerX="981.5542942323126" centerY="555.7053663570695" width="149.0" height="27.0" zOrder="33075" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" borderColor="003399" textColor="003399" />
     <Xref dataSource="KEGG Pathway" identifier="ko04064" />
   </DataNode>
   <DataNode textLabel="G2/M Checkpoint&#xA;Arrest" GraphId="fecb6" type="Pathway">
-    <Graphics centerX="105.98390242084724" centerY="692.3450744735601" width="119.03219515830548" height="27.439480682509156" zOrder="33076" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" Color="003399" />
+    <Graphics centerX="105.98390242084724" centerY="692.3450744735601" width="119.03219515830548" height="27.439480682509156" zOrder="33076" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" textColor="003399" />
     <Xref dataSource="WikiPathways" identifier="WP1859" />
   </DataNode>
   <DataNode textLabel="Caspase 2" GraphId="bacbc" type="GeneProduct">
@@ -365,22 +365,22 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>a6a</BiopaxRef>
     <BiopaxRef>f2f</BiopaxRef>
     <BiopaxRef>fa5</BiopaxRef>
-    <Graphics centerX="636.9726779166081" centerY="713.3993085566112" width="66.79343128781336" height="20.0" zOrder="33077" fillColor="ffff00" fontWeight="Bold" fontSize="10" vAlign="Middle" Color="cc3300" />
+    <Graphics centerX="636.9726779166081" centerY="713.3993085566112" width="66.79343128781336" height="20.0" zOrder="33077" fillColor="ffff00" fontWeight="Bold" fontSize="10" vAlign="Middle" borderColor="cc3300" textColor="cc3300" />
     <Xref dataSource="Uniprot-TrEMBL" identifier="P42575 " />
   </DataNode>
   <DataNode textLabel="S Phase&#xA;Progression" GraphId="aa2ee" type="Pathway">
-    <Graphics centerX="511.369838889382" centerY="623.3864044708591" width="80.96032431987271" height="32.0" zOrder="33078" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" Color="003399" />
+    <Graphics centerX="511.369838889382" centerY="623.3864044708591" width="80.96032431987271" height="32.0" zOrder="33078" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" textColor="003399" />
     <Xref dataSource="WikiPathways" identifier="WP45" />
   </DataNode>
   <DataNode textLabel="G1/S Checkpoint&#xA;Arrest " GraphId="aafe9" type="Pathway">
-    <Graphics centerX="235.28347484196772" centerY="873.2875463928016" width="103.95851339671566" height="26.78975799481421" zOrder="33079" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" Color="003399" />
+    <Graphics centerX="235.28347484196772" centerY="873.2875463928016" width="103.95851339671566" height="26.78975799481421" zOrder="33079" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" textColor="003399" />
     <Xref dataSource="WikiPathways" identifier="WP45" />
   </DataNode>
   <DataNode textLabel="ATF2" GraphId="fa9dc" type="GeneProduct" GroupRef="b096a">
     <BiopaxRef>c74</BiopaxRef>
     <BiopaxRef>bc1</BiopaxRef>
     <BiopaxRef>be8</BiopaxRef>
-    <Graphics centerX="726.7456140350877" centerY="310.16959064327483" width="51.0" height="20.0" zOrder="33080" fillColor="990099" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" Color="ffffff" />
+    <Graphics centerX="726.7456140350877" centerY="310.16959064327483" width="51.0" height="20.0" zOrder="33080" fillColor="990099" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="Oval" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="Ensembl" identifier="ENSG00000115966" />
   </DataNode>
   <DataNode textLabel="DNA Repair" GraphId="ef9f0" type="Pathway">
@@ -389,7 +389,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>dcb</BiopaxRef>
     <BiopaxRef>f7d</BiopaxRef>
     <BiopaxRef>a60</BiopaxRef>
-    <Graphics centerX="957.4698879551818" centerY="355.5399159663863" width="80.0" height="20.0" zOrder="33081" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" Color="003399" />
+    <Graphics centerX="957.4698879551818" centerY="355.5399159663863" width="80.0" height="20.0" zOrder="33081" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" textColor="003399" />
     <Xref dataSource="WikiPathways" identifier="WP707" />
   </DataNode>
   <DataNode textLabel="BID" GraphId="dd7fb" type="Protein" GroupRef="a227d">
@@ -408,7 +408,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="Ensembl" identifier="ENSG00000067369" />
   </DataNode>
   <DataNode textLabel="S Phase&#xA;Progression" GraphId="e5ea0" type="Pathway">
-    <Graphics centerX="352.39165223280264" centerY="867.4942268656287" width="84.90302861878612" height="32.0" zOrder="33085" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" Color="003399" />
+    <Graphics centerX="352.39165223280264" centerY="867.4942268656287" width="84.90302861878612" height="32.0" zOrder="33085" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" textColor="003399" />
     <Xref dataSource="WikiPathways" identifier="WP45" />
   </DataNode>
   <DataNode textLabel="ATM" GraphId="dd224" type="GeneProduct" GroupRef="a25e3">
@@ -418,7 +418,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>b19</BiopaxRef>
     <BiopaxRef>a3e</BiopaxRef>
     <BiopaxRef>c42</BiopaxRef>
-    <Graphics centerX="704.0" centerY="245.0" width="38.0" height="20.0" zOrder="33086" fillColor="333333" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" Color="ffff00" />
+    <Graphics centerX="704.0" centerY="245.0" width="38.0" height="20.0" zOrder="33086" fillColor="333333" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" borderColor="ffff00" textColor="ffff00" />
     <Xref dataSource="Ensembl" identifier="ENSG00000149311" />
   </DataNode>
   <DataNode textLabel="ATM" GraphId="eaa4a" type="GeneProduct" GroupRef="e93f4">
@@ -428,7 +428,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>b19</BiopaxRef>
     <BiopaxRef>a3e</BiopaxRef>
     <BiopaxRef>c42</BiopaxRef>
-    <Graphics centerX="173.04185459382896" centerY="233.7972708733796" width="38.0" height="20.0" zOrder="33087" fillColor="333333" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" Color="ffff00" />
+    <Graphics centerX="173.04185459382896" centerY="233.7972708733796" width="38.0" height="20.0" zOrder="33087" fillColor="333333" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" borderColor="ffff00" textColor="ffff00" />
     <Xref dataSource="Ensembl" identifier="ENSG00000149311" />
   </DataNode>
   <DataNode textLabel="ATM" GraphId="ae34b" type="GeneProduct" GroupRef="e93f4">
@@ -438,7 +438,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>b19</BiopaxRef>
     <BiopaxRef>a3e</BiopaxRef>
     <BiopaxRef>c42</BiopaxRef>
-    <Graphics centerX="173.04185459382896" centerY="253.21247555174173" width="38.0" height="20.0" zOrder="33088" fillColor="333333" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" Color="ffff00" />
+    <Graphics centerX="173.04185459382896" centerY="253.21247555174173" width="38.0" height="20.0" zOrder="33088" fillColor="333333" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" borderColor="ffff00" textColor="ffff00" />
     <Xref dataSource="Ensembl" identifier="ENSG00000149311" />
   </DataNode>
   <DataNode textLabel="Cell Cycle&#xA;Checkpoint&#xA;Activation" GraphId="f9925" type="Pathway">
@@ -447,7 +447,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>ede</BiopaxRef>
     <BiopaxRef>e11</BiopaxRef>
     <BiopaxRef>da2</BiopaxRef>
-    <Graphics centerX="595.6862085370017" centerY="200.07339746616003" width="80.0" height="53.0" zOrder="33089" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" Color="003399" />
+    <Graphics centerX="595.6862085370017" centerY="200.07339746616003" width="80.0" height="53.0" zOrder="33089" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" textColor="003399" />
     <Xref dataSource="WikiPathways" identifier="WP1775" />
   </DataNode>
   <DataNode textLabel="MRE11" GraphId="a80c3" type="Protein" GroupRef="fe75d">
@@ -459,7 +459,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="Uniprot-TrEMBL" identifier="O60934" />
   </DataNode>
   <DataNode textLabel="RAD50" GraphId="f97a1" type="Protein" GroupRef="fe75d">
-    <Graphics centerX="897.8678038379526" centerY="225.9178907052042" width="58.0" height="20.0" zOrder="33092" fillColor="0000ff" fontWeight="Bold" fontSize="10" vAlign="Middle" Color="ffffff" />
+    <Graphics centerX="897.8678038379526" centerY="225.9178907052042" width="58.0" height="20.0" zOrder="33092" fillColor="0000ff" fontWeight="Bold" fontSize="10" vAlign="Middle" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="Uniprot-TrEMBL" identifier="Q92878" />
   </DataNode>
   <DataNode textLabel="DNA DAMAGE" GraphId="d8bf7" type="Pathway">
@@ -467,7 +467,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <BiopaxRef>ff4</BiopaxRef>
     <BiopaxRef>b79</BiopaxRef>
     <BiopaxRef>aaa</BiopaxRef>
-    <Graphics centerX="705.7003152866764" centerY="131.55766427934225" width="91.95618612890853" height="31.0" zOrder="33093" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" Color="003399" />
+    <Graphics centerX="705.7003152866764" centerY="131.55766427934225" width="91.95618612890853" height="31.0" zOrder="33093" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" textColor="003399" />
     <Xref dataSource="WikiPathways" identifier="WP707" />
   </DataNode>
   <DataNode textLabel="CDK2" GraphId="ea9cc" type="Protein" GroupRef="d3610">
@@ -491,7 +491,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="Uniprot-TrEMBL" identifier="Q00987" />
   </DataNode>
   <DataNode textLabel="RAD50" GraphId="da313" type="Protein" GroupRef="ffc64">
-    <Graphics centerX="776.1080312722106" centerY="148.17412935323375" width="58.0" height="20.0" zOrder="33111" fillColor="0000ff" fontWeight="Bold" fontSize="10" vAlign="Middle" Color="ffffff" />
+    <Graphics centerX="776.1080312722106" centerY="148.17412935323375" width="58.0" height="20.0" zOrder="33111" fillColor="0000ff" fontWeight="Bold" fontSize="10" vAlign="Middle" borderColor="ffffff" textColor="ffffff" />
     <Xref dataSource="Uniprot-TrEMBL" identifier="Q92878" />
   </DataNode>
   <DataNode textLabel="MRE11" GraphId="beb86" type="Protein" GroupRef="ffc64">
@@ -503,18 +503,18 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="Uniprot-TrEMBL" identifier="O60934" />
   </DataNode>
   <DataNode textLabel="Recombination" GraphId="d322c" type="Pathway" GroupRef="eaba8">
-    <Graphics centerX="928.8540681173131" centerY="777.4197331008809" width="118.97934386391243" height="38.83946620176175" zOrder="33138" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" Color="003399" />
+    <Graphics centerX="928.8540681173131" centerY="777.4197331008809" width="118.97934386391243" height="38.83946620176175" zOrder="33138" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" textColor="003399" />
     <Xref dataSource="WikiPathways" identifier="WP438" />
   </DataNode>
   <Interaction GraphId="idb03c40d5" GroupRef="e295a">
-    <Graphics zOrder="12288" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics zOrder="12288" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="811.581676750216" y="877.3396715643906" />
       <Point x="898.0121002592913" y="877.3396715643906" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="ida37f0fc3">
-    <Graphics ConnectorType="Elbow" zOrder="12288" lineWidth="1.0" Color="009900">
+    <Graphics ConnectorType="Elbow" zOrder="12288" lineWidth="1.0" lineColor="009900">
       <Point x="396.9746079163556" y="299.0" GraphRef="c6daf" relX="1.0" relY="0.0" />
       <Point x="627.0" y="272.0" />
       <Point x="685.0" y="245.0" GraphRef="dd224" relX="-1.0" relY="0.0" arrowHead="mim-stimulation" />
@@ -522,7 +522,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="id4a00e28c">
-    <Graphics ConnectorType="Elbow" zOrder="12288" lineWidth="1.0" Color="009900">
+    <Graphics ConnectorType="Elbow" zOrder="12288" lineWidth="1.0" lineColor="009900">
       <Point x="396.9746079163556" y="299.0" GraphRef="c6daf" relX="1.0" relY="0.0" />
       <Point x="655.0" y="304.58479532163744" />
       <Point x="701.2456140350877" y="310.16959064327483" GraphRef="fa9dc" relX="-1.0" relY="0.0" arrowHead="mim-stimulation" />
@@ -530,7 +530,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="id93be2059">
-    <Graphics ConnectorType="Elbow" zOrder="12288" lineWidth="1.0" Color="009900">
+    <Graphics ConnectorType="Elbow" zOrder="12288" lineWidth="1.0" lineColor="009900">
       <Point x="396.9746079163556" y="299.0" GraphRef="c6daf" relX="1.0" relY="0.0" />
       <Point x="508.0" y="319.1106309420917" />
       <Point x="754.5220397579956" y="339.2212618841834" GraphRef="a4eab" relX="-1.0" relY="0.0" arrowHead="mim-stimulation" />
@@ -538,7 +538,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="df85c">
-    <Graphics ConnectorType="Elbow" zOrder="32874" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32874" lineWidth="1.0" lineColor="339900">
       <Point x="200.04185459382896" y="243.50487321256065" GraphRef="d0872" relX="1.0" relY="0.0" />
       <Point x="240.0" y="271.2524366062803" />
       <Point x="358.9746079163556" y="299.0" GraphRef="c6daf" relX="-1.0" relY="0.0" />
@@ -546,7 +546,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="eaf62">
-    <Graphics ConnectorType="Elbow" zOrder="32947" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics ConnectorType="Elbow" zOrder="32947" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="208.74005676017805" y="448.1574074074074" GraphRef="d5bed" relX="-1.0" relY="0.0" />
       <Point x="175.0" y="461.3713967391378" />
       <Point x="119.78407888652461" y="474.5853860708683" GraphRef="e3b92" relX="1.0" relY="0.0" arrowHead="mim-conversion" />
@@ -554,7 +554,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="c577c">
-    <Graphics ConnectorType="Elbow" zOrder="32948" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32948" lineWidth="1.0" lineColor="339900">
       <Point x="219.24005676017805" y="458.1574074074074" GraphRef="d5bed" relX="-0.5" relY="1.0" />
       <Point x="149.42274453979726" y="499.0" />
       <Point x="79.60543231941647" y="547.7840376383515" GraphRef="c552b" relX="0.0" relY="-1.0" arrowHead="mim-stimulation" />
@@ -562,21 +562,21 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="a4b7e">
-    <Graphics zOrder="32949" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics zOrder="32949" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="729.875" y="656.25" GraphRef="ed559" relX="0.0" relY="1.0" />
       <Point x="729.8156783567586" y="745.3634065416168" GraphRef="f4c60" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="ab1e3">
-    <Graphics zOrder="32950" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics zOrder="32950" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="929.9194574122631" y="678.2548923489712" GraphRef="c6362" relX="1.0" relY="0.0" />
       <Point x="982.6737759402556" y="678.6670114691364" GraphRef="c7b53" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="f9565">
-    <Graphics ConnectorType="Elbow" zOrder="32951" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32951" lineWidth="1.0" lineColor="339900">
       <Point x="377.9746079163556" y="309.0" GraphRef="c6daf" relX="0.0" relY="1.0" />
       <Point x="438.77204289921883" y="386.0" />
       <Point x="499.5694778820821" y="467.2699964646231" GraphRef="f80b9" relX="-0.5" relY="-1.0" arrowHead="mim-stimulation" />
@@ -584,56 +584,56 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="ad284">
-    <Graphics ConnectorType="Elbow" zOrder="32952" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32952" lineWidth="1.0" lineColor="339900">
       <Point x="659.7222222222222" y="131.55766427934225" GraphRef="d8bf7" relX="-1.0" relY="0.0" />
       <Point x="368.4746079163556" y="289.0" GraphRef="c6daf" relX="-0.5" relY="-1.0" arrowHead="mim-stimulation" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="b05b6">
-    <Graphics ConnectorType="Elbow" zOrder="32953" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics ConnectorType="Elbow" zOrder="32953" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="159.09368350290882" y="321.0766125496313" GraphRef="ee34e" relX="-1.0" relY="0.0" />
       <Point x="87.84477474631147" y="279.2200373900565" GraphRef="c5d19" relX="0.0" relY="1.0" arrowHead="mim-conversion" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="abfb4">
-    <Graphics ConnectorType="Elbow" zOrder="32954" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32954" lineWidth="1.0" lineColor="339900">
       <Point x="751.6080312722106" y="193.17412935323375" GraphRef="ad196" relX="0.0" relY="1.0" />
       <Point x="812.8678038379526" y="222.9178907052042" GraphRef="ba679" relX="-1.0" relY="0.0" arrowHead="mim-stimulation" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="b025a">
-    <Graphics zOrder="32955" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics zOrder="32955" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="635.0418222554144" y="424.34226447709534" GraphRef="a7664" relX="1.0" relY="0.0" />
       <Point x="699.2338252903915" y="424.3525469867345" GraphRef="da824" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="f6cbe">
-    <Graphics zOrder="32956" lineWidth="1.0" Color="339900">
+    <Graphics zOrder="32956" lineWidth="1.0" lineColor="339900">
       <Point x="794.3058925307133" y="577.213626491136" GraphRef="e7db6" relX="0.0" relY="1.0" />
       <Point x="794.0223378373008" y="663.2785660941004" GraphRef="c079d" relX="0.0" relY="-1.0" arrowHead="mim-stimulation" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="fcd13">
-    <Graphics ConnectorType="Elbow" zOrder="32957" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32957" lineWidth="1.0" lineColor="339900">
       <Point x="277.2763256161315" y="198.9070478245236" GraphRef="b9d0c" relX="0.0" relY="1.0" />
       <Point x="358.9746079163556" y="299.0" GraphRef="c6daf" relX="-1.0" relY="0.0" arrowHead="mim-stimulation" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="e2710">
-    <Graphics ConnectorType="Elbow" zOrder="32958" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32958" lineWidth="1.0" lineColor="339900">
       <Point x="315.0" y="121.0" GraphRef="c4461" relX="0.0" relY="1.0" />
       <Point x="277.2763256161315" y="170.50450861615928" GraphRef="b9d0c" relX="0.0" relY="-1.0" arrowHead="mim-stimulation" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="dd267">
-    <Graphics ConnectorType="Elbow" zOrder="32959" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics ConnectorType="Elbow" zOrder="32959" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="128.3786301609524" y="607.2699194627573" GraphRef="aa362" relX="-0.5" relY="1.0" />
       <Point x="117.18126629089983" y="633.0" />
       <Point x="105.98390242084724" y="678.6253341323055" GraphRef="fecb6" relX="0.0" relY="-1.0" arrowHead="Arrow" />
@@ -641,7 +641,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="a14d9">
-    <Graphics ConnectorType="Elbow" zOrder="32960" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32960" lineWidth="1.0" lineColor="339900">
       <Point x="499.5694778820821" y="487.2699964646231" GraphRef="f80b9" relX="-0.5" relY="1.0" />
       <Point x="479.8950457690446" y="515.0" />
       <Point x="460.2206136560071" y="657.486603284357" GraphRef="d1775" relX="0.5" relY="-1.0" arrowHead="mim-stimulation" />
@@ -649,7 +649,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="bb302">
-    <Graphics ConnectorType="Elbow" zOrder="32961" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32961" lineWidth="1.0" lineColor="339900">
       <Point x="377.9746079163556" y="309.0" GraphRef="c6daf" relX="0.0" relY="1.0" />
       <Point x="405.0027814062396" y="393.0" />
       <Point x="432.0309548961236" y="414.82647606243125" GraphRef="e795d" relX="0.0" relY="-1.0" arrowHead="mim-stimulation" />
@@ -657,7 +657,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="a7bfd">
-    <Graphics ConnectorType="Elbow" zOrder="32962" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32962" lineWidth="1.0" lineColor="339900">
       <Point x="368.4746079163556" y="309.0" GraphRef="c6daf" relX="-0.5" relY="1.0" />
       <Point x="371.504698080909" y="416.0" />
       <Point x="374.53478824546244" y="452.32152117545377" GraphRef="ed2e6" relX="-0.5" relY="-1.0" arrowHead="mim-stimulation" />
@@ -665,7 +665,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="a5ac6">
-    <Graphics ConnectorType="Elbow" zOrder="32963" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32963" lineWidth="1.0" lineColor="339900">
       <Point x="385.28478824546244" y="472.32152117545377" GraphRef="ed2e6" relX="0.0" relY="1.0" />
       <Point x="358.0328758110914" y="534.0" />
       <Point x="330.78096337672036" y="577.522388059702" GraphRef="ad995" relX="0.0" relY="-1.0" arrowHead="mim-stimulation" />
@@ -673,7 +673,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="e6f1a">
-    <Graphics ConnectorType="Elbow" zOrder="32964" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32964" lineWidth="1.0" lineColor="339900">
       <Point x="385.28478824546244" y="472.32152117545377" GraphRef="ed2e6" relX="0.0" relY="1.0" />
       <Point x="395.0601503719482" y="539.0" />
       <Point x="404.835512498434" y="561.4846049789855" GraphRef="d12a1" relX="0.0" relY="-1.0" arrowHead="mim-stimulation" />
@@ -681,7 +681,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="c182a">
-    <Graphics ConnectorType="Elbow" zOrder="32965" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32965" lineWidth="1.0" lineColor="339900">
       <Point x="387.4746079163556" y="309.0" GraphRef="c6daf" relX="0.5" relY="1.0" />
       <Point x="590.8902502235344" y="367.0" />
       <Point x="794.3058925307133" y="557.213626491136" GraphRef="e7db6" relX="0.0" relY="-1.0" arrowHead="mim-stimulation" />
@@ -689,28 +689,28 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="da45c">
-    <Graphics ConnectorType="Elbow" zOrder="32966" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics ConnectorType="Elbow" zOrder="32966" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="861.8936905790843" y="489.18582541054457" GraphRef="ef6e7" relX="1.0" relY="0.0" />
       <Point x="981.5542942323127" y="542.2053663570695" GraphRef="c909a" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="fa70f">
-    <Graphics zOrder="32967" lineWidth="1.0" Color="ff0033">
+    <Graphics zOrder="32967" lineWidth="1.0" lineColor="ff0033">
       <Point x="511.0694778820821" y="487.2699964646231" GraphRef="f80b9" relX="0.0" relY="1.0" />
       <Point x="511.16426017252275" y="544.9291270527235" GraphRef="c332a" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="a5aea">
-    <Graphics zOrder="32968" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics zOrder="32968" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="636.9726779166081" y="723.3993085566112" GraphRef="bacbc" relX="0.0" relY="1.0" />
       <Point x="636.8382352941173" y="812.7579100784651" GraphRef="f9753" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="e0398">
-    <Graphics ConnectorType="Elbow" zOrder="32969" lineStyle="Broken" lineWidth="1.0" Color="000099">
+    <Graphics ConnectorType="Elbow" zOrder="32969" lineStyle="Broken" lineWidth="1.0" lineColor="000099">
       <Point x="458.0309548961236" y="424.82647606243125" GraphRef="e795d" relX="1.0" relY="0.0" />
       <Point x="472.0" y="444.81900344887777" />
       <Point x="451.6094746022869" y="464.8115308353242" />
@@ -719,21 +719,21 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="cad51">
-    <Graphics zOrder="32970" lineWidth="1.0" Color="339900">
+    <Graphics zOrder="32970" lineWidth="1.0" lineColor="339900">
       <Point x="636.8786114071377" y="655.6885735623603" GraphRef="e417c" relX="0.0" relY="1.0" />
       <Point x="636.9726779166081" y="703.3993085566112" GraphRef="bacbc" relX="0.0" relY="-1.0" arrowHead="mim-stimulation" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="fd47a">
-    <Graphics zOrder="32971" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics zOrder="32971" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="511.16426017252275" y="564.9291270527235" GraphRef="c332a" relX="0.0" relY="1.0" />
       <Point x="511.369838889382" y="607.3864044708591" GraphRef="aa2ee" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="b1c90">
-    <Graphics ConnectorType="Elbow" zOrder="32972" lineWidth="1.0" Color="ff0033">
+    <Graphics ConnectorType="Elbow" zOrder="32972" lineWidth="1.0" lineColor="ff0033">
       <Point x="277.9483773564337" y="539.0676154122755" GraphRef="e19a3" relX="-0.5" relY="1.0" />
       <Point x="214.8880051582732" y="627.0" />
       <Point x="151.82763296011268" y="607.2699194627573" GraphRef="aa362" relX="0.5" relY="1.0" arrowHead="mim-inhibition" />
@@ -741,28 +741,28 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="c1385">
-    <Graphics ConnectorType="Elbow" zOrder="32973" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32973" lineWidth="1.0" lineColor="339900">
       <Point x="392.39029512368495" y="635.4699654278288" GraphRef="d72c4" relX="-0.5" relY="1.0" />
       <Point x="145.1574074074074" y="781.649740708729" GraphRef="ea9cc" relX="1.0" relY="0.0" arrowHead="mim-stimulation" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="abeb5">
-    <Graphics ConnectorType="Elbow" zOrder="32974" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32974" lineWidth="1.0" lineColor="339900">
       <Point x="686.1080312722106" y="159.67412935323375" GraphRef="ad196" relX="-1.0" relY="0.0" />
       <Point x="377.9746079163556" y="289.0" GraphRef="c6daf" relX="0.0" relY="-1.0" arrowHead="mim-stimulation" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="dedf5">
-    <Graphics ConnectorType="Elbow" zOrder="32975" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics ConnectorType="Elbow" zOrder="32975" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="208.74005676017805" y="448.1574074074074" GraphRef="d5bed" relX="-1.0" relY="0.0" />
       <Point x="123.38364563952757" y="400.54686671557056" GraphRef="cca26" relX="0.0" relY="1.0" arrowHead="mim-conversion" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="fee0a">
-    <Graphics ConnectorType="Elbow" zOrder="32976" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32976" lineWidth="1.0" lineColor="339900">
       <Point x="368.4746079163556" y="309.0" GraphRef="c6daf" relX="-0.5" relY="1.0" />
       <Point x="336.7578872034803" y="342.0" />
       <Point x="305.04116649060506" y="371.29334325682584" GraphRef="fb8fa" relX="0.5" relY="-1.0" arrowHead="mim-stimulation" />
@@ -770,49 +770,49 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="bc666">
-    <Graphics ConnectorType="Elbow" zOrder="32978" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32978" lineWidth="1.0" lineColor="339900">
       <Point x="522.5694778820821" y="487.2699964646231" GraphRef="f80b9" relX="0.5" relY="1.0" />
       <Point x="603.2874289453202" y="497.30937512204446" GraphRef="afc0e" relX="-1.0" relY="0.0" arrowHead="mim-stimulation" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="b6c1d">
-    <Graphics ConnectorType="Elbow" zOrder="32979" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32979" lineWidth="1.0" lineColor="339900">
       <Point x="230.3084391336818" y="578.5750560119491" GraphRef="ffa91" relX="0.0" relY="1.0" />
       <Point x="163.55213435969281" y="597.2699194627573" GraphRef="aa362" relX="1.0" relY="0.0" arrowHead="mim-stimulation" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="e5834">
-    <Graphics ConnectorType="Elbow" zOrder="32980" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32980" lineWidth="1.0" lineColor="339900">
       <Point x="812.5564173732605" y="567.213626491136" GraphRef="e7db6" relX="1.0" relY="0.0" />
       <Point x="854.5" y="612.0" GraphRef="c722f" relX="0.0" relY="-1.0" arrowHead="mim-stimulation" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="cce33">
-    <Graphics ConnectorType="Elbow" zOrder="32981" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics ConnectorType="Elbow" zOrder="32981" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="880.5332337565346" y="310.95369678864824" GraphRef="ce4b5" relX="1.0" relY="0.0" />
       <Point x="957.4698879551818" y="345.5399159663863" GraphRef="ef9f0" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="dc4ee">
-    <Graphics zOrder="32982" lineWidth="1.0" Color="ff0033">
+    <Graphics zOrder="32982" lineWidth="1.0" lineColor="ff0033">
       <Point x="229.74005676017805" y="458.1574074074074" GraphRef="d5bed" relX="0.0" relY="1.0" />
       <Point x="230.3084391336818" y="554.0" GraphRef="ffa91" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="bd32b">
-    <Graphics ConnectorType="Elbow" zOrder="32983" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32983" lineWidth="1.0" lineColor="339900">
       <Point x="883.0" y="628.5" GraphRef="c722f" relX="1.0" relY="0.0" />
       <Point x="910.633191028027" y="668.2548923489712" GraphRef="c6362" relX="0.0" relY="-1.0" arrowHead="mim-stimulation" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="a8d56">
-    <Graphics ConnectorType="Elbow" zOrder="32984" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32984" lineWidth="1.0" lineColor="339900">
       <Point x="385.28478824546244" y="472.32152117545377" GraphRef="ed2e6" relX="0.0" relY="1.0" />
       <Point x="414.8777009507348" y="527.0" />
       <Point x="444.4706136560071" y="657.486603284357" GraphRef="d1775" relX="0.0" relY="-1.0" arrowHead="mim-stimulation" />
@@ -820,14 +820,14 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="ba29c">
-    <Graphics zOrder="32985" lineWidth="1.0" Color="ff0033">
+    <Graphics zOrder="32985" lineWidth="1.0" lineColor="ff0033">
       <Point x="404.835512498434" y="584.4846049789855" GraphRef="d12a1" relX="0.0" relY="1.0" />
       <Point x="405.32779512368495" y="615.4699654278288" GraphRef="d72c4" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="e3834">
-    <Graphics ConnectorType="Elbow" zOrder="32986" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics ConnectorType="Elbow" zOrder="32986" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="808.5220397579956" y="339.2212618841834" GraphRef="a4eab" relX="1.0" relY="0.0" />
       <Point x="866.0" y="377.92321972725506" />
       <Point x="936.0582000902521" y="416.62517757032674" GraphRef="dc7c0" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
@@ -835,7 +835,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="ffb63">
-    <Graphics ConnectorType="Elbow" zOrder="32987" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32987" lineWidth="1.0" lineColor="339900">
       <Point x="368.4746079163556" y="309.0" GraphRef="c6daf" relX="-0.5" relY="1.0" />
       <Point x="293.8573323382668" y="342.0" />
       <Point x="219.24005676017805" y="438.1574074074074" GraphRef="d5bed" relX="-0.5" relY="-1.0" arrowHead="mim-stimulation" />
@@ -843,21 +843,21 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="d7e26">
-    <Graphics ConnectorType="Elbow" zOrder="32988" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics ConnectorType="Elbow" zOrder="32988" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="330.78096337672036" y="643.522388059702" GraphRef="d91f9" relX="0.0" relY="1.0" />
       <Point x="301.45804596270244" y="724.7509793908174" GraphRef="cc9e9" relX="1.0" relY="0.0" arrowHead="mim-conversion" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="eae49">
-    <Graphics ConnectorType="Elbow" zOrder="32989" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics ConnectorType="Elbow" zOrder="32989" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="578.9332163727578" y="626.2245446302582" GraphRef="af980" relX="0.0" relY="1.0" />
       <Point x="546.4519774292339" y="754.3464352897588" GraphRef="dca06" relX="1.0" relY="0.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="f4398">
-    <Graphics ConnectorType="Elbow" zOrder="32990" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32990" lineWidth="1.0" lineColor="339900">
       <Point x="377.9746079163556" y="309.0" GraphRef="c6daf" relX="0.0" relY="1.0" />
       <Point x="485.12661502618744" y="376.0" />
       <Point x="592.2786221360193" y="414.34226447709534" GraphRef="a7664" relX="-0.5" relY="-1.0" arrowHead="mim-stimulation" />
@@ -865,7 +865,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="e14eb">
-    <Graphics ConnectorType="Elbow" zOrder="32991" lineWidth="1.0" Color="ff0033">
+    <Graphics ConnectorType="Elbow" zOrder="32991" lineWidth="1.0" lineColor="ff0033">
       <Point x="229.74005676017805" y="458.1574074074074" GraphRef="d5bed" relX="0.0" relY="1.0" />
       <Point x="184.9215941603553" y="519.2982456140351" />
       <Point x="140.10313156053255" y="587.2699194627573" GraphRef="aa362" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
@@ -873,7 +873,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="b5342">
-    <Graphics ConnectorType="Elbow" zOrder="32992" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32992" lineWidth="1.0" lineColor="339900">
       <Point x="651.9304712962278" y="497.30937512204446" GraphRef="afc0e" relX="1.0" relY="0.0" />
       <Point x="679.0" y="568.980725355452" />
       <Point x="659.5235250186704" y="640.6520755888596" GraphRef="e417c" relX="1.0" relY="0.0" arrowHead="mim-stimulation" />
@@ -881,28 +881,28 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="d20b7">
-    <Graphics ConnectorType="Elbow" zOrder="32993" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics ConnectorType="Elbow" zOrder="32993" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="120.80748823585893" y="830.1388888888887" GraphRef="b84f3" relX="0.0" relY="1.0" />
       <Point x="183.3042181436099" y="873.2875463928016" GraphRef="aafe9" relX="-1.0" relY="0.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="d7c22">
-    <Graphics ConnectorType="Elbow" zOrder="32994" lineWidth="1.0" Color="ff0033">
+    <Graphics ConnectorType="Elbow" zOrder="32994" lineWidth="1.0" lineColor="ff0033">
       <Point x="79.60543231941647" y="582.2348491134901" GraphRef="c552b" relX="0.0" relY="1.0" />
       <Point x="116.65412876137228" y="597.2699194627573" GraphRef="aa362" relX="-1.0" relY="0.0" arrowHead="mim-inhibition" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="b13c9">
-    <Graphics ConnectorType="Elbow" zOrder="32995" lineWidth="1.0" Color="ff0033">
+    <Graphics ConnectorType="Elbow" zOrder="32995" lineWidth="1.0" lineColor="ff0033">
       <Point x="639.769710708501" y="507.30937512204446" GraphRef="afc0e" relX="0.5" relY="1.0" />
       <Point x="609.2046079025765" y="594.2850459267142" GraphRef="af980" relX="1.0" relY="0.0" arrowHead="mim-inhibition" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="d94d8">
-    <Graphics ConnectorType="Elbow" zOrder="32996" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32996" lineWidth="1.0" lineColor="339900">
       <Point x="396.9746079163556" y="299.0" GraphRef="c6daf" relX="1.0" relY="0.0" />
       <Point x="458.0" y="274.08325351605595" />
       <Point x="484.1536575493151" y="249.16650703211195" GraphRef="c46cc" relX="-1.0" relY="0.0" arrowHead="mim-stimulation" />
@@ -910,14 +910,14 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="c9c1d">
-    <Graphics zOrder="32997" lineWidth="1.0" Color="ff0033">
+    <Graphics zOrder="32997" lineWidth="1.0" lineColor="ff0033">
       <Point x="444.4706136560071" y="677.486603284357" GraphRef="d1775" relX="0.0" relY="1.0" />
       <Point x="444.51626654135725" y="724.3175550958226" GraphRef="a92fb" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="caef7">
-    <Graphics ConnectorType="Elbow" zOrder="32998" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32998" lineWidth="1.0" lineColor="339900">
       <Point x="387.4746079163556" y="309.0" GraphRef="c6daf" relX="0.5" relY="1.0" />
       <Point x="607.4341492477199" y="358.0" />
       <Point x="827.3936905790843" y="479.18582541054457" GraphRef="ef6e7" relX="-0.5" relY="-1.0" arrowHead="mim-stimulation" />
@@ -925,28 +925,28 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="b8e48">
-    <Graphics ConnectorType="Elbow" zOrder="32999" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="32999" lineWidth="1.0" lineColor="339900">
       <Point x="326.14396788057775" y="442.3908181893619" GraphRef="a1e93" relX="0.0" relY="1.0" />
       <Point x="363.78478824546244" y="462.32152117545377" GraphRef="ed2e6" relX="-1.0" relY="0.0" arrowHead="mim-stimulation" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="beaf3">
-    <Graphics ConnectorType="Elbow" zOrder="33000" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics ConnectorType="Elbow" zOrder="33000" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="794.0223378373008" y="698.0672143390593" GraphRef="c079d" relX="0.0" relY="1.0" />
       <Point x="858.3643961853569" y="765.7531964569258" GraphRef="c5700" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="abb38">
-    <Graphics ConnectorType="Elbow" zOrder="33001" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="33001" lineWidth="1.0" lineColor="339900">
       <Point x="776.0553676881661" y="567.213626491136" GraphRef="e7db6" relX="-1.0" relY="0.0" />
       <Point x="729.875" y="636.25" GraphRef="ed559" relX="0.0" relY="-1.0" arrowHead="mim-stimulation" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="d5861">
-    <Graphics ConnectorType="Elbow" zOrder="33002" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="33002" lineWidth="1.0" lineColor="339900">
       <Point x="627.608950120774" y="507.30937512204446" GraphRef="afc0e" relX="0.0" relY="1.0" />
       <Point x="603.2710832467659" y="538.0" />
       <Point x="578.9332163727578" y="562.3455472231703" GraphRef="af980" relX="0.0" relY="-1.0" arrowHead="mim-stimulation" />
@@ -954,14 +954,14 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="b5c2a">
-    <Graphics ConnectorType="Elbow" zOrder="33003" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics ConnectorType="Elbow" zOrder="33003" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="538.675130694548" y="249.16650703211195" GraphRef="c46cc" relX="1.0" relY="0.0" />
       <Point x="595.6862085370017" y="226.57339746616003" GraphRef="f9925" relX="0.0" relY="1.0" arrowHead="mim-conversion" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="deb56">
-    <Graphics ConnectorType="Elbow" zOrder="33004" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics ConnectorType="Elbow" zOrder="33004" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="405.32779512368495" y="635.4699654278288" GraphRef="d72c4" relX="0.0" relY="1.0" />
       <Point x="378.85972367824377" y="807.0" />
       <Point x="352.39165223280264" y="851.4942268656287" GraphRef="e5ea0" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
@@ -969,7 +969,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="b56d4">
-    <Graphics ConnectorType="Elbow" zOrder="33005" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="33005" lineWidth="1.0" lineColor="339900">
       <Point x="240.24005676017805" y="458.1574074074074" GraphRef="d5bed" relX="0.5" relY="1.0" />
       <Point x="267.08672604065333" y="485.3801169590643" />
       <Point x="293.9333953211286" y="503.53809720792697" GraphRef="e19a3" relX="0.0" relY="-1.0" arrowHead="mim-stimulation" />
@@ -977,35 +977,35 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="e984d">
-    <Graphics zOrder="33006" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics zOrder="33006" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="505.309932785661" y="200.8401792382375" GraphRef="dd7fb" relX="1.0" relY="0.0" />
       <Point x="555.6862085370017" y="200.07339746616003" GraphRef="f9925" relX="-1.0" relY="0.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="a326a">
-    <Graphics ConnectorType="Elbow" zOrder="33007" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="33007" lineWidth="1.0" lineColor="339900">
       <Point x="368.4746079163556" y="309.0" GraphRef="c6daf" relX="-0.5" relY="1.0" />
       <Point x="208.09368350290882" y="321.0766125496313" GraphRef="ee34e" relX="1.0" relY="0.0" arrowHead="mim-stimulation" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="c8fd5">
-    <Graphics ConnectorType="Elbow" zOrder="33008" lineWidth="1.0" Color="ff0033">
+    <Graphics ConnectorType="Elbow" zOrder="33008" lineWidth="1.0" lineColor="ff0033">
       <Point x="62.24676760677477" y="565.0094433759208" GraphRef="c552b" relX="-1.0" relY="0.0" />
       <Point x="82.46682832356973" y="794.8943147988089" GraphRef="b84f3" relX="-1.0" relY="0.0" arrowHead="mim-inhibition" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="a87cc">
-    <Graphics ConnectorType="Elbow" zOrder="33009" lineWidth="1.0" Color="333333">
+    <Graphics ConnectorType="Elbow" zOrder="33009" lineWidth="1.0" lineColor="333333">
       <Point x="412.03518977461397" y="66.7885051671156" GraphRef="b692e" relX="-1.0" relY="0.0" />
       <Point x="315.0" y="91.04481792717093" GraphRef="c4461" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="a11e5">
-    <Graphics ConnectorType="Elbow" zOrder="33010" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="33010" lineWidth="1.0" lineColor="339900">
       <Point x="374.53478824546244" y="472.32152117545377" GraphRef="ed2e6" relX="-0.5" relY="1.0" />
       <Point x="330.54224792390085" y="478.94736842105266" />
       <Point x="286.5497076023392" y="463.55238791423005" />
@@ -1014,7 +1014,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="be773">
-    <Graphics ConnectorType="Elbow" zOrder="33013" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="33013" lineWidth="1.0" lineColor="339900">
       <Point x="292.79116649060506" y="391.29334325682584" GraphRef="fb8fa" relX="0.0" relY="1.0" />
       <Point x="266.51561162539156" y="408.1728608470181" />
       <Point x="240.24005676017805" y="438.1574074074074" GraphRef="d5bed" relX="0.5" relY="-1.0" arrowHead="mim-stimulation" />
@@ -1022,7 +1022,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="e9472">
-    <Graphics ConnectorType="Elbow" zOrder="33014" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="33014" lineWidth="1.0" lineColor="339900">
       <Point x="396.9746079163556" y="299.0" GraphRef="c6daf" relX="1.0" relY="0.0" />
       <Point x="442.0" y="249.92008961911876" />
       <Point x="473.0" y="200.8401792382375" GraphRef="dd7fb" relX="-1.0" relY="0.0" arrowHead="mim-stimulation" />
@@ -1030,7 +1030,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="b26c8">
-    <Graphics ConnectorType="Elbow" zOrder="33015" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="33015" lineWidth="1.0" lineColor="339900">
       <Point x="368.4746079163556" y="309.0" GraphRef="c6daf" relX="-0.5" relY="1.0" />
       <Point x="347.30928789846666" y="376.0" />
       <Point x="326.14396788057775" y="413.0318801927017" GraphRef="a1e93" relX="0.0" relY="-1.0" arrowHead="mim-stimulation" />
@@ -1038,14 +1038,14 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="c203c">
-    <Graphics ConnectorType="Elbow" zOrder="33016" lineWidth="1.0" Color="333333">
+    <Graphics ConnectorType="Elbow" zOrder="33016" lineWidth="1.0" lineColor="333333">
       <Point x="538.3304988224882" y="66.7885051671156" GraphRef="b692e" relX="1.0" relY="0.0" />
       <Point x="705.7003152866764" y="116.05766427934225" GraphRef="d8bf7" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="bd31a">
-    <Graphics ConnectorType="Elbow" zOrder="33017" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics ConnectorType="Elbow" zOrder="33017" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="995.0507841672888" y="220.9933778244167" GraphRef="b6c07" relX="1.0" relY="0.0" />
       <Point x="1028.0" y="288.2666468954015" />
       <Point x="997.4698879551818" y="355.5399159663863" GraphRef="ef9f0" relX="1.0" relY="0.0" arrowHead="mim-conversion" />
@@ -1053,7 +1053,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="d7f5b">
-    <Graphics ConnectorType="Elbow" zOrder="33018" lineWidth="1.0" Color="339900">
+    <Graphics ConnectorType="Elbow" zOrder="33018" lineWidth="1.0" lineColor="339900">
       <Point x="704.0" y="255.0" GraphRef="dd224" relX="0.0" relY="1.0" />
       <Point x="830.5800027388925" y="274.0" />
       <Point x="957.1600054777851" y="233.4906646751306" GraphRef="b6c07" relX="-0.5" relY="1.0" arrowHead="mim-stimulation" />
@@ -1061,14 +1061,14 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="b0c77">
-    <Graphics zOrder="33019" lineWidth="1.0" Color="339900">
+    <Graphics zOrder="33019" lineWidth="1.0" lineColor="339900">
       <Point x="752.2456140350877" y="310.16959064327483" GraphRef="fa9dc" relX="1.0" relY="0.0" />
       <Point x="826.0" y="310.95369678864824" GraphRef="ce4b5" relX="-1.0" relY="0.0" arrowHead="mim-stimulation" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="f6780">
-    <Graphics ConnectorType="Elbow" zOrder="33030" lineStyle="Broken" lineWidth="1.0" Color="003399">
+    <Graphics ConnectorType="Elbow" zOrder="33030" lineStyle="Broken" lineWidth="1.0" lineColor="003399">
       <Point x="444.51626654135725" y="744.3175550958226" GraphRef="a92fb" relX="0.0" relY="1.0" />
       <Point x="459.30769547059685" y="788.0" />
       <Point x="474.0991243998364" y="841.8252427184466" GraphRef="e75f4" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
@@ -1076,21 +1076,21 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="da9c4" GroupRef="e295a">
-    <Graphics zOrder="33132" lineWidth="1.0" Color="339900">
+    <Graphics zOrder="33132" lineWidth="1.0" lineColor="339900">
       <Point x="812.2025789015233" y="895.5459722916222" />
       <Point x="894.6901091606119" y="896.0386257056244" arrowHead="mim-stimulation" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="fb73f" GroupRef="e295a">
-    <Graphics zOrder="33134" lineWidth="1.0" Color="ff0066">
+    <Graphics zOrder="33134" lineWidth="1.0" lineColor="ff0066">
       <Point x="814.4238407857061" y="915.2967673839964" />
       <Point x="901.4693171996543" y="914.804113969994" arrowHead="mim-inhibition" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="f5c95" GroupRef="e295a">
-    <Graphics zOrder="33136" lineWidth="1.0" Color="333333">
+    <Graphics zOrder="33136" lineWidth="1.0" lineColor="333333">
       <Point x="812.581676750216" y="857.3396715643906" />
       <Point x="899.0121002592913" y="857.3396715643906" arrowHead="Arrow" />
     </Graphics>
@@ -1214,16 +1214,16 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Graphics centerX="432.42592592592564" centerY="27.41666666666663" width="80.0" height="20.0" zOrder="33022" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" />
   </Label>
   <Label textLabel="MDMX Ubiquitination &amp;&#xA;Degradation" GraphId="cc9e9">
-    <Graphics centerX="227.22902298135122" centerY="724.7509793908174" width="148.45804596270244" height="39.50195878163481" zOrder="33023" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" Color="003399" />
+    <Graphics centerX="227.22902298135122" centerY="724.7509793908174" width="148.45804596270244" height="39.50195878163481" zOrder="33023" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" textColor="003399" />
   </Label>
   <Label textLabel="STRUCTURAL CHANGE&#xA;OF CHROMATIN" GraphId="c4461">
-    <Graphics centerX="315.0" centerY="106.02240896358546" width="160.0" height="29.955182072829075" zOrder="33024" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" Color="003399" />
+    <Graphics centerX="315.0" centerY="106.02240896358546" width="160.0" height="29.955182072829075" zOrder="33024" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" textColor="003399" />
   </Label>
   <Label textLabel="Inactive&#xA;Dimer" GraphId="d5690">
     <Graphics centerX="151.03268629633635" centerY="209.42548942276255" width="47.0" height="20.0" zOrder="33025" fillColor="ffffff" fontSize="10" vAlign="Middle" />
   </Label>
   <Label textLabel="Cell&#xA;Survival" GraphId="c5d19">
-    <Graphics centerX="87.84477474631147" centerY="265.0534700483485" width="65.40834845735023" height="28.33313468341603" zOrder="33026" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" Color="003399" />
+    <Graphics centerX="87.84477474631147" centerY="265.0534700483485" width="65.40834845735023" height="28.33313468341603" zOrder="33026" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" textColor="003399" />
   </Label>
   <Label textLabel="MRN Complex" GraphId="c5090">
     <Graphics centerX="847.8638834473143" centerY="131.31560127501768" width="80.0" height="20.0" zOrder="33027" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" />
@@ -1232,13 +1232,13 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
     <Graphics centerX="480.6337718575296" centerY="183.17670648422154" width="19.0" height="20.0" zOrder="33029" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" />
   </Label>
   <Label textLabel="Cell&#xA;Survival" GraphId="c7b53">
-    <Graphics centerX="1016.0815134585442" centerY="678.6670114691364" width="66.81547503657734" height="28.316037214298376" zOrder="33031" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" Color="003399" />
+    <Graphics centerX="1016.0815134585442" centerY="678.6670114691364" width="66.81547503657734" height="28.316037214298376" zOrder="33031" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" textColor="003399" />
   </Label>
   <Label textLabel="Synaptic Vesicle&#xA;Transport" GraphId="dc7c0">
-    <Graphics centerX="987.5853914358547" centerY="416.62517757032674" width="103.05438269120538" height="49.41189651497551" zOrder="33032" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" Color="003399" />
+    <Graphics centerX="987.5853914358547" centerY="416.62517757032674" width="103.05438269120538" height="49.41189651497551" zOrder="33032" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" textColor="003399" />
   </Label>
   <Label textLabel="Cell&#xA;Survival" GraphId="dca06">
-    <Graphics centerX="513.7478032005588" centerY="754.3464352897588" width="65.40834845735023" height="28.33313468341603" zOrder="33096" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" Color="003399" />
+    <Graphics centerX="513.7478032005588" centerY="754.3464352897588" width="65.40834845735023" height="28.33313468341603" zOrder="33096" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" textColor="003399" />
   </Label>
   <Label textLabel="P" GraphId="c3821" GroupRef="be4c7">
     <Graphics centerX="840.1153443391022" centerY="181.00277309669605" width="19.0" height="20.0" zOrder="33115" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" />
@@ -1309,7 +1309,7 @@ ATM phosphoprotein is ubiquitously expressed and predominantly found in nuclei o
   <Shape GraphId="ce487">
     <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
     <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
-    <Graphics centerX="566.6800493249511" centerY="518.3021844632547" width="1101.510672639234" height="922.3885987246863" zOrder="33021" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" lineWidth="3.0" Color="999999" rotation="0.0" />
+    <Graphics centerX="566.6800493249511" centerY="518.3021844632547" width="1101.510672639234" height="922.3885987246863" zOrder="33021" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" borderWidth="3.0" borderColor="999999" rotation="0.0" />
   </Shape>
   <Shape GraphId="c40e8" GroupRef="a227d">
     <Graphics centerX="480.6122730860304" centerY="182.54095709847206" width="17.5" height="16.5" zOrder="33028" fillColor="ffff00" fontSize="10" vAlign="Middle" shapeType="Oval" rotation="0.0" />

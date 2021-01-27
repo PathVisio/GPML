@@ -26,6 +26,7 @@
     <Attribute key="org.pathvisio.model.BackpageHead" value="PSCD3 | pleckstrin homology Sec7 and coiled-co..." />
     <Graphics centerX="93.1736526946108" centerY="1020.6187624750502" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="9265" />
+    <Xref dataSource="Entrez Gene" identifier="9265" />
   </DataNode>
   <DataNode textLabel="PTPRF" GraphId="a14" type="GeneProduct" GroupRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PTPRF | protein tyrosine phosphatase receptor ..." />

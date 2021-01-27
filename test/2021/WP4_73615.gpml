@@ -18,7 +18,7 @@
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode textLabel="TCA Cycle" GraphId="d8bae" type="Pathway">
-    <Graphics centerX="598.6222575489527" centerY="220.15503875968992" width="80.0" height="20.0" zOrder="32768" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" borderColor="14961e" textColor="14961e" />
+    <Graphics centerX="598.6222575489527" centerY="220.15503875968992" width="80.0" height="20.0" zOrder="32768" fontWeight="Bold" fontSize="12" vAlign="Middle" shapeType="None" textColor="14961e" />
     <Xref dataSource="WikiPathways" identifier="WP78" />
   </DataNode>
   <DataNode textLabel="D-Glucose" GraphId="da9a8" type="Metabolite">

@@ -47,7 +47,7 @@
     <Xref dataSource="CAS" identifier="358-71-4"/>
   </DataNode>
   <DataNode textLabel="Methylerythritol phosphate pathway" GraphId="f0fdd" type="Pathway">
-    <Graphics centerX="161.2891099110305" centerY="255.98031060381635" width="260.52037172723476" height="28.884449214902588" zOrder="32768" fontWeight="Bold" fontSize="14" vAlign="Middle" shapeType="None" borderColor="ffffff" textColor="14961e" />
+    <Graphics centerX="161.2891099110305" centerY="255.98031060381635" width="260.52037172723476" height="28.884449214902588" zOrder="32768" fontWeight="Bold" fontSize="14" vAlign="Middle" shapeType="None" textColor="14961e" />
     <Xref dataSource="WikiPathways" identifier="WP2212"/>
   </DataNode>
   <DataNode textLabel="LOC_Os12g17320" GraphId="bf01c" type="GeneProduct" GroupRef="f76fa">
