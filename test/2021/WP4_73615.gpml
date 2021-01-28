@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" Name="Sandbox Pathway" Last-Modified="1/28/2016" Organism="Homo sapiens" License="CC BY 2.0">
+<Pathway xmlns="http://pathvisio.org/GPML/2021" name="Sandbox Pathway" last-Modified="1/28/2016" organism="Homo sapiens" license="CC BY 2.0">
   <Comment source="WikiPathways-description">This is just a test pathway with a variety of object types including datanodes which can be connected to database entries (double-click on them when in edit mode). Feel free to edit anything on this page. </Comment>
   <Comment source="BotTest">20140201000004</Comment>
   <BiopaxRef>bf7</BiopaxRef>
@@ -92,7 +92,7 @@
   <Interaction GraphId="ida549ffdf">
     <BiopaxRef>afa</BiopaxRef>
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="262.2158476719392" y="438.27662352688367" GraphRef="aecda" relX="1.0" relY="-0.5" />
+      <Point x="262.2158476719392" y="438.27662352688367" GraphRef="ca79c" relX="1.0" relY="-0.5" />
       <Point x="294.957125723838" y="415.5704732069022" GraphRef="fee36" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
     </Graphics>
     <Xref dataSource="" identifier="" />
@@ -159,7 +159,7 @@
     <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
     <Graphics centerX="586.0465116279075" centerY="397.67441860465055" width="201.5503875969004" height="150.38759689922378" zOrder="16384" fontSize="10" vAlign="Middle" shapeType="Oval" borderWidth="3.0" borderColor="c0c0c0" rotation="0.0" />
   </Shape>
-  <Group GroupId="ca79c" GraphId="aecda" groupType="Complex">
+  <Group GraphId="ca79c" groupType="Complex"> <!--aecda-->
     <BiopaxRef>b25</BiopaxRef>
   </Group>
   <InfoBox centerX="0.0" centerY="0.0" />

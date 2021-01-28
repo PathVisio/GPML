@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" Name="IL-9 Signaling Pathway" Organism="Homo sapiens" License="Freely available under Creative Commons license">
+<Pathway xmlns="http://pathvisio.org/GPML/2021" name="IL-9 Signaling Pathway" organism="Homo sapiens" license="Freely available under Creative Commons license">
   <Comment source="WikiPathways-category">Cellular Process</Comment>
   <Comment source="WikiPathways-description">IL-9 is a multifunctional cytokine, belong to a family of cytokines. IL-9 was initially reported as a T cell growth factor in mice. It is now known to target multiple cell types. It plays an important role in the expansion and recruitment of mast cells in response to intestinal nematode infection or during autoimmune encephalomyelitis. It is also known to act on various cell types known to be involved in asthma including T cells, B cells, mast cells, eosinophils, neutrophils, and epithelial cells. IL 9 can promote the expression of TGF-beta in lipopolysaccharide induced monocytes and macrophages. IL-9 is also known to play important roles in conditions including airway inflammation, EAE and parasitic infections. Mitogen-activated protein kinase pathway is activated transiently by IL-9, which in turn leads to the growth stimulation of hematopoietic cell lines. IL-9 signals through the heterodimeric receptor composed of a specific chain (IL-9R) and a gamma chain (IL2RG), which is shared between IL-2, IL-4, IL-7, IL15 and IL-21. The IL-9R and IL-2RG associates with JAK1 and JAK3 respectively. Receptor engagement results in JAK1- JAK3 cross phosphorylation and activation of the JAK proteins which leads to the activation of Signal transducer and activator of transcription (STAT-1, STAT-3 and STAT-5) and Insulin receptor substrate 1 and 2 (IRS1 and IRS2)/PI3K cascades. IL-9 stimulation also results in the activation of MEK/ERK signaling cascade.
 
@@ -806,15 +806,15 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
   <Shape GraphId="ebfb3">
     <Graphics centerX="623.5" centerY="972.5" width="15.0" height="15.0" zOrder="33427" fillColor="ffffff" fontSize="10" vAlign="Middle" shapeType="Oval" rotation="0.0" />
   </Shape>
-  <Group GroupId="c97f2" groupType="Group" />
-  <Group GroupId="f94a1" groupType="Group" />
-  <Group GroupId="f9d52" groupType="Group" />
-  <Group GroupId="cdaa9" groupType="Group" />
-  <Group GroupId="c3b41" groupType="Group" />
-  <Group GroupId="a9979" groupType="Group" />
-  <Group GroupId="f3d62" groupType="Group" />
-  <Group GroupId="a4e60" groupType="Group" />
-  <Group GroupId="da350" groupType="Group" />
+  <Group GraphId="c97f2" groupType="Group" />
+  <Group GraphId="f94a1" groupType="Group" />
+  <Group GraphId="f9d52" groupType="Group" />
+  <Group GraphId="cdaa9" groupType="Group" />
+  <Group GraphId="c3b41" groupType="Group" />
+  <Group GraphId="a9979" groupType="Group" />
+  <Group GraphId="f3d62" groupType="Group" />
+  <Group GraphId="a4e60" groupType="Group" />
+  <Group GraphId="da350" groupType="Group" />
   <InfoBox centerX="15.0" centerY="8.333333333333334" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">

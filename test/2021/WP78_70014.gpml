@@ -285,7 +285,7 @@ Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Comment>
   </DataNode>
   <Interaction GraphId="d65d3">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="136.73658375472704" y="533.6891731190756" GraphRef="fa963" relX="1.0" relY="0.0" />
+      <Point x="136.73658375472704" y="533.6891731190756" GraphRef="b6585" relX="1.0" relY="0.0" />
       <Point x="265.80532486598327" y="529.4971535762635" GraphRef="c2cbb" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
     </Graphics>
     <Xref dataSource="" identifier="" />
@@ -311,7 +311,7 @@ Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Comment>
   </Interaction>
   <Interaction GraphId="b68ea">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="353.2323578810314" y="683.5498202826236" GraphRef="ac16a" relX="0.5" relY="-1.0" />
+      <Point x="353.2323578810314" y="683.5498202826236" GraphRef="bd188" relX="0.5" relY="-1.0" />
       <Point x="384.9635816906114" y="651.3825593050451" GraphRef="fbf6d" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
     </Graphics>
     <Xref dataSource="" identifier="" />
@@ -384,14 +384,14 @@ Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Comment>
   </Interaction>
   <Interaction GraphId="f7fd4">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="845.3602503491594" y="491.04209331331776" GraphRef="f971b" relX="-1.0" relY="0.0" />
+      <Point x="845.3602503491594" y="491.04209331331776" GraphRef="a8d9a" relX="-1.0" relY="0.0" />
       <Point x="783.6683548053647" y="491.7048087266382" GraphRef="a79f1" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="be808">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="712.2375300176792" y="668.2533641037772" GraphRef="f8b20" relX="-1.0" relY="-0.5" />
+      <Point x="712.2375300176792" y="668.2533641037772" GraphRef="f6844" relX="-1.0" relY="-0.5" />
       <Point x="651.8997185109847" y="652.3767886452399" GraphRef="fd2da" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
     </Graphics>
     <Xref dataSource="" identifier="" />
@@ -547,7 +547,7 @@ Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Comment>
   <Interaction GraphId="ida4349d97">
     <Graphics zOrder="12288" lineWidth="1.0">
       <Point x="456.7520037549554" y="671.2720667333148" GraphRef="de9ec" relX="0.0" relY="0.0" arrowHead="mim-conversion" />
-      <Point x="470.1986251180696" y="654.1685191713177" GraphRef="f12ea" relX="-0.5" relY="1.0" />
+      <Point x="470.1986251180696" y="654.1685191713177" GraphRef="f97b7" relX="-0.5" relY="1.0" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
@@ -561,7 +561,7 @@ Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Comment>
   <Interaction GraphId="idbb034a14">
     <Graphics zOrder="12288" lineWidth="1.0">
       <Point x="348.29134063826723" y="629.535266763223" GraphRef="f36b1" relX="0.0" relY="0.0" />
-      <Point x="366.23731182425786" y="614.2134666333994" GraphRef="cb499" relX="-1.0" relY="0.5" arrowHead="mim-conversion" />
+      <Point x="366.23731182425786" y="614.2134666333994" GraphRef="a16b4" relX="-1.0" relY="0.5" arrowHead="mim-conversion" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
@@ -696,14 +696,14 @@ Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Comment>
     <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
     <Graphics centerX="511.1190476190476" centerY="418.5" width="867.7619047619048" height="729.0" zOrder="16384" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" borderWidth="3.0" borderColor="c0c0c0" rotation="0.0" />
   </Shape>
-  <Group GroupId="f6844" GraphId="f8b20">
+  <Group GraphId="f6844"> <!--f8b20-->
     <BiopaxRef>e8a</BiopaxRef>
   </Group>
-  <Group GroupId="a8d9a" GraphId="f971b" />
-  <Group GroupId="bd188" GraphId="ac16a" />
-  <Group GroupId="b6585" GraphId="fa963" />
-  <Group GroupId="a16b4" GraphId="cb499" groupType="Group" />
-  <Group GroupId="f97b7" GraphId="f12ea" groupType="Group" />
+  <Group GraphId="a8d9a" /> <!--f971b-->
+  <Group GraphId="bd188" /> <!--ac16a-->
+  <Group GraphId="b6585" /> <!--fa963-->
+  <Group GraphId="a16b4" groupType="Group" /> <!--cb499-->
+  <Group GraphId="f97b7" groupType="Group" /> <!--f12ea-->
   <InfoBox centerX="4.5" centerY="5.333333333333333" />
   <Biopax>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d25">

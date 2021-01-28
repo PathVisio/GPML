@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" Name="Statin Pathway" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2021" name="Statin Pathway" organism="Mus musculus">
   <Comment source="WikiPathways-category">Metabolic Process</Comment>
   <Comment source="WikiPathways-description">What are statins? See Wikipedia at: http://en.wikipedia.org/wiki/Statin
 
@@ -198,7 +198,7 @@ More about this pathway and statins: https://www.pharmgkb.org/do/serve?objId=PA2
   <Interaction GraphId="id1e7f7971">
     <Graphics zOrder="12288" lineWidth="1.0">
       <Point x="584.0" y="246.00000000000003" GraphRef="a24b2" relX="0.0" relY="1.0" />
-      <Point x="739.9999999999987" y="371.9999999999998" GraphRef="f90e3" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="739.9999999999987" y="371.9999999999998" GraphRef="abe40" relX="0.0" relY="-1.0" arrowHead="Arrow" />
       <Anchor position="0.4" shapeType="None" GraphId="bd45e" />
     </Graphics>
     <Xref dataSource="" identifier="" />
@@ -411,7 +411,7 @@ More about this pathway and statins: https://www.pharmgkb.org/do/serve?objId=PA2
     <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
     <Graphics centerX="463.5595238095242" centerY="208.57142857142833" width="872.8809523809523" height="249.52380952380952" zOrder="-2" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" borderWidth="3.0" borderColor="c0c0c0" rotation="0.0" />
   </Shape>
-  <Group GroupId="abe40" GraphId="f90e3" groupType="Group" textLabel="Group object" />
+  <Group GraphId="abe40" groupType="Group" textLabel="Group object" /> <!--f90e3-->
   <InfoBox centerX="5.1" centerY="8.333333333333334" />
   <Legend centerX="878.3333333333334" centerY="65.0" />
   <Biopax>

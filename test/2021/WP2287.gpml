@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" Name="Male mating" Author="kyook@caltech.edu" Organism="Caenorhabditis elegans">
+<Pathway xmlns="http://pathvisio.org/GPML/2021" name="Male mating" author="kyook@caltech.edu" organism="Caenorhabditis elegans">
   <Comment source="WikiPathways-category">Physiological Process</Comment>
   <Comment source="WikiPathways-description">Caenorhabditis elegans males exhibit sterotypic and invariant mating behavior starting the moment the animal senses a hermaphrodite and ending with insemination.  This complex behavior has been broken down into six steps or sub behaviors: male response to hermaphrodite contact, backwards movement along her body, sharply turning in a ventral coil upon reaching the head or tail, continued backing until his tail contacts the vulva (vulval location), spicule insertion, and ejaculation into the hermaphrodite uterus. Each of these sub behaviors have been molecularly dissected and it has been found that two of these sub behaviors, male response to hermaphrodite contact and vulval location involve similar molecules.  In particular these behaviors involve cell autonomous signaling through LOV-1 and PKD-2, which are homologs of human polycystin kidney disease (PKD) associated genes PC-1 and PC-2 respectively. Studies in C. elegans have shown that these genes likely have a sensory function rather than structural or development role in the cilia of male sensory neurons. The identification and characterization of LOV-1 and PKD-2 in C. elegans has lead to insights and new avenues of inquiry in the study of human PKD polycystin pathways. </Comment>
   <BiopaxRef>b60</BiopaxRef>
@@ -353,7 +353,7 @@
   </Interaction>
   <Interaction GraphId="id10e73b6c">
     <Graphics zOrder="12300" lineStyle="Broken" lineWidth="1.0" lineColor="0066cc">
-      <Point x="1883.0621975418399" y="342.43092389953813" GraphRef="b1a0b" relX="-1.0" relY="0.5" />
+      <Point x="1883.0621975418399" y="342.43092389953813" GraphRef="f2d1a" relX="-1.0" relY="0.5" />
       <Point x="1794.2896950578343" y="342.2053101997899" GraphRef="f7b0f" relX="1.0" relY="0.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
@@ -386,7 +386,7 @@
     <Comment>IFT Complex A poly peptides DAF-10 and CHE-11 move at the same rate as IFT Complex B poly peptides OSM-5, OSM-1, and OSM-6. | OSM-5 undergoes anterograde and retrograde transport.</Comment>
     <BiopaxRef>dc2</BiopaxRef>
     <Graphics zOrder="12314" lineStyle="Broken" lineWidth="1.0" lineColor="0066ff">
-      <Point x="61.64388092612944" y="223.31050165380384" GraphRef="e0f15" relX="-1.0" relY="0.0" />
+      <Point x="61.64388092612944" y="223.31050165380384" GraphRef="aed88" relX="-1.0" relY="0.0" />
       <Point x="20.0" y="223.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
@@ -444,7 +444,7 @@
     <Comment>IFT Complex A poly peptides DAF-10 and CHE-11 move at the same rate as IFT Complex B poly peptides OSM-5, OSM-1, and OSM-6. | OSM-5 undergoes anterograde and retrograde transport.</Comment>
     <BiopaxRef>dc2</BiopaxRef>
     <Graphics zOrder="32839" lineStyle="Broken" lineWidth="1.0" lineColor="0066ff">
-      <Point x="165.64388092612944" y="223.31050165380384" GraphRef="e0f15" relX="1.0" relY="0.0" />
+      <Point x="165.64388092612944" y="223.31050165380384" GraphRef="aed88" relX="1.0" relY="0.0" />
       <Point x="205.0" y="223.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
@@ -614,21 +614,21 @@
     <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
     <Graphics centerX="1277.646950578338" centerY="345.5565194532077" width="62.591482649842646" height="46.767087276551045" zOrder="32861" fontSize="10" vAlign="Middle" shapeType="Oval" borderWidth="3.0" borderColor="c0c0c0" rotation="0.0" />
   </Shape>
-  <Group GroupId="ddb38" GraphId="bb399" groupType="Group" />
-  <Group GroupId="dd215" GraphId="b7591" groupType="Complex" textLabel="IFT Complex A">
+  <Group GraphId="ddb38" groupType="Group" /> <!--no interactions refer to bb399-->
+  <Group GraphId="dd215" groupType="Complex" textLabel="IFT Complex A"> <!--b7591-->
     <Comment></Comment>
   </Group>
-  <Group GroupId="f2d1a" GraphId="b1a0b" groupType="Group" />
-  <Group GroupId="b05d2" groupType="Complex" />
-  <Group GroupId="f58f0" GraphId="d065d" groupType="Group" />
-  <Group GroupId="c07ae" groupType="Complex" />
-  <Group GroupId="f3c36" groupType="Complex" />
-  <Group GroupId="ef175" groupType="Complex" />
-  <Group GroupId="ce441" groupType="Group" />
-  <Group GroupId="ddbe6" GraphId="f3888" groupType="Complex">
+  <Group GraphId="f2d1a" groupType="Group" /> <!--b1a0b-->
+  <Group GraphId="b05d2" groupType="Complex" /> 
+  <Group GraphId="f58f0" groupType="Group" /> <!--no interactions refer to d065d-->
+  <Group GraphId="c07ae" groupType="Complex" /> 
+  <Group GraphId="f3c36" groupType="Complex" /> 
+  <Group GraphId="ef175" groupType="Complex" /> 
+  <Group GraphId="ce441" groupType="Group" /> 
+  <Group GraphId="ddbe6" groupType="Complex"> <!--no interactions refer to f3888-->
     <Comment>CK2</Comment>
   </Group>
-  <Group GroupId="aed88" GraphId="e0f15" groupType="Complex" textLabel="IFT Complex B" />
+  <Group GraphId="aed88" groupType="Complex" textLabel="IFT Complex B" /> <!--e0f15-->
   <InfoBox centerX="0.0" centerY="0.0" />
   <Biopax>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f83">

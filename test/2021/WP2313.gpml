@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" Name="Aging" Author="kyook@caltech.edu" Organism="Caenorhabditis elegans" Last-Modified="10/17/2013">
+<Pathway xmlns="http://pathvisio.org/GPML/2021" name="Aging" author="kyook@caltech.edu" organism="Caenorhabditis elegans" last-Modified="10/17/2013">
   <Comment source="WikiPathways-category">Physiological Process</Comment>
   <Comment source="WikiPathways-description">Aging in C. elegans involves measurable declines in morphology, reproduction, and behavior.  Understanding the cellular and molecular processes leading to senescence in this nematode began in the early 1980s with the targeted identification of mutants that extended life span (an AGE phenotype). These studies identified at least two key regulators of life span, DAF-2, an insulin/IGF receptor ortholog, and DAF-16, a Forkhead-related transcription factor. Since then many more genes and pathways involved in senescence have been identified. Almost all of these genes play important roles in cellular and organismal-level processes other than aging, such as dauer formation, stress response, feeding, and chemosensation. </Comment>
   <BiopaxRef>c18</BiopaxRef>
@@ -212,7 +212,7 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
     <BiopaxRef>a81</BiopaxRef>
     <Graphics zOrder="12288" lineWidth="1.0">
       <Point x="320.5" y="208.0" GraphRef="ab2b3" relX="0.5" relY="1.0"/>
-      <Point x="406.0" y="326.0" GraphRef="a59bc" relX="0.0" relY="-1.0" arrowHead="mim-stimulation"/>
+      <Point x="406.0" y="326.0" GraphRef="cffec" relX="0.0" relY="-1.0" arrowHead="mim-stimulation"/>
     </Graphics>
     <Xref dataSource="" identifier=""/>
   </Interaction>
@@ -220,7 +220,7 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
     <BiopaxRef>d91</BiopaxRef>
     <Graphics zOrder="12288" lineWidth="1.0">
       <Point x="248.0" y="345.0" GraphRef="fd8e3" relX="1.0" relY="0.0"/>
-      <Point x="316.0" y="344.0" GraphRef="a59bc" relX="-1.0" relY="0.0" arrowHead="mim-stimulation"/>
+      <Point x="316.0" y="344.0" GraphRef="cffec" relX="-1.0" relY="0.0" arrowHead="mim-stimulation"/>
     </Graphics>
     <Xref dataSource="WormBase" identifier="WBInteraction000518714"/>
   </Interaction>
@@ -247,7 +247,7 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
     <Comment>AKT phosphorylates DAF-16 at site T242, promoting its binding to 14-3-3.</Comment>
     <BiopaxRef>ed9</BiopaxRef>
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="406.0" y="362.0" GraphRef="a59bc" relX="0.0" relY="1.0"/>
+      <Point x="406.0" y="362.0" GraphRef="cffec" relX="0.0" relY="1.0"/>
       <Point x="493.54831733627856" y="445.5562617232899" GraphRef="b7101" relX="0.0" relY="0.0" arrowHead="mim-modification"/>
     </Graphics>
     <Xref dataSource="WormBase" identifier=""/>
@@ -514,8 +514,8 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
   <Shape textLabel="DNA damage&#10;repair" GraphId="f4888">
     <Graphics centerX="535.0" centerY="674.0" width="96.0" height="40.0" zOrder="32799" fontSize="10" vAlign="Middle" shapeType="Hexagon" rotation="0.0"/>
   </Shape>
-  <Group GroupId="cffec" GraphId="a59bc" groupType="Group"/>
-  <Group GroupId="ce35a" GraphId="a3e69" groupType="Complex"/>
+  <Group GraphId="cffec" groupType="Group"/> <!--a59bc-->
+  <Group GraphId="ce35a" groupType="Complex"/> <!--no interactions refer to a3e69-->
   <InfoBox centerX="0.0" centerY="0.0"/>
   <Biopax>
     <bp:PublicationXref xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" rdf:id="f8b">

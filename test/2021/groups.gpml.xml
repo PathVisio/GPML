@@ -82,8 +82,8 @@
   </State>
   <Interaction GraphId="id19b2180">
     <Graphics connectorType="Elbow" lineWidth="1.0" zOrder="12288">
-      <Point GraphRef="d4258" relX="0.0" relY="1.0" x="140.38748522399365" y="249.20976808392652" />
-      <Point arrowHead="Arrow" GraphRef="cb201" relX="-1.0" relY="0.0" x="304.70414993306576" y="141.86077643908965" />
+      <Point GraphRef="a7eff" relX="0.0" relY="1.0" x="140.38748522399365" y="249.20976808392652" />
+      <Point arrowHead="Arrow" GraphRef="a7abb" relX="-1.0" relY="0.0" x="304.70414993306576" y="141.86077643908965" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
@@ -97,24 +97,24 @@
   </Interaction>
   <Interaction GraphId="idcecadf02">
     <Graphics connectorType="Curved" lineWidth="1.0" zOrder="12288">
-      <Point arrowHead="mim-catalysis" GraphRef="fa2a3" relX="1.0" relY="-0.5" x="701.5542168674701" y="65.75203089791876" />
-      <Point arrowHead="Arrow" GraphRef="a2c9b" relX="0.5" relY="-1.0" x="722.5907837165223" y="324.5244602571362" />
+      <Point arrowHead="mim-catalysis" GraphRef="dff2b" relX="1.0" relY="-0.5" x="701.5542168674701" y="65.75203089791876" />
+      <Point arrowHead="Arrow" GraphRef="ab59a" relX="0.5" relY="-1.0" x="722.5907837165223" y="324.5244602571362" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="id82d0ad08">
     <Graphics connectorType="Segmented" lineStyle="Broken" lineWidth="1.0" zOrder="12288">
-      <Point GraphRef="a2c9b" relX="-1.0" relY="0.5" x="647.5787355237512" y="392.68911889167407" />
+      <Point GraphRef="ab59a" relX="-1.0" relY="0.5" x="647.5787355237512" y="392.68911889167407" />
       <Point x="622.8187919463087" y="448.32214765100673" />
       <Point x="502.0134228187919" y="430.8724832214765" />
-      <Point arrowHead="Arrow" GraphRef="fabb3" relX="0.0" relY="1.0" x="406.5889309634092" y="392.67125143937824" />
+      <Point arrowHead="Arrow" GraphRef="bc74e" relX="0.0" relY="1.0" x="406.5889309634092" y="392.67125143937824" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="id3bea2e99">
     <Graphics lineWidth="1.0" zOrder="12288">
-      <Point GraphRef="fabb3" relX="-1.0" relY="-0.5" x="247.72910010997137" y="313.6041698780019" />
-      <Point arrowHead="Arrow" GraphRef="c5880" relX="1.0" relY="-0.5" x="128.12362649703965" y="326.2907754240106" />
+      <Point GraphRef="bc74e" relX="-1.0" relY="-0.5" x="247.72910010997137" y="313.6041698780019" />
+      <Point arrowHead="Arrow" GraphRef="d0dcc" relX="1.0" relY="-0.5" x="128.12362649703965" y="326.2907754240106" />
       <Anchor GraphId="b7b77" position="0.4" shapeType="None" />
     </Graphics>
     <Xref dataSource="" identifier="" />
@@ -151,7 +151,7 @@
   <Interaction GraphId="id902d27d">
     <Graphics lineWidth="1.0" zOrder="12288">
       <Point GraphRef="b7b77" relX="0.0" relY="0.0" x="199.88691066479868" y="318.6788120964054" />
-      <Point arrowHead="Arrow" GraphRef="a9133" relX="0.0" relY="-1.0" x="198.29384652704832" y="406.6396862618257" />
+      <Point arrowHead="Arrow" GraphRef="c8c08" relX="0.0" relY="-1.0" x="198.29384652704832" y="406.6396862618257" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
@@ -196,23 +196,23 @@
     <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
     <Graphics centerX="198.88886116946412" centerY="177.64214867110826" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="78.99794617459324" borderWidth="3.0" rotation="0.6777807670104443" shapeType="RoundedRectangle" vAlign="Middle" width="91.85399673735725" zOrder="32822" />
   </Shape>
-  <Group GraphId="cb201" GroupId="a7abb" groupType="Group" />
-  <Group GraphId="fa2a3" GroupId="dff2b" groupType="Complex" />
-  <Group GraphId="a2c9b" GroupId="ab59a" groupType="Pathway" />
-  <Group GraphId="fabb3" GroupId="bc74e" groupType="Pathway" textLabel="This is a pathway">
+  <Group GraphId="a7abb" groupType="Group" /> <!--cb201-->
+  <Group GraphId="dff2b" groupType="Complex" /> <!--fa2a3-->
+  <Group GraphId="ab59a" groupType="Pathway" /> <!--a2c9b-->
+  <Group GraphId="bc74e" groupType="Pathway" textLabel="This is a pathway"> <!--fabb3-->
     <Comment>a comment here</Comment>
     <Comment>type your comment here</Comment>
     <BiopaxRef>a54</BiopaxRef>
   </Group>
-  <Group GraphId="c5880" GroupId="d0dcc" />
-  <Group GroupId="ca247" groupType="Complex" />
-  <Group GraphId="a9133" GroupId="c8c08" groupType="Complex" />
-  <Group GroupId="e5975" groupType="Complex" />
-  <Group GroupId="a7681" groupType="Complex">
+  <Group GraphId="d0dcc" /> <!--c5880-->
+  <Group GraphId="ca247" groupType="Complex" />
+  <Group GraphId="c8c08" groupType="Complex" /> <!--a9133-->
+  <Group GraphId="e5975" groupType="Complex" />
+  <Group GraphId="a7681" groupType="Complex">
     <Comment>State was set to be part of complex, and it appears that way when initially drawn in PV-Java, but when pathway is closed and re-opened in PV-Java, the state does not visually appear to be part of the complex.</Comment>
   </Group>
-  <Group GraphId="d4258" GroupId="a7eff" groupType="Complex" />
-  <Group GroupId="e5a74" groupType="Complex" />
+  <Group GraphId="a7eff" groupType="Complex" /> <!--d4258-->
+  <Group GraphId="e5a74" groupType="Complex" />
   <InfoBox centerX="0.0" centerY="0.0" />
   <Biopax>
     <ns1:PublicationXref rdf:id="b4b">

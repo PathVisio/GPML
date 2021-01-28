@@ -249,17 +249,17 @@
   <Shape GraphId="aa7de" textLabel="Arc">
     <Graphics centerX="103.28489950169325" centerY="411.0991161293225" fontSize="10" height="62.29585439329384" rotation="3.141592653589793" shapeType="Arc" vAlign="Middle" width="97.93182324732058" zOrder="33032" />
   </Shape>
-  <Group GroupId="f8097" />
-  <Group GroupId="bf229" groupType="Complex" />
-  <Group GroupId="bbf57" groupType="Group" />
-  <Group GroupId="cc497" groupType="Pathway" />
-  <Group GroupId="ccf37" />
-  <Group GroupId="e70c7" groupType="Pathway" />
-  <Group GroupId="e9a69" groupType="Complex" />
-  <Group GroupId="a102b" groupType="Complex" />
-  <Group GroupId="aa74f" groupType="Group" />
-  <Group GroupId="c8297" groupType="Pathway" />
-  <Group GroupId="c3ef3" />
+  <Group GraphId="f8097" />
+  <Group GraphId="bf229" groupType="Complex" />
+  <Group GraphId="bbf57" groupType="Group" />
+  <Group GraphId="cc497" groupType="Pathway" />
+  <Group GraphId="ccf37" />
+  <Group GraphId="e70c7" groupType="Pathway" />
+  <Group GraphId="e9a69" groupType="Complex" />
+  <Group GraphId="a102b" groupType="Complex" />
+  <Group GraphId="aa74f" groupType="Group" />
+  <Group GraphId="c8297" groupType="Pathway" />
+  <Group GraphId="c3ef3" />
   <InfoBox centerX="0.0" centerY="0.0" />
   <Biopax />
 </Pathway>

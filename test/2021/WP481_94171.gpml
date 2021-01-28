@@ -823,78 +823,78 @@
   </DataNode>
   <Interaction>
     <Graphics ConnectorType="Elbow" zOrder="12288" lineWidth="1.0">
-      <Point x="579.4001996007983" y="233.55279409832383" GraphRef="f0fc7" relX="-1.0" relY="0.0" />
-      <Point x="501.5673981191226" y="332.23197492163024" GraphRef="c37a9" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="579.4001996007983" y="233.55279409832383" GraphRef="bcaa0" relX="-1.0" relY="0.0" />
+      <Point x="501.5673981191226" y="332.23197492163024" GraphRef="c21a5" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="a42c7">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="212.71656686626721" y="515.8642714570859" GraphRef="bfae0" relX="-0.5" relY="1.0" />
-      <Point x="137.07472001251801" y="566.6782952828826" GraphRef="ebabd" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="212.71656686626721" y="515.8642714570859" GraphRef="bb23b" relX="-0.5" relY="1.0" />
+      <Point x="137.07472001251801" y="566.6782952828826" GraphRef="e0c7d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="a6d8e">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="334.5668662674645" y="445.53093812375255" GraphRef="bfae0" relX="1.0" relY="0.0" />
-      <Point x="680.8482165352916" y="446.1950442059408" GraphRef="f9997" relX="-1.0" relY="0.5" arrowHead="TBar" />
+      <Point x="334.5668662674645" y="445.53093812375255" GraphRef="bb23b" relX="1.0" relY="0.0" />
+      <Point x="680.8482165352916" y="446.1950442059408" GraphRef="aed8b" relX="-1.0" relY="0.5" arrowHead="TBar" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="a883d">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="745.5148832019584" y="466.085220337858" GraphRef="f9997" relX="0.0" relY="1.0" />
+      <Point x="745.5148832019584" y="466.085220337858" GraphRef="aed8b" relX="0.0" relY="1.0" />
       <Point x="746.0000000000002" y="495.88822355289403" GraphRef="b1c" relX="0.0" relY="-1.0" arrowHead="TBar" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="b42f3">
     <Graphics ConnectorType="Elbow" zOrder="12288" lineWidth="1.0">
-      <Point x="501.5673981191226" y="396.23197492163024" GraphRef="c37a9" relX="0.0" relY="1.0" />
-      <Point x="334.5668662674645" y="410.36427145708586" GraphRef="bfae0" relX="1.0" relY="-0.5" arrowHead="Arrow" />
+      <Point x="501.5673981191226" y="396.23197492163024" GraphRef="c21a5" relX="0.0" relY="1.0" />
+      <Point x="334.5668662674645" y="410.36427145708586" GraphRef="bb23b" relX="1.0" relY="-0.5" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="c6490">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="1132.4378709740568" y="807.3333333333334" GraphRef="a60f0" relX="0.0" relY="1.0" />
-      <Point x="1132.3671933020746" y="912.4131839622642" GraphRef="e67ee" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="1132.4378709740568" y="807.3333333333334" GraphRef="acdf9" relX="0.0" relY="1.0" />
+      <Point x="1132.3671933020746" y="912.4131839622642" GraphRef="e8e46" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="d1ddc">
     <Graphics zOrder="12288" lineWidth="1.0">
       <Point x="616.6666666666667" y="113.33333333333333" GraphRef="c27" relX="0.0" relY="1.0" />
-      <Point x="688.9096806387225" y="173.84031936127735" GraphRef="f0fc7" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="688.9096806387225" y="173.84031936127735" GraphRef="bcaa0" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="d6ebf">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="1132.3688495349938" y="319.9486249399485" GraphRef="a2cc1" relX="0.0" relY="1.0" />
-      <Point x="1132.4378709740568" y="363.33333333333337" GraphRef="a60f0" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="1132.3688495349938" y="319.9486249399485" GraphRef="d0df9" relX="0.0" relY="1.0" />
+      <Point x="1132.4378709740568" y="363.33333333333337" GraphRef="acdf9" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="db9dc">
     <Graphics ConnectorType="Elbow" zOrder="12288" lineWidth="1.0">
       <Point x="803.3333333333337" y="563.3333333333334" GraphRef="eeb" relX="1.0" relY="0.0" />
-      <Point x="743.6644211576847" y="293.2652688353703" GraphRef="f0fc7" relX="0.5" relY="1.0" arrowHead="TBar" />
+      <Point x="743.6644211576847" y="293.2652688353703" GraphRef="bcaa0" relX="0.5" relY="1.0" arrowHead="TBar" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="e16ae">
     <Graphics zOrder="12288" lineWidth="1.0">
       <Point x="763.3333333333334" y="113.33333333333333" GraphRef="d20" relX="0.0" relY="1.0" />
-      <Point x="688.9096806387225" y="173.84031936127735" GraphRef="f0fc7" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="688.9096806387225" y="173.84031936127735" GraphRef="bcaa0" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="e502a">
     <Graphics ConnectorType="Segmented" zOrder="12288" lineWidth="1.0">
       <Point x="746.666666666667" y="573.3333333333334" GraphRef="eeb" relX="0.0" relY="1.0" />
-      <Point x="687.8754879292277" y="623.1432782852396" GraphRef="e2b1d" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+      <Point x="687.8754879292277" y="623.1432782852396" GraphRef="dcaa7" relX="0.5" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
@@ -907,36 +907,36 @@
   </Interaction>
   <Interaction GraphId="f03f3">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="96.06317782316812" y="566.6782952828826" GraphRef="ebabd" relX="-0.5" relY="-1.0" />
+      <Point x="96.06317782316812" y="566.6782952828826" GraphRef="e0c7d" relX="-0.5" relY="-1.0" />
       <Point x="96.66666666666667" y="113.33333333333333" GraphRef="ce3" relX="0.0" relY="1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="f48fc">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="293.95009980039873" y="515.8642714570859" GraphRef="bfae0" relX="0.5" relY="1.0" />
-      <Point x="375.5882315921024" y="572.6663192349782" GraphRef="a62f4" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="293.95009980039873" y="515.8642714570859" GraphRef="bb23b" relX="0.5" relY="1.0" />
+      <Point x="375.5882315921024" y="572.6663192349782" GraphRef="c6600" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="f74bc">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="798.4191616766468" y="203.6965567298006" GraphRef="f0fc7" relX="1.0" relY="-0.5" />
-      <Point x="1056.7021828683273" y="204.2655993487595" GraphRef="a2cc1" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+      <Point x="798.4191616766468" y="203.6965567298006" GraphRef="bcaa0" relX="1.0" relY="-0.5" />
+      <Point x="1056.7021828683273" y="204.2655993487595" GraphRef="d0df9" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="fada3">
     <Graphics zOrder="12288" lineWidth="1.0">
       <Point x="746.666666666667" y="573.3333333333334" GraphRef="eeb" relX="0.0" relY="1.0" />
-      <Point x="796.7668144975574" y="626.0075497423254" GraphRef="c0972" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+      <Point x="796.7668144975574" y="626.0075497423254" GraphRef="a1f56" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
   <Interaction GraphId="id4e7e2d08">
     <Graphics ConnectorType="Elbow" zOrder="12288" lineWidth="1.0">
-      <Point x="419.9760479041919" y="260.7452211564333" GraphRef="c7b5d" relX="1.0" relY="0.5" />
-      <Point x="501.5673981191226" y="332.23197492163024" GraphRef="c37a9" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="419.9760479041919" y="260.7452211564333" GraphRef="e58f8" relX="1.0" relY="0.5" />
+      <Point x="501.5673981191226" y="332.23197492163024" GraphRef="c21a5" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
@@ -949,7 +949,7 @@
   </Interaction>
   <Interaction GraphId="idf40d6d0f">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="1211.7712043073907" y="585.3333333333334" GraphRef="a60f0" relX="1.0" relY="0.0" />
+      <Point x="1211.7712043073907" y="585.3333333333334" GraphRef="acdf9" relX="1.0" relY="0.0" />
       <Point x="1269.051742668512" y="585.0268437484001" GraphRef="f45dd" relX="-1.0" relY="0.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
@@ -1004,20 +1004,20 @@
     <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
     <Graphics centerX="714.1212574850299" centerY="608.9820359281438" width="1400.5" height="1011.9760479041918" zOrder="16384" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" borderWidth="3.0" borderColor="c0c0c0" rotation="0.0" />
   </Shape>
-  <Group GroupId="a7ec4" groupType="Group" />
-  <Group GroupId="ec3a2" groupType="Group" />
-  <Group GroupId="d0df9" GraphId="a2cc1" groupType="Group" />
-  <Group GroupId="acdf9" GraphId="a60f0" groupType="Group" />
-  <Group GroupId="c6600" GraphId="a62f4" groupType="Group" />
-  <Group GroupId="bb23b" GraphId="bfae0" groupType="Group" />
-  <Group GroupId="a1f56" GraphId="c0972" groupType="Group" />
-  <Group GroupId="c21a5" GraphId="c37a9" groupType="Complex" />
-  <Group GroupId="e58f8" GraphId="c7b5d" groupType="Group" />
-  <Group GroupId="dcaa7" GraphId="e2b1d" groupType="Group" />
-  <Group GroupId="e8e46" GraphId="e67ee" groupType="Group" />
-  <Group GroupId="e0c7d" GraphId="ebabd" groupType="Group" />
-  <Group GroupId="bcaa0" GraphId="f0fc7" groupType="Group" />
-  <Group GroupId="aed8b" GraphId="f9997" groupType="Group" />
+  <Group GraphId="a7ec4" groupType="Group" />
+  <Group GraphId="ec3a2" groupType="Group" />
+  <Group GraphId="d0df9" groupType="Group" /> <!--a2cc1--> 
+  <Group GraphId="acdf9" groupType="Group" /> <!--a60f0--> 
+  <Group GraphId="c6600" groupType="Group" /> <!--a62f4--> 
+  <Group GraphId="bb23b" groupType="Group" /> <!--bfae0--> 
+  <Group GraphId="a1f56" groupType="Group" /> <!--c0972--> 
+  <Group GraphId="c21a5" groupType="Complex" /> <!--c37a9--> 
+  <Group GraphId="e58f8" groupType="Group" /> <!--c7b5d--> 
+  <Group GraphId="dcaa7" groupType="Group" /> <!--e2b1d--> 
+  <Group GraphId="e8e46" groupType="Group" /> <!--e67ee--> 
+  <Group GraphId="e0c7d" groupType="Group" /> <!--ebabd--> 
+  <Group GraphId="bcaa0" groupType="Group" /> <!--f0fc7--> 
+  <Group GraphId="aed8b" groupType="Group" /> <!--f9997--> 
   <InfoBox centerX="8.333333333333334" centerY="8.333333333333334" />
   <Biopax>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d3b">

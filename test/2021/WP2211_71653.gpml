@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" Name="Geranylgeranyldiphosphate biosynthesis II (plastidic)" Data-Source="RiceCyc" Version="20110915" Organism="Oryza sativa" Last-Modified="10/17/2013">
+<Pathway xmlns="http://pathvisio.org/GPML/2021" Name="Geranylgeranyldiphosphate biosynthesis II (plastidic)" data-Source="RiceCyc" version="20110915" organism="Oryza sativa" last-Modified="10/17/2013">
   <Comment source="WikiPathways-category">Metabolic Process</Comment>
   <Comment source="WikiPathways-description">In plants the geranyl-geranyl diphosphate (GGPP) as a precursor molecule that feeds in the biosynthesis of essential compounds such as chlorophylls, carotenoids, plastoquinones, growth hormone gibberellin and other secondary metabolites. Occurs in plastids.</Comment>
   <BiopaxRef>b1a</BiopaxRef>
@@ -195,21 +195,21 @@
   </Interaction>
   <Interaction GraphId="idd5d26da">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="834.5274289335271" y="232.23573727903857" GraphRef="d9dea" relX="-1.0" relY="0.0"/>
+      <Point x="834.5274289335271" y="232.23573727903857" GraphRef="f76fa" relX="-1.0" relY="0.0"/>
       <Point x="792.7643626033234" y="233.9420316163951" GraphRef="a45cf" relX="1.0" relY="0.0"/>
     </Graphics>
     <Xref dataSource="" identifier=""/>
   </Interaction>
   <Interaction GraphId="id1f159e35">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="840.6600606238385" y="538.1726991016237" GraphRef="ea2e7" relX="-1.0" relY="0.0"/>
+      <Point x="840.6600606238385" y="538.1726991016237" GraphRef="d85f9" relX="-1.0" relY="0.0"/>
       <Point x="811.5735205056135" y="538.0842992270277" GraphRef="e8e55" relX="1.0" relY="0.0"/>
     </Graphics>
     <Xref dataSource="" identifier=""/>
   </Interaction>
   <Interaction GraphId="idf1083275">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="848.667179042809" y="819.5290180584846" GraphRef="aa588" relX="-1.0" relY="0.0"/>
+      <Point x="848.667179042809" y="819.5290180584846" GraphRef="fb9da" relX="-1.0" relY="0.0"/>
       <Point x="832.394366197183" y="819.1639580023904" GraphRef="ac174" relX="1.0" relY="0.0"/>
     </Graphics>
     <Xref dataSource="" identifier=""/>
@@ -253,9 +253,9 @@
     </Graphics>
     <Xref dataSource="" identifier=""/>
   </Interaction>
-  <Group GroupId="fb9da" GraphId="aa588" groupType="Group"/>
-  <Group GroupId="d85f9" GraphId="ea2e7" groupType="Group"/>
-  <Group GroupId="f76fa" GraphId="d9dea" groupType="Group"/>
+  <Group GraphId="fb9da" groupType="Group"/> <!--aa588-->
+  <Group GraphId="d85f9" groupType="Group"/> <!--ea2e7-->
+  <Group GraphId="f76fa" groupType="Group"/> <!--d9dea-->
   <InfoBox centerX="0.0" centerY="0.0"/>
   <Biopax>
     <bp:PublicationXref xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" rdf:id="d3e">

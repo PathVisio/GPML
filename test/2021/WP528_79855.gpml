@@ -200,7 +200,7 @@
   </Interaction>
   <Interaction GraphId="bea09">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="145.33648790746582" y="256.7" GraphRef="d74e5" relX="-1.0" relY="0.0" />
+      <Point x="145.33648790746582" y="256.7" GraphRef="dc39d" relX="-1.0" relY="0.0" />
       <Point x="114.89758149316512" y="256.71575184016825" GraphRef="c354a" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
     </Graphics>
     <Xref dataSource="" identifier="" />
@@ -251,7 +251,7 @@
   <Label textLabel="*Synaptic Cleft*" GraphId="a27">
     <Graphics centerX="487.02418506834914" centerY="505.6484752891693" width="123.33333333333333" height="19.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" />
   </Label>
-  <Group GroupId="dc39d" GraphId="d74e5" />
+  <Group GraphId="dc39d" /> <!--d74e5-->
   <InfoBox centerX="8.333333333333334" centerY="11.666666666666666" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
