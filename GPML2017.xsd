@@ -527,6 +527,7 @@
 					<xsd:simpleType>
 						<xsd:restriction base="xsd:string">
 							<xsd:enumeration value="Unknown"/>
+							<xsd:enumeration value="Dna"/>
 							<xsd:enumeration value="Rna"/>
 							<xsd:enumeration value="Protein"/>
 							<xsd:enumeration value="Complex"/>
