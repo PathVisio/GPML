@@ -1,46 +1,46 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Pathway xmlns="http://pathvisio.org/GPML/2021" name="test case" version="20210128">
   <Graphics boardHeight="372.4925040280843" boardWidth="447.7009507346585" />
-  <DataNode GraphId="faa53" textLabel="Catalyzer" type="GeneProduct">
+  <DataNode elementId="faa53" textLabel="Catalyzer" type="GeneProduct">
     <Graphics centerX="233.22556206451424" centerY="332.4925040280843" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="dde22" textLabel="Inhibitor1" type="GeneProduct">
+  <DataNode elementId="dde22" textLabel="Inhibitor1" type="GeneProduct">
     <Graphics centerX="377.7009507346585" centerY="191.01123595505615" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="d93ba" textLabel="Inhibitor2" type="GeneProduct">
+  <DataNode elementId="d93ba" textLabel="Inhibitor2" type="GeneProduct">
     <Graphics centerX="296.94900605012964" centerY="271.019878997407" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32769" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <Interaction GraphId="idaf905386">
+  <Interaction elementId="idaf905386">
     <Graphics lineWidth="1.0" zOrder="12288">
       <Point x="160.09831016073218" y="151.36848170556027" />
       <Point x="293.43164349406544" y="151.36848170556024" />
-      <Anchor GraphId="e0874" position="0.5617283950617287" shapeType="None" />
+      <Anchor elementId="e0874" position="0.5617283950617287" shapeType="None" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="id28382a1c">
+  <Interaction elementId="id28382a1c">
     <Graphics lineWidth="1.0" zOrder="12288">
-      <Point GraphRef="faa53" relX="0.0" relY="-1.0" x="233.22556206451424" y="322.4925040280843" />
-      <Point arrowHead="mim-catalysis" GraphRef="e0874" relX="0.0" relY="0.0" x="234.99542950229596" y="151.36848170556024" />
-      <Anchor GraphId="e4378" position="0.7632149127793446" shapeType="None" />
+      <Point elementRef="faa53" relX="0.0" relY="-1.0" x="233.22556206451424" y="322.4925040280843" />
+      <Point arrowHead="mim-catalysis" elementRef="e0874" relX="0.0" relY="0.0" x="234.99542950229596" y="151.36848170556024" />
+      <Anchor elementId="e4378" position="0.7632149127793446" shapeType="None" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="idc088e267">
+  <Interaction elementId="idc088e267">
     <Graphics lineWidth="1.0" zOrder="12288">
-      <Point GraphRef="dde22" relX="-1.0" relY="0.0" x="337.7009507346585" y="191.01123595505615" />
-      <Point arrowHead="mim-inhibition" GraphRef="e4378" relX="0.0" relY="0.0" x="234.5763512866718" y="191.88809825674846" />
-      <Anchor GraphId="acbce" position="0.4" shapeType="None" />
+      <Point elementRef="dde22" relX="-1.0" relY="0.0" x="337.7009507346585" y="191.01123595505615" />
+      <Point arrowHead="mim-inhibition" elementRef="e4378" relX="0.0" relY="0.0" x="234.5763512866718" y="191.88809825674846" />
+      <Anchor elementId="acbce" position="0.4" shapeType="None" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="id6d7f3bae">
+  <Interaction elementId="id6d7f3bae">
     <Graphics lineWidth="1.0" zOrder="12288">
-      <Point GraphRef="d93ba" relX="0.0" relY="-1.0" x="296.94900605012964" y="261.019878997407" />
-      <Point arrowHead="mim-inhibition" GraphRef="acbce" relX="0.0" relY="0.0" x="296.45111095546383" y="191.36198087573308" />
+      <Point elementRef="d93ba" relX="0.0" relY="-1.0" x="296.94900605012964" y="261.019878997407" />
+      <Point arrowHead="mim-inhibition" elementRef="acbce" relX="0.0" relY="0.0" x="296.45111095546383" y="191.36198087573308" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>

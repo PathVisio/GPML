@@ -6,321 +6,321 @@
   <BiopaxRef>cf5</BiopaxRef>
   <BiopaxRef>d73</BiopaxRef>
   <Graphics boardWidth="976.6666666666667" boardHeight="907.6470588235295" />
-  <DataNode textLabel="Pdlim7" GraphId="afc47" type="GeneProduct">
+  <DataNode textLabel="Pdlim7" elementId="afc47" type="GeneProduct">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Pdlim7" />
     <Graphics centerX="496.0" centerY="91.0" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000021493" />
   </DataNode>
-  <DataNode textLabel="Tradd" GraphId="c8ff5" type="GeneProduct" GroupRef="c44d7">
+  <DataNode textLabel="Tradd" elementId="c8ff5" type="GeneProduct" elementRef="c44d7">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Tradd" />
     <Graphics centerX="447.11482720178356" centerY="220.44258639910814" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000031887" />
   </DataNode>
-  <DataNode textLabel="Irak1" GraphId="d6f8a" type="GeneProduct" GroupRef="c44d7">
+  <DataNode textLabel="Irak1" elementId="d6f8a" type="GeneProduct" elementRef="c44d7">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Irak1" />
     <Graphics centerX="447.11482720178356" centerY="240.44258639910814" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000031392" />
   </DataNode>
-  <DataNode textLabel="Traf1" GraphId="d7aa9" type="GeneProduct" GroupRef="fa4bf">
+  <DataNode textLabel="Traf1" elementId="d7aa9" type="GeneProduct" elementRef="fa4bf">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Traf1" />
     <Graphics centerX="665.8292151887748" centerY="135.34563478041738" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000026875" />
   </DataNode>
-  <DataNode textLabel="Map3k14" GraphId="ddef3" type="GeneProduct" GroupRef="fa4bf">
+  <DataNode textLabel="Map3k14" elementId="ddef3" type="GeneProduct" elementRef="fa4bf">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Map3k14" />
     <Graphics centerX="665.8292151887748" centerY="155.34563478041738" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000020941" />
   </DataNode>
-  <DataNode textLabel="Chuk" GraphId="e037d" type="GeneProduct" GroupRef="b7873">
+  <DataNode textLabel="Chuk" elementId="e037d" type="GeneProduct" elementRef="b7873">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Chuk" />
     <Graphics centerX="658.599576442812" centerY="230.1692917182612" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="12675" />
   </DataNode>
-  <DataNode textLabel="Nfkb2" GraphId="bfb9c" type="GeneProduct" GroupRef="c3eed">
+  <DataNode textLabel="Nfkb2" elementId="bfb9c" type="GeneProduct" elementRef="c3eed">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Nfkb2" />
     <Graphics centerX="659.5639019723551" centerY="313.7224080267558" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000025225" />
   </DataNode>
-  <DataNode textLabel="Rela" GraphId="ac1fa" type="GeneProduct" GroupRef="c3eed">
+  <DataNode textLabel="Rela" elementId="ac1fa" type="GeneProduct" elementRef="c3eed">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Rela" />
     <Graphics centerX="659.5639019723551" centerY="333.7224080267558" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000024927" />
   </DataNode>
-  <DataNode textLabel="Nfkb2" GraphId="a90a5" type="GeneProduct" GroupRef="b77cc">
+  <DataNode textLabel="Nfkb2" elementId="a90a5" type="GeneProduct" elementRef="b77cc">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Nfkb2" />
     <Graphics centerX="686.9204152249134" centerY="567.7301038062283" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000025225" />
   </DataNode>
-  <DataNode textLabel="Rela" GraphId="b78f8" type="GeneProduct" GroupRef="b77cc">
+  <DataNode textLabel="Rela" elementId="b78f8" type="GeneProduct" elementRef="b77cc">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Rela" />
     <Graphics centerX="686.9204152249134" centerY="587.7301038062283" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000024927" />
   </DataNode>
-  <DataNode textLabel="Map3k7" GraphId="d5d41" type="GeneProduct" GroupRef="f5a55">
+  <DataNode textLabel="Map3k7" elementId="d5d41" type="GeneProduct" elementRef="f5a55">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Map3k7" />
     <Graphics centerX="453.0" centerY="300.0" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000028284" />
   </DataNode>
-  <DataNode textLabel="Map3k7" GraphId="de222" type="GeneProduct" GroupRef="f5a55">
+  <DataNode textLabel="Map3k7" elementId="de222" type="GeneProduct" elementRef="f5a55">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Map3k7" />
     <Graphics centerX="453.0" centerY="320.0" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000028284" />
   </DataNode>
-  <DataNode textLabel="Map3k3" GraphId="a289c" type="GeneProduct" GroupRef="f5a55">
+  <DataNode textLabel="Map3k3" elementId="a289c" type="GeneProduct" elementRef="f5a55">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Map3k3" />
     <Graphics centerX="453.0" centerY="340.0" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000020700" />
   </DataNode>
-  <DataNode textLabel="Traf6" GraphId="d3218" type="GeneProduct" GroupRef="f5a55">
+  <DataNode textLabel="Traf6" elementId="d3218" type="GeneProduct" elementRef="f5a55">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Traf6" />
     <Graphics centerX="453.0" centerY="280.0" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000027164" />
   </DataNode>
-  <DataNode textLabel="Ikbkg" GraphId="e30d7" type="GeneProduct" GroupRef="de1b4">
+  <DataNode textLabel="Ikbkg" elementId="e30d7" type="GeneProduct" elementRef="de1b4">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Ikbkg" />
     <Graphics centerX="370.0" centerY="413.46020761245677" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000004221" />
   </DataNode>
-  <DataNode textLabel="Chuk" GraphId="d4eb4" type="GeneProduct" GroupRef="de1b4">
+  <DataNode textLabel="Chuk" elementId="d4eb4" type="GeneProduct" elementRef="de1b4">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Chuk" />
     <Graphics centerX="370.0" centerY="433.46020761245677" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000025199" />
   </DataNode>
-  <DataNode textLabel="Ikbkb" GraphId="d075b" type="GeneProduct" GroupRef="de1b4">
+  <DataNode textLabel="Ikbkb" elementId="d075b" type="GeneProduct" elementRef="de1b4">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Ikbkb" />
     <Graphics centerX="370.0" centerY="453.46020761245677" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000031537" />
   </DataNode>
-  <DataNode textLabel="Hsp90aa1" GraphId="f4a8a" type="GeneProduct" GroupRef="de1b4">
+  <DataNode textLabel="Hsp90aa1" elementId="f4a8a" type="GeneProduct" elementRef="de1b4">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Hsp90aa1" />
     <Graphics centerX="370.0" centerY="473.46020761245677" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="15519" />
   </DataNode>
-  <DataNode textLabel="Mapk1" GraphId="f1ada" type="GeneProduct">
+  <DataNode textLabel="Mapk1" elementId="f1ada" type="GeneProduct">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Mapk1" />
     <Graphics centerX="588.0" centerY="573.0" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000063358" />
   </DataNode>
-  <DataNode textLabel="Rela" GraphId="c654d" type="GeneProduct" GroupRef="cf74b">
+  <DataNode textLabel="Rela" elementId="c654d" type="GeneProduct" elementRef="cf74b">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Rela" />
     <Graphics centerX="438.0" centerY="638.0" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000024927" />
   </DataNode>
-  <DataNode textLabel="Nfkb1" GraphId="d8d5e" type="GeneProduct" GroupRef="cf74b">
+  <DataNode textLabel="Nfkb1" elementId="d8d5e" type="GeneProduct" elementRef="cf74b">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Nfkb1" />
     <Graphics centerX="438.0" centerY="618.0" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000028163" />
   </DataNode>
-  <DataNode textLabel="Mapk8" GraphId="a947d" type="GeneProduct">
+  <DataNode textLabel="Mapk8" elementId="a947d" type="GeneProduct">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Mapk8" />
     <Graphics centerX="505.0" centerY="573.0" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000021936" />
   </DataNode>
-  <DataNode textLabel="I-Kappa-B" GraphId="f2f59" type="GeneProduct" GroupRef="e5b31">
+  <DataNode textLabel="I-Kappa-B" elementId="f2f59" type="GeneProduct" elementRef="e5b31">
     <Graphics centerX="200.0" centerY="430.0" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode textLabel="Nfkb1" GraphId="ec132" type="GeneProduct" GroupRef="e5b31">
+  <DataNode textLabel="Nfkb1" elementId="ec132" type="GeneProduct" elementRef="e5b31">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Nfkb1" />
     <Graphics centerX="200.0" centerY="450.0" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000028163" />
   </DataNode>
-  <DataNode textLabel="Rela" GraphId="f1e98" type="GeneProduct" GroupRef="e5b31">
+  <DataNode textLabel="Rela" elementId="f1e98" type="GeneProduct" elementRef="e5b31">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Rela" />
     <Graphics centerX="200.0" centerY="470.0" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000024927" />
   </DataNode>
-  <DataNode textLabel="Rela" GraphId="de3bc" type="GeneProduct" GroupRef="c12ff">
+  <DataNode textLabel="Rela" elementId="de3bc" type="GeneProduct" elementRef="c12ff">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Rela" />
     <Graphics centerX="122.0" centerY="357.0" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000024927" />
   </DataNode>
-  <DataNode textLabel="I-Kappa-B" GraphId="c5184" type="GeneProduct" GroupRef="c12ff">
+  <DataNode textLabel="I-Kappa-B" elementId="c5184" type="GeneProduct" elementRef="c12ff">
     <Graphics centerX="122.0" centerY="317.0" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode textLabel="Nfkb1" GraphId="d6a50" type="GeneProduct" GroupRef="c12ff">
+  <DataNode textLabel="Nfkb1" elementId="d6a50" type="GeneProduct" elementRef="c12ff">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Nfkb1" />
     <Graphics centerX="122.0" centerY="337.0" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000028163" />
   </DataNode>
-  <DataNode textLabel="SFC complex" GraphId="fd21c" type="GeneProduct">
+  <DataNode textLabel="SFC complex" elementId="fd21c" type="GeneProduct">
     <Graphics centerX="113.86505190311418" centerY="219.1349480968858" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode textLabel="IL8" GraphId="c52e9" type="GeneProduct" GroupRef="d5e19">
+  <DataNode textLabel="IL8" elementId="c52e9" type="GeneProduct" elementRef="d5e19">
     <Graphics centerX="677.2661217075378" centerY="741.8074477747507" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode textLabel="Ifnb1" GraphId="c9e20" type="GeneProduct" GroupRef="d5e19">
+  <DataNode textLabel="Ifnb1" elementId="c9e20" type="GeneProduct" elementRef="d5e19">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Ifnb1" />
     <Graphics centerX="677.2661217075378" centerY="781.8074477747507" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000048806" />
   </DataNode>
-  <DataNode textLabel="Ccl20" GraphId="eeba2" type="GeneProduct" GroupRef="d5e19">
+  <DataNode textLabel="Ccl20" elementId="eeba2" type="GeneProduct" elementRef="d5e19">
     <BiopaxRef>ee4</BiopaxRef>
     <BiopaxRef>b42</BiopaxRef>
     <Attribute key="org.pathvisio.model.BackpageHead" value="Ccl20" />
     <Graphics centerX="677.2661217075378" centerY="761.8074477747507" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000026166" />
   </DataNode>
-  <DataNode textLabel="Tnf" GraphId="aa138" type="GeneProduct" GroupRef="d5e19">
+  <DataNode textLabel="Tnf" elementId="aa138" type="GeneProduct" elementRef="d5e19">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Tnf" />
     <Graphics centerX="765.2661217075378" centerY="741.8074477747507" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000024401" />
   </DataNode>
-  <DataNode textLabel="Ccl5" GraphId="d99bc" type="GeneProduct" GroupRef="d5e19">
+  <DataNode textLabel="Ccl5" elementId="d99bc" type="GeneProduct" elementRef="d5e19">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Ccl5" />
     <Graphics centerX="765.2661217075378" centerY="761.8074477747507" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000035042" />
   </DataNode>
-  <DataNode textLabel="Nfkb1" GraphId="fd2e9" type="GeneProduct" GroupRef="c36fc">
+  <DataNode textLabel="Nfkb1" elementId="fd2e9" type="GeneProduct" elementRef="c36fc">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Nfkb1" />
     <Graphics centerX="545.0" centerY="687.0" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000028163" />
   </DataNode>
-  <DataNode textLabel="Rela" GraphId="ea1c5" type="GeneProduct" GroupRef="c36fc">
+  <DataNode textLabel="Rela" elementId="ea1c5" type="GeneProduct" elementRef="c36fc">
     <Attribute key="org.pathvisio.model.BackpageHead" value="Rela" />
     <Graphics centerX="545.0" centerY="707.0" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000024927" />
   </DataNode>
-  <Interaction GraphId="f7dcb">
+  <Interaction elementId="f7dcb">
     <Graphics zOrder="12288" lineWidth="1.0">
       <Point x="150.0" y="89.0" />
       <Point x="880.0" y="89.00000000000009" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="d2a9c">
+  <Interaction elementId="d2a9c">
     <Graphics zOrder="12288" lineWidth="1.0">
       <Point x="150.0" y="99.0" />
       <Point x="880.0" y="99.00000000000009" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="ef2fd">
+  <Interaction elementId="ef2fd">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="665.8292151887748" y="173.34563478041738" GraphRef="fa4bf" relX="0.0" relY="1.0" />
-      <Point x="665.599576442812" y="202.1692917182612" GraphRef="b7873" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="665.8292151887748" y="173.34563478041738" elementRef="fa4bf" relX="0.0" relY="1.0" />
+      <Point x="665.599576442812" y="202.1692917182612" elementRef="b7873" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="fc75d">
+  <Interaction elementId="fc75d">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="665.599576442812" y="248.1692917182612" GraphRef="b7873" relX="0.0" relY="1.0" />
-      <Point x="666.0639019723551" y="285.7224080267558" GraphRef="c3eed" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="665.599576442812" y="248.1692917182612" elementRef="b7873" relX="0.0" relY="1.0" />
+      <Point x="666.0639019723551" y="285.7224080267558" elementRef="c3eed" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="b7a13">
+  <Interaction elementId="b7a13">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="666.0639019723551" y="351.7224080267558" GraphRef="c3eed" relX="0.0" relY="1.0" />
-      <Point x="665.9204152249134" y="548.7301038062283" GraphRef="b77cc" relX="-0.4375" relY="-1.0357142857142858" arrowHead="Arrow" />
+      <Point x="666.0639019723551" y="351.7224080267558" elementRef="c3eed" relX="0.0" relY="1.0" />
+      <Point x="665.9204152249134" y="548.7301038062283" elementRef="b77cc" relX="-0.4375" relY="-1.0357142857142858" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="f3383">
+  <Interaction elementId="f3383">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="416.5" y="362.0" GraphRef="f5a55" relX="-0.5" relY="1.0" />
-      <Point x="377.5" y="391.46020761245677" GraphRef="de1b4" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="416.5" y="362.0" elementRef="f5a55" relX="-0.5" relY="1.0" />
+      <Point x="377.5" y="391.46020761245677" elementRef="de1b4" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="b888a">
+  <Interaction elementId="b888a">
     <Graphics zOrder="12288" lineWidth="1.0">
       <Point x="475.5" y="362.0" />
-      <Point x="588.0" y="563.0" GraphRef="f1ada" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="588.0" y="563.0" elementRef="f1ada" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="a42e4">
+  <Interaction elementId="a42e4">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="475.5" y="362.0" GraphRef="f5a55" relX="0.5" relY="1.0" />
-      <Point x="505.0" y="563.0" GraphRef="a947d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="475.5" y="362.0" elementRef="f5a55" relX="0.5" relY="1.0" />
+      <Point x="505.0" y="563.0" elementRef="a947d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="adc6f">
+  <Interaction elementId="adc6f">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="318.0" y="443.46020761245677" GraphRef="de1b4" relX="-1.0" relY="0.0" />
-      <Point x="265.0" y="443.0" GraphRef="e5b31" relX="1.0" relY="0.0" arrowHead="Arrow" />
+      <Point x="318.0" y="443.46020761245677" elementRef="de1b4" relX="-1.0" relY="0.0" />
+      <Point x="265.0" y="443.0" elementRef="e5b31" relX="1.0" relY="0.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="d1a8b">
+  <Interaction elementId="d1a8b">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="113.86505190311419" y="229.1349480968858" GraphRef="fd21c" relX="0.0" relY="1.0" />
-      <Point x="113.5" y="260.0" GraphRef="c12ff" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="113.86505190311419" y="229.1349480968858" elementRef="fd21c" relX="0.0" relY="1.0" />
+      <Point x="113.5" y="260.0" elementRef="c12ff" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="b0640">
+  <Interaction elementId="b0640">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="187.0" y="319.5" GraphRef="c12ff" relX="1.0" relY="0.0" />
-      <Point x="243.2677047289505" y="319.9418108419842" GraphRef="a4af0" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+      <Point x="187.0" y="319.5" elementRef="c12ff" relX="1.0" relY="0.0" />
+      <Point x="243.2677047289505" y="319.9418108419842" elementRef="a4af0" relX="-1.0" relY="0.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="b6bbe">
+  <Interaction elementId="b6bbe">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="148.0" y="418.5" GraphRef="e5b31" relX="-1.0" relY="-0.5" />
-      <Point x="113.5" y="379.0" GraphRef="c12ff" relX="0.0" relY="1.0" arrowHead="Arrow" />
+      <Point x="148.0" y="418.5" elementRef="e5b31" relX="-1.0" relY="-0.5" />
+      <Point x="113.5" y="379.0" elementRef="c12ff" relX="0.0" relY="1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="ed777">
+  <Interaction elementId="ed777">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="235.75" y="492.0" GraphRef="e5b31" relX="0.5" relY="1.0" />
-      <Point x="390.0" y="628.0" GraphRef="cf74b" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+      <Point x="235.75" y="492.0" elementRef="e5b31" relX="0.5" relY="1.0" />
+      <Point x="390.0" y="628.0" elementRef="cf74b" relX="-1.0" relY="0.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="da276">
+  <Interaction elementId="da276">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="438.0" y="656.0" GraphRef="cf74b" relX="0.0" relY="1.0" />
-      <Point x="499.0" y="680.0" GraphRef="c36fc" relX="-0.9583333333333334" relY="-0.6071428571428571" arrowHead="Arrow" />
+      <Point x="438.0" y="656.0" elementRef="cf74b" relX="0.0" relY="1.0" />
+      <Point x="499.0" y="680.0" elementRef="c36fc" relX="-0.9583333333333334" relY="-0.6071428571428571" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="ba2e2">
+  <Interaction elementId="ba2e2">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="664.9204152249134" y="606.7301038062283" GraphRef="b77cc" relX="-0.4583333333333333" relY="1.0357142857142858" />
-      <Point x="590.0" y="673.0" GraphRef="c36fc" relX="0.9375" relY="-0.8571428571428571" arrowHead="Arrow" />
+      <Point x="664.9204152249134" y="606.7301038062283" elementRef="b77cc" relX="-0.4583333333333333" relY="1.0357142857142858" />
+      <Point x="590.0" y="673.0" elementRef="c36fc" relX="0.9375" relY="-0.8571428571428571" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="d2ca4">
+  <Interaction elementId="d2ca4">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="505.0" y="583.0" GraphRef="a947d" relX="0.0" relY="1.0" />
-      <Point x="486.0" y="614.0" GraphRef="cf74b" relX="1.0" relY="-0.5" arrowHead="Arrow" />
+      <Point x="505.0" y="583.0" elementRef="a947d" relX="0.0" relY="1.0" />
+      <Point x="486.0" y="614.0" elementRef="cf74b" relX="1.0" relY="-0.5" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="b2b2d">
+  <Interaction elementId="b2b2d">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="495.11482720178356" y="230.44258639910814" GraphRef="c44d7" relX="1.0" relY="0.0" />
-      <Point x="529.1288972286136" y="230.32221698367323" GraphRef="c2750" relX="0.0" relY="0.0" />
+      <Point x="495.11482720178356" y="230.44258639910814" elementRef="c44d7" relX="1.0" relY="0.0" />
+      <Point x="529.1288972286136" y="230.32221698367323" elementRef="c2750" relX="0.0" relY="0.0" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="ba0ee">
+  <Interaction elementId="ba0ee">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="534.9571290291872" y="145.57798810299522" GraphRef="ccc0e" relX="0.0" relY="0.0" />
-      <Point x="617.8292151887748" y="145.34563478041738" GraphRef="fa4bf" relX="-1.0" relY="0.0" />
+      <Point x="534.9571290291872" y="145.57798810299522" elementRef="ccc0e" relX="0.0" relY="0.0" />
+      <Point x="617.8292151887748" y="145.34563478041738" elementRef="fa4bf" relX="-1.0" relY="0.0" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="d2794">
+  <Interaction elementId="d2794">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="447.11482720178356" y="258.4425863991081" GraphRef="c44d7" relX="0.0" relY="1.0" />
-      <Point x="446.0" y="258.0" GraphRef="f5a55" relX="0.0" relY="-1.0" />
+      <Point x="447.11482720178356" y="258.4425863991081" elementRef="c44d7" relX="0.0" relY="1.0" />
+      <Point x="446.0" y="258.0" elementRef="f5a55" relX="0.0" relY="-1.0" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="b8c16">
+  <Interaction elementId="b8c16">
     <Graphics zOrder="12288" lineWidth="1.0" lineColor="cccccc">
-      <Point x="569.0" y="725.0" GraphRef="c36fc" relX="0.5" relY="1.0" />
-      <Point x="625.2661217075378" y="740.8074477747507" GraphRef="d5e19" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+      <Point x="569.0" y="725.0" elementRef="c36fc" relX="0.5" relY="1.0" />
+      <Point x="625.2661217075378" y="740.8074477747507" elementRef="d5e19" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
@@ -353,89 +353,89 @@
       <Point x="533.4448160535117" y="102.0066889632107" />
       <Point x="535.1170568561873" y="183.94648829431438" />
       <Point x="494.9832775919732" y="265.88628762541805" />
-      <Anchor position="0.24081744529899396" shapeType="None" GraphId="ccc0e" />
-      <Anchor position="0.711614192769213" shapeType="None" GraphId="c2750" />
+      <Anchor position="0.24081744529899396" shapeType="None" elementId="ccc0e" />
+      <Anchor position="0.711614192769213" shapeType="None" elementId="c2750" />
     </Graphics>
   </GraphicalLine>
-  <Label textLabel="P" GraphId="edb5f" GroupRef="b7873">
+  <Label textLabel="P" elementId="edb5f" elementRef="b7873">
     <Graphics centerX="703.599576442812" centerY="217.6692917182612" width="18.0" height="15.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" />
   </Label>
-  <Label textLabel="P" GraphId="a7496" GroupRef="c3eed">
+  <Label textLabel="P" elementId="a7496" elementRef="c3eed">
     <Graphics centerX="703.5639019723551" centerY="301.2224080267558" width="18.0" height="15.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" />
   </Label>
-  <Label textLabel="P" GraphId="efbf0" GroupRef="f5a55">
+  <Label textLabel="P" elementId="efbf0" elementRef="f5a55">
     <Graphics centerX="408.0" centerY="300.5" width="18.0" height="15.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" />
   </Label>
-  <Label textLabel="P" GraphId="b2244" GroupRef="f5a55">
+  <Label textLabel="P" elementId="b2244" elementRef="f5a55">
     <Graphics centerX="408.0" centerY="320.5" width="18.0" height="15.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" />
   </Label>
-  <Label textLabel="P" GraphId="bb7e3" GroupRef="de1b4">
+  <Label textLabel="P" elementId="bb7e3" elementRef="de1b4">
     <Graphics centerX="416.0" centerY="452.96020761245677" width="18.0" height="15.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" />
   </Label>
-  <Label textLabel="TES1" GraphId="dfbf8">
+  <Label textLabel="TES1" elementId="dfbf8">
     <Graphics centerX="511.24637681159385" centerY="145.9186176142698" width="36.0" height="20.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="13" vAlign="Middle" textColor="0033ff" />
   </Label>
-  <Label textLabel="TES2" GraphId="b7d26">
+  <Label textLabel="TES2" elementId="b7d26">
     <Graphics centerX="550.7743728614795" centerY="230.61687748087624" width="38.0" height="20.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="13" vAlign="Middle" textColor="0033ff" />
   </Label>
-  <Label textLabel="S32-P" GraphId="e4717" GroupRef="e5b31">
+  <Label textLabel="S32-P" elementId="e4717" elementRef="e5b31">
     <Graphics centerX="235.5" centerY="413.5" width="35.0" height="15.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" />
   </Label>
-  <Label textLabel="S36-P" GraphId="f31d8" GroupRef="e5b31">
+  <Label textLabel="S36-P" elementId="f31d8" elementRef="e5b31">
     <Graphics centerX="200.5" centerY="413.5" width="35.0" height="15.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" />
   </Label>
-  <Label textLabel="S36-P" GraphId="cf051" GroupRef="c12ff">
+  <Label textLabel="S36-P" elementId="cf051" elementRef="c12ff">
     <Graphics centerX="122.5" centerY="300.5" width="35.0" height="15.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" />
   </Label>
-  <Label textLabel="S32-P" GraphId="d45b4" GroupRef="c12ff">
+  <Label textLabel="S32-P" elementId="d45b4" elementRef="c12ff">
     <Graphics centerX="157.5" centerY="300.5" width="35.0" height="15.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" />
   </Label>
-  <Label textLabel="U" GraphId="aa5b8" GroupRef="c12ff">
+  <Label textLabel="U" elementId="aa5b8" elementRef="c12ff">
     <Graphics centerX="81.0" centerY="301.5" width="18.0" height="15.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" />
   </Label>
-  <Label textLabel="U" GraphId="c790f" GroupRef="c12ff">
+  <Label textLabel="U" elementId="c790f" elementRef="c12ff">
     <Graphics centerX="69.0" centerY="291.5" width="18.0" height="15.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" />
   </Label>
-  <Label textLabel="U" GraphId="eee7e" GroupRef="c12ff">
+  <Label textLabel="U" elementId="eee7e" elementRef="c12ff">
     <Graphics centerX="61.0" centerY="279.5" width="18.0" height="15.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" />
   </Label>
-  <Shape GraphId="a87b9">
+  <Shape elementId="a87b9">
     <Graphics centerX="482.98333333333335" centerY="91.5" width="12.033333333333333" height="47.0" zOrder="16384" fontSize="10" vAlign="Middle" shapeType="Arc" borderColor="0000ff" rotation="0.0" />
   </Shape>
-  <Shape GraphId="a8247">
+  <Shape elementId="a8247">
     <Graphics centerX="470.98333333333335" centerY="91.5" width="12.033333333333333" height="47.0" zOrder="16384" fontSize="10" vAlign="Middle" shapeType="Arc" borderColor="0000ff" rotation="3.141592653589793" />
   </Shape>
-  <Shape GraphId="a09be">
+  <Shape elementId="a09be">
     <Graphics centerX="496.98333333333335" centerY="89.5" width="12.033333333333333" height="47.0" zOrder="16384" fontSize="10" vAlign="Middle" shapeType="Arc" borderColor="0000ff" rotation="3.141592653589793" />
   </Shape>
-  <Shape GraphId="dd4c7">
+  <Shape elementId="dd4c7">
     <Graphics centerX="512.9833333333333" centerY="93.5" width="12.033333333333333" height="47.0" zOrder="16384" fontSize="10" vAlign="Middle" shapeType="Arc" borderColor="0000ff" rotation="0.0" />
   </Shape>
-  <Shape GraphId="b7481">
+  <Shape elementId="b7481">
     <Graphics centerX="524.9833333333333" centerY="87.5" width="12.033333333333333" height="47.0" zOrder="16384" fontSize="10" vAlign="Middle" shapeType="Arc" borderColor="0000ff" rotation="3.141592653589793" />
   </Shape>
-  <Shape GraphId="a4af0">
+  <Shape elementId="a4af0">
     <Graphics centerX="257.28437139561714" centerY="319.94181084198414" width="28.033333333333335" height="26.033333333333335" zOrder="16384" fontSize="10" vAlign="Middle" shapeType="mim-degradation" rotation="0.0" />
   </Shape>
-  <Shape GraphId="d387d">
+  <Shape elementId="d387d">
     <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
     <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
     <Graphics centerX="575.0441176470592" centerY="680.9264705882356" width="724.4215686274503" height="338.539215686274" zOrder="16384" fontSize="10" vAlign="Middle" shapeType="Oval" borderWidth="3.0" borderColor="c0c0c0" rotation="0.0" />
   </Shape>
-  <Group GraphId="fa4bf" /> <!--c5dce-->
-  <Group GraphId="b7873"> <!--a25fb-->
+  <Group elementId="fa4bf" /> <!--c5dce-->
+  <Group elementId="b7873"> <!--a25fb-->
     <Comment>Type your comment here</Comment>
   </Group>
-  <Group GraphId="c3eed" /> <!--be79c-->
-  <Group GraphId="c44d7" /> <!--b424d-->
-  <Group GraphId="cf74b" /> <!--b1725-->
-  <Group GraphId="b77cc" /> <!--bf781-->
-  <Group GraphId="c36fc" /> <!--a0083-->
-  <Group GraphId="f5a55" groupType="Complex" /> <!--f2f2d-->
-  <Group GraphId="de1b4" groupType="Complex" /> <!--e4155-->
-  <Group GraphId="e5b31" groupType="Complex" /> <!--b4ba6-->
-  <Group GraphId="c12ff" groupType="Complex" /> <!--d4480-->
-  <Group GraphId="d5e19" groupType="Complex" /> <!--e5fd5-->
+  <Group elementId="c3eed" /> <!--be79c-->
+  <Group elementId="c44d7" /> <!--b424d-->
+  <Group elementId="cf74b" /> <!--b1725-->
+  <Group elementId="b77cc" /> <!--bf781-->
+  <Group elementId="c36fc" /> <!--a0083-->
+  <Group elementId="f5a55" groupType="Complex" /> <!--f2f2d-->
+  <Group elementId="de1b4" groupType="Complex" /> <!--e4155-->
+  <Group elementId="e5b31" groupType="Complex" /> <!--b4ba6-->
+  <Group elementId="c12ff" groupType="Complex" /> <!--d4480-->
+  <Group elementId="d5e19" groupType="Complex" /> <!--e5fd5-->
   <InfoBox centerX="0.0" centerY="0.0" />
   <Biopax>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b42">

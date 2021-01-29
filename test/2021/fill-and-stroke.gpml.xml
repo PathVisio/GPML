@@ -1,318 +1,318 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Pathway xmlns="http://pathvisio.org/GPML/2021" name="test case" version="20210128">
   <Graphics boardHeight="656.165048543689" boardWidth="947.3016983016983" />
-  <DataNode GraphId="e3c6e" textLabel="GeneProduct" type="GeneProduct">
+  <DataNode elementId="e3c6e" textLabel="GeneProduct" type="GeneProduct">
     <Graphics centerX="56.06044356136091" centerY="109.29853181076673" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="a228c" textLabel="Metabolite" type="Metabolite">
+  <DataNode elementId="a228c" textLabel="Metabolite" type="Metabolite">
     <Graphics centerX="56.06044356136091" centerY="169.65742251223492" borderColor="0000ff" textColor="0000ff" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="ff173" textLabel="Pathway" type="Pathway">
+  <DataNode elementId="ff173" textLabel="Pathway" type="Pathway">
     <Graphics centerX="58.88538380651946" centerY="208.75920084121975" borderColor="14961e" textColor="14961e" fontSize="12" fontWeight="Bold" height="20.0" shapeType="None" vAlign="Middle" width="80.0" zOrder="32768" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="b3eb1" textLabel="GeneProduct" type="GeneProduct">
+  <DataNode elementId="b3eb1" textLabel="GeneProduct" type="GeneProduct">
     <Graphics centerX="207.9854027783263" centerY="109.29853181076672" fillColor="Transparent" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32785" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="a082d" textLabel="Metabolite" type="Metabolite">
+  <DataNode elementId="a082d" textLabel="Metabolite" type="Metabolite">
     <Graphics centerX="207.9854027783263" centerY="169.6574225122349" borderColor="0000ff" textColor="0000ff" fillColor="Transparent" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32786" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="db094" textLabel="GeneProduct" type="GeneProduct">
+  <DataNode elementId="db094" textLabel="GeneProduct" type="GeneProduct">
     <Graphics centerX="377.6428252905613" centerY="108.0768470904339" fillColor="00cc00" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32793" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="d72b9" textLabel="Metabolite" type="Metabolite">
+  <DataNode elementId="d72b9" textLabel="Metabolite" type="Metabolite">
     <Graphics centerX="377.6428252905613" centerY="168.43573779190214" borderColor="0000ff" textColor="0000ff" fillColor="00cc00" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32794" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="f42f6" textLabel="GeneProduct" type="GeneProduct">
+  <DataNode elementId="f42f6" textLabel="GeneProduct" type="GeneProduct">
     <Graphics centerX="517.6175369869663" centerY="110.64801277962485" borderColor="ff0000" textColor="ff0000" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32801" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="f2d67" textLabel="Metabolite" type="Metabolite">
+  <DataNode elementId="f2d67" textLabel="Metabolite" type="Metabolite">
     <Graphics centerX="517.6175369869663" centerY="171.00690348109302" borderColor="ff0000" textColor="ff0000" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32802" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="d6652" textLabel="GeneProduct" type="GeneProduct">
+  <DataNode elementId="d6652" textLabel="GeneProduct" type="GeneProduct">
     <Graphics centerX="651.3199591322942" centerY="108.53728613602622" borderColor="ff0000" textColor="ff0000" fillColor="00cc00" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32807" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="be98b" textLabel="Metabolite" type="Metabolite">
+  <DataNode elementId="be98b" textLabel="Metabolite" type="Metabolite">
     <Graphics centerX="651.3199591322942" centerY="168.89617683749432" borderColor="ff0000" textColor="ff0000" fillColor="00cc00" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32808" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="bf7e1" textLabel="Pathway" type="Pathway">
+  <DataNode elementId="bf7e1" textLabel="Pathway" type="Pathway">
     <Graphics centerX="202.42902208201897" centerY="208.75920084121975" borderColor="14961e" textColor="14961e" fontSize="12" fontWeight="Bold" height="20.0" shapeType="None" vAlign="Middle" width="80.0" zOrder="32814" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="e68ed" textLabel="Pathway" type="Pathway">
+  <DataNode elementId="e68ed" textLabel="Pathway" type="Pathway">
     <Graphics centerX="373.3123028391165" centerY="208.75920084121975" borderColor="14961e" textColor="14961e" fontSize="12" fontWeight="Bold" height="20.0" shapeType="None" vAlign="Middle" width="80.0" zOrder="32815" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="b2f40" textLabel="Pathway" type="Pathway">
+  <DataNode elementId="b2f40" textLabel="Pathway" type="Pathway">
     <Graphics centerX="516.8559411146157" centerY="208.75920084121975" borderColor="ff0000" textColor="ff0000" fontSize="12" fontWeight="Bold" height="20.0" shapeType="None" vAlign="Middle" width="80.0" zOrder="32816" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="a14a8" textLabel="Pathway" type="Pathway">
+  <DataNode elementId="a14a8" textLabel="Pathway" type="Pathway">
     <Graphics centerX="650.935856992638" centerY="208.75920084121975" borderColor="ff0000" textColor="ff0000" fillColor="00cc00" fontSize="12" fontWeight="Bold" height="20.0" shapeType="None" vAlign="Middle" width="80.0" zOrder="32817" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="a2021" textLabel="Pathway&#10;shape: r.rect" type="Pathway">
+  <DataNode elementId="a2021" textLabel="Pathway&#10;shape: r.rect" type="Pathway">
     <Graphics centerX="59.42166140904311" centerY="240.84121976866456" borderColor="14961e" textColor="14961e" fontSize="12" fontWeight="Bold" height="40.0" shapeType="RoundedRectangle" vAlign="Middle" width="100.0" zOrder="32818" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="bdb47" textLabel="Pathway&#10;shape: r.rect" type="Pathway">
+  <DataNode elementId="bdb47" textLabel="Pathway&#10;shape: r.rect" type="Pathway">
     <Graphics centerX="202.96529968454263" centerY="240.84121976866456" borderColor="14961e" textColor="14961e" fillColor="Transparent" fontSize="12" fontWeight="Bold" height="40.0" shapeType="RoundedRectangle" vAlign="Middle" width="100.0" zOrder="32819" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="e0950" textLabel="Pathway&#10;shape: r.rect" type="Pathway">
+  <DataNode elementId="e0950" textLabel="Pathway&#10;shape: r.rect" type="Pathway">
     <Graphics centerX="373.84858044164025" centerY="240.84121976866456" borderColor="14961e" textColor="14961e" fillColor="00cc00" fontSize="12" fontWeight="Bold" height="40.0" shapeType="RoundedRectangle" vAlign="Middle" width="100.0" zOrder="32820" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="e28e3" textLabel="Pathway&#10;shape: r.rect" type="Pathway">
+  <DataNode elementId="e28e3" textLabel="Pathway&#10;shape: r.rect" type="Pathway">
     <Graphics centerX="517.3922187171393" centerY="240.84121976866456" borderColor="ff0000" textColor="ff0000" fontSize="12" fontWeight="Bold" height="40.0" shapeType="RoundedRectangle" vAlign="Middle" width="100.0" zOrder="32821" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="dc3bc" textLabel="Pathway&#10;shape: r.rect" type="Pathway">
+  <DataNode elementId="dc3bc" textLabel="Pathway&#10;shape: r.rect" type="Pathway">
     <Graphics centerX="651.4721345951617" centerY="240.84121976866456" borderColor="ff0000" textColor="ff0000" fillColor="00cc00" fontSize="12" fontWeight="Bold" height="40.0" shapeType="RoundedRectangle" vAlign="Middle" width="100.0" zOrder="32822" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="b4342" GroupRef="a2288" textLabel="GeneProduct" type="GeneProduct">
+  <DataNode elementId="b4342" elementRef="a2288" textLabel="GeneProduct" type="GeneProduct">
     <Graphics centerX="805.6428509121224" centerY="140.80674874646604" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32924" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="efa6b" GroupRef="bcc7b" textLabel="GeneProduct" type="GeneProduct">
+  <DataNode elementId="efa6b" elementRef="bcc7b" textLabel="GeneProduct" type="GeneProduct">
     <Graphics centerX="805.6428509121226" centerY="249.78285796148293" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32926" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="aff6d" GroupRef="d570a" textLabel="GeneProduct" type="GeneProduct">
+  <DataNode elementId="aff6d" elementRef="d570a" textLabel="GeneProduct" type="GeneProduct">
     <Graphics centerX="805.6428509121226" centerY="368.997875026329" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32928" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="c0a78" GroupRef="ef522" textLabel="GeneProduct" type="GeneProduct">
+  <DataNode elementId="c0a78" elementRef="ef522" textLabel="GeneProduct" type="GeneProduct">
     <Graphics centerX="805.6428509121225" centerY="478.2128920911765" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32930" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="b24c5" GroupRef="b05e0" textLabel="GeneProduct" type="GeneProduct">
+  <DataNode elementId="b24c5" elementRef="b05e0" textLabel="GeneProduct" type="GeneProduct">
     <Graphics centerX="804.3059525164006" centerY="590.6761109085425" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32932" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <GraphicalLine GraphId="a0014">
+  <GraphicalLine elementId="a0014">
     <Graphics lineColor="ffff33" lineWidth="5.0" zOrder="-11">
       <Point x="187.3100085302312" y="76.34195847303447" />
       <Point x="187.31000853023113" y="622.3880501261713" />
     </Graphics>
   </GraphicalLine>
-  <GraphicalLine GraphId="bab68">
+  <GraphicalLine elementId="bab68">
     <Graphics lineColor="ffff33" lineWidth="5.0" zOrder="-9">
       <Point x="355.90031690027547" y="66.518169926779" />
       <Point x="355.90031690027547" y="612.5642615799167" />
     </Graphics>
   </GraphicalLine>
-  <GraphicalLine GraphId="dc328">
+  <GraphicalLine elementId="dc328">
     <Graphics lineColor="ffff33" lineWidth="5.0" zOrder="-8">
       <Point x="498.0589072086452" y="74.3155267549728" />
       <Point x="498.0589072086452" y="620.3616184081101" />
     </Graphics>
   </GraphicalLine>
-  <GraphicalLine GraphId="bbea7">
+  <GraphicalLine elementId="bbea7">
     <Graphics lineColor="ffff33" lineWidth="5.0" zOrder="-7">
       <Point x="631.4069248297905" y="77.70759723955429" />
       <Point x="631.4069248297905" y="623.7536888926917" />
     </Graphics>
   </GraphicalLine>
-  <GraphicalLine GraphId="dbc4c">
+  <GraphicalLine elementId="dbc4c">
     <Graphics lineColor="ffff33" lineWidth="5.0" zOrder="-6">
       <Point x="784.5787309971913" y="65.68116552149266" />
       <Point x="784.5787309971913" y="611.7272571746303" />
     </Graphics>
   </GraphicalLine>
-  <GraphicalLine GraphId="eb60f">
+  <GraphicalLine elementId="eb60f">
     <Graphics lineColor="ffff33" lineWidth="5.0" zOrder="-4">
       <Point x="35.23952394873337" y="66.34195847303447" />
       <Point x="35.239523948733314" y="612.3880501261713" />
     </Graphics>
   </GraphicalLine>
-  <GraphicalLine GraphId="c451b">
+  <GraphicalLine elementId="c451b">
     <Graphics lineWidth="1.0" zOrder="32939">
       <Point x="59.29238738485673" y="71.67235494880538" />
       <Point x="59.292387384856696" y="617.7184466019417" />
     </Graphics>
   </GraphicalLine>
-  <GraphicalLine GraphId="d2a4a">
+  <GraphicalLine elementId="d2a4a">
     <Graphics lineWidth="1.0" zOrder="32940">
       <Point x="206.42830971495383" y="74.39080155074714" />
       <Point x="206.4283097149538" y="620.4368932038835" />
     </Graphics>
   </GraphicalLine>
-  <GraphicalLine GraphId="beae0">
+  <GraphicalLine elementId="beae0">
     <Graphics lineWidth="1.0" zOrder="32941">
       <Point x="377.83607670524503" y="73.46847145365979" />
       <Point x="377.836076705245" y="619.5145631067958" />
     </Graphics>
   </GraphicalLine>
-  <GraphicalLine GraphId="d1eb8">
+  <GraphicalLine elementId="d1eb8">
     <Graphics lineWidth="1.0" zOrder="32942">
       <Point x="521.3312223363132" y="78.61410252162091" />
       <Point x="521.3312223363132" y="624.6601941747568" />
     </Graphics>
   </GraphicalLine>
-  <GraphicalLine GraphId="d9aec">
+  <GraphicalLine elementId="d9aec">
     <Graphics lineWidth="1.0" zOrder="32943">
       <Point x="652.6904456372839" y="80.11895689055295" />
       <Point x="652.6904456372839" y="626.165048543689" />
     </Graphics>
   </GraphicalLine>
-  <GraphicalLine GraphId="ebf90">
+  <GraphicalLine elementId="ebf90">
     <Graphics lineWidth="1.0" zOrder="32944">
       <Point x="805.8943291324306" y="68.27429669637824" />
       <Point x="805.8943291324305" y="614.3203883495137" />
     </Graphics>
   </GraphicalLine>
-  <Label GraphId="b7c56" textLabel="Label">
+  <Label elementId="b7c56" textLabel="Label">
     <Graphics centerX="56.06044356136091" centerY="500.75733794426054" fillColor="ffffff" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="28672" />
   </Label>
-  <Label GraphId="b1df7" textLabel="Default">
+  <Label elementId="b1df7" textLabel="Default">
     <Graphics centerX="58.1348747156478" centerY="53.66003036854314" fillColor="ffffff" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="28672" />
   </Label>
-  <Label GraphId="ef831" textLabel="Label">
+  <Label elementId="ef831" textLabel="Label">
     <Graphics centerX="207.98540277832626" centerY="500.7573379442606" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32789" />
   </Label>
-  <Label GraphId="e223b" textLabel="Label">
+  <Label elementId="e223b" textLabel="Label">
     <Graphics centerX="377.6428252905613" centerY="499.5356532239277" fillColor="00cc00" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32792" />
   </Label>
-  <Label GraphId="ee7b1" textLabel="Transparent = Checked">
+  <Label elementId="ee7b1" textLabel="Transparent = Checked">
     <Graphics centerX="212.5968491225297" centerY="53.66003036854314" fillColor="ffffff" fontSize="10" height="20.0" vAlign="Middle" width="118.05889691064982" zOrder="32795" />
   </Label>
-  <Label GraphId="bb7b7" textLabel="fillColor = 00CC00">
+  <Label elementId="bb7b7" textLabel="fillColor = 00CC00">
     <Graphics centerX="382.6314511986549" centerY="53.66003036854313" fillColor="ffffff" fontSize="10" height="20.0" vAlign="Middle" width="118.05889691064982" zOrder="32796" />
   </Label>
-  <Label GraphId="ce371" textLabel="Color = FF0000">
+  <Label elementId="ce371" textLabel="Color = FF0000">
     <Graphics centerX="520.9878525827376" centerY="53.66003036854313" fillColor="ffffff" fontSize="10" height="20.0" vAlign="Middle" width="89.51218410788172" zOrder="32799" />
   </Label>
-  <Label GraphId="bdc85" textLabel="Label">
+  <Label elementId="bdc85" textLabel="Label">
     <Graphics centerX="517.6175369869663" centerY="502.1068189131186" textColor="ff0000" fillColor="ffffff" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32800" />
   </Label>
-  <Label GraphId="b7cf6" textLabel="Color = FF0000&#10;fillColor = 00CC00">
+  <Label elementId="b7cf6" textLabel="Color = FF0000&#10;fillColor = 00CC00">
     <Graphics centerX="654.6902747280656" centerY="53.66003036854313" fillColor="ffffff" fontSize="10" height="39.28114610204509" vAlign="Middle" width="89.51218410788172" zOrder="32805" />
   </Label>
-  <Label GraphId="d84d8" textLabel="Label">
+  <Label elementId="d84d8" textLabel="Label">
     <Graphics centerX="651.3199591322942" centerY="499.9960922695199" textColor="ff0000" fillColor="00cc00" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32806" />
   </Label>
-  <Label GraphId="e7f00" textLabel="Label&#10;shape: rectangle">
+  <Label elementId="e7f00" textLabel="Label&#10;shape: rectangle">
     <Graphics centerX="58.69977058554598" centerY="557.3147042569001" fillColor="ffffff" fontSize="10" height="60.0" shapeType="Rectangle" vAlign="Middle" width="100.0" zOrder="32809" />
   </Label>
-  <Label GraphId="ee537" textLabel="Label&#10;shape: rectangle">
+  <Label elementId="ee537" textLabel="Label&#10;shape: rectangle">
     <Graphics centerX="210.62472980251133" centerY="557.3147042568999" fontSize="10" height="60.0" shapeType="Rectangle" vAlign="Middle" width="100.0" zOrder="32810" />
   </Label>
-  <Label GraphId="e3e70" textLabel="Label&#10;shape: rectangle">
+  <Label elementId="e3e70" textLabel="Label&#10;shape: rectangle">
     <Graphics centerX="380.2821523147465" centerY="557.3147042569001" fillColor="00cc00" fontSize="10" height="60.0" shapeType="Rectangle" vAlign="Middle" width="100.0" zOrder="32811" />
   </Label>
-  <Label GraphId="da3c8" textLabel="Label&#10;shape: rectangle">
+  <Label elementId="da3c8" textLabel="Label&#10;shape: rectangle">
     <Graphics centerX="520.2568640111515" centerY="557.3147042569001" textColor="ff0000" fillColor="ffffff" fontSize="10" height="60.0" shapeType="Rectangle" vAlign="Middle" width="100.0" zOrder="32812" />
   </Label>
-  <Label GraphId="ffa91" textLabel="Label&#10;shape: rectangle">
+  <Label elementId="ffa91" textLabel="Label&#10;shape: rectangle">
     <Graphics centerX="653.9592861564795" centerY="557.3147042569001" textColor="ff0000" fillColor="00cc00" fontSize="10" height="60.0" shapeType="Rectangle" vAlign="Middle" width="100.0" zOrder="32813" />
   </Label>
-  <Label GraphId="eb565" GroupRef="a2288" textLabel="Group&#10;Style: Pathway">
+  <Label elementId="eb565" elementRef="a2288" textLabel="Group&#10;Style: Pathway">
     <Graphics centerX="805.6428509121224" centerY="101.29443160529249" fillColor="ffffff" fontSize="10" height="39.01023890784963" vAlign="Middle" width="80.0" zOrder="32923" />
   </Label>
-  <Label GraphId="d10f8" GroupRef="bcc7b" textLabel="Group&#10;Style: None">
+  <Label elementId="d10f8" elementRef="bcc7b" textLabel="Group&#10;Style: None">
     <Graphics centerX="805.6428509121224" centerY="210.27054082030904" fillColor="ffffff" fontSize="10" height="39.01023890784963" vAlign="Middle" width="80.0" zOrder="32925" />
   </Label>
-  <Label GraphId="dfbe5" GroupRef="d570a" textLabel="Group&#10;Style: Complex">
+  <Label elementId="dfbe5" elementRef="d570a" textLabel="Group&#10;Style: Complex">
     <Graphics centerX="805.6428509121224" centerY="329.48555788515523" fillColor="ffffff" fontSize="10" height="39.01023890784963" vAlign="Middle" width="80.0" zOrder="32927" />
   </Label>
-  <Label GraphId="dbd8e" GroupRef="ef522" textLabel="Group&#10;Style: Complex">
+  <Label elementId="dbd8e" elementRef="ef522" textLabel="Group&#10;Style: Complex">
     <Graphics centerX="805.6428509121225" centerY="438.7005749500018" fillColor="ffffff" fontSize="10" height="39.01023890784963" vAlign="Middle" width="80.0" zOrder="32929" />
   </Label>
-  <Label GraphId="b8376" GroupRef="b05e0" textLabel="Group&#10;Style: Group">
+  <Label elementId="b8376" elementRef="b05e0" textLabel="Group&#10;Style: Group">
     <Graphics centerX="804.3059525164007" centerY="551.1637937673689" fillColor="ffffff" fontSize="10" height="39.01023890784963" vAlign="Middle" width="80.0" zOrder="32931" />
   </Label>
-  <Label GraphId="d1b24" textLabel="Groups">
+  <Label elementId="d1b24" textLabel="Groups">
     <Graphics centerX="806.473289475942" centerY="55.1648847374752" fillColor="ffffff" fontSize="10" height="20.0" vAlign="Middle" width="89.51218410788172" zOrder="32933" />
   </Label>
-  <Shape GraphId="b1514" textLabel="Rectangle">
+  <Shape elementId="b1514" textLabel="Rectangle">
     <Graphics centerX="56.06044356136093" centerY="304.7487735070671" fontSize="10" height="49.43964110929852" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="88.59135399673727" zOrder="16384" />
   </Shape>
-  <Shape GraphId="efd68" textLabel="Cell">
+  <Shape elementId="efd68" textLabel="Cell">
     <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
     <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
     <Graphics centerX="56.0604435613609" centerY="403.4437164108186" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="80.43474714518767" borderWidth="3.0" rotation="0.0" shapeType="RoundedRectangle" vAlign="Middle" width="104.9045676998366" zOrder="16384" />
   </Shape>
-  <Shape GraphId="d0405" textLabel="Rectangle">
+  <Shape elementId="d0405" textLabel="Rectangle">
     <Graphics centerX="207.9854027783263" centerY="304.7487735070671" fontSize="10" height="49.43964110929852" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="88.59135399673727" zOrder="32787" />
   </Shape>
-  <Shape GraphId="f53d5" textLabel="Cell">
+  <Shape elementId="f53d5" textLabel="Cell">
     <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
     <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
     <Graphics centerX="207.98540277832623" centerY="403.44371641081864" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="80.43474714518767" borderWidth="3.0" rotation="0.0" shapeType="RoundedRectangle" vAlign="Middle" width="104.9045676998366" zOrder="32788" />
   </Shape>
-  <Shape GraphId="d09a9" textLabel="Rectangle">
+  <Shape elementId="d09a9" textLabel="Rectangle">
     <Graphics centerX="377.6428252905607" centerY="303.5270887867342" fillColor="00cc00" fontSize="10" height="49.43964110929852" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="88.59135399673727" zOrder="32790" />
   </Shape>
-  <Shape GraphId="c4e68" textLabel="Cell">
+  <Shape elementId="c4e68" textLabel="Cell">
     <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
     <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
     <Graphics centerX="377.6428252905607" centerY="402.2220316904857" borderColor="c0c0c0" textColor="c0c0c0" fillColor="00cc00" fontSize="10" height="80.43474714518767" borderWidth="3.0" rotation="0.0" shapeType="RoundedRectangle" vAlign="Middle" width="104.9045676998366" zOrder="32791" />
   </Shape>
-  <Shape GraphId="d12b3" textLabel="Rectangle">
+  <Shape elementId="d12b3" textLabel="Rectangle">
     <Graphics centerX="517.6175369869645" centerY="306.0982544759253" borderColor="ff0000" textColor="ff0000" fontSize="10" height="49.43964110929852" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="88.59135399673727" zOrder="32797" />
   </Shape>
-  <Shape GraphId="df72f" textLabel="Cell">
+  <Shape elementId="df72f" textLabel="Cell">
     <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
     <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
     <Graphics centerX="517.6175369869645" centerY="404.79319737967666" borderColor="ff0000" textColor="ff0000" fontSize="10" height="80.43474714518767" borderWidth="3.0" rotation="0.0" shapeType="RoundedRectangle" vAlign="Middle" width="104.9045676998366" zOrder="32798" />
   </Shape>
-  <Shape GraphId="d9a1c" textLabel="Rectangle">
+  <Shape elementId="d9a1c" textLabel="Rectangle">
     <Graphics centerX="651.3199591322922" centerY="303.98752783232646" borderColor="ff0000" textColor="ff0000" fillColor="00cc00" fontSize="10" height="49.43964110929852" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="88.59135399673727" zOrder="32803" />
   </Shape>
-  <Shape GraphId="fc702" textLabel="Cell">
+  <Shape elementId="fc702" textLabel="Cell">
     <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
     <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
     <Graphics centerX="651.3199591322922" centerY="402.68247073607796" borderColor="ff0000" textColor="ff0000" fillColor="00cc00" fontSize="10" height="80.43474714518767" borderWidth="3.0" rotation="0.0" shapeType="RoundedRectangle" vAlign="Middle" width="104.9045676998366" zOrder="32804" />
   </Shape>
-  <Group GroupId="a2288" groupType="Pathway" />
-  <Group GroupId="bcc7b" />
-  <Group GroupId="d570a" groupType="Complex" />
-  <Group GroupId="ef522" groupType="Complex" />
-  <Group GroupId="b05e0" groupType="Group" />
-  <Group GroupId="ef404" groupType="Pathway" />
-  <Group GroupId="d4f4d" />
-  <Group GroupId="f5f14" groupType="Pathway" />
-  <Group GroupId="dabad" groupType="Complex" />
-  <Group GroupId="d3efe" groupType="Complex" />
-  <Group GroupId="e344a" />
-  <Group GroupId="b9a90" groupType="Group" />
-  <Group GroupId="a1819" />
-  <Group GroupId="bdbd5" groupType="Complex" />
-  <Group GroupId="dd397" groupType="Complex" />
-  <Group GroupId="c6dea" groupType="Group" />
-  <Group GroupId="f3aa6" groupType="Pathway" />
-  <Group GroupId="d60c3" />
-  <Group GroupId="f076f" groupType="Complex" />
-  <Group GroupId="fb9ec" groupType="Complex" />
-  <Group GroupId="c9248" groupType="Group" />
-  <Group GroupId="c37c6" groupType="Pathway" />
-  <Group GroupId="e7da4" />
-  <Group GroupId="cd1fe" groupType="Complex" />
-  <Group GroupId="aafff" groupType="Complex" />
-  <Group GroupId="a5562" groupType="Group" />
-  <Group GroupId="dafbf" groupType="Pathway" />
-  <Group GroupId="f8af0" />
-  <Group GroupId="a7477" groupType="Complex" />
-  <Group GroupId="df7d6" groupType="Complex" />
-  <Group GroupId="adfc6" groupType="Group" />
-  <Group GroupId="cfca4" groupType="Pathway" />
-  <Group GroupId="a6ae5" groupType="Group" />
-  <Group GroupId="dd0f6" groupType="Pathway" />
-  <Group GroupId="be8c4" />
-  <Group GroupId="ea625" groupType="Complex" />
-  <Group GroupId="eca10" groupType="Complex" />
+  <Group elementId="a2288" groupType="Pathway" />
+  <Group elementId="bcc7b" />
+  <Group elementId="d570a" groupType="Complex" />
+  <Group elementId="ef522" groupType="Complex" />
+  <Group elementId="b05e0" groupType="Group" />
+  <Group elementId="ef404" groupType="Pathway" />
+  <Group elementId="d4f4d" />
+  <Group elementId="f5f14" groupType="Pathway" />
+  <Group elementId="dabad" groupType="Complex" />
+  <Group elementId="d3efe" groupType="Complex" />
+  <Group elementId="e344a" />
+  <Group elementId="b9a90" groupType="Group" />
+  <Group elementId="a1819" />
+  <Group elementId="bdbd5" groupType="Complex" />
+  <Group elementId="dd397" groupType="Complex" />
+  <Group elementId="c6dea" groupType="Group" />
+  <Group elementId="f3aa6" groupType="Pathway" />
+  <Group elementId="d60c3" />
+  <Group elementId="f076f" groupType="Complex" />
+  <Group elementId="fb9ec" groupType="Complex" />
+  <Group elementId="c9248" groupType="Group" />
+  <Group elementId="c37c6" groupType="Pathway" />
+  <Group elementId="e7da4" />
+  <Group elementId="cd1fe" groupType="Complex" />
+  <Group elementId="aafff" groupType="Complex" />
+  <Group elementId="a5562" groupType="Group" />
+  <Group elementId="dafbf" groupType="Pathway" />
+  <Group elementId="f8af0" />
+  <Group elementId="a7477" groupType="Complex" />
+  <Group elementId="df7d6" groupType="Complex" />
+  <Group elementId="adfc6" groupType="Group" />
+  <Group elementId="cfca4" groupType="Pathway" />
+  <Group elementId="a6ae5" groupType="Group" />
+  <Group elementId="dd0f6" groupType="Pathway" />
+  <Group elementId="be8c4" />
+  <Group elementId="ea625" groupType="Complex" />
+  <Group elementId="eca10" groupType="Complex" />
   <InfoBox centerX="0.0" centerY="0.0" />
   <Biopax />
 </Pathway>

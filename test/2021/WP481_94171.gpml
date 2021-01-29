@@ -7,1017 +7,1017 @@
   <BiopaxRef>b27</BiopaxRef>
   <BiopaxRef>d3b</BiopaxRef>
   <Graphics boardWidth="1444.37125748503" boardHeight="1144.9700598802397" />
-  <DataNode textLabel="STXBP2" GraphId="a02" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="STXBP2" elementId="a02" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="STXBP2 | syntaxin binding protein 2" />
     <Graphics centerX="93.1736526946108" centerY="683.9520958083835" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6813" />
   </DataNode>
-  <DataNode textLabel="PIK3CD" GraphId="a0e" type="GeneProduct" GroupRef="e58f8">
+  <DataNode textLabel="PIK3CD" elementId="a0e" type="GeneProduct" elementRef="e58f8">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PIK3CD | phosphoinositide-3-kinase catalytic ..." />
     <Graphics centerX="300.1131279760232" centerY="207.00686401491697" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5293" />
   </DataNode>
-  <DataNode textLabel="PIK3C3" GraphId="a11" type="GeneProduct" GroupRef="e58f8">
+  <DataNode textLabel="PIK3C3" elementId="a11" type="GeneProduct" elementRef="e58f8">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PIK3C3 | phosphoinositide-3-kinase class 3" />
     <Graphics centerX="300.1131279760232" centerY="287.00686401491697" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5289" />
   </DataNode>
-  <DataNode textLabel="PSCD3" GraphId="a12" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="PSCD3" elementId="a12" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PSCD3 | pleckstrin homology Sec7 and coiled-co..." />
     <Graphics centerX="93.1736526946108" centerY="1020.6187624750502" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="9265" />
     <Xref dataSource="Entrez Gene" identifier="9265" />
   </DataNode>
-  <DataNode textLabel="PTPRF" GraphId="a14" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="PTPRF" elementId="a14" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PTPRF | protein tyrosine phosphatase receptor ..." />
     <Graphics centerX="692.5476010510024" centerY="851.1517834647086" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5792" />
   </DataNode>
-  <DataNode textLabel="RAC1" GraphId="a24" type="GeneProduct" GroupRef="d0df9">
+  <DataNode textLabel="RAC1" elementId="a24" type="GeneProduct" elementRef="d0df9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="RAC1 | ras-related C3 botulinum toxin substrate..." />
     <Graphics centerX="1132.3688495349936" centerY="281.94862493994844" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5879" />
   </DataNode>
-  <DataNode textLabel="GSK3B" GraphId="a2b" type="GeneProduct" GroupRef="bb23b">
+  <DataNode textLabel="GSK3B" elementId="a2b" type="GeneProduct" elementRef="bb23b">
     <Attribute key="org.pathvisio.model.BackpageHead" value="GSK3B | glycogen synthase kinase 3 beta" />
     <Graphics centerX="213.4331337325348" centerY="497.8642714570859" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="2932" />
   </DataNode>
-  <DataNode textLabel="PTP" GraphId="a2c5c" type="GeneProduct">
+  <DataNode textLabel="PTP" elementId="a2c5c" type="GeneProduct">
     <BiopaxRef>e4b</BiopaxRef>
     <Graphics centerX="505.6607637764101" centerY="174.40172047655048" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5967" />
   </DataNode>
-  <DataNode textLabel="MINK1" GraphId="a2e" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MINK1" elementId="a2e" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MINK1 | misshapen-like kinase 1 (zebrafish)" />
     <Graphics centerX="1094.4378709740563" centerY="789.3333333333334" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="50488" />
   </DataNode>
-  <DataNode textLabel="GRB2" GraphId="a38" type="GeneProduct" GroupRef="d0df9">
+  <DataNode textLabel="GRB2" elementId="a38" type="GeneProduct" elementRef="d0df9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="GRB2 | growth factor receptor-bound protein 2" />
     <Graphics centerX="1132.3688495349936" centerY="208.615291606615" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="2885" />
   </DataNode>
-  <DataNode textLabel="SHC3" GraphId="a41" type="GeneProduct" GroupRef="bcaa0">
+  <DataNode textLabel="SHC3" elementId="a41" type="GeneProduct" elementRef="bcaa0">
     <Attribute key="org.pathvisio.model.BackpageHead" value="SHC3 | SHC (Src homology 2 domain containing) t..." />
     <Graphics centerX="732.2954091816365" centerY="255.30938123752483" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="53358" />
   </DataNode>
-  <DataNode textLabel="IRS1" GraphId="a45" type="GeneProduct" GroupRef="bcaa0">
+  <DataNode textLabel="IRS1" elementId="a45" type="GeneProduct" elementRef="bcaa0">
     <Attribute key="org.pathvisio.model.BackpageHead" value="IRS1 | insulin receptor substrate 1" />
     <Graphics centerX="651.1261489560067" centerY="215.26526883537008" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="3667" />
   </DataNode>
-  <DataNode textLabel="SLC2A1" GraphId="a4f" type="GeneProduct">
+  <DataNode textLabel="SLC2A1" elementId="a4f" type="GeneProduct">
     <Attribute key="org.pathvisio.model.BackpageHead" value="SLC2A1 | solute carrier family 2 (facilitated g..." />
     <Graphics centerX="204.66666666666634" centerY="103.33333333333333" width="46.666666666666664" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6513" />
   </DataNode>
-  <DataNode textLabel="RPS6KA4" GraphId="ab4" type="GeneProduct" GroupRef="e8e46">
+  <DataNode textLabel="RPS6KA4" elementId="ab4" type="GeneProduct" elementRef="e8e46">
     <Attribute key="org.pathvisio.model.BackpageHead" value="RPS6KA4 | ribosomal protein S6 kinase 90kDa p..." />
     <Graphics centerX="1132.3671933020744" centerY="1016.0798506289308" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="8986" />
   </DataNode>
-  <DataNode textLabel="IKBKB" GraphId="abe" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="IKBKB" elementId="abe" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="IKBKB | inhibitor of kappa light polypeptide ge..." />
     <Graphics centerX="692.5476010510024" centerY="1051.1517834647086" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="3551" />
   </DataNode>
-  <DataNode textLabel="MAP4K4" GraphId="ac2" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP4K4" elementId="ac2" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP4K4 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1169.1045376407237" centerY="727.9999999999997" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="9448" />
   </DataNode>
-  <DataNode textLabel="SOCS3" GraphId="ac6" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="SOCS3" elementId="ac6" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="SOCS3 | suppressor of cytokine signaling 3" />
     <Graphics centerX="692.5476010510024" centerY="1031.1517834647086" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="9021" />
   </DataNode>
-  <DataNode textLabel="PRKCH" GraphId="ad5" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="PRKCH" elementId="ad5" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PRKCH | protein kinase C eta" />
     <Graphics centerX="785.2076734124882" centerY="910.4644635790504" width="73.33333333333333" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5583" />
   </DataNode>
-  <DataNode textLabel="KIF5B" GraphId="adf" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="KIF5B" elementId="adf" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="KIF5B | kinesin family member 5B" />
     <Graphics centerX="177.7644710578845" centerY="819.421157684631" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="3799" />
   </DataNode>
-  <DataNode textLabel="IRS1/2" GraphId="ae8b4" type="GeneProduct" GroupRef="c21a5">
+  <DataNode textLabel="IRS1/2" elementId="ae8b4" type="GeneProduct" elementRef="c21a5">
     <Graphics centerX="501.5673981191225" centerY="374.23197492163024" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="3667" />
   </DataNode>
-  <DataNode textLabel="EHD2" GraphId="aea" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="EHD2" elementId="aea" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="EHD2 | EH-domain containing 2" />
     <Graphics centerX="93.1736526946108" centerY="980.6187624750502" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="30846" />
   </DataNode>
-  <DataNode textLabel="ARF6" GraphId="aef" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="ARF6" elementId="aef" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="ARF6 | ADP-ribosylation factor 6" />
     <Graphics centerX="93.1736526946108" centerY="860.6187624750502" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="382" />
   </DataNode>
-  <DataNode textLabel="GYG" GraphId="af4" type="GeneProduct" GroupRef="a7ec4">
+  <DataNode textLabel="GYG" elementId="af4" type="GeneProduct" elementRef="a7ec4">
     <Attribute key="org.pathvisio.model.BackpageHead" value="GYG | glycogenin" />
     <Graphics centerX="486.6666666666667" centerY="967.9404671921678" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="2992" />
   </DataNode>
-  <DataNode textLabel="AKT2" GraphId="af6" type="GeneProduct" GroupRef="bb23b">
+  <DataNode textLabel="AKT2" elementId="af6" type="GeneProduct" elementRef="bb23b">
     <Attribute key="org.pathvisio.model.BackpageHead" value="AKT2 | v-akt murine thymoma viral oncogene homo..." />
     <Graphics centerX="213.4331337325348" centerY="457.8642714570859" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="208" />
   </DataNode>
-  <DataNode textLabel="SRF" GraphId="aff" type="GeneProduct" GroupRef="c6600">
+  <DataNode textLabel="SRF" elementId="aff" type="GeneProduct" elementRef="c6600">
     <Attribute key="org.pathvisio.model.BackpageHead" value="SRF | serum response factor (c-fos serum respon..." />
     <Graphics centerX="379.1304336581127" centerY="689.1543874781481" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6722" />
   </DataNode>
-  <DataNode textLabel="MAP3K2" GraphId="b07" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP3K2" elementId="b07" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP3K2 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1169.1045376407237" centerY="427.9999999999999" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="10746" />
   </DataNode>
-  <DataNode textLabel="RAB4A" GraphId="b0e" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="RAB4A" elementId="b0e" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="RAB4A | RAB4A member RAS oncogene family" />
     <Graphics centerX="93.1736526946108" centerY="920.6187624750502" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5867" />
   </DataNode>
-  <DataNode textLabel="PRKCD" GraphId="b10" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="PRKCD" elementId="b10" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PRKCD | protein kinase C delta" />
     <Graphics centerX="785.2076734124882" centerY="890.4644635790504" width="73.33333333333333" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5580" />
   </DataNode>
-  <DataNode textLabel="AKT1" GraphId="b14" type="GeneProduct" GroupRef="bb23b">
+  <DataNode textLabel="AKT1" elementId="b14" type="GeneProduct" elementRef="bb23b">
     <Attribute key="org.pathvisio.model.BackpageHead" value="AKT1 | v-akt murine thymoma viral oncogene homo..." />
     <Graphics centerX="213.4331337325348" centerY="437.8642714570859" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="207" />
   </DataNode>
-  <DataNode textLabel="CAP1" GraphId="b15" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="CAP1" elementId="b15" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="CAP1 | CAP adenylate cyclase-associated protei..." />
     <Graphics centerX="181.0978043912178" centerY="632.7544910179644" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="10487" />
   </DataNode>
-  <DataNode textLabel="RHEB" GraphId="b1c" type="GeneProduct">
+  <DataNode textLabel="RHEB" elementId="b1c" type="GeneProduct">
     <Attribute key="org.pathvisio.model.BackpageHead" value="RHEB | Ras homolog enriched in brain" />
     <Graphics centerX="746.0000000000002" centerY="505.88822355289403" width="113.33333333333333" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6009" />
   </DataNode>
-  <DataNode textLabel="PFKM" GraphId="b2b" type="GeneProduct" GroupRef="a7ec4">
+  <DataNode textLabel="PFKM" elementId="b2b" type="GeneProduct" elementRef="a7ec4">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PFKM | phosphofructokinase muscle" />
     <Graphics centerX="486.6666666666667" centerY="847.9404671921678" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5213" />
   </DataNode>
-  <DataNode textLabel="STXBP1" GraphId="b47" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="STXBP1" elementId="b47" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="STXBP1 | syntaxin binding protein 1" />
     <Graphics centerX="93.1736526946108" centerY="663.9520958083835" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6812" />
   </DataNode>
-  <DataNode textLabel="PIK3R3" GraphId="b59" type="GeneProduct" GroupRef="e58f8">
+  <DataNode textLabel="PIK3R3" elementId="b59" type="GeneProduct" elementRef="e58f8">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PIK3R3 | phosphoinositide-3-kinase regulatory ..." />
     <Graphics centerX="372.56821779638204" centerY="207.006864014917" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="8503" />
   </DataNode>
-  <DataNode textLabel="MAPK12" GraphId="b5a" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAPK12" elementId="b5a" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAPK12 | mitogen-activated protein kinase 12" />
     <Graphics centerX="1094.4378709740563" centerY="589.3333333333334" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6300" />
   </DataNode>
-  <DataNode textLabel="PIK3R1" GraphId="b62" type="GeneProduct" GroupRef="e58f8">
+  <DataNode textLabel="PIK3R1" elementId="b62" type="GeneProduct" elementRef="e58f8">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PIK3R1 | phosphoinositide-3-kinase regulatory ..." />
     <Graphics centerX="372.56821779638204" centerY="167.006864014917" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5295" />
   </DataNode>
-  <DataNode textLabel="MAP3K5" GraphId="b67" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP3K5" elementId="b67" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP3K5 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1169.1045376407237" centerY="487.9999999999999" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="4217" />
   </DataNode>
-  <DataNode textLabel="IRS2" GraphId="b8a" type="GeneProduct" GroupRef="bcaa0">
+  <DataNode textLabel="IRS2" elementId="b8a" type="GeneProduct" elementRef="bcaa0">
     <Attribute key="org.pathvisio.model.BackpageHead" value="IRS2 | insulin receptor substrate 2" />
     <Graphics centerX="651.1261489560067" centerY="235.26526883537008" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="8660" />
   </DataNode>
-  <DataNode textLabel="PIK3C2G" GraphId="bac" type="GeneProduct" GroupRef="e58f8">
+  <DataNode textLabel="PIK3C2G" elementId="bac" type="GeneProduct" elementRef="e58f8">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PIK3C2G | phosphoinositide-3-kinase class 2 g..." />
     <Graphics centerX="300.1131279760232" centerY="267.00686401491697" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5288" />
   </DataNode>
-  <DataNode textLabel="PIK3R2" GraphId="bad" type="GeneProduct" GroupRef="e58f8">
+  <DataNode textLabel="PIK3R2" elementId="bad" type="GeneProduct" elementRef="e58f8">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PIK3R2 | phosphoinositide-3-kinase regulatory ..." />
     <Graphics centerX="372.56821779638204" centerY="187.006864014917" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5296" />
   </DataNode>
-  <DataNode textLabel="MAPK10" GraphId="bae" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAPK10" elementId="bae" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAPK10 | mitogen-activated protein kinase 10" />
     <Graphics centerX="1094.4378709740563" centerY="549.3333333333334" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5602" />
   </DataNode>
-  <DataNode textLabel="MAP3K3" GraphId="bdd" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP3K3" elementId="bdd" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP3K3 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1169.1045376407237" centerY="447.99999999999983" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="4215" />
   </DataNode>
-  <DataNode textLabel="MAP4K1" GraphId="be2" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP4K1" elementId="be2" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP4K1 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1094.4378709740563" centerY="689.3333333333333" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="11184" />
   </DataNode>
-  <DataNode textLabel="MAPK3" GraphId="bf3" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAPK3" elementId="bf3" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAPK3 | mitogen-activated protein kinase 3" />
     <Graphics centerX="1094.4378709740563" centerY="429.3333333333333" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5595" />
   </DataNode>
-  <DataNode textLabel="RPS6KA3" GraphId="bf9" type="GeneProduct" GroupRef="e8e46">
+  <DataNode textLabel="RPS6KA3" elementId="bf9" type="GeneProduct" elementRef="e8e46">
     <Attribute key="org.pathvisio.model.BackpageHead" value="RPS6KA3 | ribosomal protein S6 kinase 90kDa p..." />
     <Graphics centerX="1132.3671933020744" centerY="996.0798506289308" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6197" />
   </DataNode>
-  <DataNode textLabel="PTEN" GraphId="bfc" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="PTEN" elementId="bfc" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PTEN | phosphatase and tensin homolog (mutated ..." />
     <Graphics centerX="692.5476010510024" centerY="911.1517834647086" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5728" />
   </DataNode>
-  <DataNode textLabel="ELK1" GraphId="c00" type="GeneProduct" GroupRef="c6600">
+  <DataNode textLabel="ELK1" elementId="c00" type="GeneProduct" elementRef="c6600">
     <Attribute key="org.pathvisio.model.BackpageHead" value="ELK1 | ELK1 member of ETS oncogene family" />
     <Graphics centerX="379.1304336581127" centerY="669.1543874781481" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="2002" />
   </DataNode>
-  <DataNode textLabel="SHC1" GraphId="c06" type="GeneProduct" GroupRef="bcaa0">
+  <DataNode textLabel="SHC1" elementId="c06" type="GeneProduct" elementRef="bcaa0">
     <Attribute key="org.pathvisio.model.BackpageHead" value="SHC1 | SHC (Src homology 2 domain containing) t..." />
     <Graphics centerX="732.2954091816365" centerY="215.30938123752486" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6464" />
   </DataNode>
-  <DataNode textLabel="CRK" GraphId="c09" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="CRK" elementId="c09" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="CRK | v-crk sarcoma virus CT10 oncogene homolog..." />
     <Graphics centerX="181.0978043912178" centerY="712.7544910179644" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="1398" />
   </DataNode>
-  <DataNode textLabel="TRIB3" GraphId="c11" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="TRIB3" elementId="c11" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="TRIB3 | tribbles homolog 3 (Drosophila)" />
     <Graphics centerX="785.2076734124882" centerY="990.4644635790504" width="73.33333333333333" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="57761" />
   </DataNode>
-  <DataNode textLabel="STXBP4" GraphId="c17" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="STXBP4" elementId="c17" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="STXBP4 | syntaxin binding protein 4" />
     <Graphics centerX="93.1736526946108" centerY="723.9520958083835" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="252983" />
   </DataNode>
-  <DataNode textLabel="RPS6KA6" GraphId="c19" type="GeneProduct" GroupRef="e8e46">
+  <DataNode textLabel="RPS6KA6" elementId="c19" type="GeneProduct" elementRef="e8e46">
     <Attribute key="org.pathvisio.model.BackpageHead" value="RPS6KA6 | ribosomal protein S6 kinase 90kDa p..." />
     <Graphics centerX="1132.3671933020744" centerY="1056.0798506289307" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="27330" />
   </DataNode>
-  <DataNode textLabel="INSR" GraphId="c27" type="GeneProduct">
+  <DataNode textLabel="INSR" elementId="c27" type="GeneProduct">
     <Attribute key="org.pathvisio.model.BackpageHead" value="INSR | insulin receptor" />
     <Graphics centerX="616.6666666666666" centerY="103.33333333333333" width="113.33333333333333" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="3643" />
   </DataNode>
-  <DataNode textLabel="XBP1" GraphId="c3e" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="XBP1" elementId="c3e" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="XBP1 | X-box binding protein 1" />
     <Graphics centerX="692.5476010510024" centerY="1071.1517834647086" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="7494" />
   </DataNode>
-  <DataNode textLabel="FOXO1A" GraphId="c41" type="GeneProduct" GroupRef="c6600">
+  <DataNode textLabel="FOXO1A" elementId="c41" type="GeneProduct" elementRef="c6600">
     <Attribute key="org.pathvisio.model.BackpageHead" value="FOXO1A | forkhead box O1A (rhabdomyosarcoma)" />
     <Graphics centerX="379.1304336581127" centerY="629.1543874781481" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="2308" />
   </DataNode>
-  <DataNode textLabel="EIF4EBP1" GraphId="c46" type="GeneProduct" GroupRef="a1f56">
+  <DataNode textLabel="EIF4EBP1" elementId="c46" type="GeneProduct" elementRef="a1f56">
     <Attribute key="org.pathvisio.model.BackpageHead" value="EIF4EBP1 | eukaryotic translation initiation fa..." />
     <Graphics centerX="838.6775152858091" centerY="670.0998003992019" width="113.33333333333333" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="1978" />
   </DataNode>
-  <DataNode textLabel="TBC1D4" GraphId="c48" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="TBC1D4" elementId="c48" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="TBC1D4 | TBC1 domain family member 4" />
     <Graphics centerX="93.1736526946108" centerY="880.6187624750502" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="9882" />
   </DataNode>
-  <DataNode textLabel="PRKCB1" GraphId="c4e" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="PRKCB1" elementId="c4e" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PRKCB1 | protein kinase C beta 1" />
     <Graphics centerX="785.2076734124882" centerY="870.4644635790504" width="73.33333333333333" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5579" />
   </DataNode>
-  <DataNode textLabel="MAP2K7" GraphId="c52" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP2K7" elementId="c52" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP2K7 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1169.1045376407237" centerY="747.9999999999998" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5609" />
   </DataNode>
-  <DataNode textLabel="RPS6KB2" GraphId="c54" type="GeneProduct" GroupRef="dcaa7">
+  <DataNode textLabel="RPS6KB2" elementId="c54" type="GeneProduct" elementRef="dcaa7">
     <Attribute key="org.pathvisio.model.BackpageHead" value="RPS6KB2 | ribosomal protein S6 kinase 70kDa p..." />
     <Graphics centerX="662.2475049900203" centerY="688.2355289421162" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6199" />
   </DataNode>
-  <DataNode textLabel="SOS1" GraphId="c61" type="GeneProduct" GroupRef="d0df9">
+  <DataNode textLabel="SOS1" elementId="c61" type="GeneProduct" elementRef="d0df9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="SOS1 | son of sevenless homolog 1 (Drosophila)" />
     <Graphics centerX="1132.3688495349936" centerY="281.94862493994844" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6654" />
   </DataNode>
-  <DataNode textLabel="RAC2" GraphId="c74" type="GeneProduct" GroupRef="d0df9">
+  <DataNode textLabel="RAC2" elementId="c74" type="GeneProduct" elementRef="d0df9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="RAC2 | ras-related C3 botulinum toxin substrate..." />
     <Graphics centerX="1132.3688495349936" centerY="301.9486249399485" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5880" />
   </DataNode>
-  <DataNode textLabel="FOS" GraphId="c75" type="GeneProduct" GroupRef="c6600">
+  <DataNode textLabel="FOS" elementId="c75" type="GeneProduct" elementRef="c6600">
     <Attribute key="org.pathvisio.model.BackpageHead" value="FOS | v-fos FBJ murine osteosarcoma viral oncog..." />
     <Graphics centerX="379.1304336581127" centerY="729.1543874781481" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="2353" />
   </DataNode>
-  <DataNode textLabel="PIK3CG" GraphId="c78" type="GeneProduct" GroupRef="e58f8">
+  <DataNode textLabel="PIK3CG" elementId="c78" type="GeneProduct" elementRef="e58f8">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PIK3CG | phosphoinositide-3-kinase catalytic ..." />
     <Graphics centerX="300.1131279760232" centerY="227.00686401491697" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5294" />
   </DataNode>
-  <DataNode textLabel="RRAD" GraphId="c81" type="GeneProduct" GroupRef="d0df9">
+  <DataNode textLabel="RRAD" elementId="c81" type="GeneProduct" elementRef="d0df9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="RRAD | Ras-related associated with diabetes" />
     <Graphics centerX="1132.3688495349936" centerY="261.94862493994844" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6236" />
   </DataNode>
-  <DataNode textLabel="PIK3" GraphId="c8b78" type="GeneProduct" GroupRef="c21a5">
+  <DataNode textLabel="PIK3" elementId="c8b78" type="GeneProduct" elementRef="c21a5">
     <Graphics centerX="501.5673981191225" centerY="354.2319749216303" width="80.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Ensembl" identifier="ENSG00000121879" />
   </DataNode>
-  <DataNode textLabel="IRS4" GraphId="c8c" type="GeneProduct" GroupRef="bcaa0">
+  <DataNode textLabel="IRS4" elementId="c8c" type="GeneProduct" elementRef="bcaa0">
     <Attribute key="org.pathvisio.model.BackpageHead" value="IRS4 | insulin receptor substrate 4" />
     <Graphics centerX="651.1261489560067" centerY="255.2652688353701" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="8471" />
   </DataNode>
-  <DataNode textLabel="SGKL" GraphId="c8d" type="GeneProduct" GroupRef="bb23b">
+  <DataNode textLabel="SGKL" elementId="c8d" type="GeneProduct" elementRef="bb23b">
     <Attribute key="org.pathvisio.model.BackpageHead" value="SGKL | serum/glucocorticoid regulated kinase-li..." />
     <Graphics centerX="293.2335329341311" centerY="460.2594810379243" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="23678" />
   </DataNode>
-  <DataNode textLabel="APS" GraphId="c98" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="APS" elementId="c98" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="APS | adaptor protein with pleckstrin homology ..." />
     <Graphics centerX="93.1736526946108" centerY="940.6187624750502" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="10603" />
   </DataNode>
-  <DataNode textLabel="MAPK13" GraphId="ca1" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAPK13" elementId="ca1" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAPK13 | mitogen-activated protein kinase 13" />
     <Graphics centerX="1169.1045376407237" centerY="607.9999999999999" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5603" />
   </DataNode>
-  <DataNode textLabel="GYS1" GraphId="ca6" type="GeneProduct" GroupRef="a7ec4">
+  <DataNode textLabel="GYS1" elementId="ca6" type="GeneProduct" elementRef="a7ec4">
     <Attribute key="org.pathvisio.model.BackpageHead" value="GYS1 | glycogen synthase 1 (muscle)" />
     <Graphics centerX="486.6666666666667" centerY="907.9404671921678" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="2997" />
   </DataNode>
-  <DataNode textLabel="TSC2" GraphId="ca9" type="GeneProduct" GroupRef="aed8b">
+  <DataNode textLabel="TSC2" elementId="ca9" type="GeneProduct" elementRef="aed8b">
     <Attribute key="org.pathvisio.model.BackpageHead" value="TSC2 | tuberous sclerosis 2" />
     <Graphics centerX="745.5148832019582" centerY="448.085220337858" width="113.33333333333333" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="7249" />
   </DataNode>
-  <DataNode textLabel="PIK3CB" GraphId="cb5" type="GeneProduct" GroupRef="e58f8">
+  <DataNode textLabel="PIK3CB" elementId="cb5" type="GeneProduct" elementRef="e58f8">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PIK3CB | phosphoinositide-3-kinase catalytic ..." />
     <Graphics centerX="300.1131279760232" centerY="187.00686401491697" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5291" />
   </DataNode>
-  <DataNode textLabel="EHD1" GraphId="cc4" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="EHD1" elementId="cc4" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="EHD1 | EH-domain containing 1" />
     <Graphics centerX="93.1736526946108" centerY="960.6187624750502" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="10938" />
   </DataNode>
-  <DataNode textLabel="MAP3K1" GraphId="ccf" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP3K1" elementId="ccf" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP3K1 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1169.1045376407237" centerY="407.99999999999983" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="4214" />
   </DataNode>
-  <DataNode textLabel="MAP4K3" GraphId="cd1" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP4K3" elementId="cd1" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP4K3 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1094.4378709740563" centerY="729.3333333333334" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="8491" />
   </DataNode>
-  <DataNode textLabel="ENPP1" GraphId="cd8" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="ENPP1" elementId="cd8" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="ENPP1 | ectonucleotide pyrophosphatase/phosphod..." />
     <Graphics centerX="692.5476010510024" centerY="891.1517834647086" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5167" />
   </DataNode>
-  <DataNode textLabel="MAP2K6" GraphId="cdb" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP2K6" elementId="cdb" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP2K6 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1094.4378709740563" centerY="749.3333333333334" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5608" />
   </DataNode>
-  <DataNode textLabel="SNX26" GraphId="cdc" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="SNX26" elementId="cdc" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="SNX26 | sorting nexin 26" />
     <Graphics centerX="93.1736526946108" centerY="1000.6187624750502" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="115703" />
   </DataNode>
-  <DataNode textLabel="SLC2A4" GraphId="ce3" type="GeneProduct">
+  <DataNode textLabel="SLC2A4" elementId="ce3" type="GeneProduct">
     <Attribute key="org.pathvisio.model.BackpageHead" value="SLC2A4 | solute carrier family 2 (facilitated g..." />
     <Graphics centerX="96.66666666666667" centerY="103.33333333333333" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6517" />
   </DataNode>
-  <DataNode textLabel="MAP3K8" GraphId="cee" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP3K8" elementId="cee" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP3K8 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1169.1045376407237" centerY="547.9999999999999" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="1326" />
   </DataNode>
-  <DataNode textLabel="PFKL" GraphId="d06" type="GeneProduct" GroupRef="a7ec4">
+  <DataNode textLabel="PFKL" elementId="d06" type="GeneProduct" elementRef="a7ec4">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PFKL | phosphofructokinase liver" />
     <Graphics centerX="486.6666666666667" centerY="867.9404671921678" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5211" />
   </DataNode>
-  <DataNode textLabel="TSC1" GraphId="d0b" type="GeneProduct" GroupRef="aed8b">
+  <DataNode textLabel="TSC1" elementId="d0b" type="GeneProduct" elementRef="aed8b">
     <Attribute key="org.pathvisio.model.BackpageHead" value="TSC1 | tuberous sclerosis 1" />
     <Graphics centerX="745.5148832019582" centerY="428.085220337858" width="113.33333333333333" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="7248" />
   </DataNode>
-  <DataNode textLabel="MAP3K12" GraphId="d13" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP3K12" elementId="d13" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP3K12 | mitogen-activated protein kinase kina..." />
     <Graphics centerX="1169.1045376407237" centerY="627.9999999999998" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="7786" />
   </DataNode>
-  <DataNode textLabel="RPS6KA5" GraphId="d16" type="GeneProduct" GroupRef="e8e46">
+  <DataNode textLabel="RPS6KA5" elementId="d16" type="GeneProduct" elementRef="e8e46">
     <Attribute key="org.pathvisio.model.BackpageHead" value="RPS6KA5 | ribosomal protein S6 kinase 90kDa p..." />
     <Graphics centerX="1132.3671933020744" centerY="1036.0798506289307" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="9252" />
   </DataNode>
-  <DataNode textLabel="STX4A" GraphId="d1b" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="STX4A" elementId="d1b" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="STX4A | syntaxin 4A (placental)" />
     <Graphics centerX="93.1736526946108" centerY="763.9520958083835" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6810" />
   </DataNode>
-  <DataNode textLabel="IGF1R" GraphId="d20" type="GeneProduct">
+  <DataNode textLabel="IGF1R" elementId="d20" type="GeneProduct">
     <Attribute key="org.pathvisio.model.BackpageHead" value="IGF1R | insulin-like growth factor 1 receptor" />
     <Graphics centerX="763.3333333333334" centerY="103.33333333333333" width="100.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="3480" />
   </DataNode>
-  <DataNode textLabel="PRKCZ" GraphId="d24" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="PRKCZ" elementId="d24" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PRKCZ | protein kinase C zeta" />
     <Graphics centerX="785.2076734124882" centerY="970.4644635790504" width="73.33333333333333" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5590" />
   </DataNode>
-  <DataNode textLabel="SNAP25" GraphId="d37" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="SNAP25" elementId="d37" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="SNAP25 | synaptosomal-associated protein 25kDa..." />
     <Graphics centerX="93.1736526946108" centerY="807.2854291417169" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6616" />
   </DataNode>
-  <DataNode textLabel="MAP2K4" GraphId="d40" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP2K4" elementId="d40" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP2K4 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1169.1045376407237" centerY="687.9999999999998" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6416" />
   </DataNode>
-  <DataNode textLabel="GRB14" GraphId="d43" type="GeneProduct" GroupRef="d0df9">
+  <DataNode textLabel="GRB14" elementId="d43" type="GeneProduct" elementRef="d0df9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="GRB14 | growth factor receptor-bound protein 14..." />
     <Graphics centerX="1132.3688495349936" centerY="248.615291606615" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="2888" />
   </DataNode>
-  <DataNode textLabel="PRKCQ" GraphId="d4c" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="PRKCQ" elementId="d4c" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PRKCQ | protein kinase C theta" />
     <Graphics centerX="785.2076734124882" centerY="950.4644635790504" width="73.33333333333333" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5588" />
   </DataNode>
-  <DataNode textLabel="RPS6KA1" GraphId="d50" type="GeneProduct" GroupRef="e8e46">
+  <DataNode textLabel="RPS6KA1" elementId="d50" type="GeneProduct" elementRef="e8e46">
     <Attribute key="org.pathvisio.model.BackpageHead" value="RPS6KA1 | ribosomal protein S6 kinase 90kDa p..." />
     <Graphics centerX="1132.3671933020744" centerY="956.0798506289308" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6195" />
   </DataNode>
-  <DataNode textLabel="MAPK7" GraphId="d54" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAPK7" elementId="d54" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAPK7 | mitogen-activated protein kinase 7" />
     <Graphics centerX="1094.4378709740563" centerY="489.3333333333333" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5598" />
   </DataNode>
-  <DataNode textLabel="RPS6KA2" GraphId="d5c" type="GeneProduct" GroupRef="e8e46">
+  <DataNode textLabel="RPS6KA2" elementId="d5c" type="GeneProduct" elementRef="e8e46">
     <Attribute key="org.pathvisio.model.BackpageHead" value="RPS6KA2 | ribosomal protein S6 kinase 90kDa p..." />
     <Graphics centerX="1132.3671933020744" centerY="976.0798506289308" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6196" />
   </DataNode>
-  <DataNode textLabel="MAPK14" GraphId="d77" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAPK14" elementId="d77" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAPK14 | mitogen-activated protein kinase 14" />
     <Graphics centerX="1094.4378709740563" centerY="629.3333333333334" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="1432" />
   </DataNode>
-  <DataNode textLabel="RPS6KB1" GraphId="d80" type="GeneProduct" GroupRef="dcaa7">
+  <DataNode textLabel="RPS6KB1" elementId="d80" type="GeneProduct" elementRef="dcaa7">
     <Attribute key="org.pathvisio.model.BackpageHead" value="RPS6KB1 | ribosomal protein S6 kinase 70kDa p..." />
     <Graphics centerX="662.2475049900203" centerY="668.2355289421162" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6198" />
   </DataNode>
-  <DataNode textLabel="RHOQ" GraphId="d8e" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="RHOQ" elementId="d8e" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="RHOQ | ras homolog gene family member Q" />
     <Graphics centerX="181.0978043912178" centerY="752.7544910179644" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="23433" />
   </DataNode>
-  <DataNode textLabel="MAP3K11" GraphId="d93" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP3K11" elementId="d93" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP3K11 | mitogen-activated protein kinase kina..." />
     <Graphics centerX="1094.4378709740563" centerY="609.3333333333334" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="4296" />
   </DataNode>
-  <DataNode textLabel="PRKAA2" GraphId="d94" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="PRKAA2" elementId="d94" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PRKAA2 | protein kinase AMP-activated alpha 2..." />
     <Graphics centerX="785.2076734124882" centerY="1030.464463579051" width="73.33333333333333" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5563" />
   </DataNode>
-  <DataNode textLabel="SNAP23" GraphId="da5" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="SNAP23" elementId="da5" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="SNAP23 | synaptosomal-associated protein 23kDa..." />
     <Graphics centerX="93.1736526946108" centerY="783.9520958083835" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="8773" />
   </DataNode>
-  <DataNode textLabel="PTPN1" GraphId="db4" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="PTPN1" elementId="db4" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PTPN1 | protein tyrosine phosphatase non-recep..." />
     <Graphics centerX="692.5476010510024" centerY="871.1517834647086" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5770" />
   </DataNode>
-  <DataNode textLabel="MAPK8" GraphId="dc9" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="MAPK8" elementId="dc9" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAPK8 | mitogen-activated protein kinase 8" />
     <Graphics centerX="692.5476010510024" centerY="991.1517834647086" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5599" />
   </DataNode>
-  <DataNode textLabel="INPPL1" GraphId="dcb" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="INPPL1" elementId="dcb" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="INPPL1 | inositol polyphosphate phosphatase-lik..." />
     <Graphics centerX="692.5476010510024" centerY="931.1517834647086" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="3636" />
   </DataNode>
-  <DataNode textLabel="CBLB" GraphId="dd0" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="CBLB" elementId="dd0" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="CBLB | Cas-Br-M (murine) ecotropic retroviral t..." />
     <Graphics centerX="181.0978043912178" centerY="672.7544910179644" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="868" />
   </DataNode>
-  <DataNode textLabel="MAP3K7" GraphId="def" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP3K7" elementId="def" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP3K7 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1169.1045376407237" centerY="527.9999999999999" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6885" />
   </DataNode>
-  <DataNode textLabel="STXBP3" GraphId="dfa" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="STXBP3" elementId="dfa" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="STXBP3 | syntaxin binding protein 3" />
     <Graphics centerX="93.1736526946108" centerY="703.9520958083835" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6814" />
   </DataNode>
-  <DataNode textLabel="INPP4A" GraphId="dfc" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="INPP4A" elementId="dfc" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="INPP4A | inositol polyphosphate-4-phosphatase ..." />
     <Graphics centerX="692.5476010510024" centerY="971.1517834647086" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="3631" />
   </DataNode>
-  <DataNode textLabel="SGK" GraphId="e07" type="GeneProduct" GroupRef="bb23b">
+  <DataNode textLabel="SGK" elementId="e07" type="GeneProduct" elementRef="bb23b">
     <Attribute key="org.pathvisio.model.BackpageHead" value="SGK | serum/glucocorticoid regulated kinase" />
     <Graphics centerX="293.2335329341311" centerY="420.2594810379243" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6446" />
   </DataNode>
-  <DataNode textLabel="CBL" GraphId="e09" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="CBL" elementId="e09" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="CBL | Cas-Br-M (murine) ecotropic retroviral tr..." />
     <Graphics centerX="181.0978043912178" centerY="652.7544910179644" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="867" />
   </DataNode>
-  <DataNode textLabel="PIK3R4" GraphId="e1c" type="GeneProduct" GroupRef="e58f8">
+  <DataNode textLabel="PIK3R4" elementId="e1c" type="GeneProduct" elementRef="e58f8">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PIK3R4 | phosphoinositide-3-kinase regulatory ..." />
     <Graphics centerX="372.56821779638204" centerY="227.006864014917" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="30849" />
   </DataNode>
-  <DataNode textLabel="MAPK11" GraphId="e20" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAPK11" elementId="e20" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAPK11 | mitogen-activated protein kinase 11" />
     <Graphics centerX="1094.4378709740563" centerY="569.3333333333334" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5600" />
   </DataNode>
-  <DataNode textLabel="MAPK9" GraphId="e29" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAPK9" elementId="e29" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAPK9 | mitogen-activated protein kinase 9" />
     <Graphics centerX="1094.4378709740563" centerY="529.3333333333334" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5601" />
   </DataNode>
-  <DataNode textLabel="PTPN11" GraphId="e35" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="PTPN11" elementId="e35" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PTPN11 | protein tyrosine phosphatase non-rece..." />
     <Graphics centerX="692.5476010510024" centerY="951.1517834647086" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5781" />
   </DataNode>
-  <DataNode textLabel="GYS2" GraphId="e3a" type="GeneProduct" GroupRef="a7ec4">
+  <DataNode textLabel="GYS2" elementId="e3a" type="GeneProduct" elementRef="a7ec4">
     <Attribute key="org.pathvisio.model.BackpageHead" value="GYS2 | glycogen synthase 2 (liver)" />
     <Graphics centerX="486.6666666666667" centerY="927.9404671921678" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="2998" />
   </DataNode>
-  <DataNode textLabel="JUN" GraphId="e41" type="GeneProduct" GroupRef="c6600">
+  <DataNode textLabel="JUN" elementId="e41" type="GeneProduct" elementRef="c6600">
     <Attribute key="org.pathvisio.model.BackpageHead" value="JUN | v-jun sarcoma virus 17 oncogene homolog (..." />
     <Graphics centerX="379.1304336581127" centerY="749.1543874781481" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="3725" />
   </DataNode>
-  <DataNode textLabel="SOCS1" GraphId="e43" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="SOCS1" elementId="e43" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="SOCS1 | suppressor of cytokine signaling 1" />
     <Graphics centerX="692.5476010510024" centerY="1011.1517834647086" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="8651" />
   </DataNode>
-  <DataNode textLabel="MAPK6" GraphId="e50" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAPK6" elementId="e50" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAPK6 | mitogen-activated protein kinase 6" />
     <Graphics centerX="1094.4378709740563" centerY="469.3333333333333" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5597" />
   </DataNode>
-  <DataNode textLabel="EIF4E" GraphId="e5c" type="GeneProduct" GroupRef="a1f56">
+  <DataNode textLabel="EIF4E" elementId="e5c" type="GeneProduct" elementRef="a1f56">
     <Attribute key="org.pathvisio.model.BackpageHead" value="EIF4E | eukaryotic translation initiation facto..." />
     <Graphics centerX="838.6775152858091" centerY="690.0998003992019" width="113.33333333333333" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="1977" />
   </DataNode>
-  <DataNode textLabel="SHC2" GraphId="e5f" type="GeneProduct" GroupRef="bcaa0">
+  <DataNode textLabel="SHC2" elementId="e5f" type="GeneProduct" elementRef="bcaa0">
     <Attribute key="org.pathvisio.model.BackpageHead" value="SHC2 | SHC (Src homology 2 domain containing) t..." />
     <Graphics centerX="732.2954091816365" centerY="235.30938123752486" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="25759" />
   </DataNode>
-  <DataNode textLabel="FLOT2" GraphId="e67" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="FLOT2" elementId="e67" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="FLOT2 | flotillin 2" />
     <Graphics centerX="93.05163563381821" centerY="629.3449619495491" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="2319" />
   </DataNode>
-  <DataNode textLabel="CBLC" GraphId="e73" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="CBLC" elementId="e73" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="CBLC | Cas-Br-M (murine) ecotropic retroviral t..." />
     <Graphics centerX="181.0978043912178" centerY="692.7544910179644" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="23624" />
   </DataNode>
-  <DataNode textLabel="MYO1C" GraphId="e74" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="MYO1C" elementId="e74" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MYO1C | myosin IC" />
     <Graphics centerX="177.76447105788446" centerY="839.421157684631" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="4641" />
   </DataNode>
-  <DataNode textLabel="GAB1" GraphId="e7b" type="GeneProduct" GroupRef="bcaa0">
+  <DataNode textLabel="GAB1" elementId="e7b" type="GeneProduct" elementRef="bcaa0">
     <Attribute key="org.pathvisio.model.BackpageHead" value="GAB1 | GRB2-associated binding protein 1" />
     <Graphics centerX="651.1261489560067" centerY="275.2652688353703" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="2549" />
   </DataNode>
-  <DataNode textLabel="RHOJ" GraphId="e7c" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="RHOJ" elementId="e7c" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="RHOJ | ras homolog gene family member J" />
     <Graphics centerX="93.1736526946108" centerY="900.6187624750502" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="57381" />
   </DataNode>
-  <DataNode textLabel="GSK3A" GraphId="e87" type="GeneProduct" GroupRef="bb23b">
+  <DataNode textLabel="GSK3A" elementId="e87" type="GeneProduct" elementRef="bb23b">
     <Attribute key="org.pathvisio.model.BackpageHead" value="GSK3A | glycogen synthase kinase 3 alpha" />
     <Graphics centerX="213.4331337325348" centerY="477.8642714570859" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="2931" />
   </DataNode>
-  <DataNode textLabel="PRKCI" GraphId="e8c" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="PRKCI" elementId="e8c" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PRKCI | protein kinase C iota" />
     <Graphics centerX="785.2076734124882" centerY="930.4644635790504" width="73.33333333333333" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5584" />
   </DataNode>
-  <DataNode textLabel="PRKAA1" GraphId="e9e" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="PRKAA1" elementId="e9e" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PRKAA1 | protein kinase AMP-activated alpha 1..." />
     <Graphics centerX="785.2076734124882" centerY="1010.4644635790501" width="73.33333333333333" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5562" />
   </DataNode>
-  <DataNode textLabel="SORBS1" GraphId="ea4" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="SORBS1" elementId="ea4" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="SORBS1 | sorbin and SH3 domain containing 1" />
     <Graphics centerX="181.0978043912178" centerY="612.7544910179644" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="10580" />
   </DataNode>
-  <DataNode textLabel="SOS2" GraphId="ea7" type="GeneProduct" GroupRef="d0df9">
+  <DataNode textLabel="SOS2" elementId="ea7" type="GeneProduct" elementRef="d0df9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="SOS2 | son of sevenless homolog 2 (Drosophila)" />
     <Graphics centerX="1132.3688495349936" centerY="301.9486249399485" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6655" />
   </DataNode>
-  <DataNode textLabel="MAP3K13" GraphId="eab" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP3K13" elementId="eab" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP3K13 | mitogen-activated protein kinase kina..." />
     <Graphics centerX="1170.4378709740572" centerY="769.3333333333331" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="9175" />
   </DataNode>
-  <DataNode textLabel="PPP1R3A" GraphId="eb6" type="GeneProduct" GroupRef="a7ec4">
+  <DataNode textLabel="PPP1R3A" elementId="eb6" type="GeneProduct" elementRef="a7ec4">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PPP1R3A | protein phosphatase 1 regulatory (in..." />
     <Graphics centerX="486.6666666666667" centerY="947.9404671921678" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5506" />
   </DataNode>
-  <DataNode textLabel="RAF1" GraphId="ebd" type="GeneProduct" GroupRef="d0df9">
+  <DataNode textLabel="RAF1" elementId="ebd" type="GeneProduct" elementRef="d0df9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="RAF1 | v-raf-1 murine leukemia viral oncogene h..." />
     <Graphics centerX="1132.3688495349936" centerY="228.615291606615" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5894" />
   </DataNode>
-  <DataNode textLabel="ARF1" GraphId="edb" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="ARF1" elementId="edb" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="ARF1 | ADP-ribosylation factor 1" />
     <Graphics centerX="93.1736526946108" centerY="840.6187624750502" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="375" />
   </DataNode>
-  <DataNode textLabel="FRAP1" GraphId="eeb" type="GeneProduct">
+  <DataNode textLabel="FRAP1" elementId="eeb" type="GeneProduct">
     <Attribute key="org.pathvisio.model.BackpageHead" value="FRAP1 | FK506 binding protein 12-rapamycin asso..." />
     <Graphics centerX="746.6666666666669" centerY="563.3333333333334" width="113.33333333333333" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="2475" />
   </DataNode>
-  <DataNode textLabel="PRKCA" GraphId="ef6" type="GeneProduct" GroupRef="ec3a2">
+  <DataNode textLabel="PRKCA" elementId="ef6" type="GeneProduct" elementRef="ec3a2">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PRKCA | protein kinase C alpha" />
     <Graphics centerX="785.2076734124882" centerY="850.4644635790504" width="73.33333333333333" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5578" />
   </DataNode>
-  <DataNode textLabel="LIPE" GraphId="efb" type="GeneProduct" GroupRef="a7ec4">
+  <DataNode textLabel="LIPE" elementId="efb" type="GeneProduct" elementRef="a7ec4">
     <Attribute key="org.pathvisio.model.BackpageHead" value="LIPE | lipase hormone-sensitive" />
     <Graphics centerX="486.6666666666667" centerY="887.9404671921678" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="3991" />
   </DataNode>
-  <DataNode textLabel="MAP2K3" GraphId="f07" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP2K3" elementId="f07" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP2K3 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1169.1045376407237" centerY="667.9999999999998" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5606" />
   </DataNode>
-  <DataNode textLabel="MAPK4" GraphId="f09" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAPK4" elementId="f09" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAPK4 | mitogen-activated protein kinase 4" />
     <Graphics centerX="1094.4378709740563" centerY="449.3333333333333" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5596" />
   </DataNode>
-  <DataNode textLabel="MAP4K2" GraphId="f15" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP4K2" elementId="f15" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP4K2 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1094.4378709740563" centerY="709.3333333333334" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5871" />
   </DataNode>
-  <DataNode textLabel="PDPK1" GraphId="f16" type="GeneProduct" GroupRef="bb23b">
+  <DataNode textLabel="PDPK1" elementId="f16" type="GeneProduct" elementRef="bb23b">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PDPK1 | 3-phosphoinositide dependent protein ki..." />
     <Graphics centerX="213.4331337325348" centerY="417.8642714570859" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5170" />
   </DataNode>
-  <DataNode textLabel="HRAS" GraphId="f20" type="GeneProduct" GroupRef="d0df9">
+  <DataNode textLabel="HRAS" elementId="f20" type="GeneProduct" elementRef="d0df9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="HRAS | v-Ha-ras Harvey rat sarcoma viral oncoge..." />
     <Graphics centerX="1132.3688495349936" centerY="208.615291606615" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="3265" />
   </DataNode>
-  <DataNode textLabel="RAPGEF1" GraphId="f46" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="RAPGEF1" elementId="f46" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="RAPGEF1 | Rap guanine nucleotide exchange facto..." />
     <Graphics centerX="181.0978043912178" centerY="732.7544910179644" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="2889" />
   </DataNode>
-  <DataNode textLabel="FOXO3A" GraphId="f4f" type="GeneProduct" GroupRef="c6600">
+  <DataNode textLabel="FOXO3A" elementId="f4f" type="GeneProduct" elementRef="c6600">
     <Attribute key="org.pathvisio.model.BackpageHead" value="FOXO3A | forkhead box O3A" />
     <Graphics centerX="379.1304336581127" centerY="649.1543874781481" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="2309" />
   </DataNode>
-  <DataNode textLabel="MAP2K5" GraphId="f56" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP2K5" elementId="f56" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP2K5 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1169.1045376407237" centerY="707.9999999999998" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5607" />
   </DataNode>
-  <DataNode textLabel="GRB10" GraphId="f5b" type="GeneProduct" GroupRef="d0df9">
+  <DataNode textLabel="GRB10" elementId="f5b" type="GeneProduct" elementRef="d0df9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="GRB10 | growth factor receptor-bound protein 10..." />
     <Graphics centerX="1132.3688495349936" centerY="228.615291606615" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="2887" />
   </DataNode>
-  <DataNode textLabel="EGR1" GraphId="f71" type="GeneProduct" GroupRef="c6600">
+  <DataNode textLabel="EGR1" elementId="f71" type="GeneProduct" elementRef="c6600">
     <Attribute key="org.pathvisio.model.BackpageHead" value="EGR1 | early growth response 1" />
     <Graphics centerX="379.1304336581127" centerY="709.1543874781481" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="1958" />
   </DataNode>
-  <DataNode textLabel="MAP3K10" GraphId="f76" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP3K10" elementId="f76" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP3K10 | mitogen-activated protein kinase kina..." />
     <Graphics centerX="1169.1045376407237" centerY="587.9999999999999" width="66.66666666666669" height="19.999999999999993" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="4294" />
   </DataNode>
-  <DataNode textLabel="VAMP2" GraphId="f8a" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="VAMP2" elementId="f8a" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="VAMP2 | vesicle-associated membrane protein 2 (..." />
     <Graphics centerX="93.1736526946108" centerY="743.9520958083835" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="6844" />
   </DataNode>
-  <DataNode textLabel="PIK3C2A" GraphId="f9d" type="GeneProduct" GroupRef="e58f8">
+  <DataNode textLabel="PIK3C2A" elementId="f9d" type="GeneProduct" elementRef="e58f8">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PIK3C2A | phosphoinositide-3-kinase class 2 a..." />
     <Graphics centerX="300.1131279760232" centerY="247.006864014917" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5286" />
   </DataNode>
-  <DataNode textLabel="MAPK1" GraphId="f9f" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAPK1" elementId="f9f" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAPK1 | mitogen-activated protein kinase 1" />
     <Graphics centerX="1094.4378709740563" centerY="409.3333333333333" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5594" />
   </DataNode>
-  <DataNode textLabel="FLOT1" GraphId="fa3" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="FLOT1" elementId="fa3" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="FLOT1 | flotillin 1" />
     <Graphics centerX="93.05163563381821" centerY="609.3449619495491" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="10211" />
   </DataNode>
-  <DataNode textLabel="PIK3CA" GraphId="fa4" type="GeneProduct" GroupRef="e58f8">
+  <DataNode textLabel="PIK3CA" elementId="fa4" type="GeneProduct" elementRef="e58f8">
     <Attribute key="org.pathvisio.model.BackpageHead" value="PIK3CA | phosphoinositide-3-kinase catalytic ..." />
     <Graphics centerX="300.1131279760232" centerY="167.00686401491697" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5290" />
   </DataNode>
-  <DataNode textLabel="MAP2K1" GraphId="fb0" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP2K1" elementId="fb0" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP2K1 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1094.4378709740563" centerY="649.3333333333333" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5604" />
   </DataNode>
-  <DataNode textLabel="MAP3K6" GraphId="fb3" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP3K6" elementId="fb3" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP3K6 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1094.4378709740563" centerY="509.3333333333333" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="9064" />
   </DataNode>
-  <DataNode textLabel="SGK2" GraphId="fb6" type="GeneProduct" GroupRef="bb23b">
+  <DataNode textLabel="SGK2" elementId="fb6" type="GeneProduct" elementRef="bb23b">
     <Attribute key="org.pathvisio.model.BackpageHead" value="SGK2 | serum/glucocorticoid regulated kinase 2" />
     <Graphics centerX="293.2335329341311" centerY="440.2594810379243" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="10110" />
   </DataNode>
-  <DataNode textLabel="MAP3K4" GraphId="fc5" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP3K4" elementId="fc5" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP3K4 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1169.1045376407237" centerY="467.99999999999983" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="4216" />
   </DataNode>
-  <DataNode textLabel="MAP3K9" GraphId="fc6" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP3K9" elementId="fc6" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP3K9 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1169.1045376407237" centerY="567.9999999999999" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="4293" />
   </DataNode>
-  <DataNode textLabel="KIF3A" GraphId="fcb" type="GeneProduct" GroupRef="e0c7d">
+  <DataNode textLabel="KIF3A" elementId="fcb" type="GeneProduct" elementRef="e0c7d">
     <Attribute key="org.pathvisio.model.BackpageHead" value="KIF3A | kinesin family member 3A" />
     <Graphics centerX="177.7644710578845" centerY="799.421157684631" width="60.0" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="11127" />
   </DataNode>
-  <DataNode textLabel="MAP4K5" GraphId="fe3" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP4K5" elementId="fe3" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP4K5 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1094.4378709740563" centerY="769.3333333333334" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="11183" />
   </DataNode>
-  <DataNode textLabel="MAP2K2" GraphId="fec" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP2K2" elementId="fec" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP2K2 | mitogen-activated protein kinase kinas..." />
     <Graphics centerX="1094.4378709740563" centerY="669.3333333333333" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5605" />
   </DataNode>
-  <DataNode textLabel="MAPK8" GraphId="ff3" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAPK8" elementId="ff3" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAPK8 | mitogen-activated protein kinase 8" />
     <Graphics centerX="1169.1045376407237" centerY="507.99999999999983" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="5599" />
   </DataNode>
-  <DataNode textLabel="MAP3K14" GraphId="ff9" type="GeneProduct" GroupRef="acdf9">
+  <DataNode textLabel="MAP3K14" elementId="ff9" type="GeneProduct" elementRef="acdf9">
     <Attribute key="org.pathvisio.model.BackpageHead" value="MAP3K14 | mitogen-activated protein kinase kina..." />
     <Graphics centerX="1169.1045376407237" centerY="647.9999999999998" width="66.66666666666667" height="20.0" zOrder="32768" fontSize="10" vAlign="Middle" />
     <Xref dataSource="Entrez Gene" identifier="9020" />
   </DataNode>
   <Interaction>
     <Graphics ConnectorType="Elbow" zOrder="12288" lineWidth="1.0">
-      <Point x="579.4001996007983" y="233.55279409832383" GraphRef="bcaa0" relX="-1.0" relY="0.0" />
-      <Point x="501.5673981191226" y="332.23197492163024" GraphRef="c21a5" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="579.4001996007983" y="233.55279409832383" elementRef="bcaa0" relX="-1.0" relY="0.0" />
+      <Point x="501.5673981191226" y="332.23197492163024" elementRef="c21a5" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="a42c7">
+  <Interaction elementId="a42c7">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="212.71656686626721" y="515.8642714570859" GraphRef="bb23b" relX="-0.5" relY="1.0" />
-      <Point x="137.07472001251801" y="566.6782952828826" GraphRef="e0c7d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="212.71656686626721" y="515.8642714570859" elementRef="bb23b" relX="-0.5" relY="1.0" />
+      <Point x="137.07472001251801" y="566.6782952828826" elementRef="e0c7d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="a6d8e">
+  <Interaction elementId="a6d8e">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="334.5668662674645" y="445.53093812375255" GraphRef="bb23b" relX="1.0" relY="0.0" />
-      <Point x="680.8482165352916" y="446.1950442059408" GraphRef="aed8b" relX="-1.0" relY="0.5" arrowHead="TBar" />
+      <Point x="334.5668662674645" y="445.53093812375255" elementRef="bb23b" relX="1.0" relY="0.0" />
+      <Point x="680.8482165352916" y="446.1950442059408" elementRef="aed8b" relX="-1.0" relY="0.5" arrowHead="TBar" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="a883d">
+  <Interaction elementId="a883d">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="745.5148832019584" y="466.085220337858" GraphRef="aed8b" relX="0.0" relY="1.0" />
-      <Point x="746.0000000000002" y="495.88822355289403" GraphRef="b1c" relX="0.0" relY="-1.0" arrowHead="TBar" />
+      <Point x="745.5148832019584" y="466.085220337858" elementRef="aed8b" relX="0.0" relY="1.0" />
+      <Point x="746.0000000000002" y="495.88822355289403" elementRef="b1c" relX="0.0" relY="-1.0" arrowHead="TBar" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="b42f3">
+  <Interaction elementId="b42f3">
     <Graphics ConnectorType="Elbow" zOrder="12288" lineWidth="1.0">
-      <Point x="501.5673981191226" y="396.23197492163024" GraphRef="c21a5" relX="0.0" relY="1.0" />
-      <Point x="334.5668662674645" y="410.36427145708586" GraphRef="bb23b" relX="1.0" relY="-0.5" arrowHead="Arrow" />
+      <Point x="501.5673981191226" y="396.23197492163024" elementRef="c21a5" relX="0.0" relY="1.0" />
+      <Point x="334.5668662674645" y="410.36427145708586" elementRef="bb23b" relX="1.0" relY="-0.5" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="c6490">
+  <Interaction elementId="c6490">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="1132.4378709740568" y="807.3333333333334" GraphRef="acdf9" relX="0.0" relY="1.0" />
-      <Point x="1132.3671933020746" y="912.4131839622642" GraphRef="e8e46" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="1132.4378709740568" y="807.3333333333334" elementRef="acdf9" relX="0.0" relY="1.0" />
+      <Point x="1132.3671933020746" y="912.4131839622642" elementRef="e8e46" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="d1ddc">
+  <Interaction elementId="d1ddc">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="616.6666666666667" y="113.33333333333333" GraphRef="c27" relX="0.0" relY="1.0" />
-      <Point x="688.9096806387225" y="173.84031936127735" GraphRef="bcaa0" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="616.6666666666667" y="113.33333333333333" elementRef="c27" relX="0.0" relY="1.0" />
+      <Point x="688.9096806387225" y="173.84031936127735" elementRef="bcaa0" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="d6ebf">
+  <Interaction elementId="d6ebf">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="1132.3688495349938" y="319.9486249399485" GraphRef="d0df9" relX="0.0" relY="1.0" />
-      <Point x="1132.4378709740568" y="363.33333333333337" GraphRef="acdf9" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="1132.3688495349938" y="319.9486249399485" elementRef="d0df9" relX="0.0" relY="1.0" />
+      <Point x="1132.4378709740568" y="363.33333333333337" elementRef="acdf9" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="db9dc">
+  <Interaction elementId="db9dc">
     <Graphics ConnectorType="Elbow" zOrder="12288" lineWidth="1.0">
-      <Point x="803.3333333333337" y="563.3333333333334" GraphRef="eeb" relX="1.0" relY="0.0" />
-      <Point x="743.6644211576847" y="293.2652688353703" GraphRef="bcaa0" relX="0.5" relY="1.0" arrowHead="TBar" />
+      <Point x="803.3333333333337" y="563.3333333333334" elementRef="eeb" relX="1.0" relY="0.0" />
+      <Point x="743.6644211576847" y="293.2652688353703" elementRef="bcaa0" relX="0.5" relY="1.0" arrowHead="TBar" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="e16ae">
+  <Interaction elementId="e16ae">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="763.3333333333334" y="113.33333333333333" GraphRef="d20" relX="0.0" relY="1.0" />
-      <Point x="688.9096806387225" y="173.84031936127735" GraphRef="bcaa0" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="763.3333333333334" y="113.33333333333333" elementRef="d20" relX="0.0" relY="1.0" />
+      <Point x="688.9096806387225" y="173.84031936127735" elementRef="bcaa0" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="e502a">
+  <Interaction elementId="e502a">
     <Graphics ConnectorType="Segmented" zOrder="12288" lineWidth="1.0">
-      <Point x="746.666666666667" y="573.3333333333334" GraphRef="eeb" relX="0.0" relY="1.0" />
-      <Point x="687.8754879292277" y="623.1432782852396" GraphRef="dcaa7" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+      <Point x="746.666666666667" y="573.3333333333334" elementRef="eeb" relX="0.0" relY="1.0" />
+      <Point x="687.8754879292277" y="623.1432782852396" elementRef="dcaa7" relX="0.5" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="e6bf6">
+  <Interaction elementId="e6bf6">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="746.0000000000002" y="515.888223552894" GraphRef="b1c" relX="0.0" relY="1.0" />
-      <Point x="746.666666666667" y="553.3333333333334" GraphRef="eeb" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="746.0000000000002" y="515.888223552894" elementRef="b1c" relX="0.0" relY="1.0" />
+      <Point x="746.666666666667" y="553.3333333333334" elementRef="eeb" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="f03f3">
+  <Interaction elementId="f03f3">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="96.06317782316812" y="566.6782952828826" GraphRef="e0c7d" relX="-0.5" relY="-1.0" />
-      <Point x="96.66666666666667" y="113.33333333333333" GraphRef="ce3" relX="0.0" relY="1.0" arrowHead="Arrow" />
+      <Point x="96.06317782316812" y="566.6782952828826" elementRef="e0c7d" relX="-0.5" relY="-1.0" />
+      <Point x="96.66666666666667" y="113.33333333333333" elementRef="ce3" relX="0.0" relY="1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="f48fc">
+  <Interaction elementId="f48fc">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="293.95009980039873" y="515.8642714570859" GraphRef="bb23b" relX="0.5" relY="1.0" />
-      <Point x="375.5882315921024" y="572.6663192349782" GraphRef="c6600" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="293.95009980039873" y="515.8642714570859" elementRef="bb23b" relX="0.5" relY="1.0" />
+      <Point x="375.5882315921024" y="572.6663192349782" elementRef="c6600" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="f74bc">
+  <Interaction elementId="f74bc">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="798.4191616766468" y="203.6965567298006" GraphRef="bcaa0" relX="1.0" relY="-0.5" />
-      <Point x="1056.7021828683273" y="204.2655993487595" GraphRef="d0df9" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+      <Point x="798.4191616766468" y="203.6965567298006" elementRef="bcaa0" relX="1.0" relY="-0.5" />
+      <Point x="1056.7021828683273" y="204.2655993487595" elementRef="d0df9" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="fada3">
+  <Interaction elementId="fada3">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="746.666666666667" y="573.3333333333334" GraphRef="eeb" relX="0.0" relY="1.0" />
-      <Point x="796.7668144975574" y="626.0075497423254" GraphRef="a1f56" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+      <Point x="746.666666666667" y="573.3333333333334" elementRef="eeb" relX="0.0" relY="1.0" />
+      <Point x="796.7668144975574" y="626.0075497423254" elementRef="a1f56" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="id4e7e2d08">
+  <Interaction elementId="id4e7e2d08">
     <Graphics ConnectorType="Elbow" zOrder="12288" lineWidth="1.0">
-      <Point x="419.9760479041919" y="260.7452211564333" GraphRef="e58f8" relX="1.0" relY="0.5" />
-      <Point x="501.5673981191226" y="332.23197492163024" GraphRef="c21a5" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+      <Point x="419.9760479041919" y="260.7452211564333" elementRef="e58f8" relX="1.0" relY="0.5" />
+      <Point x="501.5673981191226" y="332.23197492163024" elementRef="c21a5" relX="0.0" relY="-1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="idaf8a5c9d">
+  <Interaction elementId="idaf8a5c9d">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="505.66076377641" y="164.40172047655048" GraphRef="a2c5c" relX="0.0" relY="-1.0" />
-      <Point x="616.6666666666667" y="113.33333333333333" GraphRef="c27" relX="0.0" relY="1.0" arrowHead="Arrow" />
+      <Point x="505.66076377641" y="164.40172047655048" elementRef="a2c5c" relX="0.0" relY="-1.0" />
+      <Point x="616.6666666666667" y="113.33333333333333" elementRef="c27" relX="0.0" relY="1.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="idf40d6d0f">
+  <Interaction elementId="idf40d6d0f">
     <Graphics zOrder="12288" lineWidth="1.0">
-      <Point x="1211.7712043073907" y="585.3333333333334" GraphRef="acdf9" relX="1.0" relY="0.0" />
-      <Point x="1269.051742668512" y="585.0268437484001" GraphRef="f45dd" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+      <Point x="1211.7712043073907" y="585.3333333333334" elementRef="acdf9" relX="1.0" relY="0.0" />
+      <Point x="1269.051742668512" y="585.0268437484001" elementRef="f45dd" relX="-1.0" relY="0.0" arrowHead="Arrow" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Label textLabel="Insulin Receptor Substrates" GraphId="a7d" GroupRef="bcaa0">
+  <Label textLabel="Insulin Receptor Substrates" elementId="a7d" elementRef="bcaa0">
     <Graphics centerX="688.9096806387225" centerY="189.84031936127732" width="203.01896207584858" height="16.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" />
   </Label>
-  <Label textLabel="PDK/Akt Signaling" GraphId="c36" GroupRef="bb23b">
+  <Label textLabel="PDK/Akt Signaling" elementId="c36" elementRef="bb23b">
     <Graphics centerX="254.27145708582842" centerY="391.19760479041923" width="121.33333333333333" height="16.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" />
   </Label>
-  <Label textLabel="Glucose Transport" GraphId="ce7">
+  <Label textLabel="Glucose Transport" elementId="ce7">
     <Graphics centerX="163.33333333333334" centerY="133.33333333333334" width="120.33333333333333" height="16.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" />
   </Label>
-  <Label textLabel="Metabolic Regulation" GraphId="cf4" GroupRef="a7ec4">
+  <Label textLabel="Metabolic Regulation" elementId="cf4" elementRef="a7ec4">
     <Graphics centerX="486.6666666666667" centerY="823.3333333333334" width="140.33333333333334" height="16.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" />
   </Label>
-  <Label textLabel="Ras-MAPK Signaling" GraphId="d0c" GroupRef="d0df9">
+  <Label textLabel="Ras-MAPK Signaling" elementId="d0c" elementRef="d0df9">
     <Graphics centerX="1132.3688495349938" centerY="181.70459081836316" width="135.33333333333334" height="16.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" />
   </Label>
-  <Label textLabel="Translation Regulation" GraphId="d31" GroupRef="a1f56">
+  <Label textLabel="Translation Regulation" elementId="d31" elementRef="a1f56">
     <Graphics centerX="838.1001478308907" centerY="642.0075497423254" width="149.33333333333334" height="16.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" />
   </Label>
-  <Label textLabel="Tor Signaling" GraphId="d45" GroupRef="aed8b">
+  <Label textLabel="Tor Signaling" elementId="d45" elementRef="aed8b">
     <Graphics centerX="745.1336891059692" centerY="407.4418986236574" width="90.57094514135497" height="25.83476562693653" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" />
   </Label>
-  <Label textLabel="Vesicular Trafficking" GraphId="d74" GroupRef="e0c7d">
+  <Label textLabel="Vesicular Trafficking" elementId="d74" elementRef="e0c7d">
     <Graphics centerX="136.4071856287423" centerY="582.6782952828825" width="135.33333333333334" height="16.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" />
   </Label>
-  <Label textLabel="p70 S6 Kinases" GraphId="e11" GroupRef="dcaa7">
+  <Label textLabel="p70 S6 Kinases" elementId="e11" elementRef="dcaa7">
     <Graphics centerX="658.7921545958943" centerY="639.1432782852396" width="100.33333333333333" height="16.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" />
   </Label>
-  <Label textLabel="p90 Rsk Kinases" GraphId="e71" GroupRef="e8e46">
+  <Label textLabel="p90 Rsk Kinases" elementId="e71" elementRef="e8e46">
     <Graphics centerX="1132.3671933020746" centerY="928.4131839622642" width="106.33333333333333" height="16.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" />
   </Label>
-  <Label textLabel="Cell Growth&#xA;Differentiation" GraphId="f45dd">
+  <Label textLabel="Cell Growth&#xA;Differentiation" elementId="f45dd">
     <Graphics centerX="1330.5560161727858" centerY="585.0268437484002" width="123.00854700854791" height="43.8717948717939" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" />
   </Label>
-  <Label textLabel="Modulators of Insulin Action" GraphId="f73" GroupRef="ec3a2">
+  <Label textLabel="Modulators of Insulin Action" elementId="f73" elementRef="ec3a2">
     <Graphics centerX="741.5169660678639" centerY="823.5928143712575" width="181.33333333333334" height="16.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" />
   </Label>
-  <Label textLabel="PI 3-Kinase isoforms" GraphId="f9e" GroupRef="e58f8">
+  <Label textLabel="PI 3-Kinase isoforms" elementId="f9e" elementRef="e58f8">
     <Graphics centerX="337.6225026436159" centerY="143.96029258098233" width="148.70709052115194" height="16.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" />
   </Label>
-  <Label textLabel="MEK/MAP Kinases" GraphId="fdd" GroupRef="acdf9">
+  <Label textLabel="MEK/MAP Kinases" elementId="fdd" elementRef="acdf9">
     <Graphics centerX="1129.2643118942706" centerY="379.3333333333333" width="119.33333333333333" height="16.0" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" />
   </Label>
-  <Label textLabel="Transcriptional Regulators &amp; &#xA;Immediate Early Genes" GraphId="ff7" GroupRef="c6600">
+  <Label textLabel="Transcriptional Regulators &amp; &#xA;Immediate Early Genes" elementId="ff7" elementRef="c6600">
     <Graphics centerX="375.5882315921024" centerY="594.400869139596" width="216.04671921678715" height="27.46909980923556" zOrder="28672" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" />
   </Label>
-  <Shape GraphId="eee31">
+  <Shape elementId="eee31">
     <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
     <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
     <Graphics centerX="714.1212574850299" centerY="608.9820359281438" width="1400.5" height="1011.9760479041918" zOrder="16384" fontSize="10" vAlign="Middle" shapeType="RoundedRectangle" borderWidth="3.0" borderColor="c0c0c0" rotation="0.0" />
   </Shape>
-  <Group GraphId="a7ec4" groupType="Group" />
-  <Group GraphId="ec3a2" groupType="Group" />
-  <Group GraphId="d0df9" groupType="Group" /> <!--a2cc1--> 
-  <Group GraphId="acdf9" groupType="Group" /> <!--a60f0--> 
-  <Group GraphId="c6600" groupType="Group" /> <!--a62f4--> 
-  <Group GraphId="bb23b" groupType="Group" /> <!--bfae0--> 
-  <Group GraphId="a1f56" groupType="Group" /> <!--c0972--> 
-  <Group GraphId="c21a5" groupType="Complex" /> <!--c37a9--> 
-  <Group GraphId="e58f8" groupType="Group" /> <!--c7b5d--> 
-  <Group GraphId="dcaa7" groupType="Group" /> <!--e2b1d--> 
-  <Group GraphId="e8e46" groupType="Group" /> <!--e67ee--> 
-  <Group GraphId="e0c7d" groupType="Group" /> <!--ebabd--> 
-  <Group GraphId="bcaa0" groupType="Group" /> <!--f0fc7--> 
-  <Group GraphId="aed8b" groupType="Group" /> <!--f9997--> 
+  <Group elementId="a7ec4" groupType="Group" />
+  <Group elementId="ec3a2" groupType="Group" />
+  <Group elementId="d0df9" groupType="Group" /> <!--a2cc1--> 
+  <Group elementId="acdf9" groupType="Group" /> <!--a60f0--> 
+  <Group elementId="c6600" groupType="Group" /> <!--a62f4--> 
+  <Group elementId="bb23b" groupType="Group" /> <!--bfae0--> 
+  <Group elementId="a1f56" groupType="Group" /> <!--c0972--> 
+  <Group elementId="c21a5" groupType="Complex" /> <!--c37a9--> 
+  <Group elementId="e58f8" groupType="Group" /> <!--c7b5d--> 
+  <Group elementId="dcaa7" groupType="Group" /> <!--e2b1d--> 
+  <Group elementId="e8e46" groupType="Group" /> <!--e67ee--> 
+  <Group elementId="e0c7d" groupType="Group" /> <!--ebabd--> 
+  <Group elementId="bcaa0" groupType="Group" /> <!--f0fc7--> 
+  <Group elementId="aed8b" groupType="Group" /> <!--f9997--> 
   <InfoBox centerX="8.333333333333334" centerY="8.333333333333334" />
   <Biopax>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d3b">

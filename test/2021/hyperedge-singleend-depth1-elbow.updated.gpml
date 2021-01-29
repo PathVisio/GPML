@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Pathway xmlns="http://pathvisio.org/GPML/2021" name="test case" version="20210128">
   <Graphics boardHeight="193.20987654320973" boardWidth="193.78600823045275" />
-  <DataNode GraphId="faa53" textLabel="GeneProduct" type="GeneProduct">
+  <DataNode elementId="faa53" textLabel="GeneProduct" type="GeneProduct">
     <Graphics centerX="70.71829405162859" centerY="153.20987654320973" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <Interaction GraphId="idaf905386">
+  <Interaction elementId="idaf905386">
     <Graphics connectorType="Elbow" lineWidth="1.0" zOrder="12288">
       <Point x="30.452674897119397" y="66.6666666666666" />
       <Point x="10.452674897119397" y="81.06060606060603" />
       <Point x="99.31724653946877" y="95.45454545454545" />
       <Point x="188.18181818181816" y="81.06060606060602" />
       <Point x="163.78600823045275" y="66.66666666666659" />
-      <Anchor GraphId="e0874" position="0.5617283950617287" shapeType="None" />
+      <Anchor elementId="e0874" position="0.5617283950617287" shapeType="None" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
-  <Interaction GraphId="id28382a1c">
+  <Interaction elementId="id28382a1c">
     <Graphics connectorType="Elbow" lineWidth="1.0" zOrder="12288">
-      <Point GraphRef="faa53" relX="0.0" relY="-1.0" x="70.71829405162859" y="143.20987654320973" />
-      <Point arrowHead="mim-catalysis" GraphRef="e0874" relX="0.0" relY="0.0" x="118.78062749118993" y="95.45454545454545" />
+      <Point elementRef="faa53" relX="0.0" relY="-1.0" x="70.71829405162859" y="143.20987654320973" />
+      <Point arrowHead="mim-catalysis" elementRef="e0874" relX="0.0" relY="0.0" x="118.78062749118993" y="95.45454545454545" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>

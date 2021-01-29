@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Pathway xmlns="http://pathvisio.org/GPML/2021" name="test case" version="20210128">
   <Graphics boardHeight='205.0' boardWidth='160.0'/>
-  <DataNode GraphId='d6efe' textLabel='GeneProduct' type='GeneProduct'>
+  <DataNode elementId='d6efe' textLabel='GeneProduct' type='GeneProduct'>
     <Graphics centerX='90.0' centerY='165.0' fontSize='10' height='20.0' vAlign='Middle' width='80.0' zOrder='32768'/>
     <Xref dataSource='' identifier=''/>
   </DataNode>

@@ -9,7 +9,7 @@
       boardWidth="160.0"
   />
   <DataNode
-      GraphId="d6efe"
+      elementId="d6efe"
       textLabel="GeneProduct"
       type="GeneProduct"
     >

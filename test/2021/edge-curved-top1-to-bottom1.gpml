@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Pathway xmlns="http://pathvisio.org/GPML/2021" name="test case" version="20210128">
   <Graphics boardHeight="825.09187756604" boardWidth="1047.7865523249097" />
-  <DataNode GraphId="ad716" textLabel="GeneProduct" type="GeneProduct">
+  <DataNode elementId="ad716" textLabel="GeneProduct" type="GeneProduct">
     <Graphics centerX="244.46501540477257" centerY="120.62567176545976" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32948" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode GraphId="ea3a3" textLabel="0005" type="GeneProduct">
+  <DataNode elementId="ea3a3" textLabel="0005" type="GeneProduct">
     <Graphics centerX="58.771795096245356" centerY="110.80986117035668" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32949" />
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <Interaction GraphId="f8809">
+  <Interaction elementId="f8809">
     <Graphics connectorType="Curved" lineWidth="1.0" zOrder="32947">
-      <Point arrowHead="TBar" GraphRef="ea3a3" relX="0.0" relY="-1.0" x="58.771795096245356" y="100.80986117035668" />
+      <Point arrowHead="TBar" elementRef="ea3a3" relX="0.0" relY="-1.0" x="58.771795096245356" y="100.80986117035668" />
       <Point x="119.28612545485854" y="68.99683298432036" />
       <Point x="179.8004558134717" y="117.31898063532702" />
       <Point x="212.1327356091221" y="165.64112828633367" />
-      <Point arrowHead="Arrow" GraphRef="ad716" relX="0.0" relY="1.0" x="244.46501540477254" y="130.62567176545974" />
+      <Point arrowHead="Arrow" elementRef="ad716" relX="0.0" relY="1.0" x="244.46501540477254" y="130.62567176545974" />
     </Graphics>
     <Xref dataSource="" identifier="" />
   </Interaction>
