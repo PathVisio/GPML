@@ -382,11 +382,11 @@
 					</xsd:documentation>
 				</xsd:annotation>
 				<xsd:complexType>
-					<xsd:attribute name="graphRef" type="xsd:string" use="required">
+					<xsd:attribute name="elementRef" type="xsd:string" use="required">
 						<xsd:annotation>
 							<xsd:documentation>
-								A graphRef indicates a child/parent relationship between objects. 
-								The graphRef of the child refers to the graphID of the parent. 
+								A elementRef indicates a child/parent relationship between objects. 
+								The elementRef of the child refers to the elementId of the parent. 
 							</xsd:documentation>
 						</xsd:annotation>
 					</xsd:attribute>
@@ -399,11 +399,11 @@
 					</xsd:documentation>
 				</xsd:annotation>
 				<xsd:complexType>
-					<xsd:attribute name="graphRef" type="xsd:string" use="required">
+					<xsd:attribute name="elementRef" type="xsd:string" use="required">
 						<xsd:annotation>
 							<xsd:documentation>
-								A graphRef indicates a child/parent relationship between objects. 
-								The graphRef of the child refers to the graphID of the parent. 
+								A elementRef indicates a child/parent relationship between objects. 
+								The elementRef of the child refers to the elementId of the parent. 
 							</xsd:documentation>
 						</xsd:annotation>
 					</xsd:attribute>
@@ -484,10 +484,10 @@
 
 			</xsd:sequence>
 
-			<xsd:attribute name="name" type="xsd:string" use="required">
+			<xsd:attribute name="title" type="xsd:string" use="required">
 				<xsd:annotation>
 					<xsd:documentation>
-						The name of a pathway.
+						The title of a pathway.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
@@ -545,7 +545,7 @@
 		Encloses: 
 		- complex type sequence of elements: Xref, Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes), 
 		  CommentGroup
-		- local attributes: graphId, groupRef, textLabel, type
+		- local attributes: elementId, elementRef, textLabel, type
 	-->
 	<xsd:element name="DataNode">
 		<xsd:annotation>
@@ -570,11 +570,11 @@
 				<!-- End Graphics related attributes-->
 				<xsd:group ref="gpml:CommentGroup"/>				
 			</xsd:sequence>
-            <xsd:attribute name="graphId" type="xsd:ID" use="required" />
-            <xsd:attribute name="groupRef" type="xsd:string" use="optional">
+            <xsd:attribute name="elementId" type="xsd:ID" use="required" />
+            <xsd:attribute name="elementRef" type="xsd:string" use="optional">
 				<xsd:annotation>
 					<xsd:documentation>
-						A groupRef indicates an object is part of a gpml:Group with a graphId. 
+						A elementRef indicates an object is part of a gpml:Group with a elementId. 
 						DataNode, GraphicalLine, Group, Interaction, Label and Shape can be part of a group.
 					</xsd:documentation>
 				</xsd:annotation>
@@ -603,7 +603,7 @@
 		Encloses: 
 		- complex type sequence of elements: Xref, Graphics (relX, relY, width, height, FontAttributes, 
 		  ShapeStyleAttributes), CommentGroup
-		- local attributes: graphId, graphRef, groupRef, textLabel, stateType
+		- local attributes: elementId, elementRef, textLabel, stateType
 	-->
 	<xsd:element name="State">
 		<xsd:annotation>
@@ -629,16 +629,15 @@
 				<!-- End Graphics related attributes-->
 				<xsd:group ref="gpml:CommentGroup"/>
 			</xsd:sequence>
-            <xsd:attribute name="graphId" type="xsd:ID" use="required" />
-			<xsd:attribute name="graphRef" type="xsd:IDREF" use="required">
+            <xsd:attribute name="elementId" type="xsd:ID" use="required" />
+			<xsd:attribute name="elementRef" type="xsd:IDREF" use="required">
 				<xsd:annotation>
 					<xsd:documentation>
-						A graphRef indicates a child/parent relationship between objects. 
-						The graphRef of the child refers to the graphID of the parent. 
+						A elementRef indicates a child/parent relationship between objects. 
+						The elementRef of the child refers to the elementId of the parent. 
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
-			<xsd:attribute name="groupRef" type="xsd:string" use="optional"/>			
 			<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
 			<xsd:attribute name="stateType" type="xsd:string" default="Unknown">
 				<xsd:annotation>
@@ -662,7 +661,7 @@
 		
 		Interaction element encloses: 
 		- complex type sequence of elements: Xref, Point, Graphics(Anchor, LineStyleAttributes), CommentGroup
-		- local attributes: graphId, groupRef, type
+		- local attributes: elementId, elementRef, type
 	-->
 	<xsd:element name="Interaction">
 		<xsd:annotation>
@@ -686,8 +685,8 @@
 				<!-- End Graphics related attributes-->
 				<xsd:group ref="gpml:CommentGroup" />
 			</xsd:sequence>	
-			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
+			<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="type" type="xsd:string" use="optional" />
 		</xsd:complexType>
 	</xsd:element>
@@ -700,7 +699,7 @@
 		
 		GraphicalLine element encloses: 
 		- complex type sequence of elements: Point, Graphics(Anchor, LineStyleAttributes), CommentGroup
-		- local attributes: graphId, groupRef, type
+		- local attributes: elementId, elementRef, type
     -->
 	<xsd:element name="GraphicalLine">
 		<xsd:annotation>
@@ -723,8 +722,8 @@
 				<xsd:group ref="gpml:CommentGroup" />
 				<!-- End Graphics related attributes-->
 			</xsd:sequence>
-			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
+			<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="type" type="xsd:string" use="optional" />
 		</xsd:complexType>
 	</xsd:element>
@@ -739,7 +738,7 @@
 		Label element encloses: 
 		- complex type sequence of elements: Graphics(RectAttributes, FontAttributes, ShapeStyleAttributes),
 		  CommentGroup
-		- local attributes: href, graphId, groupRef, textLabel
+		- local attributes: href, elementId, elementRef, textLabel
 	-->
 	<xsd:element name="Label">
 		<xsd:annotation>
@@ -769,8 +768,8 @@
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
-			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
+			<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="textLabel" use="required" type="xsd:string"/>			
 		</xsd:complexType>
 	</xsd:element>
@@ -785,7 +784,7 @@
 		Shape element encloses: 
 		- complex type sequence of elements: Graphics(RectAttributes, FontAttributes, 
 		  ShapeStyleAttributes, rotation), CommentGroup
-		- local attributes: graphId, groupRef, textLabel
+		- local attributes: elementId, elementRef, textLabel
 	-->
 	<xsd:element name="Shape">
 		<xsd:annotation>
@@ -808,8 +807,8 @@
 				<xsd:group ref="gpml:CommentGroup" />
 				<!-- End Graphics related attributes-->
 			</xsd:sequence>
-			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
+			<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="textLabel" use="optional" type="xsd:string"/>
 
 		</xsd:complexType>
@@ -827,7 +826,7 @@
 		
 		Group element encloses: 
 		- complex type sequence of elements: Xref, CommentGroup
-		- local attributes: graphId, groupRef, textLabel, groupType(enums)
+		- local attributes: elementId, elementRef, textLabel, groupType(enums)
 	-->
 	<xsd:element name="Group">	
 		<xsd:annotation>
@@ -840,8 +839,8 @@
 				<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 				<xsd:group ref="gpml:CommentGroup" />
 			</xsd:sequence>
-			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
-			<xsd:attribute name="groupRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
+			<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="textLabel" type="xsd:string" use="optional" />
 			<xsd:attribute name="groupType" default="Group">
 				<xsd:simpleType>
@@ -942,7 +941,7 @@
 		
 		Annotation element encloses:
 		- element: Xref
-		- attributes: textLabel, graphId
+		- attributes: textLabel, elementId
 	-->
 	<xsd:element name="Annotation">
 		<xsd:annotation>
@@ -975,7 +974,7 @@
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
-			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 		</xsd:complexType>
 	</xsd:element>
 	<!-- End: Annotation -->
@@ -988,7 +987,7 @@
 		
 		Citation element encloses:
 		- element: Xref
-		- attributes: url, graphId
+		- attributes: url, elementId
 	-->
 	<xsd:element name="Citation">
 		<xsd:annotation>
@@ -1005,7 +1004,7 @@
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
-			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 		</xsd:complexType>
 	</xsd:element>
 	<!-- End: Citation -->
@@ -1017,7 +1016,7 @@
 		A location in 2-dimensional space defined by x and y coordinates.
 		
 		Point element encloses: 
-		- attributes: x, y, relX, relY, graphRef, graphId, arrowHead
+		- attributes: x, y, relX, relY, elementRef, elementId, arrowHead
 	--> 
 	<xsd:element name="Point">
 		<xsd:annotation>
@@ -1046,15 +1045,15 @@
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
-			<xsd:attribute name="graphRef" type="xsd:IDREF" use="optional" >
+			<xsd:attribute name="elementRef" type="xsd:IDREF" use="optional" >
 				<xsd:annotation>
 					<xsd:documentation>
-						A graphRef indicates a child/parent relationship between objects. 
-						The graphRef of the child refers to the graphID of the parent. 
+						A elementRef indicates a child/parent relationship between objects. 
+						The elementRef of the child refers to the elementId of the parent. 
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
-			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 	        <!-- Note: only the arrowHead attribute on first and last points are used, the rest is ignored. -->
 	        <xsd:attribute name="arrowHead" default="Line" type="xsd:string" >
 				<xsd:annotation>
@@ -1074,7 +1073,7 @@
 		A connection point on a graphical line or an interaction
 		
 		Anchor element encloses: 
-		- attributes: position, shapeType, graphID
+		- attributes: position, shapeType, elementId
 	--> 
 	<xsd:element name="Anchor">
 		<xsd:annotation>
@@ -1098,7 +1097,7 @@
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
-			<xsd:attribute name="graphId" type="xsd:ID" use="required" />
+			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 	    </xsd:complexType>
 	</xsd:element>
 	<!-- End: Anchor -->
