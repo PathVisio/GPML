@@ -1,6 +1,7 @@
-<xsd:schema targetNamespace="http://pathvisio.org/GPML/2013a"
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema targetNamespace="http://pathvisio.org/GPML/2021"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-	xmlns:gpml="http://pathvisio.org/GPML/2013a"
+	xmlns:gpml="http://pathvisio.org/GPML/2021"
 	elementFormDefault="qualified"
 	>
 	
@@ -1101,6 +1102,4 @@
 	    </xsd:complexType>
 	</xsd:element>
 	<!-- End: Anchor -->
-
-
 </xsd:schema>
