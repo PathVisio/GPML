@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" name="test case" version="20210128">
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20210128">
   <Graphics boardHeight="132.01342281879192" boardWidth="250.47894381641217" />
   <DataNode elementId="ba4b6" textLabel="aaa" type="GeneProduct">
     <Graphics centerX="189.26601908913034" centerY="75.18324410617134" fontSize="10" height="53.66035742524116" vAlign="Middle" width="62.42584945456363" zOrder="32957" />

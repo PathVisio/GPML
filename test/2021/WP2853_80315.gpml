@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" name="Endoderm Differentiation" organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="Endoderm Differentiation" organism="Homo sapiens">
   <Comment source="WikiPathways-description">Model depicting endoderm specification based on the literature and highly enriched gene expression profiles via comparison across dozens of independent induced and embryonic pluripotent stem cell lines, following differentiation to multiple lineages (ectoderm, mesoderm, endoderm, embryoid body). The underlying genomic data can be obtained from: 
 https://www.synapse.org/#!Synapse:syn1773109</Comment>
   <Graphics boardWidth="445.50545698542817" boardHeight="444.7005444646098" />

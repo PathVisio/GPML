@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" name="Sandbox Pathway" last-Modified="1/28/2016" organism="Homo sapiens" license="CC BY 2.0">
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="Sandbox Pathway" last-Modified="1/28/2016" organism="Homo sapiens" license="CC BY 2.0">
   <Comment source="WikiPathways-description">This is just a test pathway with a variety of object types including datanodes which can be connected to database entries (double-click on them when in edit mode). Feel free to edit anything on this page. </Comment>
   <Comment source="BotTest">20140201000004</Comment>
   <BiopaxRef>bf7</BiopaxRef>

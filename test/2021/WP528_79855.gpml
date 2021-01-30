@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" name="Acetylcholine Synthesis" organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="Acetylcholine Synthesis" organism="Homo sapiens">
   <Comment source="GenMAPP notes"></Comment>
   <Comment source="GenMAPP remarks"></Comment>
   <Comment source="WikiPathways-category">Metabolic Process</Comment>

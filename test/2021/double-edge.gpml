@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" name="New Pathway" version="20210128">
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="New Pathway" version="20210128">
   <Graphics boardWidth="1103.0114676388162" boardHeight="726.4197530864194" />
   <Shape elementId="f9392">
     <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />

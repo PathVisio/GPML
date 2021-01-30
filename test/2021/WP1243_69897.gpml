@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" name="EBV LMP1 signaling" last-Modified="2/21/2013" organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="EBV LMP1 signaling" last-Modified="2/21/2013" organism="Mus musculus">
   <Comment source="WikiPathways-description">based on science-slides...</Comment>
   <Comment source="WikiPathways-category">Cellular Process</Comment>
   <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://www.wikipathways.org/index.php?title=Pathway:WP262&amp;amp;oldid=29609 WP262(r29609)] with a 88% conversion rate.</Comment>

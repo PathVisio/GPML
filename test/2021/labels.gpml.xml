@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" name="test case" version="20210128">
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20210128">
   <Graphics boardHeight="185.993665670104" boardWidth="1442.3016983016983" />
   <Label elementId="a14a0" textLabel="Label&#10;font:  Times New Roman">
     <Graphics centerX="135.38705458426008" centerY="112.58468126724739" fillColor="99ffff" fontName="Times New Roman" fontSize="15" height="86.8179688057132" shapeType="Rectangle" vAlign="Middle" width="176.21451268746466" zOrder="32832" />

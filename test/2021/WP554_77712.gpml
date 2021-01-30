@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" name="ACE Inhibitor Pathway" organism="Homo sapiens" license="CC BY 2.0">
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="ACE Inhibitor Pathway" organism="Homo sapiens" license="CC BY 2.0">
   <Comment source="WikiPathways-category">Physiological Process</Comment>
   <Comment source="WikiPathways-description">The core of this pathway was elucidated over a century ago and involves the conversion of angiotensinogen to angiotensin I (Ang I) by renin, its subsequent conversion to angiotensin II (Ang II) by angiotensin converting enzyme. Ang II activates the angiotensin II receptor type 1 to induce aldosterone synthesis, increasing water and salt resorption and potassium excretion in the kidney and increasing blood pressure.
 

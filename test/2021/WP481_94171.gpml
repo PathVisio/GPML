@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" name="Insulin Signaling" organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="Insulin Signaling" organism="Homo sapiens">
   <Comment source="WikiPathways-description">Insulin signaling influences energy metabolism as well as growth. The presence of insulin signals the fed state, and this signal is passed via the AKT branch, which leads to the uptake of glucose from the blood. Other branches of the signal cascade lead to cell growth and differentation.</Comment>
   <Comment source="GenMAPP notes"></Comment>
   <Comment source="GenMAPP remarks"></Comment>

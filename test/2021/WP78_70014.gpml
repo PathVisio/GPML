@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" name="TCA Cycle" organism="Homo sapiens" license="CC BY 2.0">
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="TCA Cycle" organism="Homo sapiens" license="CC BY 2.0">
   <Comment source="GenMAPP notes"></Comment>
   <Comment source="GenMAPP remarks"></Comment>
   <Comment source="WikiPathways-category">Metabolic Process</Comment>

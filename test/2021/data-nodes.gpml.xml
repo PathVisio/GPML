@@ -1,107 +1,107 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" name="test case" version="20210128">
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20210128">
   <Graphics boardHeight="786.4815301392441" boardWidth="602.9155931563928" />
   <DataNode elementId="bbd97" textLabel="CCR5" type="GeneProduct">
-    <Graphics centerX="61.1242201513961" centerY="71.7948717948718" fontsize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
+    <Graphics centerX="61.1242201513961" centerY="71.7948717948718" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
     <Xref dataSource="Entrez Gene" identifier="1234" />
   </DataNode>
   <DataNode elementId="c7fc2" textLabel="Statin" type="Metabolite">
-    <Graphics centerX="61.1242201513961" centerY="123.0769230769231" borderColor="0000ff" textColor="0000ff" fontsize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
+    <Graphics centerX="61.1242201513961" centerY="123.0769230769231" borderColor="0000ff" textColor="0000ff" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
     <Xref dataSource="ChEBI" identifier="35664" />
   </DataNode>
   <DataNode elementId="ec253" textLabel="Statin Pathway" type="Pathway">
-    <Graphics centerX="68.51108966753478" centerY="178.93490565622176" borderColor="14961e" textColor="14961e" fontsize="12" fontWeight="Bold" height="20.0" shapeType="None" vAlign="Middle" width="98.77373903227738" zOrder="32768" />
+    <Graphics centerX="68.51108966753478" centerY="178.93490565622176" borderColor="14961e" textColor="14961e" fontSize="12" fontWeight="Bold" height="20.0" shapeType="None" vAlign="Middle" width="98.77373903227738" zOrder="32768" />
     <Xref dataSource="WikiPathways" identifier="WP1" />
   </DataNode>
   <DataNode elementId="d4b93" textLabel="B8LFP0_HUMAN" type="Protein">
-    <Graphics centerX="68.06211007569806" centerY="222.81632653061223" fontsize="10" height="32.36734693877554" vAlign="Middle" width="93.87577984860388" zOrder="32768" />
+    <Graphics centerX="68.06211007569806" centerY="222.81632653061223" fontSize="10" height="32.36734693877554" vAlign="Middle" width="93.87577984860388" zOrder="32768" />
     <Xref dataSource="Uniprot-TrEMBL" identifier="B8LFP0" />
   </DataNode>
   <DataNode elementId="a9150" textLabel="Rna" type="Rna">
-    <Graphics centerX="61.1242201513961" centerY="288.5886314988484" fontsize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
+    <Graphics centerX="61.1242201513961" centerY="288.5886314988484" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode elementId="fca47" textLabel="Unknown">
-    <Graphics centerX="61.1242201513961" centerY="338.16128107149797" fontsize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
+    <Graphics centerX="61.1242201513961" centerY="338.16128107149797" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode elementId="e78e2" textLabel="Unknown">
-    <Graphics centerX="310.1242201513961" centerY="315.5800751886047" fontsize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32769" />
+    <Graphics centerX="310.1242201513961" centerY="315.5800751886047" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32769" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode elementId="adfa3" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="310.1242201513961" centerY="53.19315148781283" fontsize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32770" />
+    <Graphics centerX="310.1242201513961" centerY="53.19315148781283" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32770" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode elementId="ca37f" textLabel="Pathway" type="Pathway">
-    <Graphics centerX="310.1242201513961" centerY="156.0816660551592" borderColor="14961e" textColor="14961e" fontsize="12" fontWeight="Bold" height="20.0" shapeType="None" vAlign="Middle" width="80.0" zOrder="32771" />
+    <Graphics centerX="310.1242201513961" centerY="156.0816660551592" borderColor="14961e" textColor="14961e" fontSize="12" fontWeight="Bold" height="20.0" shapeType="None" vAlign="Middle" width="80.0" zOrder="32771" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode elementId="bb1e3" textLabel="Metabolite" type="Metabolite">
-    <Graphics centerX="310.1242201513961" centerY="104.4752027698641" borderColor="0000ff" textColor="0000ff" fontsize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32772" />
+    <Graphics centerX="310.1242201513961" centerY="104.4752027698641" borderColor="0000ff" textColor="0000ff" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32772" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode elementId="eec23" textLabel="Rna" type="Rna">
-    <Graphics centerX="310.1242201513961" centerY="266.00742561595507" fontsize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32773" />
+    <Graphics centerX="310.1242201513961" centerY="266.00742561595507" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32773" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode elementId="cfb0e" textLabel="Protein" type="Protein">
-    <Graphics centerX="310.1242201513961" centerY="202.75956236809202" fontsize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32774" />
+    <Graphics centerX="310.1242201513961" centerY="202.75956236809202" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32774" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode elementId="c725d" textLabel="Unknown">
-    <Graphics centerX="434.38777388828225" centerY="314.37768534543807" borderColor="333333" textColor="333333" fillColor="ededed" fontName="Helvetica" fontsize="10" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32776" />
+    <Graphics centerX="434.38777388828225" centerY="314.37768534543807" borderColor="333333" textColor="333333" fillColor="ededed" fontName="Helvetica" fontSize="10" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32776" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode elementId="c9952" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="434.38777388828225" centerY="51.99076164464623" borderColor="333333" textColor="333333" fillColor="ededed" fontName="Helvetica" fontsize="10" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32777" />
+    <Graphics centerX="434.38777388828225" centerY="51.99076164464623" borderColor="333333" textColor="333333" fillColor="ededed" fontName="Helvetica" fontSize="10" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32777" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode elementId="cb8a4" textLabel="Pathway" type="Pathway">
-    <Graphics centerX="434.38777388828225" centerY="154.87927621199265" borderColor="ededed" textColor="ededed" fillColor="14961e" fontName="Helvetica" fontsize="12" fontWeight="Bold" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32778" />
+    <Graphics centerX="434.38777388828225" centerY="154.87927621199265" borderColor="ededed" textColor="ededed" fillColor="14961e" fontName="Helvetica" fontSize="12" fontWeight="Bold" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32778" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode elementId="ae9a4" textLabel="Metabolite" type="Metabolite">
-    <Graphics centerX="434.38777388828225" centerY="103.27281292669755" borderColor="ededed" textColor="ededed" fillColor="0000ff" fontName="Helvetica" fontsize="10" fontWeight="Bold" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32779" />
+    <Graphics centerX="434.38777388828225" centerY="103.27281292669755" borderColor="ededed" textColor="ededed" fillColor="0000ff" fontName="Helvetica" fontSize="10" fontWeight="Bold" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32779" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode elementId="e01b4" textLabel="Rna" type="Rna">
-    <Graphics centerX="434.38777388828225" centerY="264.8050357727884" borderColor="333333" textColor="333333" fillColor="ededed" fontName="Helvetica" fontsize="10" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32780" />
+    <Graphics centerX="434.38777388828225" centerY="264.8050357727884" borderColor="333333" textColor="333333" fillColor="ededed" fontName="Helvetica" fontSize="10" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32780" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode elementId="c0772" textLabel="Protein" type="Protein">
-    <Graphics centerX="434.38777388828225" centerY="201.55717252492536" borderColor="333333" textColor="333333" fillColor="ededed" fontName="Helvetica" fontsize="10" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32781" />
+    <Graphics centerX="434.38777388828225" centerY="201.55717252492536" borderColor="333333" textColor="333333" fillColor="ededed" fontName="Helvetica" fontSize="10" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32781" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode elementId="dd121" textLabel="Unknown">
-    <Graphics centerX="185.38777388828225" centerY="338.16128107149797" borderColor="ededed" textColor="ededed" fillColor="333333" fontName="Helvetica" fontsize="10" fontWeight="Bold" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32783" />
+    <Graphics centerX="185.38777388828225" centerY="338.16128107149797" borderColor="ededed" textColor="ededed" fillColor="333333" fontName="Helvetica" fontSize="10" fontWeight="Bold" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32783" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode elementId="ad34e" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="185.38777388828225" centerY="71.7948717948718" borderColor="ededed" textColor="ededed" fillColor="333333" fontName="Helvetica" fontsize="10" fontWeight="Bold" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32784" />
+    <Graphics centerX="185.38777388828225" centerY="71.7948717948718" borderColor="ededed" textColor="ededed" fillColor="333333" fontName="Helvetica" fontSize="10" fontWeight="Bold" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32784" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode elementId="f52c9" textLabel="Pathway" type="Pathway">
-    <Graphics centerX="185.38777388828225" centerY="178.93490565622173" borderColor="ededed" textColor="ededed" fillColor="14961e" fontName="Helvetica" fontsize="12" fontWeight="Bold" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32785" />
+    <Graphics centerX="185.38777388828225" centerY="178.93490565622173" borderColor="ededed" textColor="ededed" fillColor="14961e" fontName="Helvetica" fontSize="12" fontWeight="Bold" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32785" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode elementId="b5f5f" textLabel="Acetyl-CoA" type="Metabolite">
-    <Graphics centerX="185.38777388828225" centerY="123.0769230769231" borderColor="ededed" textColor="ededed" fillColor="0000ff" fontName="Helvetica" fontsize="10" fontWeight="Bold" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32786" />
+    <Graphics centerX="185.38777388828225" centerY="123.0769230769231" borderColor="ededed" textColor="ededed" fillColor="0000ff" fontName="Helvetica" fontSize="10" fontWeight="Bold" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32786" />
     <Xref dataSource="HMDB" identifier="HMDB01206" />
   </DataNode>
   <DataNode elementId="aa3dd" textLabel="Rna" type="Rna">
-    <Graphics centerX="185.38777388828225" centerY="288.5886314988484" borderColor="ededed" textColor="ededed" fillColor="333333" fontName="Helvetica" fontsize="10" fontWeight="Bold" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32787" />
+    <Graphics centerX="185.38777388828225" centerY="288.5886314988484" borderColor="ededed" textColor="ededed" fillColor="333333" fontName="Helvetica" fontSize="10" fontWeight="Bold" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32787" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <DataNode elementId="ab90e" textLabel="Protein" type="Protein">
-    <Graphics centerX="185.38777388828225" centerY="231.03066867772765" borderColor="ededed" textColor="ededed" fillColor="333333" fontName="Helvetica" fontsize="10" fontWeight="Bold" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32788" />
+    <Graphics centerX="185.38777388828225" centerY="231.03066867772765" borderColor="ededed" textColor="ededed" fillColor="333333" fontName="Helvetica" fontSize="10" fontWeight="Bold" height="20.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.0" zOrder="32788" />
     <Xref dataSource="" identifier="" />
   </DataNode>
   <Shape elementId="ae6ab">
-    <Graphics centerX="434.38777388828225" centerY="182.111074798108" fillColor="333333" fontName="Helvetica" fontsize="10" height="342.74091068227204" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="105.05563853622105" zOrder="-2" />
+    <Graphics centerX="434.38777388828225" centerY="182.111074798108" fillColor="333333" fontName="Helvetica" fontSize="10" height="342.74091068227204" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="105.05563853622105" zOrder="-2" />
   </Shape>
   <Shape elementId="db4be">
-    <Graphics centerX="310.1242201513961" centerY="182.111074798108" fillColor="333333" fontsize="10" height="342.7409106822721" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="105.05563853622105" zOrder="16384" />
+    <Graphics centerX="310.1242201513961" centerY="182.111074798108" fillColor="333333" fontSize="10" height="342.7409106822721" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="105.05563853622105" zOrder="16384" />
   </Shape>
   <InfoBox centerX="0.0" centerY="0.0" />
   <Biopax />
