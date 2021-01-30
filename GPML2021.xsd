@@ -679,7 +679,9 @@
 				<xsd:element ref="gpml:Point" minOccurs="2" maxOccurs="unbounded" />
 				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
 					<xsd:complexType>
-						<xsd:element ref="gpml:Anchor" minOccurs="0" maxOccurs="unbounded" />
+						<xsd:sequence>
+							<xsd:element ref="gpml:Anchor" minOccurs="0" maxOccurs="unbounded" />
+						</xsd:sequence>
 						<xsd:attributeGroup ref="gpml:LineStyleAttributes" />
 					</xsd:complexType>
 				</xsd:element>
@@ -716,7 +718,9 @@
 				<xsd:element ref="gpml:Point" minOccurs="2" maxOccurs="unbounded" />
 				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
 					<xsd:complexType>	
-						<xsd:element ref="gpml:Anchor" minOccurs="0" maxOccurs="unbounded" />
+						<xsd:sequence>
+							<xsd:element ref="gpml:Anchor" minOccurs="0" maxOccurs="unbounded" />
+						</xsd:sequence>
 						<xsd:attributeGroup ref="gpml:LineStyleAttributes" />
 					</xsd:complexType>
 				</xsd:element>
