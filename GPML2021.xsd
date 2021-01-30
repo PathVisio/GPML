@@ -479,9 +479,9 @@
 				
 				<xsd:element ref="gpml:Legend" minOccurs="0" maxOccurs="1"/>
 								
-				<xsd:element name="Annotation" type="gpml:Annotation" minOccurs="0" maxOccurs="unbounded" />
+				<xsd:element ref="gpml:Annotation" minOccurs="0" maxOccurs="unbounded" />
 
-				<xsd:element name="Citation" type="gpml:Citation" minOccurs="0" maxOccurs="unbounded" />
+				<xsd:element ref="gpml:Citation" minOccurs="0" maxOccurs="unbounded" />
 
 			</xsd:sequence>
 
