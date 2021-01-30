@@ -953,7 +953,9 @@
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
-			<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+			<xsd:sequence>
+				<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+			</xsd:sequence>
 			<xsd:attribute name="textLabel" type="xsd:string" use="optional">
 				<xsd:annotation>
 					<xsd:documentation>
@@ -997,7 +999,9 @@
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
-			<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+			<xsd:sequence>
+				<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+			</xsd:sequence>
 			<xsd:attribute name="url" type="xsd:string" use="optional">
 				<xsd:annotation>
 					<xsd:documentation>
