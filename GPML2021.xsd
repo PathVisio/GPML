@@ -435,7 +435,7 @@
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 				<xsd:element name="Author" minOccurs="0" maxOccurs="unbounded">
 					<xsd:annotation>
 						<xsd:documentation>
@@ -559,7 +559,7 @@
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element name="Xref" type="gpml:Xref" minOccurs="1" maxOccurs="1"/>
+				<xsd:element ref="gpml:Xref" minOccurs="1" maxOccurs="1"/>
 				<!-- Graphics related attributes-->
 				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
 					<xsd:complexType>	
@@ -615,7 +615,7 @@
 		</xsd:annotation>	
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 				<!-- Graphics related attributes-->
 				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
 					<xsd:complexType>
@@ -674,7 +674,7 @@
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element name="Xref" type="gpml:Xref" minOccurs="1" maxOccurs="1"/>
+				<xsd:element ref="gpml:Xref" minOccurs="1" maxOccurs="1"/>
 				<!-- Graphics related attributes-->
 				<xsd:element name="Point" type="gpml:Point" minOccurs="2" maxOccurs="unbounded" />
 				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
@@ -837,7 +837,7 @@
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 				<xsd:group ref="gpml:CommentGroup" />
 			</xsd:sequence>
 			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
@@ -953,7 +953,7 @@
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
-			<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 			<xsd:attribute name="textLabel" type="xsd:string" use="optional">
 				<xsd:annotation>
 					<xsd:documentation>
@@ -997,7 +997,7 @@
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
-			<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1" />
+			<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 			<xsd:attribute name="url" type="xsd:string" use="optional">
 				<xsd:annotation>
 					<xsd:documentation>
