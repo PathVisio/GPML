@@ -11,7 +11,7 @@
 	     Type Definitions 
          This block declares all the properties which would then be attached
          to elements in the GPML hierarchy:
-		 - attributeGroups: FontAttributes,RectAttributes, LineStyleAttributes, ShapeStyleAttributes
+		 - attributeGroups: FontAttributes, RectAttributes, LineStyleAttributes, ShapeStyleAttributes
 		 - simpleTypes: RotationType, ColorType, StyleType, Dimension
 		 - element group: CommentGroup(Comment, Attribute, AnnotationRef, CitationRef) 
     --> 
@@ -461,27 +461,27 @@
 				</xsd:element>
 				<!-- End Graphics related attributes-->	
 
-				<xsd:element ref="gpml:DataNode" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="gpml:DataNodes" minOccurs="0" maxOccurs="1"/>
 
-				<xsd:element ref="gpml:State" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="gpml:States" minOccurs="0" maxOccurs="1"/>
 
-				<xsd:element ref="gpml:Interaction" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="gpml:Interactions" minOccurs="0" maxOccurs="1"/>
 				
-				<xsd:element ref="gpml:GraphicalLine" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="gpml:GraphicalLines" minOccurs="0" maxOccurs="1"/>
 
-				<xsd:element ref="gpml:Label" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="gpml:Labels" minOccurs="0" maxOccurs="1"/>
 
-				<xsd:element ref="gpml:Shape" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="gpml:Shapes" minOccurs="0" maxOccurs="1"/>
 				
-				<xsd:element ref="gpml:Group" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="gpml:Groups" minOccurs="0" maxOccurs="1"/>
 
 				<xsd:element ref="gpml:InfoBox" minOccurs="1" maxOccurs="1" />
 				
 				<xsd:element ref="gpml:Legend" minOccurs="0" maxOccurs="1"/>
 								
-				<xsd:element ref="gpml:Annotation" minOccurs="0" maxOccurs="unbounded" />
+				<xsd:element ref="gpml:Annotations" minOccurs="0" maxOccurs="1" />
 
-				<xsd:element ref="gpml:Citation" minOccurs="0" maxOccurs="unbounded" />
+				<xsd:element ref="gpml:Citations" minOccurs="0" maxOccurs="1" />
 
 			</xsd:sequence>
 
@@ -538,118 +538,145 @@
 	<!-- ###################################################################### -->
 
 	<!-- 
-		Data Node 
+		Data Nodes 
 		The elements with biological context forming the basis of the biological pathway.
 		DataNode represents all possible biological entities in a pathway like GeneProduct, 
 		Metabolite, Pathway, Protein, RNA, Unknown.
 		
-		Encloses: 
+		DataNode encloses: 
 		- complex type sequence of elements: Xref, Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes), 
 		  CommentGroup
 		- local attributes: elementId, elementRef, textLabel, type
 	-->
-	<xsd:element name="DataNode">
+	<xsd:element name="DataNodes">
 		<xsd:annotation>
 			<xsd:documentation>
-				Denotes a biological entity that forms a node in a pathway and
-				has some biological meaning associated with it. For a list of
-				the gpml:DataNode types supported at WikiPathways, see subclasses
-				of wp:DataNode or the wpTypes vocabulary defined for use in applications.
+				List of Data nodes. 
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element ref="gpml:Xref" minOccurs="1" maxOccurs="1"/>
-				<!-- Graphics related attributes-->
-				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
-					<xsd:complexType>	
-						<xsd:attributeGroup ref="gpml:RectAttributes"/>
-						<xsd:attributeGroup ref="gpml:FontAttributes"/>
-						<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
+				<!-- DataNode -->
+				<xsd:element name="DataNode" minOccurs="0" maxOccurs="unbounded">
+					<xsd:annotation>
+						<xsd:documentation>
+							Denotes a biological entity that forms a node in a pathway and
+							has some biological meaning associated with it. For a list of
+							the gpml:DataNode types supported at WikiPathways, see subclasses
+							of wp:DataNode or the wpTypes vocabulary defined for use in applications.
+						</xsd:documentation>
+					</xsd:annotation>
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element ref="gpml:Xref" minOccurs="1" maxOccurs="1"/>
+							<!-- Graphics related attributes-->
+							<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+								<xsd:complexType>	
+									<xsd:attributeGroup ref="gpml:RectAttributes"/>
+									<xsd:attributeGroup ref="gpml:FontAttributes"/>
+									<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
+								</xsd:complexType>
+							</xsd:element>
+							<!-- End Graphics related attributes-->
+							<xsd:group ref="gpml:CommentGroup"/>				
+						</xsd:sequence>
+						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
+						<xsd:attribute name="elementRef" type="xsd:string" use="optional">
+							<xsd:annotation>
+								<xsd:documentation>
+									A elementRef indicates an object is part of a gpml:Group with a elementId. 
+									DataNode, GraphicalLine, Group, Interaction, Label and Shape can be part of a group.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attribute>
+						<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
+						<xsd:attribute name="type" type="xsd:string" default="Unknown">
+							<xsd:annotation>
+								<xsd:documentation>
+									Basic GPML types are:"Protein", "Rna", "Complex", "GeneProduct", 
+									"Metabolite" and "Unknown".
+								</xsd:documentation>
+							</xsd:annotation>
+							<!-- Old versions of GPML only allowed these values for Type: 
+							It's recommended that you use these values as often as possible. -->
+						</xsd:attribute>
 					</xsd:complexType>
 				</xsd:element>
-				<!-- End Graphics related attributes-->
-				<xsd:group ref="gpml:CommentGroup"/>				
+				<!-- End: DataNode -->
 			</xsd:sequence>
-            <xsd:attribute name="elementId" type="xsd:ID" use="required" />
-            <xsd:attribute name="elementRef" type="xsd:string" use="optional">
-				<xsd:annotation>
-					<xsd:documentation>
-						A elementRef indicates an object is part of a gpml:Group with a elementId. 
-						DataNode, GraphicalLine, Group, Interaction, Label and Shape can be part of a group.
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
-			<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
-			<xsd:attribute name="type" type="xsd:string" default="Unknown">
-				<xsd:annotation>
-					<xsd:documentation>
-						Basic GPML types are:"Protein", "Rna", "Complex", "GeneProduct", 
-						"Metabolite" and "Unknown".
-					</xsd:documentation>
-				</xsd:annotation>
-				<!-- Old versions of GPML only allowed these values for Type: 
-				It's recommended that you use these values as often as possible. -->
-			</xsd:attribute>
 		</xsd:complexType>
 	</xsd:element>
-	<!-- End: DataNode -->
+	<!-- End: DataNodes -->
 
 	<!-- ###################################################################### -->
 
 	<!-- 
-		State         
+		States         
 		Always linked to a DataNode representing a specific state of the biological 
 		entity (e.g. phosphorylation, genetic variants, etc)
-		Encloses: 
+		
+		State encloses: 
 		- complex type sequence of elements: Xref, Graphics (relX, relY, width, height, FontAttributes, 
 		  ShapeStyleAttributes), CommentGroup
 		- local attributes: elementId, elementRef, textLabel, stateType
 	-->
-	<xsd:element name="State">
+	<xsd:element name="States">
 		<xsd:annotation>
 			<xsd:documentation>
-				Always linked to a DataNode representing a specific state of the biological 
-				entity (e.g. phosphorylation, genetic variants, etc)
+				List of States. 
 			</xsd:documentation>
-		</xsd:annotation>	
+		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
-				<!-- Graphics related attributes-->
-				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+				<!-- State --> 
+				<xsd:element name="State" minOccurs="0" maxOccurs="unbounded">
+					<xsd:annotation>
+						<xsd:documentation>
+							Always linked to a DataNode representing a specific state of the biological 
+							entity (e.g. phosphorylation, genetic variants, etc)
+						</xsd:documentation>
+					</xsd:annotation>	
 					<xsd:complexType>
-						<xsd:attribute name="relX" type="xsd:float" use="required" />
-						<xsd:attribute name="relY" type="xsd:float" use="required" />
-						<xsd:attribute name="width" type="gpml:Dimension" use="required" />
-						<xsd:attribute name="height" type="gpml:Dimension" use="required" />
-						<xsd:attributeGroup ref="gpml:FontAttributes"/>
-						<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
+						<xsd:sequence>
+							<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+							<!-- Graphics related attributes-->
+							<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+								<xsd:complexType>
+									<xsd:attribute name="relX" type="xsd:float" use="required" />
+									<xsd:attribute name="relY" type="xsd:float" use="required" />
+									<xsd:attribute name="width" type="gpml:Dimension" use="required" />
+									<xsd:attribute name="height" type="gpml:Dimension" use="required" />
+									<xsd:attributeGroup ref="gpml:FontAttributes"/>
+									<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
+								</xsd:complexType>
+							</xsd:element>
+							<!-- End Graphics related attributes-->
+							<xsd:group ref="gpml:CommentGroup"/>
+						</xsd:sequence>
+						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
+						<xsd:attribute name="elementRef" type="xsd:IDREF" use="required">
+							<xsd:annotation>
+								<xsd:documentation>
+									A elementRef indicates a child/parent relationship between objects. 
+									The elementRef of the child refers to the elementId of the parent. 
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attribute>
+						<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
+						<xsd:attribute name="stateType" type="xsd:string" default="Unknown">
+							<xsd:annotation>
+								<xsd:documentation>
+									Biological modification type, e.g. Phosphorylated, Glycosylated, Activated
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attribute>
 					</xsd:complexType>
 				</xsd:element>
-				<!-- End Graphics related attributes-->
-				<xsd:group ref="gpml:CommentGroup"/>
-			</xsd:sequence>
-            <xsd:attribute name="elementId" type="xsd:ID" use="required" />
-			<xsd:attribute name="elementRef" type="xsd:IDREF" use="required">
-				<xsd:annotation>
-					<xsd:documentation>
-						A elementRef indicates a child/parent relationship between objects. 
-						The elementRef of the child refers to the elementId of the parent. 
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
-			<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
-			<xsd:attribute name="stateType" type="xsd:string" default="Unknown">
-				<xsd:annotation>
-					<xsd:documentation>
-						Biological modification type, e.g. Phosphorylated, Glycosylated, Activated
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
+				<!-- End: State -->
+				</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
-	<!-- End: State -->
+	<!-- End: States -->
 	
 	<!-- ###################################################################### -->
 	
@@ -657,218 +684,281 @@
 		Interaction and Graphical Lines together are the only elements which can be used to 
 		connect data nodes, for implementing any kind of connections or interactions.
 		
-		Interaction
+		Interactions
 		Represent biological relation between entities - should always be attached to DataNodes
 		
-		Interaction element encloses: 
+		Interaction encloses: 
 		- complex type sequence of elements: Xref, Point, Graphics(Anchor, LineStyleAttributes), CommentGroup
 		- local attributes: elementId, elementRef, type
 	-->
-	<xsd:element name="Interaction">
+		<xsd:element name="Interactions">
 		<xsd:annotation>
 			<xsd:documentation>
-				Defines the biochemical relationship between DataNodes or with Anchors 
-				on other Interactions. An Xref can be specified for Interactions (in contrast 
-				to GraphicalLines).
+				List of Interactions. 
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element ref="gpml:Xref" minOccurs="1" maxOccurs="1"/>
-				<!-- Graphics related attributes-->
-				<xsd:element ref="gpml:Point" minOccurs="2" maxOccurs="unbounded" />
-				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+				<!-- Interaction --> 
+				<xsd:element name="Interaction" minOccurs="0" maxOccurs="unbounded">
+					<xsd:annotation>
+						<xsd:documentation>
+							Defines the biochemical relationship between DataNodes or with Anchors 
+							on other Interactions. An Xref can be specified for Interactions (in contrast 
+							to GraphicalLines).
+						</xsd:documentation>
+					</xsd:annotation>
 					<xsd:complexType>
 						<xsd:sequence>
-							<xsd:element ref="gpml:Anchor" minOccurs="0" maxOccurs="unbounded" />
-						</xsd:sequence>
-						<xsd:attributeGroup ref="gpml:LineStyleAttributes" />
+							<xsd:element ref="gpml:Xref" minOccurs="1" maxOccurs="1"/>
+							<!-- Graphics related attributes-->
+							<xsd:element ref="gpml:Point" minOccurs="2" maxOccurs="unbounded" />
+							<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element ref="gpml:Anchor" minOccurs="0" maxOccurs="unbounded" />
+									</xsd:sequence>
+									<xsd:attributeGroup ref="gpml:LineStyleAttributes" />
+								</xsd:complexType>
+							</xsd:element>
+							<!-- End Graphics related attributes-->
+							<xsd:group ref="gpml:CommentGroup" />
+						</xsd:sequence>	
+						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
+						<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
+						<xsd:attribute name="type" type="xsd:string" use="optional" />
 					</xsd:complexType>
 				</xsd:element>
-				<!-- End Graphics related attributes-->
-				<xsd:group ref="gpml:CommentGroup" />
-			</xsd:sequence>	
-			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
-			<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
-			<xsd:attribute name="type" type="xsd:string" use="optional" />
+				<!-- End: Interaction -->
+			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
-	<!-- End: Interaction -->
-
+	<!-- End: Interactions -->
+	
 	<!-- ###################################################################### -->
 
 	<!-- 
-		GrapicalLine are graphical annotations without semantic meaning
+		GraphicalLines
+		Graphical annotations without semantic meaning
 		
-		GraphicalLine element encloses: 
+		GraphicalLine encloses: 
 		- complex type sequence of elements: Point, Graphics(Anchor, LineStyleAttributes), CommentGroup
 		- local attributes: elementId, elementRef, type
     -->
-	<xsd:element name="GraphicalLine">
+	<xsd:element name="GraphicalLines">
 		<xsd:annotation>
 			<xsd:documentation>
-				A visual annotation, often used to partition space or connect other annotation,
-				e.g., Shapes. GrapicalLine are graphical annotations without semantic meaning
-				An Xref cannot be specified for GraphicalLines (in contrast to Interactions).
+				List of Graphical lines. 
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
-				<!-- Graphics related attributes-->
-				<xsd:element ref="gpml:Point" minOccurs="2" maxOccurs="unbounded" />
-				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
-					<xsd:complexType>	
+				<!-- GraphicalLine --> 
+				<xsd:element name="GraphicalLine" minOccurs="0" maxOccurs="unbounded">
+					<xsd:annotation>
+						<xsd:documentation>
+							A visual annotation, often used to partition space or connect other annotation,
+							e.g., Shapes. GrapicalLine are graphical annotations without semantic meaning
+							An Xref cannot be specified for GraphicalLines (in contrast to Interactions).
+						</xsd:documentation>
+					</xsd:annotation>
+					<xsd:complexType>
 						<xsd:sequence>
-							<xsd:element ref="gpml:Anchor" minOccurs="0" maxOccurs="unbounded" />
+							<!-- Graphics related attributes-->
+							<xsd:element ref="gpml:Point" minOccurs="2" maxOccurs="unbounded" />
+							<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+								<xsd:complexType>	
+									<xsd:sequence>
+										<xsd:element ref="gpml:Anchor" minOccurs="0" maxOccurs="unbounded" />
+									</xsd:sequence>
+									<xsd:attributeGroup ref="gpml:LineStyleAttributes" />
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:group ref="gpml:CommentGroup" />
+							<!-- End Graphics related attributes-->
 						</xsd:sequence>
-						<xsd:attributeGroup ref="gpml:LineStyleAttributes" />
+						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
+						<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
+						<xsd:attribute name="type" type="xsd:string" use="optional" />
 					</xsd:complexType>
 				</xsd:element>
-				<xsd:group ref="gpml:CommentGroup" />
-				<!-- End Graphics related attributes-->
+				<!-- End: GraphicalLine -->
 			</xsd:sequence>
-			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
-			<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
-			<xsd:attribute name="type" type="xsd:string" use="optional" />
 		</xsd:complexType>
 	</xsd:element>
-
-	<!-- End: Graphical Line -->
-
+	<!-- End: GraphicalLines -->
+	
 	<!-- ###################################################################### -->
 
-	<!-- Label 
+	<!-- 
+		Labels 
 		An element to attach simple labels to the pathway
 		No semantic meaning - graphical attributes
-		Label element encloses: 
+		
+		Label encloses: 
 		- complex type sequence of elements: Graphics(RectAttributes, FontAttributes, ShapeStyleAttributes),
 		  CommentGroup
 		- local attributes: href, elementId, elementRef, textLabel
 	-->
-	<xsd:element name="Label">
+	<xsd:element name="Labels">
 		<xsd:annotation>
 			<xsd:documentation>
-				A text field which can be used to annotate any aspect of a pathway.
+				List of Labels. 
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
-			<!--  This is text on a GenMAPP map that
-				can have associated comments. -->
 			<xsd:sequence>
-				<!-- Graphics related attributes-->
-				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+				<!-- Label --> 
+				<xsd:element name="Label" minOccurs="0" maxOccurs="unbounded">
+					<xsd:annotation>
+						<xsd:documentation>
+							A text field which can be used to annotate any aspect of a pathway.
+						</xsd:documentation>
+					</xsd:annotation>
 					<xsd:complexType>
-						<xsd:attributeGroup ref="gpml:RectAttributes"/>
-						<xsd:attributeGroup ref="gpml:FontAttributes" />
-						<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
+						<xsd:sequence>
+							<!-- Graphics related attributes-->
+							<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+								<xsd:complexType>
+									<xsd:attributeGroup ref="gpml:RectAttributes"/>
+									<xsd:attributeGroup ref="gpml:FontAttributes" />
+									<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
+								</xsd:complexType>
+							</xsd:element>
+							<!-- End Graphics related attributes-->
+							<xsd:group ref="gpml:CommentGroup"/>
+						</xsd:sequence>
+						<xsd:attribute name="href" use="optional" type="xsd:string">
+							<xsd:annotation>
+								<xsd:documentation>
+									The hyperlink optionally specified in a Label for a reference to a url.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attribute>
+						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
+						<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
+						<xsd:attribute name="textLabel" use="required" type="xsd:string"/>			
 					</xsd:complexType>
 				</xsd:element>
-				<!-- End Graphics related attributes-->
-				<xsd:group ref="gpml:CommentGroup"/>
+				<!-- End: Label -->
 			</xsd:sequence>
-			<xsd:attribute name="href" use="optional" type="xsd:string">
-				<xsd:annotation>
-					<xsd:documentation>
-						The hyperlink optionally specified in a Label for a reference to a url.
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
-			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
-			<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
-			<xsd:attribute name="textLabel" use="required" type="xsd:string"/>			
 		</xsd:complexType>
 	</xsd:element>
-	<!-- End: Label -->
+	<!-- End: Labels -->
 	
 	<!-- ###################################################################### -->
 
 	<!-- 
-		Shape 
+		Shapes 
 	    Graphical elements - shapes with or without a text label
 		
-		Shape element encloses: 
+		Shape encloses: 
 		- complex type sequence of elements: Graphics(RectAttributes, FontAttributes, 
 		  ShapeStyleAttributes, rotation), CommentGroup
 		- local attributes: elementId, elementRef, textLabel
 	-->
-	<xsd:element name="Shape">
+	<xsd:element name="Shapes">
 		<xsd:annotation>
 			<xsd:documentation>
-				Shape can refer to two different things in GPML,
-				both of which are associated with graphical elements.
+				List of Shapes. 
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
-				<!-- Graphics related attributes-->
-				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+				<!-- Shapes --> 
+				<xsd:element name="Shape" minOccurs="0" maxOccurs="unbounded">
+					<xsd:annotation>
+						<xsd:documentation>
+							Shape can refer to two different things in GPML,
+							both of which are associated with graphical elements.
+						</xsd:documentation>
+					</xsd:annotation>
 					<xsd:complexType>
-						<xsd:attributeGroup ref="gpml:RectAttributes"/>
-						<xsd:attributeGroup ref="gpml:FontAttributes" />
-						<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
-						<xsd:attribute name="rotation" type="gpml:RotationType" default="Top" />
+						<xsd:sequence>
+							<!-- Graphics related attributes-->
+							<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+								<xsd:complexType>
+									<xsd:attributeGroup ref="gpml:RectAttributes"/>
+									<xsd:attributeGroup ref="gpml:FontAttributes" />
+									<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
+									<xsd:attribute name="rotation" type="gpml:RotationType" default="Top" />
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:group ref="gpml:CommentGroup" />
+							<!-- End Graphics related attributes-->
+						</xsd:sequence>
+						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
+						<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
+						<xsd:attribute name="textLabel" use="optional" type="xsd:string"/>
 					</xsd:complexType>
 				</xsd:element>
-				<xsd:group ref="gpml:CommentGroup" />
-				<!-- End Graphics related attributes-->
+				<!-- End: Shape -->
 			</xsd:sequence>
-			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
-			<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
-			<xsd:attribute name="textLabel" use="optional" type="xsd:string"/>
-
 		</xsd:complexType>
-
 	</xsd:element>
-	<!-- End: Shape -->
+	<!-- End: Shapes -->
 	
 	<!-- ###################################################################### -->
 
 	<!-- 
-		Group 
+		Groups 
 		Elements in the pathway can be grouped. 
 		Basic GPML group styles are: 
 		None, Pathway, Group, Complex
 		
-		Group element encloses: 
+		Group encloses: 
 		- complex type sequence of elements: Xref, CommentGroup
 		- local attributes: elementId, elementRef, textLabel, groupType(enums)
 	-->
-	<xsd:element name="Group">	
+	<xsd:element name="Groups">
 		<xsd:annotation>
 			<xsd:documentation>
-				A collection of structurally or functionally similar or related pathway elements.
+				List of Groups. 
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
-				<xsd:group ref="gpml:CommentGroup" />
+				<!-- Group --> 
+				<xsd:element name="Group" minOccurs="0" maxOccurs="unbounded">	
+					<xsd:annotation>
+						<xsd:documentation>
+							A collection of structurally or functionally similar or related pathway elements.
+						</xsd:documentation>
+					</xsd:annotation>
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+							<xsd:group ref="gpml:CommentGroup" />
+						</xsd:sequence>
+						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
+						<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
+						<xsd:attribute name="textLabel" type="xsd:string" use="optional" />
+						<xsd:attribute name="groupType" default="Group">
+							<xsd:simpleType>
+								<xsd:union>
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:enumeration value="Group"/>
+											<xsd:enumeration value="Complex"/>
+											<xsd:enumeration value="Pathway"/>
+											<xsd:enumeration value="Analog"/>
+											<xsd:enumeration value="Paralog"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string"/>
+									</xsd:simpleType>
+								</xsd:union>
+							</xsd:simpleType>
+						</xsd:attribute>
+					</xsd:complexType>
+				</xsd:element>
+				<!-- End: Group -->
 			</xsd:sequence>
-			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
-			<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
-			<xsd:attribute name="textLabel" type="xsd:string" use="optional" />
-			<xsd:attribute name="groupType" default="Group">
-				<xsd:simpleType>
-					<xsd:union>
-						<xsd:simpleType>
-							<xsd:restriction base="xsd:string">
-								<xsd:enumeration value="Group"/>
-								<xsd:enumeration value="Complex"/>
-								<xsd:enumeration value="Pathway"/>
-								<xsd:enumeration value="Analog"/>
-								<xsd:enumeration value="Paralog"/>
-							</xsd:restriction>
-						</xsd:simpleType>
-						<xsd:simpleType>
-							<xsd:restriction base="xsd:string"/>
-						</xsd:simpleType>
-					</xsd:union>
-				</xsd:simpleType>
-			</xsd:attribute>
 		</xsd:complexType>
 	</xsd:element>
-	<!-- End: Group -->
-
+	<!-- End: Groups -->
+	
 	<!-- ###################################################################### -->
 
 	<!-- InfoBox -->
@@ -909,7 +999,7 @@
 		Xref 
 		Reference to a database entry.
 
-		Xref element encloses: 
+		Xref encloses: 
 		- attributes: identifier, dataSource		
 	-->
 	<xsd:element name="Xref">
@@ -941,90 +1031,116 @@
 	<!-- ###################################################################### -->
 	
 	<!-- 
-		Annotation
-		Referred to in the pathway
+		Annotations
+		Referred to in the pathway.
 		
-		Annotation element encloses:
+		Annotation encloses:
 		- element: Xref
 		- attributes: textLabel, elementId
 	-->
-	<xsd:element name="Annotation">
+	<xsd:element name="Annotations">
 		<xsd:annotation>
 			<xsd:documentation>
-				An annotation reference.
-				E.g. ontology terms, evidence, metadata, subcellular location, 
-				protein complex, and organism			
+				List of Annotations. 
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+				<!-- Annotation --> 
+				<xsd:element name="Annotation" minOccurs="0" maxOccurs="unbounded">
+					<xsd:annotation>
+						<xsd:documentation>
+							An annotation reference.
+							E.g. ontology terms, evidence, metadata, subcellular location, 
+							protein complex, and organism			
+						</xsd:documentation>
+					</xsd:annotation>
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+						</xsd:sequence>
+						<xsd:attribute name="textLabel" type="xsd:string" use="optional">
+							<xsd:annotation>
+								<xsd:documentation>
+									Text annotation to be visualized. 
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attribute>
+						<xsd:attribute name="url" type="xsd:string" use="optional">
+							<xsd:annotation>
+								<xsd:documentation>
+									Url or web address of work being cited.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attribute>
+						<xsd:attribute name="type" type="xsd:string" use="optional">
+							<xsd:annotation>
+								<xsd:documentation>
+									The type of annotation, e.g. Ontology term, metadata...
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attribute>
+						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
+					</xsd:complexType>
+				</xsd:element>
+				<!-- End: Annotation -->
 			</xsd:sequence>
-			<xsd:attribute name="textLabel" type="xsd:string" use="optional">
-				<xsd:annotation>
-					<xsd:documentation>
-						Text annotation to be visualized. 
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
-			<xsd:attribute name="url" type="xsd:string" use="optional">
-				<xsd:annotation>
-					<xsd:documentation>
-						Url or web address of work being cited.
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
-			<xsd:attribute name="type" type="xsd:string" use="optional">
-				<xsd:annotation>
-					<xsd:documentation>
-						The type of annotation, e.g. Ontology term, metadata...
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
-			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 		</xsd:complexType>
 	</xsd:element>
-	<!-- End: Annotation -->
-
+	<!-- End: Annotations -->
+	
 	<!-- ###################################################################### -->
 	
 	<!-- 
-		Citation
+		Citations
 		Referred to in the pathway.
 		
-		Citation element encloses:
+		Citation encloses:
 		- element: Xref
 		- attributes: url, elementId
 	-->
-	<xsd:element name="Citation">
+	<xsd:element name="Citations">
 		<xsd:annotation>
 			<xsd:documentation>
-				A literature reference, citation, or work.
+				List of Citations. 
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+				<!-- Citation --> 
+				<xsd:element name="Citation" minOccurs="0" maxOccurs="unbounded">
+					<xsd:annotation>
+						<xsd:documentation>
+							A literature reference, citation, or work.
+						</xsd:documentation>
+					</xsd:annotation>
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+						</xsd:sequence>
+						<xsd:attribute name="url" type="xsd:string" use="optional">
+							<xsd:annotation>
+								<xsd:documentation>
+									Url or web address of work being cited.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attribute>
+						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
+					</xsd:complexType>
+				</xsd:element>
+				<!-- End: Citation -->
 			</xsd:sequence>
-			<xsd:attribute name="url" type="xsd:string" use="optional">
-				<xsd:annotation>
-					<xsd:documentation>
-						Url or web address of work being cited.
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
-			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 		</xsd:complexType>
 	</xsd:element>
-	<!-- End: Citation -->
-
+	<!-- End: Citations -->
+	
 	<!-- ###################################################################### -->
 
 	<!-- 
 		Point
 		A location in 2-dimensional space defined by x and y coordinates.
 		
-		Point element encloses: 
+		Point encloses: 
 		- attributes: x, y, relX, relY, elementRef, elementId, arrowHead
 	--> 
 	<xsd:element name="Point">
@@ -1081,7 +1197,7 @@
 		Anchor
 		A connection point on a graphical line or an interaction
 		
-		Anchor element encloses: 
+		Anchor encloses: 
 		- attributes: position, shapeType, elementId
 	--> 
 	<xsd:element name="Anchor">
