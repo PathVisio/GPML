@@ -727,7 +727,6 @@
 						</xsd:sequence>	
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 						<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
-						<xsd:attribute name="type" type="xsd:string" use="optional" />
 					</xsd:complexType>
 				</xsd:element>
 				<!-- End: Interaction -->
@@ -780,7 +779,6 @@
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 						<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
-						<xsd:attribute name="type" type="xsd:string" use="optional" />
 					</xsd:complexType>
 				</xsd:element>
 				<!-- End: GraphicalLine -->
