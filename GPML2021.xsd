@@ -626,7 +626,7 @@
 		State encloses: 
 		- complex type sequence of elements: Xref, Graphics (relX, relY, width, height, FontAttributes, 
 		  ShapeStyleAttributes), CommentGroup
-		- local attributes: elementId, elementRef, textLabel, stateType
+		- local attributes: elementId, elementRef, textLabel, type
 	-->
 	<xsd:element name="States">
 		<xsd:annotation>
@@ -671,7 +671,7 @@
 							</xsd:annotation>
 						</xsd:attribute>
 						<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
-						<xsd:attribute name="stateType" type="xsd:string" default="Unknown">
+						<xsd:attribute name="type" type="xsd:string" default="Unknown">
 							<xsd:annotation>
 								<xsd:documentation>
 									Biological modification type, e.g. Phosphorylated, Glycosylated, Activated
@@ -914,7 +914,7 @@
 		
 		Group encloses: 
 		- complex type sequence of elements: Xref, CommentGroup
-		- local attributes: elementId, elementRef, textLabel, groupType(enums)
+		- local attributes: elementId, elementRef, textLabel, type(enums)
 	-->
 	<xsd:element name="Groups">
 		<xsd:annotation>
@@ -939,7 +939,7 @@
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 						<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
 						<xsd:attribute name="textLabel" type="xsd:string" use="optional" />
-						<xsd:attribute name="groupType" default="Group">
+						<xsd:attribute name="type" default="Group">
 							<xsd:simpleType>
 								<xsd:union>
 									<xsd:simpleType>
