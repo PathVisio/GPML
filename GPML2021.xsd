@@ -246,7 +246,7 @@
 			<xsd:annotation>
 				<xsd:documentation>
 					The visual appearance of an object, e.g. Rectangle, Arc, Nucleus,...
-					Note: not to be confused with Shapes.Shape.type, the categories of 
+					Not to be confused with Shapes.Shape.type, the categories of 
 					shapeType, e.g. Basic, CellularComponent, Virus... 
 				</xsd:documentation>
 			</xsd:annotation>
@@ -591,10 +591,11 @@
 							<xsd:group ref="gpml:CommentGroup"/>				
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
-						<xsd:attribute name="elementRef" type="xsd:string" use="optional">
+						<xsd:attribute name="elementRef" type="xsd:string" use="optional"/>
+						<xsd:attribute name="groupRef" type="xsd:string" use="optional">
 							<xsd:annotation>
 								<xsd:documentation>
-									A elementRef indicates an object is part of a gpml:Group with a elementId. 
+									A groupRef indicates an object is part of a gpml:Group with a elementId. 
 									DataNode, GraphicalLine, Group, Interaction, Label and Shape can be part of a group.
 								</xsd:documentation>
 							</xsd:annotation>
