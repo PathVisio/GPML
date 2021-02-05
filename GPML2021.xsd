@@ -315,12 +315,19 @@
 	</xsd:simpleType>
 
 	<xsd:simpleType name="StyleType">
-		<xsd:restriction base="xsd:string">
-			<xsd:enumeration value="Solid"/>
-			<xsd:enumeration value="Broken"/>
-			<xsd:enumeration value="Double"/>
-		</xsd:restriction>
-	</xsd:simpleType>
+		<xsd:union>
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="Solid"/>
+					<xsd:enumeration value="Broken"/>
+					<xsd:enumeration value="Double"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:string"/>
+			</xsd:simpleType>
+		</xsd:union>
+	</xsd:simpleType>	
 
 	<xsd:simpleType name="Dimension">
 		<xsd:annotation>
