@@ -245,7 +245,9 @@
 		<xsd:attribute name="shapeType" type="xsd:string" default="Rectangle">
 			<xsd:annotation>
 				<xsd:documentation>
-					The visual appearance of an object, e.g. Rectangle.
+					The visual appearance of an object, e.g. Rectangle, Arc, Nucleus,...
+					Note: not to be confused with Shapes.Shape.type, the categories of 
+					shapeType, e.g. Basic, CellularComponent, Virus... 
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
@@ -861,7 +863,12 @@
 		Shape encloses: 
 		- complex type sequence of elements: Graphics(RectAttributes, FontAttributes, 
 		  ShapeStyleAttributes, rotation), CommentGroup
-		- local attributes: elementId, elementRef, textLabel
+		- local attributes: elementId, elementRef, textLabel, type
+		
+		Note: 
+		Shape.type = "basic", "cellularComponent", "virus"....
+		Graphics.shapeType = "rectangle", "nucleus","coronavirus"...
+
 	-->
 	<xsd:element name="Shapes">
 		<xsd:annotation>
@@ -896,6 +903,13 @@
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 						<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
 						<xsd:attribute name="textLabel" use="optional" type="xsd:string"/>
+						<xsd:attribute name="type" type="xsd:string" default="Unknown">
+							<xsd:annotation>
+								<xsd:documentation>
+									Categories of Shapes, e.g. basic, cellularComponent, virus...
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attribute>
 					</xsd:complexType>
 				</xsd:element>
 				<!-- End: Shape -->
