@@ -1139,14 +1139,14 @@
 						<xsd:sequence>
 							<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 						</xsd:sequence>
+						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 						<xsd:attribute name="url" type="xsd:string" use="optional">
 							<xsd:annotation>
 								<xsd:documentation>
 									Url or web address of work being cited.
 								</xsd:documentation>
 							</xsd:annotation>
-						</xsd:attribute>
-						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
+						</xsd:attribute>	
 					</xsd:complexType>
 				</xsd:element>
 				<!-- End: Citation -->
