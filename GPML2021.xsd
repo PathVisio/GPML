@@ -1171,6 +1171,23 @@
 			</xsd:documentation>
 		</xsd:annotation>	
 		<xsd:complexType>
+			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
+			<xsd:attribute name="elementRef" type="xsd:IDREF" use="optional" >
+				<xsd:annotation>
+					<xsd:documentation>
+						An elementRef indicates a child/parent relationship between objects. 
+						The elementRef of the child refers to the elementId of the parent. 
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+	        <xsd:attribute name="arrowHead" default="Line" type="xsd:string" >
+				<xsd:annotation>
+					<xsd:documentation>
+						Specifies the glyph at the ends of lines and interactions. Only the arrowHead 
+						attribute on first and last points are used, the rest is ignored.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
 			<xsd:attribute name="x" type="xsd:float" use="required" />
 			<xsd:attribute name="y" type="xsd:float" use="required" />
 			<xsd:attribute name="relX" type="xsd:float" use="optional">
@@ -1188,23 +1205,6 @@
 						When the given point is linked to an object, relX and relY are 
 						the relative coordinates on the object, where 0,0 is at the center 
 						of the object and 1,1 at the bottom-right corner of the object.  
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
-			<xsd:attribute name="elementRef" type="xsd:IDREF" use="optional" >
-				<xsd:annotation>
-					<xsd:documentation>
-						A elementRef indicates a child/parent relationship between objects. 
-						The elementRef of the child refers to the elementId of the parent. 
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
-			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
-	        <!-- Note: only the arrowHead attribute on first and last points are used, the rest is ignored. -->
-	        <xsd:attribute name="arrowHead" default="Line" type="xsd:string" >
-				<xsd:annotation>
-					<xsd:documentation>
-						Specifies the glyph at the ends of lines and interactions.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
@@ -1229,6 +1229,7 @@
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
+			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 	        <xsd:attribute name="position" type="xsd:float" use="required" >
 				<xsd:annotation>
 					<xsd:documentation>
@@ -1245,7 +1246,6 @@
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
-			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 	    </xsd:complexType>
 	</xsd:element>
 	<!-- End: Anchor -->
