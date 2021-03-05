@@ -438,7 +438,6 @@
 		- Graphics (boardWidth, boardHeight),
 		- DataNodes, States, Interactions, GraphicalLines, Labels, Shapes, Groups, InfoBox, Legend
 	-->
-
 	<xsd:element name="Pathway">
 		<xsd:annotation>
 			<xsd:documentation>
@@ -522,7 +521,7 @@
 				<xsd:annotation>
 					<xsd:documentation>
 						The scientific name (e.g., Homo sapiens) of the species 
-						being described by the pathway.
+						being described by a pathway.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
@@ -534,6 +533,11 @@
 						number. 
 					Deprecated in 2017 version
 				-->
+				<xsd:annotation>
+					<xsd:documentation>
+						The source of a pathway, e.g. WikiPathways, KEGG, Cytoscape.
+					</xsd:documentation>
+				</xsd:annotation>
 			</xsd:attribute>
 			<xsd:attribute name="version" type="xsd:string" use="optional">
 				<!-- GenMAPP version, use for export
