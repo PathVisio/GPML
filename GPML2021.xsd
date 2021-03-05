@@ -32,14 +32,27 @@
 		<xsd:attribute name="fontName" default="Arial" type="xsd:string">
 			<xsd:annotation>
 				<xsd:documentation>
-					The name of the set of printable text characters to be used for visualization.
+					The name of the set of printable text characters to be used for visualization, e.g., Arial.
 				</xsd:documentation>
 			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="fontWeight" default="Normal">
+			<xsd:annotation>
+				<xsd:documentation>
+					Thickness of the font used, e.g normal or bold. A bold font would have more weight. 
+				</xsd:documentation>
+			</xsd:annotation>
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="Normal"/>
+					<xsd:enumeration value="Bold"/>
+				</xsd:restriction>
+			</xsd:simpleType>
 		</xsd:attribute>
 		<xsd:attribute name="fontStyle" default="Normal">
 			<xsd:annotation>
 				<xsd:documentation>
-					The typographic style or font face applied to displayed text, e.g., Arial.
+					The typographic style applied to displayed text, e.g. normal or italic.
 				</xsd:documentation>
 			</xsd:annotation>
 			<xsd:simpleType>
@@ -72,20 +85,6 @@
 				<xsd:restriction base="xsd:string">
 					<xsd:enumeration value="Normal"/>
 					<xsd:enumeration value="Strikethru"/>
-				</xsd:restriction>
-			</xsd:simpleType>
-		</xsd:attribute>
-		<xsd:attribute name="fontWeight" default="Normal">
-			<xsd:annotation>
-				<xsd:documentation>
-					Thickness of the font used, e.g a bold font would
-					have more weight. Used for DataNodes, Labels and Shapes.
-				</xsd:documentation>
-			</xsd:annotation>
-			<xsd:simpleType>
-				<xsd:restriction base="xsd:string">
-					<xsd:enumeration value="Normal"/>
-					<xsd:enumeration value="Bold"/>
 				</xsd:restriction>
 			</xsd:simpleType>
 		</xsd:attribute>
@@ -245,7 +244,7 @@
 		<xsd:attribute name="shapeType" type="xsd:string" default="Rectangle">
 			<xsd:annotation>
 				<xsd:documentation>
-					The visual appearance of an object, e.g. Rectangle, Arc, Nucleus,...
+					The visual appearance of a two dimensional object, e.g. Rectangle, Arc, Nucleus,...
 					Not to be confused with Shapes.Shape.type, the categories of 
 					shapeType, e.g. Basic, CellularComponent, Virus... 
 				</xsd:documentation>
@@ -389,7 +388,7 @@
 			<xsd:element name="AnnotationRef" minOccurs="0" maxOccurs="unbounded">
 				<xsd:annotation>
 					<xsd:documentation>
-						Refers to an Annotation.  
+						Refers to an gpml:Annotation.  
 					</xsd:documentation>
 				</xsd:annotation>
 				<xsd:complexType>
@@ -406,7 +405,7 @@
 			<xsd:element name="CitationRef" minOccurs="0" maxOccurs="unbounded">
 				<xsd:annotation>
 					<xsd:documentation>
-						Refers to a Citation.  
+						Refers to a gpml:Citation.  
 					</xsd:documentation>
 				</xsd:annotation>
 				<xsd:complexType>
@@ -556,7 +555,7 @@
 		DataNode encloses: 
 		- complex type sequence of elements: Xref, Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes), 
 		  CommentGroup
-		- local attributes: elementId, elementRef, textLabel, type
+		- local attributes: elementId, elementRef, groupRef, textLabel, type
 	-->
 	<xsd:element name="DataNodes">
 		<xsd:annotation>
@@ -591,12 +590,20 @@
 							<xsd:group ref="gpml:CommentGroup"/>				
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
-						<xsd:attribute name="elementRef" type="xsd:string" use="optional"/>
+						<xsd:attribute name="elementRef" type="xsd:string" use="optional">
+							<xsd:annotation>
+								<xsd:documentation>
+									A elementRef indicates a child/parent relationship between objects. 
+									The elementRef of the child refers to the elementId of the parent. 
+									A DataNode can have type "Alias" and refer to a gpml:Group. 
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attribute>	
 						<xsd:attribute name="groupRef" type="xsd:string" use="optional">
 							<xsd:annotation>
 								<xsd:documentation>
-									A groupRef indicates an object is part of a gpml:Group with a elementId. 
-									DataNode, GraphicalLine, Group, Interaction, Label and Shape can be part of a group.
+									A groupRef indicates an object is part of a gpml:Group with an elementId. 
+									DataNode, Interaction, GraphicalLine, Label, Shape, and Group can be part of a group.
 								</xsd:documentation>
 							</xsd:annotation>
 						</xsd:attribute>
@@ -700,7 +707,7 @@
 		
 		Interaction encloses: 
 		- complex type sequence of elements: Xref, Point, Graphics(Anchor, LineStyleAttributes), CommentGroup
-		- local attributes: elementId, elementRef, type
+		- local attributes: elementId, groupRef, type
 	-->
 		<xsd:element name="Interactions">
 		<xsd:annotation>
@@ -736,7 +743,14 @@
 							<xsd:group ref="gpml:CommentGroup" />
 						</xsd:sequence>	
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
-						<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
+						<xsd:attribute name="groupRef" type="xsd:string" use="optional" >
+							<xsd:annotation>
+								<xsd:documentation>
+									A groupRef indicates an object is part of a gpml:Group with an elementId. 
+									DataNode, Interaction, GraphicalLine, Label, Shape, and Group can be part of a group.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attribute>
 					</xsd:complexType>
 				</xsd:element>
 				<!-- End: Interaction -->
@@ -753,7 +767,7 @@
 		
 		GraphicalLine encloses: 
 		- complex type sequence of elements: Point, Graphics(Anchor, LineStyleAttributes), CommentGroup
-		- local attributes: elementId, elementRef, type
+		- local attributes: elementId, groupRef, type
     -->
 	<xsd:element name="GraphicalLines">
 		<xsd:annotation>
@@ -788,7 +802,14 @@
 							<!-- End Graphics related attributes-->
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
-						<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
+						<xsd:attribute name="groupRef" type="xsd:string" use="optional">
+							<xsd:annotation>
+								<xsd:documentation>
+									A groupRef indicates an object is part of a gpml:Group with an elementId. 
+									DataNode, Interaction, GraphicalLine, Label, Shape, and Group can be part of a group.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attribute>
 					</xsd:complexType>
 				</xsd:element>
 				<!-- End: GraphicalLine -->
@@ -807,7 +828,7 @@
 		Label encloses: 
 		- complex type sequence of elements: Graphics(RectAttributes, FontAttributes, ShapeStyleAttributes),
 		  CommentGroup
-		- local attributes: href, elementId, elementRef, textLabel
+		- local attributes: href, elementId, groupRef, textLabel
 	-->
 	<xsd:element name="Labels">
 		<xsd:annotation>
@@ -845,7 +866,14 @@
 							</xsd:annotation>
 						</xsd:attribute>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
-						<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
+						<xsd:attribute name="groupRef" type="xsd:string" use="optional" >
+							<xsd:annotation>
+								<xsd:documentation>
+									A groupRef indicates an object is part of a gpml:Group with an elementId. 
+									DataNode, Interaction, GraphicalLine, Label, Shape, and Group can be part of a group.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attribute>
 						<xsd:attribute name="textLabel" use="required" type="xsd:string"/>			
 					</xsd:complexType>
 				</xsd:element>
@@ -864,7 +892,7 @@
 		Shape encloses: 
 		- complex type sequence of elements: Graphics(RectAttributes, FontAttributes, 
 		  ShapeStyleAttributes, rotation), CommentGroup
-		- local attributes: elementId, elementRef, textLabel, type
+		- local attributes: elementId, groupRef, textLabel, type
 		
 		Note: 
 		Shape.type = "basic", "cellularComponent", "virus"....
@@ -902,7 +930,14 @@
 							<!-- End Graphics related attributes-->
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
-						<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
+						<xsd:attribute name="groupRef" type="xsd:string" use="optional">
+							<xsd:annotation>
+								<xsd:documentation>
+									A groupRef indicates an object is part of a gpml:Group with an elementId. 
+									DataNode, Interaction, GraphicalLine, Label, Shape, and Group can be part of a group.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attribute>
 						<xsd:attribute name="textLabel" use="optional" type="xsd:string"/>
 						<xsd:attribute name="type" type="xsd:string" default="Unknown">
 							<xsd:annotation>
@@ -929,7 +964,7 @@
 		
 		Group encloses: 
 		- complex type sequence of elements: Xref, CommentGroup
-		- local attributes: elementId, elementRef, textLabel, type(enums)
+		- local attributes: elementId, groupRef, textLabel, type(enums)
 	-->
 	<xsd:element name="Groups">
 		<xsd:annotation>
@@ -952,7 +987,14 @@
 							<xsd:group ref="gpml:CommentGroup" />
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
-						<xsd:attribute name="elementRef" type="xsd:string" use="optional" />
+						<xsd:attribute name="groupRef" type="xsd:string" use="optional" >
+							<xsd:annotation>
+								<xsd:documentation>
+									A groupRef indicates an object is part of a gpml:Group with an elementId. 
+									DataNode, Interaction, GraphicalLine, Label, Shape, and Group can be part of a group.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attribute>
 						<xsd:attribute name="textLabel" type="xsd:string" use="optional" />
 						<xsd:attribute name="type" default="Group">
 							<xsd:simpleType>
@@ -1090,7 +1132,7 @@
 						<xsd:attribute name="url" type="xsd:string" use="optional">
 							<xsd:annotation>
 								<xsd:documentation>
-									Url or web address of work being cited.
+									Url or web address of annotation.
 								</xsd:documentation>
 							</xsd:annotation>
 						</xsd:attribute>
