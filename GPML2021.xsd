@@ -445,16 +445,24 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
-				<xsd:element name="Author" minOccurs="0" maxOccurs="unbounded">
-					<xsd:annotation>
-						<xsd:documentation>
-							The people who created or edited the given pathway.
-						</xsd:documentation>
-					</xsd:annotation>
+				<xsd:element name="Authors" minOccurs="0" maxOccurs="1">
 					<xsd:complexType>
-						<xsd:attribute name="name" type="xsd:string" use="required"/>
+						<xsd:sequence>
+							<xsd:element name="Author" minOccurs="0" maxOccurs="unbounded">
+								<xsd:annotation>
+									<xsd:documentation>
+										The people who created or edited the given pathway.
+									</xsd:documentation>
+								</xsd:annotation>
+								<xsd:complexType>
+									<xsd:attribute name="name" type="xsd:string" use="required"/>
+									<xsd:attribute name="fullName" type="xsd:string" use="optional"/>
+									<xsd:attribute name="email" type="xsd:string" use="optional"/>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
 					</xsd:complexType>
-				</xsd:element>	
+				</xsd:element>		
 				<xsd:group ref="gpml:CommentGroup"/>
 				<!-- Graphics related attributes-->
 				<xsd:element name="Graphics" minOccurs="0" maxOccurs="1">
