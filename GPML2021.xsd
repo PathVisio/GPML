@@ -1003,6 +1003,15 @@
 					<xsd:complexType>
 						<xsd:sequence>
 							<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+							<!-- Graphics related attributes-->
+							<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
+								<xsd:complexType>
+									<xsd:attributeGroup ref="gpml:RectAttributes"/>
+									<xsd:attributeGroup ref="gpml:FontAttributes" />
+									<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
+								</xsd:complexType>
+							</xsd:element>
+							<!-- End Graphics related attributes-->
 							<xsd:group ref="gpml:CommentGroup" />
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
@@ -1300,7 +1309,7 @@
 			</xsd:attribute>
 			<xsd:attribute name="x" type="xsd:float" use="required" />
 			<xsd:attribute name="y" type="xsd:float" use="required" />
-	        <xsd:attribute name="shapeType" default="ReceptorRound" type="xsd:string" >
+	        <xsd:attribute name="shapeType" default="Square" type="xsd:string" >
 				<xsd:annotation>
 					<xsd:documentation>
 						The visual representation of an anchor, e.g., Circle or None.
