@@ -428,10 +428,15 @@
 
 	<!-- 
 		Pathway 
-        This is the root element of the structure, it encloses: 
-		- complex type sequence of elements: Xref, Authors, CommentGroup, Graphics (boardWidth,boardHeight),
-		  DataNodes, States, Interactions, GraphicalLines, Labels, Shapes, Groups, InfoBox, Legend, Annotation, Citation
-		- local attributes: title, organism, source, version, license  
+        This is the root element of the structure. 
+		
+		Pathway properties in the order to be written in the gpml:
+		- title, organism, source, version, license
+		- Xref, Authors
+		- Annotation, Citation
+		- Comment, Property, AnnotationRef, CitationRef, 
+		- Graphics (boardWidth, boardHeight),
+		- DataNodes, States, Interactions, GraphicalLines, Labels, Shapes, Groups, InfoBox, Legend
 	-->
 
 	<xsd:element name="Pathway">
@@ -464,6 +469,8 @@
 					</xsd:complexType>
 				</xsd:element>		
 				<xsd:group ref="gpml:CommentGroup"/>
+				<xsd:element ref="gpml:Annotations" minOccurs="0" maxOccurs="1" />
+				<xsd:element ref="gpml:Citations" minOccurs="0" maxOccurs="1" />
 				<!-- Graphics related attributes-->
 				<xsd:element name="Graphics" minOccurs="0" maxOccurs="1">
 					<xsd:annotation>
@@ -496,10 +503,6 @@
 				
 				<xsd:element ref="gpml:Legend" minOccurs="0" maxOccurs="1"/>
 								
-				<xsd:element ref="gpml:Annotations" minOccurs="0" maxOccurs="1" />
-
-				<xsd:element ref="gpml:Citations" minOccurs="0" maxOccurs="1" />
-
 			</xsd:sequence>
 
 			<xsd:attribute name="title" type="xsd:string" use="required">
@@ -1085,41 +1088,6 @@
 	<!-- End: Legend -->
 
 	<!-- ###################################################################### -->
-
-	<!-- 
-		Xref 
-		Reference to a database entry.
-
-		Xref properties in the order to be written: 
-		- identifier, dataSource		
-	-->
-	<xsd:element name="Xref">
-		<xsd:annotation>
-			<xsd:documentation>
-				Reference to a database entry.
-			</xsd:documentation>
-		</xsd:annotation>
-		<xsd:complexType>
-			<xsd:attribute name="identifier" type="xsd:string" use="required">
-				<xsd:annotation>
-					<xsd:documentation>
-						The identifier of a PublicationXref or Xref object.
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
-			<xsd:attribute name="dataSource" type="xsd:string" use="required">
-				<xsd:annotation>
-					<xsd:documentation>
-						Specifies the datasource for the identifier provided as an Xref.
-						Equivalent to http://vocabularies.bridgedb.org/ops#DataSource conventional name.
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
-		</xsd:complexType>
-	</xsd:element>	 
-	<!-- End: Xref -->
-
-	<!-- ###################################################################### -->
 	
 	<!-- 
 		Annotations
@@ -1227,6 +1195,41 @@
 	
 	<!-- ###################################################################### -->
 
+	<!-- 
+		Xref 
+		Reference to a database entry.
+
+		Xref properties in the order to be written: 
+		- identifier, dataSource		
+	-->
+	<xsd:element name="Xref">
+		<xsd:annotation>
+			<xsd:documentation>
+				Reference to a database entry.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:attribute name="identifier" type="xsd:string" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						The identifier of a PublicationXref or Xref object.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="dataSource" type="xsd:string" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						Specifies the datasource for the identifier provided as an Xref.
+						Equivalent to http://vocabularies.bridgedb.org/ops#DataSource conventional name.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>	 
+	<!-- End: Xref -->
+
+	<!-- ###################################################################### -->
+	
 	<!-- 
 		Point
 		A location in 2-dimensional space defined by x and y coordinates.
