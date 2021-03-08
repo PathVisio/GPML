@@ -392,6 +392,10 @@
 					</xsd:documentation>
 				</xsd:annotation>
 				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element ref="gpml:CitationRef" minOccurs="0" maxOccurs="unbounded" />
+						<xsd:element ref="gpml:EvidenceRef" minOccurs="0" maxOccurs="unbounded" />	
+					</xsd:sequence>
 					<xsd:attribute name="elementRef" type="xsd:string" use="required">
 						<xsd:annotation>
 							<xsd:documentation>
@@ -469,7 +473,9 @@
 				</xsd:element>		
 				<xsd:element ref="gpml:Annotations" minOccurs="0" maxOccurs="1" />
 				<xsd:element ref="gpml:Citations" minOccurs="0" maxOccurs="1" />
+				<xsd:element ref="gpml:Evidences" minOccurs="0" maxOccurs="1" />
 				<xsd:group ref="gpml:CommentGroup"/>
+				<xsd:element ref="gpml:EvidenceRef" minOccurs="0" maxOccurs="unbounded" />	
 				<!-- Graphics related attributes-->
 				<xsd:element name="Graphics" minOccurs="0" maxOccurs="1">
 					<xsd:annotation>
@@ -602,7 +608,8 @@
 								</xsd:complexType>
 							</xsd:element>
 							<!-- End Graphics related attributes-->
-							<xsd:group ref="gpml:CommentGroup"/>				
+							<xsd:group ref="gpml:CommentGroup"/>
+							<xsd:element ref="gpml:EvidenceRef" minOccurs="0" maxOccurs="unbounded" />	
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 						<xsd:attribute name="elementRef" type="xsd:string" use="optional">
@@ -685,6 +692,7 @@
 							</xsd:element>
 							<!-- End Graphics related attributes-->
 							<xsd:group ref="gpml:CommentGroup"/>
+							<xsd:element ref="gpml:EvidenceRef" minOccurs="0" maxOccurs="unbounded" />
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 						<xsd:attribute name="elementRef" type="xsd:IDREF" use="required">
@@ -761,6 +769,7 @@
 							</xsd:element>
 							<!-- End Graphics related attributes-->
 							<xsd:group ref="gpml:CommentGroup" />
+							<xsd:element ref="gpml:EvidenceRef" minOccurs="0" maxOccurs="unbounded" />
 						</xsd:sequence>	
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 						<xsd:attribute name="groupRef" type="xsd:string" use="optional" >
@@ -1020,6 +1029,7 @@
 							</xsd:element>
 							<!-- End Graphics related attributes-->
 							<xsd:group ref="gpml:CommentGroup" />
+							<xsd:element ref="gpml:EvidenceRef" minOccurs="0" maxOccurs="unbounded" />
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 						<xsd:attribute name="textLabel" type="xsd:string" use="optional" />
@@ -1068,6 +1078,7 @@
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
+			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 			<xsd:attribute name="centerX" type="xsd:float" use="required"/>
 			<xsd:attribute name="centerY" type="xsd:float" use="required"/>
 		</xsd:complexType>
@@ -1247,6 +1258,30 @@
 		</xsd:complexType>
 	</xsd:element>
 	<!-- End: Evidences -->
+	<!-- ###################################################################### -->
+	
+	<!-- 
+		EvidenceRef 
+		Reference to an Evidence.
+	-->
+	<xsd:element name="EvidenceRef">
+		<xsd:annotation>
+			<xsd:documentation>
+				Reference to an evidence.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:attribute name="elementRef" type="xsd:string" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						A elementRef indicates a child/parent relationship between objects. 
+						The elementRef of the child refers to the elementId of the parent. 
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>	 
+	<!-- End: EvidenceRef -->
 	
 	<!-- ###################################################################### -->
 	
