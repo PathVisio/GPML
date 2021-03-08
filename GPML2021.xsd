@@ -1198,7 +1198,58 @@
 	<!-- End: Citations -->
 	
 	<!-- ###################################################################### -->
-
+	<!-- 
+		Evidences
+		EvidenceRefs refer to Evidences. 
+		
+		Evidence properties in the order to be written: 
+		- elementId, name, url
+		- Xref
+	-->
+	<xsd:element name="Evidences">
+		<xsd:annotation>
+			<xsd:documentation>
+				List of Evidence. 
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<!-- Evidence --> 
+				<xsd:element name="Evidence" minOccurs="0" maxOccurs="unbounded">
+					<xsd:annotation>
+						<xsd:documentation>
+							Evidence in biological research.
+						</xsd:documentation>
+					</xsd:annotation>
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element ref="gpml:Xref" minOccurs="1" maxOccurs="1"/>
+						</xsd:sequence>
+						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
+						<xsd:attribute name="name" type="xsd:string" use="optional">
+							<xsd:annotation>
+								<xsd:documentation>
+									The name, term, or text of an evidence. 
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attribute>
+						<xsd:attribute name="url" type="xsd:string" use="optional">
+							<xsd:annotation>
+								<xsd:documentation>
+									Url or web address of evidence.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attribute>	
+					</xsd:complexType>
+				</xsd:element>
+				<!-- End: Evidence -->
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<!-- End: Evidences -->
+	
+	<!-- ###################################################################### -->
+	
 	<!-- 
 		Xref 
 		Reference to a database entry.
