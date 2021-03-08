@@ -467,9 +467,9 @@
 						</xsd:sequence>
 					</xsd:complexType>
 				</xsd:element>		
-				<xsd:group ref="gpml:CommentGroup"/>
 				<xsd:element ref="gpml:Annotations" minOccurs="0" maxOccurs="1" />
 				<xsd:element ref="gpml:Citations" minOccurs="0" maxOccurs="1" />
+				<xsd:group ref="gpml:CommentGroup"/>
 				<!-- Graphics related attributes-->
 				<xsd:element name="Graphics" minOccurs="0" maxOccurs="1">
 					<xsd:annotation>
@@ -614,7 +614,7 @@
 								</xsd:documentation>
 							</xsd:annotation>
 						</xsd:attribute>
-						<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
+						<xsd:attribute name="textLabel" type="xsd:string" use="required" />
 						<xsd:attribute name="type" type="xsd:string" default="Unknown">
 							<xsd:annotation>
 								<xsd:documentation>
@@ -1123,24 +1123,24 @@
 							<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
-						<xsd:attribute name="textLabel" type="xsd:string" use="optional">
+						<xsd:attribute name="name" type="xsd:string" use="required">
 							<xsd:annotation>
 								<xsd:documentation>
-									Text annotation to be visualized. 
+									The name, term, or text of an annotation. 
 								</xsd:documentation>
 							</xsd:annotation>
 						</xsd:attribute>
-						<xsd:attribute name="type" type="xsd:string" use="optional">
+						<xsd:attribute name="type" type="xsd:string" use="required">
 							<xsd:annotation>
 								<xsd:documentation>
-									The type of annotation, e.g. Ontology term, metadata...
+									The type of an annotation, e.g. Ontology term, metadata...
 								</xsd:documentation>
 							</xsd:annotation>
 						</xsd:attribute>
 						<xsd:attribute name="url" type="xsd:string" use="optional">
 							<xsd:annotation>
 								<xsd:documentation>
-									Url or web address of annotation.
+									Url or web address of an annotation.
 								</xsd:documentation>
 							</xsd:annotation>
 						</xsd:attribute>
@@ -1179,7 +1179,7 @@
 					</xsd:annotation>
 					<xsd:complexType>
 						<xsd:sequence>
-							<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+							<xsd:element ref="gpml:Xref" minOccurs="1" maxOccurs="1"/>
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 						<xsd:attribute name="url" type="xsd:string" use="optional">
