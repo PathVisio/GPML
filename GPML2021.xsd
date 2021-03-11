@@ -244,9 +244,10 @@
 		<xsd:attribute name="shapeType" type="xsd:string" default="Rectangle">
 			<xsd:annotation>
 				<xsd:documentation>
-					The visual appearance of a two dimensional object, e.g. Rectangle, Arc, Nucleus,...
-					Not to be confused with Shapes.Shape.type, the categories of 
-					shapeType, e.g. Basic, CellularComponent, Virus... 
+					The visual appearance of a two dimensional object, e.g. Rectangle, Arc, Mitochondria,...
+					NB: Shape.type is for object type while shapeType is the visual appearance.For example, 
+					an object may have Shape.type "Nucleus" and shapeType "Oval". It is also possible for
+					Shape.type and shapeType to have the same value. 
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
@@ -967,7 +968,10 @@
 						<xsd:attribute name="type" type="xsd:string" default="Unknown">
 							<xsd:annotation>
 								<xsd:documentation>
-									Categories of Shapes, e.g. basic, cellularComponent, virus...
+									The type of a shape object, e.g. Nucleus, Rectangle,.... 
+									NB: Shape.type is for object type while shapeType is the visual appearance. For example, 
+									an object may have Shape.type "Nucleus" and shapeType "Oval". It is also possible for
+									Shape.type and shapeType to have the same value. 									
 								</xsd:documentation>
 							</xsd:annotation>
 						</xsd:attribute>
