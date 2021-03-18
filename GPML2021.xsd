@@ -1082,7 +1082,6 @@
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
-			<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 			<xsd:attribute name="centerX" type="xsd:float" use="required"/>
 			<xsd:attribute name="centerY" type="xsd:float" use="required"/>
 		</xsd:complexType>
