@@ -487,6 +487,13 @@
 					<xsd:complexType>
 						<xsd:attribute name="boardWidth" type="gpml:Dimension" use="required"/>				
 						<xsd:attribute name="boardHeight" type="gpml:Dimension" use="required"/>
+						<xsd:attribute name="backgroundColor" type="gpml:ColorType" default="White">
+							<xsd:annotation>
+								<xsd:documentation>
+									The color used to paint the background of the pathway. 
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:attribute>
 					</xsd:complexType>
 				</xsd:element>
 				<!-- End Graphics related attributes-->	
