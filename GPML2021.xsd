@@ -1089,23 +1089,6 @@
 	<!-- End: InfoBox -->
 	
 	<!-- ###################################################################### -->
-
-	<!-- Legend -->
-	<xsd:element name="Legend">	
-		<xsd:annotation>
-			<xsd:documentation>
-				An explanatory list of the colors used for visualizing data on the pathway. 
-				Not currently used.
-			</xsd:documentation>
-		</xsd:annotation>
-		<xsd:complexType>
-			<xsd:attribute name="centerX" type="xsd:float" use="required"/>
-			<xsd:attribute name="centerY" type="xsd:float" use="required"/>
-		</xsd:complexType>
-	</xsd:element>
-	<!-- End: Legend -->
-
-	<!-- ###################################################################### -->
 	
 	<!-- 
 		Annotations
