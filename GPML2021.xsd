@@ -234,10 +234,10 @@
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
-		<xsd:attribute name="fillColor" type="gpml:ColorType" default="White">
+		<xsd:attribute name="fillColor" type="gpml:ColorType" default="ffffff">
 			<xsd:annotation>
 				<xsd:documentation>
-					The color used to paint the area of an object, not including its border.
+					The color used to paint the area of an object, not including its border. Default white. 
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
@@ -481,6 +481,7 @@
 					</xsd:complexType>
 				</xsd:element>
 				<!-- End Graphics related attributes-->	
+				<xsd:element ref="gpml:InfoBox" minOccurs="1" maxOccurs="1" />
 
 				<xsd:element ref="gpml:DataNodes" minOccurs="0" maxOccurs="1"/>
 
@@ -495,11 +496,7 @@
 				<xsd:element ref="gpml:Shapes" minOccurs="0" maxOccurs="1"/>
 				
 				<xsd:element ref="gpml:Groups" minOccurs="0" maxOccurs="1"/>
-
-				<xsd:element ref="gpml:InfoBox" minOccurs="1" maxOccurs="1" />
-				
-				<xsd:element ref="gpml:Legend" minOccurs="0" maxOccurs="1"/>
-								
+												
 			</xsd:sequence>
 
 			<xsd:attribute name="title" type="xsd:string" use="required">
