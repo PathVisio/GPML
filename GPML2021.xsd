@@ -22,10 +22,10 @@
 				Common font properties. 
 			</xsd:documentation>
 		</xsd:annotation>
-		<xsd:attribute name="textColor" type="gpml:ColorType" default="Black">
+		<xsd:attribute name="textColor" type="gpml:ColorType" default="000000">
 			<xsd:annotation>
 				<xsd:documentation>
-					The color of text, e.g. label.
+					The color of text, default black. 
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
@@ -168,10 +168,10 @@
 				Visual appearance of a line. 
 			</xsd:documentation>
 		</xsd:annotation>
-		<xsd:attribute name="lineColor" type="gpml:ColorType" default="Black">
+		<xsd:attribute name="lineColor" type="gpml:ColorType" default="000000">
 			<xsd:annotation>
 				<xsd:documentation>
-					The color of a line.
+					The color of a line, default black. 
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
@@ -213,10 +213,10 @@
 				Visual appearance of a two-dimensional object.
 			</xsd:documentation>
 		</xsd:annotation>
-		<xsd:attribute name="borderColor" type="gpml:ColorType" default="Black">
+		<xsd:attribute name="borderColor" type="gpml:ColorType" default="000000">
 			<xsd:annotation>
 				<xsd:documentation>
-					The color of a border
+					The color of a border, default black. 
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
@@ -237,7 +237,7 @@
 		<xsd:attribute name="fillColor" type="gpml:ColorType" default="ffffff">
 			<xsd:annotation>
 				<xsd:documentation>
-					The color used to paint the area of an object, not including its border. Default white. 
+					The color used to paint the area of an object, not including its border, default white. 
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
@@ -471,7 +471,7 @@
 					<xsd:complexType>
 						<xsd:attribute name="boardWidth" type="gpml:Dimension" use="required"/>				
 						<xsd:attribute name="boardHeight" type="gpml:Dimension" use="required"/>
-						<xsd:attribute name="backgroundColor" type="gpml:ColorType" default="White">
+						<xsd:attribute name="backgroundColor" type="gpml:ColorType" default="ffffff">
 							<xsd:annotation>
 								<xsd:documentation>
 									The color used to paint the background of the pathway. 
