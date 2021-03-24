@@ -407,7 +407,7 @@
 					</xsd:attribute>
 				</xsd:complexType>
 			</xsd:element>
-			<xsd:element ref="CitationRef" minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element ref="gpml:CitationRef" minOccurs="0" maxOccurs="unbounded" />
 		</xsd:sequence>
 	</xsd:group>
 	
@@ -425,7 +425,7 @@
 		- Annotation, Citation, Evidence
 		- Comment, Property, AnnotationRef, CitationRef, EvidenceRef
 		- Graphics (boardWidth, boardHeight),
-		- DataNodes, States, Interactions, GraphicalLines, Labels, Shapes, Groups, InfoBox, Legend
+		- DataNodes, Interactions, GraphicalLines, Labels, Shapes, Groups, InfoBox, Legend
 	-->
 	<xsd:element name="Pathway">
 		<xsd:annotation>
@@ -484,8 +484,6 @@
 				<xsd:element ref="gpml:InfoBox" minOccurs="1" maxOccurs="1" />
 
 				<xsd:element ref="gpml:DataNodes" minOccurs="0" maxOccurs="1"/>
-
-				<xsd:element ref="gpml:States" minOccurs="0" maxOccurs="1"/>
 
 				<xsd:element ref="gpml:Interactions" minOccurs="0" maxOccurs="1"/>
 				
@@ -564,8 +562,9 @@
 		
 		DataNode properties in the order to be written: 
 		- elementId, elementRef, textLabel, type, groupRef 
+		- Xref, States
 		- Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes)
-		- Xref, Comment, Property, AnnotationRef, CitationRef, EvidenceRef
+		- Comment, Property, AnnotationRef, CitationRef, EvidenceRef
 	-->
 	<xsd:element name="DataNodes">
 		<xsd:annotation>
@@ -588,6 +587,7 @@
 					<xsd:complexType>
 						<xsd:sequence>
 							<xsd:element ref="gpml:Xref" minOccurs="1" maxOccurs="1"/>
+							<xsd:element ref="gpml:States" minOccurs="0" maxOccurs="1"/>
 							<!-- Graphics related attributes-->
 							<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
 								<xsd:complexType>	
@@ -645,9 +645,10 @@
 		entity (e.g. phosphorylation, genetic variants, etc)
 
 		State properties in the order to be written: 
-		- elementId, elementRef, textLabel, type
+		- elementId, textLabel, type
+		- Xref
 		- Graphics (relX, relY, width, height, FontAttributes, ShapeStyleAttributes)
-		- Xref, Comment, Property, AnnotationRef, CitationRef, EvidenceRef
+		- Comment, Property, AnnotationRef, CitationRef, EvidenceRef
 	-->
 	<xsd:element name="States">
 		<xsd:annotation>
@@ -684,14 +685,6 @@
 							<xsd:element ref="gpml:EvidenceRef" minOccurs="0" maxOccurs="unbounded" />
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
-						<xsd:attribute name="elementRef" type="xsd:IDREF" use="required">
-							<xsd:annotation>
-								<xsd:documentation>
-									A elementRef indicates a child/parent relationship between objects. 
-									The elementRef of the child refers to the elementId of the parent. 
-								</xsd:documentation>
-							</xsd:annotation>
-						</xsd:attribute>
 						<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
 						<xsd:attribute name="type" type="xsd:string" default="Unknown">
 							<xsd:annotation>
@@ -718,9 +711,10 @@
 		Represent biological relation between entities - should always be attached to DataNodes
 		
 		Interaction properties in the order to be written: 
-		- elementId, groupRef, 
+		- elementId, groupRef
+		- Xref, Waypoints(Point, Anchor)
 		- Graphics (LineStyleAttributes)
-		- Xref, Waypoints(Point, Anchor), Comment, Property, AnnotationRef, CitationRef, EvidenceRef
+		- Comment, Property, AnnotationRef, CitationRef, EvidenceRef
 	-->
 		<xsd:element name="Interactions">
 		<xsd:annotation>
@@ -785,8 +779,9 @@
 		
 		GraphicalLine properties in the order to be written: 
 		- elementId, groupRef
+		- Waypoints(Point, Anchor)
 		- Graphics (LineStyleAttributes)
-		- Waypoints(Point, Anchor), Comment, Property, AnnotationRef, CitationRef		
+		- Comment, Property, AnnotationRef, CitationRef		
     -->
 	<xsd:element name="GraphicalLines">
 		<xsd:annotation>
@@ -990,8 +985,9 @@
 		
 		Group properties in the order to be written: 
 		- elementId, textLabel, type, groupRef
+		- Xref
 		- Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes)
-		- Xref, Comment, Property, AnnotationRef, CitationRef, EvidenceRef
+		- Comment, Property, AnnotationRef, CitationRef, EvidenceRef
 	-->
 	<xsd:element name="Groups">
 		<xsd:annotation>
@@ -1108,7 +1104,7 @@
 							<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
-						<xsd:attribute name="name" type="xsd:string" use="required">
+						<xsd:attribute name="value" type="xsd:string" use="required">
 							<xsd:annotation>
 								<xsd:documentation>
 									The name, term, or text of an annotation. 
@@ -1238,7 +1234,7 @@
 							<xsd:element ref="gpml:Xref" minOccurs="1" maxOccurs="1"/>
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
-						<xsd:attribute name="name" type="xsd:string" use="optional">
+						<xsd:attribute name="value" type="xsd:string" use="optional">
 							<xsd:annotation>
 								<xsd:documentation>
 									The name, term, or text of an evidence. 
