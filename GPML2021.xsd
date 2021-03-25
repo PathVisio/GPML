@@ -288,32 +288,7 @@
 				Color as a hexadecimal number, binary code, or string (enumerated colors).
 			</xsd:documentation>
 		</xsd:annotation>
-		<xsd:union>
-			<xsd:simpleType>
-				<xsd:restriction base="xsd:hexBinary"/>
-			</xsd:simpleType>
-			<xsd:simpleType>
-				<xsd:restriction base="xsd:string">
-					<xsd:enumeration value="Aqua"/>
-					<xsd:enumeration value="Black"/>
-					<xsd:enumeration value="Blue"/>
-					<xsd:enumeration value="Fuchsia"/>
-					<xsd:enumeration value="Gray"/>
-					<xsd:enumeration value="Green"/>
-					<xsd:enumeration value="Lime"/>
-					<xsd:enumeration value="Maroon"/>
-					<xsd:enumeration value="Navy"/>
-					<xsd:enumeration value="Olive"/>
-					<xsd:enumeration value="Purple"/>
-					<xsd:enumeration value="Red"/>
-					<xsd:enumeration value="Silver"/>
-					<xsd:enumeration value="Teal"/>
-					<xsd:enumeration value="White"/>
-					<xsd:enumeration value="Yellow"/>
-					<xsd:enumeration value="Transparent"/>
-				</xsd:restriction>
-			</xsd:simpleType>
-		</xsd:union>
+		<xsd:restriction base="xsd:hexBinary"/>
 	</xsd:simpleType>
 
 	<xsd:simpleType name="StyleType">
