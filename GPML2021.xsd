@@ -622,7 +622,7 @@
 		State properties in the order to be written: 
 		- elementId, textLabel, type
 		- Xref
-		- Graphics (relX, relY, width, height, FontAttributes, ShapeStyleAttributes)
+		- Graphics (relX, relY, RectAttributes, FontAttributes, ShapeStyleAttributes)
 		- Comment, Property, AnnotationRef, CitationRef, EvidenceRef
 	-->
 	<xsd:element name="States">
@@ -649,8 +649,7 @@
 								<xsd:complexType>
 									<xsd:attribute name="relX" type="xsd:float" use="required" />
 									<xsd:attribute name="relY" type="xsd:float" use="required" />
-									<xsd:attribute name="width" type="gpml:Dimension" use="required" />
-									<xsd:attribute name="height" type="gpml:Dimension" use="required" />
+									<xsd:attributeGroup ref="gpml:RectAttributes"/>
 									<xsd:attributeGroup ref="gpml:FontAttributes"/>
 									<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
 								</xsd:complexType>
