@@ -244,10 +244,7 @@
 		<xsd:attribute name="shapeType" type="xsd:string" default="Rectangle">
 			<xsd:annotation>
 				<xsd:documentation>
-					The visual appearance of a two dimensional object, e.g. Rectangle, Arc, Mitochondria,...
-					NB: Shape.type is for object type while shapeType is the visual appearance.For example, 
-					an object may have Shape.type "Nucleus" and shapeType "Oval". It is also possible for
-					Shape.type and shapeType to have the same value. 
+					The visual appearance of a two dimensional object, e.g. Rectangle, Nucleus,...
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
@@ -296,7 +293,7 @@
 			<xsd:simpleType>
 				<xsd:restriction base="xsd:string">
 					<xsd:enumeration value="Solid"/>
-					<xsd:enumeration value="Broken"/>
+					<xsd:enumeration value="Dashed"/>
 					<xsd:enumeration value="Double"/>
 				</xsd:restriction>
 			</xsd:simpleType>
@@ -881,12 +878,8 @@
 		Shapes 
 	    Graphical elements - shapes with or without a text label
 		
-		Note: 
-		Shape.type = "basic", "cellularComponent", "virus"....
-		Graphics.shapeType = "rectangle", "nucleus","coronavirus"...
-		
 		Shape properties in the order to be written: 
-		- elementId, textLabel, type, groupRef
+		- elementId, textLabel, groupRef
 		- Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes), rotation
 		- Comment, Property, AnnotationRef, CitationRef	
 	-->
@@ -922,16 +915,6 @@
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 						<xsd:attribute name="textLabel" use="optional" type="xsd:string"/>
-						<xsd:attribute name="type" type="xsd:string" default="Unknown">
-							<xsd:annotation>
-								<xsd:documentation>
-									The type of a shape object, e.g. Nucleus, Rectangle,.... 
-									NB: Shape.type is for object type while shapeType is the visual appearance. For example, 
-									an object may have Shape.type "Nucleus" and shapeType "Oval". It is also possible for
-									Shape.type and shapeType to have the same value. 									
-								</xsd:documentation>
-							</xsd:annotation>
-						</xsd:attribute>
 						<xsd:attribute name="groupRef" type="xsd:string" use="optional">
 							<xsd:annotation>
 								<xsd:documentation>
