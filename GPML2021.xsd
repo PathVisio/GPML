@@ -428,9 +428,6 @@
 						</xsd:sequence>
 					</xsd:complexType>
 				</xsd:element>		
-				<xsd:element ref="gpml:Annotations" minOccurs="0" maxOccurs="1" />
-				<xsd:element ref="gpml:Citations" minOccurs="0" maxOccurs="1" />
-				<xsd:element ref="gpml:Evidences" minOccurs="0" maxOccurs="1" />
 				<xsd:group ref="gpml:CommentGroup"/>
 				<xsd:element ref="gpml:EvidenceRef" minOccurs="0" maxOccurs="unbounded" />	
 				<!-- Graphics related attributes-->
@@ -466,6 +463,12 @@
 				<xsd:element ref="gpml:Shapes" minOccurs="0" maxOccurs="1"/>
 				
 				<xsd:element ref="gpml:Groups" minOccurs="0" maxOccurs="1"/>
+				
+				<xsd:element ref="gpml:Annotations" minOccurs="0" maxOccurs="1" />
+				
+				<xsd:element ref="gpml:Citations" minOccurs="0" maxOccurs="1" />
+				
+				<xsd:element ref="gpml:Evidences" minOccurs="0" maxOccurs="1" />
 												
 			</xsd:sequence>
 
