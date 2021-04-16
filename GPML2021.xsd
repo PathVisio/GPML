@@ -622,7 +622,7 @@
 		State properties in the order to be written: 
 		- elementId, textLabel, type
 		- Xref
-		- Graphics (relX, relY, RectAttributes, FontAttributes, ShapeStyleAttributes)
+		- Graphics (relX, relY,  width, height, FontAttributes, ShapeStyleAttributes)
 		- Comment, Property, AnnotationRef, CitationRef, EvidenceRef
 	-->
 	<xsd:element name="States">
@@ -649,7 +649,8 @@
 								<xsd:complexType>
 									<xsd:attribute name="relX" type="xsd:float" use="required" />
 									<xsd:attribute name="relY" type="xsd:float" use="required" />
-									<xsd:attributeGroup ref="gpml:RectAttributes"/>
+									<xsd:attribute name="width" type="gpml:Dimension" use="required" />
+									<xsd:attribute name="height" type="gpml:Dimension" use="required" />
 									<xsd:attributeGroup ref="gpml:FontAttributes"/>
 									<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
 								</xsd:complexType>
@@ -660,7 +661,7 @@
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required" />
 						<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
-						<xsd:attribute name="type" type="xsd:string" default="Unknown">
+						<xsd:attribute name="type" type="xsd:string" default="Undefined">
 							<xsd:annotation>
 								<xsd:documentation>
 									Biological modification type, e.g. Phosphorylated, Glycosylated, Activated
