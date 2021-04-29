@@ -561,7 +561,7 @@
 					</xsd:annotation>
 					<xsd:complexType>
 						<xsd:sequence>
-							<xsd:element ref="gpml:Xref" minOccurs="1" maxOccurs="1"/>
+							<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 							<xsd:element ref="gpml:States" minOccurs="0" maxOccurs="1"/>
 							<!-- Graphics related attributes-->
 							<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
@@ -710,7 +710,7 @@
 					</xsd:annotation>
 					<xsd:complexType>
 						<xsd:sequence>
-							<xsd:element ref="gpml:Xref" minOccurs="1" maxOccurs="1"/>
+							<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 							<xsd:element name="Waypoints" minOccurs="1" maxOccurs="1">
 								<xsd:complexType>
 									<xsd:sequence>
