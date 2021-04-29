@@ -420,9 +420,12 @@
 									</xsd:documentation>
 								</xsd:annotation>
 								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+									</xsd:sequence>	
 									<xsd:attribute name="name" type="xsd:string" use="required"/>
-									<xsd:attribute name="fullName" type="xsd:string" use="optional"/>
-									<xsd:attribute name="email" type="xsd:string" use="optional"/>
+									<xsd:attribute name="username" type="xsd:string" use="optional"/>
+									<xsd:attribute name="order" type="xsd:integer" use="optional" />	
 								</xsd:complexType>
 							</xsd:element>
 						</xsd:sequence>
