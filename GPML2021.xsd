@@ -260,23 +260,10 @@
 	<xsd:simpleType name="RotationType">
 		<xsd:annotation>
 			<xsd:documentation>
-				 A float value (rotation in radians) or a string (Top, Right, Bottom, Left) 
-				 for each of the four right angles.
+				 A float value (rotation in radians). 
 			</xsd:documentation>
 		</xsd:annotation>	
-		<xsd:union>
-			<xsd:simpleType>
-				<xsd:restriction base="xsd:string">
-					<xsd:enumeration value="Top"/> <!-- rotation of 0.0 !-->
-					<xsd:enumeration value="Right"/> <!-- rotation of 1/2 pi !-->
-					<xsd:enumeration value="Bottom"/> <!-- rotation of 1 pi !-->
-					<xsd:enumeration value="Left"/> <!-- rotation of 3/2 pi !-->
-				</xsd:restriction>
-			</xsd:simpleType>
-			<xsd:simpleType>
-				<xsd:restriction base="xsd:float"/> <!-- rotation is always measured in radians !-->
-			</xsd:simpleType>
-		</xsd:union>
+		<xsd:restriction base="xsd:float"/>
 	</xsd:simpleType>
 
 	<xsd:simpleType name="ColorType">
@@ -589,7 +576,7 @@
 							</xsd:annotation>
 						</xsd:attribute>
 						<xsd:attribute name="textLabel" type="xsd:string" use="required" />
-						<xsd:attribute name="type" type="xsd:string" default="Unknown">
+						<xsd:attribute name="type" type="xsd:string" default="Undefined">
 							<xsd:annotation>
 								<xsd:documentation>
 									Basic GPML types are:"Protein", "Rna", "Complex", "GeneProduct", 
@@ -914,7 +901,7 @@
 									<xsd:attributeGroup ref="gpml:RectAttributes"/>
 									<xsd:attributeGroup ref="gpml:FontAttributes" />
 									<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
-									<xsd:attribute name="rotation" type="gpml:RotationType" default="Top" />
+									<xsd:attribute name="rotation" type="gpml:RotationType" default="0" />
 								</xsd:complexType>
 							</xsd:element>
 							<xsd:group ref="gpml:CommentGroup" />
