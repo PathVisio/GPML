@@ -12,7 +12,7 @@
          This block declares all the properties which would then be attached
          to elements in the GPML hierarchy:
 		 - attributeGroups: FontAttributes, RectAttributes, LineStyleAttributes, ShapeStyleAttributes
-		 - simpleTypes: RotationType, ColorType, StyleType, Dimension
+		 - simpleTypes: StyleType, Dimension
 		 - element group: CommentGroup(Comment, Attribute, AnnotationRef, CitationRef) 
     --> 
 			
@@ -22,7 +22,7 @@
 				Common font properties. 
 			</xsd:documentation>
 		</xsd:annotation>
-		<xsd:attribute name="textColor" type="gpml:ColorType" default="000000">
+		<xsd:attribute name="textColor" type="xsd:hexBinary" default="000000">
 			<xsd:annotation>
 				<xsd:documentation>
 					The color of text, default black. 
@@ -168,7 +168,7 @@
 				Visual appearance of a line. 
 			</xsd:documentation>
 		</xsd:annotation>
-		<xsd:attribute name="lineColor" type="gpml:ColorType" default="000000">
+		<xsd:attribute name="lineColor" type="xsd:hexBinary" default="000000">
 			<xsd:annotation>
 				<xsd:documentation>
 					The color of a line, default black. 
@@ -213,7 +213,7 @@
 				Visual appearance of a two-dimensional object.
 			</xsd:documentation>
 		</xsd:annotation>
-		<xsd:attribute name="borderColor" type="gpml:ColorType" default="000000">
+		<xsd:attribute name="borderColor" type="xsd:hexBinary" default="000000">
 			<xsd:annotation>
 				<xsd:documentation>
 					The color of a border, default black. 
@@ -234,7 +234,7 @@
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
-		<xsd:attribute name="fillColor" type="gpml:ColorType" default="ffffff">
+		<xsd:attribute name="fillColor" type="xsd:hexBinary" default="ffffff">
 			<xsd:annotation>
 				<xsd:documentation>
 					The color used to paint the area of an object, not including its border, default white. 
@@ -256,24 +256,6 @@
 			</xsd:annotation>
 		</xsd:attribute>
 	</xsd:attributeGroup>
-
-	<xsd:simpleType name="RotationType">
-		<xsd:annotation>
-			<xsd:documentation>
-				 A float value (rotation in radians). 
-			</xsd:documentation>
-		</xsd:annotation>	
-		<xsd:restriction base="xsd:float"/>
-	</xsd:simpleType>
-
-	<xsd:simpleType name="ColorType">
-		<xsd:annotation>
-			<xsd:documentation>
-				Color as a hexadecimal number, binary code, or string (enumerated colors).
-			</xsd:documentation>
-		</xsd:annotation>
-		<xsd:restriction base="xsd:hexBinary"/>
-	</xsd:simpleType>
 
 	<xsd:simpleType name="StyleType">
 		<xsd:union>
@@ -430,7 +412,7 @@
 					<xsd:complexType>
 						<xsd:attribute name="boardWidth" type="gpml:Dimension" use="required"/>				
 						<xsd:attribute name="boardHeight" type="gpml:Dimension" use="required"/>
-						<xsd:attribute name="backgroundColor" type="gpml:ColorType" default="ffffff">
+						<xsd:attribute name="backgroundColor" type="xsd:hexBinary" default="ffffff">
 							<xsd:annotation>
 								<xsd:documentation>
 									The color used to paint the background of the pathway. 
@@ -901,7 +883,13 @@
 									<xsd:attributeGroup ref="gpml:RectAttributes"/>
 									<xsd:attributeGroup ref="gpml:FontAttributes" />
 									<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
-									<xsd:attribute name="rotation" type="gpml:RotationType" default="0.0" />
+									<xsd:attribute name="rotation" type="xsd:float" default="0.0" >
+										<xsd:annotation>
+											<xsd:documentation>
+												 A float value (rotation in radians). 
+											</xsd:documentation>
+										</xsd:annotation>
+									</xsd:attribute>									
 								</xsd:complexType>
 							</xsd:element>
 							<xsd:group ref="gpml:CommentGroup" />
