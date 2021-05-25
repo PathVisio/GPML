@@ -4,10 +4,38 @@
 	<!-- 
 	     Type Definitions 
          This block declares properties which can be attached to elements in the GPML hierarchy:
-		 - attributeGroups: FontAttributes, RectAttributes, LineStyleAttributes, ShapeStyleAttributes
+		 - attributeGroups: RectAttributes, FontAttributes, ShapeStyleAttributes, LineStyleAttributes
 		 - simpleTypes: StyleType, Dimension
 		 - element group: CommentGroup(Comment, Property, AnnotationRef, CitationRef) 
     -->
+	<!-- 
+		RectProperties, Centering (Position) and Dimension Properties, in the order to be written. 
+	-->
+	<xsd:attributeGroup name="RectAttributes">
+		<xsd:annotation>
+			<xsd:documentation>Centering(position) and dimension properties for an object.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:attribute name="centerX" type="xsd:float" use="required">
+			<xsd:annotation>
+				<xsd:documentation>The middle of an object in the x-direction.</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="centerY" type="xsd:float" use="required">
+			<xsd:annotation>
+				<xsd:documentation>The middle of an object in the y-direction.</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="width" type="gpml:Dimension" use="required">
+			<xsd:annotation>
+				<xsd:documentation>The pixel value for the x-dimensional length of an object.</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="height" type="gpml:Dimension" use="required">
+			<xsd:annotation>
+				<xsd:documentation>The pixel value for the y-dimensional length of an object.</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+	</xsd:attributeGroup>
 	<!-- 
 		Font Properties in the order to be written. 
 	-->
@@ -100,30 +128,40 @@
 		</xsd:attribute>
 	</xsd:attributeGroup>
 	<!-- 
-		Centering (Position) and Dimension Properties in the order to be written. 
+		Shape Style Properties in the order to be written.  
 	-->
-	<xsd:attributeGroup name="RectAttributes">
+	<xsd:attributeGroup name="ShapeStyleAttributes">
 		<xsd:annotation>
-			<xsd:documentation>Centering(position) and dimension properties for an object.</xsd:documentation>
+			<xsd:documentation>Visual appearance of a two-dimensional object.</xsd:documentation>
 		</xsd:annotation>
-		<xsd:attribute name="centerX" type="xsd:float" use="required">
+		<xsd:attribute name="borderColor" type="xsd:hexBinary" default="000000">
 			<xsd:annotation>
-				<xsd:documentation>The middle of an object in the x-direction.</xsd:documentation>
+				<xsd:documentation>The color of a border, default black.</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
-		<xsd:attribute name="centerY" type="xsd:float" use="required">
+		<xsd:attribute name="borderStyle" type="gpml:StyleType" default="Solid">
 			<xsd:annotation>
-				<xsd:documentation>The middle of an object in the y-direction.</xsd:documentation>
+				<xsd:documentation>The visual appearance of a line, e.g. Solid, Dashed...</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
-		<xsd:attribute name="width" type="gpml:Dimension" use="required">
+		<xsd:attribute name="borderWidth" type="xsd:float" default="1.0">
 			<xsd:annotation>
-				<xsd:documentation>The pixel value for the x-dimensional length of an object.</xsd:documentation>
+				<xsd:documentation>The pixel value for the width of a given border.</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
-		<xsd:attribute name="height" type="gpml:Dimension" use="required">
+		<xsd:attribute name="fillColor" type="xsd:hexBinary" default="ffffff">
 			<xsd:annotation>
-				<xsd:documentation>The pixel value for the y-dimensional length of an object.</xsd:documentation>
+				<xsd:documentation>The color contained within the line or border of an object, default white.</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="shapeType" type="xsd:string" default="Rectangle">
+			<xsd:annotation>
+				<xsd:documentation>The visual appearance of a two dimensional object, e.g. Rectangle, Nucleus...</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="zOrder" type="xsd:integer" use="optional">
+			<xsd:annotation>
+				<xsd:documentation>The order of an object along the z-axis.</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
 	</xsd:attributeGroup>
@@ -176,44 +214,6 @@
 		</xsd:attribute>
 	</xsd:attributeGroup>
 	<!-- 
-		Shape Style Properties in the order to be written.  
-	-->
-	<xsd:attributeGroup name="ShapeStyleAttributes">
-		<xsd:annotation>
-			<xsd:documentation>Visual appearance of a two-dimensional object.</xsd:documentation>
-		</xsd:annotation>
-		<xsd:attribute name="borderColor" type="xsd:hexBinary" default="000000">
-			<xsd:annotation>
-				<xsd:documentation>The color of a border, default black.</xsd:documentation>
-			</xsd:annotation>
-		</xsd:attribute>
-		<xsd:attribute name="borderStyle" type="gpml:StyleType" default="Solid">
-			<xsd:annotation>
-				<xsd:documentation>The visual appearance of a line, e.g. Solid, Dashed...</xsd:documentation>
-			</xsd:annotation>
-		</xsd:attribute>
-		<xsd:attribute name="borderWidth" type="xsd:float" default="1.0">
-			<xsd:annotation>
-				<xsd:documentation>The pixel value for the width of a given border.</xsd:documentation>
-			</xsd:annotation>
-		</xsd:attribute>
-		<xsd:attribute name="fillColor" type="xsd:hexBinary" default="ffffff">
-			<xsd:annotation>
-				<xsd:documentation>The color contained within the line or border of an object, default white.</xsd:documentation>
-			</xsd:annotation>
-		</xsd:attribute>
-		<xsd:attribute name="shapeType" type="xsd:string" default="Rectangle">
-			<xsd:annotation>
-				<xsd:documentation>The visual appearance of a two dimensional object, e.g. Rectangle, Nucleus...</xsd:documentation>
-			</xsd:annotation>
-		</xsd:attribute>
-		<xsd:attribute name="zOrder" type="xsd:integer" use="optional">
-			<xsd:annotation>
-				<xsd:documentation>The order of an object along the z-axis.</xsd:documentation>
-			</xsd:annotation>
-		</xsd:attribute>
-	</xsd:attributeGroup>
-	<!-- 
 		Style Simple Type for Lines or Borders 
 	-->
 	<xsd:simpleType name="StyleType">
@@ -234,7 +234,7 @@
 		</xsd:union>
 	</xsd:simpleType>
 	<!-- 
-		Style Simple Type for Dimensions 
+		Simple Type for Dimensions 
 	-->
 	<xsd:simpleType name="Dimension">
 		<xsd:annotation>
@@ -465,7 +465,7 @@
 								<xsd:annotation>
 									<xsd:documentation>The states linked to this data node.</xsd:documentation>
 								</xsd:annotation>
-							</xsd:element>	
+							</xsd:element>
 							<!-- Graphics related attributes-->
 							<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
 								<xsd:complexType>
@@ -1239,7 +1239,7 @@
 				<xsd:annotation>
 					<xsd:documentation>The x coordinate of a point.</xsd:documentation>
 				</xsd:annotation>
-			</xsd:attribute>			
+			</xsd:attribute>
 			<xsd:attribute name="y" type="xsd:float" use="required">
 				<xsd:annotation>
 					<xsd:documentation>The y coordinate of a point.</xsd:documentation>
