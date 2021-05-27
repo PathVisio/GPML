@@ -1210,7 +1210,7 @@
 					<xsd:documentation>The internal gpml unique identifier for an element.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
-			<xsd:attribute name="arrowHead" default="Undirected relationship">
+			<xsd:attribute name="arrowHead" default="Undirected">
 				<xsd:annotation>
 					<xsd:documentation>The glyph at the ends of lines and interactions.</xsd:documentation>
 				</xsd:annotation>
@@ -1218,8 +1218,8 @@
 					<xsd:union>
 						<xsd:simpleType>
 							<xsd:restriction base="xsd:string">
-								<xsd:enumeration value="Undirected relationship"/>
-								<xsd:enumeration value="Directed relationship"/>
+								<xsd:enumeration value="Undirected"/>
+								<xsd:enumeration value="Directed"/>
 								<xsd:enumeration value="Conversion"/>
 								<xsd:enumeration value="Inhibition"/>
 								<xsd:enumeration value="Catalysis"/>
