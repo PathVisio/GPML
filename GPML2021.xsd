@@ -1186,7 +1186,7 @@
 			</xsd:attribute>
 			<xsd:attribute name="dataSource" type="xsd:string" use="required">
 				<xsd:annotation>
-					<xsd:documentation>Specifies the datasource (BridgeDb DataSource Ontology) for the identifier provided as an Xref.</xsd:documentation>
+					<xsd:documentation>Specifies the datasource prefix (see BridgeDb DataSource Ontology at https://github.com/bridgedb/datasources/blob/main/datasources.tsv) for the identifier provided as an Xref.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
 		</xsd:complexType>
