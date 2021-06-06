@@ -45,7 +45,7 @@
 		</xsd:annotation>
 		<xsd:attribute name="textColor" type="xsd:hexBinary" default="000000">
 			<xsd:annotation>
-				<xsd:documentation>The color of text, default black.</xsd:documentation>
+				<xsd:documentation>The hexadecimal color of text, default black.</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
 		<xsd:attribute name="fontName" default="Arial" type="xsd:string">
@@ -136,7 +136,7 @@
 		</xsd:annotation>
 		<xsd:attribute name="borderColor" type="xsd:hexBinary" default="000000">
 			<xsd:annotation>
-				<xsd:documentation>The color of a border, default black.</xsd:documentation>
+				<xsd:documentation>The hexadecimal color of a border, default black.</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
 		<xsd:attribute name="borderStyle" type="gpml:StyleType" default="Solid">
@@ -151,7 +151,7 @@
 		</xsd:attribute>
 		<xsd:attribute name="fillColor" type="xsd:hexBinary" default="ffffff">
 			<xsd:annotation>
-				<xsd:documentation>The color contained within the line or border of an object, default white.</xsd:documentation>
+				<xsd:documentation>The hexadecimal color contained within the line or border of an object, default white.</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
 		<xsd:attribute name="shapeType" type="xsd:string" default="Rectangle">
@@ -174,7 +174,7 @@
 		</xsd:annotation>
 		<xsd:attribute name="lineColor" type="xsd:hexBinary" default="000000">
 			<xsd:annotation>
-				<xsd:documentation>The color of a line, default black.</xsd:documentation>
+				<xsd:documentation>The hexadecimal color of a line, default black.</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
 		<xsd:attribute name="lineStyle" type="gpml:StyleType" default="Solid">
@@ -389,7 +389,7 @@
 						</xsd:attribute>
 						<xsd:attribute name="backgroundColor" type="xsd:hexBinary" default="ffffff">
 							<xsd:annotation>
-								<xsd:documentation>The color for the background of a pathway, default white.</xsd:documentation>
+								<xsd:documentation>The hexadecimal color for the background of a pathway, default white.</xsd:documentation>
 							</xsd:annotation>
 						</xsd:attribute>
 					</xsd:complexType>
