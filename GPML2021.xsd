@@ -6,14 +6,14 @@
          This block declares properties which can be attached to elements in the GPML hierarchy:
 		 - attributeGroups: RectAttributes, FontAttributes, ShapeStyleAttributes, LineStyleAttributes
 		 - simpleTypes: StyleType, Dimension
-		 - element group: CommentGroup(Comment, Property, AnnotationRef, CitationRef) 
+		 - element group: CommentGroup (Comment, Property, AnnotationRef, CitationRef) 
     -->
 	<!-- 
 		RectProperties, Centering (Position) and Dimension Properties, in the order to be written. 
 	-->
 	<xsd:attributeGroup name="RectAttributes">
 		<xsd:annotation>
-			<xsd:documentation>Centering(position) and dimension properties for an object.</xsd:documentation>
+			<xsd:documentation>Centering (position) and dimension properties for an object.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:attribute name="centerX" type="xsd:float" use="required">
 			<xsd:annotation>
@@ -325,7 +325,7 @@
 		Pathway properties in the order to be written in the gpml:
 		- title, organism, source, version, license
 		- Xref, Authors
-		- CommentGroup(Comment, Property, AnnotationRef, CitationRef), EvidenceRef 
+		- CommentGroup (Comment, Property, AnnotationRef, CitationRef), EvidenceRef 
 		- Graphics (boardWidth, boardHeight, backgroundColor), InfoBox
 		- DataNodes, Interactions, GraphicalLines, Labels, Shapes, Groups
 		- Annotations, Citations, Evidences
@@ -445,7 +445,7 @@
 		- elementId, textLabel, type, groupRef, elementRef 
 		- Xref, States
 		- Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes)
-		- CommentGroup(Comment, Property, AnnotationRef, CitationRef), EvidenceRef 
+		- CommentGroup (Comment, Property, AnnotationRef, CitationRef), EvidenceRef 
 	-->
 	<xsd:element name="DataNodes">
 		<xsd:annotation>
@@ -543,7 +543,7 @@
 		- elementId, textLabel, type
 		- Xref
 		- Graphics (relX, relY,  width, height, FontAttributes, ShapeStyleAttributes)
-		- CommentGroup(Comment, Property, AnnotationRef, CitationRef), EvidenceRef
+		- CommentGroup (Comment, Property, AnnotationRef, CitationRef), EvidenceRef
 	-->
 	<xsd:element name="States">
 		<xsd:annotation>
@@ -635,9 +635,9 @@
 		
 		Interaction properties in the order to be written: 
 		- elementId, groupRef
-		- Xref, Waypoints(Point, Anchor)
+		- Xref, Waypoints (Point, Anchor)
 		- Graphics (LineStyleAttributes)
-		- CommentGroup(Comment, Property, AnnotationRef, CitationRef), EvidenceRef
+		- CommentGroup (Comment, Property, AnnotationRef, CitationRef), EvidenceRef
 	-->
 	<xsd:element name="Interactions">
 		<xsd:annotation>
@@ -696,9 +696,9 @@
 		
 		GraphicalLine properties in the order to be written: 
 		- elementId, groupRef
-		- Waypoints(Point, Anchor)
+		- Waypoints (Point, Anchor)
 		- Graphics (LineStyleAttributes)
-		- CommentGroup(Comment, Property, AnnotationRef, CitationRef)
+		- CommentGroup (Comment, Property, AnnotationRef, CitationRef)
     -->
 	<xsd:element name="GraphicalLines">
 		<xsd:annotation>
@@ -756,7 +756,7 @@
 		Label properties in the order to be written: 
 		- elementId, textLabel, groupRef, href
 		- Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes)
-		- CommentGroup(Comment, Property, AnnotationRef, CitationRef)
+		- CommentGroup (Comment, Property, AnnotationRef, CitationRef)
 	-->
 	<xsd:element name="Labels">
 		<xsd:annotation>
@@ -817,7 +817,7 @@
 		Shape properties in the order to be written: 
 		- elementId, textLabel, groupRef
 		- Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes), rotation
-		- CommentGroup(Comment, Property, AnnotationRef, CitationRef)
+		- CommentGroup (Comment, Property, AnnotationRef, CitationRef)
 	-->
 	<xsd:element name="Shapes">
 		<xsd:annotation>
@@ -879,7 +879,7 @@
 		- elementId, textLabel, type, groupRef
 		- Xref
 		- Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes)
-		- CommentGroup(Comment, Property, AnnotationRef, CitationRef), EvidenceRef
+		- CommentGroup (Comment, Property, AnnotationRef, CitationRef), EvidenceRef
 	-->
 	<xsd:element name="Groups">
 		<xsd:annotation>
