@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="Insulin Signaling" organism="Homo sapiens">
+  <Comment source="WikiPathways-description">Insulin signaling influences energy metabolism as well as growth. The presence of insulin signals the fed state, and this signal is passed via the AKT branch, which leads to the uptake of glucose from the blood. Other branches of the signal cascade lead to cell growth and differentation.</Comment>
+  <Comment source="WikiPathways-category">Cellular Process</Comment>
+  <AnnotationRef elementRef="de034" />
+  <CitationRef elementRef="b27" />
+  <CitationRef elementRef="d3b" />
+  <Graphics boardWidth="1444.37125748503" boardHeight="1144.9700598802397" />
+  <InfoBox centerX="8.333333333333334" centerY="8.333333333333334" />
+  <DataNodes>
+    <DataNode elementId="a02" textLabel="STXBP2" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="6813" dataSource="ncbigene" />
+      <Graphics centerX="93.1736526946108" centerY="683.9520958083835" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STXBP2 | syntaxin binding protein 2" />
+    </DataNode>
+    <DataNode elementId="a0e" textLabel="PIK3CD" type="GeneProduct" groupRef="e58f8">
+      <Xref identifier="5293" dataSource="ncbigene" />
+      <Graphics centerX="300.1131279760232" centerY="207.00686401491697" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PIK3CD | phosphoinositide-3-kinase catalytic ..." />
+    </DataNode>
+    <DataNode elementId="a11" textLabel="PIK3C3" type="GeneProduct" groupRef="e58f8">
+      <Xref identifier="5289" dataSource="ncbigene" />
+      <Graphics centerX="300.1131279760232" centerY="287.00686401491697" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PIK3C3 | phosphoinositide-3-kinase class 3" />
+    </DataNode>
+    <DataNode elementId="a12" textLabel="PSCD3" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="9265" dataSource="ncbigene" />
+      <Graphics centerX="93.1736526946108" centerY="1020.6187624750502" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PSCD3 | pleckstrin homology Sec7 and coiled-co..." />
+    </DataNode>
+    <DataNode elementId="a14" textLabel="PTPRF" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="5792" dataSource="ncbigene" />
+      <Graphics centerX="692.5476010510024" centerY="851.1517834647086" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PTPRF | protein tyrosine phosphatase receptor ..." />
+    </DataNode>
+    <DataNode elementId="a24" textLabel="RAC1" type="GeneProduct" groupRef="d0df9">
+      <Xref identifier="5879" dataSource="ncbigene" />
+      <Graphics centerX="1132.3688495349936" centerY="281.94862493994844" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="RAC1 | ras-related C3 botulinum toxin substrate..." />
+    </DataNode>
+    <DataNode elementId="a2b" textLabel="GSK3B" type="GeneProduct" groupRef="bb23b">
+      <Xref identifier="2932" dataSource="ncbigene" />
+      <Graphics centerX="213.4331337325348" centerY="497.8642714570859" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="GSK3B | glycogen synthase kinase 3 beta" />
+    </DataNode>
+    <DataNode elementId="a2c5c" textLabel="PTP" type="GeneProduct">
+      <Xref identifier="5967" dataSource="ncbigene" />
+      <Graphics centerX="505.6607637764101" centerY="174.40172047655048" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <CitationRef elementRef="e4b" />
+    </DataNode>
+    <DataNode elementId="a2e" textLabel="MINK1" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="50488" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="789.3333333333334" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MINK1 | misshapen-like kinase 1 (zebrafish)" />
+    </DataNode>
+    <DataNode elementId="a38" textLabel="GRB2" type="GeneProduct" groupRef="d0df9">
+      <Xref identifier="2885" dataSource="ncbigene" />
+      <Graphics centerX="1132.3688495349936" centerY="208.615291606615" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="GRB2 | growth factor receptor-bound protein 2" />
+    </DataNode>
+    <DataNode elementId="a41" textLabel="SHC3" type="GeneProduct" groupRef="bcaa0">
+      <Xref identifier="53358" dataSource="ncbigene" />
+      <Graphics centerX="732.2954091816365" centerY="255.30938123752483" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="SHC3 | SHC (Src homology 2 domain containing) t..." />
+    </DataNode>
+    <DataNode elementId="a45" textLabel="IRS1" type="GeneProduct" groupRef="bcaa0">
+      <Xref identifier="3667" dataSource="ncbigene" />
+      <Graphics centerX="651.1261489560067" centerY="215.26526883537008" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="IRS1 | insulin receptor substrate 1" />
+    </DataNode>
+    <DataNode elementId="a4f" textLabel="SLC2A1" type="GeneProduct">
+      <Xref identifier="6513" dataSource="ncbigene" />
+      <Graphics centerX="204.66666666666634" centerY="103.33333333333333" width="46.666666666666664" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="SLC2A1 | solute carrier family 2 (facilitated g..." />
+    </DataNode>
+    <DataNode elementId="ab4" textLabel="RPS6KA4" type="GeneProduct" groupRef="e8e46">
+      <Xref identifier="8986" dataSource="ncbigene" />
+      <Graphics centerX="1132.3671933020744" centerY="1016.0798506289308" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="RPS6KA4 | ribosomal protein S6 kinase 90kDa p..." />
+    </DataNode>
+    <DataNode elementId="abe" textLabel="IKBKB" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="3551" dataSource="ncbigene" />
+      <Graphics centerX="692.5476010510024" centerY="1051.1517834647086" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="IKBKB | inhibitor of kappa light polypeptide ge..." />
+    </DataNode>
+    <DataNode elementId="ac2" textLabel="MAP4K4" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="9448" dataSource="ncbigene" />
+      <Graphics centerX="1169.1045376407237" centerY="727.9999999999997" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP4K4 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="ac6" textLabel="SOCS3" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="9021" dataSource="ncbigene" />
+      <Graphics centerX="692.5476010510024" centerY="1031.1517834647086" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="SOCS3 | suppressor of cytokine signaling 3" />
+    </DataNode>
+    <DataNode elementId="ad5" textLabel="PRKCH" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="5583" dataSource="ncbigene" />
+      <Graphics centerX="785.2076734124882" centerY="910.4644635790504" width="73.33333333333333" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PRKCH | protein kinase C eta" />
+    </DataNode>
+    <DataNode elementId="adf" textLabel="KIF5B" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="3799" dataSource="ncbigene" />
+      <Graphics centerX="177.7644710578845" centerY="819.421157684631" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="KIF5B | kinesin family member 5B" />
+    </DataNode>
+    <DataNode elementId="ae8b4" textLabel="IRS1/2" type="GeneProduct" groupRef="c21a5">
+      <Xref identifier="3667" dataSource="ncbigene" />
+      <Graphics centerX="501.5673981191225" centerY="374.23197492163024" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="aea" textLabel="EHD2" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="30846" dataSource="ncbigene" />
+      <Graphics centerX="93.1736526946108" centerY="980.6187624750502" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="EHD2 | EH-domain containing 2" />
+    </DataNode>
+    <DataNode elementId="aef" textLabel="ARF6" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="382" dataSource="ncbigene" />
+      <Graphics centerX="93.1736526946108" centerY="860.6187624750502" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="ARF6 | ADP-ribosylation factor 6" />
+    </DataNode>
+    <DataNode elementId="af4" textLabel="GYG" type="GeneProduct" groupRef="a7ec4">
+      <Xref identifier="2992" dataSource="ncbigene" />
+      <Graphics centerX="486.6666666666667" centerY="967.9404671921678" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="GYG | glycogenin" />
+    </DataNode>
+    <DataNode elementId="af6" textLabel="AKT2" type="GeneProduct" groupRef="bb23b">
+      <Xref identifier="208" dataSource="ncbigene" />
+      <Graphics centerX="213.4331337325348" centerY="457.8642714570859" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="AKT2 | v-akt murine thymoma viral oncogene homo..." />
+    </DataNode>
+    <DataNode elementId="aff" textLabel="SRF" type="GeneProduct" groupRef="c6600">
+      <Xref identifier="6722" dataSource="ncbigene" />
+      <Graphics centerX="379.1304336581127" centerY="689.1543874781481" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="SRF | serum response factor (c-fos serum respon..." />
+    </DataNode>
+    <DataNode elementId="b07" textLabel="MAP3K2" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="10746" dataSource="ncbigene" />
+      <Graphics centerX="1169.1045376407237" centerY="427.9999999999999" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP3K2 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="b0e" textLabel="RAB4A" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="5867" dataSource="ncbigene" />
+      <Graphics centerX="93.1736526946108" centerY="920.6187624750502" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="RAB4A | RAB4A member RAS oncogene family" />
+    </DataNode>
+    <DataNode elementId="b10" textLabel="PRKCD" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="5580" dataSource="ncbigene" />
+      <Graphics centerX="785.2076734124882" centerY="890.4644635790504" width="73.33333333333333" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PRKCD | protein kinase C delta" />
+    </DataNode>
+    <DataNode elementId="b14" textLabel="AKT1" type="GeneProduct" groupRef="bb23b">
+      <Xref identifier="207" dataSource="ncbigene" />
+      <Graphics centerX="213.4331337325348" centerY="437.8642714570859" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="AKT1 | v-akt murine thymoma viral oncogene homo..." />
+    </DataNode>
+    <DataNode elementId="b15" textLabel="CAP1" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="10487" dataSource="ncbigene" />
+      <Graphics centerX="181.0978043912178" centerY="632.7544910179644" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="CAP1 | CAP adenylate cyclase-associated protei..." />
+    </DataNode>
+    <DataNode elementId="b1c" textLabel="RHEB" type="GeneProduct">
+      <Xref identifier="6009" dataSource="ncbigene" />
+      <Graphics centerX="746.0000000000002" centerY="505.88822355289403" width="113.33333333333333" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="RHEB | Ras homolog enriched in brain" />
+    </DataNode>
+    <DataNode elementId="b2b" textLabel="PFKM" type="GeneProduct" groupRef="a7ec4">
+      <Xref identifier="5213" dataSource="ncbigene" />
+      <Graphics centerX="486.6666666666667" centerY="847.9404671921678" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PFKM | phosphofructokinase muscle" />
+    </DataNode>
+    <DataNode elementId="b47" textLabel="STXBP1" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="6812" dataSource="ncbigene" />
+      <Graphics centerX="93.1736526946108" centerY="663.9520958083835" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STXBP1 | syntaxin binding protein 1" />
+    </DataNode>
+    <DataNode elementId="b59" textLabel="PIK3R3" type="GeneProduct" groupRef="e58f8">
+      <Xref identifier="8503" dataSource="ncbigene" />
+      <Graphics centerX="372.56821779638204" centerY="207.006864014917" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PIK3R3 | phosphoinositide-3-kinase regulatory ..." />
+    </DataNode>
+    <DataNode elementId="b5a" textLabel="MAPK12" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="6300" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="589.3333333333334" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAPK12 | mitogen-activated protein kinase 12" />
+    </DataNode>
+    <DataNode elementId="b62" textLabel="PIK3R1" type="GeneProduct" groupRef="e58f8">
+      <Xref identifier="5295" dataSource="ncbigene" />
+      <Graphics centerX="372.56821779638204" centerY="167.006864014917" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PIK3R1 | phosphoinositide-3-kinase regulatory ..." />
+    </DataNode>
+    <DataNode elementId="b67" textLabel="MAP3K5" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="4217" dataSource="ncbigene" />
+      <Graphics centerX="1169.1045376407237" centerY="487.9999999999999" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP3K5 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="b8a" textLabel="IRS2" type="GeneProduct" groupRef="bcaa0">
+      <Xref identifier="8660" dataSource="ncbigene" />
+      <Graphics centerX="651.1261489560067" centerY="235.26526883537008" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="IRS2 | insulin receptor substrate 2" />
+    </DataNode>
+    <DataNode elementId="bac" textLabel="PIK3C2G" type="GeneProduct" groupRef="e58f8">
+      <Xref identifier="5288" dataSource="ncbigene" />
+      <Graphics centerX="300.1131279760232" centerY="267.00686401491697" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PIK3C2G | phosphoinositide-3-kinase class 2 g..." />
+    </DataNode>
+    <DataNode elementId="bad" textLabel="PIK3R2" type="GeneProduct" groupRef="e58f8">
+      <Xref identifier="5296" dataSource="ncbigene" />
+      <Graphics centerX="372.56821779638204" centerY="187.006864014917" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PIK3R2 | phosphoinositide-3-kinase regulatory ..." />
+    </DataNode>
+    <DataNode elementId="bae" textLabel="MAPK10" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="5602" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="549.3333333333334" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAPK10 | mitogen-activated protein kinase 10" />
+    </DataNode>
+    <DataNode elementId="bdd" textLabel="MAP3K3" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="4215" dataSource="ncbigene" />
+      <Graphics centerX="1169.1045376407237" centerY="447.99999999999983" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP3K3 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="be2" textLabel="MAP4K1" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="11184" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="689.3333333333333" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP4K1 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="bf3" textLabel="MAPK3" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="5595" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="429.3333333333333" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAPK3 | mitogen-activated protein kinase 3" />
+    </DataNode>
+    <DataNode elementId="bf9" textLabel="RPS6KA3" type="GeneProduct" groupRef="e8e46">
+      <Xref identifier="6197" dataSource="ncbigene" />
+      <Graphics centerX="1132.3671933020744" centerY="996.0798506289308" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="RPS6KA3 | ribosomal protein S6 kinase 90kDa p..." />
+    </DataNode>
+    <DataNode elementId="bfc" textLabel="PTEN" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="5728" dataSource="ncbigene" />
+      <Graphics centerX="692.5476010510024" centerY="911.1517834647086" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PTEN | phosphatase and tensin homolog (mutated ..." />
+    </DataNode>
+    <DataNode elementId="c00" textLabel="ELK1" type="GeneProduct" groupRef="c6600">
+      <Xref identifier="2002" dataSource="ncbigene" />
+      <Graphics centerX="379.1304336581127" centerY="669.1543874781481" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="ELK1 | ELK1 member of ETS oncogene family" />
+    </DataNode>
+    <DataNode elementId="c06" textLabel="SHC1" type="GeneProduct" groupRef="bcaa0">
+      <Xref identifier="6464" dataSource="ncbigene" />
+      <Graphics centerX="732.2954091816365" centerY="215.30938123752486" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="SHC1 | SHC (Src homology 2 domain containing) t..." />
+    </DataNode>
+    <DataNode elementId="c09" textLabel="CRK" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="1398" dataSource="ncbigene" />
+      <Graphics centerX="181.0978043912178" centerY="712.7544910179644" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="CRK | v-crk sarcoma virus CT10 oncogene homolog..." />
+    </DataNode>
+    <DataNode elementId="c11" textLabel="TRIB3" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="57761" dataSource="ncbigene" />
+      <Graphics centerX="785.2076734124882" centerY="990.4644635790504" width="73.33333333333333" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="TRIB3 | tribbles homolog 3 (Drosophila)" />
+    </DataNode>
+    <DataNode elementId="c17" textLabel="STXBP4" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="252983" dataSource="ncbigene" />
+      <Graphics centerX="93.1736526946108" centerY="723.9520958083835" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STXBP4 | syntaxin binding protein 4" />
+    </DataNode>
+    <DataNode elementId="c19" textLabel="RPS6KA6" type="GeneProduct" groupRef="e8e46">
+      <Xref identifier="27330" dataSource="ncbigene" />
+      <Graphics centerX="1132.3671933020744" centerY="1056.0798506289307" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="RPS6KA6 | ribosomal protein S6 kinase 90kDa p..." />
+    </DataNode>
+    <DataNode elementId="c27" textLabel="INSR" type="GeneProduct">
+      <Xref identifier="3643" dataSource="ncbigene" />
+      <Graphics centerX="616.6666666666666" centerY="103.33333333333333" width="113.33333333333333" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="INSR | insulin receptor" />
+    </DataNode>
+    <DataNode elementId="c3e" textLabel="XBP1" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="7494" dataSource="ncbigene" />
+      <Graphics centerX="692.5476010510024" centerY="1071.1517834647086" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="XBP1 | X-box binding protein 1" />
+    </DataNode>
+    <DataNode elementId="c41" textLabel="FOXO1A" type="GeneProduct" groupRef="c6600">
+      <Xref identifier="2308" dataSource="ncbigene" />
+      <Graphics centerX="379.1304336581127" centerY="629.1543874781481" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="FOXO1A | forkhead box O1A (rhabdomyosarcoma)" />
+    </DataNode>
+    <DataNode elementId="c46" textLabel="EIF4EBP1" type="GeneProduct" groupRef="a1f56">
+      <Xref identifier="1978" dataSource="ncbigene" />
+      <Graphics centerX="838.6775152858091" centerY="670.0998003992019" width="113.33333333333333" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="EIF4EBP1 | eukaryotic translation initiation fa..." />
+    </DataNode>
+    <DataNode elementId="c48" textLabel="TBC1D4" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="9882" dataSource="ncbigene" />
+      <Graphics centerX="93.1736526946108" centerY="880.6187624750502" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="TBC1D4 | TBC1 domain family member 4" />
+    </DataNode>
+    <DataNode elementId="c4e" textLabel="PRKCB1" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="5579" dataSource="ncbigene" />
+      <Graphics centerX="785.2076734124882" centerY="870.4644635790504" width="73.33333333333333" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PRKCB1 | protein kinase C beta 1" />
+    </DataNode>
+    <DataNode elementId="c52" textLabel="MAP2K7" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="5609" dataSource="ncbigene" />
+      <Graphics centerX="1169.1045376407237" centerY="747.9999999999998" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP2K7 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="c54" textLabel="RPS6KB2" type="GeneProduct" groupRef="dcaa7">
+      <Xref identifier="6199" dataSource="ncbigene" />
+      <Graphics centerX="662.2475049900203" centerY="688.2355289421162" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="RPS6KB2 | ribosomal protein S6 kinase 70kDa p..." />
+    </DataNode>
+    <DataNode elementId="c61" textLabel="SOS1" type="GeneProduct" groupRef="d0df9">
+      <Xref identifier="6654" dataSource="ncbigene" />
+      <Graphics centerX="1132.3688495349936" centerY="281.94862493994844" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="SOS1 | son of sevenless homolog 1 (Drosophila)" />
+    </DataNode>
+    <DataNode elementId="c74" textLabel="RAC2" type="GeneProduct" groupRef="d0df9">
+      <Xref identifier="5880" dataSource="ncbigene" />
+      <Graphics centerX="1132.3688495349936" centerY="301.9486249399485" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="RAC2 | ras-related C3 botulinum toxin substrate..." />
+    </DataNode>
+    <DataNode elementId="c75" textLabel="FOS" type="GeneProduct" groupRef="c6600">
+      <Xref identifier="2353" dataSource="ncbigene" />
+      <Graphics centerX="379.1304336581127" centerY="729.1543874781481" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="FOS | v-fos FBJ murine osteosarcoma viral oncog..." />
+    </DataNode>
+    <DataNode elementId="c78" textLabel="PIK3CG" type="GeneProduct" groupRef="e58f8">
+      <Xref identifier="5294" dataSource="ncbigene" />
+      <Graphics centerX="300.1131279760232" centerY="227.00686401491697" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PIK3CG | phosphoinositide-3-kinase catalytic ..." />
+    </DataNode>
+    <DataNode elementId="c81" textLabel="RRAD" type="GeneProduct" groupRef="d0df9">
+      <Xref identifier="6236" dataSource="ncbigene" />
+      <Graphics centerX="1132.3688495349936" centerY="261.94862493994844" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="RRAD | Ras-related associated with diabetes" />
+    </DataNode>
+    <DataNode elementId="c8b78" textLabel="PIK3" type="GeneProduct" groupRef="c21a5">
+      <Xref identifier="ENSG00000121879" dataSource="ensembl" />
+      <Graphics centerX="501.5673981191225" centerY="354.2319749216303" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="c8c" textLabel="IRS4" type="GeneProduct" groupRef="bcaa0">
+      <Xref identifier="8471" dataSource="ncbigene" />
+      <Graphics centerX="651.1261489560067" centerY="255.2652688353701" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="IRS4 | insulin receptor substrate 4" />
+    </DataNode>
+    <DataNode elementId="c8d" textLabel="SGKL" type="GeneProduct" groupRef="bb23b">
+      <Xref identifier="23678" dataSource="ncbigene" />
+      <Graphics centerX="293.2335329341311" centerY="460.2594810379243" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="SGKL | serum/glucocorticoid regulated kinase-li..." />
+    </DataNode>
+    <DataNode elementId="c98" textLabel="APS" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="10603" dataSource="ncbigene" />
+      <Graphics centerX="93.1736526946108" centerY="940.6187624750502" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="APS | adaptor protein with pleckstrin homology ..." />
+    </DataNode>
+    <DataNode elementId="ca1" textLabel="MAPK13" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="5603" dataSource="ncbigene" />
+      <Graphics centerX="1169.1045376407237" centerY="607.9999999999999" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAPK13 | mitogen-activated protein kinase 13" />
+    </DataNode>
+    <DataNode elementId="ca6" textLabel="GYS1" type="GeneProduct" groupRef="a7ec4">
+      <Xref identifier="2997" dataSource="ncbigene" />
+      <Graphics centerX="486.6666666666667" centerY="907.9404671921678" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="GYS1 | glycogen synthase 1 (muscle)" />
+    </DataNode>
+    <DataNode elementId="ca9" textLabel="TSC2" type="GeneProduct" groupRef="aed8b">
+      <Xref identifier="7249" dataSource="ncbigene" />
+      <Graphics centerX="745.5148832019582" centerY="448.085220337858" width="113.33333333333333" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="TSC2 | tuberous sclerosis 2" />
+    </DataNode>
+    <DataNode elementId="cb5" textLabel="PIK3CB" type="GeneProduct" groupRef="e58f8">
+      <Xref identifier="5291" dataSource="ncbigene" />
+      <Graphics centerX="300.1131279760232" centerY="187.00686401491697" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PIK3CB | phosphoinositide-3-kinase catalytic ..." />
+    </DataNode>
+    <DataNode elementId="cc4" textLabel="EHD1" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="10938" dataSource="ncbigene" />
+      <Graphics centerX="93.1736526946108" centerY="960.6187624750502" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="EHD1 | EH-domain containing 1" />
+    </DataNode>
+    <DataNode elementId="ccf" textLabel="MAP3K1" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="4214" dataSource="ncbigene" />
+      <Graphics centerX="1169.1045376407237" centerY="407.99999999999983" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP3K1 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="cd1" textLabel="MAP4K3" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="8491" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="729.3333333333334" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP4K3 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="cd8" textLabel="ENPP1" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="5167" dataSource="ncbigene" />
+      <Graphics centerX="692.5476010510024" centerY="891.1517834647086" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="ENPP1 | ectonucleotide pyrophosphatase/phosphod..." />
+    </DataNode>
+    <DataNode elementId="cdb" textLabel="MAP2K6" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="5608" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="749.3333333333334" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP2K6 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="cdc" textLabel="SNX26" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="115703" dataSource="ncbigene" />
+      <Graphics centerX="93.1736526946108" centerY="1000.6187624750502" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="SNX26 | sorting nexin 26" />
+    </DataNode>
+    <DataNode elementId="ce3" textLabel="SLC2A4" type="GeneProduct">
+      <Xref identifier="6517" dataSource="ncbigene" />
+      <Graphics centerX="96.66666666666667" centerY="103.33333333333333" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="SLC2A4 | solute carrier family 2 (facilitated g..." />
+    </DataNode>
+    <DataNode elementId="cee" textLabel="MAP3K8" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="1326" dataSource="ncbigene" />
+      <Graphics centerX="1169.1045376407237" centerY="547.9999999999999" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP3K8 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="d06" textLabel="PFKL" type="GeneProduct" groupRef="a7ec4">
+      <Xref identifier="5211" dataSource="ncbigene" />
+      <Graphics centerX="486.6666666666667" centerY="867.9404671921678" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PFKL | phosphofructokinase liver" />
+    </DataNode>
+    <DataNode elementId="d0b" textLabel="TSC1" type="GeneProduct" groupRef="aed8b">
+      <Xref identifier="7248" dataSource="ncbigene" />
+      <Graphics centerX="745.5148832019582" centerY="428.085220337858" width="113.33333333333333" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="TSC1 | tuberous sclerosis 1" />
+    </DataNode>
+    <DataNode elementId="d13" textLabel="MAP3K12" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="7786" dataSource="ncbigene" />
+      <Graphics centerX="1169.1045376407237" centerY="627.9999999999998" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP3K12 | mitogen-activated protein kinase kina..." />
+    </DataNode>
+    <DataNode elementId="d16" textLabel="RPS6KA5" type="GeneProduct" groupRef="e8e46">
+      <Xref identifier="9252" dataSource="ncbigene" />
+      <Graphics centerX="1132.3671933020744" centerY="1036.0798506289307" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="RPS6KA5 | ribosomal protein S6 kinase 90kDa p..." />
+    </DataNode>
+    <DataNode elementId="d1b" textLabel="STX4A" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="6810" dataSource="ncbigene" />
+      <Graphics centerX="93.1736526946108" centerY="763.9520958083835" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STX4A | syntaxin 4A (placental)" />
+    </DataNode>
+    <DataNode elementId="d20" textLabel="IGF1R" type="GeneProduct">
+      <Xref identifier="3480" dataSource="ncbigene" />
+      <Graphics centerX="763.3333333333334" centerY="103.33333333333333" width="100.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="IGF1R | insulin-like growth factor 1 receptor" />
+    </DataNode>
+    <DataNode elementId="d24" textLabel="PRKCZ" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="5590" dataSource="ncbigene" />
+      <Graphics centerX="785.2076734124882" centerY="970.4644635790504" width="73.33333333333333" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PRKCZ | protein kinase C zeta" />
+    </DataNode>
+    <DataNode elementId="d37" textLabel="SNAP25" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="6616" dataSource="ncbigene" />
+      <Graphics centerX="93.1736526946108" centerY="807.2854291417169" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="SNAP25 | synaptosomal-associated protein 25kDa..." />
+    </DataNode>
+    <DataNode elementId="d40" textLabel="MAP2K4" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="6416" dataSource="ncbigene" />
+      <Graphics centerX="1169.1045376407237" centerY="687.9999999999998" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP2K4 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="d43" textLabel="GRB14" type="GeneProduct" groupRef="d0df9">
+      <Xref identifier="2888" dataSource="ncbigene" />
+      <Graphics centerX="1132.3688495349936" centerY="248.615291606615" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="GRB14 | growth factor receptor-bound protein 14..." />
+    </DataNode>
+    <DataNode elementId="d4c" textLabel="PRKCQ" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="5588" dataSource="ncbigene" />
+      <Graphics centerX="785.2076734124882" centerY="950.4644635790504" width="73.33333333333333" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PRKCQ | protein kinase C theta" />
+    </DataNode>
+    <DataNode elementId="d50" textLabel="RPS6KA1" type="GeneProduct" groupRef="e8e46">
+      <Xref identifier="6195" dataSource="ncbigene" />
+      <Graphics centerX="1132.3671933020744" centerY="956.0798506289308" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="RPS6KA1 | ribosomal protein S6 kinase 90kDa p..." />
+    </DataNode>
+    <DataNode elementId="d54" textLabel="MAPK7" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="5598" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="489.3333333333333" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAPK7 | mitogen-activated protein kinase 7" />
+    </DataNode>
+    <DataNode elementId="d5c" textLabel="RPS6KA2" type="GeneProduct" groupRef="e8e46">
+      <Xref identifier="6196" dataSource="ncbigene" />
+      <Graphics centerX="1132.3671933020744" centerY="976.0798506289308" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="RPS6KA2 | ribosomal protein S6 kinase 90kDa p..." />
+    </DataNode>
+    <DataNode elementId="d77" textLabel="MAPK14" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="1432" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="629.3333333333334" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAPK14 | mitogen-activated protein kinase 14" />
+    </DataNode>
+    <DataNode elementId="d80" textLabel="RPS6KB1" type="GeneProduct" groupRef="dcaa7">
+      <Xref identifier="6198" dataSource="ncbigene" />
+      <Graphics centerX="662.2475049900203" centerY="668.2355289421162" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="RPS6KB1 | ribosomal protein S6 kinase 70kDa p..." />
+    </DataNode>
+    <DataNode elementId="d8e" textLabel="RHOQ" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="23433" dataSource="ncbigene" />
+      <Graphics centerX="181.0978043912178" centerY="752.7544910179644" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="RHOQ | ras homolog gene family member Q" />
+    </DataNode>
+    <DataNode elementId="d93" textLabel="MAP3K11" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="4296" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="609.3333333333334" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP3K11 | mitogen-activated protein kinase kina..." />
+    </DataNode>
+    <DataNode elementId="d94" textLabel="PRKAA2" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="5563" dataSource="ncbigene" />
+      <Graphics centerX="785.2076734124882" centerY="1030.464463579051" width="73.33333333333333" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PRKAA2 | protein kinase AMP-activated alpha 2..." />
+    </DataNode>
+    <DataNode elementId="da5" textLabel="SNAP23" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="8773" dataSource="ncbigene" />
+      <Graphics centerX="93.1736526946108" centerY="783.9520958083835" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="SNAP23 | synaptosomal-associated protein 23kDa..." />
+    </DataNode>
+    <DataNode elementId="db4" textLabel="PTPN1" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="5770" dataSource="ncbigene" />
+      <Graphics centerX="692.5476010510024" centerY="871.1517834647086" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PTPN1 | protein tyrosine phosphatase non-recep..." />
+    </DataNode>
+    <DataNode elementId="dc9" textLabel="MAPK8" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="5599" dataSource="ncbigene" />
+      <Graphics centerX="692.5476010510024" centerY="991.1517834647086" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAPK8 | mitogen-activated protein kinase 8" />
+    </DataNode>
+    <DataNode elementId="dcb" textLabel="INPPL1" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="3636" dataSource="ncbigene" />
+      <Graphics centerX="692.5476010510024" centerY="931.1517834647086" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="INPPL1 | inositol polyphosphate phosphatase-lik..." />
+    </DataNode>
+    <DataNode elementId="dd0" textLabel="CBLB" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="868" dataSource="ncbigene" />
+      <Graphics centerX="181.0978043912178" centerY="672.7544910179644" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="CBLB | Cas-Br-M (murine) ecotropic retroviral t..." />
+    </DataNode>
+    <DataNode elementId="def" textLabel="MAP3K7" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="6885" dataSource="ncbigene" />
+      <Graphics centerX="1169.1045376407237" centerY="527.9999999999999" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP3K7 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="dfa" textLabel="STXBP3" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="6814" dataSource="ncbigene" />
+      <Graphics centerX="93.1736526946108" centerY="703.9520958083835" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STXBP3 | syntaxin binding protein 3" />
+    </DataNode>
+    <DataNode elementId="dfc" textLabel="INPP4A" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="3631" dataSource="ncbigene" />
+      <Graphics centerX="692.5476010510024" centerY="971.1517834647086" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="INPP4A | inositol polyphosphate-4-phosphatase ..." />
+    </DataNode>
+    <DataNode elementId="e07" textLabel="SGK" type="GeneProduct" groupRef="bb23b">
+      <Xref identifier="6446" dataSource="ncbigene" />
+      <Graphics centerX="293.2335329341311" centerY="420.2594810379243" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="SGK | serum/glucocorticoid regulated kinase" />
+    </DataNode>
+    <DataNode elementId="e09" textLabel="CBL" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="867" dataSource="ncbigene" />
+      <Graphics centerX="181.0978043912178" centerY="652.7544910179644" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="CBL | Cas-Br-M (murine) ecotropic retroviral tr..." />
+    </DataNode>
+    <DataNode elementId="e1c" textLabel="PIK3R4" type="GeneProduct" groupRef="e58f8">
+      <Xref identifier="30849" dataSource="ncbigene" />
+      <Graphics centerX="372.56821779638204" centerY="227.006864014917" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PIK3R4 | phosphoinositide-3-kinase regulatory ..." />
+    </DataNode>
+    <DataNode elementId="e20" textLabel="MAPK11" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="5600" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="569.3333333333334" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAPK11 | mitogen-activated protein kinase 11" />
+    </DataNode>
+    <DataNode elementId="e29" textLabel="MAPK9" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="5601" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="529.3333333333334" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAPK9 | mitogen-activated protein kinase 9" />
+    </DataNode>
+    <DataNode elementId="e35" textLabel="PTPN11" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="5781" dataSource="ncbigene" />
+      <Graphics centerX="692.5476010510024" centerY="951.1517834647086" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PTPN11 | protein tyrosine phosphatase non-rece..." />
+    </DataNode>
+    <DataNode elementId="e3a" textLabel="GYS2" type="GeneProduct" groupRef="a7ec4">
+      <Xref identifier="2998" dataSource="ncbigene" />
+      <Graphics centerX="486.6666666666667" centerY="927.9404671921678" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="GYS2 | glycogen synthase 2 (liver)" />
+    </DataNode>
+    <DataNode elementId="e41" textLabel="JUN" type="GeneProduct" groupRef="c6600">
+      <Xref identifier="3725" dataSource="ncbigene" />
+      <Graphics centerX="379.1304336581127" centerY="749.1543874781481" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="JUN | v-jun sarcoma virus 17 oncogene homolog (..." />
+    </DataNode>
+    <DataNode elementId="e43" textLabel="SOCS1" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="8651" dataSource="ncbigene" />
+      <Graphics centerX="692.5476010510024" centerY="1011.1517834647086" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="SOCS1 | suppressor of cytokine signaling 1" />
+    </DataNode>
+    <DataNode elementId="e50" textLabel="MAPK6" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="5597" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="469.3333333333333" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAPK6 | mitogen-activated protein kinase 6" />
+    </DataNode>
+    <DataNode elementId="e5c" textLabel="EIF4E" type="GeneProduct" groupRef="a1f56">
+      <Xref identifier="1977" dataSource="ncbigene" />
+      <Graphics centerX="838.6775152858091" centerY="690.0998003992019" width="113.33333333333333" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="EIF4E | eukaryotic translation initiation facto..." />
+    </DataNode>
+    <DataNode elementId="e5f" textLabel="SHC2" type="GeneProduct" groupRef="bcaa0">
+      <Xref identifier="25759" dataSource="ncbigene" />
+      <Graphics centerX="732.2954091816365" centerY="235.30938123752486" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="SHC2 | SHC (Src homology 2 domain containing) t..." />
+    </DataNode>
+    <DataNode elementId="e67" textLabel="FLOT2" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="2319" dataSource="ncbigene" />
+      <Graphics centerX="93.05163563381821" centerY="629.3449619495491" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="FLOT2 | flotillin 2" />
+    </DataNode>
+    <DataNode elementId="e73" textLabel="CBLC" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="23624" dataSource="ncbigene" />
+      <Graphics centerX="181.0978043912178" centerY="692.7544910179644" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="CBLC | Cas-Br-M (murine) ecotropic retroviral t..." />
+    </DataNode>
+    <DataNode elementId="e74" textLabel="MYO1C" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="4641" dataSource="ncbigene" />
+      <Graphics centerX="177.76447105788446" centerY="839.421157684631" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MYO1C | myosin IC" />
+    </DataNode>
+    <DataNode elementId="e7b" textLabel="GAB1" type="GeneProduct" groupRef="bcaa0">
+      <Xref identifier="2549" dataSource="ncbigene" />
+      <Graphics centerX="651.1261489560067" centerY="275.2652688353703" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="GAB1 | GRB2-associated binding protein 1" />
+    </DataNode>
+    <DataNode elementId="e7c" textLabel="RHOJ" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="57381" dataSource="ncbigene" />
+      <Graphics centerX="93.1736526946108" centerY="900.6187624750502" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="RHOJ | ras homolog gene family member J" />
+    </DataNode>
+    <DataNode elementId="e87" textLabel="GSK3A" type="GeneProduct" groupRef="bb23b">
+      <Xref identifier="2931" dataSource="ncbigene" />
+      <Graphics centerX="213.4331337325348" centerY="477.8642714570859" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="GSK3A | glycogen synthase kinase 3 alpha" />
+    </DataNode>
+    <DataNode elementId="e8c" textLabel="PRKCI" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="5584" dataSource="ncbigene" />
+      <Graphics centerX="785.2076734124882" centerY="930.4644635790504" width="73.33333333333333" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PRKCI | protein kinase C iota" />
+    </DataNode>
+    <DataNode elementId="e9e" textLabel="PRKAA1" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="5562" dataSource="ncbigene" />
+      <Graphics centerX="785.2076734124882" centerY="1010.4644635790501" width="73.33333333333333" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PRKAA1 | protein kinase AMP-activated alpha 1..." />
+    </DataNode>
+    <DataNode elementId="ea4" textLabel="SORBS1" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="10580" dataSource="ncbigene" />
+      <Graphics centerX="181.0978043912178" centerY="612.7544910179644" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="SORBS1 | sorbin and SH3 domain containing 1" />
+    </DataNode>
+    <DataNode elementId="ea7" textLabel="SOS2" type="GeneProduct" groupRef="d0df9">
+      <Xref identifier="6655" dataSource="ncbigene" />
+      <Graphics centerX="1132.3688495349936" centerY="301.9486249399485" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="SOS2 | son of sevenless homolog 2 (Drosophila)" />
+    </DataNode>
+    <DataNode elementId="eab" textLabel="MAP3K13" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="9175" dataSource="ncbigene" />
+      <Graphics centerX="1170.4378709740572" centerY="769.3333333333331" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP3K13 | mitogen-activated protein kinase kina..." />
+    </DataNode>
+    <DataNode elementId="eb6" textLabel="PPP1R3A" type="GeneProduct" groupRef="a7ec4">
+      <Xref identifier="5506" dataSource="ncbigene" />
+      <Graphics centerX="486.6666666666667" centerY="947.9404671921678" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PPP1R3A | protein phosphatase 1 regulatory (in..." />
+    </DataNode>
+    <DataNode elementId="ebd" textLabel="RAF1" type="GeneProduct" groupRef="d0df9">
+      <Xref identifier="5894" dataSource="ncbigene" />
+      <Graphics centerX="1132.3688495349936" centerY="228.615291606615" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="RAF1 | v-raf-1 murine leukemia viral oncogene h..." />
+    </DataNode>
+    <DataNode elementId="edb" textLabel="ARF1" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="375" dataSource="ncbigene" />
+      <Graphics centerX="93.1736526946108" centerY="840.6187624750502" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="ARF1 | ADP-ribosylation factor 1" />
+    </DataNode>
+    <DataNode elementId="eeb" textLabel="FRAP1" type="GeneProduct">
+      <Xref identifier="2475" dataSource="ncbigene" />
+      <Graphics centerX="746.6666666666669" centerY="563.3333333333334" width="113.33333333333333" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="FRAP1 | FK506 binding protein 12-rapamycin asso..." />
+    </DataNode>
+    <DataNode elementId="ef6" textLabel="PRKCA" type="GeneProduct" groupRef="ec3a2">
+      <Xref identifier="5578" dataSource="ncbigene" />
+      <Graphics centerX="785.2076734124882" centerY="850.4644635790504" width="73.33333333333333" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PRKCA | protein kinase C alpha" />
+    </DataNode>
+    <DataNode elementId="efb" textLabel="LIPE" type="GeneProduct" groupRef="a7ec4">
+      <Xref identifier="3991" dataSource="ncbigene" />
+      <Graphics centerX="486.6666666666667" centerY="887.9404671921678" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="LIPE | lipase hormone-sensitive" />
+    </DataNode>
+    <DataNode elementId="f07" textLabel="MAP2K3" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="5606" dataSource="ncbigene" />
+      <Graphics centerX="1169.1045376407237" centerY="667.9999999999998" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP2K3 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="f09" textLabel="MAPK4" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="5596" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="449.3333333333333" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAPK4 | mitogen-activated protein kinase 4" />
+    </DataNode>
+    <DataNode elementId="f15" textLabel="MAP4K2" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="5871" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="709.3333333333334" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP4K2 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="f16" textLabel="PDPK1" type="GeneProduct" groupRef="bb23b">
+      <Xref identifier="5170" dataSource="ncbigene" />
+      <Graphics centerX="213.4331337325348" centerY="417.8642714570859" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PDPK1 | 3-phosphoinositide dependent protein ki..." />
+    </DataNode>
+    <DataNode elementId="f20" textLabel="HRAS" type="GeneProduct" groupRef="d0df9">
+      <Xref identifier="3265" dataSource="ncbigene" />
+      <Graphics centerX="1132.3688495349936" centerY="208.615291606615" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="HRAS | v-Ha-ras Harvey rat sarcoma viral oncoge..." />
+    </DataNode>
+    <DataNode elementId="f46" textLabel="RAPGEF1" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="2889" dataSource="ncbigene" />
+      <Graphics centerX="181.0978043912178" centerY="732.7544910179644" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="RAPGEF1 | Rap guanine nucleotide exchange facto..." />
+    </DataNode>
+    <DataNode elementId="f4f" textLabel="FOXO3A" type="GeneProduct" groupRef="c6600">
+      <Xref identifier="2309" dataSource="ncbigene" />
+      <Graphics centerX="379.1304336581127" centerY="649.1543874781481" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="FOXO3A | forkhead box O3A" />
+    </DataNode>
+    <DataNode elementId="f56" textLabel="MAP2K5" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="5607" dataSource="ncbigene" />
+      <Graphics centerX="1169.1045376407237" centerY="707.9999999999998" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP2K5 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="f5b" textLabel="GRB10" type="GeneProduct" groupRef="d0df9">
+      <Xref identifier="2887" dataSource="ncbigene" />
+      <Graphics centerX="1132.3688495349936" centerY="228.615291606615" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="GRB10 | growth factor receptor-bound protein 10..." />
+    </DataNode>
+    <DataNode elementId="f71" textLabel="EGR1" type="GeneProduct" groupRef="c6600">
+      <Xref identifier="1958" dataSource="ncbigene" />
+      <Graphics centerX="379.1304336581127" centerY="709.1543874781481" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="EGR1 | early growth response 1" />
+    </DataNode>
+    <DataNode elementId="f76" textLabel="MAP3K10" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="4294" dataSource="ncbigene" />
+      <Graphics centerX="1169.1045376407237" centerY="587.9999999999999" width="66.66666666666669" height="19.999999999999993" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP3K10 | mitogen-activated protein kinase kina..." />
+    </DataNode>
+    <DataNode elementId="f8a" textLabel="VAMP2" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="6844" dataSource="ncbigene" />
+      <Graphics centerX="93.1736526946108" centerY="743.9520958083835" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="VAMP2 | vesicle-associated membrane protein 2 (..." />
+    </DataNode>
+    <DataNode elementId="f9d" textLabel="PIK3C2A" type="GeneProduct" groupRef="e58f8">
+      <Xref identifier="5286" dataSource="ncbigene" />
+      <Graphics centerX="300.1131279760232" centerY="247.006864014917" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PIK3C2A | phosphoinositide-3-kinase class 2 a..." />
+    </DataNode>
+    <DataNode elementId="f9f" textLabel="MAPK1" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="5594" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="409.3333333333333" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAPK1 | mitogen-activated protein kinase 1" />
+    </DataNode>
+    <DataNode elementId="fa3" textLabel="FLOT1" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="10211" dataSource="ncbigene" />
+      <Graphics centerX="93.05163563381821" centerY="609.3449619495491" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="FLOT1 | flotillin 1" />
+    </DataNode>
+    <DataNode elementId="fa4" textLabel="PIK3CA" type="GeneProduct" groupRef="e58f8">
+      <Xref identifier="5290" dataSource="ncbigene" />
+      <Graphics centerX="300.1131279760232" centerY="167.00686401491697" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PIK3CA | phosphoinositide-3-kinase catalytic ..." />
+    </DataNode>
+    <DataNode elementId="fb0" textLabel="MAP2K1" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="5604" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="649.3333333333333" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP2K1 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="fb3" textLabel="MAP3K6" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="9064" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="509.3333333333333" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP3K6 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="fb6" textLabel="SGK2" type="GeneProduct" groupRef="bb23b">
+      <Xref identifier="10110" dataSource="ncbigene" />
+      <Graphics centerX="293.2335329341311" centerY="440.2594810379243" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="SGK2 | serum/glucocorticoid regulated kinase 2" />
+    </DataNode>
+    <DataNode elementId="fc5" textLabel="MAP3K4" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="4216" dataSource="ncbigene" />
+      <Graphics centerX="1169.1045376407237" centerY="467.99999999999983" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP3K4 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="fc6" textLabel="MAP3K9" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="4293" dataSource="ncbigene" />
+      <Graphics centerX="1169.1045376407237" centerY="567.9999999999999" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP3K9 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="fcb" textLabel="KIF3A" type="GeneProduct" groupRef="e0c7d">
+      <Xref identifier="11127" dataSource="ncbigene" />
+      <Graphics centerX="177.7644710578845" centerY="799.421157684631" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="KIF3A | kinesin family member 3A" />
+    </DataNode>
+    <DataNode elementId="fe3" textLabel="MAP4K5" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="11183" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="769.3333333333334" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP4K5 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="fec" textLabel="MAP2K2" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="5605" dataSource="ncbigene" />
+      <Graphics centerX="1094.4378709740563" centerY="669.3333333333333" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP2K2 | mitogen-activated protein kinase kinas..." />
+    </DataNode>
+    <DataNode elementId="ff3" textLabel="MAPK8" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="5599" dataSource="ncbigene" />
+      <Graphics centerX="1169.1045376407237" centerY="507.99999999999983" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAPK8 | mitogen-activated protein kinase 8" />
+    </DataNode>
+    <DataNode elementId="ff9" textLabel="MAP3K14" type="GeneProduct" groupRef="acdf9">
+      <Xref identifier="9020" dataSource="ncbigene" />
+      <Graphics centerX="1169.1045376407237" centerY="647.9999999999998" width="66.66666666666667" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP3K14 | mitogen-activated protein kinase kina..." />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="cf4a5">
+      <Waypoints>
+        <Point elementId="a9e63" arrowHead="Undirected" x="579.4001996007983" y="233.55279409832383" elementRef="bcaa0" relX="-1.0" relY="0.0" />
+        <Point elementId="aa3ae" arrowHead="Directed" x="501.5673981191226" y="332.23197492163024" elementRef="c21a5" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="a42c7">
+      <Waypoints>
+        <Point elementId="f1d46" arrowHead="Undirected" x="212.71656686626721" y="515.8642714570859" elementRef="bb23b" relX="-0.5" relY="1.0" />
+        <Point elementId="b2631" arrowHead="Directed" x="137.07472001251801" y="566.6782952828826" elementRef="e0c7d" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="a6d8e">
+      <Waypoints>
+        <Point elementId="e09d9" arrowHead="Undirected" x="334.5668662674645" y="445.53093812375255" elementRef="bb23b" relX="1.0" relY="0.0" />
+        <Point elementId="c2cf9" arrowHead="Inhibition" x="680.8482165352916" y="446.1950442059408" elementRef="aed8b" relX="-1.0" relY="0.5" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="a883d">
+      <Waypoints>
+        <Point elementId="c6e3c" arrowHead="Undirected" x="745.5148832019584" y="466.085220337858" elementRef="aed8b" relX="0.0" relY="1.0" />
+        <Point elementId="c940e" arrowHead="Inhibition" x="746.0000000000002" y="495.88822355289403" elementRef="b1c" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="b42f3">
+      <Waypoints>
+        <Point elementId="d0d04" arrowHead="Undirected" x="501.5673981191226" y="396.23197492163024" elementRef="c21a5" relX="0.0" relY="1.0" />
+        <Point elementId="e5f41" arrowHead="Directed" x="334.5668662674645" y="410.36427145708586" elementRef="bb23b" relX="1.0" relY="-0.5" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="c6490">
+      <Waypoints>
+        <Point elementId="e8a96" arrowHead="Undirected" x="1132.4378709740568" y="807.3333333333334" elementRef="acdf9" relX="0.0" relY="1.0" />
+        <Point elementId="ba9ea" arrowHead="Directed" x="1132.3671933020746" y="912.4131839622642" elementRef="e8e46" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="d1ddc">
+      <Waypoints>
+        <Point elementId="b5cf9" arrowHead="Undirected" x="616.6666666666667" y="113.33333333333333" elementRef="c27" relX="0.0" relY="1.0" />
+        <Point elementId="c161e" arrowHead="Directed" x="688.9096806387225" y="173.84031936127735" elementRef="bcaa0" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="d6ebf">
+      <Waypoints>
+        <Point elementId="c3804" arrowHead="Undirected" x="1132.3688495349938" y="319.9486249399485" elementRef="d0df9" relX="0.0" relY="1.0" />
+        <Point elementId="b2946" arrowHead="Directed" x="1132.4378709740568" y="363.33333333333337" elementRef="acdf9" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="db9dc">
+      <Waypoints>
+        <Point elementId="b8390" arrowHead="Undirected" x="803.3333333333337" y="563.3333333333334" elementRef="eeb" relX="1.0" relY="0.0" />
+        <Point elementId="e8a03" arrowHead="Inhibition" x="743.6644211576847" y="293.2652688353703" elementRef="bcaa0" relX="0.5" relY="1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="e16ae">
+      <Waypoints>
+        <Point elementId="d2f4b" arrowHead="Undirected" x="763.3333333333334" y="113.33333333333333" elementRef="d20" relX="0.0" relY="1.0" />
+        <Point elementId="da771" arrowHead="Directed" x="688.9096806387225" y="173.84031936127735" elementRef="bcaa0" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="e502a">
+      <Waypoints>
+        <Point elementId="b425d" arrowHead="Undirected" x="746.666666666667" y="573.3333333333334" elementRef="eeb" relX="0.0" relY="1.0" />
+        <Point elementId="d157d" arrowHead="Directed" x="687.8754879292277" y="623.1432782852396" elementRef="dcaa7" relX="0.5" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Segmented" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="e6bf6">
+      <Waypoints>
+        <Point elementId="bdd6c" arrowHead="Undirected" x="746.0000000000002" y="515.888223552894" elementRef="b1c" relX="0.0" relY="1.0" />
+        <Point elementId="fd6db" arrowHead="Directed" x="746.666666666667" y="553.3333333333334" elementRef="eeb" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="f03f3">
+      <Waypoints>
+        <Point elementId="ca07e" arrowHead="Undirected" x="96.06317782316812" y="566.6782952828826" elementRef="e0c7d" relX="-0.5" relY="-1.0" />
+        <Point elementId="ac914" arrowHead="Directed" x="96.66666666666667" y="113.33333333333333" elementRef="ce3" relX="0.0" relY="1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="f48fc">
+      <Waypoints>
+        <Point elementId="fef01" arrowHead="Undirected" x="293.95009980039873" y="515.8642714570859" elementRef="bb23b" relX="0.5" relY="1.0" />
+        <Point elementId="d0401" arrowHead="Directed" x="375.5882315921024" y="572.6663192349782" elementRef="c6600" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="f74bc">
+      <Waypoints>
+        <Point elementId="a79c7" arrowHead="Undirected" x="798.4191616766468" y="203.6965567298006" elementRef="bcaa0" relX="1.0" relY="-0.5" />
+        <Point elementId="ca42e" arrowHead="Directed" x="1056.7021828683273" y="204.2655993487595" elementRef="d0df9" relX="-1.0" relY="-0.5" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="fada3">
+      <Waypoints>
+        <Point elementId="e464e" arrowHead="Undirected" x="746.666666666667" y="573.3333333333334" elementRef="eeb" relX="0.0" relY="1.0" />
+        <Point elementId="b0757" arrowHead="Directed" x="796.7668144975574" y="626.0075497423254" elementRef="a1f56" relX="-0.5" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id4e7e2d08">
+      <Waypoints>
+        <Point elementId="f4ab2" arrowHead="Undirected" x="419.9760479041919" y="260.7452211564333" elementRef="e58f8" relX="1.0" relY="0.5" />
+        <Point elementId="ecc91" arrowHead="Directed" x="501.5673981191226" y="332.23197492163024" elementRef="c21a5" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="idaf8a5c9d">
+      <Waypoints>
+        <Point elementId="a53e3" arrowHead="Undirected" x="505.66076377641" y="164.40172047655048" elementRef="a2c5c" relX="0.0" relY="-1.0" />
+        <Point elementId="c15eb" arrowHead="Directed" x="616.6666666666667" y="113.33333333333333" elementRef="c27" relX="0.0" relY="1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="idf40d6d0f">
+      <Waypoints>
+        <Point elementId="b6551" arrowHead="Undirected" x="1211.7712043073907" y="585.3333333333334" elementRef="acdf9" relX="1.0" relY="0.0" />
+        <Point elementId="c5ffd" arrowHead="Directed" x="1269.051742668512" y="585.0268437484001" elementRef="f45dd" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+  </Interactions>
+  <Labels>
+    <Label elementId="a7d" textLabel="Insulin Receptor Substrates" groupRef="bcaa0">
+      <Graphics centerX="688.9096806387225" centerY="189.84031936127732" width="203.01896207584858" height="16.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="c36" textLabel="PDK/Akt Signaling" groupRef="bb23b">
+      <Graphics centerX="254.27145708582842" centerY="391.19760479041923" width="121.33333333333333" height="16.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="ce7" textLabel="Glucose Transport">
+      <Graphics centerX="163.33333333333334" centerY="133.33333333333334" width="120.33333333333333" height="16.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="cf4" textLabel="Metabolic Regulation" groupRef="a7ec4">
+      <Graphics centerX="486.6666666666667" centerY="823.3333333333334" width="140.33333333333334" height="16.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="d0c" textLabel="Ras-MAPK Signaling" groupRef="d0df9">
+      <Graphics centerX="1132.3688495349938" centerY="181.70459081836316" width="135.33333333333334" height="16.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="d31" textLabel="Translation Regulation" groupRef="a1f56">
+      <Graphics centerX="838.1001478308907" centerY="642.0075497423254" width="149.33333333333334" height="16.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="d45" textLabel="Tor Signaling" groupRef="aed8b">
+      <Graphics centerX="745.1336891059692" centerY="407.4418986236574" width="90.57094514135497" height="25.83476562693653" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="d74" textLabel="Vesicular Trafficking" groupRef="e0c7d">
+      <Graphics centerX="136.4071856287423" centerY="582.6782952828825" width="135.33333333333334" height="16.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="e11" textLabel="p70 S6 Kinases" groupRef="dcaa7">
+      <Graphics centerX="658.7921545958943" centerY="639.1432782852396" width="100.33333333333333" height="16.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="e71" textLabel="p90 Rsk Kinases" groupRef="e8e46">
+      <Graphics centerX="1132.3671933020746" centerY="928.4131839622642" width="106.33333333333333" height="16.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="f45dd" textLabel="Cell Growth&#xA;Differentiation">
+      <Graphics centerX="1330.5560161727858" centerY="585.0268437484002" width="123.00854700854791" height="43.8717948717939" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="14" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="f73" textLabel="Modulators of Insulin Action" groupRef="ec3a2">
+      <Graphics centerX="741.5169660678639" centerY="823.5928143712575" width="181.33333333333334" height="16.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="f9e" textLabel="PI 3-Kinase isoforms" groupRef="e58f8">
+      <Graphics centerX="337.6225026436159" centerY="143.96029258098233" width="148.70709052115194" height="16.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="fdd" textLabel="MEK/MAP Kinases" groupRef="acdf9">
+      <Graphics centerX="1129.2643118942706" centerY="379.3333333333333" width="119.33333333333333" height="16.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="ff7" textLabel="Transcriptional Regulators &amp; &#xA;Immediate Early Genes" groupRef="c6600">
+      <Graphics centerX="375.5882315921024" centerY="594.400869139596" width="216.04671921678715" height="27.46909980923556" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+  </Labels>
+  <Shapes>
+    <Shape elementId="eee31">
+      <Graphics centerX="714.1212574850299" centerY="608.9820359281438" width="1400.5" height="1011.9760479041918" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Cell" zOrder="16384" rotation="0.0" />
+    </Shape>
+  </Shapes>
+  <Groups>
+    <Group elementId="a7ec4" type="Group">
+      <Graphics centerX="486.6666666666667" centerY="896.6369002627506" width="156.33333333333337" height="178.60713385883446" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="ec3a2" type="Group">
+      <Graphics centerX="741.5169660678639" centerY="948.372298917983" width="197.33333333333337" height="281.5589690934511" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="d0df9" type="Group">
+      <Graphics centerX="1132.3688495349938" centerY="242.82660787915583" width="151.33333333333326" height="154.24403412158534" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="acdf9" type="Group">
+      <Graphics centerX="1132.4378709740568" centerY="585.3333333333334" width="158.66666666666765" height="444.00000000000006" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="c6600" type="Group">
+      <Graphics centerX="375.5882315921024" centerY="669.9103533565632" width="232.04671921678715" height="194.4880682431699" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="bb23b" type="Group">
+      <Graphics centerX="253.33333333333297" centerY="445.53093812375255" width="162.46706586826303" height="140.66666666666669" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="a1f56" type="Group">
+      <Graphics centerX="838.1001478308908" centerY="667.0536750707636" width="165.33333333333337" height="82.09225065687644" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="c21a5" type="Complex">
+      <Graphics centerX="501.5673981191226" centerY="364.23197492163024" width="104.00000000000006" height="63.99999999999994" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
+    </Group>
+    <Group elementId="e58f8" type="Group">
+      <Graphics centerX="337.6225026436159" centerY="216.48357829794963" width="164.70709052115194" height="177.04657143393464" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="dcaa7" type="Group">
+      <Graphics centerX="658.7921545958943" centerY="664.6894036136779" width="116.33333333333337" height="83.09225065687656" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="e8e46" type="Group">
+      <Graphics centerX="1132.3671933020746" centerY="993.2465172955974" width="122.33333333333326" height="161.66666666666652" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="e0c7d" type="Group">
+      <Graphics centerX="137.07472001251801" centerY="802.6485288789663" width="164.04616875739958" height="471.9404671921676" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="bcaa0" type="Group">
+      <Graphics centerX="688.9096806387225" centerY="233.55279409832383" width="219.01896207584855" height="119.42494947409298" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="aed8b" type="Group">
+      <Graphics centerX="745.5148832019584" centerY="426.30486807402355" width="129.33333333333337" height="79.56070452766892" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+  </Groups>
+  <Annotations>
+    <Annotation elementId="de034" value="insulin signaling pathway" type="Pathway Ontology">
+      <Xref identifier="0000143" dataSource="PW" />
+    </Annotation>
+  </Annotations>
+  <Citations>
+    <Citation elementId="d3b">
+      <Xref identifier="1890850" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="b27">
+      <Xref identifier="11742412" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="e4b">
+      <Xref identifier="11282018" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

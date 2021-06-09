@@ -10,19 +10,19 @@
   <Interactions>
     <Interaction elementId="idaf905386">
       <Waypoints>
-        <Point elementId="d5a1d" arrowHead="Undirected" x="30.452674897119397" y="66.6666666666666" />
-        <Point elementId="ea4d8" arrowHead="Undirected" x="10.452674897119397" y="81.06060606060603" />
-        <Point elementId="ebb81" arrowHead="Undirected" x="99.31724653946877" y="95.45454545454545" />
-        <Point elementId="a0f85" arrowHead="Undirected" x="188.18181818181816" y="81.06060606060602" />
-        <Point elementId="f72ac" arrowHead="Undirected" x="163.78600823045275" y="66.66666666666659" />
+        <Point elementId="bbde0" arrowHead="Undirected" x="30.452674897119397" y="66.6666666666666" />
+        <Point elementId="aeb1f" arrowHead="Undirected" x="10.452674897119397" y="81.06060606060603" />
+        <Point elementId="ee6f1" arrowHead="Undirected" x="99.31724653946877" y="95.45454545454545" />
+        <Point elementId="c04cc" arrowHead="Undirected" x="188.18181818181816" y="81.06060606060602" />
+        <Point elementId="cb67f" arrowHead="Undirected" x="163.78600823045275" y="66.66666666666659" />
         <Anchor elementId="e0874" position="0.5617283950617287" shapeType="None" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id28382a1c">
       <Waypoints>
-        <Point elementId="ca60e" arrowHead="Undirected" x="70.71829405162859" y="143.20987654320973" elementRef="faa53" relX="0.0" relY="-1.0" />
-        <Point elementId="ee2b4" arrowHead="Catalysis" x="118.78062749118993" y="95.45454545454545" elementRef="e0874" relX="0.0" relY="0.0" />
+        <Point elementId="f277a" arrowHead="Undirected" x="70.71829405162859" y="143.20987654320973" elementRef="faa53" relX="0.0" relY="-1.0" />
+        <Point elementId="e4e47" arrowHead="Catalysis" x="118.78062749118993" y="95.45454545454545" elementRef="e0874" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="12288" />
     </Interaction>

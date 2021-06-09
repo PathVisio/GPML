@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="Aging" organism="Caenorhabditis elegans">
+  <Comment source="WikiPathways-category">Physiological Process</Comment>
+  <Comment source="WikiPathways-description">Aging in C. elegans involves measurable declines in morphology, reproduction, and behavior.  Understanding the cellular and molecular processes leading to senescence in this nematode began in the early 1980s with the targeted identification of mutants that extended life span (an AGE phenotype). These studies identified at least two key regulators of life span, DAF-2, an insulin/IGF receptor ortholog, and DAF-16, a Forkhead-related transcription factor. Since then many more genes and pathways involved in senescence have been identified. Almost all of these genes play important roles in cellular and organismal-level processes other than aging, such as dauer formation, stress response, feeding, and chemosensation.</Comment>
+  <AnnotationRef elementRef="dd8ab" />
+  <AnnotationRef elementRef="f5784" />
+  <CitationRef elementRef="c18" />
+  <CitationRef elementRef="d3a" />
+  <Graphics boardWidth="956.0" boardHeight="946.0" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <DataNodes>
+    <DataNode elementId="f4b20" textLabel="DAF-18/PTEN" type="GeneProduct">
+      <Xref identifier="T07A9.6" dataSource="wormbase" />
+      <Graphics centerX="267.0" centerY="245.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="009900" shapeType="Oval" zOrder="32768" />
+      <Comment>daf-18 functions upstream to akt-1 and akt-2</Comment>
+      <Comment>daf-18 acts downstream of age-1</Comment>
+      <CitationRef elementRef="ee0" />
+      <CitationRef elementRef="e61" />
+    </DataNode>
+    <DataNode elementId="c95c0" textLabel="AGE-1/PI3K" type="GeneProduct">
+      <Xref identifier="B0334.8" dataSource="wormbase" />
+      <Graphics centerX="267.0" centerY="162.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="ff6666" shapeType="Oval" zOrder="32768" />
+      <Comment>age-1 encodes a homologue of mammalian phosphatidylinositol-3-OH kinase catalytic subunit.</Comment>
+      <CitationRef elementRef="f57" />
+    </DataNode>
+    <DataNode elementId="f7754" textLabel="PIP2" type="Metabolite">
+      <Xref identifier="18348" dataSource="chebi" />
+      <Graphics centerX="219.0" centerY="198.5" width="44.0" height="19.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="e9b6a" textLabel="14-3-3" type="GeneProduct" groupRef="ce35a">
+      <Xref identifier="F52D10.3" dataSource="wormbase" />
+      <Graphics centerX="570.0" centerY="478.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="ee0b6" textLabel="DAF-2/InR" type="GeneProduct">
+      <Xref identifier="Y55D5A.5" dataSource="wormbase" />
+      <Graphics centerX="268.0" centerY="96.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="ff6666" shapeType="Oval" zOrder="32769" />
+      <Comment>insulin/IGF-1 pathway can diverge to regulate the timing of reproduction independently of longevity (Dillin et al., 2002a).</Comment>
+      <CitationRef elementRef="eef" />
+    </DataNode>
+    <DataNode elementId="ab2b3" textLabel="PIP3" type="Metabolite">
+      <Xref identifier="16618" dataSource="chebi" />
+      <Graphics centerX="310.0" centerY="198.5" width="42.0" height="19.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="32770" />
+    </DataNode>
+    <DataNode elementId="fd8e3" textLabel="PDK-1/PKD1" type="GeneProduct">
+      <Xref identifier="H42K12.1" dataSource="wormbase" />
+      <Graphics centerX="208.0" centerY="345.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="ff6666" shapeType="Oval" zOrder="32772" />
+      <CitationRef elementRef="d91" />
+    </DataNode>
+    <DataNode elementId="be992" textLabel="AKT-1/Akt/PKB" type="GeneProduct" groupRef="cffec">
+      <Xref identifier="C12D8.10" dataSource="wormbase" />
+      <Graphics centerX="364.0" centerY="344.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="ff6666" shapeType="Oval" zOrder="32773" />
+      <CitationRef elementRef="d91" />
+      <CitationRef elementRef="a81" />
+    </DataNode>
+    <DataNode elementId="a64c1" textLabel="AKT-2/Akt/PKB" type="GeneProduct" groupRef="cffec">
+      <Xref identifier="F28H6.1" dataSource="wormbase" />
+      <Graphics centerX="448.0" centerY="344.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="ff6666" shapeType="Oval" zOrder="32774" />
+      <CitationRef elementRef="d91" />
+      <CitationRef elementRef="a81" />
+    </DataNode>
+    <DataNode elementId="fc419" textLabel="DAF-16/FOXO" type="GeneProduct" groupRef="ce35a">
+      <Xref identifier="R13H8.1" dataSource="wormbase" />
+      <States>
+        <State elementId="b2dc4" textLabel="P" type="Undefined">
+          <Graphics relX="1.0" relY="1.0" width="15.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffcc00" shapeType="Oval" />
+          <Comment>T242 Phosphorylation</Comment>
+        </State>
+      </States>
+      <Graphics centerX="570.0" centerY="442.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="339900" shapeType="RoundedRectangle" zOrder="32776" />
+      <Comment>PRMT-1 specifically methylates the C terminus of the forkhead domain (FH-C) in DAF-16 blocking binding to 14-3-3 protein.</Comment>
+      <Comment>DAF-16 is predominantly localized in the cytoplasm as a result of inhibitory phosphorylation of Ser/Thr residues by the AKT and SGK kinases.</Comment>
+      <Comment>T242 is an AKT-mediated phosphorylation site in DAF-16</Comment>
+      <CitationRef elementRef="a47" />
+      <CitationRef elementRef="b69" />
+      <CitationRef elementRef="ed9" />
+      <CitationRef elementRef="a81" />
+    </DataNode>
+    <DataNode elementId="e2e8a" textLabel="JNK-1" type="GeneProduct">
+      <Xref identifier="B0478.1" dataSource="wormbase" />
+      <States>
+        <State elementId="d1419" textLabel="P" type="Undefined">
+          <Graphics relX="-0.925" relY="1.0" width="15.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffcc00" shapeType="Oval" />
+        </State>
+      </States>
+      <Graphics centerX="192.0" centerY="450.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="009900" shapeType="Oval" zOrder="32777" />
+      <Comment>DAF-16 binds to JNK-1.</Comment>
+      <Comment>JNK-1 binds and phosphorylates DAF-16.</Comment>
+      <CitationRef elementRef="f8b" />
+    </DataNode>
+    <DataNode elementId="bb21e" textLabel="DAF-16/FOXO" type="GeneProduct">
+      <Xref identifier="R13H8.1" dataSource="wormbase" />
+      <States>
+        <State elementId="e953c" textLabel="P" type="Undefined">
+          <Graphics relX="-1.0" relY="0.9" width="15.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffcc00" shapeType="Oval" />
+        </State>
+        <State elementId="de55b" textLabel="Me" type="Undefined">
+          <Graphics relX="1.0" relY="1.0" width="15.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="0066cc" shapeType="Oval" />
+        </State>
+      </States>
+      <Graphics centerX="407.0" centerY="613.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="339900" shapeType="RoundedRectangle" zOrder="32778" />
+      <CitationRef elementRef="a47" />
+      <CitationRef elementRef="b69" />
+      <CitationRef elementRef="f8b" />
+    </DataNode>
+    <DataNode elementId="fe08c" textLabel="JKK-1" type="GeneProduct">
+      <Xref identifier="F35C8.3" dataSource="wormbase" />
+      <Graphics centerX="116.0" centerY="405.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="009900" shapeType="Oval" zOrder="32780" />
+      <CitationRef elementRef="f8b" />
+    </DataNode>
+    <DataNode elementId="c1060" textLabel="PRMT-1" type="GeneProduct">
+      <Xref identifier="Y113G7B.17" dataSource="wormbase" />
+      <Graphics centerX="338.0" centerY="407.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="009900" shapeType="Oval" zOrder="32783" />
+      <CitationRef elementRef="ed9" />
+    </DataNode>
+    <DataNode elementId="dd9c0" textLabel="DAF-16/FOXO" type="GeneProduct">
+      <Xref identifier="R13H8.1" dataSource="wormbase" />
+      <States>
+        <State elementId="e3bc3" textLabel="Me" type="Undefined">
+          <Graphics relX="0.925" relY="1.0" width="15.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="0066cc" shapeType="Oval" />
+        </State>
+        <State elementId="cb977" textLabel="P" type="Undefined">
+          <Graphics relX="-0.875" relY="1.0" width="15.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffcc33" shapeType="Oval" />
+          <Comment>JNK-1 binds and phosphorylates DAF-16</Comment>
+        </State>
+      </States>
+      <Graphics centerX="233.0" centerY="483.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="339900" shapeType="RoundedRectangle" zOrder="32784" />
+      <Comment>DAF-16 bound directly to PRMT-1 in  in vitro pulldown assays , HA-PRMT-1 was coimmunoprecipitated with FLAG-DAF-16 only when the both proteins were
+coexpressed.</Comment>
+      <CitationRef elementRef="ed9" />
+    </DataNode>
+    <DataNode elementId="a11d5" textLabel="DAF-16/FOXO" type="GeneProduct">
+      <Xref identifier="R13H8.1" dataSource="wormbase" />
+      <Graphics centerX="365.00000000000006" centerY="821.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="339900" shapeType="RoundedRectangle" zOrder="32785" />
+      <CitationRef elementRef="ee4" />
+    </DataNode>
+    <DataNode elementId="d0ba6" textLabel="RLE-1" type="GeneProduct">
+      <Xref identifier="M142.6" dataSource="wormbase" />
+      <Graphics centerX="345.0" centerY="782.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="ff6666" shapeType="Oval" zOrder="32786" />
+      <Comment>age-1 encodes a homologue of mammalian phosphatidylinositol-3-OH kinase catalytic subunit.</Comment>
+      <Comment>RLE-1 physically interacts with DAF-16.  RLE-1 C terminus is required for the interaction of RLE-1 with DAF-16.</Comment>
+      <CitationRef elementRef="ee4" />
+    </DataNode>
+    <DataNode elementId="d1f62" textLabel="SMK-1" type="GeneProduct">
+      <Xref identifier="F41E6.4" dataSource="wormbase" />
+      <Graphics centerX="442.0" centerY="577.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="009900" shapeType="Oval" zOrder="32787" />
+      <Comment>SMK-1 was temporally and spatially colocalized with active DAF-16.</Comment>
+      <Comment>smk-1 RNAi does not cause a general sickness in long-lived animals but rather specifically affects IIS-regulated life span.</Comment>
+      <Comment>DAF-16 and SMK-1 do not directly or indirectly regulate expression or localization of one another.</Comment>
+      <Comment>SMK-1 specifies the longevity function of DAF-16 by
+affecting the efficiency of transcription of DAF-16 target genes involved in oxidative and UV stress response and innate immunity but is not required for DAF-16 regulation of heat-stress-response genes.</Comment>
+      <CitationRef elementRef="e0e" />
+    </DataNode>
+    <DataNode elementId="a9aac" textLabel="SGK-1" type="GeneProduct">
+      <Xref identifier="W10G6.2" dataSource="wormbase" />
+      <Graphics centerX="557.0" centerY="343.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="ff6666" shapeType="Oval" zOrder="32788" />
+      <Comment>DAF-16 is predominantly localized in the cytoplasm as a result of inhibitory phosphorylation of Ser/Thr residues by the AKT and SGK kinases.</Comment>
+    </DataNode>
+    <DataNode elementId="ec6ad" textLabel="daf-15" type="GeneProduct">
+      <Xref identifier="C10C5.6" dataSource="wormbase" />
+      <Graphics centerX="282.0" centerY="640.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="330033" shapeType="Rectangle" zOrder="32789" />
+      <Comment>Reduced smk-1 resulted in increased expression of daf-15 mRNA, suggesting that SMK-1 is required for
+the transcriptional repressor activity of DAF-16</Comment>
+      <CitationRef elementRef="e0e" />
+    </DataNode>
+    <DataNode elementId="cf05a" textLabel="" type="Undefined">
+      <Graphics centerX="734.0" centerY="246.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="009900" shapeType="Oval" zOrder="32793" />
+    </DataNode>
+    <DataNode elementId="d2a0d" textLabel="" type="Undefined">
+      <Graphics centerX="734.0" centerY="279.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="ff6666" shapeType="Oval" zOrder="32794" />
+    </DataNode>
+    <DataNode elementId="d29ee" textLabel="DAF-16/FOXO" type="GeneProduct">
+      <Xref identifier="R13H8.1" dataSource="wormbase" />
+      <Graphics centerX="408.0" centerY="450.0" width="80.0" height="20.0" textColor="ffffff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="1.0" fillColor="339900" shapeType="RoundedRectangle" zOrder="32800" />
+      <Comment>PRMT-1 specifically methylates the C terminus of the forkhead domain (FH-C) in DAF-16 blocking binding to 14-3-3 protein.</Comment>
+      <Comment>DAF-16 is predominantly localized in the cytoplasm as a result of inhibitory phosphorylation of Ser/Thr residues by the AKT and SGK kinases.</Comment>
+      <Comment>T242 is an AKT-mediated phosphorylation site in DAF-16</Comment>
+      <CitationRef elementRef="a47" />
+      <CitationRef elementRef="b69" />
+      <CitationRef elementRef="ed9" />
+      <CitationRef elementRef="a81" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="idf5d46ea5">
+      <Waypoints>
+        <Point elementId="ab2df" arrowHead="Undirected" x="299.5" y="208.0" elementRef="ab2b3" relX="-0.5" relY="1.0" />
+        <Point elementId="ccb3d" arrowHead="Directed" x="230.0" y="208.0" elementRef="f7754" relX="0.5" relY="1.0" />
+        <Anchor elementId="e3f96" position="0.46871129788625526" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+      <CitationRef elementRef="ee0" />
+    </Interaction>
+    <Interaction elementId="id5f8928d9">
+      <Waypoints>
+        <Point elementId="b0c86" arrowHead="Undirected" x="268.0" y="106.0" elementRef="ee0b6" relX="0.0" relY="1.0" />
+        <Point elementId="bb358" arrowHead="Stimulation" x="267.0" y="152.0" elementRef="c95c0" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+      <Comment>AGE-1 works in a parallel pathway downstream of daf-2 signaling.</Comment>
+      <CitationRef elementRef="d91" />
+    </Interaction>
+    <Interaction elementId="id3be9044e">
+      <Xref identifier="WBInteraction000518714" dataSource="wormbase" />
+      <Waypoints>
+        <Point elementId="c2094" arrowHead="Undirected" x="208.0" y="208.0" elementRef="f7754" relX="-0.5" relY="1.0" />
+        <Point elementId="a7868" arrowHead="Stimulation" x="208.0" y="335.0" elementRef="fd8e3" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+      <CitationRef elementRef="d91" />
+    </Interaction>
+    <Interaction elementId="id2a1a0c7b">
+      <Waypoints>
+        <Point elementId="b988d" arrowHead="Undirected" x="320.5" y="208.0" elementRef="ab2b3" relX="0.5" relY="1.0" />
+        <Point elementId="e4c2f" arrowHead="Stimulation" x="406.0" y="326.0" elementRef="cffec" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+      <Comment>an activating mutation in akt-1 or increased dosage of akt-1(+) can bypass the normal requirement for AGE-1 PI3K signaling but still partially depends on DAF-2 signaling,
+showing that akt-1 is the major output of PI3K signaling but not the only output of the DAF-2 insulinlike receptor</Comment>
+      <CitationRef elementRef="a81" />
+    </Interaction>
+    <Interaction elementId="id1f4633b6">
+      <Xref identifier="WBInteraction000518714" dataSource="wormbase" />
+      <Waypoints>
+        <Point elementId="b8b71" arrowHead="Undirected" x="248.0" y="345.0" elementRef="fd8e3" relX="1.0" relY="0.0" />
+        <Point elementId="c9b0f" arrowHead="Stimulation" x="316.0" y="344.0" elementRef="cffec" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+      <CitationRef elementRef="d91" />
+    </Interaction>
+    <Interaction elementId="id43cd63bf">
+      <Waypoints>
+        <Point elementId="c1fb6" arrowHead="Undirected" x="570.0" y="452.0" elementRef="fc419" relX="0.0" relY="1.0" />
+        <Point elementId="bf4f8" arrowHead="Undirected" x="570.0" y="468.0" elementRef="e9b6a" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="009933" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="12288" />
+      <CitationRef elementRef="a81" />
+      <CitationRef elementRef="ed9" />
+    </Interaction>
+    <Interaction elementId="id4c215f69">
+      <Waypoints>
+        <Point elementId="d104f" arrowHead="Undirected" x="116.0" y="415.0" elementRef="fe08c" relX="0.0" relY="1.0" />
+        <Point elementId="f6823" arrowHead="Conversion" x="172.0" y="440.0" elementRef="e2e8a" relX="-0.5" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+      <Comment>JKK-1 is the upstream kinase of JNK-1 and phosphorylation of JNK-1 is required for lifespan extension.</Comment>
+      <CitationRef elementRef="f8b" />
+    </Interaction>
+    <Interaction elementId="idf01f90f2">
+      <Xref identifier="" dataSource="wormbase" />
+      <Waypoints>
+        <Point elementId="ade48" arrowHead="Undirected" x="406.0" y="362.0" elementRef="cffec" relX="0.0" relY="1.0" />
+        <Point elementId="bdac3" arrowHead="Conversion" x="493.54831733627856" y="445.5562617232899" elementRef="b7101" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+      <Comment>AKT phosphorylates DAF-16 at site T242, promoting its binding to 14-3-3.</Comment>
+      <CitationRef elementRef="ed9" />
+    </Interaction>
+    <Interaction elementId="id98d96a57">
+      <Waypoints>
+        <Point elementId="fba18" arrowHead="Undirected" x="338.0" y="417.0" elementRef="c1060" relX="0.0" relY="1.0" />
+        <Point elementId="b82ed" arrowHead="Conversion" x="330.0" y="463.2" elementRef="b68c2" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+      <Comment>PRMT-1 methylates DAF-16, thereby blocking its phosphorylation by AKT.</Comment>
+      <Comment>PRMT-1 blocks AKT-mediated phosphorylation of DAF-16 at T242 and thereby inhibits its 14-3-3 binding and cytoplasmic retention in C. elegans.</Comment>
+      <Comment>PRMT-1 upregulates DAF-16 activity by inhibiting AKT-mediated phosphorylation of DAF-16 at T242.</Comment>
+      <CitationRef elementRef="ed9" />
+    </Interaction>
+    <Interaction elementId="id9eaaace1">
+      <Waypoints>
+        <Point elementId="dfd2c" arrowHead="Undirected" x="233.0" y="493.0" elementRef="dd9c0" relX="0.0" relY="1.0" />
+        <Point elementId="b3683" arrowHead="Directed" x="407.0" y="603.0" elementRef="bb21e" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="9999ff" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+      <Comment>PRMT-1 phosphorylated DAF-16 translocates to the nucleus.</Comment>
+      <Comment>JNK-1 phosphorylates DAF-16 leading to its translocation to the nucleus.</Comment>
+      <CitationRef elementRef="ed9" />
+      <CitationRef elementRef="f8b" />
+    </Interaction>
+    <Interaction elementId="idef34bebb">
+      <Waypoints>
+        <Point elementId="fe8d6" arrowHead="Undirected" x="407.0" y="623.0" elementRef="bb21e" relX="0.0" relY="1.0" />
+        <Point elementId="ce35e" arrowHead="Directed" x="385.00000000000006" y="811.0" elementRef="a11d5" relX="0.5" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="9999ff" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="idb38535b4">
+      <Waypoints>
+        <Point elementId="f03dc" arrowHead="Undirected" x="365.00000000000006" y="831.0" elementRef="a11d5" relX="0.0" relY="1.0" />
+        <Point elementId="ccc4a" arrowHead="Directed" x="424.5" y="884.0" elementRef="c5294" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+      <Comment>RLE-1 regulates the cytoplasmic sequestration of DAF-16.</Comment>
+      <CitationRef elementRef="ee4" />
+    </Interaction>
+    <Interaction elementId="id9f3c866">
+      <Waypoints>
+        <Point elementId="f9e6f" arrowHead="Undirected" x="268.0" y="52.0" elementRef="f4db3" relX="0.0" relY="1.0" />
+        <Point elementId="bbf68" arrowHead="Stimulation" x="268.0" y="86.0" elementRef="ee0b6" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="ida293497b">
+      <Waypoints>
+        <Point elementId="cd4f0" arrowHead="Undirected" x="365.0" y="792.0" elementRef="d0ba6" relX="0.5" relY="1.0" />
+        <Point elementId="f2f47" arrowHead="Undirected" x="365.00000000000006" y="811.0" elementRef="a11d5" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="339900" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="12288" />
+      <Comment>RLE-1 physically interacts with DAF-16.  RLE-1 C terminus is required for the interaction of RLE-1 with DAF-16.</Comment>
+      <CitationRef elementRef="ee4" />
+    </Interaction>
+    <Interaction elementId="id2b98bb7b">
+      <Waypoints>
+        <Point elementId="c91f3" arrowHead="Undirected" x="557.0" y="353.0" elementRef="a9aac" relX="0.0" relY="1.0" />
+        <Point elementId="ad92c" arrowHead="Conversion" x="570.0" y="432.0" elementRef="fc419" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id21672e4c">
+      <Waypoints>
+        <Point elementId="b69bd" arrowHead="Undirected" x="288.0" y="106.0" elementRef="ee0b6" relX="0.5" relY="1.0" />
+        <Point elementId="e8181" arrowHead="Inhibition" x="397.0" y="123.5" elementRef="ac0b7" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+      <Comment>insulin/IGF-1 pathway can diverge to regulate the timing of reproduction independently of longevity (Dillin et al., 2002a).</Comment>
+      <CitationRef elementRef="e0e" />
+      <CitationRef elementRef="fa0" />
+    </Interaction>
+    <Interaction elementId="id9fa508f8">
+      <Waypoints>
+        <Point elementId="d62bd" arrowHead="Undirected" x="267.0" y="172.0" elementRef="c95c0" relX="0.0" relY="1.0" />
+        <Point elementId="d977e" arrowHead="Catalysis" x="266.92456479690526" y="189.0" elementRef="c531f" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id45855ca0">
+      <Waypoints>
+        <Point elementId="e12ed" arrowHead="Undirected" x="267.0" y="235.0" elementRef="f4b20" relX="0.0" relY="-1.0" />
+        <Point elementId="a7117" arrowHead="Catalysis" x="266.92456479690526" y="208.0" elementRef="e3f96" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id7c2bea8f">
+      <Waypoints>
+        <Point elementId="c26eb" arrowHead="Undirected" x="448.0" y="450.0" elementRef="d29ee" relX="1.0" relY="0.0" />
+        <Point elementId="eb494" arrowHead="Conversion" x="530.0" y="442.0" elementRef="fc419" relX="-1.0" relY="0.0" />
+        <Anchor elementId="b7101" position="0.5554672845887629" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id66f46233">
+      <Waypoints>
+        <Point elementId="d7443" arrowHead="Undirected" x="368.0" y="450.0" elementRef="d29ee" relX="-1.0" relY="0.0" />
+        <Point elementId="ff23b" arrowHead="Conversion" x="273.0" y="483.0" elementRef="dd9c0" relX="1.0" relY="0.0" />
+        <Anchor elementId="b68c2" position="0.4" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="ea1de">
+      <Waypoints>
+        <Point elementId="afb80" arrowHead="Undirected" x="230.0" y="189.0" elementRef="f7754" relX="0.5" relY="-1.0" />
+        <Point elementId="f2484" arrowHead="Directed" x="299.5" y="189.0" elementRef="ab2b3" relX="-0.5" relY="-1.0" />
+        <Anchor elementId="c531f" position="0.5312887021137447" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32771" />
+    </Interaction>
+    <Interaction elementId="c8b89">
+      <Waypoints>
+        <Point elementId="f184e" arrowHead="Undirected" x="192.0" y="460.0" elementRef="e2e8a" relX="0.0" relY="1.0" />
+        <Point elementId="ef406" arrowHead="Undirected" x="213.0" y="473.0" elementRef="dd9c0" relX="-0.5" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="339900" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="32781" />
+      <Comment>JNK-1 phosphorylates DAF-16 leading to its translocation to the nucleus.</Comment>
+      <CitationRef elementRef="f8b" />
+    </Interaction>
+    <Interaction elementId="ffa37">
+      <Waypoints>
+        <Point elementId="e470c" arrowHead="Undirected" x="288.0" y="106.0" elementRef="ee0b6" relX="0.5" relY="1.0" />
+        <Point elementId="cc232" arrowHead="Inhibition" x="389.0" y="160.75" elementRef="bde8d" relX="-1.0" relY="-0.5" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32797" />
+    </Interaction>
+  </Interactions>
+  <GraphicalLines>
+    <GraphicalLine elementId="id470cff36">
+      <Waypoints>
+        <Point elementId="d0f7e" arrowHead="Undirected" x="345.6108041743401" y="640.8839779005525" />
+        <Point elementId="d7872" arrowHead="Undirected" x="346.22467771639043" y="631.3689379987723" />
+        <Point elementId="e99b7" arrowHead="Inhibition" x="324.1252302025783" y="621.853898096992" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="12288" />
+    </GraphicalLine>
+    <GraphicalLine elementId="id8bcbba03">
+      <Waypoints>
+        <Point elementId="a55a5" arrowHead="Undirected" x="219.53327571305098" y="641.3137424373379" />
+        <Point elementId="b080d" arrowHead="Undirected" x="616.2489196197062" y="641.3137424373379" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </GraphicalLine>
+    <GraphicalLine elementId="id1a1510f9">
+      <Waypoints>
+        <Point elementId="db920" arrowHead="Undirected" x="699.8556998556998" y="54.35305435305435" />
+        <Point elementId="c75ac" arrowHead="Inhibition" x="729.1967291967292" y="54.35305435305435" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </GraphicalLine>
+    <GraphicalLine elementId="idc547796a">
+      <Waypoints>
+        <Point elementId="dc9d7" arrowHead="Undirected" x="700.3367003367002" y="75.51707551707551" />
+        <Point elementId="f045f" arrowHead="Binding" x="726.3107263107263" y="75.51707551707551" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </GraphicalLine>
+    <GraphicalLine elementId="idc7e0d5ef">
+      <Waypoints>
+        <Point elementId="adbfe" arrowHead="Undirected" x="701.2987012987012" y="96.71909571909572" />
+        <Point elementId="e1fba" arrowHead="Undirected" x="727.2727272727273" y="96.71909571909572" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </GraphicalLine>
+    <GraphicalLine elementId="id5e1c090">
+      <Waypoints>
+        <Point elementId="dbae2" arrowHead="Undirected" x="702.2607022607021" y="114.47811447811446" />
+        <Point elementId="c5b72" arrowHead="Stimulation" x="728.2347282347282" y="114.47811447811446" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </GraphicalLine>
+    <GraphicalLine elementId="idd40ab9d9">
+      <Waypoints>
+        <Point elementId="f0951" arrowHead="Undirected" x="698.8034188034188" y="153.16239316239316" />
+        <Point elementId="e21ae" arrowHead="Conversion" x="728.3554741181858" y="153.45854328905173" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </GraphicalLine>
+    <GraphicalLine elementId="idec31a51b">
+      <Waypoints>
+        <Point elementId="b7a30" arrowHead="Undirected" x="698.6496090973704" y="135.74982231698652" />
+        <Point elementId="a5f10" arrowHead="Conversion" x="729.2110874200421" y="135.7498223169865" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </GraphicalLine>
+    <GraphicalLine elementId="fbdab">
+      <Waypoints>
+        <Point elementId="a4941" arrowHead="Undirected" x="463.78708551483425" y="640.9249563699826" />
+        <Point elementId="f4614" arrowHead="Undirected" x="463.91082442252497" y="636.8856383581515" />
+        <Point elementId="e4ab3" arrowHead="Undirected" x="463.91082442252497" y="632.8463203463203" />
+        <Point elementId="e7bb3" arrowHead="Undirected" x="463.91082442252497" y="628.884793076782" />
+        <Point elementId="b2571" arrowHead="Directed" x="484.16865131018614" y="624.9232658072438" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="32801" />
+    </GraphicalLine>
+  </GraphicalLines>
+  <Labels>
+    <Label elementId="f4db3" textLabel="Insulin-like &#xA;signals">
+      <Graphics centerX="268.0" centerY="42.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="c5294" textLabel="Proteosome degradation&#xA;pathway">
+      <Graphics centerX="424.5" centerY="900.0" width="127.0" height="32.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Hexagon" zOrder="28672" />
+    </Label>
+    <Label elementId="e6bd7" textLabel="KEY">
+      <Graphics centerX="715.0" centerY="26.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="a402b" textLabel="Blocks action, inhibits">
+      <Graphics centerX="810.0" centerY="56.0" width="152.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Left" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="a3eae" textLabel="Activates through modification">
+      <Graphics centerX="809.0" centerY="78.0" width="152.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Left" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="a61ad" textLabel="Binds to">
+      <Graphics centerX="759.5" centerY="96.0" width="55.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Left" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="f9f28" textLabel="Phosphorylated">
+      <Graphics centerX="766.0" centerY="177.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="c36be" textLabel="Longevity promoting action">
+      <Graphics centerX="854.0" centerY="246.0" width="144.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Left" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="a773b" textLabel="Longevity reducing action">
+      <Graphics centerX="844.5" centerY="277.0" width="123.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Left" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="c7b99" textLabel="Activates in general">
+      <Graphics centerX="787.5" centerY="114.0" width="111.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Left" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="d6d88" textLabel="Translocates">
+      <Graphics centerX="772.0" centerY="135.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Left" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="eaf4e" textLabel="Converts to">
+      <Graphics centerX="773.0" centerY="151.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Left" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="ab86e" textLabel="Process">
+      <Graphics centerX="824.0" centerY="317.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Left" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="bbca4" textLabel="Methylated">
+      <Graphics centerX="755.0" centerY="207.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="32792" />
+    </Label>
+  </Labels>
+  <Shapes>
+    <Shape elementId="b5a59">
+      <Graphics centerX="343.1615044247787" centerY="121.92256637168143" width="633.9926893020893" height="63.5" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Arc" zOrder="16384" rotation="3.0750244898139694" />
+    </Shape>
+    <Shape elementId="ec34d">
+      <Graphics centerX="415.5" centerY="625.0" width="429.0" height="224.0" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Nucleus" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="e054d">
+      <Graphics centerX="804.0" centerY="212.25" width="240.0" height="399.5" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="c8025" textLabel="P">
+      <Graphics centerX="713.0" centerY="178.0" width="16.0" height="16.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffcc33" shapeType="Vesicle" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="ac0b7" textLabel="Reproductive&#xA;longevity">
+      <Graphics centerX="443.5" centerY="123.5" width="93.0" height="43.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Hexagon" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="d163a" textLabel="Oxidative stress&#xA;response">
+      <Graphics centerX="534.0" centerY="596.0" width="96.0" height="40.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Hexagon" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="bbf43">
+      <Graphics centerX="734.0" centerY="316.0" width="78.0" height="28.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Hexagon" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="c8ca2" textLabel="Me">
+      <Graphics centerX="713.0" centerY="208.0" width="16.0" height="16.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="0066ff" shapeType="Vesicle" zOrder="32791" rotation="0.0" />
+    </Shape>
+    <Shape elementId="bde8d" textLabel="Dauer&#xA;development">
+      <Graphics centerX="435.5" centerY="171.5" width="93.0" height="43.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Hexagon" zOrder="32796" rotation="0.0" />
+    </Shape>
+    <Shape elementId="f89bd" textLabel="Innate immunity">
+      <Graphics centerX="535.0" centerY="635.0" width="96.0" height="40.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Hexagon" zOrder="32798" rotation="0.0" />
+    </Shape>
+    <Shape elementId="f4888" textLabel="DNA damage&#xA;repair">
+      <Graphics centerX="535.0" centerY="674.0" width="96.0" height="40.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Hexagon" zOrder="32799" rotation="0.0" />
+    </Shape>
+  </Shapes>
+  <Groups>
+    <Group elementId="cffec" type="Group">
+      <Graphics centerX="406.0" centerY="344.0" width="180.0" height="36.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="ce35a" type="Complex">
+      <Graphics centerX="570.0" centerY="460.0" width="104.0" height="80.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
+    </Group>
+  </Groups>
+  <Annotations>
+    <Annotation elementId="dd8ab" value="insulin signaling pathway" type="Pathway Ontology">
+      <Xref identifier="0000143" dataSource="PW" />
+    </Annotation>
+    <Annotation elementId="f5784" value="aging pathway" type="Pathway Ontology">
+      <Xref identifier="0000651" dataSource="PW" />
+    </Annotation>
+  </Annotations>
+  <Citations>
+    <Citation elementId="f8b">
+      <Xref identifier="15767565" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="a81">
+      <Xref identifier="9716402" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="ee4">
+      <Xref identifier="17276341" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="ee0">
+      <Xref identifier="9885576" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="e0e">
+      <Xref identifier="16530049" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="a47">
+      <Xref identifier="9353126" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="b69">
+      <Xref identifier="9360933" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="ed9">
+      <Xref identifier="21531333" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="fa0">
+      <Xref identifier="12399591" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="f57">
+      <Xref identifier="8700226" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="eef">
+      <Xref identifier="9252323" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="e61">
+      <Xref identifier="7789761" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="c18">
+      <Xref identifier="22939742" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="d3a">
+      <Xref identifier="21937765" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="d91">
+      <Xref identifier="10364160" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

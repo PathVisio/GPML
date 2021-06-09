@@ -10,18 +10,18 @@
   <Interactions>
     <Interaction elementId="idaf905386">
       <Waypoints>
-        <Point elementId="ebc8a" arrowHead="Undirected" x="30.452674897119397" y="66.6666666666666" />
-        <Point elementId="d1b32" arrowHead="Undirected" x="94.54545454545453" y="89.09090909090908" />
-        <Point elementId="ed940" arrowHead="Undirected" x="163.78600823045275" y="66.66666666666659" />
+        <Point elementId="da2d2" arrowHead="Undirected" x="30.452674897119397" y="66.6666666666666" />
+        <Point elementId="d7c71" arrowHead="Undirected" x="94.54545454545453" y="89.09090909090908" />
+        <Point elementId="dfa06" arrowHead="Undirected" x="163.78600823045275" y="66.66666666666659" />
         <Anchor elementId="e0874" position="0.7074315746170173" shapeType="None" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Segmented" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id28382a1c">
       <Waypoints>
-        <Point elementId="de846" arrowHead="Undirected" x="157.0819304152649" y="149.57351290684608" elementRef="faa53" relX="0.0" relY="-1.0" />
-        <Point elementId="ddfcd" arrowHead="Undirected" x="158.18181818181816" y="117.27272727272727" />
-        <Point elementId="b82c1" arrowHead="Catalysis" x="124.62875863416231" y="79.34813165911122" elementRef="e0874" relX="0.0" relY="0.0" />
+        <Point elementId="c8eaf" arrowHead="Undirected" x="157.0819304152649" y="149.57351290684608" elementRef="faa53" relX="0.0" relY="-1.0" />
+        <Point elementId="c4e31" arrowHead="Undirected" x="158.18181818181816" y="117.27272727272727" />
+        <Point elementId="d47ed" arrowHead="Catalysis" x="124.62875863416231" y="79.34813165911122" elementRef="e0874" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Segmented" zOrder="12288" />
     </Interaction>

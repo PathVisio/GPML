@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="Male mating" organism="Caenorhabditis elegans">
+  <Comment source="WikiPathways-category">Physiological Process</Comment>
+  <Comment source="WikiPathways-description">Caenorhabditis elegans males exhibit sterotypic and invariant mating behavior starting the moment the animal senses a hermaphrodite and ending with insemination.  This complex behavior has been broken down into six steps or sub behaviors: male response to hermaphrodite contact, backwards movement along her body, sharply turning in a ventral coil upon reaching the head or tail, continued backing until his tail contacts the vulva (vulval location), spicule insertion, and ejaculation into the hermaphrodite uterus. Each of these sub behaviors have been molecularly dissected and it has been found that two of these sub behaviors, male response to hermaphrodite contact and vulval location involve similar molecules.  In particular these behaviors involve cell autonomous signaling through LOV-1 and PKD-2, which are homologs of human polycystin kidney disease (PKD) associated genes PC-1 and PC-2 respectively. Studies in C. elegans have shown that these genes likely have a sensory function rather than structural or development role in the cilia of male sensory neurons. The identification and characterization of LOV-1 and PKD-2 in C. elegans has lead to insights and new avenues of inquiry in the study of human PKD polycystin pathways.</Comment>
+  <AnnotationRef elementRef="ef021" />
+  <AnnotationRef elementRef="a90b1" />
+  <AnnotationRef elementRef="ad5f8" />
+  <AnnotationRef elementRef="edc3b" />
+  <CitationRef elementRef="b60" />
+  <CitationRef elementRef="d1b" />
+  <CitationRef elementRef="eed" />
+  <CitationRef elementRef="f83" />
+  <Graphics boardWidth="2371.0" boardHeight="997.0" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <DataNodes>
+    <DataNode elementId="d2970" textLabel="PKD-2/PC-2" type="GeneProduct">
+      <Xref identifier="Y73F8A.1" dataSource="wormbase" />
+      <States>
+        <State elementId="cdf74" textLabel="P" type="Undefined">
+          <Graphics relX="1.0" relY="1.0" width="15.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffcc00" shapeType="Oval" />
+        </State>
+      </States>
+      <Graphics centerX="620.6986247153073" centerY="101.12639570656778" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="66ffcc" shapeType="Oval" zOrder="16398" />
+      <Comment>PKD-2 phosphorylation state appears to modulate its function and ciliary localization, with S534A and S534D reflecting two extreme states.</Comment>
+      <Comment>CK2-phosphorylated PKD-2 is dephosphorylated by calcineurin.</Comment>
+      <CitationRef elementRef="edd" />
+    </DataNode>
+    <DataNode elementId="bdbb9" textLabel="LOV-1/PC-1" type="GeneProduct">
+      <Xref identifier="ZK945.9" dataSource="wormbase" />
+      <Graphics centerX="1033.5893016305054" centerY="94.42748745658906" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="cc00ff" shapeType="Oval" zOrder="32769" />
+      <Comment>LOV-1 localizes to intracellular membranes</Comment>
+      <CitationRef elementRef="c81" />
+    </DataNode>
+    <DataNode elementId="e5093" textLabel="PKD-2/PC-2" type="GeneProduct">
+      <Xref identifier="Y73F8A.1" dataSource="wormbase" />
+      <Graphics centerX="1065.0577124868837" centerY="75.55089192025184" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="66ffcc" shapeType="Oval" zOrder="32771" />
+      <Comment>PKD-2 localizes to intracellular membranes</Comment>
+      <Comment>Functional localization of PKD-2 is in the ciliary plasma membrane and in intracellular membrane</Comment>
+      <Comment>PKD-2 degradation does not require K48 polyubiquitination and is likely due to STAM-1-Hrs-mediated degradation.</Comment>
+      <CitationRef elementRef="c81" />
+      <CitationRef elementRef="e47" />
+      <CitationRef elementRef="c50" />
+    </DataNode>
+    <DataNode elementId="c7cf1" textLabel="UNC-101" type="GeneProduct">
+      <Xref identifier="K11D2.3" dataSource="wormbase" />
+      <Graphics centerX="1271.9526813880134" centerY="309.55835962145164" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="cccc00" shapeType="Oval" zOrder="32773" />
+      <Comment>UNC-101 acts at a somatodendritic sorting step to restrict PKFD-2, along with other ciliary receptors, to the dendritic compartment.</Comment>
+      <CitationRef elementRef="ead" />
+    </DataNode>
+    <DataNode elementId="f1e47" textLabel="KIN-3/CK2" type="GeneProduct" groupRef="ddbe6">
+      <Xref identifier="B0205.7" dataSource="wormbase" />
+      <Graphics centerX="537.5219339987142" centerY="41.97796432318992" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="cc3300" shapeType="Oval" zOrder="32775" />
+      <Comment>kin-3 and kin-10 are coexpressed with lov-1 and pkd-2 in the male-specific CEM head neurons and ray RnB and hook HOB tail neurons</Comment>
+      <Comment>KIN-3::GFP and KIN-10 GFP are enriched in cilia and also found in cell bodies (including nuclei), dendrites, and axons.</Comment>
+      <CitationRef elementRef="edd" />
+    </DataNode>
+    <DataNode elementId="bb2d7" textLabel="STAM-1/STAM" type="GeneProduct">
+      <Xref identifier="C34G6.7" dataSource="wormbase" />
+      <Graphics centerX="926.4048109089501" centerY="50.17634587563619" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ff9999" shapeType="Oval" zOrder="32777" />
+      <Comment>STAM-1A specifically associates with the LOV-1 C-tail</Comment>
+      <Comment>stam-1 and pkd-2 are clearly coexpressed in male-specific ciliated CEM, ray B-type(RnB), and hook HOB sensory neurons</Comment>
+      <Comment>STAM-1A::GFP labels puncta and accumulates at ciliary bases, but is obviously excluded from the cilium proper of CEM, RnB and HOB neurons</Comment>
+      <Comment>STAM-1A co-localizes at the ciliary base with LOV-1 and PKD-2</Comment>
+      <Comment>STAM-1 and HGRS-1 expression completely overlaps in cell bodies and ciliary bases of polysystin-expressing neurons</Comment>
+      <Comment>STAM-1A. but not STAM-1B, specifically acts in the polycystin down-regulation process.</Comment>
+      <Comment>STAM-1A binds, sorts, and targets the polycystin complex for lysosomal degradation</Comment>
+      <CitationRef elementRef="c50" />
+    </DataNode>
+    <DataNode elementId="c2259" textLabel="RAB-5" type="GeneProduct">
+      <Xref identifier="F26H9.6" dataSource="wormbase" />
+      <Graphics centerX="909.9495471273332" centerY="135.45225371975687" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="6699ff" shapeType="Oval" zOrder="32779" />
+      <Comment>STAM-1 and RAB-5 collocate in the cell bodies and ciliary bases of polycystin-expressing neurons.</Comment>
+      <CitationRef elementRef="c50" />
+    </DataNode>
+    <DataNode elementId="f6d8e" textLabel="HGSRS-1/Hrs" type="GeneProduct">
+      <Xref identifier="C07G1.5" dataSource="wormbase" />
+      <Graphics centerX="919.5269379420729" centerY="29.798522001397135" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="6666ff" shapeType="Oval" zOrder="32781" />
+      <Comment>STAM-1 and HGRS-1 expression completely overlaps in cell bodies and ciliary bases of polysystin-expressing neurons.</Comment>
+      <CitationRef elementRef="c50" />
+    </DataNode>
+    <DataNode elementId="ce8bd" textLabel="PKD-2/PC-2" type="GeneProduct" groupRef="f2d1a">
+      <Xref identifier="Y73F8A.1" dataSource="wormbase" />
+      <Graphics centerX="2003.7455310199803" centerY="290.9095688748689" width="63.13354363827344" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="66ffcc" shapeType="Oval" zOrder="32783" />
+      <Comment>PKD-2 is synthesized in the ER and packaged into vesicles that are transported to the ciliary base and inserted onto the ciliary membrane.</Comment>
+      <CitationRef elementRef="ead" />
+    </DataNode>
+    <DataNode elementId="a092a" textLabel="CIL-1" type="GeneProduct">
+      <Xref identifier="C50C3.7 " dataSource="wormbase" />
+      <Graphics centerX="892.5495316853362" centerY="219.41758866176946" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00cc00" shapeType="Oval" zOrder="32785" />
+    </DataNode>
+    <DataNode elementId="ad55d" textLabel="Unknown" type="Undefined" groupRef="b05d2">
+      <Graphics centerX="113.64388092612944" centerY="266.64057331863296" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="999900" shapeType="Oval" zOrder="32787" />
+    </DataNode>
+    <DataNode elementId="b8462" textLabel="ASB-1" type="GeneProduct">
+      <Xref identifier="F35G12.10" dataSource="wormbase" />
+      <Graphics centerX="488.9327453142224" centerY="194.68905712940406" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="990099" shapeType="Oval" zOrder="32789" />
+      <Comment>ASB-1 and ASG-2 localize to male-specific sensory cilia as well as mitochondria.</Comment>
+      <CitationRef elementRef="c97" />
+    </DataNode>
+    <DataNode elementId="bc64a" textLabel="OSM-1" type="GeneProduct" groupRef="aed88">
+      <Xref identifier="T27B1.1" dataSource="wormbase" />
+      <Graphics centerX="113.64388092612944" centerY="222.43550165380384" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="999900" shapeType="Oval" zOrder="32791" />
+    </DataNode>
+    <DataNode elementId="d424d" textLabel="PI(3,5)P2" type="Metabolite">
+      <Graphics centerX="1053.8281014520035" centerY="217.742006615215" width="80.0" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Hexagon" zOrder="32793" />
+    </DataNode>
+    <DataNode elementId="dbd9b" textLabel="DAF-10" type="GeneProduct" groupRef="dd215">
+      <Xref identifier="F23B2.4" dataSource="wormbase" />
+      <Graphics centerX="114.84895259095856" centerY="310.8456449834621" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="999900" shapeType="Oval" zOrder="32795" />
+    </DataNode>
+    <DataNode elementId="f2b77" textLabel="PI3P" type="Metabolite">
+      <Graphics centerX="1054.3583241455349" centerY="274.742006615215" width="80.0" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Hexagon" zOrder="32799" />
+    </DataNode>
+    <DataNode elementId="ec750" textLabel="OSM-5" type="GeneProduct" groupRef="aed88">
+      <Xref identifier="Y41G9A.1" dataSource="wormbase" />
+      <Graphics centerX="113.64388092612944" centerY="204.18550165380384" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="999900" shapeType="Oval" zOrder="32801" />
+      <Comment>OSM-5 localizes to cilia through its TPR repeats through intraflagellar transport</Comment>
+      <CitationRef elementRef="dc2" />
+    </DataNode>
+    <DataNode elementId="bb606" textLabel="LOV-1/PC-1" type="GeneProduct">
+      <Xref identifier="ZK945.9" dataSource="wormbase" />
+      <Graphics centerX="659.2967762226401" centerY="225.23308519456913" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="cc33ff" shapeType="Oval" zOrder="32803" />
+      <Comment>LOV-1 localized to cilia by CIL-1</Comment>
+      <Comment>LOV-1 is expressed in male specific sensory neurons...with basodendritic subcellular localization in cell body and sensory endings</Comment>
+      <Comment>lov-1 is exclusively expressed in three categories of adult male sensory neurons: the rays, the hook, and the head CEMs</Comment>
+      <Comment>lov-1 and pkd-2 are expressed in male-specific sensory neurons and are localized to the similar region of the same cell.</Comment>
+      <Comment>lov-1 and atp-2 are coexpressed in the tail ray B neurons and HOB hook neuron...as well as the male-specific CEM head neurons.</Comment>
+      <CitationRef elementRef="da8" />
+      <CitationRef elementRef="c81" />
+      <CitationRef elementRef="e47" />
+      <CitationRef elementRef="c97" />
+    </DataNode>
+    <DataNode elementId="ac32e" textLabel="CHE-11" type="GeneProduct" groupRef="dd215">
+      <Xref identifier="C27A7.4" dataSource="wormbase" />
+      <Graphics centerX="114.84895259095856" centerY="330.8456449834621" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="999900" shapeType="Oval" zOrder="32809" />
+    </DataNode>
+    <DataNode elementId="dad92" textLabel="OSM-6" type="GeneProduct" groupRef="aed88">
+      <Xref identifier="R31.3" dataSource="wormbase" />
+      <Graphics centerX="113.64388092612944" centerY="242.43550165380384" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="999900" shapeType="Oval" zOrder="32811" />
+    </DataNode>
+    <DataNode elementId="acc59" textLabel="KAP-1" type="GeneProduct" groupRef="b05d2">
+      <Xref identifier="F08F8.3" dataSource="wormbase" />
+      <Graphics centerX="113.64388092612944" centerY="286.64057331863296" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="999900" shapeType="Oval" zOrder="32815" />
+      <Comment>IFT Complex A poly peptides , DAF-10 and CHE-11 move and that motility is at the same rate as IFT Complex B polypeptides, OSM-1, OSM-5 and OSM-6, and KAP (a subunit of the kinesin motor).</Comment>
+      <CitationRef elementRef="dc2" />
+    </DataNode>
+    <DataNode elementId="fe9e4" textLabel="CWP-5" type="GeneProduct">
+      <Xref identifier="F48C11.2" dataSource="wormbase" />
+      <Graphics centerX="661.9458613530774" centerY="177.2557883131202" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="996600" shapeType="Oval" zOrder="32823" />
+      <CitationRef elementRef="cde" />
+    </DataNode>
+    <DataNode elementId="e3618" textLabel="PKD-2/PC-2" type="GeneProduct">
+      <Xref identifier="Y73F8A.1" dataSource="wormbase" />
+      <Graphics centerX="660.0496141124593" centerY="156.2557883131202" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="66ffcc" shapeType="Oval" zOrder="32825" />
+      <Comment>PKD-2 localized to cilia by CIL-1</Comment>
+      <Comment>PKD-2 GFP accumulates in a ring around the ciliary transition zones.</Comment>
+      <Comment>Functional localization of PKD-2 is in the ciliary plasma membrane and in intracellular membrane</Comment>
+      <Comment>PKD-2 protein is hghly enriched in sensory cilia that are directly exposed to the environment</Comment>
+      <Comment>Within the ciliary region, PKD-2::GFP is distributed throughout the cilium, but primarily concentrated at the ciliary base, which corresponds to the distal-most dendrite and transition zone regions.</Comment>
+      <Comment>In wild-type adult males, PKD-2 is distributed along the ciliary axoneme and accumulates in the transition zone between the cilium and dendrite. &lt;localization is developmentally regulated. &gt; In ray neurons of wild-type late L4 males, the magority of the PKD-2 protein localizes to the tip of the cilium and around the transition zone, whereas the staining along the ciliary axoneme is weak.</Comment>
+      <Comment>anti PKD-2 antibodies only label male-specific neurons</Comment>
+      <Comment>lov-1 and pkd-2 are expressed in male-specific sensory neurons and are localized to the similar region of the same cell.</Comment>
+      <CitationRef elementRef="da8" />
+      <CitationRef elementRef="c81" />
+      <CitationRef elementRef="e47" />
+      <CitationRef elementRef="ead" />
+      <CitationRef elementRef="edd" />
+    </DataNode>
+    <DataNode elementId="eb32f" textLabel="ATP-2" type="GeneProduct">
+      <Xref identifier="C34E10.6" dataSource="wormbase" />
+      <Graphics centerX="660.2967762226401" centerY="246.4777336152125" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffff66" shapeType="Oval" zOrder="32831" />
+      <Comment>ATP-2 is identified as one candidate that physically interacts with the PLAT domain of LOV-1</Comment>
+      <Comment>ATP-2 and other ATP synthase components were found to localize to the cilia of male-specific sensory neurons.</Comment>
+      <Comment>ATP-2::GFP clearly colocalizes with PKD-2::DsRed2 in CEM cilia.</Comment>
+      <Comment>ATP-2 physically interacts with LOV-1</Comment>
+      <CitationRef elementRef="c97" />
+    </DataNode>
+    <DataNode elementId="c22db" textLabel="ASG-1" type="GeneProduct" groupRef="ce441">
+      <Xref identifier="K07A12.3" dataSource="wormbase" />
+      <Graphics centerX="945.8644217135798" centerY="499.35460497103304" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="990099" shapeType="Oval" zOrder="32833" />
+      <Comment>ASB-1 and ASG-2 localize to male-specific sensory cilia as well as mitochondria.</Comment>
+      <CitationRef elementRef="c97" />
+    </DataNode>
+    <DataNode elementId="a482b" textLabel="ASG-1" type="GeneProduct">
+      <Xref identifier="K07A12.3" dataSource="wormbase" />
+      <Graphics centerX="496.79510997013983" centerY="222.30545680037858" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="990099" shapeType="Oval" zOrder="32835" />
+      <Comment>ASB-1 and ASG-2 localize to male-specific sensory cilia as well as mitochondria.</Comment>
+      <CitationRef elementRef="c97" />
+    </DataNode>
+    <DataNode elementId="d8303" textLabel="ASB-1" type="GeneProduct" groupRef="ce441">
+      <Xref identifier="F35G12.10" dataSource="wormbase" />
+      <Graphics centerX="925.8081923861264" centerY="470.19363473950057" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="990099" shapeType="Oval" zOrder="32837" />
+      <Comment>ASB-1 and ASG-2 localize to male-specific sensory cilia as well as mitochondria.</Comment>
+      <CitationRef elementRef="c97" />
+    </DataNode>
+    <DataNode elementId="e158c" textLabel="KIN-10/CK2" type="GeneProduct" groupRef="ddbe6">
+      <Xref identifier="T01G9.6" dataSource="wormbase" />
+      <Graphics centerX="537.7276003156097" centerY="62.23819517313743" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="cc3300" shapeType="Oval" zOrder="32843" />
+      <Comment>kin-3 and kin-10 are coexpressed with lov-1 and pkd-2 in the male-specific CEM head neurons and ray RnB and hook HOB tail neurons</Comment>
+      <Comment>KIN-3::GFP and KIN-10 GFP are enriched in cilia and also found in cell bodies (including nuclei), dendrites, and axons.</Comment>
+      <Comment>CK2-phosphorylated PKD-2 is dephosphorylated by calcineurin</Comment>
+      <Comment>CK2, lov-1, and pkd-2 act in the same genetic pathway regulating mating behavior.</Comment>
+      <Comment>CK2 modulates PKD-2 function.</Comment>
+      <Comment>PKD-2(S534) is one but not the only in vitro CK2 phosphorylation site.</Comment>
+      <CitationRef elementRef="edd" />
+    </DataNode>
+    <DataNode elementId="dcadf" textLabel="TAX-6/Calcineurin" type="GeneProduct">
+      <Xref identifier="C02F4.2" dataSource="wormbase" />
+      <Graphics centerX="527.0066203450049" centerY="154.6217851749959" width="97.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00cc00" shapeType="Oval" zOrder="32845" />
+      <Comment>TAX-6::GFP also localizes to cilia of these polycystin-expressing neurons</Comment>
+      <Comment>CK and calcineurin/protein phosphatase 2B(PP2B) modulate PKD-2 function and ciliary localization</Comment>
+      <Comment>CK2 and calcineurin function antagonistically to regulate PKD-2 phosphorylation state</Comment>
+      <Comment>CK2 phosphorylated PKD-2 is dephosphorylated by calcineurin</Comment>
+      <Comment>In the male, we observed tax-6 expression in the CEM, HOB, and ray RnB neurons, with expression noticeably absent from ray 6, which is very similar to lov-1 and pkd-2 expression patterns</Comment>
+      <CitationRef elementRef="edd" />
+    </DataNode>
+    <DataNode elementId="c0b6d" textLabel="STAM-1/STAM" type="GeneProduct">
+      <Xref identifier="C34G6.7" dataSource="wormbase" />
+      <Graphics centerX="779.797922419887" centerY="23.085816159959023" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ff9999" shapeType="Oval" zOrder="32857" />
+      <Comment>GFP-tagged STAM-1 fusion protein localized to cytoplasmic and dendritic puncta resembling endosomes</Comment>
+      <CitationRef elementRef="c50" />
+    </DataNode>
+    <DataNode elementId="aea45" textLabel="PKD-2/PC-2" type="GeneProduct" groupRef="f58f0">
+      <Xref identifier="Y73F8A.1" dataSource="wormbase" />
+      <Graphics centerX="1742.7287066246058" centerY="345.9915878023137" width="63.13354363827344" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="66ffcc" shapeType="Oval" zOrder="32859" />
+      <Comment>PKD-2 is synthesized in the ER and packaged into vesicles that are transported to the ciliary base and inserted onto the ciliary membrane.</Comment>
+      <CitationRef elementRef="ead" />
+    </DataNode>
+    <DataNode elementId="ddfdf" textLabel="PKD-2/PC-2" type="GeneProduct" groupRef="ddb38">
+      <Xref identifier="Y73F8A.1" dataSource="wormbase" />
+      <Graphics centerX="1261.2786540483721" centerY="349.2912723449008" width="63.13354363827344" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="66ffcc" shapeType="Oval" zOrder="32863" />
+      <Comment>PKD-2 is synthesized in the ER and packaged into vesicles that are transported to the ciliary base and inserted onto the ciliary membrane.</Comment>
+      <CitationRef elementRef="ead" />
+    </DataNode>
+    <DataNode elementId="e1f74" textLabel="UNC-101" type="GeneProduct">
+      <Xref identifier="K11D2.3" dataSource="wormbase" />
+      <Graphics centerX="1765.9526813880134" centerY="305.55835962145164" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="cccc00" shapeType="Oval" zOrder="32865" />
+      <Comment>UNC-101 acts at a somatodendritic sorting step to restrict PKFD-2, along with other ciliary receptors, to the dendritic compartment.</Comment>
+      <CitationRef elementRef="ead" />
+    </DataNode>
+    <DataNode elementId="a9e67" textLabel="KIN-3/CK2" type="GeneProduct" groupRef="f3c36">
+      <Xref identifier="B0205.7" dataSource="wormbase" />
+      <Graphics centerX="946.0577124868835" centerY="367.4438614900315" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="cc3300" shapeType="Oval" zOrder="32867" />
+      <Comment>kin-3 and kin-10 are coexpressed with lov-1 and pkd-2 in the male-specific CEM head neurons and ray RnB and hook HOB tail neurons</Comment>
+      <Comment>KIN-3::GFP and KIN-10 GFP are enriched in cilia and also found in cell bodies (including nuclei), dendrites, and axons.</Comment>
+      <CitationRef elementRef="edd" />
+    </DataNode>
+    <DataNode elementId="aebfe" textLabel="KIN-10/CK2" type="GeneProduct" groupRef="f3c36">
+      <Xref identifier="T01G9.6" dataSource="wormbase" />
+      <Graphics centerX="946.0" centerY="387.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="cc3300" shapeType="Oval" zOrder="32869" />
+      <Comment>kin-3 and kin-10 are coexpressed with lov-1 and pkd-2 in the male-specific CEM head neurons and ray RnB and hook HOB tail neurons</Comment>
+      <Comment>KIN-3::GFP and KIN-10 GFP are enriched in cilia and also found in cell bodies (including nuclei), dendrites, and axons.</Comment>
+      <CitationRef elementRef="edd" />
+    </DataNode>
+    <DataNode elementId="ff9f8" textLabel="KIN-3/CK2" type="GeneProduct" groupRef="c07ae">
+      <Xref identifier="B0205.7" dataSource="wormbase" />
+      <Graphics centerX="2030.057712486884" centerY="510.44386149003174" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="cc3300" shapeType="Oval" zOrder="32871" />
+      <Comment>kin-3 and kin-10 are coexpressed with lov-1 and pkd-2 in the male-specific CEM head neurons and ray RnB and hook HOB tail neurons</Comment>
+      <Comment>KIN-3::GFP and KIN-10 GFP are enriched in cilia and also found in cell bodies (including nuclei), dendrites, and axons.</Comment>
+      <CitationRef elementRef="edd" />
+    </DataNode>
+    <DataNode elementId="a4af0" textLabel="KIN-10/CK2" type="GeneProduct" groupRef="c07ae">
+      <Xref identifier="T01G9.6" dataSource="wormbase" />
+      <Graphics centerX="2030.0" centerY="530.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="cc3300" shapeType="Oval" zOrder="32873" />
+      <Comment>kin-3 and kin-10 are coexpressed with lov-1 and pkd-2 in the male-specific CEM head neurons and ray RnB and hook HOB tail neurons</Comment>
+      <Comment>KIN-3::GFP and KIN-10 GFP are enriched in cilia and also found in cell bodies (including nuclei), dendrites, and axons.</Comment>
+      <CitationRef elementRef="edd" />
+    </DataNode>
+    <DataNode elementId="a65fb" textLabel="KIN-3/CK2" type="GeneProduct" groupRef="ef175">
+      <Xref identifier="B0205.7" dataSource="wormbase" />
+      <Graphics centerX="1713.0" centerY="406.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="cc3300" shapeType="Oval" zOrder="32875" />
+      <Comment>kin-3 and kin-10 are coexpressed with lov-1 and pkd-2 in the male-specific CEM head neurons and ray RnB and hook HOB tail neurons</Comment>
+      <Comment>KIN-3::GFP and KIN-10 GFP are enriched in cilia and also found in cell bodies (including nuclei), dendrites, and axons.</Comment>
+      <CitationRef elementRef="edd" />
+    </DataNode>
+    <DataNode elementId="bc131" textLabel="KIN-10/CK2" type="GeneProduct" groupRef="ef175">
+      <Xref identifier="T01G9.6" dataSource="wormbase" />
+      <Graphics centerX="1713.0000000000002" centerY="425.55613850996826" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="cc3300" shapeType="Oval" zOrder="32877" />
+      <Comment>kin-3 and kin-10 are coexpressed with lov-1 and pkd-2 in the male-specific CEM head neurons and ray RnB and hook HOB tail neurons</Comment>
+      <Comment>KIN-3::GFP and KIN-10 GFP are enriched in cilia and also found in cell bodies (including nuclei), dendrites, and axons.</Comment>
+      <CitationRef elementRef="edd" />
+    </DataNode>
+    <DataNode elementId="d7cde" textLabel="PKD-2/PC-2" type="GeneProduct">
+      <Xref identifier="Y73F8A.1" dataSource="wormbase" />
+      <States>
+        <State elementId="ee38b" textLabel="P" type="Undefined">
+          <Graphics relX="1.0" relY="1.0" width="15.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffcc00" shapeType="Oval" />
+        </State>
+      </States>
+      <Graphics centerX="803.7417280934579" centerY="79.64685740646286" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="66ffcc" shapeType="Oval" zOrder="32891" />
+      <Comment>PKD-2 phosphorylation state appears to modulate its function and ciliary localization, with S534A and S534D reflecting two extreme states.</Comment>
+      <Comment>CK2-phosphorylated PKD-2 is dephosphorylated by calcineurin.</Comment>
+      <CitationRef elementRef="edd" />
+    </DataNode>
+    <DataNode elementId="b5e9a" textLabel="" type="GeneProduct">
+      <Graphics centerX="45.736434108527135" centerY="569.1707627222266" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="cccc00" shapeType="Oval" zOrder="32902" />
+    </DataNode>
+    <DataNode elementId="e433f" textLabel="" type="GeneProduct">
+      <Graphics centerX="45.736434108527135" centerY="598.0201649033677" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="cc3300" shapeType="Oval" zOrder="32904" />
+    </DataNode>
+    <DataNode elementId="d877e" textLabel="" type="GeneProduct">
+      <Graphics centerX="45.736434108527135" centerY="627.1942587979975" width="79.06976744186048" height="20.030087055167687" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00cc00" shapeType="Oval" zOrder="32908" />
+    </DataNode>
+    <DataNode elementId="a66fa" textLabel="" type="GeneProduct">
+      <Graphics centerX="46.736434108527135" centerY="543.1707627222266" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="999900" shapeType="Oval" zOrder="32912" />
+    </DataNode>
+    <DataNode elementId="ee71e" textLabel="PKD-2/PC-2" type="GeneProduct">
+      <Xref identifier="Y73F8A.1" dataSource="wormbase" />
+      <Graphics centerX="441.30299891531854" centerY="106.08762523149032" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="66ffcc" shapeType="Oval" zOrder="32915" />
+      <Comment>PKD-2 phosphorylation state appears to modulate its function and ciliary localization, with S534A and S534D reflecting two extreme states.</Comment>
+      <Comment>CK2-phosphorylated PKD-2 is dephosphorylated by calcineurin.</Comment>
+      <CitationRef elementRef="edd" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="c8c0d">
+      <Waypoints>
+        <Point elementId="fd4a0" arrowHead="Undirected" x="710.0" y="308.0" />
+        <Point elementId="d8606" arrowHead="Undirected" x="1676.0" y="288.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="-9" />
+    </Interaction>
+    <Interaction elementId="idee60a74f">
+      <Waypoints>
+        <Point elementId="ae472" arrowHead="Undirected" x="51.39172636180672" y="452.71317829457365" elementRef="d9f7b" relX="-1.0" relY="0.0" />
+        <Point elementId="cf035" arrowHead="Directed" x="7.751937984496124" y="452.71317829457365" />
+      </Waypoints>
+      <Graphics lineColor="ffcc00" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="idd094022b">
+      <Waypoints>
+        <Point elementId="ace0d" arrowHead="Undirected" x="50.0" y="505.0" />
+        <Point elementId="e4ce0" arrowHead="mim-cleavage" x="22.0" y="505.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id38f32654">
+      <Waypoints>
+        <Point elementId="c51da" arrowHead="Undirected" x="1731.6982124079914" y="342.2053101997899" elementRef="f7b0f" relX="-1.0" relY="0.0" />
+        <Point elementId="f6acd" arrowHead="Directed" x="1308.9426919032594" y="345.5565194532077" elementRef="df912" relX="1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="0066cc" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="12296" />
+    </Interaction>
+    <Interaction elementId="idd26df72c">
+      <Waypoints>
+        <Point elementId="f7312" arrowHead="Undirected" x="1246.3512092534165" y="345.5565194532077" elementRef="df912" relX="-1.0" relY="0.0" />
+        <Point elementId="fb1bb" arrowHead="Directed" x="1105.0" y="345.0" />
+      </Waypoints>
+      <Graphics lineColor="0066cc" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="12298" />
+    </Interaction>
+    <Interaction elementId="id10e73b6c">
+      <Waypoints>
+        <Point elementId="a952b" arrowHead="Undirected" x="1883.0621975418399" y="342.43092389953813" elementRef="f2d1a" relX="-1.0" relY="0.5" />
+        <Point elementId="d3d37" arrowHead="Directed" x="1794.2896950578343" y="342.2053101997899" elementRef="f7b0f" relX="1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="0066cc" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="12300" />
+    </Interaction>
+    <Interaction elementId="idf453b44b">
+      <Waypoints>
+        <Point elementId="d8c4d" arrowHead="mim-cleavage" x="1025.0577124868837" y="75.55089192025184" elementRef="e5093" relX="-1.0" relY="0.0" />
+        <Point elementId="cf6f9" arrowHead="Undirected" x="966.4048109089501" y="50.17634587563619" elementRef="bb2d7" relX="1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12306" />
+      <Comment>PKD-2 degradation does not require K48 polyubiquitination and is likely due to STAM-1-Hrs-mediated degradation.</Comment>
+      <CitationRef elementRef="c50" />
+    </Interaction>
+    <Interaction elementId="ida414c24f">
+      <Waypoints>
+        <Point elementId="cde5d" arrowHead="Undirected" x="707.0" y="310.0" />
+        <Point elementId="f133a" arrowHead="Undirected" x="1875.0" y="310.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12308" />
+    </Interaction>
+    <Interaction elementId="iddbb52592">
+      <Waypoints>
+        <Point elementId="c97fe" arrowHead="Undirected" x="932.5495316853362" y="219.41758866176946" elementRef="a092a" relX="1.0" relY="0.0" />
+        <Point elementId="ddbde" arrowHead="Catalysis" x="1001.3583241455351" y="246.24200661521496" elementRef="b085a" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12312" />
+      <CitationRef elementRef="da8" />
+    </Interaction>
+    <Interaction elementId="idd8f6598">
+      <Waypoints>
+        <Point elementId="d1f33" arrowHead="Undirected" x="61.64388092612944" y="223.31050165380384" elementRef="aed88" relX="-1.0" relY="0.0" />
+        <Point elementId="b1615" arrowHead="Directed" x="20.0" y="223.0" />
+      </Waypoints>
+      <Graphics lineColor="0066ff" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="12314" />
+      <Comment>IFT Complex A poly peptides DAF-10 and CHE-11 move at the same rate as IFT Complex B poly peptides OSM-5, OSM-1, and OSM-6. | OSM-5 undergoes anterograde and retrograde transport.</Comment>
+      <CitationRef elementRef="dc2" />
+    </Interaction>
+    <Interaction elementId="idb1599886">
+      <Waypoints>
+        <Point elementId="d746f" arrowHead="Undirected" x="852.5495316853362" y="219.41758866176946" elementRef="a092a" relX="-1.0" relY="0.0" />
+        <Point elementId="b9d48" arrowHead="Directed" x="700.0496141124593" y="156.2557883131202" elementRef="e3618" relX="1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="0066cc" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="16397" />
+      <Comment>CIL-1 localizes PKD-2 to the cilia</Comment>
+      <Comment>LOV-1 localizes PKD-2 to cilia in RnB and aids localization of PKD-2 in CEM</Comment>
+      <CitationRef elementRef="da8" />
+    </Interaction>
+    <Interaction elementId="id28ad2f7f">
+      <Waypoints>
+        <Point elementId="aeeda" arrowHead="Undirected" x="660.6986247153073" y="101.12639570656778" elementRef="d2970" relX="1.0" relY="0.0" />
+        <Point elementId="e1bdb" arrowHead="Directed" x="763.7417280934579" y="79.64685740646286" elementRef="d7cde" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="0066cc" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="16401" />
+      <Comment>Consitutive phophorylation of PKD-2 results in a loss of PKD-2 from cilia.</Comment>
+      <CitationRef elementRef="edd" />
+    </Interaction>
+    <Interaction elementId="ide476c211">
+      <Waypoints>
+        <Point elementId="f4f18" arrowHead="Undirected" x="3.851157662624059" y="272.5380374862184" />
+        <Point elementId="ca3c5" arrowHead="Undirected" x="673.6493936052922" y="272.3263506063947" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="16403" />
+    </Interaction>
+    <Interaction elementId="feba6">
+      <Waypoints>
+        <Point elementId="b65ea" arrowHead="Undirected" x="721.0" y="306.0" />
+        <Point elementId="b600e" arrowHead="Undirected" x="1876.0" y="306.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32767" />
+    </Interaction>
+    <Interaction elementId="ac32a">
+      <Waypoints>
+        <Point elementId="c77b1" arrowHead="Undirected" x="3.851157662624059" y="281.5380374862184" />
+        <Point elementId="b6d88" arrowHead="Undirected" x="672.5468577728776" y="281.14663726571115" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32807" />
+    </Interaction>
+    <Interaction elementId="f8830">
+      <Waypoints>
+        <Point elementId="e361d" arrowHead="Undirected" x="62.84895259095856" y="320.8456449834621" elementRef="dd215" relX="-1.0" relY="0.0" />
+        <Point elementId="f50f7" arrowHead="Directed" x="20.8955223880597" y="320.14925373134326" />
+      </Waypoints>
+      <Graphics lineColor="0066ff" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="32813" />
+      <Comment>IFT Complex A poly peptides DAF-10 and CHE-11 move at the same rate as IFT Complex B poly peptides OSM-5, OSM-1, and OSM-6.</Comment>
+      <CitationRef elementRef="dc2" />
+    </Interaction>
+    <Interaction elementId="f9a44">
+      <Waypoints>
+        <Point elementId="aedec" arrowHead="Undirected" x="165.64388092612944" y="223.31050165380384" elementRef="aed88" relX="1.0" relY="0.0" />
+        <Point elementId="dde07" arrowHead="Directed" x="205.0" y="223.0" />
+      </Waypoints>
+      <Graphics lineColor="0066ff" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="32839" />
+      <Comment>IFT Complex A poly peptides DAF-10 and CHE-11 move at the same rate as IFT Complex B poly peptides OSM-5, OSM-1, and OSM-6. | OSM-5 undergoes anterograde and retrograde transport.</Comment>
+      <CitationRef elementRef="dc2" />
+    </Interaction>
+    <Interaction elementId="ce8fa">
+      <Waypoints>
+        <Point elementId="f0904" arrowHead="Undirected" x="166.84895259095856" y="320.8456449834621" elementRef="dd215" relX="1.0" relY="0.0" />
+        <Point elementId="a2344" arrowHead="Directed" x="201.0" y="320.0" />
+      </Waypoints>
+      <Graphics lineColor="0066ff" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="32841" />
+      <Comment>IFT Complex A poly peptides DAF-10 and CHE-11 move at the same rate as IFT Complex B poly peptides OSM-5, OSM-1, and OSM-6. | OSM-5 undergoes anterograde and retrograde transport.</Comment>
+      <CitationRef elementRef="dc2" />
+    </Interaction>
+    <Interaction elementId="cc63f">
+      <Xref identifier="dephosphorylation" dataSource="kegg.reaction" />
+      <Waypoints>
+        <Point elementId="cc35e" arrowHead="Undirected" x="527.0066203450049" y="144.6217851749959" elementRef="dcadf" relX="0.0" relY="-1.0" />
+        <Point elementId="d5bc1" arrowHead="Conversion" x="527.5938189845475" y="110.37527593818986" />
+      </Waypoints>
+      <Graphics lineColor="ffcc00" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="32847" />
+      <Comment>CK2 phosphorylated PKD-2 is dephosphorylated by calcineurin</Comment>
+    </Interaction>
+    <Interaction elementId="id6a8131b9">
+      <Waypoints>
+        <Point elementId="cd431" arrowHead="Undirected" x="557.7276003156097" y="72.23819517313743" elementRef="e158c" relX="0.5" relY="1.0" />
+        <Point elementId="cbb1a" arrowHead="Conversion" x="620.6986247153073" y="91.12639570656778" elementRef="d2970" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="ffcc00" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="32849" />
+      <Comment>PKD-2(S534) is one but not the only in vitro CK2 phosphorylation site.</Comment>
+    </Interaction>
+    <Interaction elementId="idfe217ef2">
+      <Waypoints>
+        <Point elementId="eaabf" arrowHead="Undirected" x="852.5495316853362" y="219.41758866176946" elementRef="a092a" relX="-1.0" relY="0.0" />
+        <Point elementId="f31f4" arrowHead="Directed" x="699.2967762226401" y="225.23308519456913" elementRef="bb606" relX="1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="0066ff" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="32855" />
+      <Comment>CIL-1 localizes LOV-1 to cilia.</Comment>
+      <Comment>Type your comment here</Comment>
+      <CitationRef elementRef="da8" />
+    </Interaction>
+    <Interaction elementId="fd5d6">
+      <Waypoints>
+        <Point elementId="c9a48" arrowHead="Undirected" x="51.39172636180672" y="427.295918367347" elementRef="fe669" relX="-1.0" relY="0.0" />
+        <Point elementId="ded7f" arrowHead="Directed" x="6.660828510508695" y="427.08802924154753" />
+      </Waypoints>
+      <Graphics lineColor="0066ff" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="32894" />
+    </Interaction>
+    <Interaction elementId="e4119">
+      <Waypoints>
+        <Point elementId="c2a38" arrowHead="Undirected" x="51.39172636180672" y="478.2170542635658" elementRef="ea725" relX="-1.0" relY="0.0" />
+        <Point elementId="b188a" arrowHead="Conversion" x="4.241781548250265" y="477.73064687168613" />
+      </Waypoints>
+      <Graphics lineColor="ffcc00" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="32896" />
+    </Interaction>
+    <Interaction elementId="e8c8c">
+      <Waypoints>
+        <Point elementId="babe2" arrowHead="Undirected" x="659.2967762226401" y="215.23308519456913" elementRef="bb606" relX="0.0" relY="-1.0" />
+        <Point elementId="baeab" arrowHead="Undirected" x="661.9458613530774" y="187.2557883131202" elementRef="fe9e4" relX="0.0" relY="1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="32911" />
+      <Comment>LOV-1 localizes CWP-5 to neuronal cilia</Comment>
+      <CitationRef elementRef="cde" />
+    </Interaction>
+    <Interaction elementId="d3047">
+      <Waypoints>
+        <Point elementId="db4fc" arrowHead="Undirected" x="580.6986247153073" y="101.12639570656778" elementRef="d2970" relX="-1.0" relY="0.0" />
+        <Point elementId="dc6f2" arrowHead="Conversion" x="481.30299891531854" y="106.08762523149032" elementRef="ee71e" relX="1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="ffcc00" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="32916" />
+    </Interaction>
+  </Interactions>
+  <Labels>
+    <Label elementId="d8921" textLabel="KEY">
+      <Graphics centerX="32.29591836734695" centerY="395.30612244897964" width="98.67346938775508" height="25.306122448979785" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="d9f7b" textLabel="Phosphorylates">
+      <Graphics centerX="91.39172636180672" centerY="452.71317829457365" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Left" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28674" />
+    </Label>
+    <Label elementId="ee952" textLabel="IFT Complex A poly peptides &#xA;DAF-10 and CHE-11  move at &#xA;the same rate as IFT Complex B &#xA;polypeptides OSM-5, OSM-1, &#xA;and OSM-6.">
+      <Graphics centerX="282.3432835820896" centerY="326.2164179104477" width="160.68656716417897" height="74.43283582089549" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28676" />
+    </Label>
+    <Label elementId="fe669" textLabel="Translocation">
+      <Graphics centerX="91.39172636180672" centerY="427.295918367347" width="80.0" height="20.000000000000014" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Left" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28678" />
+    </Label>
+    <Label elementId="f5409" textLabel="OSM-5 undergoes anterograde &#xA;and retrograde transport.">
+      <Graphics centerX="279.5" centerY="215.0" width="161.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28680" />
+    </Label>
+    <Label elementId="e9511" textLabel="cilium">
+      <Graphics centerX="655.1675854465273" centerY="352.66593164277856" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28682" />
+    </Label>
+    <Label elementId="cf720" textLabel="male sensory neuron">
+      <Graphics centerX="1314.319259480823" centerY="27.04648388454291" width="133.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28684" />
+    </Label>
+    <Label elementId="eff47" textLabel="ciliary transition zone">
+      <Graphics centerX="708.8015435501658" centerY="327.1201764057332" width="128.20286659316412" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="32853" />
+      <CitationRef elementRef="e47" />
+    </Label>
+    <Label elementId="ea725" textLabel="Dephosphorylates">
+      <Graphics centerX="91.39172636180672" centerY="478.2170542635658" width="80.0" height="20.000000000000014" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Left" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="32898" />
+    </Label>
+    <Label elementId="f50db" textLabel="Intracellular transport">
+      <Graphics centerX="151.24031007751938" centerY="570.1162790697673" width="119.37209302325584" height="25.658914728682532" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Left" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="32900" />
+    </Label>
+    <Label elementId="cdbc6" textLabel="Kinase activity">
+      <Graphics centerX="136.97543507032643" centerY="598.2713178294571" width="90.84234300886999" height="25.658914728682475" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Left" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="32906" />
+    </Label>
+    <Label elementId="a6280" textLabel="Phosphatase activity">
+      <Graphics centerX="140.6869939250454" centerY="626.426356589147" width="98.2654607183079" height="25.658914728682532" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Left" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="32910" />
+    </Label>
+    <Label elementId="f6642" textLabel="Intraflagellar transport">
+      <Graphics centerX="151.24031007751938" centerY="544.1162790697673" width="119.37209302325584" height="25.658914728682532" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Left" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="32913" />
+    </Label>
+    <Label elementId="c1863" textLabel="Sends for degradation">
+      <Graphics centerX="109.69586318090336" centerY="505.2170542635658" width="116.60827363819328" height="20.000000000000014" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Left" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="32914" />
+    </Label>
+  </Labels>
+  <Shapes>
+    <Shape elementId="c7112">
+      <Graphics centerX="1950.75" centerY="443.25" width="780.5" height="1047.5" textColor="cccccc" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="cccccc" borderStyle="Double" borderWidth="3.0" fillColor="ffffff" shapeType="Nucleus" zOrder="-7" rotation="0.0" />
+    </Shape>
+    <Shape elementId="de93c">
+      <Graphics centerX="1309.8404097730813" centerY="289.5782108676511" width="1219.7949283351709" height="643.1775082690187" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="ffffff" shapeType="Cell" zOrder="-5" rotation="0.0" />
+    </Shape>
+    <Shape elementId="aea4c">
+      <Graphics centerX="336.9683020948181" centerY="187.95068205666317" width="729.0633958103638" height="360.0" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Organelle" zOrder="2" rotation="0.0" />
+    </Shape>
+    <Shape elementId="de478">
+      <Graphics centerX="1946.0" centerY="442.25" width="758.0" height="1023.5" textColor="ffffff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="3.0" fillColor="ffffff" shapeType="Nucleus" zOrder="5" rotation="0.0" />
+    </Shape>
+    <Shape elementId="f186f">
+      <Graphics centerX="2006.25" centerY="551.75" width="273.5" height="208.5" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Nucleus" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="f7b0f" groupRef="f58f0">
+      <Graphics centerX="1762.9939537329128" centerY="342.2053101997899" width="62.591482649842646" height="46.767087276551045" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Vesicle" zOrder="16386" rotation="0.0" />
+    </Shape>
+    <Shape elementId="a1673">
+      <Graphics centerX="1090.864917957683" centerY="82.89611752360966" width="99.48737289890441" height="90.24134312696748" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Lysosome" zOrder="16388" rotation="0.0" />
+    </Shape>
+    <Shape elementId="c8fdf" groupRef="f2d1a">
+      <Graphics centerX="1993.2331862795836" centerY="266.8990023433056" width="188.60050184710963" height="275.60462670872784" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Endoplasmic Reticulum" zOrder="16390" rotation="0.0583123107589704" />
+    </Shape>
+    <Shape elementId="ee476">
+      <Graphics centerX="749.2251591041336" centerY="23.861174484104616" width="58.78609995013706" height="37.98621830209481" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Organelle" zOrder="16392" rotation="0.0" />
+    </Shape>
+    <Shape elementId="b6564">
+      <Graphics centerX="704.2703969128999" centerY="181.91841234840138" width="51.216648291069305" height="379.27232635060636" textColor="cccccc" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="cccccc" borderStyle="Solid" borderWidth="4.0" fillColor="ffffff" shapeType="Oval" zOrder="16396" rotation="0.0" />
+    </Shape>
+    <Shape elementId="aef97" groupRef="ce441">
+      <Graphics centerX="990.8911428462116" centerY="481.86678759100573" width="129.74032208885905" height="75.86447272470105" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Mitochondria" zOrder="16405" rotation="0.0" />
+    </Shape>
+    <Shape elementId="b085a">
+      <Graphics centerX="1016.358324145535" centerY="246.242006615215" width="55.0" height="30.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Arc" zOrder="16407" rotation="1.5707963267948966" />
+    </Shape>
+    <Shape elementId="fe06a">
+      <Graphics centerX="703.7596471885337" centerY="181.91841234840132" width="36.802646085997594" height="357.2216097023154" textColor="cccccc" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="cccccc" borderStyle="Solid" borderWidth="4.0" fillColor="00000000" shapeType="Oval" zOrder="32851" rotation="0.0" />
+    </Shape>
+    <Shape elementId="df912" groupRef="ddb38">
+      <Graphics centerX="1277.646950578338" centerY="345.5565194532077" width="62.591482649842646" height="46.767087276551045" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Vesicle" zOrder="32861" rotation="0.0" />
+    </Shape>
+  </Shapes>
+  <Groups>
+    <Group elementId="ddb38" type="Group">
+      <Graphics centerX="1269.3272870662472" centerY="345.5565194532077" width="95.2308096740237" height="62.767087276551024" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="dd215" textLabel="IFT Complex A" type="Complex">
+      <Graphics centerX="114.84895259095856" centerY="320.8456449834621" width="104.0" height="64.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
+    </Group>
+    <Group elementId="f2d1a" type="Group">
+      <Graphics centerX="1993.2331862795836" centerY="266.8990023433056" width="220.34197747548774" height="302.1276862249301" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="b05d2" type="Complex">
+      <Graphics centerX="113.64388092612944" centerY="276.64057331863296" width="104.0" height="64.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
+    </Group>
+    <Group elementId="f58f0" type="Group">
+      <Graphics centerX="1752.7258149316517" centerY="342.2053101997899" width="99.12776025236485" height="62.767087276551024" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="c07ae" type="Complex">
+      <Graphics centerX="2030.028856243442" centerY="520.2219307450159" width="104.05771248688416" height="63.556138509968264" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
+    </Group>
+    <Group elementId="f3c36" type="Complex">
+      <Graphics centerX="946.0288562434417" centerY="377.22193074501575" width="104.05771248688347" height="63.55613850996849" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
+    </Group>
+    <Group elementId="ef175" type="Complex">
+      <Graphics centerX="1713.0" centerY="415.77806925498413" width="104.00000000000023" height="63.556138509968264" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
+    </Group>
+    <Group elementId="ce441" type="Group">
+      <Graphics centerX="970.7847481383837" centerY="481.86678759100573" width="185.9531115045147" height="91.86447272470105" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="ddbe6" type="Complex">
+      <Graphics centerX="537.624767157162" centerY="52.108079748163675" width="104.20566631689553" height="64.2602308499475" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
+      <Comment>CK2</Comment>
+    </Group>
+    <Group elementId="aed88" textLabel="IFT Complex B" type="Complex">
+      <Graphics centerX="113.64388092612944" centerY="223.31050165380384" width="104.0" height="82.25" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
+    </Group>
+  </Groups>
+  <Annotations>
+    <Annotation elementId="ef021" value="polycystic kidney disease" type="Disease">
+      <Xref identifier="898" dataSource="DOID" />
+    </Annotation>
+    <Annotation elementId="a90b1" value="lysosomes based pathway of protein degradation" type="Pathway Ontology">
+      <Xref identifier="0000182" dataSource="PW" />
+    </Annotation>
+    <Annotation elementId="ad5f8" value="protein sorting pathway" type="Pathway Ontology">
+      <Xref identifier="0000426" dataSource="PW" />
+    </Annotation>
+    <Annotation elementId="edc3b" value="ciliated cell" type="Cell Type">
+      <Xref identifier="0000064" dataSource="CL" />
+    </Annotation>
+  </Annotations>
+  <Citations>
+    <Citation elementId="f83">
+      <Xref identifier="21586324" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="da8">
+      <Xref identifier="19781942" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="d1b">
+      <Xref identifier="15947985" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="cde">
+      <Xref identifier="20223935" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="ead">
+      <Xref identifier="16943275" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="c81">
+      <Xref identifier="10517638" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="dc2">
+      <Xref identifier="11301258" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="c50">
+      <Xref identifier="17581863" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="b60">
+      <Xref identifier="18050467" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="c97">
+      <Xref identifier="15563610" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="e47">
+      <Xref identifier="11553327" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="eed">
+      <Xref identifier="21537177" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="edd">
+      <Xref identifier="16481400" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

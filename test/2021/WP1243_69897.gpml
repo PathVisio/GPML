@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="EBV LMP1 signaling" organism="Mus musculus">
+  <Comment source="WikiPathways-description">based on science-slides...</Comment>
+  <Comment source="WikiPathways-category">Cellular Process</Comment>
+  <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://www.wikipathways.org/index.php?title=Pathway:WP262&amp;amp;oldid=29609 WP262(r29609)] with a 88% conversion rate.</Comment>
+  <AnnotationRef elementRef="b110c" />
+  <CitationRef elementRef="cf5" />
+  <CitationRef elementRef="d73" />
+  <Graphics boardWidth="976.6666666666667" boardHeight="907.6470588235295" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <DataNodes>
+    <DataNode elementId="afc47" textLabel="Pdlim7" type="GeneProduct">
+      <Xref identifier="ENSMUSG00000021493" dataSource="ensembl" />
+      <Graphics centerX="496.0" centerY="91.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Pdlim7" />
+    </DataNode>
+    <DataNode elementId="c8ff5" textLabel="Tradd" type="GeneProduct" groupRef="c44d7">
+      <Xref identifier="ENSMUSG00000031887" dataSource="ensembl" />
+      <Graphics centerX="447.11482720178356" centerY="220.44258639910814" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Tradd" />
+    </DataNode>
+    <DataNode elementId="d6f8a" textLabel="Irak1" type="GeneProduct" groupRef="c44d7">
+      <Xref identifier="ENSMUSG00000031392" dataSource="ensembl" />
+      <Graphics centerX="447.11482720178356" centerY="240.44258639910814" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Irak1" />
+    </DataNode>
+    <DataNode elementId="d7aa9" textLabel="Traf1" type="GeneProduct" groupRef="fa4bf">
+      <Xref identifier="ENSMUSG00000026875" dataSource="ensembl" />
+      <Graphics centerX="665.8292151887748" centerY="135.34563478041738" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Traf1" />
+    </DataNode>
+    <DataNode elementId="ddef3" textLabel="Map3k14" type="GeneProduct" groupRef="fa4bf">
+      <Xref identifier="ENSMUSG00000020941" dataSource="ensembl" />
+      <Graphics centerX="665.8292151887748" centerY="155.34563478041738" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Map3k14" />
+    </DataNode>
+    <DataNode elementId="e037d" textLabel="Chuk" type="GeneProduct" groupRef="b7873">
+      <Xref identifier="12675" dataSource="ncbigene" />
+      <Graphics centerX="658.599576442812" centerY="230.1692917182612" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Chuk" />
+    </DataNode>
+    <DataNode elementId="bfb9c" textLabel="Nfkb2" type="GeneProduct" groupRef="c3eed">
+      <Xref identifier="ENSMUSG00000025225" dataSource="ensembl" />
+      <Graphics centerX="659.5639019723551" centerY="313.7224080267558" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Nfkb2" />
+    </DataNode>
+    <DataNode elementId="ac1fa" textLabel="Rela" type="GeneProduct" groupRef="c3eed">
+      <Xref identifier="ENSMUSG00000024927" dataSource="ensembl" />
+      <Graphics centerX="659.5639019723551" centerY="333.7224080267558" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Rela" />
+    </DataNode>
+    <DataNode elementId="a90a5" textLabel="Nfkb2" type="GeneProduct" groupRef="b77cc">
+      <Xref identifier="ENSMUSG00000025225" dataSource="ensembl" />
+      <Graphics centerX="686.9204152249134" centerY="567.7301038062283" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Nfkb2" />
+    </DataNode>
+    <DataNode elementId="b78f8" textLabel="Rela" type="GeneProduct" groupRef="b77cc">
+      <Xref identifier="ENSMUSG00000024927" dataSource="ensembl" />
+      <Graphics centerX="686.9204152249134" centerY="587.7301038062283" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Rela" />
+    </DataNode>
+    <DataNode elementId="d5d41" textLabel="Map3k7" type="GeneProduct" groupRef="f5a55">
+      <Xref identifier="ENSMUSG00000028284" dataSource="ensembl" />
+      <Graphics centerX="453.0" centerY="300.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Map3k7" />
+    </DataNode>
+    <DataNode elementId="de222" textLabel="Map3k7" type="GeneProduct" groupRef="f5a55">
+      <Xref identifier="ENSMUSG00000028284" dataSource="ensembl" />
+      <Graphics centerX="453.0" centerY="320.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Map3k7" />
+    </DataNode>
+    <DataNode elementId="a289c" textLabel="Map3k3" type="GeneProduct" groupRef="f5a55">
+      <Xref identifier="ENSMUSG00000020700" dataSource="ensembl" />
+      <Graphics centerX="453.0" centerY="340.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Map3k3" />
+    </DataNode>
+    <DataNode elementId="d3218" textLabel="Traf6" type="GeneProduct" groupRef="f5a55">
+      <Xref identifier="ENSMUSG00000027164" dataSource="ensembl" />
+      <Graphics centerX="453.0" centerY="280.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Traf6" />
+    </DataNode>
+    <DataNode elementId="e30d7" textLabel="Ikbkg" type="GeneProduct" groupRef="de1b4">
+      <Xref identifier="ENSMUSG00000004221" dataSource="ensembl" />
+      <Graphics centerX="370.0" centerY="413.46020761245677" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Ikbkg" />
+    </DataNode>
+    <DataNode elementId="d4eb4" textLabel="Chuk" type="GeneProduct" groupRef="de1b4">
+      <Xref identifier="ENSMUSG00000025199" dataSource="ensembl" />
+      <Graphics centerX="370.0" centerY="433.46020761245677" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Chuk" />
+    </DataNode>
+    <DataNode elementId="d075b" textLabel="Ikbkb" type="GeneProduct" groupRef="de1b4">
+      <Xref identifier="ENSMUSG00000031537" dataSource="ensembl" />
+      <Graphics centerX="370.0" centerY="453.46020761245677" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Ikbkb" />
+    </DataNode>
+    <DataNode elementId="f4a8a" textLabel="Hsp90aa1" type="GeneProduct" groupRef="de1b4">
+      <Xref identifier="15519" dataSource="ncbigene" />
+      <Graphics centerX="370.0" centerY="473.46020761245677" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Hsp90aa1" />
+    </DataNode>
+    <DataNode elementId="f1ada" textLabel="Mapk1" type="GeneProduct">
+      <Xref identifier="ENSMUSG00000063358" dataSource="ensembl" />
+      <Graphics centerX="588.0" centerY="573.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Mapk1" />
+    </DataNode>
+    <DataNode elementId="c654d" textLabel="Rela" type="GeneProduct" groupRef="cf74b">
+      <Xref identifier="ENSMUSG00000024927" dataSource="ensembl" />
+      <Graphics centerX="438.0" centerY="638.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Rela" />
+    </DataNode>
+    <DataNode elementId="d8d5e" textLabel="Nfkb1" type="GeneProduct" groupRef="cf74b">
+      <Xref identifier="ENSMUSG00000028163" dataSource="ensembl" />
+      <Graphics centerX="438.0" centerY="618.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Nfkb1" />
+    </DataNode>
+    <DataNode elementId="a947d" textLabel="Mapk8" type="GeneProduct">
+      <Xref identifier="ENSMUSG00000021936" dataSource="ensembl" />
+      <Graphics centerX="505.0" centerY="573.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Mapk8" />
+    </DataNode>
+    <DataNode elementId="f2f59" textLabel="I-Kappa-B" type="GeneProduct" groupRef="e5b31">
+      <Graphics centerX="200.0" centerY="430.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="ec132" textLabel="Nfkb1" type="GeneProduct" groupRef="e5b31">
+      <Xref identifier="ENSMUSG00000028163" dataSource="ensembl" />
+      <Graphics centerX="200.0" centerY="450.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Nfkb1" />
+    </DataNode>
+    <DataNode elementId="f1e98" textLabel="Rela" type="GeneProduct" groupRef="e5b31">
+      <Xref identifier="ENSMUSG00000024927" dataSource="ensembl" />
+      <Graphics centerX="200.0" centerY="470.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Rela" />
+    </DataNode>
+    <DataNode elementId="de3bc" textLabel="Rela" type="GeneProduct" groupRef="c12ff">
+      <Xref identifier="ENSMUSG00000024927" dataSource="ensembl" />
+      <Graphics centerX="122.0" centerY="357.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Rela" />
+    </DataNode>
+    <DataNode elementId="c5184" textLabel="I-Kappa-B" type="GeneProduct" groupRef="c12ff">
+      <Graphics centerX="122.0" centerY="317.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="d6a50" textLabel="Nfkb1" type="GeneProduct" groupRef="c12ff">
+      <Xref identifier="ENSMUSG00000028163" dataSource="ensembl" />
+      <Graphics centerX="122.0" centerY="337.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Nfkb1" />
+    </DataNode>
+    <DataNode elementId="fd21c" textLabel="SFC complex" type="GeneProduct">
+      <Graphics centerX="113.86505190311418" centerY="219.1349480968858" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="c52e9" textLabel="IL8" type="GeneProduct" groupRef="d5e19">
+      <Graphics centerX="677.2661217075378" centerY="741.8074477747507" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="c9e20" textLabel="Ifnb1" type="GeneProduct" groupRef="d5e19">
+      <Xref identifier="ENSMUSG00000048806" dataSource="ensembl" />
+      <Graphics centerX="677.2661217075378" centerY="781.8074477747507" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Ifnb1" />
+    </DataNode>
+    <DataNode elementId="eeba2" textLabel="Ccl20" type="GeneProduct" groupRef="d5e19">
+      <Xref identifier="ENSMUSG00000026166" dataSource="ensembl" />
+      <Graphics centerX="677.2661217075378" centerY="761.8074477747507" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Ccl20" />
+      <CitationRef elementRef="ee4" />
+      <CitationRef elementRef="b42" />
+    </DataNode>
+    <DataNode elementId="aa138" textLabel="Tnf" type="GeneProduct" groupRef="d5e19">
+      <Xref identifier="ENSMUSG00000024401" dataSource="ensembl" />
+      <Graphics centerX="765.2661217075378" centerY="741.8074477747507" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Tnf" />
+    </DataNode>
+    <DataNode elementId="d99bc" textLabel="Ccl5" type="GeneProduct" groupRef="d5e19">
+      <Xref identifier="ENSMUSG00000035042" dataSource="ensembl" />
+      <Graphics centerX="765.2661217075378" centerY="761.8074477747507" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Ccl5" />
+    </DataNode>
+    <DataNode elementId="fd2e9" textLabel="Nfkb1" type="GeneProduct" groupRef="c36fc">
+      <Xref identifier="ENSMUSG00000028163" dataSource="ensembl" />
+      <Graphics centerX="545.0" centerY="687.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Nfkb1" />
+    </DataNode>
+    <DataNode elementId="ea1c5" textLabel="Rela" type="GeneProduct" groupRef="c36fc">
+      <Xref identifier="ENSMUSG00000024927" dataSource="ensembl" />
+      <Graphics centerX="545.0" centerY="707.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Rela" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="f7dcb">
+      <Waypoints>
+        <Point elementId="e6b4d" arrowHead="Undirected" x="150.0" y="89.0" />
+        <Point elementId="a3a8c" arrowHead="Undirected" x="880.0" y="89.00000000000009" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="d2a9c">
+      <Waypoints>
+        <Point elementId="e8597" arrowHead="Undirected" x="150.0" y="99.0" />
+        <Point elementId="cd2ef" arrowHead="Undirected" x="880.0" y="99.00000000000009" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="ef2fd">
+      <Waypoints>
+        <Point elementId="cdb17" arrowHead="Undirected" x="665.8292151887748" y="173.34563478041738" elementRef="fa4bf" relX="0.0" relY="1.0" />
+        <Point elementId="a90a6" arrowHead="Directed" x="665.599576442812" y="202.1692917182612" elementRef="b7873" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="fc75d">
+      <Waypoints>
+        <Point elementId="ddd54" arrowHead="Undirected" x="665.599576442812" y="248.1692917182612" elementRef="b7873" relX="0.0" relY="1.0" />
+        <Point elementId="b7a3d" arrowHead="Directed" x="666.0639019723551" y="285.7224080267558" elementRef="c3eed" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="b7a13">
+      <Waypoints>
+        <Point elementId="fad7d" arrowHead="Undirected" x="666.0639019723551" y="351.7224080267558" elementRef="c3eed" relX="0.0" relY="1.0" />
+        <Point elementId="e8314" arrowHead="Directed" x="665.9204152249134" y="548.7301038062283" elementRef="b77cc" relX="-0.4375" relY="-1.0357142857142858" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="f3383">
+      <Waypoints>
+        <Point elementId="c3add" arrowHead="Undirected" x="416.5" y="362.0" elementRef="f5a55" relX="-0.5" relY="1.0" />
+        <Point elementId="bba32" arrowHead="Directed" x="377.5" y="391.46020761245677" elementRef="de1b4" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="b888a">
+      <Waypoints>
+        <Point elementId="d8957" arrowHead="Undirected" x="475.5" y="362.0" />
+        <Point elementId="a1914" arrowHead="Directed" x="588.0" y="563.0" elementRef="f1ada" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="a42e4">
+      <Waypoints>
+        <Point elementId="d6871" arrowHead="Undirected" x="475.5" y="362.0" elementRef="f5a55" relX="0.5" relY="1.0" />
+        <Point elementId="e1207" arrowHead="Directed" x="505.0" y="563.0" elementRef="a947d" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="adc6f">
+      <Waypoints>
+        <Point elementId="a8cbe" arrowHead="Undirected" x="318.0" y="443.46020761245677" elementRef="de1b4" relX="-1.0" relY="0.0" />
+        <Point elementId="fa0f1" arrowHead="Directed" x="265.0" y="443.0" elementRef="e5b31" relX="1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="d1a8b">
+      <Waypoints>
+        <Point elementId="b217a" arrowHead="Undirected" x="113.86505190311419" y="229.1349480968858" elementRef="fd21c" relX="0.0" relY="1.0" />
+        <Point elementId="e0390" arrowHead="Directed" x="113.5" y="260.0" elementRef="c12ff" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="b0640">
+      <Waypoints>
+        <Point elementId="a76db" arrowHead="Undirected" x="187.0" y="319.5" elementRef="c12ff" relX="1.0" relY="0.0" />
+        <Point elementId="fc943" arrowHead="Directed" x="243.2677047289505" y="319.9418108419842" elementRef="a4af0" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="b6bbe">
+      <Waypoints>
+        <Point elementId="cb071" arrowHead="Undirected" x="148.0" y="418.5" elementRef="e5b31" relX="-1.0" relY="-0.5" />
+        <Point elementId="b3148" arrowHead="Directed" x="113.5" y="379.0" elementRef="c12ff" relX="0.0" relY="1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="ed777">
+      <Waypoints>
+        <Point elementId="d76fe" arrowHead="Undirected" x="235.75" y="492.0" elementRef="e5b31" relX="0.5" relY="1.0" />
+        <Point elementId="de279" arrowHead="Directed" x="390.0" y="628.0" elementRef="cf74b" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="da276">
+      <Waypoints>
+        <Point elementId="d9317" arrowHead="Undirected" x="438.0" y="656.0" elementRef="cf74b" relX="0.0" relY="1.0" />
+        <Point elementId="e4529" arrowHead="Directed" x="499.0" y="680.0" elementRef="c36fc" relX="-0.9583333333333334" relY="-0.6071428571428571" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="ba2e2">
+      <Waypoints>
+        <Point elementId="c6a02" arrowHead="Undirected" x="664.9204152249134" y="606.7301038062283" elementRef="b77cc" relX="-0.4583333333333333" relY="1.0357142857142858" />
+        <Point elementId="c35ca" arrowHead="Directed" x="590.0" y="673.0" elementRef="c36fc" relX="0.9375" relY="-0.8571428571428571" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="d2ca4">
+      <Waypoints>
+        <Point elementId="f78c0" arrowHead="Undirected" x="505.0" y="583.0" elementRef="a947d" relX="0.0" relY="1.0" />
+        <Point elementId="e1369" arrowHead="Directed" x="486.0" y="614.0" elementRef="cf74b" relX="1.0" relY="-0.5" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="b2b2d">
+      <Waypoints>
+        <Point elementId="a4510" arrowHead="Undirected" x="495.11482720178356" y="230.44258639910814" elementRef="c44d7" relX="1.0" relY="0.0" />
+        <Point elementId="d7b61" arrowHead="Undirected" x="529.1288972286136" y="230.32221698367323" elementRef="c2750" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="ba0ee">
+      <Waypoints>
+        <Point elementId="c5255" arrowHead="Undirected" x="534.9571290291872" y="145.57798810299522" elementRef="ccc0e" relX="0.0" relY="0.0" />
+        <Point elementId="d781f" arrowHead="Undirected" x="617.8292151887748" y="145.34563478041738" elementRef="fa4bf" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="d2794">
+      <Waypoints>
+        <Point elementId="e80d7" arrowHead="Undirected" x="447.11482720178356" y="258.4425863991081" elementRef="c44d7" relX="0.0" relY="1.0" />
+        <Point elementId="f5208" arrowHead="Undirected" x="446.0" y="258.0" elementRef="f5a55" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="b8c16">
+      <Waypoints>
+        <Point elementId="ccc7b" arrowHead="Undirected" x="569.0" y="725.0" elementRef="c36fc" relX="0.5" relY="1.0" />
+        <Point elementId="da7a4" arrowHead="Directed" x="625.2661217075378" y="740.8074477747507" elementRef="d5e19" relX="-1.0" relY="-0.5" />
+      </Waypoints>
+      <Graphics lineColor="cccccc" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+  </Interactions>
+  <GraphicalLines>
+    <GraphicalLine elementId="c7cd2">
+      <Waypoints>
+        <Point elementId="c215b" arrowHead="Undirected" x="496.82107175295215" y="722.9791099000909" />
+        <Point elementId="cbf11" arrowHead="Undirected" x="783.8328792007263" y="722.9791099000909" />
+      </Waypoints>
+      <Graphics lineColor="009900" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="-2" />
+    </GraphicalLine>
+    <GraphicalLine elementId="a72a6">
+      <Waypoints>
+        <Point elementId="dcf97" arrowHead="Undirected" x="623.9782016348775" y="722.9791099000909" />
+        <Point elementId="dcf86" arrowHead="Undirected" x="623.9782016348775" y="697.5476839237058" />
+      </Waypoints>
+      <Graphics lineColor="009900" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </GraphicalLine>
+    <GraphicalLine elementId="ec5d7">
+      <Waypoints>
+        <Point elementId="d0344" arrowHead="Undirected" x="624.8864668483197" y="697.5476839237057" />
+        <Point elementId="a6bea" arrowHead="Directed" x="653.9509536784741" y="697.5476839237057" />
+      </Waypoints>
+      <Graphics lineColor="009900" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </GraphicalLine>
+    <GraphicalLine elementId="b0547">
+      <Waypoints>
+        <Point elementId="c6103" arrowHead="Undirected" x="462.6532887402453" y="100.89186176142698" />
+        <Point elementId="c4316" arrowHead="Undirected" x="460.98104793756966" y="118.72909698996655" />
+      </Waypoints>
+      <Graphics lineColor="0000cc" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </GraphicalLine>
+    <GraphicalLine elementId="cfc99">
+      <Waypoints>
+        <Point elementId="dd364" arrowHead="Undirected" x="533.4448160535117" y="102.0066889632107" />
+        <Point elementId="a0e79" arrowHead="Undirected" x="535.1170568561873" y="183.94648829431438" />
+        <Point elementId="cfbbf" arrowHead="Undirected" x="494.9832775919732" y="265.88628762541805" />
+        <Anchor elementId="ccc0e" position="0.24081744529899396" shapeType="None" />
+        <Anchor elementId="c2750" position="0.711614192769213" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="0000cc" lineStyle="Solid" lineWidth="1.0" connectorType="Curved" zOrder="12288" />
+    </GraphicalLine>
+  </GraphicalLines>
+  <Labels>
+    <Label elementId="edb5f" textLabel="P" groupRef="b7873">
+      <Graphics centerX="703.599576442812" centerY="217.6692917182612" width="18.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="RoundedRectangle" zOrder="28672" />
+    </Label>
+    <Label elementId="a7496" textLabel="P" groupRef="c3eed">
+      <Graphics centerX="703.5639019723551" centerY="301.2224080267558" width="18.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="RoundedRectangle" zOrder="28672" />
+    </Label>
+    <Label elementId="efbf0" textLabel="P" groupRef="f5a55">
+      <Graphics centerX="408.0" centerY="300.5" width="18.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="RoundedRectangle" zOrder="28672" />
+    </Label>
+    <Label elementId="b2244" textLabel="P" groupRef="f5a55">
+      <Graphics centerX="408.0" centerY="320.5" width="18.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="RoundedRectangle" zOrder="28672" />
+    </Label>
+    <Label elementId="bb7e3" textLabel="P" groupRef="de1b4">
+      <Graphics centerX="416.0" centerY="452.96020761245677" width="18.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="RoundedRectangle" zOrder="28672" />
+    </Label>
+    <Label elementId="dfbf8" textLabel="TES1">
+      <Graphics centerX="511.24637681159385" centerY="145.9186176142698" width="36.0" height="20.0" textColor="0033ff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="13" hAlign="Center" vAlign="Middle" borderColor="0033ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="b7d26" textLabel="TES2">
+      <Graphics centerX="550.7743728614795" centerY="230.61687748087624" width="38.0" height="20.0" textColor="0033ff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="13" hAlign="Center" vAlign="Middle" borderColor="0033ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="e4717" textLabel="S32-P" groupRef="e5b31">
+      <Graphics centerX="235.5" centerY="413.5" width="35.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="RoundedRectangle" zOrder="28672" />
+    </Label>
+    <Label elementId="f31d8" textLabel="S36-P" groupRef="e5b31">
+      <Graphics centerX="200.5" centerY="413.5" width="35.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="RoundedRectangle" zOrder="28672" />
+    </Label>
+    <Label elementId="cf051" textLabel="S36-P" groupRef="c12ff">
+      <Graphics centerX="122.5" centerY="300.5" width="35.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="RoundedRectangle" zOrder="28672" />
+    </Label>
+    <Label elementId="d45b4" textLabel="S32-P" groupRef="c12ff">
+      <Graphics centerX="157.5" centerY="300.5" width="35.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="RoundedRectangle" zOrder="28672" />
+    </Label>
+    <Label elementId="aa5b8" textLabel="U" groupRef="c12ff">
+      <Graphics centerX="81.0" centerY="301.5" width="18.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="RoundedRectangle" zOrder="28672" />
+    </Label>
+    <Label elementId="c790f" textLabel="U" groupRef="c12ff">
+      <Graphics centerX="69.0" centerY="291.5" width="18.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="RoundedRectangle" zOrder="28672" />
+    </Label>
+    <Label elementId="eee7e" textLabel="U" groupRef="c12ff">
+      <Graphics centerX="61.0" centerY="279.5" width="18.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="RoundedRectangle" zOrder="28672" />
+    </Label>
+  </Labels>
+  <Shapes>
+    <Shape elementId="a87b9">
+      <Graphics centerX="482.98333333333335" centerY="91.5" width="12.033333333333333" height="47.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Arc" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="a8247">
+      <Graphics centerX="470.98333333333335" centerY="91.5" width="12.033333333333333" height="47.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Arc" zOrder="16384" rotation="3.141592653589793" />
+    </Shape>
+    <Shape elementId="a09be">
+      <Graphics centerX="496.98333333333335" centerY="89.5" width="12.033333333333333" height="47.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Arc" zOrder="16384" rotation="3.141592653589793" />
+    </Shape>
+    <Shape elementId="dd4c7">
+      <Graphics centerX="512.9833333333333" centerY="93.5" width="12.033333333333333" height="47.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Arc" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="b7481">
+      <Graphics centerX="524.9833333333333" centerY="87.5" width="12.033333333333333" height="47.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Arc" zOrder="16384" rotation="3.141592653589793" />
+    </Shape>
+    <Shape elementId="a4af0">
+      <Graphics centerX="257.28437139561714" centerY="319.94181084198414" width="28.033333333333335" height="26.033333333333335" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="mim-degradation" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="d387d">
+      <Graphics centerX="575.0441176470592" centerY="680.9264705882356" width="724.4215686274503" height="338.539215686274" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Nucleus" zOrder="16384" rotation="0.0" />
+    </Shape>
+  </Shapes>
+  <Groups>
+    <Group elementId="fa4bf" type="Group">
+      <Graphics centerX="665.8292151887748" centerY="145.34563478041738" width="96.0" height="56.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="b7873" type="Group">
+      <Graphics centerX="665.599576442812" centerY="225.1692917182612" width="110.0" height="46.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+      <Comment>Type your comment here</Comment>
+    </Group>
+    <Group elementId="c3eed" type="Group">
+      <Graphics centerX="666.0639019723551" centerY="318.7224080267558" width="109.0" height="66.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="c44d7" type="Group">
+      <Graphics centerX="447.11482720178356" centerY="230.44258639910814" width="96.0" height="56.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="cf74b" type="Group">
+      <Graphics centerX="438.0" centerY="628.0" width="96.0" height="56.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="b77cc" type="Group">
+      <Graphics centerX="686.9204152249134" centerY="577.7301038062283" width="96.0" height="56.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="c36fc" type="Group">
+      <Graphics centerX="545.0" centerY="697.0" width="96.0" height="56.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="f5a55" type="Complex">
+      <Graphics centerX="446.0" centerY="310.0" width="118.0" height="104.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
+    </Group>
+    <Group elementId="de1b4" type="Complex">
+      <Graphics centerX="377.5" centerY="443.46020761245677" width="119.0" height="104.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
+    </Group>
+    <Group elementId="e5b31" type="Complex">
+      <Graphics centerX="206.5" centerY="443.0" width="117.0" height="98.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
+    </Group>
+    <Group elementId="c12ff" type="Complex">
+      <Graphics centerX="113.5" centerY="319.5" width="147.0" height="119.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
+    </Group>
+    <Group elementId="d5e19" type="Complex">
+      <Graphics centerX="721.2661217075378" centerY="761.8074477747507" width="192.0" height="84.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
+    </Group>
+  </Groups>
+  <Annotations>
+    <Annotation elementId="b110c" value="Epstein-Barr virus infection pathway" type="Pathway Ontology">
+      <Xref identifier="0001057" dataSource="PW" />
+    </Annotation>
+  </Annotations>
+  <Citations>
+    <Citation elementId="b42">
+      <Xref identifier="18089854" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="d73">
+      <Xref identifier="16477006" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="ee4">
+      <Xref identifier="18052967" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="cf5">
+      <Xref identifier="16446357" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

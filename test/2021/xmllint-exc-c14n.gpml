@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20140130">
+  <Graphics boardWidth="160.0" boardHeight="205.0" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <DataNodes>
+    <DataNode elementId="d6efe" textLabel="GeneProduct" type="GeneProduct">
+      <Graphics centerX="90.0" centerY="165.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+  </DataNodes>
+</Pathway>

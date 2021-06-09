@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="IL-9 Signaling Pathway" organism="Homo sapiens" license="Freely available under Creative Commons license">
+  <Comment source="WikiPathways-category">Cellular Process</Comment>
+  <Comment source="WikiPathways-description">IL-9 is a multifunctional cytokine, belong to a family of cytokines. IL-9 was initially reported as a T cell growth factor in mice. It is now known to target multiple cell types. It plays an important role in the expansion and recruitment of mast cells in response to intestinal nematode infection or during autoimmune encephalomyelitis. It is also known to act on various cell types known to be involved in asthma including T cells, B cells, mast cells, eosinophils, neutrophils, and epithelial cells. IL 9 can promote the expression of TGF-beta in lipopolysaccharide induced monocytes and macrophages. IL-9 is also known to play important roles in conditions including airway inflammation, EAE and parasitic infections. Mitogen-activated protein kinase pathway is activated transiently by IL-9, which in turn leads to the growth stimulation of hematopoietic cell lines. IL-9 signals through the heterodimeric receptor composed of a specific chain (IL-9R) and a gamma chain (IL2RG), which is shared between IL-2, IL-4, IL-7, IL15 and IL-21. The IL-9R and IL-2RG associates with JAK1 and JAK3 respectively. Receptor engagement results in JAK1- JAK3 cross phosphorylation and activation of the JAK proteins which leads to the activation of Signal transducer and activator of transcription (STAT-1, STAT-3 and STAT-5) and Insulin receptor substrate 1 and 2 (IRS1 and IRS2)/PI3K cascades. IL-9 stimulation also results in the activation of MEK/ERK signaling cascade.
+
+Please access this pathway at [http://www.netpath.org/netslim/IL_9_pathway.html NetSlim] database.
+
+If you use this pathway, you must cite following paper:
+Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugopal, A. K., Telikicherla, D., Navarro, J. D., Mathivanan, S., Pecquet, C., Gollapudi, S. K., Tattikota, S. G., Mohan, S., Padhukasahasram, H., Subbannayya, Y., Goel, R., Jacob, H. K. C., Zhong, J., Sekhar, R., Nanjappa, V., Balakrishnan, L., Subbaiah, R., Ramachandra, Y. L., Rahiman, B. A., Prasad, T. S. K., Lin, J., Houtman, J. C. D., Desiderio, S., Renauld, J., Constantinescu, S. N., Ohara, O., Hirano, T., Kubo, M., Singh, S., Khatri, P., Draghici, S., Bader, G. D., Sander, C., Leonard, W. J. and Pandey, A. (2010). NetPath: A public resource of curated signal transduction pathways. &lt;i&gt;Genome Biology&lt;/i&gt;. 11:R3.</Comment>
+  <Property key="org.pathvisio.model.WindowHeight" value="11190.0" />
+  <Property key="org.pathvisio.model.WindowWidth" value="15480.0" />
+  <AnnotationRef elementRef="ccaf3" />
+  <AnnotationRef elementRef="aa445" />
+  <Graphics boardWidth="933.0" boardHeight="1214.0" />
+  <InfoBox centerX="15.0" centerY="8.333333333333334" />
+  <DataNodes>
+    <DataNode elementId="d403c" textLabel="STAT1" type="Protein" groupRef="a9979">
+      <Xref identifier="6772" dataSource="ncbigene" />
+      <Graphics centerX="146.16666666666424" centerY="1059.9601820250284" width="54.33333333332848" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="-6" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STAT1" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="a1a46" textLabel="STAT5B" type="Protein" groupRef="f9d52">
+      <Xref identifier="6777" dataSource="ncbigene" />
+      <Graphics centerX="284.66666666666265" centerY="835.6666666666667" width="53.99999999999997" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="-4" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STAT1" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="a4606" textLabel="MAPK3" type="Protein" groupRef="c97f2">
+      <Xref identifier="5595" dataSource="ncbigene" />
+      <Graphics centerX="399.9324000000015" centerY="883.6666666666665" width="55.86480000000307" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="-2" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAPK3" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="d2168" textLabel="GRB2" type="Protein">
+      <Xref identifier="2885" dataSource="ncbigene" />
+      <Graphics centerX="432.66666666666913" centerY="600.0" width="46.666666666666664" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33327" />
+      <Property key="org.pathvisio.model.BackpageHead" value="GRB2" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="a2e7f" textLabel="STAT3" type="Protein" groupRef="a9979">
+      <Xref identifier="6774" dataSource="ncbigene" />
+      <States>
+        <State elementId="cd2e1" textLabel="P" type="Undefined">
+          <Graphics relX="1.0" relY="1.0" width="15.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffff00" shapeType="Oval" />
+        </State>
+      </States>
+      <Graphics centerX="146.33333333332865" centerY="1038.0" width="53.333333333333336" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33328" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STAT3" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="f149a" textLabel="PIK3R2" type="Protein" groupRef="a4e60">
+      <Xref identifier="5296" dataSource="ncbigene" />
+      <Graphics centerX="500.16666666667027" centerY="622.6666666666665" width="54.33333333334055" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33329" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PIK3R2" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="fc03c" textLabel="STAT1" type="Protein" groupRef="c3b41">
+      <Xref identifier="6772" dataSource="ncbigene" />
+      <Graphics centerX="216.33333333332848" centerY="1060.6666666666667" width="50.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33330" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STAT1" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="d9dbe" textLabel="STAT5A" type="Protein">
+      <Xref identifier="STAT5A" dataSource="ncbigene" />
+      <States>
+        <State elementId="b7267" textLabel="P" type="Undefined">
+          <Graphics relX="1.0" relY="1.0" width="13.0" height="14.749999999999993" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffff00" shapeType="Oval" />
+        </State>
+      </States>
+      <Graphics centerX="326.333333333331" centerY="725.6666666666667" width="60.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33331" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STAT5A" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="f133e" textLabel="STAT1" type="Protein">
+      <Xref identifier="6772" dataSource="ncbigene" />
+      <Graphics centerX="216.33333333332848" centerY="726.6666666666667" width="50.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33332" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STAT1" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="ba4d3" textLabel="STAT1" type="Protein" groupRef="c3b41">
+      <Xref identifier="6772" dataSource="ncbigene" />
+      <States>
+        <State elementId="a178c" textLabel="P" type="Undefined">
+          <Graphics relX="1.0" relY="1.0" width="15.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffff00" shapeType="Oval" />
+        </State>
+      </States>
+      <Graphics centerX="216.33333333332848" centerY="1038.6666666666667" width="50.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33334" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STAT1" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="dc750" textLabel="STAT5B" type="Protein" groupRef="f9d52">
+      <Xref identifier="6777" dataSource="ncbigene" />
+      <States>
+        <State elementId="af22f" textLabel="P" type="Undefined">
+          <Graphics relX="0.999999999999999" relY="1.0" width="15.083333333335304" height="15.25" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffff00" shapeType="Oval" />
+        </State>
+      </States>
+      <Graphics centerX="284.6666666666647" centerY="812.0" width="54.00000000000004" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33335" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STAT3" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="dd41a" textLabel="IRS1" type="Protein">
+      <Xref identifier="1025" dataSource="ncbigene" />
+      <Graphics centerX="432.3333333333362" centerY="521.6666666666667" width="40.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33336" />
+      <Property key="org.pathvisio.model.BackpageHead" value="CDK9" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="c747f" textLabel="MAPK1" type="Protein" groupRef="c97f2">
+      <Xref identifier="5594" dataSource="ncbigene" />
+      <States>
+        <State elementId="f0c95" textLabel="P" type="Undefined">
+          <Graphics relX="1.0" relY="1.0" width="16.5" height="17.833333333333485" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffff00" shapeType="Oval" />
+        </State>
+      </States>
+      <Graphics centerX="399.66666666666765" centerY="860.6666666666665" width="54.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33337" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAPK1" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="af61f" textLabel="IL9" type="Protein" groupRef="da350">
+      <Xref identifier="3578" dataSource="ncbigene" />
+      <Graphics centerX="292.9999999999988" centerY="245.0" width="33.333333333333336" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33338" />
+      <Property key="org.pathvisio.model.BackpageHead" value="IL6" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="c4d72" textLabel="JAK3" type="Protein">
+      <Xref identifier="3718" dataSource="ncbigene" />
+      <Graphics centerX="256.1666666666613" centerY="522.0" width="57.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33339" />
+      <Property key="org.pathvisio.model.BackpageHead" value="JAK2" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="a08fa" textLabel="STAT1" type="Protein">
+      <Xref identifier="6772" dataSource="ncbigene" />
+      <States>
+        <State elementId="e788d" textLabel="P" type="Undefined">
+          <Graphics relX="1.0" relY="1.0" width="15.08333333333826" height="16.749999999999943" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffff00" shapeType="Oval" />
+        </State>
+      </States>
+      <Graphics centerX="215.33333333332848" centerY="640.6666666666667" width="50.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33341" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STAT1" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="f6eb6" textLabel="STAT5B" type="Protein" groupRef="cdaa9">
+      <Xref identifier="6777" dataSource="ncbigene" />
+      <Graphics centerX="284.66666666666265" centerY="1061.6666666666667" width="53.99999999999997" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33342" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STAT1" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="c6ecc" textLabel="IL2RG" type="Protein" groupRef="da350">
+      <Xref identifier="3561" dataSource="ncbigene" />
+      <Graphics centerX="270.6666666666624" centerY="399.0" width="48.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33343" />
+      <Property key="org.pathvisio.model.BackpageHead" value="IL6ST" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="d2866" textLabel="MAP2K2" type="Protein" groupRef="f94a1">
+      <Xref identifier="5605" dataSource="ncbigene" />
+      <Graphics centerX="399.8333333333362" centerY="776.6666666666666" width="62.33333333333306" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33344" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP2K2" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="b5564" textLabel="PIK3R1" type="Protein" groupRef="a4e60">
+      <Xref identifier="5295" dataSource="ncbigene" />
+      <Graphics centerX="500.3333333333404" centerY="599.6666666666665" width="53.333333333333336" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33345" />
+      <Property key="org.pathvisio.model.BackpageHead" value="PIK3R1" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="af745" textLabel="JAK1" type="Protein">
+      <Xref identifier="3716" dataSource="ncbigene" />
+      <Graphics centerX="333.6666666666647" centerY="521.0" width="58.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33347" />
+      <Property key="org.pathvisio.model.BackpageHead" value="JAK1" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="aa425" textLabel="STAT3" type="Protein">
+      <Xref identifier="6774" dataSource="ncbigene" />
+      <States>
+        <State elementId="f8b77" textLabel="P" type="Undefined">
+          <Graphics relX="1.0" relY="1.0" width="16.083333333338146" height="14.75" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffff00" shapeType="Oval" />
+        </State>
+      </States>
+      <Graphics centerX="146.66666666666185" centerY="771.0" width="54.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33348" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STAT3" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="fbd08" textLabel="STAT5B" type="Protein" groupRef="cdaa9">
+      <Xref identifier="6777" dataSource="ncbigene" />
+      <States>
+        <State elementId="de4a3" textLabel="P" type="Undefined">
+          <Graphics relX="1.0" relY="1.0" width="15.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffff00" shapeType="Oval" />
+        </State>
+      </States>
+      <Graphics centerX="284.6666666666647" centerY="1038.0" width="54.00000000000004" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33349" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STAT3" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="bde62" textLabel="IL9R" type="Protein" groupRef="da350">
+      <Xref identifier="3581" dataSource="ncbigene" />
+      <States>
+        <State elementId="d5801" textLabel="P" type="Undefined">
+          <Graphics relX="-1.0" relY="1.0" width="16.5" height="17.5" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffff00" shapeType="Oval" />
+        </State>
+      </States>
+      <Graphics centerX="319.66666666666424" centerY="399.0" width="48.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33350" />
+      <Property key="org.pathvisio.model.BackpageHead" value="IL6R" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="fbbe4" textLabel="MAP2K1" type="Protein" groupRef="f94a1">
+      <Xref identifier="5604" dataSource="ncbigene" />
+      <States>
+        <State elementId="ded46" textLabel="P" type="Undefined">
+          <Graphics relX="1.0" relY="1.0" width="14.583333333330302" height="14.250000000000021" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffff00" shapeType="Oval" />
+        </State>
+      </States>
+      <Graphics centerX="399.6666666666697" centerY="754.6666666666666" width="62.00000000000003" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33351" />
+      <Property key="org.pathvisio.model.BackpageHead" value="MAP2K1" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="be3dd" textLabel="STAT1" type="Protein" groupRef="f3d62">
+      <Xref identifier="6772" dataSource="ncbigene" />
+      <Graphics centerX="216.33333333332848" centerY="834.6666666666667" width="50.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33352" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STAT1" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+    <DataNode elementId="cda5c" textLabel="STAT1" type="Protein" groupRef="f3d62">
+      <Xref identifier="6772" dataSource="ncbigene" />
+      <States>
+        <State elementId="c3e6b" textLabel="P" type="Undefined">
+          <Graphics relX="1.0" relY="1.0" width="15.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffff00" shapeType="Oval" />
+        </State>
+      </States>
+      <Graphics centerX="216.33333333332848" centerY="812.6666666666667" width="50.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33353" />
+      <Property key="org.pathvisio.model.BackpageHead" value="STAT1" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="id19ee3408">
+      <Waypoints>
+        <Point elementId="d648f" arrowHead="Undirected" x="452.3333333333362" y="521.6666666666667" />
+        <Point elementId="a05f0" arrowHead="Undirected" x="500.0" y="521.0" />
+      </Waypoints>
+      <Graphics lineColor="00cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id7a131319">
+      <Waypoints>
+        <Point elementId="face3" arrowHead="Undirected" x="190.33333333332848" y="640.6666666666667" elementRef="a08fa" relX="-1.0" relY="0.0" />
+        <Point elementId="f697b" arrowHead="Undirected" x="146.0" y="640.0" />
+      </Waypoints>
+      <Graphics lineColor="00cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="a267a">
+      <Waypoints>
+        <Point elementId="d6b29" arrowHead="Undirected" x="319.66666666666424" y="409.0" elementRef="bde62" relX="0.0" relY="1.0" />
+        <Point elementId="f8ba9" arrowHead="Directed" x="319.1666666666647" y="511.0" elementRef="af745" relX="-0.5" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="00cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33287" />
+    </Interaction>
+    <Interaction elementId="c562c">
+      <Waypoints>
+        <Point elementId="c78ac" arrowHead="Undirected" x="270.6666666666624" y="409.0" elementRef="c6ecc" relX="0.0" relY="1.0" />
+        <Point elementId="ef391" arrowHead="Directed" x="270.4166666666613" y="512.0" elementRef="c4d72" relX="0.5" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="00cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33288" />
+    </Interaction>
+    <Interaction elementId="ddb23">
+      <Waypoints>
+        <Point elementId="fa495" arrowHead="Undirected" x="215.33333333332848" y="650.6666666666667" elementRef="a08fa" relX="0.0" relY="1.0" />
+        <Point elementId="acdb1" arrowHead="Directed" x="216.33333333332848" y="716.6666666666667" elementRef="f133e" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="00cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33289" />
+    </Interaction>
+    <Interaction elementId="ad093" groupRef="da350">
+      <Waypoints>
+        <Point elementId="cea09" arrowHead="Undirected" x="292.99999999999875" y="255.0" elementRef="af61f" relX="0.0" relY="1.0" />
+        <Point elementId="a05fb" arrowHead="Undirected" x="293.66666666666424" y="292.0" elementRef="cbca1" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="ff3399" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="33290" />
+    </Interaction>
+    <Interaction elementId="ec036">
+      <Waypoints>
+        <Point elementId="d0b55" arrowHead="Undirected" x="294.6666666666624" y="399.0" elementRef="c6ecc" relX="1.0" relY="0.0" />
+        <Point elementId="b7abe" arrowHead="Undirected" x="294.66666666666515" y="568.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="2.0" connectorType="Straight" zOrder="33291" />
+    </Interaction>
+    <Interaction elementId="a7807">
+      <Waypoints>
+        <Point elementId="fcc7c" arrowHead="Undirected" x="216.33333333332848" y="736.6666666666667" elementRef="f133e" relX="0.0" relY="1.0" />
+        <Point elementId="bc52f" arrowHead="Directed" x="216.33333333332848" y="802.6666666666667" elementRef="cda5c" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="2.0" connectorType="Straight" zOrder="33292" />
+    </Interaction>
+    <Interaction elementId="b5fa0">
+      <Waypoints>
+        <Point elementId="ebe9e" arrowHead="Undirected" x="500.0" y="521.0" />
+        <Point elementId="dcfe6" arrowHead="Directed" x="500.3333333333404" y="589.6666666666665" elementRef="b5564" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="00cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33293" />
+    </Interaction>
+    <Interaction elementId="fa7d0">
+      <Waypoints>
+        <Point elementId="e8792" arrowHead="Undirected" x="399.6666666666697" y="571.0" />
+        <Point elementId="fc0cc" arrowHead="Directed" x="399.6666666666697" y="744.6666666666666" elementRef="fbbe4" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="2.0" connectorType="Straight" zOrder="33294" />
+    </Interaction>
+    <Interaction elementId="a0320">
+      <Waypoints>
+        <Point elementId="cc29b" arrowHead="Undirected" x="299.6666666666654" y="938.0" />
+        <Point elementId="d8154" arrowHead="Directed" x="300.6666666666654" y="914.0" />
+      </Waypoints>
+      <Graphics lineColor="ff00ff" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="33295" />
+    </Interaction>
+    <Interaction elementId="bbaf1">
+      <Waypoints>
+        <Point elementId="f76a9" arrowHead="Undirected" x="229.66666666666242" y="938.0" />
+        <Point elementId="ba9d2" arrowHead="Directed" x="230.66666666666242" y="914.0" />
+      </Waypoints>
+      <Graphics lineColor="ff00ff" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="33296" />
+    </Interaction>
+    <Interaction elementId="a1cb6">
+      <Waypoints>
+        <Point elementId="f4366" arrowHead="Undirected" x="216.0" y="570.0" />
+        <Point elementId="d9cfe" arrowHead="Directed" x="215.33333333332848" y="630.6666666666667" elementRef="a08fa" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="2.0" connectorType="Straight" zOrder="33297" />
+    </Interaction>
+    <Interaction elementId="e64e6">
+      <Waypoints>
+        <Point elementId="f2e17" arrowHead="Undirected" x="230.66666666666242" y="931.0" />
+        <Point elementId="fee6b" arrowHead="Directed" x="230.66666666666242" y="946.0" />
+      </Waypoints>
+      <Graphics lineColor="ff00ff" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="33298" />
+    </Interaction>
+    <Interaction elementId="a9793" groupRef="da350">
+      <Waypoints>
+        <Point elementId="c8463" arrowHead="Undirected" x="270.6666666666631" y="333.0" elementRef="a3c05" relX="0.0" relY="1.0" />
+        <Point elementId="d698f" arrowHead="Undirected" x="270.6666666666624" y="389.0" elementRef="c6ecc" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="33299" />
+    </Interaction>
+    <Interaction elementId="e3673">
+      <Waypoints>
+        <Point elementId="fa548" arrowHead="Undirected" x="362.6666666666647" y="521.0" elementRef="af745" relX="1.0" relY="0.0" />
+        <Point elementId="c80d9" arrowHead="Directed" x="412.3333333333362" y="521.6666666666667" elementRef="dd41a" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="0000ff" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33300" />
+    </Interaction>
+    <Interaction elementId="e0524">
+      <Waypoints>
+        <Point elementId="c88aa" arrowHead="Undirected" x="284.66666666666265" y="845.6666666666667" elementRef="a1a46" relX="0.0" relY="1.0" />
+        <Point elementId="f2e4e" arrowHead="Directed" x="284.6666666666647" y="1028.0" elementRef="fbd08" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="00cccc" lineStyle="Dashed" lineWidth="2.0" connectorType="Straight" zOrder="33301" />
+    </Interaction>
+    <Interaction elementId="ec286">
+      <Waypoints>
+        <Point elementId="cbd21" arrowHead="Undirected" x="246.99999999999773" y="505.33333333333337" />
+        <Point elementId="a1ceb" arrowHead="Directed" x="253.66666666666447" y="512.0" />
+      </Waypoints>
+      <Graphics lineColor="0000ff" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33302" />
+    </Interaction>
+    <Interaction elementId="fc7c2">
+      <Waypoints>
+        <Point elementId="e88dd" arrowHead="Undirected" x="216.33333333332848" y="844.6666666666667" elementRef="be3dd" relX="0.0" relY="1.0" />
+        <Point elementId="e6115" arrowHead="Directed" x="216.33333333332848" y="1028.6666666666667" elementRef="ba4d3" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="00cccc" lineStyle="Dashed" lineWidth="2.0" connectorType="Straight" zOrder="33303" />
+    </Interaction>
+    <Interaction elementId="a54b8">
+      <Waypoints>
+        <Point elementId="d56eb" arrowHead="Undirected" x="217.66666666666197" y="570.0" />
+        <Point elementId="cc380" arrowHead="Undirected" x="399.6666666666697" y="570.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="2.0" connectorType="Straight" zOrder="33304" />
+    </Interaction>
+    <Interaction elementId="b6e9d">
+      <Waypoints>
+        <Point elementId="dc40d" arrowHead="Undirected" x="326.6666666666665" y="571.0" />
+        <Point elementId="b2aac" arrowHead="Directed" x="326.333333333331" y="715.6666666666667" elementRef="d9dbe" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="2.0" connectorType="Straight" zOrder="33305" />
+    </Interaction>
+    <Interaction elementId="b3e08">
+      <Waypoints>
+        <Point elementId="caa36" arrowHead="Undirected" x="399.8333333333362" y="786.6666666666666" elementRef="d2866" relX="0.0" relY="1.0" />
+        <Point elementId="a8c14" arrowHead="Directed" x="399.66666666666765" y="850.6666666666665" elementRef="c747f" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="2.0" connectorType="Straight" zOrder="33306" />
+    </Interaction>
+    <Interaction elementId="f3eed">
+      <Waypoints>
+        <Point elementId="ecd29" arrowHead="Undirected" x="350.00000000000136" y="504.33333333333337" />
+        <Point elementId="bd3b5" arrowHead="Directed" x="356.6666666666681" y="511.0" />
+      </Waypoints>
+      <Graphics lineColor="0000ff" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33307" />
+    </Interaction>
+    <Interaction elementId="eceac" groupRef="da350">
+      <Waypoints>
+        <Point elementId="c872b" arrowHead="Undirected" x="319.66666666666515" y="331.0" elementRef="f719c" relX="0.0" relY="1.0" />
+        <Point elementId="a670c" arrowHead="Undirected" x="319.66666666666424" y="389.0" elementRef="bde62" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="33308" />
+    </Interaction>
+    <Interaction elementId="f3bcb">
+      <Waypoints>
+        <Point elementId="ebbd9" arrowHead="Undirected" x="161.0" y="937.0" />
+        <Point elementId="a9694" arrowHead="Directed" x="160.66666666666185" y="915.0" elementRef="f6c40" relX="0.0" relY="1.0" />
+      </Waypoints>
+      <Graphics lineColor="ff00ff" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="33309" />
+    </Interaction>
+    <Interaction elementId="c9658">
+      <Waypoints>
+        <Point elementId="dd181" arrowHead="Undirected" x="300.0" y="930.0" />
+        <Point elementId="a81c9" arrowHead="Directed" x="300.0" y="946.0" />
+      </Waypoints>
+      <Graphics lineColor="ff00ff" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="33310" />
+    </Interaction>
+    <Interaction elementId="ceb68">
+      <Waypoints>
+        <Point elementId="ff889" arrowHead="Undirected" x="146.66666666666185" y="781.0" elementRef="aa425" relX="0.0" relY="1.0" />
+        <Point elementId="e384e" arrowHead="Directed" x="146.33333333332865" y="1028.0" elementRef="a2e7f" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="00cccc" lineStyle="Dashed" lineWidth="2.0" connectorType="Straight" zOrder="33311" />
+    </Interaction>
+    <Interaction elementId="c0604">
+      <Waypoints>
+        <Point elementId="fa9cc" arrowHead="Undirected" x="146.0" y="641.0" />
+        <Point elementId="f46d7" arrowHead="Directed" x="146.66666666666185" y="761.0" elementRef="aa425" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="00cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33312" />
+    </Interaction>
+    <Interaction elementId="af4c1">
+      <Waypoints>
+        <Point elementId="c8c72" arrowHead="Undirected" x="284.6666666666647" y="572.0" />
+        <Point elementId="b163c" arrowHead="Directed" x="284.6666666666647" y="802.0" elementRef="dc750" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="2.0" connectorType="Straight" zOrder="33313" />
+    </Interaction>
+    <Interaction elementId="e860a">
+      <Waypoints>
+        <Point elementId="fbb7f" arrowHead="Undirected" x="160.66666666666185" y="931.0" />
+        <Point elementId="a5777" arrowHead="Directed" x="160.66666666666185" y="947.0" elementRef="a6bc7" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="ff00ff" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="33314" />
+    </Interaction>
+    <Interaction elementId="a537f">
+      <Waypoints>
+        <Point elementId="ceecc" arrowHead="Undirected" x="432.3333333333362" y="531.6666666666667" elementRef="dd41a" relX="0.0" relY="1.0" />
+        <Point elementId="eceb4" arrowHead="Directed" x="432.66666666666913" y="590.0" elementRef="d2168" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="00cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33315" />
+    </Interaction>
+    <Interaction elementId="bf87f">
+      <Waypoints>
+        <Point elementId="adf31" arrowHead="Undirected" x="563.0" y="920.0" />
+        <Point elementId="cbd5a" arrowHead="Inhibition" x="628.0" y="920.0" />
+      </Waypoints>
+      <Graphics lineColor="ff0033" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33359" />
+    </Interaction>
+    <Interaction elementId="afdb9">
+      <Waypoints>
+        <Point elementId="ce25c" arrowHead="Undirected" x="563.0" y="821.0" />
+        <Point elementId="cd9e5" arrowHead="Directed" x="621.0" y="821.5024647292423" />
+      </Waypoints>
+      <Graphics lineColor="9900cc" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33360" />
+    </Interaction>
+    <Interaction elementId="d0066">
+      <Waypoints>
+        <Point elementId="a5f1a" arrowHead="Undirected" x="618.0" y="1012.0" />
+        <Point elementId="c99b6" arrowHead="Directed" x="617.0" y="988.0" />
+      </Waypoints>
+      <Graphics lineColor="ff00ff" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="33361" />
+    </Interaction>
+    <Interaction elementId="eb76a">
+      <Waypoints>
+        <Point elementId="b1e00" arrowHead="Undirected" x="563.0" y="801.658208482304" />
+        <Point elementId="a2d18" arrowHead="Directed" x="621.0" y="801.658208482304" />
+      </Waypoints>
+      <Graphics lineColor="cc00cc" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33362" />
+    </Interaction>
+    <Interaction elementId="ab701">
+      <Waypoints>
+        <Point elementId="ec99f" arrowHead="Undirected" x="563.0" y="761.6593972779119" />
+        <Point elementId="cbf59" arrowHead="Directed" x="621.0" y="761.6593972779119" />
+      </Waypoints>
+      <Graphics lineColor="999900" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33363" />
+    </Interaction>
+    <Interaction elementId="e1705">
+      <Waypoints>
+        <Point elementId="ffa12" arrowHead="Undirected" x="564.0" y="940.0" />
+        <Point elementId="f21ed" arrowHead="Directed" x="622.0" y="940.5012759336341" />
+      </Waypoints>
+      <Graphics lineColor="00cccc" lineStyle="Dashed" lineWidth="2.0" connectorType="Straight" zOrder="33364" />
+    </Interaction>
+    <Interaction elementId="cfd20">
+      <Waypoints>
+        <Point elementId="efdf4" arrowHead="Undirected" x="563.0" y="741.6593972779119" />
+        <Point elementId="d421c" arrowHead="Directed" x="621.0" y="741.6593972779119" />
+      </Waypoints>
+      <Graphics lineColor="00ffff" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33365" />
+    </Interaction>
+    <Interaction elementId="e9889">
+      <Waypoints>
+        <Point elementId="e2f7f" arrowHead="Undirected" x="586.5" y="490.5" elementRef="c15f6" relX="0.0" relY="1.0" />
+        <Point elementId="bf38b" arrowHead="Undirected" x="586.0" y="510.0" elementRef="cc4d5" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="ff3399" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="33366" />
+    </Interaction>
+    <Interaction elementId="ca2bc">
+      <Waypoints>
+        <Point elementId="a3ea9" arrowHead="Undirected" x="563.0" y="681.0" />
+        <Point elementId="c5663" arrowHead="Directed" x="621.0000017000197" y="681.6593972779119" />
+      </Waypoints>
+      <Graphics lineColor="ffcc33" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33367" />
+    </Interaction>
+    <Interaction elementId="dd4b6">
+      <Waypoints>
+        <Point elementId="da29a" arrowHead="Undirected" x="661.0" y="494.0" elementRef="f152b" relX="0.0" relY="1.0" />
+        <Point elementId="d74a9" arrowHead="Undirected" x="661.0" y="518.0" elementRef="dd44d" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="33368" />
+    </Interaction>
+    <Interaction elementId="d1918">
+      <Waypoints>
+        <Point elementId="b1067" arrowHead="Undirected" x="618.0" y="1004.0" />
+        <Point elementId="d4f00" arrowHead="Directed" x="618.0" y="1019.0" />
+      </Waypoints>
+      <Graphics lineColor="ff00ff" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="33369" />
+    </Interaction>
+    <Interaction elementId="c8572">
+      <Waypoints>
+        <Point elementId="a7734" arrowHead="Undirected" x="563.0" y="721.6593972779119" />
+        <Point elementId="c7378" arrowHead="Directed" x="621.0" y="721.6593972779119" />
+      </Waypoints>
+      <Graphics lineColor="0000ff" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33390" />
+    </Interaction>
+    <Interaction elementId="ec18f">
+      <Waypoints>
+        <Point elementId="f85e1" arrowHead="Undirected" x="563.0" y="701.6593972779119" />
+        <Point elementId="d3b41" arrowHead="Directed" x="621.0" y="701.6593972779119" />
+      </Waypoints>
+      <Graphics lineColor="ff9933" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33391" />
+    </Interaction>
+    <Interaction elementId="fc468">
+      <Waypoints>
+        <Point elementId="ceca2" arrowHead="Undirected" x="562.0" y="781.0" />
+        <Point elementId="b5f6e" arrowHead="Directed" x="621.0" y="781.5036535248503" />
+      </Waypoints>
+      <Graphics lineColor="cccc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33398" />
+    </Interaction>
+    <Interaction elementId="f00b0">
+      <Waypoints>
+        <Point elementId="c9f8e" arrowHead="Undirected" x="563.0" y="841.6570196866958" />
+        <Point elementId="f5690" arrowHead="Directed" x="621.0" y="841.6570196866958" />
+      </Waypoints>
+      <Graphics lineColor="770000" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33400" />
+    </Interaction>
+    <Interaction elementId="c1047">
+      <Waypoints>
+        <Point elementId="f6355" arrowHead="Undirected" x="563.0" y="861.6570196866958" />
+        <Point elementId="a4386" arrowHead="Directed" x="621.0" y="861.6570196866958" />
+      </Waypoints>
+      <Graphics lineColor="775200" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33402" />
+    </Interaction>
+    <Interaction elementId="ab473">
+      <Waypoints>
+        <Point elementId="f8d5b" arrowHead="Undirected" x="563.0" y="881.6570196866958" />
+        <Point elementId="e7c28" arrowHead="Directed" x="621.0" y="881.6570196866958" />
+      </Waypoints>
+      <Graphics lineColor="ff6666" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33404" />
+    </Interaction>
+    <Interaction elementId="fea48">
+      <Waypoints>
+        <Point elementId="ef2fc" arrowHead="Undirected" x="563.0" y="901.6570196866958" />
+        <Point elementId="b0c62" arrowHead="Directed" x="621.0" y="901.6570196866958" />
+      </Waypoints>
+      <Graphics lineColor="999999" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33418" />
+    </Interaction>
+    <Interaction elementId="e3d22">
+      <Waypoints>
+        <Point elementId="aba6b" arrowHead="Undirected" x="588.0" y="636.0" />
+        <Point elementId="ad9ec" arrowHead="Transcription-translation" x="621.0" y="636.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33420" />
+    </Interaction>
+    <Interaction elementId="c528a">
+      <Waypoints>
+        <Point elementId="a517e" arrowHead="Undirected" x="564.0" y="636.0" />
+        <Point elementId="f5f77" arrowHead="Inhibition" x="589.0" y="636.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33421" />
+    </Interaction>
+    <Interaction elementId="c5b24">
+      <Waypoints>
+        <Point elementId="a0777" arrowHead="Undirected" x="562.0" y="613.0" />
+        <Point elementId="b1315" arrowHead="Transcription-translation" x="620.0" y="613.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33422" />
+    </Interaction>
+    <Interaction elementId="a1ab6">
+      <Waypoints>
+        <Point elementId="dc342" arrowHead="Undirected" x="562.0" y="575.0" />
+        <Point elementId="e4eb8" arrowHead="Directed" x="620.0" y="575.0" />
+      </Waypoints>
+      <Graphics lineColor="00cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33423" />
+    </Interaction>
+    <Interaction elementId="c3d33">
+      <Waypoints>
+        <Point elementId="ceba9" arrowHead="Undirected" x="562.0" y="595.0" />
+        <Point elementId="b27d1" arrowHead="Directed" x="620.0" y="595.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="2.0" connectorType="Straight" zOrder="33424" />
+    </Interaction>
+    <Interaction elementId="eaaa7">
+      <Waypoints>
+        <Point elementId="c3471" arrowHead="Undirected" x="609.3333333333335" y="661.3333333333326" />
+        <Point elementId="f920b" arrowHead="Directed" x="616.0" y="667.9999999999991" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33425" />
+    </Interaction>
+  </Interactions>
+  <Labels>
+    <Label elementId="aa4f3" textLabel="Protein">
+      <Graphics centerX="591.5" centerY="962.5" width="61.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="28672" />
+    </Label>
+    <Label elementId="d3ba7" textLabel="IL-9 Signaling Pathway">
+      <Graphics centerX="295.3333333333334" centerY="161.66666666666663" width="254.66666666666686" height="34.66666666666674" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="20" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="32984" />
+    </Label>
+    <Label elementId="f6c40" textLabel="CY">
+      <Graphics centerX="160.66666666666185" centerY="905.0" width="80.0" height="20.0" textColor="ff00ff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="ff00ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33321" />
+    </Label>
+    <Label elementId="fc958" textLabel="CY">
+      <Graphics centerX="300.6666666666622" centerY="905.0" width="80.0" height="20.0" textColor="ff00ff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="ff00ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33322" />
+    </Label>
+    <Label elementId="bd212" textLabel="CY">
+      <Graphics centerX="230.6666666666615" centerY="905.0" width="80.0" height="20.0" textColor="ff00ff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="ff00ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33323" />
+    </Label>
+    <Label elementId="a6bc7" textLabel="NU">
+      <Graphics centerX="160.66666666666185" centerY="957.0" width="80.0" height="20.0" textColor="ff00ff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="ff00ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33324" />
+    </Label>
+    <Label elementId="bf8cf" textLabel="NU">
+      <Graphics centerX="230.6666666666615" centerY="957.0" width="80.0" height="20.0" textColor="ff00ff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="ff00ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33325" />
+    </Label>
+    <Label elementId="b0b00" textLabel="NU">
+      <Graphics centerX="300.6666666666622" centerY="957.0" width="80.0" height="20.0" textColor="ff00ff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="ff00ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33326" />
+    </Label>
+    <Label elementId="db428" textLabel="mRNA">
+      <Graphics centerX="832.5" centerY="481.0" width="41.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Italic" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33354" />
+    </Label>
+    <Label elementId="c15f6" textLabel="Ligand">
+      <Graphics centerX="586.5" centerY="480.5" width="51.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33355" />
+    </Label>
+    <Label elementId="d09ae" textLabel="Protein">
+      <Graphics centerX="768.5" centerY="481.5" width="69.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33356" />
+    </Label>
+    <Label elementId="c6e02" textLabel="Enzyme complex">
+      <Graphics centerX="793.5" centerY="528.5" width="121.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ccff33" shapeType="Rectangle" zOrder="33357" />
+    </Label>
+    <Label elementId="dd44d" textLabel="Receptor">
+      <Graphics centerX="661.0" centerY="528.0" width="76.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33358" />
+    </Label>
+    <Label elementId="f6b7f" textLabel="Inhibition">
+      <Graphics centerX="677.0" centerY="920.0" width="66.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33372" />
+    </Label>
+    <Label elementId="ea116" textLabel="Auto catalysis">
+      <Graphics centerX="694.0" centerY="661.0" width="94.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33373" />
+    </Label>
+    <Label elementId="ae44c" textLabel="Transport">
+      <Graphics centerX="677.0" centerY="941.0" width="66.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33374" />
+    </Label>
+    <Label elementId="c54c2" textLabel="Positive regulation of gene expression">
+      <Graphics centerX="769.8333333333333" centerY="616.0" width="247.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33375" />
+    </Label>
+    <Label elementId="d2355" textLabel="Leads to through unknown mechanism">
+      <Graphics centerX="771.8333333333333" centerY="595.0" width="243.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33376" />
+    </Label>
+    <Label elementId="bed0a" textLabel="Negative regulation of gene expression">
+      <Graphics centerX="771.8333333333333" centerY="637.0" width="247.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33377" />
+    </Label>
+    <Label elementId="d1859" textLabel="Translocation ">
+      <Graphics centerX="693.0" centerY="1003.0" width="92.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33378" />
+    </Label>
+    <Label elementId="f380f" textLabel="Ubiquitination">
+      <Graphics centerX="693.8333333333333" centerY="800.0" width="93.66666666666663" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33379" />
+    </Label>
+    <Label elementId="a6742" textLabel="Deubiquitination">
+      <Graphics centerX="701.1666666666666" centerY="821.0" width="111.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33380" />
+    </Label>
+    <Label elementId="f94ba" textLabel="Sumoylation">
+      <Graphics centerX="688.0" centerY="760.0" width="86.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33381" />
+    </Label>
+    <Label elementId="bd7f0" textLabel="Induced catalysis">
+      <Graphics centerX="700.5" centerY="961.0" width="111.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33382" />
+    </Label>
+    <Label elementId="b609e" textLabel="Protein-protein interaction">
+      <Graphics centerX="735.3333333333333" centerY="575.0" width="172.66666666666663" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33383" />
+    </Label>
+    <Label elementId="e177a" textLabel="Acetylation">
+      <Graphics centerX="686.0" centerY="681.0" width="74.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33384" />
+    </Label>
+    <Label elementId="a0c07" textLabel="Dephosphorylation">
+      <Graphics centerX="708.1666666666666" centerY="740.0" width="127.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33385" />
+    </Label>
+    <Label elementId="e7c49" textLabel="LEGEND">
+      <Graphics centerX="718.0" centerY="434.0" width="80.0" height="20.0" textColor="3333ff" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="14" hAlign="Center" vAlign="Middle" borderColor="3333ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33386" />
+    </Label>
+    <Label elementId="c0d65" textLabel="Phosphorylation">
+      <Graphics centerX="700.1666666666666" centerY="721.0" width="111.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33387" />
+    </Label>
+    <Label elementId="a5731" textLabel="Deacetylation">
+      <Graphics centerX="691.5" centerY="702.0" width="89.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33392" />
+    </Label>
+    <Label elementId="e5ae0" textLabel="Golgi apparatus">
+      <Graphics centerX="698.3333333333334" centerY="1131.6666666666667" width="106.33333333333333" height="16.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33394" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </Label>
+    <Label elementId="b91d4" textLabel="Endosome">
+      <Graphics centerX="681.6666666666666" centerY="1096.6666666666667" width="71.33333333333333" height="16.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33395" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </Label>
+    <Label elementId="e8956" textLabel="Nucleus">
+      <Graphics centerX="674.3333333333331" centerY="1168.6666666666667" width="55.333333333333336" height="16.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33396" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </Label>
+    <Label elementId="ea9fb" textLabel="Mitochondrion">
+      <Graphics centerX="693.9999999999999" centerY="1149.6666666666667" width="96.33333333333333" height="16.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33397" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </Label>
+    <Label elementId="faba9" textLabel="Desumoylation">
+      <Graphics centerX="696.5" centerY="780.0" width="99.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33399" />
+    </Label>
+    <Label elementId="fa258" textLabel="Methylation">
+      <Graphics centerX="685.5" centerY="842.0" width="75.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33401" />
+    </Label>
+    <Label elementId="e8aa6" textLabel="Demethylation">
+      <Graphics centerX="694.5" centerY="862.0" width="93.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33403" />
+    </Label>
+    <Label elementId="e008b" textLabel="Palmitoylation">
+      <Graphics centerX="693.0" centerY="881.0" width="90.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33405" />
+    </Label>
+    <Label elementId="bde0d" textLabel="Cytoplasm">
+      <Graphics centerX="680.6666666666666" centerY="1057.6666666666667" width="71.33333333333333" height="16.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33406" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </Label>
+    <Label elementId="e655b" textLabel="EC">
+      <Graphics centerX="611.9999999999999" centerY="1078.6666666666667" width="22.333333333333332" height="16.0" textColor="ff00ff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="ff00ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33407" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </Label>
+    <Label elementId="aad8b" textLabel="Plasma membrane">
+      <Graphics centerX="706.3333333333334" centerY="1037.6666666666667" width="120.66666666666674" height="16.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33408" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </Label>
+    <Label elementId="f5ed6" textLabel="MT">
+      <Graphics centerX="612.9999999999999" centerY="1148.6666666666667" width="24.333333333333332" height="16.0" textColor="ff00ff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="ff00ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33409" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </Label>
+    <Label elementId="eb785" textLabel="Endoplasmic reticulum">
+      <Graphics centerX="721.6666666666666" centerY="1114.6666666666667" width="150.33333333333334" height="16.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33410" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </Label>
+    <Label elementId="a55b6" textLabel="CY">
+      <Graphics centerX="611.9999999999999" centerY="1057.6666666666667" width="22.333333333333332" height="16.0" textColor="ff00ff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="ff00ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33411" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </Label>
+    <Label elementId="d4a1c" textLabel="PM">
+      <Graphics centerX="612.9999999999999" centerY="1038.6666666666667" width="25.333333333333332" height="16.0" textColor="ff00ff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="ff00ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33412" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </Label>
+    <Label elementId="f4115" textLabel="GO">
+      <Graphics centerX="611.9999999999999" centerY="1131.6666666666667" width="25.333333333333332" height="16.0" textColor="ff00ff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="ff00ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33413" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </Label>
+    <Label elementId="d1e98" textLabel="NU">
+      <Graphics centerX="611.9999999999999" centerY="1168.6666666666667" width="23.333333333333332" height="16.0" textColor="ff00ff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="ff00ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33414" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </Label>
+    <Label elementId="c5918" textLabel="Extracellular">
+      <Graphics centerX="687.6666666666666" centerY="1076.6666666666667" width="86.33333333333333" height="16.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33415" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </Label>
+    <Label elementId="e3f9a" textLabel="ER">
+      <Graphics centerX="611.9999999999999" centerY="1114.6666666666667" width="22.333333333333332" height="16.0" textColor="ff00ff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="ff00ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33416" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </Label>
+    <Label elementId="e6ab2" textLabel="EN">
+      <Graphics centerX="611.9999999999999" centerY="1097.6666666666667" width="22.333333333333332" height="16.0" textColor="ff00ff" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="ff00ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33417" />
+      <Property key="org.pathvisio.model.GenMAPP-Xref" value="" />
+    </Label>
+    <Label elementId="a8d2f" textLabel="Proteolytic cleavage">
+      <Graphics centerX="708.0" centerY="901.0" width="122.0" height="20.0" textColor="000000" fontName="SansSerif" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="33419" />
+    </Label>
+  </Labels>
+  <Shapes>
+    <Shape elementId="f23a8">
+      <Graphics centerX="242.3333333333299" centerY="509.66666666666663" width="14.907119999999999" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="2.0" fillColor="00000000" shapeType="Arc" zOrder="33316" rotation="2.554867" />
+    </Shape>
+    <Shape elementId="cbca1" groupRef="da350">
+      <Graphics centerX="293.66666666666424" centerY="306.0" width="28.0" height="28.0" textColor="ff0066" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ff0066" borderStyle="Solid" borderWidth="1.0" fillColor="ff3399" shapeType="Oval" zOrder="33317" rotation="0.0" />
+    </Shape>
+    <Shape elementId="a3c05" groupRef="da350">
+      <Graphics centerX="270.6666666666631" centerY="317.5" width="30.0" height="31.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Arc" zOrder="33318" rotation="0.0" />
+    </Shape>
+    <Shape elementId="f719c" groupRef="da350">
+      <Graphics centerX="319.66666666666515" centerY="315.5" width="30.0" height="31.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Arc" zOrder="33319" rotation="0.0" />
+    </Shape>
+    <Shape elementId="ef732">
+      <Graphics centerX="345.33333333333337" centerY="508.66666666666663" width="14.907119999999999" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="2.0" fillColor="00000000" shapeType="Arc" zOrder="33320" rotation="2.554867" />
+    </Shape>
+    <Shape elementId="f152b">
+      <Graphics centerX="661.0" centerY="478.5" width="30.0" height="31.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Arc" zOrder="33370" rotation="0.0" />
+    </Shape>
+    <Shape elementId="cc4d5">
+      <Graphics centerX="586.0" centerY="524.0" width="28.0" height="28.0" textColor="ff0066" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ff0066" borderStyle="Solid" borderWidth="1.0" fillColor="ff3399" shapeType="Oval" zOrder="33371" rotation="0.0" />
+    </Shape>
+    <Shape elementId="b0c82">
+      <Graphics centerX="725.5" centerY="802.0" width="355.0" height="764.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="33393" rotation="0.0" />
+    </Shape>
+    <Shape elementId="e206a">
+      <Graphics centerX="604.6666666666666" centerY="664.6666666666658" width="14.907119999999999" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="2.0" fillColor="00000000" shapeType="Arc" zOrder="33426" rotation="2.554867" />
+    </Shape>
+    <Shape elementId="ebfb3">
+      <Graphics centerX="623.5" centerY="972.5" width="15.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Oval" zOrder="33427" rotation="0.0" />
+    </Shape>
+  </Shapes>
+  <Groups>
+    <Group elementId="c97f2" type="Group">
+      <Graphics centerX="399.9324000000015" centerY="872.1666666666665" width="71.86480000000307" height="59.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="f94a1" type="Group">
+      <Graphics centerX="399.8333333333362" centerY="765.6666666666666" width="78.33333333333303" height="58.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="f9d52" type="Group">
+      <Graphics centerX="284.6666666666637" centerY="823.8333333333334" width="70.0000000000021" height="59.66666666666674" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="cdaa9" type="Group">
+      <Graphics centerX="284.6666666666637" centerY="1049.8333333333335" width="70.0000000000021" height="59.66666666666674" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="c3b41" type="Group">
+      <Graphics centerX="216.33333333332848" centerY="1049.6666666666667" width="66.0" height="58.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="a9979" type="Group">
+      <Graphics centerX="146.16666666666424" centerY="1048.980091012514" width="70.33333333332848" height="57.960182025028416" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="f3d62" type="Group">
+      <Graphics centerX="216.33333333332848" centerY="823.6666666666667" width="66.0" height="58.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="a4e60" type="Group">
+      <Graphics centerX="500.16666666667027" centerY="611.1666666666665" width="70.33333333334053" height="59.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="da350" type="Group">
+      <Graphics centerX="295.16666666666333" centerY="322.0" width="113.00000000000182" height="190.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+  </Groups>
+  <Annotations>
+    <Annotation elementId="ccaf3" value="Interleukin mediated signaling pathway" type="Pathway Ontology">
+      <Xref identifier="0000512" dataSource="PW" />
+    </Annotation>
+    <Annotation elementId="aa445" value="interleukin-9 signaling pathway" type="Pathway Ontology">
+      <Xref identifier="0000909" dataSource="PW" />
+    </Annotation>
+  </Annotations>
+</Pathway>

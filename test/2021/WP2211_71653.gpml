@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="Geranylgeranyldiphosphate biosynthesis II (plastidic)" organism="Oryza sativa" source="RiceCyc" version="20110915">
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment source="WikiPathways-description">In plants the geranyl-geranyl diphosphate (GGPP) as a precursor molecule that feeds in the biosynthesis of essential compounds such as chlorophylls, carotenoids, plastoquinones, growth hormone gibberellin and other secondary metabolites. Occurs in plastids.</Comment>
+  <AnnotationRef elementRef="f8b6f" />
+  <AnnotationRef elementRef="d570a" />
+  <CitationRef elementRef="b1a" />
+  <CitationRef elementRef="a22" />
+  <CitationRef elementRef="f44" />
+  <CitationRef elementRef="bdb" />
+  <CitationRef elementRef="acd" />
+  <CitationRef elementRef="d3e" />
+  <CitationRef elementRef="d01" />
+  <Graphics boardWidth="1021.5571635209417" boardHeight="965.4425607010502" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <DataNodes>
+    <DataNode elementId="d120d" textLabel="Delta3-isopentenyl-PP" type="Metabolite">
+      <Xref identifier="C00129" dataSource="kegg.compound" />
+      <Graphics centerX="501.5" centerY="72.10648585782997" width="149.0" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="bc11b" textLabel="Geranyl-PP" type="Metabolite">
+      <Xref identifier="C00341" dataSource="kegg.compound" />
+      <Graphics centerX="501.7375865285658" centerY="396.2077846481381" width="80.0" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="a45cf" textLabel="EC:2.5.1.1 (Geranyl-diphosphate synthase)" type="GeneProduct">
+      <Xref identifier="2.5.1.1" dataSource="ec-code" />
+      <Graphics centerX="667.1109936575651" centerY="233.9420316163951" width="251.3067378915166" height="19.996739289128186" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="ddf5c" textLabel="trans, trans-farnesyl diphosphate" type="Metabolite">
+      <Xref identifier="13058-04-3" dataSource="cas" />
+      <Graphics centerX="501.3687932642829" centerY="680.9924047776798" width="184.73758652856577" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="e8e55" textLabel="EC:2.5.1.10 (Farnesyl pyrophosphate synthetase)" type="GeneProduct">
+      <Xref identifier="2.5.1.10" dataSource="ec-code" />
+      <Graphics centerX="677.5618429429942" centerY="538.0842992270278" width="268.0233551252387" height="20.21787917688985" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="b9fc8" textLabel="Geranylgeranyl diphosphate" type="Metabolite">
+      <Xref identifier="15831" dataSource="chebi" />
+      <Graphics centerX="501.73758652856577" centerY="925.4425607010502" width="168.0" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="ac174" textLabel="EC:2.5.1.29 (Geranylgeranyl pyrophosphate synthase)" type="GeneProduct">
+      <Xref identifier="2.5.1.29" dataSource="ec-code" />
+      <Graphics centerX="683.0108545429134" centerY="819.1639580023904" width="298.76702330853914" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="c0317" textLabel="Diphosphate" type="Metabolite">
+      <Xref identifier="2466-09-3" dataSource="cas" />
+      <Graphics centerX="397.0224445695248" centerY="602.1125863451811" width="80.0" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="b77de" textLabel="Dimethylallyl-PP" type="Metabolite">
+      <Xref identifier="358-71-4" dataSource="cas" />
+      <Graphics centerX="397.1830985915493" centerY="188.96263634108848" width="95.77464788732395" height="30.525431543175145" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="f0fdd" textLabel="Methylerythritol phosphate pathway" type="Pathway">
+      <Xref identifier="WP2212" dataSource="wikipathways" />
+      <Graphics centerX="161.2891099110305" centerY="255.98031060381635" width="260.52037172723476" height="28.884449214902588" textColor="14961e" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="14" hAlign="Center" vAlign="Middle" borderColor="14961e" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="bf01c" textLabel="LOC_Os12g17320" type="GeneProduct" groupRef="f76fa">
+      <Xref identifier="LOC_Os12g17320" dataSource="Gramene Rice" />
+      <Graphics centerX="913.9759803820787" centerY="245.58932172618202" width="142.89710289710294" height="19.999999999999986" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Comment>polyprenyl synthetase, putative, expressed</Comment>
+    </DataNode>
+    <DataNode elementId="aceee" textLabel="LOC_Os08g09370" type="GeneProduct" groupRef="f76fa">
+      <Xref identifier="LOC_Os08g09370" dataSource="Gramene Rice" />
+      <Graphics centerX="913.9759803820788" centerY="217.27826461804216" width="142.89710289710294" height="19.999999999999986" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Comment>polyprenyl synthetase, putative, expressed</Comment>
+    </DataNode>
+    <DataNode elementId="e4cf8" textLabel="LOC_Os06g46450" type="GeneProduct" groupRef="f76fa">
+      <Xref identifier="LOC_Os06g46450" dataSource="Gramene Rice" />
+      <Graphics centerX="913.9759803820787" centerY="192.41799730333952" width="142.89710289710294" height="19.999999999999986" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Comment>polyprenyl synthetase, putative, expressed</Comment>
+    </DataNode>
+    <DataNode elementId="e8b8e" textLabel="LOC_Os05g50550" type="GeneProduct" groupRef="f76fa">
+      <Xref identifier="LOC_Os05g50550" dataSource="Gramene Rice" />
+      <Graphics centerX="913.9759803820787" centerY="272.05347725473763" width="142.89710289710294" height="19.999999999999986" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Comment>polyprenyl synthetase, putative, expressed</Comment>
+    </DataNode>
+    <DataNode elementId="bb3cb" textLabel="LOC_Os09g33930" type="GeneProduct" groupRef="fb9da">
+      <Xref identifier="LOC_Os09g33930" dataSource="Gramene Rice" />
+      <Graphics centerX="919.6892147196315" centerY="859.6249709045146" width="126.0440713536198" height="19.999999999999943" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Comment>farnesyltransferase/geranylgeranyltransferase type-1 subunitalpha, putative, expressed//farnesyltranstransferase</Comment>
+    </DataNode>
+    <DataNode elementId="f11ad" textLabel="LOC_Os01g53600" type="GeneProduct" groupRef="fb9da">
+      <Xref identifier="LOC_Os01g53600" dataSource="Gramene Rice" />
+      <Graphics centerX="919.6892147196313" centerY="839.4330652124545" width="126.0440713536198" height="19.999999999999943" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Comment>farnesyltransferase subunit beta, putative, expressed//farnesyltranstransferase//protein farnesyltransferase</Comment>
+    </DataNode>
+    <DataNode elementId="de7e8" textLabel="LOC_Os07g39270" type="GeneProduct" groupRef="fb9da">
+      <Xref identifier="LOC_Os07g39270" dataSource="Gramene Rice" />
+      <Graphics centerX="919.6892147196315" centerY="819.4330652124547" width="126.0440713536198" height="19.999999999999943" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Comment>polyprenyl synthetase, putative, expressed//isoprenoid biosynthetic process//diterpene phytoalexin metabolic process//farnesyltranstransferase</Comment>
+    </DataNode>
+    <DataNode elementId="fcdd2" textLabel="LOC_Os02g44780" type="GeneProduct" groupRef="fb9da">
+      <Xref identifier="LOC_Os02g44780" dataSource="Gramene Rice" />
+      <Graphics centerX="919.689214719619" centerY="799.4330652124562" width="126.04407135361987" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Comment>polyprenyl synthetase, putative, expressed//isoprenoid biosynthetic process//diterpene phytoalexin metabolic process//farnesyltranstransferase</Comment>
+    </DataNode>
+    <DataNode elementId="f8ee9" textLabel="LOC_OS01G14630" type="GeneProduct" groupRef="fb9da">
+      <Xref identifier="LOC_OS01G14630" dataSource="Gramene Rice" />
+      <Graphics centerX="919.6892147196313" centerY="779.4330652124546" width="126.0440713536198" height="19.999999999999943" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Comment>polyprenyl synthetase, putative, expressed//diterpene phytoalexin metabolic process</Comment>
+    </DataNode>
+    <DataNode elementId="f7d12" textLabel="Delta3-isopentenyl-PP" type="Metabolite">
+      <Xref identifier="C00129" dataSource="kegg.compound" />
+      <Graphics centerX="382.4374724514299" centerY="456.5178500441604" width="130.87494490285985" height="19.999999999999986" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32769" />
+    </DataNode>
+    <DataNode elementId="b62ef" textLabel="Diphosphate" type="Metabolite">
+      <Xref identifier="2466-09-3" dataSource="cas" />
+      <Graphics centerX="384.22345061821323" centerY="885.2934231910757" width="80.0" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32772" />
+    </DataNode>
+    <DataNode elementId="eb4a5" textLabel="Delta3-isopentenyl-PP" type="Metabolite">
+      <Xref identifier="C00129" dataSource="kegg.compound" />
+      <Graphics centerX="370.7136066702674" centerY="753.1492197710415" width="125.42721334053476" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32773" />
+    </DataNode>
+    <DataNode elementId="aa664" textLabel="Diphosphate" type="Metabolite">
+      <Xref identifier="2466-09-3" dataSource="cas" />
+      <Graphics centerX="405.92068295247265" centerY="309.4529790664672" width="80.00000000000003" height="19.999999999999986" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32775" />
+    </DataNode>
+    <DataNode elementId="baeec" textLabel="LOC_Os04g56230" type="GeneProduct" groupRef="d85f9">
+      <Xref identifier="LOC_Os04g56230" dataSource="Gramene Rice" />
+      <Graphics centerX="920.1086120723902" centerY="573.5928671688508" width="142.8971028971029" height="19.999999999999943" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32783" />
+      <Comment>TRAF-type zinc finger family protein</Comment>
+    </DataNode>
+    <DataNode elementId="dcd6a" textLabel="LOC_Os01g50760 (FPPS)" type="GeneProduct" groupRef="d85f9">
+      <Xref identifier="LOC_Os01g50760" dataSource="Gramene Rice" />
+      <Graphics centerX="920.1086120723902" centerY="502.7525310343967" width="142.8971028971029" height="20.000000000000004" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32784" />
+      <Comment>polyprenyl synthetase, putative, expressed</Comment>
+      <CitationRef elementRef="d01" />
+    </DataNode>
+    <DataNode elementId="ce9a2" textLabel="LOC_Os04g56210" type="GeneProduct" groupRef="d85f9">
+      <Xref identifier="LOC_Os04g56210" dataSource="Gramene Rice" />
+      <Graphics centerX="920.1086120723902" centerY="550.0634554041316" width="142.8971028971029" height="19.999999999999943" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32786" />
+      <Comment>polyprenyl synthetase, putative, expressed</Comment>
+    </DataNode>
+    <DataNode elementId="a0a07" textLabel="LOC_Os01g50050" type="GeneProduct" groupRef="d85f9">
+      <Xref identifier="LOC_Os01g50050" dataSource="Gramene Rice" />
+      <Graphics centerX="920.1086120723901" centerY="527.5004301940446" width="142.8971028971029" height="19.999999999999943" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32789" />
+      <Comment>polyprenyl synthetase, putative, expressed</Comment>
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="idb3e022e0">
+      <Waypoints>
+        <Point elementId="e589a" arrowHead="Undirected" x="501.73758652856577" y="406.2077846481381" elementRef="bc11b" relX="0.0" relY="1.0" />
+        <Point elementId="e080d" arrowHead="Directed" x="501.3687932642829" y="670.9924047776798" elementRef="ddf5c" relX="0.0" relY="-1.0" />
+        <Anchor elementId="b91da" position="0.5" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id206ac4ab">
+      <Waypoints>
+        <Point elementId="b608d" arrowHead="Undirected" x="543.5501653803749" y="538.0842992270277" elementRef="e8e55" relX="-1.0" relY="0.0" />
+        <Point elementId="fb599" arrowHead="Catalysis" x="501.5531898964243" y="538.6000947129089" elementRef="b91da" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="ida3507e27">
+      <Waypoints>
+        <Point elementId="a0363" arrowHead="Undirected" x="501.3687932642829" y="690.9924047776798" elementRef="ddf5c" relX="0.0" relY="1.0" />
+        <Point elementId="ea5a1" arrowHead="Directed" x="501.73758652856577" y="915.4425607010502" elementRef="b9fc8" relX="0.0" relY="-1.0" />
+        <Anchor elementId="ce68b" position="0.5672174806337065" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id471f45d8">
+      <Waypoints>
+        <Point elementId="e9af6" arrowHead="Undirected" x="533.6273428886439" y="819.1639580023904" elementRef="ac174" relX="-1.0" relY="0.0" />
+        <Point elementId="e898d" arrowHead="Catalysis" x="501.5779792505241" y="818.3044567483765" elementRef="ce68b" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="idb12262c">
+      <Waypoints>
+        <Point elementId="de8af" arrowHead="Undirected" x="447.87494490285985" y="456.5178500441604" elementRef="f7d12" relX="1.0" relY="0.0" />
+        <Point elementId="d8b00" arrowHead="Undirected" x="502.81690140845075" y="497.5589723785347" />
+        <Point elementId="b8360" arrowHead="Directed" x="501.5531898964243" y="538.6000947129089" elementRef="b91da" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Curved" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id1e219796">
+      <Waypoints>
+        <Point elementId="ba74b" arrowHead="Undirected" x="501.5531898964243" y="538.6000947129089" elementRef="b91da" relX="0.0" relY="0.0" />
+        <Point elementId="f2592" arrowHead="Undirected" x="502.81690140845075" y="570.3563405290449" />
+        <Point elementId="a1e39" arrowHead="Directed" x="437.0224445695248" y="602.1125863451811" elementRef="c0317" relX="1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Curved" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id14ee7ceb">
+      <Waypoints>
+        <Point elementId="de9c7" arrowHead="Undirected" x="445.07042253521126" y="181.33127845529467" elementRef="b77de" relX="1.0" relY="-0.5" />
+        <Point elementId="d1868" arrowHead="Undirected" x="498.59154929577466" y="207.74420685413935" />
+        <Point elementId="c0ce2" arrowHead="Directed" x="501.6187932642829" y="234.15713525298403" elementRef="f34f8" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Curved" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id15a83c9f">
+      <Waypoints>
+        <Point elementId="b40d0" arrowHead="Undirected" x="427.0" y="72.10648585782997" elementRef="d120d" relX="-1.0" relY="0.0" />
+        <Point elementId="c98b4" arrowHead="Directed" x="161.2891099110305" y="241.53808599636506" elementRef="f0fdd" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Curved" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="idd5d26da">
+      <Waypoints>
+        <Point elementId="b01eb" arrowHead="Undirected" x="834.5274289335271" y="232.23573727903857" elementRef="f76fa" relX="-1.0" relY="0.0" />
+        <Point elementId="c2782" arrowHead="Undirected" x="792.7643626033234" y="233.9420316163951" elementRef="a45cf" relX="1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id1f159e35">
+      <Waypoints>
+        <Point elementId="a7eca" arrowHead="Undirected" x="840.6600606238385" y="538.1726991016237" elementRef="d85f9" relX="-1.0" relY="0.0" />
+        <Point elementId="e0fdd" arrowHead="Undirected" x="811.5735205056135" y="538.0842992270277" elementRef="e8e55" relX="1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="idf1083275">
+      <Waypoints>
+        <Point elementId="a0a40" arrowHead="Undirected" x="848.667179042809" y="819.5290180584846" elementRef="fb9da" relX="-1.0" relY="0.0" />
+        <Point elementId="c5c9f" arrowHead="Undirected" x="832.394366197183" y="819.1639580023904" elementRef="ac174" relX="1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="d0763">
+      <Waypoints>
+        <Point elementId="c2ed1" arrowHead="Undirected" x="433.42721334053476" y="753.1492197710415" elementRef="eb4a5" relX="1.0" relY="0.0" />
+        <Point elementId="eb165" arrowHead="Undirected" x="500.0" y="785.726838259709" />
+        <Point elementId="cb26a" arrowHead="Directed" x="501.5779792505241" y="818.3044567483765" elementRef="ce68b" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Curved" zOrder="32770" />
+    </Interaction>
+    <Interaction elementId="c8ee2">
+      <Waypoints>
+        <Point elementId="c2f69" arrowHead="Undirected" x="501.5779792505241" y="818.3044567483765" elementRef="ce68b" relX="0.0" relY="0.0" />
+        <Point elementId="e1ed7" arrowHead="Undirected" x="501.4084507042254" y="851.7989399697261" />
+        <Point elementId="a596e" arrowHead="Directed" x="424.22345061821323" y="885.2934231910757" elementRef="b62ef" relX="1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Curved" zOrder="32771" />
+    </Interaction>
+    <Interaction elementId="c9038">
+      <Waypoints>
+        <Point elementId="ab5c9" arrowHead="Undirected" x="501.6187932642829" y="234.15713525298403" elementRef="f34f8" relX="0.0" relY="0.0" />
+        <Point elementId="a1ae7" arrowHead="Undirected" x="502.81690140845075" y="271.8050571597256" />
+        <Point elementId="b71f8" arrowHead="Directed" x="445.9206829524727" y="309.4529790664672" elementRef="aa664" relX="1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Curved" zOrder="32774" />
+    </Interaction>
+    <Interaction elementId="d039a">
+      <Waypoints>
+        <Point elementId="cb4bb" arrowHead="Undirected" x="501.5" y="82.10648585782997" elementRef="d120d" relX="0.0" relY="1.0" />
+        <Point elementId="b3704" arrowHead="Directed" x="501.73758652856577" y="386.2077846481381" elementRef="bc11b" relX="0.0" relY="-1.0" />
+        <Anchor elementId="f34f8" position="0.5" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32787" />
+    </Interaction>
+    <Interaction elementId="de6d5">
+      <Waypoints>
+        <Point elementId="eeee6" arrowHead="Undirected" x="541.4576247118068" y="233.9420316163951" elementRef="a45cf" relX="-1.0" relY="0.0" />
+        <Point elementId="f23ba" arrowHead="Catalysis" x="501.6187932642829" y="234.15713525298403" elementRef="f34f8" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32788" />
+    </Interaction>
+  </Interactions>
+  <Groups>
+    <Group elementId="fb9da" type="Group">
+      <Graphics centerX="919.6892147196252" centerY="819.5290180584846" width="142.04407135363238" height="116.19190569206" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="d85f9" type="Group">
+      <Graphics centerX="920.1086120723901" centerY="538.1726991016237" width="158.89710289710308" height="106.84033613445399" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="f76fa" type="Group">
+      <Graphics centerX="913.9759803820787" centerY="232.23573727903857" width="158.89710289710308" height="115.63547995139811" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+  </Groups>
+  <Annotations>
+    <Annotation elementId="f8b6f" value="plant cell" type="Cell Type">
+      <Xref identifier="0000610" dataSource="CL" />
+    </Annotation>
+    <Annotation elementId="d570a" value="diterpenoid biosynthetic pathway" type="Pathway Ontology">
+      <Xref identifier="0000251" dataSource="PW" />
+    </Annotation>
+  </Annotations>
+  <Citations>
+    <Citation elementId="d3e">
+      <Xref identifier="10353221" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="bdb">
+      <Xref identifier="11522913" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="acd">
+      <Xref identifier="16501255" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="f44">
+      <Xref identifier="1536568" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="a22">
+      <Xref identifier="17872948" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="b1a">
+      <Xref identifier="18256497" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="d01">
+      <Xref identifier="9061016" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>
