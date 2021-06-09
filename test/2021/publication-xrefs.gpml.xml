@@ -1,166 +1,93 @@
-<?xml version='1.0' encoding='utf-8'?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" xmlns:ns1="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" name="test case" version="20210128">
-  <BiopaxRef>ee4</BiopaxRef>
-  <Graphics boardHeight="378.76221498371376" boardWidth="412.7991886409736" />
-  <DataNode elementId="e114e" textLabel="Hmgcr" type="GeneProduct">
-    <BiopaxRef>e0d</BiopaxRef>
-    <BiopaxRef>c0d</BiopaxRef>
-    <BiopaxRef>cf5</BiopaxRef>
-    <BiopaxRef>b4f</BiopaxRef>
-    <Graphics centerX="148.2084690553746" centerY="184.03908794788273" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
-    <Xref dataSource="Entrez Gene" identifier="15357" />
-  </DataNode>
-  <DataNode elementId="c9fbc" textLabel="Metabolite" type="Metabolite">
-    <Graphics centerX="195.4397394136808" centerY="338.76221498371376" Color="0000ff" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="ccc39" textLabel="Pathway" type="Pathway">
-    <BiopaxRef>ba5</BiopaxRef>
-    <BiopaxRef>e88</BiopaxRef>
-    <Graphics centerX="342.7991886409736" centerY="308.316430020284" Color="14961e" fontSize="12" FontWeight="Bold" height="20.0" shapeType="None" vAlign="Middle" width="80.0" zOrder="32768" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <Interaction elementId="id9ee2ea1d">
-    <BiopaxRef>b7a</BiopaxRef>
-    <Graphics lineWidth="1.0" zOrder="12288">
-      <Point elementRef="e114e" relX="0.0" relY="1.0" x="148.2084690553746" y="194.03908794788273" />
-      <Point arrowHead="Arrow" elementRef="c9fbc" relX="0.0" relY="-1.0" x="195.4397394136808" y="328.76221498371376" />
-    </Graphics>
-    <Xref dataSource="" identifier="" />
-  </Interaction>
-  <Interaction elementId="id8ee9f3be">
-    <BiopaxRef>b8e</BiopaxRef>
-    <BiopaxRef>e88</BiopaxRef>
-    <Graphics lineWidth="1.0" zOrder="12288">
-      <Point elementRef="c9fbc" relX="1.0" relY="0.0" x="235.4397394136808" y="338.76221498371376" />
-      <Point arrowHead="Arrow" x="311.10708469055373" y="234.5276872964169" />
-    </Graphics>
-    <Xref dataSource="" identifier="" />
-  </Interaction>
-  <Interaction elementId="id788e2f55">
-    <Graphics lineWidth="1.0" zOrder="12288">
-      <Point x="285.01628664495115" y="262.214983713355" />
-      <Point arrowHead="Arrow" elementRef="e114e" relX="1.0" relY="0.0" x="188.2084690553746" y="184.03908794788273" />
-    </Graphics>
-    <Xref dataSource="" identifier="" />
-  </Interaction>
-  <Shape elementId="ed0ee">
-    <BiopaxRef>b8e</BiopaxRef>
-    <BiopaxRef>c86</BiopaxRef>
-    <BiopaxRef>d54</BiopaxRef>
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Mitochondria" />
-    <Graphics centerX="331.18322475570034" centerY="207.40472312703582" Color="c0c0c0" fontSize="10" height="54.2459283387622" lineWidth="3.0" rotation="0.0" shapeType="Mitochondria" vAlign="Middle" width="80.3045602605863" zOrder="16384" />
-  </Shape>
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20130815">
+  <CitationRef elementRef="ee4" />
+  <Graphics boardWidth="412.7991886409736" boardHeight="378.76221498371376" />
   <InfoBox centerX="0.0" centerY="0.0" />
-  <Biopax>
-    <ns1:PublicationXref rdf:id="ba5">
-      <ns1:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25</ns1:ID>
-      <ns1:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</ns1:DB>
-      <ns1:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmacological properties of new neuroleptic compounds.</ns1:TITLE>
-      <ns1:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arzneimittelforschung</ns1:SOURCE>
-      <ns1:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1975</ns1:YEAR>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coscia L</ns1:AUTHORS>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Causa P</ns1:AUTHORS>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giuliani E</ns1:AUTHORS>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nunziata A</ns1:AUTHORS>
-    </ns1:PublicationXref>
-    <ns1:PublicationXref rdf:id="d54">
-      <ns1:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">363</ns1:ID>
-      <ns1:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</ns1:DB>
-      <ns1:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of the hut operons of Salmonella typhimurium and Klebsiella aerogenes by the heterologous hut repressors.</ns1:TITLE>
-      <ns1:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Bacteriol</ns1:SOURCE>
-      <ns1:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1975</ns1:YEAR>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gerson SL</ns1:AUTHORS>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magasanik B</ns1:AUTHORS>
-    </ns1:PublicationXref>
-    <ns1:PublicationXref rdf:id="cf5">
-      <ns1:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">326</ns1:ID>
-      <ns1:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</ns1:DB>
-      <ns1:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schiff-type dyes in the cytochemical staining of DNA.</ns1:TITLE>
-      <ns1:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indian J Exp Biol</ns1:SOURCE>
-      <ns1:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1975</ns1:YEAR>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dutt MK</ns1:AUTHORS>
-    </ns1:PublicationXref>
-    <ns1:PublicationXref rdf:id="e88">
-      <ns1:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">272</ns1:ID>
-      <ns1:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</ns1:DB>
-      <ns1:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Extrabronchial effects of Bronchodilat in patients with asthma and chronic asthmatic bronchitis].</ns1:TITLE>
-      <ns1:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gruzlica</ns1:SOURCE>
-      <ns1:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1975</ns1:YEAR>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rozniecki J</ns1:AUTHORS>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grabski W</ns1:AUTHORS>
-    </ns1:PublicationXref>
-    <ns1:PublicationXref rdf:id="ee4">
-      <ns1:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34578</ns1:ID>
-      <ns1:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</ns1:DB>
-      <ns1:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rapid screening for urease inhibitors.</ns1:TITLE>
-      <ns1:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Invest Urol</ns1:SOURCE>
-      <ns1:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1979</ns1:YEAR>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamilton-Miller JM</ns1:AUTHORS>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gargan RA</ns1:AUTHORS>
-    </ns1:PublicationXref>
-    <ns1:PublicationXref rdf:id="c86">
-      <ns1:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">346</ns1:ID>
-      <ns1:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</ns1:DB>
-      <ns1:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of severe hypertension with minoxidil.</ns1:TITLE>
-      <ns1:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isr J Med Sci</ns1:SOURCE>
-      <ns1:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1975</ns1:YEAR>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Traub YM</ns1:AUTHORS>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Redmond DP</ns1:AUTHORS>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rosenfeld JB</ns1:AUTHORS>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McDonald RH Jr</ns1:AUTHORS>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shapiro AP</ns1:AUTHORS>
-    </ns1:PublicationXref>
-    <ns1:PublicationXref rdf:id="e0d">
-      <ns1:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6798456</ns1:ID>
-      <ns1:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</ns1:DB>
-      <ns1:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stimulus control and drug dependence.</ns1:TITLE>
-      <ns1:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIDA Res Monogr</ns1:SOURCE>
-      <ns1:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1981</ns1:YEAR>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jasinski DR</ns1:AUTHORS>
-    </ns1:PublicationXref>
-    <ns1:PublicationXref rdf:id="b8e">
-      <ns1:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15719025</ns1:ID>
-      <ns1:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</ns1:DB>
-      <ns1:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role of BH3-only proteins in the immune system.</ns1:TITLE>
-      <ns1:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Immunol</ns1:SOURCE>
-      <ns1:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</ns1:YEAR>
-      <ns1:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15719025</ns1:ID>
-      <ns1:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</ns1:DB>
-      <ns1:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role of BH3-only proteins in the immune system.</ns1:TITLE>
-      <ns1:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Immunol</ns1:SOURCE>
-      <ns1:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</ns1:YEAR>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strasser A</ns1:AUTHORS>
-    </ns1:PublicationXref>
-    <ns1:PublicationXref rdf:id="c0d">
-      <ns1:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2451</ns1:ID>
-      <ns1:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</ns1:DB>
-      <ns1:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The morning after: residual EEG effects of triazolam and flurazepam, alone and in combination with alcohol.</ns1:TITLE>
-      <ns1:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curr Ther Res Clin Exp</ns1:SOURCE>
-      <ns1:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1976</ns1:YEAR>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mendelson WB</ns1:AUTHORS>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goodwin DW</ns1:AUTHORS>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hill SY</ns1:AUTHORS>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reichman JD</ns1:AUTHORS>
-    </ns1:PublicationXref>
-    <ns1:PublicationXref rdf:id="b7a">
-      <ns1:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2324</ns1:ID>
-      <ns1:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</ns1:DB>
-      <ns1:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intramembrane particle aggregation in erythrocyte ghosts. II. The influence of spectrin aggregation.</ns1:TITLE>
-      <ns1:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochim Biophys Acta</ns1:SOURCE>
-      <ns1:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1976</ns1:YEAR>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elgsaeter A</ns1:AUTHORS>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shotton DM</ns1:AUTHORS>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Branton D</ns1:AUTHORS>
-    </ns1:PublicationXref>
-    <ns1:PublicationXref rdf:id="b4f">
-      <ns1:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">264</ns1:ID>
-      <ns1:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</ns1:DB>
-      <ns1:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-Carbamoylmethyluridine: a new minor nucleoside of transfer ribonucleic acid.</ns1:TITLE>
-      <ns1:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem Soc Trans</ns1:SOURCE>
-      <ns1:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1975</ns1:YEAR>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dunn DB</ns1:AUTHORS>
-      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trigg MM</ns1:AUTHORS>
-    </ns1:PublicationXref>
-  </Biopax>
+  <DataNodes>
+    <DataNode elementId="e114e" textLabel="Hmgcr" type="GeneProduct">
+      <Xref identifier="15357" dataSource="ncbigene" />
+      <Graphics centerX="148.2084690553746" centerY="184.03908794788273" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <CitationRef elementRef="e0d" />
+      <CitationRef elementRef="c0d" />
+      <CitationRef elementRef="cf5" />
+      <CitationRef elementRef="b4f" />
+    </DataNode>
+    <DataNode elementId="c9fbc" textLabel="Metabolite" type="Metabolite">
+      <Graphics centerX="195.4397394136808" centerY="338.76221498371376" width="80.0" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="ccc39" textLabel="Pathway" type="Pathway">
+      <Graphics centerX="342.7991886409736" centerY="308.316430020284" width="80.0" height="20.0" textColor="14961e" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="14961e" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="32768" />
+      <CitationRef elementRef="ba5" />
+      <CitationRef elementRef="e88" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="id9ee2ea1d">
+      <Waypoints>
+        <Point elementId="d9873" arrowHead="Undirected" x="148.2084690553746" y="194.03908794788273" elementRef="e114e" relX="0.0" relY="1.0" />
+        <Point elementId="e254c" arrowHead="Directed" x="195.4397394136808" y="328.76221498371376" elementRef="c9fbc" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+      <CitationRef elementRef="b7a" />
+    </Interaction>
+    <Interaction elementId="id8ee9f3be">
+      <Waypoints>
+        <Point elementId="a99b4" arrowHead="Undirected" x="235.4397394136808" y="338.76221498371376" elementRef="c9fbc" relX="1.0" relY="0.0" />
+        <Point elementId="e97ab" arrowHead="Directed" x="311.10708469055373" y="234.5276872964169" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+      <CitationRef elementRef="b8e" />
+      <CitationRef elementRef="e88" />
+    </Interaction>
+    <Interaction elementId="id788e2f55">
+      <Waypoints>
+        <Point elementId="bf38b" arrowHead="Undirected" x="285.01628664495115" y="262.214983713355" />
+        <Point elementId="a470e" arrowHead="Directed" x="188.2084690553746" y="184.03908794788273" elementRef="e114e" relX="1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+  </Interactions>
+  <Shapes>
+    <Shape elementId="ed0ee">
+      <Graphics centerX="331.18322475570034" centerY="207.40472312703582" width="80.3045602605863" height="54.2459283387622" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Mitochondria" zOrder="16384" rotation="0.0" />
+      <CitationRef elementRef="b8e" />
+      <CitationRef elementRef="c86" />
+      <CitationRef elementRef="d54" />
+    </Shape>
+  </Shapes>
+  <Citations>
+    <Citation elementId="ba5">
+      <Xref identifier="25" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="d54">
+      <Xref identifier="363" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="cf5">
+      <Xref identifier="326" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="e88">
+      <Xref identifier="272" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="ee4">
+      <Xref identifier="34578" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="c86">
+      <Xref identifier="346" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="e0d">
+      <Xref identifier="6798456" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="b8e">
+      <Xref identifier="15719025" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="c0d">
+      <Xref identifier="2451" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="b7a">
+      <Xref identifier="2324" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="b4f">
+      <Xref identifier="264" dataSource="pubmed" />
+    </Citation>
+  </Citations>
 </Pathway>

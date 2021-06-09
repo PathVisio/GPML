@@ -1,265 +1,224 @@
-<?xml version='1.0' encoding='utf-8'?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20210128">
-  <Graphics boardHeight="2076.573017093912" boardWidth="1960.036144578313" />
-  <DataNode elementId="bbcd0" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="696.0" centerY="1093.0" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="a1b1c" elementRef="f8097" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="621.8611521418021" centerY="1314.6233382570156" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="d58c3" elementRef="f8097" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="621.861152141802" centerY="1355.9822747415062" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="a52b0" elementRef="bf229" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="870.0147710487445" centerY="1313.14623338257" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="fb3e2" elementRef="bf229" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="867.0605612998519" centerY="1354.5051698670604" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="b6f22" elementRef="bbf57" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="505.16986706056133" centerY="1310.1920236336775" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="d15f1" elementRef="bbf57" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="506.6469719350074" centerY="1354.5051698670602" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="baf80" elementRef="cc497" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="745.9379615952728" centerY="1311.6691285081235" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="d4c6b" elementRef="cc497" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="742.9837518463804" centerY="1355.9822747415064" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="b6219" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="691.5" centerY="1058.0" fontSize="10" height="20.0" vAlign="Middle" width="25.0" zOrder="33017" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="acefb" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="694.5" centerY="1132.0" fontSize="10" height="20.0" vAlign="Middle" width="165.0" zOrder="33018" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="eeaae" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="697.0" centerY="1177.0" fontSize="10" height="44.0" vAlign="Middle" width="80.0" zOrder="33019" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="b52ab" elementRef="e9a69" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="1292.9278710113717" centerY="1513.7141179192406" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="33025" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="db48a" elementRef="e9a69" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="1004.8924204943839" centerY="1301.0110159990045" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="33027" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="fc9b0" elementRef="e70c7" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="69.63944403907918" centerY="1319.9428734138921" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="33028" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="ba7d4" elementRef="ccf37" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="1447.1554163478133" centerY="1174.464060080797" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="33029" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="a1047" elementRef="ccf37" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="1444.2012065989213" centerY="1455.1139862255534" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="33030" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="bf919" elementRef="e70c7" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="393.1254115427735" centerY="1309.6031392927705" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="33031" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <Shape elementId="dba90">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
-    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
-    <Graphics centerX="505.79819277108385" centerY="533.4789156626504" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="41.5" lineWidth="3.0" rotation="0.0" shapeType="RoundedRectangle" vAlign="Middle" width="82.5" zOrder="16384" />
-  </Shape>
-  <Shape elementId="d3acf">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
-    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
-    <Graphics centerX="510.6265060240966" centerY="381.80722891566245" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="100.0" lineWidth="5.0" rotation="0.0" shapeType="RoundedRectangle" vAlign="Middle" width="200.0" zOrder="16384" />
-  </Shape>
-  <Shape elementId="ea24b">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
-    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
-    <Graphics centerX="1006.25" centerY="500.75" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="358.5" lineWidth="3.0" rotation="0.0" shapeType="RoundedRectangle" vAlign="Middle" width="705.5" zOrder="16384" />
-  </Shape>
-  <Shape elementId="c4295">
-    <Graphics centerX="409.94303797468365" centerY="579.6518987341773" fontSize="10" height="29.0" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="31.0" zOrder="16384" />
-  </Shape>
-  <Shape elementId="e11b2">
-    <Graphics centerX="407.69303797468365" centerY="525.4018987341773" fontSize="10" height="16.5" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="16.5" zOrder="16384" />
-  </Shape>
-  <Shape elementId="bc7c6">
-    <Graphics centerX="886.25" centerY="946.0" fontSize="10" height="124.0" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="341.5" zOrder="16384" />
-  </Shape>
-  <Shape elementId="bb01e">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Endoplasmic Reticulum" />
-    <Graphics centerX="926.0" centerY="1131.0" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="200.0" lineWidth="3.0" rotation="0.0" shapeType="Endoplasmic Reticulum" vAlign="Middle" width="100.0" zOrder="16384" />
-  </Shape>
-  <Shape elementId="f7ea0">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Endoplasmic Reticulum" />
-    <Graphics centerX="810.875" centerY="1141.875" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="69.75" lineWidth="3.0" rotation="0.0" shapeType="Endoplasmic Reticulum" vAlign="Middle" width="36.25" zOrder="16384" />
-  </Shape>
-  <Shape elementId="b2dc7">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Endoplasmic Reticulum" />
-    <Graphics centerX="1177.347169037819" centerY="1128.5274903447919" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="207.81784394227714" lineWidth="3.0" rotation="0.0" shapeType="Endoplasmic Reticulum" vAlign="Middle" width="362.919237674032" zOrder="16384" />
-  </Shape>
-  <Shape elementId="db9d2">
-    <Graphics centerX="1180.0615796519412" centerY="978.7456492637216" fontSize="10" height="30.0" rotation="0.0" shapeType="RoundedRectangle" vAlign="Middle" width="30.0" zOrder="16384" />
-  </Shape>
-  <Shape elementId="bbc79">
-    <Graphics centerX="1176.75" centerY="902.25" fontSize="10" height="73.5" rotation="0.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.5" zOrder="16384" />
-  </Shape>
-  <Shape elementId="fb1d9">
-    <Graphics centerX="1137.5" centerY="779.0" fontSize="10" height="134.0" rotation="0.0" shapeType="RoundedRectangle" vAlign="Middle" width="431.0" zOrder="16384" />
-  </Shape>
-  <Shape elementId="a5c46">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
-    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
-    <Graphics centerX="797.75" centerY="513.25" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="287.5" lineWidth="3.0" rotation="0.0" shapeType="RoundedRectangle" vAlign="Middle" width="80.5" zOrder="16384" />
-  </Shape>
-  <Shape elementId="dfaaf">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
-    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
-    <Graphics centerX="1124.75" centerY="501.0255102040816" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="92.33673469387747" lineWidth="3.0" rotation="0.0" shapeType="RoundedRectangle" vAlign="Middle" width="393.35714285714266" zOrder="16384" />
-  </Shape>
-  <Shape elementId="ae290">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
-    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
-    <Graphics centerX="641.6369910019832" centerY="782.7921686746992" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="163.5" lineWidth="3.0" rotation="0.0" shapeType="Oval" vAlign="Middle" width="484.5" zOrder="16384" />
-  </Shape>
-  <Shape elementId="b61f5">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
-    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
-    <Graphics centerX="647.6369910019816" centerY="782.542168674699" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="136.0" lineWidth="3.0" rotation="0.0" shapeType="Oval" vAlign="Middle" width="44.5" zOrder="16384" />
-  </Shape>
-  <Shape elementId="c6607" textLabel="oval">
-    <Graphics centerX="101.91302719798313" centerY="694.1268371602644" fontSize="10" height="36.00295857988169" rotation="0.0" shapeType="Oval" vAlign="Middle" width="145.4704142011836" zOrder="32958" />
-  </Shape>
-  <Shape elementId="cd25a" textLabel="Rectangle">
-    <Graphics centerX="101.91302719798341" centerY="561.1286510996705" fontSize="10" height="105.46579330261073" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="152.97923581891024" zOrder="32959" />
-  </Shape>
-  <Shape elementId="ee042" textLabel="mitochondria">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Mitochondria" />
-    <Graphics centerX="268.15968546163333" centerY="711.5524780762628" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="71.50591715976323" lineWidth="3.0" rotation="0.0" shapeType="Mitochondria" vAlign="Middle" width="118.84319526627239" zOrder="32960" />
-  </Shape>
-  <Shape elementId="d7152" textLabel="Mitochondria&#10;rotation: 29.16">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Mitochondria" />
-    <Graphics centerX="501.0678385340432" centerY="1123.7831362332404" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="65.83575317604368" lineWidth="3.0" rotation="0.5089313376455377" shapeType="Mitochondria" vAlign="Middle" width="140.2459165154264" zOrder="32961" />
-  </Shape>
-  <Shape elementId="edf98" textLabel="endoplasmic reticulum">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Endoplasmic Reticulum" />
-    <Graphics centerX="268.302047071859" centerY="602.0302006527787" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="81.86094674556213" lineWidth="3.0" rotation="0.0" shapeType="Endoplasmic Reticulum" vAlign="Middle" width="124.76035502958558" zOrder="32962" />
-  </Shape>
-  <Shape elementId="e38ce" textLabel="pentagon">
-    <Graphics centerX="96.87189505725934" centerY="1157.4366162913136" fontSize="10" height="52.173754556500455" rotation="0.0" shapeType="Pentagon" vAlign="Middle" width="105.58284023668648" zOrder="32963" />
-  </Shape>
-  <Shape elementId="c539f" textLabel="golgi apparatus">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Golgi Apparatus" />
-    <Graphics centerX="276.4968828340458" centerY="813.2936544622653" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="87.77810650887585" lineWidth="3.0" rotation="0.0" shapeType="Golgi Apparatus" vAlign="Middle" width="135.11538461538441" zOrder="32964" />
-  </Shape>
-  <Shape elementId="dfcbf" textLabel="brace">
-    <Graphics centerX="101.91302719798472" centerY="1079.6490283068122" fontSize="10" height="55.23372781065087" rotation="0.0" shapeType="Brace" vAlign="Middle" width="70.02662721893489" zOrder="32965" />
-  </Shape>
-  <Shape elementId="dc765" textLabel="nucleus">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
-    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
-    <Graphics centerX="268.17808743894693" centerY="487.5714230531446" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="78.90236686390534" lineWidth="3.0" rotation="0.0" shapeType="Oval" vAlign="Middle" width="126.23964497041442" zOrder="32966" />
-  </Shape>
-  <Shape elementId="aa039" textLabel="triangle">
-    <Graphics centerX="64.24762409147435" centerY="870.6934824973538" fontSize="10" height="58.192307692307786" rotation="0.0" shapeType="Triangle" vAlign="Middle" width="141.03254437869836" zOrder="32967" />
-  </Shape>
-  <Shape elementId="d4fcd" textLabel="mim-degradation">
-    <Graphics centerX="102.3875429336205" centerY="975.7086888070824" fontSize="10" height="85.27967027831494" rotation="0.0" shapeType="mim-degradation" vAlign="Middle" width="94.90314335631732" zOrder="32968" />
-  </Shape>
-  <Shape elementId="e6b4e" textLabel="sarcoplasmic reticulum">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Sarcoplasmic Reticulum" />
-    <Graphics centerX="268.12335413181086" centerY="1016.7975764679187" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="72.98520710059162" lineWidth="3.0" rotation="0.0" shapeType="Sarcoplasmic Reticulum" vAlign="Middle" width="89.25739644970406" zOrder="32969" />
-  </Shape>
-  <Shape elementId="db586" textLabel="hexagon">
-    <Graphics centerX="101.91302719798307" centerY="1230.1249893959182" fontSize="10" height="40.60259765470511" rotation="0.0" shapeType="Hexagon" vAlign="Middle" width="56.51170490412467" zOrder="32970" />
-  </Shape>
-  <Shape elementId="bf376" textLabel="organelle">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Organelle" />
-    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
-    <Graphics centerX="268.1780874389473" centerY="911.1991021317107" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="56.713017751479335" lineWidth="3.0" rotation="0.0" shapeType="RoundedRectangle" vAlign="Middle" width="132.15680473372782" zOrder="32971" />
-  </Shape>
-  <Shape elementId="cb8a8" textLabel="extracellular&#10;region">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Extracellular region" />
-    <Graphics centerX="268.17808743894756" centerY="1232.0567308101668" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="66.18370875782784" borderStyle="Broken" rotation="0.0" shapeType="RoundedRectangle" vAlign="Middle" width="84.14728551194578" zOrder="32972" />
-  </Shape>
-  <Shape elementId="d61b8" textLabel="Shape type: Sarc. Retic.&#10;Cellular Component: Mitochondria">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Mitochondria" />
-    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
-    <Graphics centerX="502.8419471196189" centerY="934.8445750225665" fontSize="10" height="49.532258064516" rotation="0.0" shapeType="Sarcoplasmic Reticulum" vAlign="Middle" width="201.790322580645" zOrder="32973" />
-  </Shape>
-  <Shape elementId="af620" textLabel="cell">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
-    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
-    <Graphics centerX="271.53328036254055" centerY="379.59342487543165" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="75.94378698224847" lineWidth="3.0" rotation="0.0" shapeType="RoundedRectangle" vAlign="Middle" width="87.77810650887574" zOrder="32974" />
-  </Shape>
-  <Shape elementId="b4bd1" textLabel="vesicle">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
-    <Graphics centerX="268.1780874389476" centerY="1123.9939715300018" borderColor="c0c0c0" textColor="c0c0c0" fontSize="10" height="86.29881656804731" lineWidth="3.0" rotation="0.0" shapeType="Oval" vAlign="Middle" width="102.5710059171599" zOrder="32975" />
-  </Shape>
-  <Shape elementId="e197d" textLabel="rounded rectangle">
-    <Graphics centerX="101.91302719798324" centerY="775.3305082438208" fontSize="10" height="49.316568047337455" rotation="0.0" shapeType="RoundedRectangle" vAlign="Middle" width="129.19822485207098" zOrder="32976" />
-  </Shape>
-  <Shape elementId="a4795" textLabel="Arc">
-    <Graphics centerX="101.91302719798313" centerY="414.9041204433863" fontSize="10" height="62.29585439329384" rotation="0.0" shapeType="Arc" vAlign="Middle" width="97.93182324732058" zOrder="32977" />
-  </Shape>
-  <Shape elementId="c7e8c" textLabel="Arc&#10;Rotated">
-    <Graphics centerX="456.73980871437766" centerY="1227.5154553304092" fontSize="10" height="66.21428571428578" rotation="4.056444368399068" shapeType="Arc" vAlign="Middle" width="53.54375152734479" zOrder="32978" />
-  </Shape>
-  <Shape elementId="f4f31" textLabel="Shape type: Rectangle&#10;Line Style: dashed">
-    <Graphics centerX="1502.653616496689" centerY="946.7323129751162" fontSize="10" height="49.316568047337455" borderStyle="Broken" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="129.19822485207098" zOrder="32979" />
-  </Shape>
-  <Shape elementId="e5bdc" textLabel="Shape type: rectangle&#10;Line Style: Double">
-    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
-    <Graphics centerX="1506.1218245891744" centerY="1014.6884948651502" fontSize="10" height="49.316568047337455" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="129.19822485207098" zOrder="32980" />
-  </Shape>
-  <Shape elementId="a7001" textLabel="Shape type: rectangle &#10;Line Style: dashed&#10;stroke: red">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="None" />
-    <Graphics centerX="1460.8427643958062" centerY="367.2145674941195" borderColor="ff0033" textColor="ff0033" fontSize="10" height="49.316568047337455" borderStyle="Broken" rotation="0.0" shapeType="RoundedRectangle" vAlign="Middle" width="129.19822485207098" zOrder="32981" />
-  </Shape>
-  <Shape elementId="bc1ee" textLabel="Shape type: Rectangle&#10;Line Style: dashed&#10;stroke: red&#10;fill: yellow">
-    <Graphics centerX="1460.8427643958066" centerY="433.71927569772856" borderColor="ff0033" textColor="ff0033" fillColor="ffffcc" fontSize="10" height="59.13449810594025" borderStyle="Broken" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="129.19822485207098" zOrder="32982" />
-  </Shape>
-  <Shape elementId="fb3fc" textLabel="Shape type: Rectangle&#10;Cellular Comp.: Mitochondria&#10;Line Style: dashed&#10;stroke: red&#10;fill: yellow">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Mitochondria" />
-    <Graphics centerX="1543.9295418855197" centerY="590.3315908823886" borderColor="ff0033" textColor="ff0033" fillColor="ffffcc" fontSize="20" height="160.55326152669613" borderStyle="Broken" rotation="0.0" shapeType="Rectangle" vAlign="Middle" width="280.7532448182513" zOrder="32983" />
-  </Shape>
-  <Shape elementId="e8158" textLabel="Shape type: Rectangle&#10;rotation: 237.739">
-    <Graphics centerX="1590.545391293911" centerY="776.8566630033671" fontSize="10" height="93.08720634953332" rotation="4.149326160497226" shapeType="Rectangle" vAlign="Middle" width="118.02143252817429" zOrder="32984" />
-  </Shape>
-  <Shape elementId="c403d" textLabel="Shape type: Rectangle&#10;rotation: 237.739&#10;Line Style: Double">
-    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
-    <Graphics centerX="1458.5246895795563" centerY="801.2173982119334" fontSize="10" height="106.64931097053076" rotation="4.149326160497226" shapeType="Rectangle" vAlign="Middle" width="131.46733791898703" zOrder="32985" />
-  </Shape>
-  <Shape elementId="b0053" textLabel="Shape type: Mitochondria&#10;Cellular Component: Sarc. Retic.">
-    <Attribute key="org.pathvisio.CellularComponentProperty" value="Sarcoplasmic Reticulum" />
-    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
-    <Graphics centerX="497.85693213460354" centerY="1005.7836359616277" fontSize="10" height="49.532258064516" rotation="0.0" shapeType="Mitochondria" vAlign="Middle" width="201.790322580645" zOrder="32986" />
-  </Shape>
-  <Shape elementId="aa7de" textLabel="Arc">
-    <Graphics centerX="103.28489950169325" centerY="411.0991161293225" fontSize="10" height="62.29585439329384" rotation="3.141592653589793" shapeType="Arc" vAlign="Middle" width="97.93182324732058" zOrder="33032" />
-  </Shape>
-  <Group elementId="f8097" />
-  <Group elementId="bf229" groupType="Complex" />
-  <Group elementId="bbf57" groupType="Group" />
-  <Group elementId="cc497" groupType="Pathway" />
-  <Group elementId="ccf37" />
-  <Group elementId="e70c7" groupType="Pathway" />
-  <Group elementId="e9a69" groupType="Complex" />
-  <Group elementId="a102b" groupType="Complex" />
-  <Group elementId="aa74f" groupType="Group" />
-  <Group elementId="c8297" groupType="Pathway" />
-  <Group elementId="c3ef3" />
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20130813">
+  <Graphics boardWidth="1960.036144578313" boardHeight="2076.573017093912" />
   <InfoBox centerX="0.0" centerY="0.0" />
-  <Biopax />
+  <DataNodes>
+    <DataNode elementId="bbcd0" textLabel="GeneProduct" type="GeneProduct">
+      <Graphics centerX="696.0" centerY="1093.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="a1b1c" textLabel="GeneProduct" type="GeneProduct" groupRef="f8097">
+      <Graphics centerX="621.8611521418021" centerY="1314.6233382570156" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="d58c3" textLabel="GeneProduct" type="GeneProduct" groupRef="f8097">
+      <Graphics centerX="621.861152141802" centerY="1355.9822747415062" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="a52b0" textLabel="GeneProduct" type="GeneProduct" groupRef="bf229">
+      <Graphics centerX="870.0147710487445" centerY="1313.14623338257" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="fb3e2" textLabel="GeneProduct" type="GeneProduct" groupRef="bf229">
+      <Graphics centerX="867.0605612998519" centerY="1354.5051698670604" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="b6f22" textLabel="GeneProduct" type="GeneProduct" groupRef="bbf57">
+      <Graphics centerX="505.16986706056133" centerY="1310.1920236336775" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="d15f1" textLabel="GeneProduct" type="GeneProduct" groupRef="bbf57">
+      <Graphics centerX="506.6469719350074" centerY="1354.5051698670602" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="baf80" textLabel="GeneProduct" type="GeneProduct" groupRef="cc497">
+      <Graphics centerX="745.9379615952728" centerY="1311.6691285081235" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="d4c6b" textLabel="GeneProduct" type="GeneProduct" groupRef="cc497">
+      <Graphics centerX="742.9837518463804" centerY="1355.9822747415064" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="b6219" textLabel="GeneProduct" type="GeneProduct">
+      <Graphics centerX="691.5" centerY="1058.0" width="25.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33017" />
+    </DataNode>
+    <DataNode elementId="acefb" textLabel="GeneProduct" type="GeneProduct">
+      <Graphics centerX="694.5" centerY="1132.0" width="165.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33018" />
+    </DataNode>
+    <DataNode elementId="eeaae" textLabel="GeneProduct" type="GeneProduct">
+      <Graphics centerX="697.0" centerY="1177.0" width="80.0" height="44.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33019" />
+    </DataNode>
+    <DataNode elementId="b52ab" textLabel="GeneProduct" type="GeneProduct" groupRef="e9a69">
+      <Graphics centerX="1292.9278710113717" centerY="1513.7141179192406" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33025" />
+    </DataNode>
+    <DataNode elementId="db48a" textLabel="GeneProduct" type="GeneProduct" groupRef="e9a69">
+      <Graphics centerX="1004.8924204943839" centerY="1301.0110159990045" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33027" />
+    </DataNode>
+    <DataNode elementId="fc9b0" textLabel="GeneProduct" type="GeneProduct" groupRef="e70c7">
+      <Graphics centerX="69.63944403907918" centerY="1319.9428734138921" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33028" />
+    </DataNode>
+    <DataNode elementId="ba7d4" textLabel="GeneProduct" type="GeneProduct" groupRef="ccf37">
+      <Graphics centerX="1447.1554163478133" centerY="1174.464060080797" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33029" />
+    </DataNode>
+    <DataNode elementId="a1047" textLabel="GeneProduct" type="GeneProduct" groupRef="ccf37">
+      <Graphics centerX="1444.2012065989213" centerY="1455.1139862255534" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33030" />
+    </DataNode>
+    <DataNode elementId="bf919" textLabel="GeneProduct" type="GeneProduct" groupRef="e70c7">
+      <Graphics centerX="393.1254115427735" centerY="1309.6031392927705" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33031" />
+    </DataNode>
+  </DataNodes>
+  <Shapes>
+    <Shape elementId="dba90">
+      <Graphics centerX="505.79819277108385" centerY="533.4789156626504" width="82.5" height="41.5" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Cell" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="d3acf">
+      <Graphics centerX="510.6265060240966" centerY="381.80722891566245" width="200.0" height="100.0" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="5.0" fillColor="00000000" shapeType="Cell" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="ea24b">
+      <Graphics centerX="1006.25" centerY="500.75" width="705.5" height="358.5" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Cell" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="c4295">
+      <Graphics centerX="409.94303797468365" centerY="579.6518987341773" width="31.0" height="29.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="e11b2">
+      <Graphics centerX="407.69303797468365" centerY="525.4018987341773" width="16.5" height="16.5" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="bc7c6">
+      <Graphics centerX="886.25" centerY="946.0" width="341.5" height="124.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="bb01e">
+      <Graphics centerX="926.0" centerY="1131.0" width="100.0" height="200.0" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Endoplasmic Reticulum" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="f7ea0">
+      <Graphics centerX="810.875" centerY="1141.875" width="36.25" height="69.75" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Endoplasmic Reticulum" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="b2dc7">
+      <Graphics centerX="1177.347169037819" centerY="1128.5274903447919" width="362.919237674032" height="207.81784394227714" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Endoplasmic Reticulum" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="db9d2">
+      <Graphics centerX="1180.0615796519412" centerY="978.7456492637216" width="30.0" height="30.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="RoundedRectangle" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="bbc79">
+      <Graphics centerX="1176.75" centerY="902.25" width="80.5" height="73.5" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="RoundedRectangle" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="fb1d9">
+      <Graphics centerX="1137.5" centerY="779.0" width="431.0" height="134.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="RoundedRectangle" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="a5c46">
+      <Graphics centerX="797.75" centerY="513.25" width="80.5" height="287.5" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Cell" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="dfaaf">
+      <Graphics centerX="1124.75" centerY="501.0255102040816" width="393.35714285714266" height="92.33673469387747" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Cell" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="ae290">
+      <Graphics centerX="641.6369910019832" centerY="782.7921686746992" width="484.5" height="163.5" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Nucleus" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="b61f5">
+      <Graphics centerX="647.6369910019816" centerY="782.542168674699" width="44.5" height="136.0" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Nucleus" zOrder="16384" rotation="0.0" />
+    </Shape>
+    <Shape elementId="c6607" textLabel="oval">
+      <Graphics centerX="101.91302719798313" centerY="694.1268371602644" width="145.4704142011836" height="36.00295857988169" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Oval" zOrder="32958" rotation="0.0" />
+    </Shape>
+    <Shape elementId="cd25a" textLabel="Rectangle">
+      <Graphics centerX="101.91302719798341" centerY="561.1286510996705" width="152.97923581891024" height="105.46579330261073" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="32959" rotation="0.0" />
+    </Shape>
+    <Shape elementId="ee042" textLabel="mitochondria">
+      <Graphics centerX="268.15968546163333" centerY="711.5524780762628" width="118.84319526627239" height="71.50591715976323" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Mitochondria" zOrder="32960" rotation="0.0" />
+    </Shape>
+    <Shape elementId="d7152" textLabel="Mitochondria&#xA;Rotation: 29.16">
+      <Graphics centerX="501.0678385340432" centerY="1123.7831362332404" width="140.2459165154264" height="65.83575317604368" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Mitochondria" zOrder="32961" rotation="0.5089313376455377" />
+    </Shape>
+    <Shape elementId="edf98" textLabel="endoplasmic reticulum">
+      <Graphics centerX="268.302047071859" centerY="602.0302006527787" width="124.76035502958558" height="81.86094674556213" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Endoplasmic Reticulum" zOrder="32962" rotation="0.0" />
+    </Shape>
+    <Shape elementId="e38ce" textLabel="pentagon">
+      <Graphics centerX="96.87189505725934" centerY="1157.4366162913136" width="105.58284023668648" height="52.173754556500455" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Pentagon" zOrder="32963" rotation="0.0" />
+    </Shape>
+    <Shape elementId="c539f" textLabel="golgi apparatus">
+      <Graphics centerX="276.4968828340458" centerY="813.2936544622653" width="135.11538461538441" height="87.77810650887585" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Golgi Apparatus" zOrder="32964" rotation="0.0" />
+    </Shape>
+    <Shape elementId="dfcbf" textLabel="brace">
+      <Graphics centerX="101.91302719798472" centerY="1079.6490283068122" width="70.02662721893489" height="55.23372781065087" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Brace" zOrder="32965" rotation="0.0" />
+    </Shape>
+    <Shape elementId="dc765" textLabel="nucleus">
+      <Graphics centerX="268.17808743894693" centerY="487.5714230531446" width="126.23964497041442" height="78.90236686390534" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Nucleus" zOrder="32966" rotation="0.0" />
+    </Shape>
+    <Shape elementId="aa039" textLabel="triangle">
+      <Graphics centerX="64.24762409147435" centerY="870.6934824973538" width="141.03254437869836" height="58.192307692307786" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Triangle" zOrder="32967" rotation="0.0" />
+    </Shape>
+    <Shape elementId="d4fcd" textLabel="mim-degradation">
+      <Graphics centerX="102.3875429336205" centerY="975.7086888070824" width="94.90314335631732" height="85.27967027831494" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="mim-degradation" zOrder="32968" rotation="0.0" />
+    </Shape>
+    <Shape elementId="e6b4e" textLabel="sarcoplasmic reticulum">
+      <Graphics centerX="268.12335413181086" centerY="1016.7975764679187" width="89.25739644970406" height="72.98520710059162" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Sarcoplasmic Reticulum" zOrder="32969" rotation="0.0" />
+    </Shape>
+    <Shape elementId="db586" textLabel="hexagon">
+      <Graphics centerX="101.91302719798307" centerY="1230.1249893959182" width="56.51170490412467" height="40.60259765470511" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Hexagon" zOrder="32970" rotation="0.0" />
+    </Shape>
+    <Shape elementId="bf376" textLabel="organelle">
+      <Graphics centerX="268.1780874389473" centerY="911.1991021317107" width="132.15680473372782" height="56.713017751479335" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Organelle" zOrder="32971" rotation="0.0" />
+    </Shape>
+    <Shape elementId="cb8a8" textLabel="extracellular&#xA;region">
+      <Graphics centerX="268.17808743894756" centerY="1232.0567308101668" width="84.14728551194578" height="66.18370875782784" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Dashed" borderWidth="1.0" fillColor="00000000" shapeType="Extracellular region" zOrder="32972" rotation="0.0" />
+    </Shape>
+    <Shape elementId="d61b8" textLabel="Shape Type: Sarc. Retic.&#xA;Cellular Component: Mitochondria">
+      <Graphics centerX="502.8419471196189" centerY="934.8445750225665" width="201.790322580645" height="49.532258064516" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Double" borderWidth="1.0" fillColor="00000000" shapeType="Mitochondria" zOrder="32973" rotation="0.0" />
+    </Shape>
+    <Shape elementId="af620" textLabel="cell">
+      <Graphics centerX="271.53328036254055" centerY="379.59342487543165" width="87.77810650887574" height="75.94378698224847" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Cell" zOrder="32974" rotation="0.0" />
+    </Shape>
+    <Shape elementId="b4bd1" textLabel="vesicle">
+      <Graphics centerX="268.1780874389476" centerY="1123.9939715300018" width="102.5710059171599" height="86.29881656804731" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Vesicle" zOrder="32975" rotation="0.0" />
+    </Shape>
+    <Shape elementId="e197d" textLabel="rounded rectangle">
+      <Graphics centerX="101.91302719798324" centerY="775.3305082438208" width="129.19822485207098" height="49.316568047337455" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="RoundedRectangle" zOrder="32976" rotation="0.0" />
+    </Shape>
+    <Shape elementId="a4795" textLabel="Arc">
+      <Graphics centerX="101.91302719798313" centerY="414.9041204433863" width="97.93182324732058" height="62.29585439329384" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Arc" zOrder="32977" rotation="0.0" />
+    </Shape>
+    <Shape elementId="c7e8c" textLabel="Arc&#xA;Rotated">
+      <Graphics centerX="456.73980871437766" centerY="1227.5154553304092" width="53.54375152734479" height="66.21428571428578" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Arc" zOrder="32978" rotation="4.056444368399068" />
+    </Shape>
+    <Shape elementId="f4f31" textLabel="Shape Type: Rectangle&#xA;Line Style: dashed">
+      <Graphics centerX="1502.653616496689" centerY="946.7323129751162" width="129.19822485207098" height="49.316568047337455" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Dashed" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="32979" rotation="0.0" />
+    </Shape>
+    <Shape elementId="e5bdc" textLabel="Shape Type: rectangle&#xA;Line Style: Double">
+      <Graphics centerX="1506.1218245891744" centerY="1014.6884948651502" width="129.19822485207098" height="49.316568047337455" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Double" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="32980" rotation="0.0" />
+    </Shape>
+    <Shape elementId="a7001" textLabel="Shape Type: rectangle &#xA;Line Style: dashed&#xA;stroke: red">
+      <Graphics centerX="1460.8427643958062" centerY="367.2145674941195" width="129.19822485207098" height="49.316568047337455" textColor="ff0033" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ff0033" borderStyle="Dashed" borderWidth="1.0" fillColor="00000000" shapeType="None" zOrder="32981" rotation="0.0" />
+    </Shape>
+    <Shape elementId="bc1ee" textLabel="Shape Type: Rectangle&#xA;Line Style: dashed&#xA;stroke: red&#xA;fill: yellow">
+      <Graphics centerX="1460.8427643958066" centerY="433.71927569772856" width="129.19822485207098" height="59.13449810594025" textColor="ff0033" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ff0033" borderStyle="Dashed" borderWidth="1.0" fillColor="ffffcc" shapeType="Rectangle" zOrder="32982" rotation="0.0" />
+    </Shape>
+    <Shape elementId="fb3fc" textLabel="Shape Type: Rectangle&#xA;Cellular Comp.: Mitochondria&#xA;Line Style: dashed&#xA;stroke: red&#xA;fill: yellow">
+      <Graphics centerX="1543.9295418855197" centerY="590.3315908823886" width="280.7532448182513" height="160.55326152669613" textColor="ff0033" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="20" hAlign="Center" vAlign="Middle" borderColor="ff0033" borderStyle="Dashed" borderWidth="1.0" fillColor="ffffcc" shapeType="Mitochondria" zOrder="32983" rotation="0.0" />
+    </Shape>
+    <Shape elementId="e8158" textLabel="Shape Type: Rectangle&#xA;Rotation: 237.739">
+      <Graphics centerX="1590.545391293911" centerY="776.8566630033671" width="118.02143252817429" height="93.08720634953332" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="32984" rotation="4.149326160497226" />
+    </Shape>
+    <Shape elementId="c403d" textLabel="Shape Type: Rectangle&#xA;Rotation: 237.739&#xA;Line Style: Double">
+      <Graphics centerX="1458.5246895795563" centerY="801.2173982119334" width="131.46733791898703" height="106.64931097053076" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Double" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="32985" rotation="4.149326160497226" />
+    </Shape>
+    <Shape elementId="b0053" textLabel="Shape Type: Mitochondria&#xA;Cellular Component: Sarc. Retic.">
+      <Graphics centerX="497.85693213460354" centerY="1005.7836359616277" width="201.790322580645" height="49.532258064516" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Double" borderWidth="1.0" fillColor="00000000" shapeType="Sarcoplasmic Reticulum" zOrder="32986" rotation="0.0" />
+    </Shape>
+    <Shape elementId="aa7de" textLabel="Arc">
+      <Graphics centerX="103.28489950169325" centerY="411.0991161293225" width="97.93182324732058" height="62.29585439329384" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Arc" zOrder="33032" rotation="3.141592653589793" />
+    </Shape>
+  </Shapes>
+  <Groups>
+    <Group elementId="f8097" type="Group">
+      <Graphics centerX="621.861152141802" centerY="1335.302806499261" width="96.00000000000011" height="77.35893648449064" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="bf229" type="Complex">
+      <Graphics centerX="868.5376661742982" centerY="1333.8257016248153" width="106.9542097488926" height="85.35893648449041" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
+    </Group>
+    <Group elementId="bbf57" type="Group">
+      <Graphics centerX="505.9084194977844" centerY="1332.3485967503689" width="97.47710487444607" height="80.31314623338267" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="cc497" type="Pathway">
+      <Graphics centerX="744.4608567208265" centerY="1333.8257016248149" width="98.95420974889237" height="80.3131462333829" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="32" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="00ff000c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="ccf37" type="Group">
+      <Graphics centerX="1445.6783114733673" centerY="1314.789023153175" width="98.95420974889203" height="316.64992614475636" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="e70c7" type="Pathway">
+      <Graphics centerX="231.38242779092633" centerY="1314.7730063533313" width="419.4859675036943" height="46.33973412112164" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="32" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="00ff000c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+    <Group elementId="e9a69" type="Complex">
+      <Graphics centerX="1148.9101457528777" centerY="1407.3625669591224" width="392.0354505169878" height="256.7031019202361" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
+    </Group>
+  </Groups>
 </Pathway>

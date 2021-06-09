@@ -1,8 +1,0 @@
-<Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" Version="20210128">
-  <Graphics boardHeight="205.0" boardWidth="160.0"></Graphics>
-  <DataNode elementId="d6efe" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="90.0" centerY="165.0" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32768"></Graphics>
-    <Xref dataSource="" identifier=""></Xref>
-  </DataNode>
-  <InfoBox centerX="0.0" centerY="0.0"></InfoBox>
-</Pathway>

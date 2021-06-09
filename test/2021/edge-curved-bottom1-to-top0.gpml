@@ -1,21 +1,22 @@
-<?xml version='1.0' encoding='utf-8'?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20210128">
-  <Graphics boardHeight="170.8158419817691" boardWidth="285.92858116238904" />
-  <DataNode elementId="dfb9b" textLabel="GeneProduct" type="GeneProduct">
-    <Graphics centerX="215.92858116238904" centerY="130.8158419817691" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32984" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <DataNode elementId="d9b36" textLabel="0012" type="GeneProduct">
-    <Graphics centerX="61.9741690745301" centerY="61.14116450790639" fontSize="10" height="20.0" vAlign="Middle" width="80.0" zOrder="32985" />
-    <Xref dataSource="" identifier="" />
-  </DataNode>
-  <Interaction elementId="d1b0f">
-    <Graphics connectorType="Curved" lineWidth="1.0" zOrder="32983">
-      <Point arrowHead="TBar" elementRef="d9b36" relX="0.0" relY="1.0" x="61.9741690745301" y="71.14116450790638" />
-      <Point arrowHead="Arrow" elementRef="dfb9b" relX="-0.5" relY="-1.0" x="195.92858116238904" y="120.8158419817691" />
-    </Graphics>
-    <Xref dataSource="" identifier="" />
-  </Interaction>
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20130813">
+  <Graphics boardWidth="285.92858116238904" boardHeight="170.8158419817691" />
   <InfoBox centerX="0.0" centerY="0.0" />
-  <Biopax />
+  <DataNodes>
+    <DataNode elementId="dfb9b" textLabel="GeneProduct" type="GeneProduct">
+      <Graphics centerX="215.92858116238904" centerY="130.8158419817691" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32984" />
+    </DataNode>
+    <DataNode elementId="d9b36" textLabel="0012" type="GeneProduct">
+      <Graphics centerX="61.9741690745301" centerY="61.14116450790639" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32985" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="d1b0f">
+      <Waypoints>
+        <Point elementId="d9786" arrowHead="Inhibition" x="61.9741690745301" y="71.14116450790638" elementRef="d9b36" relX="0.0" relY="1.0" />
+        <Point elementId="bb975" arrowHead="Directed" x="195.92858116238904" y="120.8158419817691" elementRef="dfb9b" relX="-0.5" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Curved" zOrder="32983" />
+    </Interaction>
+  </Interactions>
 </Pathway>

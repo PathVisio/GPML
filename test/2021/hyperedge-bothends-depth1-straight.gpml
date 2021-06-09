@@ -1,30 +1,31 @@
-<?xml version='1.0' encoding='utf-8'?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20210128">
-  <Graphics boardHeight="222.47894511414458" boardWidth="308.97388914338075" />
-  <Interaction elementId="idaf905386">
-    <Graphics lineWidth="1.0" zOrder="12288">
-      <Point x="90.92744437969687" y="78.0748490898938" />
-      <Point x="278.97388914338075" y="78.3325698579936" />
-      <Anchor elementId="e0874" position="0.09380500038409093" shapeType="None" />
-      <Anchor elementId="a67c1" position="0.9220507933786898" shapeType="None" />
-    </Graphics>
-    <Xref dataSource="" identifier="" />
-  </Interaction>
-  <Interaction elementId="id28382a1c">
-    <Graphics lineWidth="1.0" zOrder="12288">
-      <Point x="175.1244935731248" y="192.47894511414458" />
-      <Point arrowHead="mim-catalysis" elementRef="e0874" relX="0.0" relY="0.0" x="108.56714120298116" y="78.09902458664439" />
-      <Anchor elementId="f4b98" position="0.09919868499280665" shapeType="None" />
-    </Graphics>
-    <Xref dataSource="" identifier="" />
-  </Interaction>
-  <Interaction elementId="idc088e267">
-    <Graphics lineWidth="1.0" zOrder="12288">
-      <Point elementRef="a67c1" relX="0.0" relY="0.0" x="264.31581796609356" y="78.31248072859039" />
-      <Point arrowHead="mim-inhibition" elementRef="f4b98" relX="0.0" relY="0.0" x="168.52209174140367" y="181.13260740823483" />
-    </Graphics>
-    <Xref dataSource="" identifier="" />
-  </Interaction>
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20130715">
+  <Graphics boardWidth="308.97388914338075" boardHeight="222.47894511414458" />
   <InfoBox centerX="0.0" centerY="0.0" />
-  <Biopax />
+  <Interactions>
+    <Interaction elementId="idaf905386">
+      <Waypoints>
+        <Point elementId="d61fe" arrowHead="Undirected" x="90.92744437969687" y="78.0748490898938" />
+        <Point elementId="c3781" arrowHead="Undirected" x="278.97388914338075" y="78.3325698579936" />
+        <Anchor elementId="e0874" position="0.09380500038409093" shapeType="None" />
+        <Anchor elementId="a67c1" position="0.9220507933786898" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id28382a1c">
+      <Waypoints>
+        <Point elementId="ac911" arrowHead="Undirected" x="175.1244935731248" y="192.47894511414458" />
+        <Point elementId="dcded" arrowHead="Catalysis" x="108.56714120298116" y="78.09902458664439" elementRef="e0874" relX="0.0" relY="0.0" />
+        <Anchor elementId="f4b98" position="0.09919868499280665" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="idc088e267">
+      <Waypoints>
+        <Point elementId="fb0ad" arrowHead="Undirected" x="264.31581796609356" y="78.31248072859039" elementRef="a67c1" relX="0.0" relY="0.0" />
+        <Point elementId="d8cf3" arrowHead="Inhibition" x="168.52209174140367" y="181.13260740823483" elementRef="f4b98" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+  </Interactions>
 </Pathway>

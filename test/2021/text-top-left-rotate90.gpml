@@ -1,9 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
-<Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20210128">
-  <Graphics boardHeight="212.1276595744681" boardWidth="554.2553191489361" />
-  <Shape elementId="e933b" textLabel="Label for&#10;the rendering of&#10;text">
-    <Graphics hAlign="Left" centerX="77.60638297872342" centerY="118.03191489361706" fillColor="ffffcc" fontSize="10" height="100.95744680851064" rotation="1.5707963267948966" shapeType="RoundedRectangle" width="156.27659574468078" zOrder="16384" />
-  </Shape>
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20171102">
+  <Graphics boardWidth="554.2553191489361" boardHeight="212.1276595744681" />
   <InfoBox centerX="0.0" centerY="0.0" />
-  <Biopax />
+  <Shapes>
+    <Shape elementId="e933b" textLabel="Label for&#xA;the rendering of&#xA;text">
+      <Graphics centerX="77.60638297872342" centerY="118.03191489361706" width="156.27659574468078" height="100.95744680851064" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Left" vAlign="Top" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffcc" shapeType="RoundedRectangle" zOrder="16384" rotation="1.5707963267948966" />
+    </Shape>
+  </Shapes>
 </Pathway>
