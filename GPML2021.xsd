@@ -1027,6 +1027,10 @@
 	<!-- 
 		AnnotationRef 
 		Reference to an Annotation.
+		
+		AnnotationRef properties in the order to be written: 
+		- elementRef
+		- CitationRef, EvidenceRef
 	-->
 	<xsd:element name="AnnotationRef">
 		<xsd:annotation>
@@ -1097,6 +1101,10 @@
 	<!-- 
 		CitationRef 
 		Reference to a Citation.
+		
+		CitationRef properties in the order to be written: 
+		- elementRef
+		- AnnotationRef
 	-->
 	<xsd:element name="CitationRef">
 		<xsd:annotation>
@@ -1169,6 +1177,9 @@
 	<!-- 
 		EvidenceRef 
 		Reference to an Evidence.
+		
+		EvidenceRef properties in the order to be written: 
+		- elementRef
 	-->
 	<xsd:element name="EvidenceRef">
 		<xsd:annotation>
