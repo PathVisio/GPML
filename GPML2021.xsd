@@ -285,29 +285,10 @@
 					</xsd:attribute>
 				</xsd:complexType>
 			</xsd:element>
-			<xsd:element name="AnnotationRef" minOccurs="0" maxOccurs="unbounded">
+			<xsd:element ref="gpml:AnnotationRef" minOccurs="0" maxOccurs="unbounded">
 				<xsd:annotation>
 					<xsd:documentation>Reference to a gpml:Annotation.</xsd:documentation>
 				</xsd:annotation>
-				<xsd:complexType>
-					<xsd:sequence>
-						<xsd:element ref="gpml:CitationRef" minOccurs="0" maxOccurs="unbounded">
-							<xsd:annotation>
-								<xsd:documentation>Reference to a citation for an annotation.</xsd:documentation>
-							</xsd:annotation>
-						</xsd:element>
-						<xsd:element ref="gpml:EvidenceRef" minOccurs="0" maxOccurs="unbounded">
-							<xsd:annotation>
-								<xsd:documentation>Reference to an evidence for an annotation.</xsd:documentation>
-							</xsd:annotation>
-						</xsd:element>
-					</xsd:sequence>
-					<xsd:attribute name="elementRef" type="xsd:string" use="required">
-						<xsd:annotation>
-							<xsd:documentation>A elementRef indicates a child/parent relationship between objects. The elementRef of the child refers to the elementId of the parent.</xsd:documentation>
-						</xsd:annotation>
-					</xsd:attribute>
-				</xsd:complexType>
 			</xsd:element>
 			<xsd:element ref="gpml:CitationRef" minOccurs="0" maxOccurs="unbounded">
 				<xsd:annotation>
@@ -1044,6 +1025,35 @@
 	<!-- End: Annotations -->
 	<!-- ###################################################################### -->
 	<!-- 
+		AnnotationRef 
+		Reference to an Annotation.
+	-->
+	<xsd:element name="AnnotationRef">
+		<xsd:annotation>
+			<xsd:documentation>Reference to a gpml:Annotation.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="gpml:CitationRef" minOccurs="0" maxOccurs="unbounded">
+					<xsd:annotation>
+						<xsd:documentation>Reference to a citation for an annotation.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element ref="gpml:EvidenceRef" minOccurs="0" maxOccurs="unbounded">
+					<xsd:annotation>
+						<xsd:documentation>Reference to an evidence for an annotation.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+			</xsd:sequence>
+			<xsd:attribute name="elementRef" type="xsd:string" use="required">
+				<xsd:annotation>
+					<xsd:documentation>A elementRef indicates a child/parent relationship between objects. The elementRef of the child refers to the elementId of the parent.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<!-- ###################################################################### -->
+	<!-- 
 		Citations
 		Pathway or pathway element CitationRefs refer to Citations. 
 		
@@ -1086,16 +1096,23 @@
 	<!-- ###################################################################### -->
 	<!-- 
 		CitationRef 
-		Reference to an Citation.
+		Reference to a Citation.
 	-->
 	<xsd:element name="CitationRef">
 		<xsd:annotation>
 			<xsd:documentation>Reference to a gpml:Citation.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="gpml:AnnotationRef" minOccurs="0" maxOccurs="unbounded">
+					<xsd:annotation>
+						<xsd:documentation>Reference to an annotation for a citation.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+			</xsd:sequence>
 			<xsd:attribute name="elementRef" type="xsd:string" use="required">
 				<xsd:annotation>
-					<xsd:documentation>An elementRef indicates a child/parent relationship between objects. The elementRef of the child refers to the elementId of the parent.</xsd:documentation>
+					<xsd:documentation>A elementRef indicates a child/parent relationship between objects. The elementRef of the child refers to the elementId of the parent.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
 		</xsd:complexType>
