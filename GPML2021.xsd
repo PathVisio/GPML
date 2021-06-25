@@ -50,12 +50,12 @@
 		</xsd:attribute>
 		<xsd:attribute name="fontName" default="Arial" type="xsd:string">
 			<xsd:annotation>
-				<xsd:documentation>The name of the collection of characters with a similar design, e.g. Arial...</xsd:documentation>
+				<xsd:documentation>The name of the collection of characters with a similar design, e.g. Arial (default)...</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
 		<xsd:attribute name="fontWeight" default="Normal">
 			<xsd:annotation>
-				<xsd:documentation>The thickness of the font used, e.g Normal or Bold. A bold font has more weight.</xsd:documentation>
+				<xsd:documentation>The thickness of the font used, e.g Normal (default) or Bold. A bold font has more weight.</xsd:documentation>
 			</xsd:annotation>
 			<xsd:simpleType>
 				<xsd:restriction base="xsd:string">
@@ -66,7 +66,7 @@
 		</xsd:attribute>
 		<xsd:attribute name="fontStyle" default="Normal">
 			<xsd:annotation>
-				<xsd:documentation>The typographic style for Italic or Normal.</xsd:documentation>
+				<xsd:documentation>The typographic style for Italic or Normal (default).</xsd:documentation>
 			</xsd:annotation>
 			<xsd:simpleType>
 				<xsd:restriction base="xsd:string">
@@ -77,7 +77,7 @@
 		</xsd:attribute>
 		<xsd:attribute name="fontDecoration" default="Normal">
 			<xsd:annotation>
-				<xsd:documentation>The typographic style for Underline or Normal.</xsd:documentation>
+				<xsd:documentation>The typographic style for Underline or Normal (default).</xsd:documentation>
 			</xsd:annotation>
 			<xsd:simpleType>
 				<xsd:restriction base="xsd:string">
@@ -88,7 +88,7 @@
 		</xsd:attribute>
 		<xsd:attribute name="fontStrikethru" default="Normal">
 			<xsd:annotation>
-				<xsd:documentation>The typographic style for Strikethru or Normal.</xsd:documentation>
+				<xsd:documentation>The typographic style for Strikethru or Normal (default).</xsd:documentation>
 			</xsd:annotation>
 			<xsd:simpleType>
 				<xsd:restriction base="xsd:string">
@@ -104,7 +104,7 @@
 		</xsd:attribute>
 		<xsd:attribute name="hAlign" default="Center">
 			<xsd:annotation>
-				<xsd:documentation>The horizontal alignment of displayed text: Left, Center, or Right.</xsd:documentation>
+				<xsd:documentation>The horizontal alignment of displayed text: Left, Center (default), or Right.</xsd:documentation>
 			</xsd:annotation>
 			<xsd:simpleType>
 				<xsd:restriction base="xsd:string">
@@ -116,7 +116,7 @@
 		</xsd:attribute>
 		<xsd:attribute name="vAlign" default="Middle">
 			<xsd:annotation>
-				<xsd:documentation>The vertical alignment of displayed text: Top, Middle, or Bottom.</xsd:documentation>
+				<xsd:documentation>The vertical alignment of displayed text: Top, Middle (default), or Bottom.</xsd:documentation>
 			</xsd:annotation>
 			<xsd:simpleType>
 				<xsd:restriction base="xsd:string">
@@ -141,7 +141,7 @@
 		</xsd:attribute>
 		<xsd:attribute name="borderStyle" type="gpml:StyleType" default="Solid">
 			<xsd:annotation>
-				<xsd:documentation>The visual appearance of a line, e.g. Solid, Dashed...</xsd:documentation>
+				<xsd:documentation>The visual appearance of a line, e.g. Solid (default), Dashed...</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
 		<xsd:attribute name="borderWidth" type="xsd:float" default="1.0">
@@ -156,7 +156,7 @@
 		</xsd:attribute>
 		<xsd:attribute name="shapeType" type="xsd:string" default="Rectangle">
 			<xsd:annotation>
-				<xsd:documentation>The visual appearance of a two dimensional object, e.g. Rectangle, Nucleus...</xsd:documentation>
+				<xsd:documentation>The visual appearance of a two dimensional object, e.g. Rectangle (default), Nucleus...</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
 		<xsd:attribute name="zOrder" type="xsd:integer" use="optional">
@@ -179,7 +179,7 @@
 		</xsd:attribute>
 		<xsd:attribute name="lineStyle" type="gpml:StyleType" default="Solid">
 			<xsd:annotation>
-				<xsd:documentation>The visual appearance of a line, e.g. Solid, Dashed...</xsd:documentation>
+				<xsd:documentation>The visual appearance of a line, e.g. Solid (default), Dashed...</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
 		<xsd:attribute name="lineWidth" type="xsd:float" default="1.0">
@@ -189,7 +189,7 @@
 		</xsd:attribute>
 		<xsd:attribute name="connectorType" default="Straight">
 			<xsd:annotation>
-				<xsd:documentation>Specifies a set of rules to govern layout of lines, e.g. Straight, Elbow...</xsd:documentation>
+				<xsd:documentation>Specifies a set of rules to govern layout of lines, e.g. Straight (default), Elbow...</xsd:documentation>
 			</xsd:annotation>
 			<xsd:simpleType>
 				<xsd:union>
@@ -295,6 +295,11 @@
 					<xsd:documentation>Reference to a gpml:Citation.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
+			<xsd:element ref="gpml:EvidenceRef" minOccurs="0" maxOccurs="unbounded">
+				<xsd:annotation>
+					<xsd:documentation>Reference to a gpml:Evidence.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
 		</xsd:sequence>
 	</xsd:group>
 	<!-- End: Type Definitions -->
@@ -306,7 +311,7 @@
 		Pathway properties in the order to be written in the gpml:
 		- title, organism, source, version, license
 		- Xref, Authors
-		- CommentGroup (Comment, Property, AnnotationRef, CitationRef), EvidenceRef 
+		- CommentGroup (Comment, Property, AnnotationRef, CitationRef, EvidenceRef)
 		- Graphics (boardWidth, boardHeight, backgroundColor), InfoBox
 		- DataNodes, Interactions, GraphicalLines, Labels, Shapes, Groups
 		- Annotations, Citations, Evidences
@@ -354,7 +359,6 @@
 					</xsd:complexType>
 				</xsd:element>
 				<xsd:group ref="gpml:CommentGroup"/>
-				<xsd:element ref="gpml:EvidenceRef" minOccurs="0" maxOccurs="unbounded"/>
 				<!-- Graphics related attributes-->
 				<xsd:element name="Graphics" minOccurs="0" maxOccurs="1">
 					<xsd:complexType>
@@ -426,7 +430,7 @@
 		- elementId, textLabel, type, groupRef, elementRef 
 		- Xref, States
 		- Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes)
-		- CommentGroup (Comment, Property, AnnotationRef, CitationRef), EvidenceRef 
+		- CommentGroup (Comment, Property, AnnotationRef, CitationRef, EvidenceRef) 
 	-->
 	<xsd:element name="DataNodes">
 		<xsd:annotation>
@@ -457,7 +461,6 @@
 							</xsd:element>
 							<!-- End Graphics related attributes-->
 							<xsd:group ref="gpml:CommentGroup"/>
-							<xsd:element ref="gpml:EvidenceRef" minOccurs="0" maxOccurs="unbounded"/>
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required">
 							<xsd:annotation>
@@ -471,7 +474,7 @@
 						</xsd:attribute>
 						<xsd:attribute name="type" default="Undefined">
 							<xsd:annotation>
-								<xsd:documentation>The data node type, e.g. GeneProduct, Metabolite, Alias...</xsd:documentation>
+								<xsd:documentation>The data node type, e.g. Undefined (default), GeneProduct, Metabolite, Alias...</xsd:documentation>
 							</xsd:annotation>
 							<xsd:simpleType>
 								<xsd:union>
@@ -524,7 +527,7 @@
 		- elementId, textLabel, type
 		- Xref
 		- Graphics (relX, relY,  width, height, FontAttributes, ShapeStyleAttributes)
-		- CommentGroup (Comment, Property, AnnotationRef, CitationRef), EvidenceRef
+		- CommentGroup (Comment, Property, AnnotationRef, CitationRef, EvidenceRef)
 	-->
 	<xsd:element name="States">
 		<xsd:annotation>
@@ -535,7 +538,7 @@
 				<!-- State -->
 				<xsd:element name="State" minOccurs="0" maxOccurs="unbounded">
 					<xsd:annotation>
-						<xsd:documentation>The state of a biological entity (e.g. Protein modification) linked to a gpml:DataNode (parent).</xsd:documentation>
+						<xsd:documentation>The state of a biological entity (e.g. Undefined (default), Protein modification...) linked to a parent gpml:DataNode.</xsd:documentation>
 					</xsd:annotation>
 					<xsd:complexType>
 						<xsd:sequence>
@@ -569,7 +572,6 @@
 							</xsd:element>
 							<!-- End Graphics related attributes-->
 							<xsd:group ref="gpml:CommentGroup"/>
-							<xsd:element ref="gpml:EvidenceRef" minOccurs="0" maxOccurs="unbounded"/>
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required">
 							<xsd:annotation>
@@ -583,7 +585,7 @@
 						</xsd:attribute>
 						<xsd:attribute name="type" default="Undefined">
 							<xsd:annotation>
-								<xsd:documentation>The state type, e.g. Protein modification, Genetic variant...</xsd:documentation>
+								<xsd:documentation>The state type, e.g. Undefined (default), Protein modification, Genetic variant...</xsd:documentation>
 							</xsd:annotation>
 							<xsd:simpleType>
 								<xsd:union>
@@ -618,7 +620,7 @@
 		- elementId, groupRef
 		- Xref, Waypoints (Point, Anchor)
 		- Graphics (LineStyleAttributes)
-		- CommentGroup (Comment, Property, AnnotationRef, CitationRef), EvidenceRef
+		- CommentGroup (Comment, Property, AnnotationRef, CitationRef, EvidenceRef)
 	-->
 	<xsd:element name="Interactions">
 		<xsd:annotation>
@@ -650,7 +652,6 @@
 							</xsd:element>
 							<!-- End Graphics related attributes-->
 							<xsd:group ref="gpml:CommentGroup"/>
-							<xsd:element ref="gpml:EvidenceRef" minOccurs="0" maxOccurs="unbounded"/>
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required">
 							<xsd:annotation>
@@ -679,7 +680,7 @@
 		- elementId, groupRef
 		- Waypoints (Point, Anchor)
 		- Graphics (LineStyleAttributes)
-		- CommentGroup (Comment, Property, AnnotationRef, CitationRef)
+		- CommentGroup (Comment, Property, AnnotationRef, CitationRef, EvidenceRef)
     -->
 	<xsd:element name="GraphicalLines">
 		<xsd:annotation>
@@ -737,7 +738,7 @@
 		Label properties in the order to be written: 
 		- elementId, textLabel, groupRef, href
 		- Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes)
-		- CommentGroup (Comment, Property, AnnotationRef, CitationRef)
+		- CommentGroup (Comment, Property, AnnotationRef, CitationRef, EvidenceRef)
 	-->
 	<xsd:element name="Labels">
 		<xsd:annotation>
@@ -798,7 +799,7 @@
 		Shape properties in the order to be written: 
 		- elementId, textLabel, groupRef
 		- Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes), rotation
-		- CommentGroup (Comment, Property, AnnotationRef, CitationRef)
+		- CommentGroup (Comment, Property, AnnotationRef, CitationRef, EvidenceRef)
 	-->
 	<xsd:element name="Shapes">
 		<xsd:annotation>
@@ -860,7 +861,7 @@
 		- elementId, textLabel, type, groupRef
 		- Xref
 		- Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes)
-		- CommentGroup (Comment, Property, AnnotationRef, CitationRef), EvidenceRef
+		- CommentGroup (Comment, Property, AnnotationRef, CitationRef, EvidenceRef)
 	-->
 	<xsd:element name="Groups">
 		<xsd:annotation>
@@ -886,7 +887,6 @@
 							</xsd:element>
 							<!-- End Graphics related attributes-->
 							<xsd:group ref="gpml:CommentGroup"/>
-							<xsd:element ref="gpml:EvidenceRef" minOccurs="0" maxOccurs="unbounded"/>
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required">
 							<xsd:annotation>
@@ -900,7 +900,7 @@
 						</xsd:attribute>
 						<xsd:attribute name="type" default="Group">
 							<xsd:annotation>
-								<xsd:documentation>The group type, e.g. Group, Complex, Pathway...</xsd:documentation>
+								<xsd:documentation>The group type, e.g. Group (default), Complex, Pathway...</xsd:documentation>
 							</xsd:annotation>
 							<xsd:simpleType>
 								<xsd:union>
@@ -963,8 +963,8 @@
 		Pathway or pathway element AnnotationRefs refer to Annotations. 
 		
 		Annotation properties in the order to be written: 
-		- elementId, value, type, url 
-		- Xref
+		- elementId, value, type 
+		- Xref, Url
 	-->
 	<xsd:element name="Annotations">
 		<xsd:annotation>
@@ -979,7 +979,16 @@
 					</xsd:annotation>
 					<xsd:complexType>
 						<xsd:sequence>
-							<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+							<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1">
+								<xsd:annotation>
+									<xsd:documentation>Reference to a database entry. An Annotation can have an Xref.</xsd:documentation>
+								</xsd:annotation>
+							</xsd:element>
+							<xsd:element ref="gpml:Url" minOccurs="0" maxOccurs="1">
+							<xsd:annotation>
+									<xsd:documentation>Link to a web address. An Annotation can have an Url.</xsd:documentation>
+								</xsd:annotation>
+							</xsd:element>
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required">
 							<xsd:annotation>
@@ -988,12 +997,12 @@
 						</xsd:attribute>
 						<xsd:attribute name="value" type="xsd:string" use="required">
 							<xsd:annotation>
-								<xsd:documentation>The name, term, or text of an annotation.</xsd:documentation>
+								<xsd:documentation>The name, term, or text of an annotation. An Annotation must have a value and type.</xsd:documentation>
 							</xsd:annotation>
 						</xsd:attribute>
 						<xsd:attribute name="type" default="Undefined">
 							<xsd:annotation>
-								<xsd:documentation>The type of an annotation, e.g. Ontology, Taxonomy...</xsd:documentation>
+								<xsd:documentation>The type of an annotation, e.g. Undefined (default), Ontology, Taxonomy...</xsd:documentation>
 							</xsd:annotation>
 							<xsd:simpleType>
 								<xsd:union>
@@ -1010,11 +1019,6 @@
 									</xsd:simpleType>
 								</xsd:union>
 							</xsd:simpleType>
-						</xsd:attribute>
-						<xsd:attribute name="url" type="xsd:string" use="optional">
-							<xsd:annotation>
-								<xsd:documentation>URL (web address) of an annotation.</xsd:documentation>
-							</xsd:annotation>
 						</xsd:attribute>
 					</xsd:complexType>
 				</xsd:element>
@@ -1062,8 +1066,8 @@
 		Pathway or pathway element CitationRefs refer to Citations. 
 		
 		Citation properties in the order to be written: 
-		- elementId, url
-		- Xref
+		- elementId
+		- Xref, Url
 	-->
 	<xsd:element name="Citations">
 		<xsd:annotation>
@@ -1078,16 +1082,25 @@
 					</xsd:annotation>
 					<xsd:complexType>
 						<xsd:sequence>
-							<xsd:element ref="gpml:Xref" minOccurs="1" maxOccurs="1"/>
+							<xsd:choice>
+								<xsd:sequence>
+									<xsd:element ref="gpml:Xref">
+										<xsd:annotation>
+											<xsd:documentation>Reference to a database entry. A Citation must have either an Xref or Url, or both.</xsd:documentation>
+										</xsd:annotation>
+									</xsd:element>
+									<xsd:element ref="gpml:Url" minOccurs="0">
+										<xsd:annotation>
+											<xsd:documentation>Link to a web address. A Citation must have either an Xref or Url, or both.</xsd:documentation>
+										</xsd:annotation>
+									</xsd:element>
+								</xsd:sequence>
+								<xsd:element ref="gpml:Url"/>
+							</xsd:choice>
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required">
 							<xsd:annotation>
 								<xsd:documentation>The internal gpml unique identifier for an element.</xsd:documentation>
-							</xsd:annotation>
-						</xsd:attribute>
-						<xsd:attribute name="url" type="xsd:string" use="optional">
-							<xsd:annotation>
-								<xsd:documentation>URL (web address) of work being cited.</xsd:documentation>
 							</xsd:annotation>
 						</xsd:attribute>
 					</xsd:complexType>
@@ -1133,8 +1146,8 @@
 		can have Evidence. 
 		
 		Evidence properties in the order to be written: 
-		- elementId, value, url
-		- Xref
+		- elementId, value
+		- Xref, Url
 	-->
 	<xsd:element name="Evidences">
 		<xsd:annotation>
@@ -1149,7 +1162,16 @@
 					</xsd:annotation>
 					<xsd:complexType>
 						<xsd:sequence>
-							<xsd:element ref="gpml:Xref" minOccurs="1" maxOccurs="1"/>
+							<xsd:element ref="gpml:Xref" minOccurs="1" maxOccurs="1">
+							<xsd:annotation>
+									<xsd:documentation>Reference to a database entry. An Evidence must have an Xref.</xsd:documentation>
+								</xsd:annotation>
+							</xsd:element>
+							<xsd:element ref="gpml:Url" minOccurs="0" maxOccurs="1">
+							<xsd:annotation>
+									<xsd:documentation>Link to a web address. An Evidence can have an Url.</xsd:documentation>
+								</xsd:annotation>
+							</xsd:element>
 						</xsd:sequence>
 						<xsd:attribute name="elementId" type="xsd:ID" use="required">
 							<xsd:annotation>
@@ -1159,11 +1181,6 @@
 						<xsd:attribute name="value" type="xsd:string" use="optional">
 							<xsd:annotation>
 								<xsd:documentation>The name, term, or text of an evidence.</xsd:documentation>
-							</xsd:annotation>
-						</xsd:attribute>
-						<xsd:attribute name="url" type="xsd:string" use="optional">
-							<xsd:annotation>
-								<xsd:documentation>URL (web address) of evidence.</xsd:documentation>
 							</xsd:annotation>
 						</xsd:attribute>
 					</xsd:complexType>
@@ -1215,6 +1232,32 @@
 			<xsd:attribute name="dataSource" type="xsd:string" use="required">
 				<xsd:annotation>
 					<xsd:documentation>Specifies the datasource prefix (see BridgeDb DataSource Ontology at https://github.com/bridgedb/datasources/blob/main/datasources.tsv) for the identifier provided as an Xref.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<!-- End: Xref -->
+	<!-- ###################################################################### -->
+	<!-- 
+		Url 
+		Link to a web address and optional description. An Annotation, Citation, and Evidence can have Url.   
+
+		Url properties in the order to be written: 
+		- link, description		
+	-->
+	<xsd:element name="Url">
+		<xsd:annotation>
+			<xsd:documentation>Link to a web address.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:attribute name="link" type="xsd:string" use="required">
+				<xsd:annotation>
+					<xsd:documentation>The link to a web address.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="description" type="xsd:string" use="optional">
+				<xsd:annotation>
+					<xsd:documentation>A decription for the url.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
 		</xsd:complexType>
@@ -1312,7 +1355,7 @@
 			</xsd:attribute>
 			<xsd:attribute name="shapeType" default="Square">
 				<xsd:annotation>
-					<xsd:documentation>The visual representation of an anchor, e.g., Square, Circle, None...</xsd:documentation>
+					<xsd:documentation>The visual representation of an anchor, e.g. Square (default), Circle, None...</xsd:documentation>
 				</xsd:annotation>
 				<xsd:simpleType>
 					<xsd:union>
