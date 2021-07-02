@@ -500,12 +500,12 @@
 								</xsd:union>
 							</xsd:simpleType>
 						</xsd:attribute>
-						<xsd:attribute name="groupRef" type="xsd:string" use="optional">
+						<xsd:attribute name="groupRef" type="xsd:IDREF" use="optional">
 							<xsd:annotation>
 								<xsd:documentation>When a pathway element is part of a gpml:Group, groupRef refers to the elementId of the parent group.</xsd:documentation>
 							</xsd:annotation>
 						</xsd:attribute>
-						<xsd:attribute name="elementRef" type="xsd:string" use="optional">
+						<xsd:attribute name="elementRef" type="xsd:IDREF" use="optional">
 							<xsd:annotation>
 								<xsd:documentation>An elementRef indicates a child/parent relationship between objects. The elementRef of the child refers to the elementId of the parent. A DataNode can have type "Alias" and refer to a gpml:Group.</xsd:documentation>
 							</xsd:annotation>
@@ -658,7 +658,7 @@
 								<xsd:documentation>The internal gpml unique identifier for an element.</xsd:documentation>
 							</xsd:annotation>
 						</xsd:attribute>
-						<xsd:attribute name="groupRef" type="xsd:string" use="optional">
+						<xsd:attribute name="groupRef" type="xsd:IDREF" use="optional">
 							<xsd:annotation>
 								<xsd:documentation>When a pathway element is part of a gpml:Group, groupRef refers to the elementId of the parent group.</xsd:documentation>
 							</xsd:annotation>
@@ -717,7 +717,7 @@
 								<xsd:documentation>The internal gpml unique identifier for an element.</xsd:documentation>
 							</xsd:annotation>
 						</xsd:attribute>
-						<xsd:attribute name="groupRef" type="xsd:string" use="optional">
+						<xsd:attribute name="groupRef" type="xsd:IDREF" use="optional">
 							<xsd:annotation>
 								<xsd:documentation>When a pathway element is part of a gpml:Group, groupRef refers to the elementId of the parent group.</xsd:documentation>
 							</xsd:annotation>
@@ -774,7 +774,7 @@
 								<xsd:documentation>The text for a label.</xsd:documentation>
 							</xsd:annotation>
 						</xsd:attribute>
-						<xsd:attribute name="groupRef" type="xsd:string" use="optional">
+						<xsd:attribute name="groupRef" type="xsd:IDREF" use="optional">
 							<xsd:annotation>
 								<xsd:documentation>When a pathway element is part of a gpml:Group, groupRef refers to the elementId of the parent group.</xsd:documentation>
 							</xsd:annotation>
@@ -840,7 +840,7 @@
 								<xsd:documentation>The text label for a shape.</xsd:documentation>
 							</xsd:annotation>
 						</xsd:attribute>
-						<xsd:attribute name="groupRef" type="xsd:string" use="optional">
+						<xsd:attribute name="groupRef" type="xsd:IDREF" use="optional">
 							<xsd:annotation>
 								<xsd:documentation>When a pathway element is part of a gpml:Group, groupRef refers to the elementId of the parent group.</xsd:documentation>
 							</xsd:annotation>
@@ -919,7 +919,7 @@
 								</xsd:union>
 							</xsd:simpleType>
 						</xsd:attribute>
-						<xsd:attribute name="groupRef" type="xsd:string" use="optional">
+						<xsd:attribute name="groupRef" type="xsd:IDREF" use="optional">
 							<xsd:annotation>
 								<xsd:documentation>When a pathway element is part of a gpml:Group, groupRef refers to the elementId of the parent group.</xsd:documentation>
 							</xsd:annotation>
@@ -1053,7 +1053,7 @@
 					</xsd:annotation>
 				</xsd:element>
 			</xsd:sequence>
-			<xsd:attribute name="elementRef" type="xsd:string" use="required">
+			<xsd:attribute name="elementRef" type="xsd:IDREF" use="required">
 				<xsd:annotation>
 					<xsd:documentation>A elementRef indicates a child/parent relationship between objects. The elementRef of the child refers to the elementId of the parent.</xsd:documentation>
 				</xsd:annotation>
@@ -1131,7 +1131,7 @@
 					</xsd:annotation>
 				</xsd:element>
 			</xsd:sequence>
-			<xsd:attribute name="elementRef" type="xsd:string" use="required">
+			<xsd:attribute name="elementRef" type="xsd:IDREF" use="required">
 				<xsd:annotation>
 					<xsd:documentation>A elementRef indicates a child/parent relationship between objects. The elementRef of the child refers to the elementId of the parent.</xsd:documentation>
 				</xsd:annotation>
@@ -1203,7 +1203,7 @@
 			<xsd:documentation>Reference to a gpml:Evidence.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
-			<xsd:attribute name="elementRef" type="xsd:string" use="required">
+			<xsd:attribute name="elementRef" type="xsd:IDREF" use="required">
 				<xsd:annotation>
 					<xsd:documentation>A elementRef indicates a child/parent relationship between objects. The elementRef of the child refers to the elementId of the parent.</xsd:documentation>
 				</xsd:annotation>
