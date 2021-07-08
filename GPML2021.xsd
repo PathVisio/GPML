@@ -6,7 +6,7 @@
          This block declares properties which can be attached to elements in the GPML hierarchy:
 		 - attributeGroups: RectAttributes, FontAttributes, ShapeStyleAttributes, LineStyleAttributes
 		 - simpleTypes: StyleType, Dimension
-		 - element group: CommentGroup (Comment, Property, AnnotationRef, CitationRef) 
+		 - element group: CommentGroup (Comment, Property, AnnotationRef, CitationRef, EvidenceRef) 
     -->
 	<!-- 
 		RectProperties, Centering (Position) and Dimension Properties, in the order to be written. 
@@ -310,7 +310,7 @@
 		
 		Pathway properties in the order to be written in the gpml:
 		- title, organism, source, version, license
-		- Xref, Authors
+		- Xref, Description, Authors
 		- CommentGroup (Comment, Property, AnnotationRef, CitationRef, EvidenceRef)
 		- Graphics (boardWidth, boardHeight, backgroundColor), InfoBox
 		- DataNodes, Interactions, GraphicalLines, Labels, Shapes, Groups
@@ -323,6 +323,11 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:element ref="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+				<xsd:element name="Description" minOccurs="0" maxOccurs="1">
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:string"/>
+					</xsd:simpleType>
+				</xsd:element>
 				<xsd:element name="Authors" minOccurs="0" maxOccurs="1">
 					<xsd:complexType>
 						<xsd:sequence>
@@ -592,9 +597,9 @@
 									<xsd:simpleType>
 										<xsd:restriction base="xsd:string">
 											<xsd:enumeration value="Undefined"/>
-											<xsd:enumeration value="Protein modification"/>
-											<xsd:enumeration value="Genetic variant"/>
-											<xsd:enumeration value="Epigenetic modification"/>
+											<xsd:enumeration value="ProteinModification"/>
+											<xsd:enumeration value="GeneticVariant"/>
+											<xsd:enumeration value="EpigeneticModification"/>
 										</xsd:restriction>
 									</xsd:simpleType>
 									<xsd:simpleType>
@@ -985,7 +990,7 @@
 								</xsd:annotation>
 							</xsd:element>
 							<xsd:element ref="gpml:Url" minOccurs="0" maxOccurs="1">
-							<xsd:annotation>
+								<xsd:annotation>
 									<xsd:documentation>Link to a web address. An Annotation can have an Url.</xsd:documentation>
 								</xsd:annotation>
 							</xsd:element>
@@ -1011,7 +1016,6 @@
 											<xsd:enumeration value="Undefined"/>
 											<xsd:enumeration value="Ontology"/>
 											<xsd:enumeration value="Taxonomy"/>
-											<xsd:enumeration value="Interaction type"/>
 										</xsd:restriction>
 									</xsd:simpleType>
 									<xsd:simpleType>
@@ -1163,12 +1167,12 @@
 					<xsd:complexType>
 						<xsd:sequence>
 							<xsd:element ref="gpml:Xref" minOccurs="1" maxOccurs="1">
-							<xsd:annotation>
+								<xsd:annotation>
 									<xsd:documentation>Reference to a database entry. An Evidence must have an Xref.</xsd:documentation>
 								</xsd:annotation>
 							</xsd:element>
 							<xsd:element ref="gpml:Url" minOccurs="0" maxOccurs="1">
-							<xsd:annotation>
+								<xsd:annotation>
 									<xsd:documentation>Link to a web address. An Evidence can have an Url.</xsd:documentation>
 								</xsd:annotation>
 							</xsd:element>
@@ -1297,7 +1301,7 @@
 								<xsd:enumeration value="Stimulation"/>
 								<xsd:enumeration value="Binding"/>
 								<xsd:enumeration value="Translocation"/>
-								<xsd:enumeration value="Transcription-translation"/>
+								<xsd:enumeration value="TranscriptionTranslation"/>
 							</xsd:restriction>
 						</xsd:simpleType>
 						<xsd:simpleType>
