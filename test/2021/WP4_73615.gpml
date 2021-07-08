@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Pathway xmlns="http://pathvisio.org/GPML/2021" title="Sandbox Pathway" organism="Homo sapiens" license="CC BY 2.0">
-  <Comment source="WikiPathways-description">This is just a test pathway with a variety of object types including datanodes which can be connected to database entries (double-click on them when in edit mode). Feel free to edit anything on this page.</Comment>
+  <Description>This is just a test pathway with a variety of object types including datanodes which can be connected to database entries (double-click on them when in edit mode). Feel free to edit anything on this page.</Description>
   <Comment source="BotTest">20140201000004</Comment>
   <AnnotationRef elementRef="be491" />
   <AnnotationRef elementRef="be491" />

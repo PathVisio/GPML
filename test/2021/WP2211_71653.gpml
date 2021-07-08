@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Pathway xmlns="http://pathvisio.org/GPML/2021" title="Geranylgeranyldiphosphate biosynthesis II (plastidic)" organism="Oryza sativa" source="RiceCyc" version="20110915">
-  <Comment source="WikiPathways-category">Metabolic Process</Comment>
-  <Comment source="WikiPathways-description">In plants the geranyl-geranyl diphosphate (GGPP) as a precursor molecule that feeds in the biosynthesis of essential compounds such as chlorophylls, carotenoids, plastoquinones, growth hormone gibberellin and other secondary metabolites. Occurs in plastids.</Comment>
-  <AnnotationRef elementRef="f8b6f" />
+  <Description>In plants the geranyl-geranyl diphosphate (GGPP) as a precursor molecule that feeds in the biosynthesis of essential compounds such as chlorophylls, carotenoids, plastoquinones, growth hormone gibberellin and other secondary metabolites. Occurs in plastids.</Description>
+   <Comment source="WikiPathways-category">Metabolic Process</Comment>
+ <AnnotationRef elementRef="f8b6f" />
   <AnnotationRef elementRef="d570a" />
   <CitationRef elementRef="b1a" />
   <CitationRef elementRef="a22" />
