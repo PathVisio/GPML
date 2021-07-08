@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="New Pathway" Version="20170828">
-        <Graphics BoardWidth="227.4608408903545" BoardHeight="140.57708161582852" />
-        <DataNode TextLabel="GeneProduct" GraphId="e3838" Type="GeneProduct">
-                <Graphics CenterX="157.4608408903545" CenterY="100.57708161582852" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-                <Xref Database="" ID="" />
-        </DataNode>
-        <InfoBox CenterX="0.0" CenterY="0.0" />
-</Pathway>
