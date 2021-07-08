@@ -5,7 +5,7 @@
 Description, files and documentation for all GPML schema versions.
 
 | Schema version | Date | Documentation |
-|:--------------:|:------:|:------|
+|:--------------|:------|:------|
 | GPML2021 | upcoming (July 2021) | [Doc](https://pathvisio.github.io/documentation/GPML2021-doc.html) |
 | GPML2017 | not released | [Doc](https://pathvisio.github.io/documentation/GPML2013a-doc.html) |
 | GPML2013a | released in 2013 and introduced on WikiPathways on 8 July 2013 | |
