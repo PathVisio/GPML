@@ -4,7 +4,7 @@
 
 Description, files and documentation for all GPML schema versions.
 
-| Schema version | Date | Documentation |
+| Schema version | Documentation | Date |
 |:--------------|:------|:------|
 | [GPML2021.xsd](https://github.com/PathVisio/GPML/blob/master/GPML2021/GPML2021.xsd) | [Doc](https://pathvisio.github.io/documentation/GPML2021-doc.html) | upcoming (July 2021) |
 | [GPML2017.xsd](https://github.com/PathVisio/GPML/blob/master/GPML2017/GPML2017.xsd) | [Doc](https://pathvisio.github.io/documentation/GPML2013a-doc.html) | not released |
