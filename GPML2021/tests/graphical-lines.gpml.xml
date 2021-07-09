@@ -31,85 +31,85 @@
   <GraphicalLines>
     <GraphicalLine elementId="c1a54">
       <Waypoints>
-        <Point elementId="c5ae1" arrowHead="Directed" x="50.44304724610495" y="185.58072627306547" />
-        <Point elementId="f2683" arrowHead="Undirected" x="117.62686295162703" y="197.5162101440333" />
-        <Point elementId="d1e9c" arrowHead="Undirected" x="167.58334219563915" y="209.45169401500112" />
-        <Point elementId="c5dc1" arrowHead="Undirected" x="217.5398214396513" y="225.58072627306555" />
-        <Point elementId="a46fb" arrowHead="Inhibition" x="279.475305310618" y="241.70975853112998" />
+        <Point elementId="a4ef5" arrowHead="Directed" x="50.44304724610495" y="185.58072627306547" />
+        <Point elementId="dc5a9" arrowHead="Undirected" x="117.62686295162703" y="197.5162101440333" />
+        <Point elementId="d41b8" arrowHead="Undirected" x="167.58334219563915" y="209.45169401500112" />
+        <Point elementId="c8f0b" arrowHead="Undirected" x="217.5398214396513" y="225.58072627306555" />
+        <Point elementId="e199e" arrowHead="Inhibition" x="279.475305310618" y="241.70975853112998" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Curved" zOrder="32862" />
     </GraphicalLine>
     <GraphicalLine elementId="fae2a">
       <Waypoints>
-        <Point elementId="de033" arrowHead="Undirected" x="107.41072989433407" y="82.39234248360765" elementRef="dc130" relX="1.0" relY="0.0" />
-        <Point elementId="f8b68" arrowHead="Undirected" x="215.5088759894224" y="119.10609004062042" />
-        <Point elementId="b7e08" arrowHead="Directed" x="296.6060244290327" y="155.81983759763318" elementRef="e1eea" relX="-1.0" relY="0.0" />
+        <Point elementId="ff3e4" arrowHead="Undirected" x="107.41072989433407" y="82.39234248360765" elementRef="dc130" relX="1.0" relY="0.0" />
+        <Point elementId="a432a" arrowHead="Undirected" x="215.5088759894224" y="119.10609004062042" />
+        <Point elementId="e18e6" arrowHead="Directed" x="296.6060244290327" y="155.81983759763318" elementRef="e1eea" relX="-1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Curved" zOrder="32863" />
     </GraphicalLine>
     <GraphicalLine elementId="d0195">
       <Waypoints>
-        <Point elementId="d288f" arrowHead="Inhibition" x="49.26104618556181" y="309.4923644762014" />
-        <Point elementId="d44c1" arrowHead="Undirected" x="116.444861891084" y="321.4278483471692" />
-        <Point elementId="d432f" arrowHead="Undirected" x="166.40134113509612" y="333.3633322181369" />
-        <Point elementId="cb96b" arrowHead="Undirected" x="216.35782037910826" y="349.4923644762013" />
-        <Point elementId="ead67" arrowHead="Stimulation" x="278.293304250075" y="365.6213967342657" />
+        <Point elementId="e6eb8" arrowHead="Inhibition" x="49.26104618556181" y="309.4923644762014" />
+        <Point elementId="f5095" arrowHead="Undirected" x="116.444861891084" y="321.4278483471692" />
+        <Point elementId="c754f" arrowHead="Undirected" x="166.40134113509612" y="333.3633322181369" />
+        <Point elementId="bfd5b" arrowHead="Undirected" x="216.35782037910826" y="349.4923644762013" />
+        <Point elementId="e784b" arrowHead="Stimulation" x="278.293304250075" y="365.6213967342657" />
       </Waypoints>
       <Graphics lineColor="00cc33" lineStyle="Dashed" lineWidth="1.0" connectorType="Elbow" zOrder="32869" />
     </GraphicalLine>
     <GraphicalLine elementId="e98b2">
       <Waypoints>
-        <Point elementId="f1376" arrowHead="Stimulation" x="717.5567499518138" y="29.62639136930201" elementRef="a477e" relX="1.0" relY="0.0" />
-        <Point elementId="b42f0" arrowHead="Undirected" x="756.4389037249846" y="64.72109130726727" />
-        <Point elementId="c7df3" arrowHead="Binding" x="812.8638457287514" y="99.81579124523253" elementRef="a6684" relX="-1.0" relY="0.0" />
+        <Point elementId="fad88" arrowHead="Stimulation" x="717.5567499518138" y="29.62639136930201" elementRef="a477e" relX="1.0" relY="0.0" />
+        <Point elementId="c2979" arrowHead="Undirected" x="756.4389037249846" y="64.72109130726727" />
+        <Point elementId="a2fd0" arrowHead="Binding" x="812.8638457287514" y="99.81579124523253" elementRef="a6684" relX="-1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="32872" />
     </GraphicalLine>
     <GraphicalLine elementId="c2b34">
       <Waypoints>
-        <Point elementId="e1e07" arrowHead="Binding" x="606.4675197359896" y="128.50948797317068" />
-        <Point elementId="dbff6" arrowHead="Undirected" x="676.4536114016825" y="172.41580090374407" />
-        <Point elementId="edc0e" arrowHead="Undirected" x="783.1392444031057" y="148.94496164343116" />
-        <Point elementId="ae270" arrowHead="Undirected" x="763.2245929095072" y="179.5281764371722" />
-        <Point elementId="fce81" arrowHead="Conversion" x="835.4997778005047" y="184.63852023123525" />
+        <Point elementId="f558c" arrowHead="Binding" x="606.4675197359896" y="128.50948797317068" />
+        <Point elementId="d2b39" arrowHead="Undirected" x="676.4536114016825" y="172.41580090374407" />
+        <Point elementId="f4eb6" arrowHead="Undirected" x="783.1392444031057" y="148.94496164343116" />
+        <Point elementId="cd4e4" arrowHead="Undirected" x="763.2245929095072" y="179.5281764371722" />
+        <Point elementId="ecfee" arrowHead="Conversion" x="835.4997778005047" y="184.63852023123525" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Double" lineWidth="1.0" connectorType="Segmented" zOrder="32875" />
     </GraphicalLine>
     <GraphicalLine elementId="ac5ba">
       <Waypoints>
-        <Point elementId="f4e19" arrowHead="Conversion" x="393.8158575748612" y="70.95331535308719" elementRef="dea67" relX="1.0" relY="0.0" />
-        <Point elementId="b964b" arrowHead="Undirected" x="432.60785541643395" y="135.69596678585015" />
-        <Point elementId="ed877" arrowHead="Undirected" x="427.9782257868044" y="80.14041123029496" />
-        <Point elementId="e9644" arrowHead="Undirected" x="497.42267023124816" y="135.69596678585015" />
-        <Point elementId="d25b0" arrowHead="Stimulation" x="535.3037917373716" y="82.1670539249199" elementRef="d6ff7" relX="-0.5" relY="-1.0" />
+        <Point elementId="b8dcf" arrowHead="Conversion" x="393.8158575748612" y="70.95331535308719" elementRef="dea67" relX="1.0" relY="0.0" />
+        <Point elementId="b72a6" arrowHead="Undirected" x="432.60785541643395" y="135.69596678585015" />
+        <Point elementId="f05e0" arrowHead="Undirected" x="427.9782257868044" y="80.14041123029496" />
+        <Point elementId="b64c9" arrowHead="Undirected" x="497.42267023124816" y="135.69596678585015" />
+        <Point elementId="f1ab1" arrowHead="Stimulation" x="535.3037917373716" y="82.1670539249199" elementRef="d6ff7" relX="-0.5" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Segmented" zOrder="32878" />
     </GraphicalLine>
     <GraphicalLine elementId="be3e7">
       <Waypoints>
-        <Point elementId="cc7a7" arrowHead="Stimulation" x="311.4725432651363" y="215.07537010437989" />
-        <Point elementId="db645" arrowHead="Conversion" x="548.136645962733" y="218.944099378882" />
+        <Point elementId="df58d" arrowHead="Stimulation" x="311.4725432651363" y="215.07537010437989" />
+        <Point elementId="f5c07" arrowHead="Conversion" x="548.136645962733" y="218.944099378882" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32880" />
     </GraphicalLine>
     <GraphicalLine elementId="dd146">
       <Waypoints>
-        <Point elementId="d62c0" arrowHead="Conversion" x="402.2800262220959" y="324.9623096366803" elementRef="f596e" relX="1.0" relY="0.0" />
-        <Point elementId="fdcb5" arrowHead="Catalysis" x="493.86202423045813" y="378.8461539570559" elementRef="af9e8" relX="-1.0" relY="0.0" />
+        <Point elementId="b46b1" arrowHead="Conversion" x="402.2800262220959" y="324.9623096366803" elementRef="f596e" relX="1.0" relY="0.0" />
+        <Point elementId="faf01" arrowHead="Catalysis" x="493.86202423045813" y="378.8461539570559" elementRef="af9e8" relX="-1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="ff3333" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32883" />
     </GraphicalLine>
     <GraphicalLine elementId="d3b07">
       <Waypoints>
-        <Point elementId="a42b0" arrowHead="Directed" x="713.0881731506454" y="274.4462750069339" elementRef="d71b9" relX="1.0" relY="0.0" />
-        <Point elementId="a843c" arrowHead="Undirected" x="880.4347826086956" y="282.6086956521739" />
+        <Point elementId="dd1a0" arrowHead="Directed" x="713.0881731506454" y="274.4462750069339" elementRef="d71b9" relX="1.0" relY="0.0" />
+        <Point elementId="addd6" arrowHead="Undirected" x="880.4347826086956" y="282.6086956521739" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32887" />
     </GraphicalLine>
     <GraphicalLine elementId="e9838">
       <Waypoints>
-        <Point elementId="a1749" arrowHead="Undirected" x="636.3487143738535" y="384.9747067163504" />
-        <Point elementId="e0a7c" arrowHead="Undirected" x="888.1987577639751" y="384.97470671635034" />
+        <Point elementId="bcdc9" arrowHead="Undirected" x="636.3487143738535" y="384.9747067163504" />
+        <Point elementId="eb4e7" arrowHead="Undirected" x="888.1987577639751" y="384.97470671635034" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="5.0" connectorType="Straight" zOrder="32890" />
     </GraphicalLine>

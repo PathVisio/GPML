@@ -1,433 +1,435 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Pathway xmlns="http://pathvisio.org/GPML/2021" title="Statin Pathway" organism="Mus musculus">
-	<Description>What are statins? See Wikipedia at: http://en.wikipedia.org/wiki/Statin More about this pathway and statins: https://www.pharmgkb.org/do/serve?objId=PA2031&amp;amp;objCls=Pathway</Description>
-	<Comment source="WikiPathways-category">Metabolic Process</Comment>
-	<AnnotationRef elementRef="ac8ac"/>
-	<CitationRef elementRef="ba0"/>
-	<Graphics boardWidth="930.0000000000003" boardHeight="745.1455026455017"/>
-	<InfoBox centerX="5.1" centerY="8.333333333333334"/>
-	<DataNodes>
-		<DataNode elementId="fa9" textLabel="Free FA" type="Metabolite">
-			<Xref identifier="CHEBI:35366" dataSource="chebi"/>
-			<Graphics centerX="552.3160678994171" centerY="124.72359141038902" width="64.33333333333333" height="19.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672"/>
-		</DataNode>
-		<DataNode elementId="d24" textLabel="Phospholipid" type="Metabolite">
-			<Xref identifier="CHEBI:16247" dataSource="chebi"/>
-			<Graphics centerX="756.6666666666667" centerY="180.0" width="104.33333333333337" height="19.000000000000014" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672"/>
-		</DataNode>
-		<DataNode elementId="c66" textLabel="Triglycerides" type="Metabolite">
-			<Xref identifier="CHEBI:17855" dataSource="chebi"/>
-			<Graphics centerX="756.6666666666666" centerY="212.33333333333334" width="104.33333333333333" height="19.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672"/>
-		</DataNode>
-		<DataNode elementId="e04" textLabel="Hmgcr" type="GeneProduct">
-			<Xref identifier="15357" dataSource="ncbigene"/>
-			<Graphics centerX="205.33333333333334" centerY="164.4873208379272" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Hmgcr | 3-hydroxy-3-methylglutaryl-Coenzyme A r..."/>
-		</DataNode>
-		<DataNode elementId="da7" textLabel="Cyp7a1" type="GeneProduct">
-			<Xref identifier="13122" dataSource="ncbigene"/>
-			<Graphics centerX="416.6666666666667" centerY="164.4873208379272" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Cyp7a1 | cytochrome P450 family 7 subfamily ..."/>
-		</DataNode>
-		<DataNode elementId="e6e" textLabel="Soat1" type="GeneProduct">
-			<Xref identifier="20652" dataSource="ncbigene"/>
-			<Graphics centerX="454.1904761904762" centerY="199.4761904761904" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Soat1 | sterol O-acyltransferase 1"/>
-		</DataNode>
-		<DataNode elementId="f8e" textLabel="Mttp" type="GeneProduct">
-			<Xref identifier="17777" dataSource="ncbigene"/>
-			<Graphics centerX="685.380952380953" centerY="273.9523809523805" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Mttp | microsomal triglyceride transfer protein..."/>
-		</DataNode>
-		<DataNode elementId="be0" textLabel="Dgat1" type="GeneProduct">
-			<Xref identifier="13350" dataSource="ncbigene"/>
-			<Graphics centerX="674.376506134835" centerY="122.73746377756173" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Dgat1 | diacylglycerol O-acyltransferase 1"/>
-		</DataNode>
-		<DataNode elementId="d72" textLabel="Ldlr" type="GeneProduct">
-			<Xref identifier="16835" dataSource="ncbigene"/>
-			<Graphics centerX="231.66666666666666" centerY="330.3333333333333" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Ldlr | low density lipoprotein receptor"/>
-		</DataNode>
-		<DataNode elementId="a36" textLabel="Lrp1" type="GeneProduct">
-			<Xref identifier="16971" dataSource="ncbigene"/>
-			<Graphics centerX="377.1904761904765" centerY="330.3333333333333" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Lrp1 | low density lipoprotein receptor-related..."/>
-		</DataNode>
-		<DataNode elementId="c3e" textLabel="Lpl" type="GeneProduct">
-			<Xref identifier="16956" dataSource="ncbigene"/>
-			<Graphics centerX="474.3333333333335" centerY="417.66666666666697" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Lpl | lipoprotein lipase"/>
-		</DataNode>
-		<DataNode elementId="af7" textLabel="Lipc" type="GeneProduct">
-			<Xref identifier="15450" dataSource="ncbigene"/>
-			<Graphics centerX="255.5238095238094" centerY="419.57142857142884" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Lipc | lipase hepatic"/>
-		</DataNode>
-		<DataNode elementId="b7b" textLabel="Cetp" type="GeneProduct">
-			<Xref identifier="1071" dataSource="ncbigene"/>
-			<Graphics centerX="377.1904761904765" centerY="462.2380952380956" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-		</DataNode>
-		<DataNode elementId="f82" textLabel="Lcat" type="GeneProduct">
-			<Xref identifier="16816" dataSource="ncbigene"/>
-			<Graphics centerX="377.1904761904765" centerY="489.6190476190473" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Lcat | lecithin cholesterol acyltransferase"/>
-		</DataNode>
-		<DataNode elementId="d75" textLabel="Abca1" type="GeneProduct">
-			<Xref identifier="11303" dataSource="ncbigene"/>
-			<Graphics centerX="367.1904761904764" centerY="571.0000000000001" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Abca1 | ATP-binding cassette sub-family A (AB..."/>
-		</DataNode>
-		<DataNode elementId="c4e" textLabel="Pltp" type="GeneProduct">
-			<Xref identifier="18830" dataSource="ncbigene"/>
-			<Graphics centerX="562.809523809524" centerY="491.1904761904762" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Pltp | phospholipid transfer protein"/>
-		</DataNode>
-		<DataNode elementId="e58" textLabel="Apoa1" type="GeneProduct">
-			<Xref identifier="11806" dataSource="ncbigene"/>
-			<Graphics centerX="505.761904761905" centerY="569.047619047619" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Apoa1 | apolipoprotein A-I"/>
-		</DataNode>
-		<DataNode elementId="b95" textLabel="Apoa4" type="GeneProduct">
-			<Xref identifier="11808" dataSource="ncbigene"/>
-			<Graphics centerX="580.4761904761907" centerY="569.047619047619" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Apoa4 | apolipoprotein A-IV"/>
-		</DataNode>
-		<DataNode elementId="f9d" textLabel="Apoc1" type="GeneProduct" groupRef="abe40">
-			<Xref identifier="11812" dataSource="ncbigene"/>
-			<Graphics centerX="739.9999999999987" centerY="409.9999999999998" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Apoc1 | apolipoprotein C-I"/>
-		</DataNode>
-		<DataNode elementId="fad" textLabel="Apoe" type="GeneProduct" groupRef="abe40">
-			<Xref identifier="11816" dataSource="ncbigene"/>
-			<Graphics centerX="739.9999999999987" centerY="429.9999999999998" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Apoe | apolipoprotein E"/>
-		</DataNode>
-		<DataNode elementId="a64" textLabel="Apoc2" type="GeneProduct" groupRef="abe40">
-			<Xref identifier="11813" dataSource="ncbigene"/>
-			<Graphics centerX="739.9999999999987" centerY="449.9999999999998" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Apoc2 | apolipoprotein C-II"/>
-		</DataNode>
-		<DataNode elementId="a5e" textLabel="Apoc3" type="GeneProduct" groupRef="abe40">
-			<Xref identifier="11814" dataSource="ncbigene"/>
-			<Graphics centerX="739.9999999999987" centerY="389.9999999999998" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Apoc3 | apolipoprotein C-III"/>
-		</DataNode>
-		<DataNode elementId="c40" textLabel="Scarb1" type="GeneProduct">
-			<Xref identifier="20778" dataSource="ncbigene"/>
-			<Graphics centerX="131.0" centerY="330.3333333333333" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-			<Property key="org.pathvisio.model.BackpageHead" value="Scarb1 | scavenger receptor class B member 1..."/>
-		</DataNode>
-		<DataNode elementId="ecd6d" textLabel="Cholic acid" type="Metabolite">
-			<Xref identifier="HMDB00619" dataSource="hmdb"/>
-			<Graphics centerX="346.0" centerY="108.0" width="124.0" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-		</DataNode>
-		<DataNode elementId="f6a60" textLabel="Acetyl-CoA" type="Metabolite">
-			<Xref identifier="HMDB01206" dataSource="hmdb"/>
-			<Graphics centerX="98.07717750826919" centerY="236.0" width="124.0" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-		</DataNode>
-		<DataNode elementId="ba3f8" textLabel="Cholesterol" type="Metabolite">
-			<Xref identifier="HMDB00067" dataSource="hmdb"/>
-			<Graphics centerX="347.0" centerY="236.0" width="124.0" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-		</DataNode>
-		<DataNode elementId="afd21" textLabel="Cholesterol" type="Metabolite">
-			<Xref identifier="HMDB00067" dataSource="hmdb"/>
-			<Graphics centerX="285.0" centerY="637.0" width="80.0" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-		</DataNode>
-		<DataNode elementId="a24b2" textLabel="Cholesterol Ester" type="Metabolite">
-			<Xref identifier="CHEBI:17002" dataSource="chebi"/>
-			<Graphics centerX="584.0" centerY="236.00000000000003" width="124.0" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-		</DataNode>
-		<DataNode elementId="e4e59" textLabel="Statin" type="Metabolite">
-			<Xref identifier="35664" dataSource="chebi"/>
-			<Graphics centerX="98.07717750826917" centerY="164.4873208379272" width="80.0" height="20.0" textColor="ff0033" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ff0033" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768"/>
-		</DataNode>
-	</DataNodes>
-	<Interactions>
-		<Interaction elementId="ida14b6441">
-			<Waypoints>
-				<Point elementId="f64ec" arrowHead="Undirected" x="160.0771775082692" y="236.0" elementRef="f6a60" relX="1.0" relY="0.0"/>
-				<Point elementId="d7149" arrowHead="Directed" x="285.0" y="236.0" elementRef="ba3f8" relX="-1.0" relY="0.0"/>
-				<Anchor elementId="b8d41" position="0.3602583682111401" shapeType="None"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="id71c845e6">
-			<Waypoints>
-				<Point elementId="d02ea" arrowHead="Undirected" x="138.0771775082692" y="164.4873208379272" elementRef="e4e59" relX="1.0" relY="0.0"/>
-				<Point elementId="e716c" arrowHead="Inhibition" x="175.33333333333334" y="164.4873208379272" elementRef="e04" relX="-1.0" relY="0.0"/>
-			</Waypoints>
-			<Graphics lineColor="ff0000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="id5693288b">
-			<Waypoints>
-				<Point elementId="eb6c9" arrowHead="Undirected" x="347.0" y="226.0" elementRef="ba3f8" relX="0.0" relY="-1.0"/>
-				<Point elementId="b1fd3" arrowHead="Directed" x="346.0" y="118.0" elementRef="ecd6d" relX="0.0" relY="1.0"/>
-				<Anchor elementId="a475f" position="0.5636799553164064" shapeType="None"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="id2d08a86c">
-			<Waypoints>
-				<Point elementId="c9d3f" arrowHead="Undirected" x="409.0" y="236.0" elementRef="ba3f8" relX="1.0" relY="0.0"/>
-				<Point elementId="f943c" arrowHead="Directed" x="522.0" y="236.00000000000003" elementRef="a24b2" relX="-1.0" relY="0.0"/>
-				<Anchor elementId="a259b" position="0.4" shapeType="None"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="idaf2a986">
-			<Waypoints>
-				<Point elementId="d60d0" arrowHead="Undirected" x="552.3160678994172" y="134.22359141038902" elementRef="fa9" relX="0.0" relY="1.0"/>
-				<Point elementId="c1202" arrowHead="Directed" x="553.0" y="226.00000000000003" elementRef="a24b2" relX="-0.5" relY="-1.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="id29bceef9">
-			<Waypoints>
-				<Point elementId="b21a7" arrowHead="Undirected" x="584.482734566084" y="124.72359141038902" elementRef="fa9" relX="1.0" relY="0.0"/>
-				<Point elementId="f8893" arrowHead="Directed" x="704.5" y="212.33333333333334" elementRef="c66" relX="-1.0" relY="0.0"/>
-				<Anchor elementId="e9293" position="0.6868078220200304" shapeType="None"/>
-				<Anchor elementId="bee71" position="0.4" shapeType="None"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="idad027bce">
-			<Waypoints>
-				<Point elementId="dbab3" arrowHead="Undirected" x="666.9115312435517" y="184.89464744822337" elementRef="e9293" relX="0.0" relY="0.0"/>
-				<Point elementId="ddc13" arrowHead="Directed" x="704.5" y="180.0" elementRef="d24" relX="-1.0" relY="0.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="id1e7f7971">
-			<Waypoints>
-				<Point elementId="f9531" arrowHead="Undirected" x="584.0" y="246.00000000000003" elementRef="a24b2" relX="0.0" relY="1.0"/>
-				<Point elementId="c39b8" arrowHead="Directed" x="739.9999999999987" y="371.9999999999998" elementRef="abe40" relX="0.0" relY="-1.0"/>
-				<Anchor elementId="bd45e" position="0.4" shapeType="None"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="id436f346c">
-			<Waypoints>
-				<Point elementId="c901b" arrowHead="Undirected" x="377.1904761904765" y="320.3333333333333" elementRef="a36" relX="0.0" relY="-1.0"/>
-				<Point elementId="a813a" arrowHead="Directed" x="378.0" y="246.0" elementRef="ba3f8" relX="0.5" relY="1.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="id6ca21b57">
-			<Waypoints>
-				<Point elementId="d9006" arrowHead="Undirected" x="177.33333333333334" y="373.8333333333333" elementRef="d57" relX="-0.5" relY="-1.0"/>
-				<Point elementId="f9791" arrowHead="Undirected" x="146.0" y="340.3333333333333" elementRef="c40" relX="0.5" relY="1.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="ide0f0a17c">
-			<Waypoints>
-				<Point elementId="ce582" arrowHead="Undirected" x="196.00000000000003" y="373.8333333333333" elementRef="d57" relX="0.5" relY="-1.0"/>
-				<Point elementId="c66a6" arrowHead="Undirected" x="231.66666666666663" y="340.3333333333333" elementRef="d72" relX="0.0" relY="1.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="ida9302f64">
-			<Waypoints>
-				<Point elementId="eae1f" arrowHead="Undirected" x="231.66666666666663" y="320.3333333333333" elementRef="d72" relX="0.0" relY="-1.0"/>
-				<Point elementId="e80d7" arrowHead="Directed" x="347.0" y="246.0" elementRef="ba3f8" relX="0.0" relY="1.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="id22e28379">
-			<Waypoints>
-				<Point elementId="ec1a4" arrowHead="Undirected" x="131.0" y="320.3333333333333" elementRef="c40" relX="0.0" relY="-1.0"/>
-				<Point elementId="ec7e2" arrowHead="Directed" x="316.0" y="246.0" elementRef="ba3f8" relX="-0.5" relY="1.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="id8511f007">
-			<Waypoints>
-				<Point elementId="d5924" arrowHead="Undirected" x="205.33333333333337" y="383.3333333333333" elementRef="d57" relX="1.0" relY="0.0"/>
-				<Point elementId="bff36" arrowHead="Directed" x="361.52380952380986" y="383.3333333333333" elementRef="c83" relX="-1.0" relY="0.0"/>
-				<Anchor elementId="e5b31" position="0.4" shapeType="None"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="idc6341a29">
-			<Waypoints>
-				<Point elementId="a8acd" arrowHead="Undirected" x="553.0238095238099" y="383.3333333333333" elementRef="fca" relX="-1.0" relY="0.0"/>
-				<Point elementId="d324b" arrowHead="Directed" x="392.8571428571431" y="383.3333333333333" elementRef="c83" relX="1.0" relY="0.0"/>
-				<Anchor elementId="a4349" position="0.4916010108517932" shapeType="None"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="idd2373b45">
-			<Waypoints>
-				<Point elementId="fabb0" arrowHead="Directed" x="385.0238095238098" y="392.8333333333333" elementRef="c83" relX="0.5" relY="1.0"/>
-				<Point elementId="f3afb" arrowHead="Directed" x="469.6904761904763" y="475.26190476190493" elementRef="cdf" relX="-0.5" relY="-1.0"/>
-				<Anchor elementId="b9f0f" position="0.4" shapeType="None"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="id9d3f4991">
-			<Waypoints>
-				<Point elementId="b5f3b" arrowHead="Directed" x="565.1071428571432" y="392.8333333333333" elementRef="fca" relX="-0.5" relY="1.0"/>
-				<Point elementId="e075d" arrowHead="Directed" x="489.35714285714295" y="475.26190476190493" elementRef="cdf" relX="0.5" relY="-1.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="id7808eadf">
-			<Waypoints>
-				<Point elementId="b5214" arrowHead="Undirected" x="367.1904761904764" y="561.0000000000001" elementRef="d75" relX="0.0" relY="-1.0"/>
-				<Point elementId="aec46" arrowHead="Directed" x="469.6904761904763" y="494.26190476190493" elementRef="cdf" relX="-0.5" relY="1.0"/>
-				<Anchor elementId="df895" position="0.6822235766482981" shapeType="None"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="iddc51ad2b">
-			<Waypoints>
-				<Point elementId="a5f0f" arrowHead="Undirected" x="565.4761904761907" y="559.047619047619" elementRef="b95" relX="-0.5" relY="-1.0"/>
-				<Point elementId="b56ac" arrowHead="Directed" x="489.35714285714295" y="494.26190476190493" elementRef="cdf" relX="0.5" relY="1.0"/>
-				<Anchor elementId="ca915" position="0.24223833833614508" shapeType="None"/>
-				<Anchor elementId="d7423" position="0.5400363708069501" shapeType="None"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="id5b3e22b6">
-			<Waypoints>
-				<Point elementId="ced61" arrowHead="Undirected" x="547.0372388652227" y="543.3540352711274" elementRef="ca915" relX="0.0" relY="0.0"/>
-				<Point elementId="f5b4c" arrowHead="Undirected" x="520.761904761905" y="559.047619047619" elementRef="e58" relX="0.5" relY="-1.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="id37ab2a8b">
-			<Waypoints>
-				<Point elementId="b068a" arrowHead="Undirected" x="205.33333333333334" y="174.4873208379272" elementRef="e04" relX="0.0" relY="1.0"/>
-				<Point elementId="d1166" arrowHead="Directed" x="205.08166969147004" y="236.0" elementRef="b8d41" relX="0.0" relY="0.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="id1e5724f9">
-			<Waypoints>
-				<Point elementId="fb911" arrowHead="Undirected" x="255.5238095238094" y="409.57142857142884" elementRef="af7" relX="0.0" relY="-1.0"/>
-				<Point elementId="cadce" arrowHead="Directed" x="267.80952380952397" y="383.3333333333333" elementRef="e5b31" relX="0.0" relY="0.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="b008b">
-			<Waypoints>
-				<Point elementId="abbf9" arrowHead="Undirected" x="377.1904761904765" y="373.8333333333333" elementRef="c83" relX="0.0" relY="-1.0"/>
-				<Point elementId="ca082" arrowHead="Undirected" x="377.1904761904765" y="340.3333333333333" elementRef="a36" relX="0.0" relY="1.0"/>
-			</Waypoints>
-			<Graphics lineColor="008040" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="idfb69689">
-			<Waypoints>
-				<Point elementId="f6cfe" arrowHead="Undirected" x="474.3333333333335" y="427.66666666666697" elementRef="c3e" relX="0.0" relY="1.0"/>
-				<Point elementId="bcdbf" arrowHead="Directed" x="474.2857142857143" y="383.3333333333333" elementRef="a4349" relX="0.0" relY="0.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="id6eef87c">
-			<Waypoints>
-				<Point elementId="a1385" arrowHead="Undirected" x="392.1904761904765" y="452.2380952380956" elementRef="b7b" relX="0.5" relY="-1.0"/>
-				<Point elementId="f9003" arrowHead="Directed" x="418.8904761904764" y="425.80476190476196" elementRef="b9f0f" relX="0.0" relY="0.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="id7b27d8">
-			<Waypoints>
-				<Point elementId="af3af" arrowHead="Undirected" x="547.809523809524" y="501.1904761904762" elementRef="c4e" relX="-0.5" relY="1.0"/>
-				<Point elementId="cc4b7" arrowHead="Directed" x="524.3691362507187" y="524.060977024626" elementRef="d7423" relX="0.0" relY="0.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="id7fb4b630">
-			<Waypoints>
-				<Point elementId="df746" arrowHead="Undirected" x="392.1904761904765" y="499.6190476190473" elementRef="f82" relX="0.5" relY="1.0"/>
-				<Point elementId="d690b" arrowHead="Directed" x="437.1183927969269" y="515.469697967972" elementRef="df895" relX="0.0" relY="0.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="ide734686c">
-			<Waypoints>
-				<Point elementId="d5395" arrowHead="Undirected" x="670.380952380953" y="283.9523809523805" elementRef="f8e" relX="-0.5" relY="1.0"/>
-				<Point elementId="c3a35" arrowHead="Directed" x="646.3999999999995" y="296.3999999999999" elementRef="bd45e" relX="0.0" relY="0.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="idfd21ef1c">
-			<Waypoints>
-				<Point elementId="ee120" arrowHead="Undirected" x="659.376506134835" y="132.73746377756174" elementRef="be0" relX="-0.5" relY="1.0"/>
-				<Point elementId="b9db7" arrowHead="Directed" x="632.4896407396504" y="159.76748817956675" elementRef="bee71" relX="0.0" relY="0.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="idd98747a1">
-			<Waypoints>
-				<Point elementId="a6074" arrowHead="Undirected" x="454.1904761904762" y="209.4761904761904" elementRef="e6e" relX="0.0" relY="1.0"/>
-				<Point elementId="edeb9" arrowHead="Directed" x="454.2" y="236.0" elementRef="a259b" relX="0.0" relY="0.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="id54cd1002">
-			<Waypoints>
-				<Point elementId="ef3df" arrowHead="Undirected" x="386.6666666666667" y="164.4873208379272" elementRef="da7" relX="-1.0" relY="0.0"/>
-				<Point elementId="badb0" arrowHead="Directed" x="346.4363200446836" y="165.1225648258281" elementRef="a475f" relX="0.0" relY="0.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-		<Interaction elementId="ida73c84b7">
-			<Waypoints>
-				<Point elementId="c41cf" arrowHead="Undirected" x="352.1904761904764" y="581.0000000000001" elementRef="d75" relX="-0.5" relY="1.0"/>
-				<Point elementId="e71a6" arrowHead="Undirected" x="285.0" y="627.0" elementRef="afd21" relX="0.0" relY="-1.0"/>
-			</Waypoints>
-			<Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288"/>
-		</Interaction>
-	</Interactions>
-	<Labels>
-		<Label elementId="e46" textLabel="Cell Membrane">
-			<Graphics centerX="848.0952380952393" centerY="68.09523809523814" width="102.33333333333333" height="16.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672"/>
-		</Label>
-		<Label elementId="b93" textLabel="Liver cell">
-			<Graphics centerX="856.6666666666666" centerY="320.0" width="73.33333333333333" height="19.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672"/>
-		</Label>
-		<Label elementId="d57" textLabel="LDL">
-			<Graphics centerX="186.66666666666666" centerY="383.3333333333333" width="37.333333333333336" height="19.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672"/>
-		</Label>
-		<Label elementId="c83" textLabel="IDL">
-			<Graphics centerX="377.19047619047655" centerY="383.3333333333333" width="31.333333333333332" height="19.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672"/>
-		</Label>
-		<Label elementId="fca" textLabel="VLDL">
-			<Graphics centerX="577.1904761904765" centerY="383.3333333333333" width="48.333333333333336" height="19.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672"/>
-		</Label>
-		<Label elementId="cdf" textLabel="HDL">
-			<Graphics centerX="479.5238095238097" centerY="484.76190476190493" width="39.333333333333336" height="19.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672"/>
-		</Label>
-		<Label elementId="f20" textLabel="Tissues">
-			<Graphics centerX="361.01851851851836" centerY="678.0092592592584" width="65.33333333333333" height="19.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672"/>
-		</Label>
-		<Label elementId="fbb" textLabel="Plasma">
-			<Graphics centerX="813.7037037037032" centerY="451.70634920634876" width="61.333333333333336" height="19.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672"/>
-		</Label>
-	</Labels>
-	<Shapes>
-		<Shape elementId="a0e3c">
-			<Graphics centerX="291.1752645502646" centerY="658.1825396825385" width="288.6944444444449" height="113.92592592592632" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Nucleus" zOrder="-4" rotation="0.0"/>
-		</Shape>
-		<Shape elementId="e459e">
-			<Graphics centerX="463.5595238095242" centerY="208.57142857142833" width="872.8809523809523" height="249.52380952380952" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Cell" zOrder="-2" rotation="0.0"/>
-		</Shape>
-	</Shapes>
-	<Groups>
-		<Group elementId="abe40" textLabel="Group object" type="Group">
-			<Graphics centerX="739.9999999999987" centerY="419.9999999999998" width="76.0" height="96.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0"/>
-		</Group>
-	</Groups>
-	<Annotations>
-		<Annotation elementId="ac8ac" value="statin drug pathway" type="Pathway Ontology">
-			<Xref identifier="0000724" dataSource="PW"/>
-		</Annotation>
-	</Annotations>
-	<Citations>
-		<Citation elementId="ba0">
-			<Xref identifier="10770267" dataSource="pubmed"/>
-		</Citation>
-	</Citations>
+  <Description>What are statins? See Wikipedia at: http://en.wikipedia.org/wiki/Statin
+
+More about this pathway and statins: https://www.pharmgkb.org/do/serve?objId=PA2031&amp;amp;objCls=Pathway</Description>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <AnnotationRef elementRef="a25bd" />
+  <CitationRef elementRef="ba0" />
+  <Graphics boardWidth="930.0000000000003" boardHeight="745.1455026455017" />
+  <InfoBox centerX="5.1" centerY="8.333333333333334" />
+  <DataNodes>
+    <DataNode elementId="fa9" textLabel="Free FA" type="Metabolite">
+      <Xref identifier="CHEBI:35366" dataSource="chebi" />
+      <Graphics centerX="552.3160678994171" centerY="124.72359141038902" width="64.33333333333333" height="19.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </DataNode>
+    <DataNode elementId="d24" textLabel="Phospholipid" type="Metabolite">
+      <Xref identifier="CHEBI:16247" dataSource="chebi" />
+      <Graphics centerX="756.6666666666667" centerY="180.0" width="104.33333333333337" height="19.000000000000014" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </DataNode>
+    <DataNode elementId="c66" textLabel="Triglycerides" type="Metabolite">
+      <Xref identifier="CHEBI:17855" dataSource="chebi" />
+      <Graphics centerX="756.6666666666666" centerY="212.33333333333334" width="104.33333333333333" height="19.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </DataNode>
+    <DataNode elementId="e04" textLabel="Hmgcr" type="GeneProduct">
+      <Xref identifier="15357" dataSource="ncbigene" />
+      <Graphics centerX="205.33333333333334" centerY="164.4873208379272" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Hmgcr | 3-hydroxy-3-methylglutaryl-Coenzyme A r..." />
+    </DataNode>
+    <DataNode elementId="da7" textLabel="Cyp7a1" type="GeneProduct">
+      <Xref identifier="13122" dataSource="ncbigene" />
+      <Graphics centerX="416.6666666666667" centerY="164.4873208379272" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Cyp7a1 | cytochrome P450 family 7 subfamily ..." />
+    </DataNode>
+    <DataNode elementId="e6e" textLabel="Soat1" type="GeneProduct">
+      <Xref identifier="20652" dataSource="ncbigene" />
+      <Graphics centerX="454.1904761904762" centerY="199.4761904761904" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Soat1 | sterol O-acyltransferase 1" />
+    </DataNode>
+    <DataNode elementId="f8e" textLabel="Mttp" type="GeneProduct">
+      <Xref identifier="17777" dataSource="ncbigene" />
+      <Graphics centerX="685.380952380953" centerY="273.9523809523805" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Mttp | microsomal triglyceride transfer protein..." />
+    </DataNode>
+    <DataNode elementId="be0" textLabel="Dgat1" type="GeneProduct">
+      <Xref identifier="13350" dataSource="ncbigene" />
+      <Graphics centerX="674.376506134835" centerY="122.73746377756173" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Dgat1 | diacylglycerol O-acyltransferase 1" />
+    </DataNode>
+    <DataNode elementId="d72" textLabel="Ldlr" type="GeneProduct">
+      <Xref identifier="16835" dataSource="ncbigene" />
+      <Graphics centerX="231.66666666666666" centerY="330.3333333333333" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Ldlr | low density lipoprotein receptor" />
+    </DataNode>
+    <DataNode elementId="a36" textLabel="Lrp1" type="GeneProduct">
+      <Xref identifier="16971" dataSource="ncbigene" />
+      <Graphics centerX="377.1904761904765" centerY="330.3333333333333" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Lrp1 | low density lipoprotein receptor-related..." />
+    </DataNode>
+    <DataNode elementId="c3e" textLabel="Lpl" type="GeneProduct">
+      <Xref identifier="16956" dataSource="ncbigene" />
+      <Graphics centerX="474.3333333333335" centerY="417.66666666666697" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Lpl | lipoprotein lipase" />
+    </DataNode>
+    <DataNode elementId="af7" textLabel="Lipc" type="GeneProduct">
+      <Xref identifier="15450" dataSource="ncbigene" />
+      <Graphics centerX="255.5238095238094" centerY="419.57142857142884" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Lipc | lipase hepatic" />
+    </DataNode>
+    <DataNode elementId="b7b" textLabel="Cetp" type="GeneProduct">
+      <Xref identifier="1071" dataSource="ncbigene" />
+      <Graphics centerX="377.1904761904765" centerY="462.2380952380956" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="f82" textLabel="Lcat" type="GeneProduct">
+      <Xref identifier="16816" dataSource="ncbigene" />
+      <Graphics centerX="377.1904761904765" centerY="489.6190476190473" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Lcat | lecithin cholesterol acyltransferase" />
+    </DataNode>
+    <DataNode elementId="d75" textLabel="Abca1" type="GeneProduct">
+      <Xref identifier="11303" dataSource="ncbigene" />
+      <Graphics centerX="367.1904761904764" centerY="571.0000000000001" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Abca1 | ATP-binding cassette sub-family A (AB..." />
+    </DataNode>
+    <DataNode elementId="c4e" textLabel="Pltp" type="GeneProduct">
+      <Xref identifier="18830" dataSource="ncbigene" />
+      <Graphics centerX="562.809523809524" centerY="491.1904761904762" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Pltp | phospholipid transfer protein" />
+    </DataNode>
+    <DataNode elementId="e58" textLabel="Apoa1" type="GeneProduct">
+      <Xref identifier="11806" dataSource="ncbigene" />
+      <Graphics centerX="505.761904761905" centerY="569.047619047619" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Apoa1 | apolipoprotein A-I" />
+    </DataNode>
+    <DataNode elementId="b95" textLabel="Apoa4" type="GeneProduct">
+      <Xref identifier="11808" dataSource="ncbigene" />
+      <Graphics centerX="580.4761904761907" centerY="569.047619047619" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Apoa4 | apolipoprotein A-IV" />
+    </DataNode>
+    <DataNode elementId="f9d" textLabel="Apoc1" type="GeneProduct" groupRef="abe40">
+      <Xref identifier="11812" dataSource="ncbigene" />
+      <Graphics centerX="739.9999999999987" centerY="409.9999999999998" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Apoc1 | apolipoprotein C-I" />
+    </DataNode>
+    <DataNode elementId="fad" textLabel="Apoe" type="GeneProduct" groupRef="abe40">
+      <Xref identifier="11816" dataSource="ncbigene" />
+      <Graphics centerX="739.9999999999987" centerY="429.9999999999998" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Apoe | apolipoprotein E" />
+    </DataNode>
+    <DataNode elementId="a64" textLabel="Apoc2" type="GeneProduct" groupRef="abe40">
+      <Xref identifier="11813" dataSource="ncbigene" />
+      <Graphics centerX="739.9999999999987" centerY="449.9999999999998" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Apoc2 | apolipoprotein C-II" />
+    </DataNode>
+    <DataNode elementId="a5e" textLabel="Apoc3" type="GeneProduct" groupRef="abe40">
+      <Xref identifier="11814" dataSource="ncbigene" />
+      <Graphics centerX="739.9999999999987" centerY="389.9999999999998" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Apoc3 | apolipoprotein C-III" />
+    </DataNode>
+    <DataNode elementId="c40" textLabel="Scarb1" type="GeneProduct">
+      <Xref identifier="20778" dataSource="ncbigene" />
+      <Graphics centerX="131.0" centerY="330.3333333333333" width="60.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <Property key="org.pathvisio.model.BackpageHead" value="Scarb1 | scavenger receptor class B member 1..." />
+    </DataNode>
+    <DataNode elementId="ecd6d" textLabel="Cholic acid" type="Metabolite">
+      <Xref identifier="HMDB00619" dataSource="hmdb" />
+      <Graphics centerX="346.0" centerY="108.0" width="124.0" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="f6a60" textLabel="Acetyl-CoA" type="Metabolite">
+      <Xref identifier="HMDB01206" dataSource="hmdb" />
+      <Graphics centerX="98.07717750826919" centerY="236.0" width="124.0" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="ba3f8" textLabel="Cholesterol" type="Metabolite">
+      <Xref identifier="HMDB00067" dataSource="hmdb" />
+      <Graphics centerX="347.0" centerY="236.0" width="124.0" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="afd21" textLabel="Cholesterol" type="Metabolite">
+      <Xref identifier="HMDB00067" dataSource="hmdb" />
+      <Graphics centerX="285.0" centerY="637.0" width="80.0" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="a24b2" textLabel="Cholesterol Ester" type="Metabolite">
+      <Xref identifier="CHEBI:17002" dataSource="chebi" />
+      <Graphics centerX="584.0" centerY="236.00000000000003" width="124.0" height="20.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="e4e59" textLabel="Statin" type="Metabolite">
+      <Xref identifier="35664" dataSource="chebi" />
+      <Graphics centerX="98.07717750826917" centerY="164.4873208379272" width="80.0" height="20.0" textColor="ff0033" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ff0033" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="ida14b6441">
+      <Waypoints>
+        <Point elementId="b5c49" arrowHead="Undirected" x="160.0771775082692" y="236.0" elementRef="f6a60" relX="1.0" relY="0.0" />
+        <Point elementId="a11d7" arrowHead="Directed" x="285.0" y="236.0" elementRef="ba3f8" relX="-1.0" relY="0.0" />
+        <Anchor elementId="b8d41" position="0.3602583682111401" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id71c845e6">
+      <Waypoints>
+        <Point elementId="fa66a" arrowHead="Undirected" x="138.0771775082692" y="164.4873208379272" elementRef="e4e59" relX="1.0" relY="0.0" />
+        <Point elementId="bcf17" arrowHead="Inhibition" x="175.33333333333334" y="164.4873208379272" elementRef="e04" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="ff0000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id5693288b">
+      <Waypoints>
+        <Point elementId="df431" arrowHead="Undirected" x="347.0" y="226.0" elementRef="ba3f8" relX="0.0" relY="-1.0" />
+        <Point elementId="a6e02" arrowHead="Directed" x="346.0" y="118.0" elementRef="ecd6d" relX="0.0" relY="1.0" />
+        <Anchor elementId="a475f" position="0.5636799553164064" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id2d08a86c">
+      <Waypoints>
+        <Point elementId="b4110" arrowHead="Undirected" x="409.0" y="236.0" elementRef="ba3f8" relX="1.0" relY="0.0" />
+        <Point elementId="b3031" arrowHead="Directed" x="522.0" y="236.00000000000003" elementRef="a24b2" relX="-1.0" relY="0.0" />
+        <Anchor elementId="a259b" position="0.4" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="idaf2a986">
+      <Waypoints>
+        <Point elementId="c9ace" arrowHead="Undirected" x="552.3160678994172" y="134.22359141038902" elementRef="fa9" relX="0.0" relY="1.0" />
+        <Point elementId="a4ce2" arrowHead="Directed" x="553.0" y="226.00000000000003" elementRef="a24b2" relX="-0.5" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id29bceef9">
+      <Waypoints>
+        <Point elementId="bc3ba" arrowHead="Undirected" x="584.482734566084" y="124.72359141038902" elementRef="fa9" relX="1.0" relY="0.0" />
+        <Point elementId="f46ed" arrowHead="Directed" x="704.5" y="212.33333333333334" elementRef="c66" relX="-1.0" relY="0.0" />
+        <Anchor elementId="e9293" position="0.6868078220200304" shapeType="None" />
+        <Anchor elementId="bee71" position="0.4" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="idad027bce">
+      <Waypoints>
+        <Point elementId="a80cc" arrowHead="Undirected" x="666.9115312435517" y="184.89464744822337" elementRef="e9293" relX="0.0" relY="0.0" />
+        <Point elementId="f9de8" arrowHead="Directed" x="704.5" y="180.0" elementRef="d24" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id1e7f7971">
+      <Waypoints>
+        <Point elementId="f3ccd" arrowHead="Undirected" x="584.0" y="246.00000000000003" elementRef="a24b2" relX="0.0" relY="1.0" />
+        <Point elementId="ad22d" arrowHead="Directed" x="739.9999999999987" y="371.9999999999998" elementRef="abe40" relX="0.0" relY="-1.0" />
+        <Anchor elementId="bd45e" position="0.4" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id436f346c">
+      <Waypoints>
+        <Point elementId="ce710" arrowHead="Undirected" x="377.1904761904765" y="320.3333333333333" elementRef="a36" relX="0.0" relY="-1.0" />
+        <Point elementId="c9a70" arrowHead="Directed" x="378.0" y="246.0" elementRef="ba3f8" relX="0.5" relY="1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id6ca21b57">
+      <Waypoints>
+        <Point elementId="e338d" arrowHead="Undirected" x="177.33333333333334" y="373.8333333333333" elementRef="d57" relX="-0.5" relY="-1.0" />
+        <Point elementId="fdbed" arrowHead="Undirected" x="146.0" y="340.3333333333333" elementRef="c40" relX="0.5" relY="1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="ide0f0a17c">
+      <Waypoints>
+        <Point elementId="b0305" arrowHead="Undirected" x="196.00000000000003" y="373.8333333333333" elementRef="d57" relX="0.5" relY="-1.0" />
+        <Point elementId="c911a" arrowHead="Undirected" x="231.66666666666663" y="340.3333333333333" elementRef="d72" relX="0.0" relY="1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="ida9302f64">
+      <Waypoints>
+        <Point elementId="c597c" arrowHead="Undirected" x="231.66666666666663" y="320.3333333333333" elementRef="d72" relX="0.0" relY="-1.0" />
+        <Point elementId="bfa28" arrowHead="Directed" x="347.0" y="246.0" elementRef="ba3f8" relX="0.0" relY="1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id22e28379">
+      <Waypoints>
+        <Point elementId="d7e77" arrowHead="Undirected" x="131.0" y="320.3333333333333" elementRef="c40" relX="0.0" relY="-1.0" />
+        <Point elementId="f8938" arrowHead="Directed" x="316.0" y="246.0" elementRef="ba3f8" relX="-0.5" relY="1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id8511f007">
+      <Waypoints>
+        <Point elementId="ca094" arrowHead="Undirected" x="205.33333333333337" y="383.3333333333333" elementRef="d57" relX="1.0" relY="0.0" />
+        <Point elementId="a0e3b" arrowHead="Directed" x="361.52380952380986" y="383.3333333333333" elementRef="c83" relX="-1.0" relY="0.0" />
+        <Anchor elementId="e5b31" position="0.4" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="idc6341a29">
+      <Waypoints>
+        <Point elementId="df58f" arrowHead="Undirected" x="553.0238095238099" y="383.3333333333333" elementRef="fca" relX="-1.0" relY="0.0" />
+        <Point elementId="c3dcb" arrowHead="Directed" x="392.8571428571431" y="383.3333333333333" elementRef="c83" relX="1.0" relY="0.0" />
+        <Anchor elementId="a4349" position="0.4916010108517932" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="idd2373b45">
+      <Waypoints>
+        <Point elementId="b7b22" arrowHead="Directed" x="385.0238095238098" y="392.8333333333333" elementRef="c83" relX="0.5" relY="1.0" />
+        <Point elementId="d7640" arrowHead="Directed" x="469.6904761904763" y="475.26190476190493" elementRef="cdf" relX="-0.5" relY="-1.0" />
+        <Anchor elementId="b9f0f" position="0.4" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id9d3f4991">
+      <Waypoints>
+        <Point elementId="c3334" arrowHead="Directed" x="565.1071428571432" y="392.8333333333333" elementRef="fca" relX="-0.5" relY="1.0" />
+        <Point elementId="a8935" arrowHead="Directed" x="489.35714285714295" y="475.26190476190493" elementRef="cdf" relX="0.5" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id7808eadf">
+      <Waypoints>
+        <Point elementId="ec502" arrowHead="Undirected" x="367.1904761904764" y="561.0000000000001" elementRef="d75" relX="0.0" relY="-1.0" />
+        <Point elementId="e5fb6" arrowHead="Directed" x="469.6904761904763" y="494.26190476190493" elementRef="cdf" relX="-0.5" relY="1.0" />
+        <Anchor elementId="df895" position="0.6822235766482981" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="iddc51ad2b">
+      <Waypoints>
+        <Point elementId="a295d" arrowHead="Undirected" x="565.4761904761907" y="559.047619047619" elementRef="b95" relX="-0.5" relY="-1.0" />
+        <Point elementId="f0040" arrowHead="Directed" x="489.35714285714295" y="494.26190476190493" elementRef="cdf" relX="0.5" relY="1.0" />
+        <Anchor elementId="ca915" position="0.24223833833614508" shapeType="None" />
+        <Anchor elementId="d7423" position="0.5400363708069501" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id5b3e22b6">
+      <Waypoints>
+        <Point elementId="c8f8f" arrowHead="Undirected" x="547.0372388652227" y="543.3540352711274" elementRef="ca915" relX="0.0" relY="0.0" />
+        <Point elementId="b3af2" arrowHead="Undirected" x="520.761904761905" y="559.047619047619" elementRef="e58" relX="0.5" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id37ab2a8b">
+      <Waypoints>
+        <Point elementId="dda87" arrowHead="Undirected" x="205.33333333333334" y="174.4873208379272" elementRef="e04" relX="0.0" relY="1.0" />
+        <Point elementId="b194e" arrowHead="Directed" x="205.08166969147004" y="236.0" elementRef="b8d41" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id1e5724f9">
+      <Waypoints>
+        <Point elementId="b5bd5" arrowHead="Undirected" x="255.5238095238094" y="409.57142857142884" elementRef="af7" relX="0.0" relY="-1.0" />
+        <Point elementId="a2a06" arrowHead="Directed" x="267.80952380952397" y="383.3333333333333" elementRef="e5b31" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="b008b">
+      <Waypoints>
+        <Point elementId="aa4e7" arrowHead="Undirected" x="377.1904761904765" y="373.8333333333333" elementRef="c83" relX="0.0" relY="-1.0" />
+        <Point elementId="d90cf" arrowHead="Undirected" x="377.1904761904765" y="340.3333333333333" elementRef="a36" relX="0.0" relY="1.0" />
+      </Waypoints>
+      <Graphics lineColor="008040" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="idfb69689">
+      <Waypoints>
+        <Point elementId="f862c" arrowHead="Undirected" x="474.3333333333335" y="427.66666666666697" elementRef="c3e" relX="0.0" relY="1.0" />
+        <Point elementId="be34d" arrowHead="Directed" x="474.2857142857143" y="383.3333333333333" elementRef="a4349" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id6eef87c">
+      <Waypoints>
+        <Point elementId="cbaa5" arrowHead="Undirected" x="392.1904761904765" y="452.2380952380956" elementRef="b7b" relX="0.5" relY="-1.0" />
+        <Point elementId="a1810" arrowHead="Directed" x="418.8904761904764" y="425.80476190476196" elementRef="b9f0f" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id7b27d8">
+      <Waypoints>
+        <Point elementId="ead1b" arrowHead="Undirected" x="547.809523809524" y="501.1904761904762" elementRef="c4e" relX="-0.5" relY="1.0" />
+        <Point elementId="c6df2" arrowHead="Directed" x="524.3691362507187" y="524.060977024626" elementRef="d7423" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id7fb4b630">
+      <Waypoints>
+        <Point elementId="a9a07" arrowHead="Undirected" x="392.1904761904765" y="499.6190476190473" elementRef="f82" relX="0.5" relY="1.0" />
+        <Point elementId="afad4" arrowHead="Directed" x="437.1183927969269" y="515.469697967972" elementRef="df895" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="ide734686c">
+      <Waypoints>
+        <Point elementId="bff4a" arrowHead="Undirected" x="670.380952380953" y="283.9523809523805" elementRef="f8e" relX="-0.5" relY="1.0" />
+        <Point elementId="b0bde" arrowHead="Directed" x="646.3999999999995" y="296.3999999999999" elementRef="bd45e" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="idfd21ef1c">
+      <Waypoints>
+        <Point elementId="ff429" arrowHead="Undirected" x="659.376506134835" y="132.73746377756174" elementRef="be0" relX="-0.5" relY="1.0" />
+        <Point elementId="f7521" arrowHead="Directed" x="632.4896407396504" y="159.76748817956675" elementRef="bee71" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="idd98747a1">
+      <Waypoints>
+        <Point elementId="b243e" arrowHead="Undirected" x="454.1904761904762" y="209.4761904761904" elementRef="e6e" relX="0.0" relY="1.0" />
+        <Point elementId="b001b" arrowHead="Directed" x="454.2" y="236.0" elementRef="a259b" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="id54cd1002">
+      <Waypoints>
+        <Point elementId="d5a77" arrowHead="Undirected" x="386.6666666666667" y="164.4873208379272" elementRef="da7" relX="-1.0" relY="0.0" />
+        <Point elementId="dd0ba" arrowHead="Directed" x="346.4363200446836" y="165.1225648258281" elementRef="a475f" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="ida73c84b7">
+      <Waypoints>
+        <Point elementId="b3c59" arrowHead="Undirected" x="352.1904761904764" y="581.0000000000001" elementRef="d75" relX="-0.5" relY="1.0" />
+        <Point elementId="d0356" arrowHead="Undirected" x="285.0" y="627.0" elementRef="afd21" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+  </Interactions>
+  <Labels>
+    <Label elementId="e46" textLabel="Cell Membrane">
+      <Graphics centerX="848.0952380952393" centerY="68.09523809523814" width="102.33333333333333" height="16.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="b93" textLabel="Liver cell">
+      <Graphics centerX="856.6666666666666" centerY="320.0" width="73.33333333333333" height="19.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="d57" textLabel="LDL">
+      <Graphics centerX="186.66666666666666" centerY="383.3333333333333" width="37.333333333333336" height="19.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="c83" textLabel="IDL">
+      <Graphics centerX="377.19047619047655" centerY="383.3333333333333" width="31.333333333333332" height="19.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="fca" textLabel="VLDL">
+      <Graphics centerX="577.1904761904765" centerY="383.3333333333333" width="48.333333333333336" height="19.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="cdf" textLabel="HDL">
+      <Graphics centerX="479.5238095238097" centerY="484.76190476190493" width="39.333333333333336" height="19.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="f20" textLabel="Tissues">
+      <Graphics centerX="361.01851851851836" centerY="678.0092592592584" width="65.33333333333333" height="19.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+    <Label elementId="fbb" textLabel="Plasma">
+      <Graphics centerX="813.7037037037032" centerY="451.70634920634876" width="61.333333333333336" height="19.0" textColor="000000" fontName="Arial" fontWeight="Bold" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="None" zOrder="28672" />
+    </Label>
+  </Labels>
+  <Shapes>
+    <Shape elementId="a0e3c">
+      <Graphics centerX="291.1752645502646" centerY="658.1825396825385" width="288.6944444444449" height="113.92592592592632" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Nucleus" zOrder="-4" rotation="0.0" />
+    </Shape>
+    <Shape elementId="e459e">
+      <Graphics centerX="463.5595238095242" centerY="208.57142857142833" width="872.8809523809523" height="249.52380952380952" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Cell" zOrder="-2" rotation="0.0" />
+    </Shape>
+  </Shapes>
+  <Groups>
+    <Group elementId="abe40" textLabel="Group object" type="Group">
+      <Graphics centerX="739.9999999999987" centerY="419.9999999999998" width="76.0" height="96.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    </Group>
+  </Groups>
+  <Annotations>
+    <Annotation elementId="a25bd" value="statin drug pathway" type="Ontology">
+      <Xref identifier="0000724" dataSource="PW" />
+    </Annotation>
+  </Annotations>
+  <Citations>
+    <Citation elementId="ba0">
+      <Xref identifier="10770267" dataSource="pubmed" />
+    </Citation>
+  </Citations>
 </Pathway>

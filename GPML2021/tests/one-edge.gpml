@@ -3,10 +3,10 @@
   <Graphics boardWidth="197.0" boardHeight="237.0" />
   <InfoBox centerX="0.0" centerY="0.0" />
   <Interactions>
-    <Interaction elementId="d871c">
+    <Interaction elementId="d6fb9">
       <Waypoints>
-        <Point elementId="aef6c" arrowHead="Undirected" x="96.0" y="127.0" />
-        <Point elementId="df5f7" arrowHead="Undirected" x="167.0" y="207.0" />
+        <Point elementId="dde06" arrowHead="Undirected" x="96.0" y="127.0" />
+        <Point elementId="dbe5e" arrowHead="Undirected" x="167.0" y="207.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
