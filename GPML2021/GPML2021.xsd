@@ -1078,7 +1078,7 @@
 	-->
 	<xsd:element name="Citations">
 		<xsd:annotation>
-			<xsd:documentation>List of Citations. A citation is a literature reference, citation, or work.</xsd:documentation>
+			<xsd:documentation>List of Citations. A citation is a reference to a source of information.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
