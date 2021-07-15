@@ -3,8 +3,8 @@
   <Description>The [[wikipedia:citric_acid_cycle|citric acid cycle]], also known as the tricarboxylic acid cycle (TCA cycle) or the Krebs cycle, (or rarely, the Szent-Gyorgyi-Krebs cycle) is a series of enzyme-catalysed chemical reactions of central importance in all living cells that use oxygen as part of cellular respiration. In eukaryotes, the citric acid cycle occurs in the matrix of the mitochondrion. The components and reactions of the citric acid cycle were established by seminal work from both [[wikipedia:Albert_Szent-Gyorgyi|Albert Szent-Gyorgyi]] and [[wikipedia:Hans_Krebs|Hans Krebs]]. 
 Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Description>
   <Comment source="WikiPathways-category">Metabolic Process</Comment>
-  <AnnotationRef elementRef="b3b92" />
-  <AnnotationRef elementRef="a5549" />
+  <AnnotationRef elementRef="a8e6d" />
+  <AnnotationRef elementRef="dde2e" />
   <CitationRef elementRef="e64" />
   <Graphics boardWidth="975.0" boardHeight="813.0" />
   <InfoBox centerX="4.5" centerY="5.333333333333333" />
@@ -288,17 +288,17 @@ Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Description>
   <Interactions>
     <Interaction elementId="d65d3">
       <Waypoints>
-        <Point elementId="f8577" arrowHead="Undirected" x="136.73658375472704" y="533.6891731190756" elementRef="b6585" relX="1.0" relY="0.0" />
-        <Point elementId="de539" arrowHead="Catalysis" x="265.80532486598327" y="529.4971535762635" elementRef="c2cbb" relX="0.0" relY="0.0" />
+        <Point elementId="c2e97" arrowHead="Undirected" x="136.73658375472704" y="533.6891731190756" elementRef="b6585" relX="1.0" relY="0.0" />
+        <Point elementId="fbdbe" arrowHead="Catalysis" x="265.80532486598327" y="529.4971535762635" elementRef="c2cbb" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="ed903">
       <Waypoints>
-        <Point elementId="c9c7f" arrowHead="Undirected" x="293.5" y="573.0" elementRef="c6beb" relX="-0.5" relY="-1.0" />
-        <Point elementId="c60a8" arrowHead="Undirected" x="276.72081218274116" y="552.2233502538072" />
-        <Point elementId="bfbdb" arrowHead="Undirected" x="261.5260663507109" y="520.5876777251185" />
-        <Point elementId="ce079" arrowHead="Directed" x="252.6016944447754" y="490.82601880877746" elementRef="fc117" relX="0.0" relY="1.0" />
+        <Point elementId="fb626" arrowHead="Undirected" x="293.5" y="573.0" elementRef="c6beb" relX="-0.5" relY="-1.0" />
+        <Point elementId="f416c" arrowHead="Undirected" x="276.72081218274116" y="552.2233502538072" />
+        <Point elementId="cf025" arrowHead="Undirected" x="261.5260663507109" y="520.5876777251185" />
+        <Point elementId="f96bb" arrowHead="Directed" x="252.6016944447754" y="490.82601880877746" elementRef="fc117" relX="0.0" relY="1.0" />
         <Anchor elementId="c2cbb" position="0.5590212555056675" shapeType="None" />
         <Anchor elementId="e7974" position="0.41955245221502097" shapeType="None" />
         <Anchor elementId="f12c8" position="0.7196648473340433" shapeType="None" />
@@ -307,30 +307,30 @@ Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Description>
     </Interaction>
     <Interaction elementId="ad4b7">
       <Waypoints>
-        <Point elementId="c4ec3" arrowHead="Undirected" x="276.75" y="139.07419017763834" elementRef="b09de" relX="0.5" relY="1.0" />
-        <Point elementId="b9f5e" arrowHead="Directed" x="294.65741415106345" y="202.5" elementRef="d9ef6" relX="0.0" relY="-1.0" />
+        <Point elementId="b1d32" arrowHead="Undirected" x="276.75" y="139.07419017763834" elementRef="b09de" relX="0.5" relY="1.0" />
+        <Point elementId="e641b" arrowHead="Directed" x="294.65741415106345" y="202.5" elementRef="d9ef6" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="b68ea">
       <Waypoints>
-        <Point elementId="e8a0b" arrowHead="Undirected" x="353.2323578810314" y="683.5498202826236" elementRef="bd188" relX="0.5" relY="-1.0" />
-        <Point elementId="e3947" arrowHead="Catalysis" x="384.9635816906114" y="651.3825593050451" elementRef="fbf6d" relX="0.0" relY="0.0" />
+        <Point elementId="b540f" arrowHead="Undirected" x="353.2323578810314" y="683.5498202826236" elementRef="bd188" relX="0.5" relY="-1.0" />
+        <Point elementId="ceb39" arrowHead="Catalysis" x="384.9635816906114" y="651.3825593050451" elementRef="fbf6d" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="e6e22">
       <Waypoints>
-        <Point elementId="a7bc9" arrowHead="Undirected" x="384.3752503003662" y="190.6279919375157" elementRef="e6311" relX="0.0" relY="1.0" />
-        <Point elementId="fa213" arrowHead="Catalysis" x="400.39456440537157" y="221.25749612704743" elementRef="f002c" relX="0.0" relY="0.0" />
+        <Point elementId="f4002" arrowHead="Undirected" x="384.3752503003662" y="190.6279919375157" elementRef="e6311" relX="0.0" relY="1.0" />
+        <Point elementId="f8da7" arrowHead="Catalysis" x="400.39456440537157" y="221.25749612704743" elementRef="f002c" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="f4d6d">
       <Waypoints>
-        <Point elementId="be172" arrowHead="Directed" x="252.6016944447754" y="470.82601880877746" elementRef="fc117" relX="0.0" relY="-1.0" />
-        <Point elementId="c64d5" arrowHead="Undirected" x="247.33333333333331" y="434.6666666666667" />
-        <Point elementId="c95cb" arrowHead="Directed" x="251.0" y="389.67449355432757" elementRef="c53f3" relX="0.0" relY="1.0" />
+        <Point elementId="dbbd6" arrowHead="Directed" x="252.6016944447754" y="470.82601880877746" elementRef="fc117" relX="0.0" relY="-1.0" />
+        <Point elementId="acc1f" arrowHead="Undirected" x="247.33333333333331" y="434.6666666666667" />
+        <Point elementId="b11d4" arrowHead="Directed" x="251.0" y="389.67449355432757" elementRef="c53f3" relX="0.0" relY="1.0" />
         <Anchor elementId="f5588" position="0.5036340831979929" shapeType="None" />
         <Anchor elementId="b1c01" position="0.6868867067250081" shapeType="None" />
       </Waypoints>
@@ -338,18 +338,18 @@ Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Description>
     </Interaction>
     <Interaction elementId="badc0">
       <Waypoints>
-        <Point elementId="ee4c1" arrowHead="Undirected" x="293.5" y="593.0" elementRef="c6beb" relX="-0.5" relY="1.0" />
-        <Point elementId="f8b1b" arrowHead="Directed" x="198.3986810839845" y="649.0470033234898" elementRef="e10ab" relX="0.0" relY="-1.0" />
+        <Point elementId="b5b68" arrowHead="Undirected" x="293.5" y="593.0" elementRef="c6beb" relX="-0.5" relY="1.0" />
+        <Point elementId="dd511" arrowHead="Directed" x="198.3986810839845" y="649.0470033234898" elementRef="e10ab" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="ef149">
       <Waypoints>
-        <Point elementId="b4c0e" arrowHead="Directed" x="251.0" y="369.67449355432757" elementRef="c53f3" relX="0.0" relY="-1.0" />
-        <Point elementId="e2886" arrowHead="Undirected" x="257.3333333333333" y="350.0" />
-        <Point elementId="d5d95" arrowHead="Undirected" x="268.6666666666667" y="328.6666666666667" />
-        <Point elementId="f76b4" arrowHead="Undirected" x="281.3333333333333" y="306.0" />
-        <Point elementId="f3765" arrowHead="Directed" x="305.0" y="287.330227037402" elementRef="a39f2" relX="0.0" relY="1.0" />
+        <Point elementId="c939b" arrowHead="Directed" x="251.0" y="369.67449355432757" elementRef="c53f3" relX="0.0" relY="-1.0" />
+        <Point elementId="f317b" arrowHead="Undirected" x="257.3333333333333" y="350.0" />
+        <Point elementId="e4bf4" arrowHead="Undirected" x="268.6666666666667" y="328.6666666666667" />
+        <Point elementId="a27db" arrowHead="Undirected" x="281.3333333333333" y="306.0" />
+        <Point elementId="d6e3b" arrowHead="Directed" x="305.0" y="287.330227037402" elementRef="a39f2" relX="0.0" relY="1.0" />
         <Anchor elementId="c3414" position="0.594941665562294" shapeType="None" />
         <Anchor elementId="c7f7e" position="0.25060905436521674" shapeType="None" />
         <Anchor elementId="c9030" position="0.7082134183930358" shapeType="None" />
@@ -360,9 +360,9 @@ Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Description>
     </Interaction>
     <Interaction elementId="ccfec">
       <Waypoints>
-        <Point elementId="c4c59" arrowHead="Undirected" x="325.5" y="267.330227037402" elementRef="a39f2" relX="0.5" relY="-1.0" />
-        <Point elementId="aa518" arrowHead="Undirected" x="400.0" y="221.33333333333334" />
-        <Point elementId="d2395" arrowHead="Directed" x="487.5801533622837" y="204.5" elementRef="e95eb" relX="-1.0" relY="0.0" />
+        <Point elementId="a2262" arrowHead="Undirected" x="325.5" y="267.330227037402" elementRef="a39f2" relX="0.5" relY="-1.0" />
+        <Point elementId="b77ef" arrowHead="Undirected" x="400.0" y="221.33333333333334" />
+        <Point elementId="fdaa8" arrowHead="Directed" x="487.5801533622837" y="204.5" elementRef="e95eb" relX="-1.0" relY="0.0" />
         <Anchor elementId="a0254" position="0.7420065644625893" shapeType="None" />
         <Anchor elementId="bf2fc" position="0.17796392930994884" shapeType="None" />
         <Anchor elementId="f002c" position="0.4976684744042032" shapeType="None" />
@@ -373,66 +373,66 @@ Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Description>
     </Interaction>
     <Interaction elementId="db91a">
       <Waypoints>
-        <Point elementId="ccf59" arrowHead="Undirected" x="540.0" y="204.5" elementRef="e95eb" relX="1.0" relY="0.0" />
-        <Point elementId="fe083" arrowHead="Directed" x="614.2670945080358" y="150.26901847386893" elementRef="f21aa" relX="-0.5" relY="1.0" />
+        <Point elementId="ebf56" arrowHead="Undirected" x="540.0" y="204.5" elementRef="e95eb" relX="1.0" relY="0.0" />
+        <Point elementId="e00d2" arrowHead="Directed" x="614.2670945080358" y="150.26901847386893" elementRef="f21aa" relX="-0.5" relY="1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="dece7">
       <Waypoints>
-        <Point elementId="efe5b" arrowHead="Undirected" x="664.7999076963381" y="203.40695516847745" elementRef="bdef5" relX="-1.0" relY="0.0" />
-        <Point elementId="ed1f8" arrowHead="Catalysis" x="632.268799459488" y="227.7049148203081" elementRef="c8b31" relX="0.0" relY="0.0" />
+        <Point elementId="e1811" arrowHead="Undirected" x="664.7999076963381" y="203.40695516847745" elementRef="bdef5" relX="-1.0" relY="0.0" />
+        <Point elementId="cae0e" arrowHead="Catalysis" x="632.268799459488" y="227.7049148203081" elementRef="c8b31" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="f7fd4">
       <Waypoints>
-        <Point elementId="f2993" arrowHead="Undirected" x="845.3602503491594" y="491.04209331331776" elementRef="a8d9a" relX="-1.0" relY="0.0" />
-        <Point elementId="a179c" arrowHead="Catalysis" x="783.6683548053647" y="491.7048087266382" elementRef="a79f1" relX="0.0" relY="0.0" />
+        <Point elementId="c9ff6" arrowHead="Undirected" x="845.3602503491594" y="491.04209331331776" elementRef="a8d9a" relX="-1.0" relY="0.0" />
+        <Point elementId="d91da" arrowHead="Catalysis" x="783.6683548053647" y="491.7048087266382" elementRef="a79f1" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="be808">
       <Waypoints>
-        <Point elementId="c771c" arrowHead="Undirected" x="712.2375300176792" y="668.2533641037772" elementRef="f6844" relX="-1.0" relY="-0.5" />
-        <Point elementId="b41b5" arrowHead="Catalysis" x="651.8997185109847" y="652.3767886452399" elementRef="fd2da" relX="0.0" relY="0.0" />
+        <Point elementId="d96f3" arrowHead="Undirected" x="712.2375300176792" y="668.2533641037772" elementRef="f6844" relX="-1.0" relY="-0.5" />
+        <Point elementId="e0674" arrowHead="Catalysis" x="651.8997185109847" y="652.3767886452399" elementRef="fd2da" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="ccad3">
       <Waypoints>
-        <Point elementId="ed804" arrowHead="Undirected" x="209.6789875076032" y="430.8753748575901" elementRef="fbddc" relX="1.0" relY="0.0" />
-        <Point elementId="d66aa" arrowHead="Catalysis" x="247.7067262235731" y="430.0849146057798" elementRef="f5588" relX="0.0" relY="0.0" />
+        <Point elementId="f2395" arrowHead="Undirected" x="209.6789875076032" y="430.8753748575901" elementRef="fbddc" relX="1.0" relY="0.0" />
+        <Point elementId="aac47" arrowHead="Catalysis" x="247.7067262235731" y="430.0849146057798" elementRef="f5588" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="fe634">
       <Waypoints>
-        <Point elementId="bd2c7" arrowHead="Undirected" x="228.29847003060434" y="315.5199004975128" elementRef="fd8f9" relX="1.0" relY="0.0" />
-        <Point elementId="c3f0e" arrowHead="Catalysis" x="276.0938255328499" y="315.37596132718085" elementRef="c3414" relX="0.0" relY="0.0" />
+        <Point elementId="d2692" arrowHead="Undirected" x="228.29847003060434" y="315.5199004975128" elementRef="fd8f9" relX="1.0" relY="0.0" />
+        <Point elementId="d4d4d" arrowHead="Catalysis" x="276.0938255328499" y="315.37596132718085" elementRef="c3414" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="idcc3e07ab">
       <Waypoints>
-        <Point elementId="b47a6" arrowHead="Undirected" x="808.7043377964117" y="368.951733482022" elementRef="d1c04" relX="-1.0" relY="0.0" />
-        <Point elementId="dcc5f" arrowHead="Catalysis" x="750.4948225612656" y="364.74730297235266" elementRef="aa6b1" relX="0.0" relY="0.0" />
+        <Point elementId="fba81" arrowHead="Undirected" x="808.7043377964117" y="368.951733482022" elementRef="d1c04" relX="-1.0" relY="0.0" />
+        <Point elementId="a10f0" arrowHead="Catalysis" x="750.4948225612656" y="364.74730297235266" elementRef="aa6b1" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="idc714ef2a">
       <Waypoints>
-        <Point elementId="b931d" arrowHead="Undirected" x="673.4160566362506" y="248.06197889723273" elementRef="db42f" relX="0.0" relY="0.0" />
-        <Point elementId="aa25f" arrowHead="Conversion" x="670.9083538759667" y="278.6784499317834" elementRef="d7980" relX="0.0" relY="-1.0" />
+        <Point elementId="ded5c" arrowHead="Undirected" x="673.4160566362506" y="248.06197889723273" elementRef="db42f" relX="0.0" relY="0.0" />
+        <Point elementId="e978a" arrowHead="Conversion" x="670.9083538759667" y="278.6784499317834" elementRef="d7980" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id17b35470">
       <Waypoints>
-        <Point elementId="b79b1" arrowHead="Undirected" x="781.2163009404388" y="416.0" elementRef="b96da" relX="0.5" relY="1.0" />
-        <Point elementId="ca95a" arrowHead="Undirected" x="786.0" y="483.0" />
-        <Point elementId="e461c" arrowHead="Undirected" x="771.0" y="539.0" />
-        <Point elementId="ff61f" arrowHead="Conversion" x="755.7690355329951" y="568.5" elementRef="da75d" relX="0.5" relY="-1.0" />
+        <Point elementId="a2808" arrowHead="Undirected" x="781.2163009404388" y="416.0" elementRef="b96da" relX="0.5" relY="1.0" />
+        <Point elementId="f88c1" arrowHead="Undirected" x="786.0" y="483.0" />
+        <Point elementId="d546d" arrowHead="Undirected" x="771.0" y="539.0" />
+        <Point elementId="e525f" arrowHead="Conversion" x="755.7690355329951" y="568.5" elementRef="da75d" relX="0.5" relY="-1.0" />
         <Anchor elementId="c0e75" position="0.21632790581224345" shapeType="None" />
         <Anchor elementId="a79f1" position="0.48111677958715665" shapeType="None" />
         <Anchor elementId="b2686" position="0.6631807180525423" shapeType="None" />
@@ -443,31 +443,31 @@ Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Description>
     </Interaction>
     <Interaction elementId="id1135975e">
       <Waypoints>
-        <Point elementId="fd89e" arrowHead="Undirected" x="813.9382716049388" y="430.2222222222223" elementRef="eb68a" relX="-1.0" relY="0.0" />
-        <Point elementId="f9979" arrowHead="Conversion" x="783.6557998512002" y="450.167372358914" elementRef="c0e75" relX="0.0" relY="0.0" />
+        <Point elementId="f101d" arrowHead="Undirected" x="813.9382716049388" y="430.2222222222223" elementRef="eb68a" relX="-1.0" relY="0.0" />
+        <Point elementId="fc1c5" arrowHead="Conversion" x="783.6557998512002" y="450.167372358914" elementRef="c0e75" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id9f8f19fa">
       <Waypoints>
-        <Point elementId="a866f" arrowHead="Undirected" x="776.2092944718627" y="519.5519673050461" elementRef="b2686" relX="0.0" relY="0.0" />
-        <Point elementId="e086d" arrowHead="Conversion" x="794.0140561670411" y="542.250485661612" elementRef="f30d1" relX="0.0" relY="-1.0" />
+        <Point elementId="ac186" arrowHead="Undirected" x="776.2092944718627" y="519.5519673050461" elementRef="b2686" relX="0.0" relY="0.0" />
+        <Point elementId="b6431" arrowHead="Conversion" x="794.0140561670411" y="542.250485661612" elementRef="f30d1" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id1e6d1dd6">
       <Waypoints>
-        <Point elementId="adedf" arrowHead="Undirected" x="776.2092944718627" y="519.5519673050461" elementRef="b2686" relX="0.0" relY="0.0" />
-        <Point elementId="c0936" arrowHead="Conversion" x="831.4247669121181" y="542.250485661612" elementRef="ea9a4" relX="0.0" relY="-1.0" />
+        <Point elementId="eb85a" arrowHead="Undirected" x="776.2092944718627" y="519.5519673050461" elementRef="b2686" relX="0.0" relY="0.0" />
+        <Point elementId="bff9a" arrowHead="Conversion" x="831.4247669121181" y="542.250485661612" elementRef="ea9a4" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id68dda630">
       <Waypoints>
-        <Point elementId="d3cac" arrowHead="Undirected" x="734.5380710659902" y="568.5" elementRef="da75d" relX="0.0" relY="-1.0" />
-        <Point elementId="ad21f" arrowHead="Undirected" x="754.0" y="530.0" />
-        <Point elementId="f095a" arrowHead="Undirected" x="765.0" y="478.0" />
-        <Point elementId="a255f" arrowHead="Conversion" x="759.2163009404388" y="416.0" elementRef="b96da" relX="0.0" relY="1.0" />
+        <Point elementId="e6ef2" arrowHead="Undirected" x="734.5380710659902" y="568.5" elementRef="da75d" relX="0.0" relY="-1.0" />
+        <Point elementId="a0764" arrowHead="Undirected" x="754.0" y="530.0" />
+        <Point elementId="cd5cd" arrowHead="Undirected" x="765.0" y="478.0" />
+        <Point elementId="f921d" arrowHead="Conversion" x="759.2163009404388" y="416.0" elementRef="b96da" relX="0.0" relY="1.0" />
         <Anchor elementId="fde72" position="0.3698461079516223" shapeType="None" />
         <Anchor elementId="cf002" position="0.524814068178945" shapeType="None" />
         <Anchor elementId="a6b4c" position="0.7825224915025808" shapeType="None" />
@@ -480,38 +480,38 @@ Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Description>
     </Interaction>
     <Interaction elementId="iddc8ee953">
       <Waypoints>
-        <Point elementId="dfebd" arrowHead="Undirected" x="715.2762232800544" y="490.86403074684983" elementRef="dd5a4" relX="1.0" relY="0.0" />
-        <Point elementId="f6c97" arrowHead="Catalysis" x="762.2938053097345" y="490.7929203539823" elementRef="cf002" relX="0.0" relY="0.0" />
+        <Point elementId="e5aae" arrowHead="Undirected" x="715.2762232800544" y="490.86403074684983" elementRef="dd5a4" relX="1.0" relY="0.0" />
+        <Point elementId="d7907" arrowHead="Catalysis" x="762.2938053097345" y="490.7929203539823" elementRef="cf002" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="ide16f3c42">
       <Waypoints>
-        <Point elementId="e6002" arrowHead="Undirected" x="713.8049552268242" y="537.250485661612" elementRef="e5766" relX="0.0" relY="-1.0" />
-        <Point elementId="e6409" arrowHead="Conversion" x="757.2084955752213" y="514.8325663716814" elementRef="fde72" relX="0.0" relY="0.0" />
+        <Point elementId="bd257" arrowHead="Undirected" x="713.8049552268242" y="537.250485661612" elementRef="e5766" relX="0.0" relY="-1.0" />
+        <Point elementId="ae8b4" arrowHead="Conversion" x="757.2084955752213" y="514.8325663716814" elementRef="fde72" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id8c25b382">
       <Waypoints>
-        <Point elementId="a6b74" arrowHead="Undirected" x="673.6485388020528" y="537.250485661612" elementRef="f4381" relX="0.0" relY="-1.0" />
-        <Point elementId="ccd8e" arrowHead="Conversion" x="757.2084955752213" y="514.8325663716814" elementRef="fde72" relX="0.0" relY="0.0" />
+        <Point elementId="a6b71" arrowHead="Undirected" x="673.6485388020528" y="537.250485661612" elementRef="f4381" relX="0.0" relY="-1.0" />
+        <Point elementId="f050a" arrowHead="Conversion" x="757.2084955752213" y="514.8325663716814" elementRef="fde72" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id109b1520">
       <Waypoints>
-        <Point elementId="c322d" arrowHead="Undirected" x="762.4191679169054" y="450.33403959921674" elementRef="a6b4c" relX="0.0" relY="0.0" />
-        <Point elementId="a45c9" arrowHead="Conversion" x="723.0435388307326" y="435.10336819870713" elementRef="b5c93" relX="1.0" relY="0.0" />
+        <Point elementId="c044f" arrowHead="Undirected" x="762.4191679169054" y="450.33403959921674" elementRef="a6b4c" relX="0.0" relY="0.0" />
+        <Point elementId="bf6c3" arrowHead="Conversion" x="723.0435388307326" y="435.10336819870713" elementRef="b5c93" relX="1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id56459e3d">
       <Waypoints>
-        <Point elementId="b7aaf" arrowHead="Undirected" x="734.5380710659902" y="588.5" elementRef="da75d" relX="0.0" relY="1.0" />
-        <Point elementId="a6e70" arrowHead="Undirected" x="692.0" y="635.0" />
-        <Point elementId="bedc2" arrowHead="Undirected" x="632.0" y="661.0" />
-        <Point elementId="d7a0e" arrowHead="Conversion" x="583.0" y="675.5" elementRef="ffbe6" relX="1.0" relY="0.0" />
+        <Point elementId="aeb89" arrowHead="Undirected" x="734.5380710659902" y="588.5" elementRef="da75d" relX="0.0" relY="1.0" />
+        <Point elementId="f922b" arrowHead="Undirected" x="692.0" y="635.0" />
+        <Point elementId="ae2f5" arrowHead="Undirected" x="632.0" y="661.0" />
+        <Point elementId="cee23" arrowHead="Conversion" x="583.0" y="675.5" elementRef="ffbe6" relX="1.0" relY="0.0" />
         <Anchor elementId="fd2da" position="0.5945249434820437" shapeType="None" />
         <Anchor elementId="d4da0" position="0.41836952799086474" shapeType="None" />
         <Anchor elementId="f132e" position="0.702877279100133" shapeType="None" />
@@ -521,130 +521,130 @@ Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Description>
     </Interaction>
     <Interaction elementId="id5439474b">
       <Waypoints>
-        <Point elementId="ba428" arrowHead="Undirected" x="691.5213582539209" y="613.5402711030608" elementRef="ea5a6" relX="0.0" relY="1.0" />
-        <Point elementId="df72a" arrowHead="Conversion" x="680.9148737137511" y="639.8035547240412" elementRef="d4da0" relX="0.0" relY="0.0" />
+        <Point elementId="e7e3b" arrowHead="Undirected" x="691.5213582539209" y="613.5402711030608" elementRef="ea5a6" relX="0.0" relY="1.0" />
+        <Point elementId="b3378" arrowHead="Conversion" x="680.9148737137511" y="639.8035547240412" elementRef="d4da0" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id3944502d">
       <Waypoints>
-        <Point elementId="b7992" arrowHead="Undirected" x="658.030608762559" y="613.5402711030608" elementRef="bcff7" relX="0.0" relY="1.0" />
-        <Point elementId="c00a6" arrowHead="Conversion" x="680.9148737137511" y="639.8035547240412" elementRef="d4da0" relX="0.0" relY="0.0" />
+        <Point elementId="a8b38" arrowHead="Undirected" x="658.030608762559" y="613.5402711030608" elementRef="bcff7" relX="0.0" relY="1.0" />
+        <Point elementId="eb7de" arrowHead="Conversion" x="680.9148737137511" y="639.8035547240412" elementRef="d4da0" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="idaed0e1f7">
       <Waypoints>
-        <Point elementId="afe2a" arrowHead="Undirected" x="634.0526382734854" y="660.110523414823" elementRef="f132e" relX="0.0" relY="0.0" />
-        <Point elementId="ebdb8" arrowHead="Conversion" x="612.5168389693629" y="694.5249699247138" elementRef="f5407" relX="0.0" relY="-1.0" />
+        <Point elementId="c7560" arrowHead="Undirected" x="634.0526382734854" y="660.110523414823" elementRef="f132e" relX="0.0" relY="0.0" />
+        <Point elementId="edf32" arrowHead="Conversion" x="612.5168389693629" y="694.5249699247138" elementRef="f5407" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="idd2b546ff">
       <Waypoints>
-        <Point elementId="b1d57" arrowHead="Undirected" x="634.0526382734854" y="660.110523414823" elementRef="f132e" relX="0.0" relY="0.0" />
-        <Point elementId="aea3a" arrowHead="Conversion" x="646.6073143056649" y="694.5249699247138" elementRef="ab312" relX="0.0" relY="-1.0" />
+        <Point elementId="c27fc" arrowHead="Undirected" x="634.0526382734854" y="660.110523414823" elementRef="f132e" relX="0.0" relY="0.0" />
+        <Point elementId="c921f" arrowHead="Conversion" x="646.6073143056649" y="694.5249699247138" elementRef="ab312" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="ida4349d97">
       <Waypoints>
-        <Point elementId="f8d95" arrowHead="Conversion" x="456.7520037549554" y="671.2720667333148" elementRef="de9ec" relX="0.0" relY="0.0" />
-        <Point elementId="d37a5" arrowHead="Undirected" x="470.1986251180696" y="654.1685191713177" elementRef="f97b7" relX="-0.5" relY="1.0" />
+        <Point elementId="d25cb" arrowHead="Conversion" x="456.7520037549554" y="671.2720667333148" elementRef="de9ec" relX="0.0" relY="0.0" />
+        <Point elementId="b5464" arrowHead="Undirected" x="470.1986251180696" y="654.1685191713177" elementRef="f97b7" relX="-0.5" relY="1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id90d187b4">
       <Waypoints>
-        <Point elementId="ae0b5" arrowHead="Conversion" x="456.7520037549554" y="671.2720667333148" elementRef="de9ec" relX="0.0" relY="0.0" />
-        <Point elementId="cc272" arrowHead="Undirected" x="476.12743362120136" y="705.2986096352927" elementRef="ac299" relX="0.0" relY="1.0" />
+        <Point elementId="b550c" arrowHead="Conversion" x="456.7520037549554" y="671.2720667333148" elementRef="de9ec" relX="0.0" relY="0.0" />
+        <Point elementId="b34dc" arrowHead="Undirected" x="476.12743362120136" y="705.2986096352927" elementRef="ac299" relX="0.0" relY="1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="idbb034a14">
       <Waypoints>
-        <Point elementId="c631f" arrowHead="Undirected" x="348.29134063826723" y="629.535266763223" elementRef="f36b1" relX="0.0" relY="0.0" />
-        <Point elementId="ad6b8" arrowHead="Conversion" x="366.23731182425786" y="614.2134666333994" elementRef="a16b4" relX="-1.0" relY="0.5" />
+        <Point elementId="dab65" arrowHead="Undirected" x="348.29134063826723" y="629.535266763223" elementRef="f36b1" relX="0.0" relY="0.0" />
+        <Point elementId="cae39" arrowHead="Conversion" x="366.23731182425786" y="614.2134666333994" elementRef="a16b4" relX="-1.0" relY="0.5" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="ida41d6b5c">
       <Waypoints>
-        <Point elementId="e6d5b" arrowHead="Undirected" x="348.29134063826723" y="629.535266763223" elementRef="f36b1" relX="0.0" relY="0.0" />
-        <Point elementId="a5025" arrowHead="Conversion" x="319.13565273042775" y="632.1100381973472" elementRef="e1568" relX="1.0" relY="0.0" />
+        <Point elementId="e1a9f" arrowHead="Undirected" x="348.29134063826723" y="629.535266763223" elementRef="f36b1" relX="0.0" relY="0.0" />
+        <Point elementId="f0639" arrowHead="Conversion" x="319.13565273042775" y="632.1100381973472" elementRef="e1568" relX="1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="idf7e247ae">
       <Waypoints>
-        <Point elementId="ac3a1" arrowHead="Undirected" x="302.78215871956456" y="549.9999999999999" elementRef="a8ee4" relX="-1.0" relY="0.0" />
-        <Point elementId="fda8e" arrowHead="Conversion" x="271.41329276012925" y="541.1730208669569" elementRef="e7974" relX="0.0" relY="0.0" />
+        <Point elementId="b1b4c" arrowHead="Undirected" x="302.78215871956456" y="549.9999999999999" elementRef="a8ee4" relX="-1.0" relY="0.0" />
+        <Point elementId="d75a0" arrowHead="Conversion" x="271.41329276012925" y="541.1730208669569" elementRef="e7974" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="idcebb8f2">
       <Waypoints>
-        <Point elementId="d109e" arrowHead="Undirected" x="260.07974137292626" y="515.7643656618479" elementRef="f12c8" relX="0.0" relY="0.0" />
-        <Point elementId="b49a2" arrowHead="Conversion" x="302.75932363713014" y="501.4022988505747" elementRef="c5215" relX="-1.0" relY="0.0" />
+        <Point elementId="f29dc" arrowHead="Undirected" x="260.07974137292626" y="515.7643656618479" elementRef="f12c8" relX="0.0" relY="0.0" />
+        <Point elementId="dd9d9" arrowHead="Conversion" x="302.75932363713014" y="501.4022988505747" elementRef="c5215" relX="-1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="idc940c637">
       <Waypoints>
-        <Point elementId="eed63" arrowHead="Conversion" x="248.9225652630688" y="415.1658490034898" elementRef="b1c01" relX="0.0" relY="0.0" />
-        <Point elementId="c9d6c" arrowHead="Undirected" x="278.6168876131486" y="430.6126134632575" elementRef="ac347" relX="-1.0" relY="0.0" />
+        <Point elementId="c722f" arrowHead="Conversion" x="248.9225652630688" y="415.1658490034898" elementRef="b1c01" relX="0.0" relY="0.0" />
+        <Point elementId="bf41b" arrowHead="Undirected" x="278.6168876131486" y="430.6126134632575" elementRef="ac347" relX="-1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id7df46aa7">
       <Waypoints>
-        <Point elementId="febdc" arrowHead="Conversion" x="259.50394386277554" y="345.91414488575583" elementRef="c7f7e" relX="0.0" relY="0.0" />
-        <Point elementId="b5356" arrowHead="Undirected" x="233.3960670267287" y="351.4245508680492" elementRef="d65f9" relX="1.0" relY="0.0" />
+        <Point elementId="d4512" arrowHead="Conversion" x="259.50394386277554" y="345.91414488575583" elementRef="c7f7e" relX="0.0" relY="0.0" />
+        <Point elementId="e9882" arrowHead="Undirected" x="233.3960670267287" y="351.4245508680492" elementRef="d65f9" relX="1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="iddcae2bba">
       <Waypoints>
-        <Point elementId="e7481" arrowHead="Undirected" x="281.87704518306305" y="305.5710854876819" elementRef="c9030" relX="0.0" relY="0.0" />
-        <Point elementId="d6e41" arrowHead="Conversion" x="330.70153294231534" y="305.34625199109513" elementRef="bc872" relX="-1.0" relY="0.0" />
+        <Point elementId="fb591" arrowHead="Undirected" x="281.87704518306305" y="305.5710854876819" elementRef="c9030" relX="0.0" relY="0.0" />
+        <Point elementId="efb22" arrowHead="Conversion" x="330.70153294231534" y="305.34625199109513" elementRef="bc872" relX="-1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id3729ec34">
       <Waypoints>
-        <Point elementId="feb1a" arrowHead="Undirected" x="331.3148283021269" y="212.5" elementRef="d9ef6" relX="1.0" relY="0.0" />
-        <Point elementId="aab68" arrowHead="Conversion" x="366.4223710351045" y="242.06442904250054" elementRef="aeb18" relX="0.0" relY="0.0" />
+        <Point elementId="f37b6" arrowHead="Undirected" x="331.3148283021269" y="212.5" elementRef="d9ef6" relX="1.0" relY="0.0" />
+        <Point elementId="aaf75" arrowHead="Conversion" x="366.4223710351045" y="242.06442904250054" elementRef="aeb18" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id449050c">
       <Waypoints>
-        <Point elementId="a0f2e" arrowHead="Conversion" x="352.26310626867036" y="250.8064719470567" elementRef="bf2fc" relX="0.0" relY="0.0" />
-        <Point elementId="b8f14" arrowHead="Undirected" x="325.46920871749467" y="251.42581502102803" elementRef="c02ba" relX="1.0" relY="0.0" />
+        <Point elementId="d211c" arrowHead="Conversion" x="352.26310626867036" y="250.8064719470567" elementRef="bf2fc" relX="0.0" relY="0.0" />
+        <Point elementId="ea3d4" arrowHead="Undirected" x="325.46920871749467" y="251.42581502102803" elementRef="c02ba" relX="1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id2bf0d3a0">
       <Waypoints>
-        <Point elementId="c6144" arrowHead="Undirected" x="442.80233537113173" y="213.1065153718833" elementRef="a0254" relX="0.0" relY="0.0" />
-        <Point elementId="b6eb1" arrowHead="Conversion" x="461.5080380410883" y="188.00115964258225" elementRef="d568e" relX="-0.5" relY="1.0" />
+        <Point elementId="c5319" arrowHead="Undirected" x="442.80233537113173" y="213.1065153718833" elementRef="a0254" relX="0.0" relY="0.0" />
+        <Point elementId="be65c" arrowHead="Conversion" x="461.5080380410883" y="188.00115964258225" elementRef="d568e" relX="-0.5" relY="1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="ide8f04d6b">
       <Waypoints>
-        <Point elementId="a9ec5" arrowHead="Conversion" x="746.5593314484883" y="350.6447957992185" elementRef="d25ce" relX="0.0" relY="0.0" />
-        <Point elementId="ede30" arrowHead="Undirected" x="780.9875435628912" y="337.8639509978815" elementRef="cae57" relX="-1.0" relY="0.0" />
+        <Point elementId="cede2" arrowHead="Conversion" x="746.5593314484883" y="350.6447957992185" elementRef="d25ce" relX="0.0" relY="0.0" />
+        <Point elementId="c0c0f" arrowHead="Undirected" x="780.9875435628912" y="337.8639509978815" elementRef="cae57" relX="-1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="b0fb0">
       <Waypoints>
-        <Point elementId="aa4e5" arrowHead="Directed" x="503.0" y="675.5" elementRef="ffbe6" relX="-1.0" relY="0.0" />
-        <Point elementId="a5e4c" arrowHead="Undirected" x="445.50253807106606" y="670.2436548223351" />
-        <Point elementId="bbbc3" arrowHead="Undirected" x="386.0" y="652.0" />
-        <Point elementId="f41bc" arrowHead="Undirected" x="339.0" y="624.0" />
-        <Point elementId="b048f" arrowHead="Directed" x="310.0" y="593.0" elementRef="c6beb" relX="0.0" relY="1.0" />
+        <Point elementId="bfc12" arrowHead="Directed" x="503.0" y="675.5" elementRef="ffbe6" relX="-1.0" relY="0.0" />
+        <Point elementId="eeac7" arrowHead="Undirected" x="445.50253807106606" y="670.2436548223351" />
+        <Point elementId="ebe9f" arrowHead="Undirected" x="386.0" y="652.0" />
+        <Point elementId="de302" arrowHead="Undirected" x="339.0" y="624.0" />
+        <Point elementId="ff2b6" arrowHead="Directed" x="310.0" y="593.0" elementRef="c6beb" relX="0.0" relY="1.0" />
         <Anchor elementId="fbf6d" position="0.5580942463745051" shapeType="None" />
         <Anchor elementId="de9ec" position="0.2138830087344485" shapeType="None" />
         <Anchor elementId="f36b1" position="0.7546877095108043" shapeType="None" />
@@ -654,14 +654,14 @@ Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Description>
     </Interaction>
     <Interaction elementId="cbc1e">
       <Waypoints>
-        <Point elementId="f6854" arrowHead="Directed" x="720.0" y="303.5565562577057" elementRef="ab88e" relX="0.0" relY="-1.0" />
-        <Point elementId="bff96" arrowHead="Undirected" x="677.3333333333334" y="250.0" />
-        <Point elementId="a0174" arrowHead="Undirected" x="614.0" y="218.66666666666666" />
-        <Point elementId="eee43" arrowHead="Directed" x="540.0" y="204.5" elementRef="e95eb" relX="1.0" relY="0.0" />
+        <Point elementId="dd71f" arrowHead="Directed" x="720.0" y="303.5565562577057" elementRef="ab88e" relX="0.0" relY="-1.0" />
+        <Point elementId="a5d39" arrowHead="Undirected" x="677.3333333333334" y="250.0" />
+        <Point elementId="c5da4" arrowHead="Undirected" x="614.0" y="218.66666666666666" />
+        <Point elementId="d4b2b" arrowHead="Directed" x="540.0" y="204.5" elementRef="e95eb" relX="1.0" relY="0.0" />
         <Anchor elementId="c8b31" position="0.5536797869228365" shapeType="None" />
         <Anchor elementId="a88f0" position="0.6868867067250081" shapeType="None" />
         <Anchor elementId="db42f" position="0.3396370934416366" shapeType="None" />
-        <Anchor elementId="c80e9" position="0.5471679626255709" shapeType="None" />
+        <Anchor elementId="c4596" position="0.5471679626255709" shapeType="None" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Segmented" zOrder="32779" />
       <CitationRef elementRef="c21" />
@@ -669,8 +669,8 @@ Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Description>
     </Interaction>
     <Interaction elementId="f598e">
       <Waypoints>
-        <Point elementId="ca2e8" arrowHead="Directed" x="759.2163009404388" y="396.0" elementRef="b96da" relX="0.0" relY="-1.0" />
-        <Point elementId="c49f2" arrowHead="Directed" x="739.0" y="323.5565562577057" elementRef="ab88e" relX="0.5" relY="1.0" />
+        <Point elementId="d42b1" arrowHead="Directed" x="759.2163009404388" y="396.0" elementRef="b96da" relX="0.0" relY="-1.0" />
+        <Point elementId="f3f50" arrowHead="Directed" x="739.0" y="323.5565562577057" elementRef="ab88e" relX="0.5" relY="1.0" />
         <Anchor elementId="aa6b1" position="0.43140821878683305" shapeType="None" />
         <Anchor elementId="d25ce" position="0.6260774178837387" shapeType="None" />
       </Waypoints>
@@ -680,15 +680,15 @@ Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Description>
     </Interaction>
     <Interaction elementId="bddc9">
       <Waypoints>
-        <Point elementId="e3527" arrowHead="Undirected" x="216.25" y="167.25" elementRef="f8db5" relX="0.5" relY="1.0" />
-        <Point elementId="ffc0f" arrowHead="Directed" x="294.65741415106345" y="202.5" elementRef="d9ef6" relX="0.0" relY="-1.0" />
+        <Point elementId="ef0e3" arrowHead="Undirected" x="216.25" y="167.25" elementRef="f8db5" relX="0.5" relY="1.0" />
+        <Point elementId="cb952" arrowHead="Directed" x="294.65741415106345" y="202.5" elementRef="d9ef6" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="32781" />
     </Interaction>
     <Interaction elementId="a738c">
       <Waypoints>
-        <Point elementId="de521" arrowHead="Undirected" x="355.75" y="107.0" elementRef="bb44a" relX="-0.5" relY="1.0" />
-        <Point elementId="a0c3a" arrowHead="Directed" x="294.65741415106345" y="202.5" elementRef="d9ef6" relX="0.0" relY="-1.0" />
+        <Point elementId="c2b0a" arrowHead="Undirected" x="355.75" y="107.0" elementRef="bb44a" relX="-0.5" relY="1.0" />
+        <Point elementId="faffe" arrowHead="Directed" x="294.65741415106345" y="202.5" elementRef="d9ef6" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="32782" />
     </Interaction>
@@ -725,10 +725,10 @@ Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Description>
     </Group>
   </Groups>
   <Annotations>
-    <Annotation elementId="b3b92" value="TCA cycle" type="Ontology">
+    <Annotation elementId="a8e6d" value="TCA cycle" type="Ontology">
       <Xref identifier="0000026" dataSource="PW" />
     </Annotation>
-    <Annotation elementId="a5549" value="citrate cycle pathway" type="Ontology">
+    <Annotation elementId="dde2e" value="citrate cycle pathway" type="Ontology">
       <Xref identifier="0000026" dataSource="PW" />
     </Annotation>
   </Annotations>
