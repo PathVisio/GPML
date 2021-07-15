@@ -442,7 +442,7 @@
 	-->
 	<xsd:element name="DataNodes">
 		<xsd:annotation>
-			<xsd:documentation>List of Data nodes.</xsd:documentation>
+			<xsd:documentation>List of Data nodes. A data node denotes a biological entity that forms a node in a pathway.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
@@ -539,7 +539,7 @@
 	-->
 	<xsd:element name="States">
 		<xsd:annotation>
-			<xsd:documentation>List of States.</xsd:documentation>
+			<xsd:documentation>List of States. A state represents a specific state of the biological entity (e.g. phosphorylation, genetic variants, etc). A state is linked to a data node.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
@@ -632,7 +632,7 @@
 	-->
 	<xsd:element name="Interactions">
 		<xsd:annotation>
-			<xsd:documentation>List of Interactions.</xsd:documentation>
+			<xsd:documentation>List of Interactions. An interaction represents the biological relation between entities. An Xref can be specified for Interactions (in contrast to GraphicalLines).</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
@@ -692,14 +692,14 @@
     -->
 	<xsd:element name="GraphicalLines">
 		<xsd:annotation>
-			<xsd:documentation>List of Graphical lines.</xsd:documentation>
+			<xsd:documentation>List of Graphical lines. A graphical line is a visual annotation without semantic meaning. It is often used to partition space or connect other pathway elements. An Xref cannot be specified for GraphicalLines (in contrast to Interactions).</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
 				<!-- GraphicalLine -->
 				<xsd:element name="GraphicalLine" minOccurs="0" maxOccurs="unbounded">
 					<xsd:annotation>
-						<xsd:documentation>Graphical line annotations without semantic meaning. An Xref cannot be specified for GraphicalLines (in contrast to Interactions).</xsd:documentation>
+						<xsd:documentation>Graphical line are visual annotations without semantic meaning. An Xref cannot be specified for GraphicalLines (in contrast to Interactions).</xsd:documentation>
 					</xsd:annotation>
 					<xsd:complexType>
 						<xsd:sequence>
@@ -750,7 +750,7 @@
 	-->
 	<xsd:element name="Labels">
 		<xsd:annotation>
-			<xsd:documentation>List of Labels.</xsd:documentation>
+			<xsd:documentation>List of Labels. A label is a text field which can be used to annotate any aspect of a pathway.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
@@ -811,7 +811,7 @@
 	-->
 	<xsd:element name="Shapes">
 		<xsd:annotation>
-			<xsd:documentation>List of Shapes.</xsd:documentation>
+			<xsd:documentation>List of Shapes. A shape is a visual annotation or graphical element.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
@@ -873,7 +873,7 @@
 	-->
 	<xsd:element name="Groups">
 		<xsd:annotation>
-			<xsd:documentation>List of Groups.</xsd:documentation>
+			<xsd:documentation>List of Groups. A group is a collection of structurally or functionally similar or related pathway elements.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
@@ -976,7 +976,7 @@
 	-->
 	<xsd:element name="Annotations">
 		<xsd:annotation>
-			<xsd:documentation>List of Annotations.</xsd:documentation>
+			<xsd:documentation>List of Annotations. An annotation is a reference with additional information, e.g. some Ontology.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
@@ -1078,7 +1078,7 @@
 	-->
 	<xsd:element name="Citations">
 		<xsd:annotation>
-			<xsd:documentation>List of Citations.</xsd:documentation>
+			<xsd:documentation>List of Citations. A citation is a literature reference, citation, or work.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
@@ -1158,7 +1158,7 @@
 	-->
 	<xsd:element name="Evidences">
 		<xsd:annotation>
-			<xsd:documentation>List of Evidence.</xsd:documentation>
+			<xsd:documentation>List of Evidence. An evidence provides information on type of scientific evidence.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
