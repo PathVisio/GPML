@@ -164,6 +164,11 @@
 				<xsd:documentation>The order of an object along the z-axis.</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
+		<xsd:attribute name="rotation" type="xsd:float" use="optional">
+			<xsd:annotation>
+				<xsd:documentation>A float value (rotation in radians).</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
 	</xsd:attributeGroup>
 	<!-- 
 		Line Style Properties in the order to be written.  
@@ -306,13 +311,14 @@
 	<!-- ###################################################################### -->
 	<!-- 
 		Pathway 
-        This is the root element of the structure. 
+        This is the root element of the structure. Meta-information (e.g. title, organism) are displayed in the info box of the pathway 
+		which is always in the top left corner.  
 		
 		Pathway properties in the order to be written in the gpml:
 		- title, organism, source, version, license
 		- Xref, Description, Authors
 		- CommentGroup (Comment, Property, AnnotationRef, CitationRef, EvidenceRef)
-		- Graphics (boardWidth, boardHeight, backgroundColor), InfoBox
+		- Graphics (boardWidth, boardHeight, backgroundColor)
 		- DataNodes, Interactions, GraphicalLines, Labels, Shapes, Groups
 		- Annotations, Citations, Evidences
 	-->
@@ -388,7 +394,6 @@
 					</xsd:complexType>
 				</xsd:element>
 				<!-- End Graphics related attributes-->
-				<xsd:element ref="gpml:InfoBox" minOccurs="1" maxOccurs="1"/>
 				<xsd:element ref="gpml:DataNodes" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="gpml:Interactions" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="gpml:GraphicalLines" minOccurs="0" maxOccurs="1"/>
@@ -437,7 +442,7 @@
 		DataNode properties in the order to be written: 
 		- elementId, textLabel, type, groupRef, elementRef 
 		- Xref, States
-		- Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes, rotation)
+		- Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes)
 		- CommentGroup (Comment, Property, AnnotationRef, CitationRef, EvidenceRef) 
 	-->
 	<xsd:element name="DataNodes">
@@ -465,11 +470,6 @@
 									<xsd:attributeGroup ref="gpml:RectAttributes"/>
 									<xsd:attributeGroup ref="gpml:FontAttributes"/>
 									<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
-									<xsd:attribute name="rotation" type="xsd:float" use="optional">
-										<xsd:annotation>
-											<xsd:documentation>A float value (rotation in radians).</xsd:documentation>
-										</xsd:annotation>
-									</xsd:attribute>
 								</xsd:complexType>
 							</xsd:element>
 							<!-- End Graphics related attributes-->
@@ -539,7 +539,7 @@
 		State properties in the order to be written: 
 		- elementId, textLabel, type
 		- Xref
-		- Graphics (relX, relY,  width, height, FontAttributes, ShapeStyleAttributes, rotation)
+		- Graphics (relX, relY,  width, height, FontAttributes, ShapeStyleAttributes)
 		- CommentGroup (Comment, Property, AnnotationRef, CitationRef, EvidenceRef)
 	-->
 	<xsd:element name="States">
@@ -581,11 +581,6 @@
 									</xsd:attribute>
 									<xsd:attributeGroup ref="gpml:FontAttributes"/>
 									<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
-									<xsd:attribute name="rotation" type="xsd:float" use="optional">
-										<xsd:annotation>
-											<xsd:documentation>A float value (rotation in radians).</xsd:documentation>
-										</xsd:annotation>
-									</xsd:attribute>
 								</xsd:complexType>
 							</xsd:element>
 							<!-- End Graphics related attributes-->
@@ -755,7 +750,7 @@
 		
 		Label properties in the order to be written: 
 		- elementId, textLabel, groupRef, href
-		- Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes, rotation)
+		- Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes)
 		- CommentGroup (Comment, Property, AnnotationRef, CitationRef, EvidenceRef)
 	-->
 	<xsd:element name="Labels">
@@ -777,11 +772,6 @@
 									<xsd:attributeGroup ref="gpml:RectAttributes"/>
 									<xsd:attributeGroup ref="gpml:FontAttributes"/>
 									<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
-									<xsd:attribute name="rotation" type="xsd:float" use="optional">
-										<xsd:annotation>
-											<xsd:documentation>A float value (rotation in radians).</xsd:documentation>
-										</xsd:annotation>
-									</xsd:attribute>
 								</xsd:complexType>
 							</xsd:element>
 							<!-- End Graphics related attributes-->
@@ -821,7 +811,7 @@
 		
 		Shape properties in the order to be written: 
 		- elementId, textLabel, groupRef
-		- Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes, rotation)
+		- Graphics (RectAttributes, FontAttributes, ShapeStyleAttributes)
 		- CommentGroup (Comment, Property, AnnotationRef, CitationRef, EvidenceRef)
 	-->
 	<xsd:element name="Shapes">
@@ -843,11 +833,6 @@
 									<xsd:attributeGroup ref="gpml:RectAttributes"/>
 									<xsd:attributeGroup ref="gpml:FontAttributes"/>
 									<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
-									<xsd:attribute name="rotation" type="xsd:float" use="optional">
-										<xsd:annotation>
-											<xsd:documentation>A float value (rotation in radians).</xsd:documentation>
-										</xsd:annotation>
-									</xsd:attribute>
 								</xsd:complexType>
 							</xsd:element>
 							<xsd:group ref="gpml:CommentGroup"/>
@@ -954,32 +939,6 @@
 		</xsd:complexType>
 	</xsd:element>
 	<!-- End: Groups -->
-	<!-- ###################################################################### -->
-	<!-- 
-		InfoBox 
-		Holds the coordinates for where meta-information (e.g. title, organism) are displayed in the pathway. 
-		
-		InfoBox properties in the order to be written: 
-		- centerX, centerY
-	-->
-	<xsd:element name="InfoBox">
-		<xsd:annotation>
-			<xsd:documentation>The information box holds the coordinates for where information (e.g. title and organism) are displayed in the pathway.</xsd:documentation>
-		</xsd:annotation>
-		<xsd:complexType>
-			<xsd:attribute name="centerX" type="xsd:float" use="required">
-				<xsd:annotation>
-					<xsd:documentation>The middle of the infobox in the x-direction.</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
-			<xsd:attribute name="centerY" type="xsd:float" use="required">
-				<xsd:annotation>
-					<xsd:documentation>The middle of the infobox in the x-direction.</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
-		</xsd:complexType>
-	</xsd:element>
-	<!-- End: InfoBox -->
 	<!-- ###################################################################### -->
 	<!-- 
 		Annotations
