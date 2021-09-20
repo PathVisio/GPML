@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Pathway xmlns="http://pathvisio.org/GPML/2021" title="New Pathway" version="20170828">
   <Graphics boardWidth="227.4608408903545" boardHeight="140.57708161582852" />
-  <InfoBox centerX="0.0" centerY="0.0" />
   <DataNodes>
     <DataNode elementId="e3838" textLabel="GeneProduct" type="GeneProduct">
       <Graphics centerX="157.4608408903545" centerY="100.57708161582852" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20130813">
   <Graphics boardWidth="1045.87076968672" boardHeight="783.1967827425314" />
-  <InfoBox centerX="0.0" centerY="0.0" />
   <DataNodes>
     <DataNode elementId="d5cad" textLabel="GeneProduct" type="GeneProduct">
       <Graphics centerX="200.68118567178323" centerY="125.33238139805435" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="33005" />
@@ -13,8 +12,8 @@
   <Interactions>
     <Interaction elementId="e3b17">
       <Waypoints>
-        <Point elementId="da9ff" arrowHead="Inhibition" x="32.46064141579781" y="76.50135987235078" elementRef="cf964" relX="-0.5" relY="1.0" />
-        <Point elementId="ec79e" arrowHead="Directed" x="200.68118567178323" y="115.33238139805434" elementRef="d5cad" relX="0.0" relY="-1.0" />
+        <Point elementId="bdc54" arrowHead="Inhibition" x="32.46064141579781" y="76.50135987235078" elementRef="cf964" relX="-0.5" relY="1.0" />
+        <Point elementId="d41c3" arrowHead="Directed" x="200.68118567178323" y="115.33238139805434" elementRef="d5cad" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="33004" />
     </Interaction>

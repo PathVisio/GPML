@@ -3,7 +3,6 @@
   <Description>Model depicting endoderm specification based on the literature and highly enriched gene expression profiles via comparison across dozens of independent induced and embryonic pluripotent stem cell lines, following differentiation to multiple lineages (ectoderm, mesoderm, endoderm, embryoid body). The underlying genomic data can be obtained from: 
 https://www.synapse.org/#!Synapse:syn1773109</Description>
   <Graphics boardWidth="445.50545698542817" boardHeight="444.7005444646098" />
-  <InfoBox centerX="0.0" centerY="0.0" />
   <DataNodes>
     <DataNode elementId="b8ed8" textLabel="GeneProduct" type="GeneProduct">
       <Graphics centerX="129.0" centerY="260.0" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
@@ -15,7 +14,7 @@ https://www.synapse.org/#!Synapse:syn1773109</Description>
   </DataNodes>
   <Shapes>
     <Shape elementId="c87a4">
-      <Graphics centerX="209.28078045930295" centerY="280.10886790980425" width="343.68889280190217" height="269.18335310961106" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="ccffcc" shapeType="Cell" zOrder="-2" rotation="0.0" />
+      <Graphics centerX="209.28078045930295" centerY="280.10886790980425" width="343.68889280190217" height="269.18335310961106" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="ccffcc" shapeType="Cell" zOrder="-2" />
     </Shape>
   </Shapes>
 </Pathway>

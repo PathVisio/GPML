@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20130813">
   <Graphics boardWidth="855.3467943876933" boardHeight="971.1302982731553" />
-  <InfoBox centerX="0.0" centerY="0.0" />
   <DataNodes>
     <DataNode elementId="b1e11" textLabel="A" type="GeneProduct">
       <Graphics centerX="18.437884378843798" centerY="394.4464944649447" width="19.704797047970473" height="37.675276752767445" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
@@ -31,65 +30,65 @@
   <Interactions>
     <Interaction elementId="id88e9ddb2">
       <Waypoints>
-        <Point elementId="f4800" arrowHead="Directed" x="624.470966673959" y="385.24321927573425" elementRef="e8d4f" relX="0.0" relY="1.0" />
-        <Point elementId="adb3e" arrowHead="Directed" x="752.5261781083827" y="428.5223571111994" elementRef="c4e14" relX="0.0" relY="-1.0" />
+        <Point elementId="ece84" arrowHead="Directed" x="624.470966673959" y="385.24321927573425" elementRef="e8d4f" relX="0.0" relY="1.0" />
+        <Point elementId="feda0" arrowHead="Directed" x="752.5261781083827" y="428.5223571111994" elementRef="c4e14" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id3ffa2a9f">
       <Waypoints>
-        <Point elementId="f57a4" arrowHead="Undirected" x="8.718701581614479" y="39.65306686067555" elementRef="d7404" relX="0.0" relY="0.0" />
-        <Point elementId="ea913" arrowHead="Undirected" x="63.79596830950422" y="38.914811827118626" elementRef="f81b1" relX="0.0" relY="0.0" />
+        <Point elementId="f9c07" arrowHead="Undirected" x="8.718701581614479" y="39.65306686067555" elementRef="d7404" relX="0.0" relY="0.0" />
+        <Point elementId="d8c57" arrowHead="Undirected" x="63.79596830950422" y="38.914811827118626" elementRef="f81b1" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
-    <Interaction elementId="d26e7">
+    <Interaction elementId="afe2f">
       <Waypoints>
-        <Point elementId="a3a23" arrowHead="Undirected" x="28.290282902829034" y="403.8653136531366" elementRef="b1e11" relX="1.0" relY="0.5" />
-        <Point elementId="b34c4" arrowHead="mim-cleavage" x="70.8610086100858" y="428.5055350553506" elementRef="b5223" relX="-1.0" relY="0.5" />
+        <Point elementId="f8f9f" arrowHead="Undirected" x="28.290282902829034" y="403.8653136531366" elementRef="b1e11" relX="1.0" relY="0.5" />
+        <Point elementId="ddfc7" arrowHead="mim-cleavage" x="70.8610086100858" y="428.5055350553506" elementRef="b5223" relX="-1.0" relY="0.5" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
-    <Interaction elementId="e76ff">
+    <Interaction elementId="fddfb">
       <Waypoints>
-        <Point elementId="bc098" arrowHead="Undirected" x="70.8610086100858" y="408.5178351783519" elementRef="b5223" relX="-1.0" relY="-0.5" />
-        <Point elementId="a2a62" arrowHead="TranscriptionTranslation" x="28.290282902829034" y="394.4464944649447" elementRef="b1e11" relX="1.0" relY="0.0" />
+        <Point elementId="a6f82" arrowHead="Undirected" x="70.8610086100858" y="408.5178351783519" elementRef="b5223" relX="-1.0" relY="-0.5" />
+        <Point elementId="b0943" arrowHead="TranscriptionTranslation" x="28.290282902829034" y="394.4464944649447" elementRef="b1e11" relX="1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="f74f6">
       <Waypoints>
-        <Point elementId="e43ef" arrowHead="Directed" x="750.6835855157906" y="384.51461080555265" elementRef="d9804" relX="0.0" relY="1.0" />
-        <Point elementId="d9b2d" arrowHead="Directed" x="626.556532793233" y="429.9578624090644" elementRef="cc5fa" relX="0.0" relY="-1.0" />
+        <Point elementId="b8c49" arrowHead="Directed" x="750.6835855157906" y="384.51461080555265" elementRef="d9804" relX="0.0" relY="1.0" />
+        <Point elementId="db0f7" arrowHead="Directed" x="626.556532793233" y="429.9578624090644" elementRef="cc5fa" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33040" />
     </Interaction>
     <Interaction elementId="b6aa1">
       <Waypoints>
-        <Point elementId="cc75e" arrowHead="Directed" x="688.6835855157904" y="375.51461080555265" elementRef="f6b92" relX="0.0" relY="1.0" />
-        <Point elementId="f8564" arrowHead="Directed" x="688.5565327932322" y="435.9578624090651" elementRef="f8715" relX="0.0" relY="-1.0" />
+        <Point elementId="e76a8" arrowHead="Directed" x="688.6835855157904" y="375.51461080555265" elementRef="f6b92" relX="0.0" relY="1.0" />
+        <Point elementId="aa486" arrowHead="Directed" x="688.5565327932322" y="435.9578624090651" elementRef="f8715" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33100" />
     </Interaction>
     <Interaction elementId="bb9aa">
       <Waypoints>
-        <Point elementId="a24f1" arrowHead="Undirected" x="777.460805273877" y="49.43528275908838" />
-        <Point elementId="d3bbc" arrowHead="Undirected" x="777.460805273877" y="100.23560236867321" />
+        <Point elementId="dca74" arrowHead="Undirected" x="777.460805273877" y="49.43528275908838" />
+        <Point elementId="de7e2" arrowHead="Undirected" x="777.460805273877" y="100.23560236867321" />
         <Anchor elementId="e4e80" position="0.4" shapeType="None" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33159" />
     </Interaction>
     <Interaction elementId="be75e">
       <Waypoints>
-        <Point elementId="afb00" arrowHead="Undirected" x="725.8494308662938" y="54.86725991832421" elementRef="f3817" relX="0.0" relY="0.0" />
-        <Point elementId="ba20a" arrowHead="LigandRound" x="777.460805273877" y="69.75541060292231" elementRef="e4e80" relX="0.0" relY="0.0" />
+        <Point elementId="f5e6f" arrowHead="Undirected" x="725.8494308662938" y="54.86725991832421" elementRef="f3817" relX="0.0" relY="0.0" />
+        <Point elementId="d7f11" arrowHead="LigandRound" x="777.460805273877" y="69.75541060292231" elementRef="e4e80" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33160" />
     </Interaction>
     <Interaction elementId="df79d">
       <Waypoints>
-        <Point elementId="a5159" arrowHead="Undirected" x="725.8494308662938" y="34.21402442384692" />
-        <Point elementId="dcafb" arrowHead="Undirected" x="725.8494308662938" y="85.84711316004014" />
+        <Point elementId="f75c1" arrowHead="Undirected" x="725.8494308662938" y="34.21402442384692" />
+        <Point elementId="ed198" arrowHead="Undirected" x="725.8494308662938" y="85.84711316004014" />
         <Anchor elementId="cedb5" position="0.4" shapeType="None" />
         <Anchor elementId="f3817" position="0.4" shapeType="None" />
       </Waypoints>
@@ -97,23 +96,23 @@
     </Interaction>
     <Interaction elementId="ba6ed">
       <Waypoints>
-        <Point elementId="d8a97" arrowHead="Undirected" x="779.1815496008403" y="117.0747209274767" />
-        <Point elementId="dbd66" arrowHead="Undirected" x="779.1815496008403" y="167.8750405370618" />
+        <Point elementId="c75e4" arrowHead="Undirected" x="779.1815496008403" y="117.0747209274767" />
+        <Point elementId="f95d3" arrowHead="Undirected" x="779.1815496008403" y="167.8750405370618" />
         <Anchor elementId="b9ca4" position="0.4" shapeType="None" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33163" />
     </Interaction>
     <Interaction elementId="c4a60">
       <Waypoints>
-        <Point elementId="a5ae4" arrowHead="Undirected" x="727.5701751932571" y="122.5066980867126" elementRef="fa215" relX="0.0" relY="0.0" />
-        <Point elementId="a8cde" arrowHead="LigandSquare" x="779.1815496008403" y="137.39484877131076" elementRef="b9ca4" relX="0.0" relY="0.0" />
+        <Point elementId="d4ffc" arrowHead="Undirected" x="727.5701751932571" y="122.5066980867126" elementRef="fa215" relX="0.0" relY="0.0" />
+        <Point elementId="c55c7" arrowHead="LigandSquare" x="779.1815496008403" y="137.39484877131076" elementRef="b9ca4" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33164" />
     </Interaction>
     <Interaction elementId="eb9aa">
       <Waypoints>
-        <Point elementId="e6c78" arrowHead="Undirected" x="727.5701751932571" y="101.85346259223522" />
-        <Point elementId="d5b3e" arrowHead="Undirected" x="727.5701751932571" y="153.48655132842867" />
+        <Point elementId="f8d3c" arrowHead="Undirected" x="727.5701751932571" y="101.85346259223522" />
+        <Point elementId="cfae2" arrowHead="Undirected" x="727.5701751932571" y="153.48655132842867" />
         <Anchor elementId="a996d" position="0.4" shapeType="None" />
         <Anchor elementId="fa215" position="0.4" shapeType="None" />
       </Waypoints>
@@ -121,23 +120,23 @@
     </Interaction>
     <Interaction elementId="c659e">
       <Waypoints>
-        <Point elementId="a0855" arrowHead="Undirected" x="773.2249869196328" y="183.8407110073025" />
-        <Point elementId="dd6fb" arrowHead="Undirected" x="773.2249869196328" y="234.64103061688752" />
+        <Point elementId="b7a1d" arrowHead="Undirected" x="773.2249869196328" y="183.8407110073025" />
+        <Point elementId="effdb" arrowHead="Undirected" x="773.2249869196328" y="234.64103061688752" />
         <Anchor elementId="f1574" position="0.4" shapeType="None" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33167" />
     </Interaction>
     <Interaction elementId="c59cd">
       <Waypoints>
-        <Point elementId="f0560" arrowHead="Undirected" x="721.6136125120498" y="189.27268816653856" elementRef="f8248" relX="0.0" relY="0.0" />
-        <Point elementId="dd395" arrowHead="Receptor" x="773.2249869196328" y="204.1608388511365" elementRef="f1574" relX="0.0" relY="0.0" />
+        <Point elementId="e5b7b" arrowHead="Undirected" x="721.6136125120498" y="189.27268816653856" elementRef="f8248" relX="0.0" relY="0.0" />
+        <Point elementId="a9d13" arrowHead="Receptor" x="773.2249869196328" y="204.1608388511365" elementRef="f1574" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33168" />
     </Interaction>
     <Interaction elementId="af7e7">
       <Waypoints>
-        <Point elementId="e3075" arrowHead="Undirected" x="721.6136125120498" y="168.61945267206124" />
-        <Point elementId="b6779" arrowHead="Undirected" x="721.6136125120498" y="220.2525414082545" />
+        <Point elementId="ddd03" arrowHead="Undirected" x="721.6136125120498" y="168.61945267206124" />
+        <Point elementId="cc260" arrowHead="Undirected" x="721.6136125120498" y="220.2525414082545" />
         <Anchor elementId="be12d" position="0.4" shapeType="None" />
         <Anchor elementId="f8248" position="0.4" shapeType="None" />
       </Waypoints>
@@ -145,23 +144,23 @@
     </Interaction>
     <Interaction elementId="e1093">
       <Waypoints>
-        <Point elementId="f46c2" arrowHead="Undirected" x="772.5837739126912" y="263.41708107010095" />
-        <Point elementId="dcae6" arrowHead="Undirected" x="772.5837739126912" y="314.21740067968574" />
+        <Point elementId="a82b6" arrowHead="Undirected" x="772.5837739126912" y="263.41708107010095" />
+        <Point elementId="a2a86" arrowHead="Undirected" x="772.5837739126912" y="314.21740067968574" />
         <Anchor elementId="a44ed" position="0.4" shapeType="None" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33171" />
     </Interaction>
     <Interaction elementId="b58f8">
       <Waypoints>
-        <Point elementId="f9e0b" arrowHead="Undirected" x="720.972399505108" y="268.84905822933683" elementRef="fcee0" relX="0.0" relY="0.0" />
-        <Point elementId="fe451" arrowHead="ReceptorSquare" x="772.5837739126912" y="283.73720891393486" elementRef="a44ed" relX="0.0" relY="0.0" />
+        <Point elementId="ea9d6" arrowHead="Undirected" x="720.972399505108" y="268.84905822933683" elementRef="fcee0" relX="0.0" relY="0.0" />
+        <Point elementId="ea2b5" arrowHead="ReceptorSquare" x="772.5837739126912" y="283.73720891393486" elementRef="a44ed" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33172" />
     </Interaction>
     <Interaction elementId="e3597">
       <Waypoints>
-        <Point elementId="fc719" arrowHead="Undirected" x="720.972399505108" y="248.19582273485958" />
-        <Point elementId="fa4e4" arrowHead="Undirected" x="720.972399505108" y="299.8289114710527" />
+        <Point elementId="d1ada" arrowHead="Undirected" x="720.972399505108" y="248.19582273485958" />
+        <Point elementId="a075f" arrowHead="Undirected" x="720.972399505108" y="299.8289114710527" />
         <Anchor elementId="fe1ab" position="0.4" shapeType="None" />
         <Anchor elementId="fcee0" position="0.4" shapeType="None" />
       </Waypoints>
@@ -169,442 +168,442 @@
     </Interaction>
     <Interaction elementId="b7fa2">
       <Waypoints>
-        <Point elementId="f61a1" arrowHead="Directed" x="8.718701581614479" y="53.28391532029701" elementRef="fbbf4" relX="0.0" relY="0.0" />
-        <Point elementId="e23b3" arrowHead="Directed" x="63.79596830950422" y="52.57664876963013" elementRef="c07f6" relX="0.0" relY="0.0" />
+        <Point elementId="a2a89" arrowHead="Directed" x="8.718701581614479" y="53.28391532029701" elementRef="fbbf4" relX="0.0" relY="0.0" />
+        <Point elementId="ff0ee" arrowHead="Directed" x="63.79596830950422" y="52.57664876963013" elementRef="c07f6" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33176" />
     </Interaction>
     <Interaction elementId="f6b06">
       <Waypoints>
-        <Point elementId="d25ff" arrowHead="Inhibition" x="8.718701581614479" y="69.32020762573414" elementRef="f7720" relX="0.0" relY="0.0" />
-        <Point elementId="c1c69" arrowHead="Inhibition" x="63.79596830950422" y="68.64939811376144" elementRef="e7250" relX="0.0" relY="0.0" />
+        <Point elementId="db3d9" arrowHead="Inhibition" x="8.718701581614479" y="69.32020762573414" elementRef="f7720" relX="0.0" relY="0.0" />
+        <Point elementId="e104b" arrowHead="Inhibition" x="63.79596830950422" y="68.64939811376144" elementRef="e7250" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33177" />
     </Interaction>
     <Interaction elementId="d4ed1">
       <Waypoints>
-        <Point elementId="b2cc2" arrowHead="Stimulation" x="8.718701581614479" y="86.15831454644298" elementRef="edfff" relX="0.0" relY="0.0" />
-        <Point elementId="d2d9a" arrowHead="Stimulation" x="63.79596830950422" y="85.52578492509915" elementRef="ba938" relX="0.0" relY="0.0" />
+        <Point elementId="dcd02" arrowHead="Stimulation" x="8.718701581614479" y="86.15831454644298" elementRef="edfff" relX="0.0" relY="0.0" />
+        <Point elementId="bed60" arrowHead="Stimulation" x="63.79596830950422" y="85.52578492509915" elementRef="ba938" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33182" />
     </Interaction>
     <Interaction elementId="cef4b">
       <Waypoints>
-        <Point elementId="a3c71" arrowHead="Binding" x="8.718701581614479" y="102.99642146715195" elementRef="ba6f0" relX="0.0" relY="0.0" />
-        <Point elementId="b9467" arrowHead="Binding" x="63.79596830950422" y="102.402171736437" elementRef="dd33f" relX="0.0" relY="0.0" />
+        <Point elementId="fa50f" arrowHead="Binding" x="8.718701581614479" y="102.99642146715195" elementRef="ba6f0" relX="0.0" relY="0.0" />
+        <Point elementId="d3cea" arrowHead="Binding" x="63.79596830950422" y="102.402171736437" elementRef="dd33f" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33183" />
     </Interaction>
     <Interaction elementId="c8adb">
       <Waypoints>
-        <Point elementId="c3d71" arrowHead="Conversion" x="8.718701581614479" y="119.83452838786079" elementRef="d6d53" relX="0.0" relY="0.0" />
-        <Point elementId="fe123" arrowHead="Conversion" x="63.79596830950422" y="119.27855854777471" elementRef="e262f" relX="0.0" relY="0.0" />
+        <Point elementId="ca1b3" arrowHead="Conversion" x="8.718701581614479" y="119.83452838786079" elementRef="d6d53" relX="0.0" relY="0.0" />
+        <Point elementId="f0194" arrowHead="Conversion" x="63.79596830950422" y="119.27855854777471" elementRef="e262f" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33184" />
     </Interaction>
     <Interaction elementId="ee2b7">
       <Waypoints>
-        <Point elementId="aea44" arrowHead="Stimulation" x="8.718701581614479" y="135.54819706111743" elementRef="f788f" relX="0.0" relY="0.0" />
-        <Point elementId="fb3c3" arrowHead="Stimulation" x="63.79596830950422" y="134.58428585959578" elementRef="a694f" relX="0.0" relY="0.0" />
+        <Point elementId="e8229" arrowHead="Stimulation" x="8.718701581614479" y="135.54819706111743" elementRef="f788f" relX="0.0" relY="0.0" />
+        <Point elementId="abd03" arrowHead="Stimulation" x="63.79596830950422" y="134.58428585959578" elementRef="a694f" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33185" />
     </Interaction>
     <Interaction elementId="cab75">
       <Waypoints>
-        <Point elementId="c4af4" arrowHead="Conversion" x="8.718701581614479" y="154.10498649296386" elementRef="bca16" relX="0.0" relY="0.0" />
-        <Point elementId="a6bee" arrowHead="Conversion" x="63.79596830950422" y="153.1832624490138" elementRef="bde62" relX="0.0" relY="0.0" />
+        <Point elementId="c76ef" arrowHead="Conversion" x="8.718701581614479" y="154.10498649296386" elementRef="bca16" relX="0.0" relY="0.0" />
+        <Point elementId="a8ce2" arrowHead="Conversion" x="63.79596830950422" y="153.1832624490138" elementRef="bde62" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33186" />
     </Interaction>
     <Interaction elementId="b8098">
       <Waypoints>
-        <Point elementId="b5c45" arrowHead="Catalysis" x="8.718701581614479" y="265.27556001027267" elementRef="ebdd7" relX="0.0" relY="0.0" />
-        <Point elementId="f058e" arrowHead="Catalysis" x="63.79596830950422" y="263.7962700694442" elementRef="db5a8" relX="0.0" relY="0.0" />
+        <Point elementId="f2e37" arrowHead="Catalysis" x="8.718701581614479" y="265.27556001027267" elementRef="ebdd7" relX="0.0" relY="0.0" />
+        <Point elementId="e5bbd" arrowHead="Catalysis" x="63.79596830950422" y="263.7962700694442" elementRef="db5a8" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33187" />
     </Interaction>
     <Interaction elementId="ea122">
       <Waypoints>
-        <Point elementId="f6d73" arrowHead="Inhibition" x="8.718701581614479" y="182.38199896053922" elementRef="aab9c" relX="0.0" relY="0.0" />
-        <Point elementId="d9b42" arrowHead="Inhibition" x="63.79596830950422" y="184.18155676471065" elementRef="a2f0b" relX="0.0" relY="0.0" />
+        <Point elementId="e8172" arrowHead="Inhibition" x="8.718701581614479" y="182.38199896053922" elementRef="aab9c" relX="0.0" relY="0.0" />
+        <Point elementId="ed6cc" arrowHead="Inhibition" x="63.79596830950422" y="184.18155676471065" elementRef="a2f0b" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33188" />
     </Interaction>
     <Interaction elementId="b95c9">
       <Waypoints>
-        <Point elementId="a7c2d" arrowHead="mim-cleavage" x="8.718701581614479" y="209.06254225879331" elementRef="ebb99" relX="0.0" relY="0.0" />
-        <Point elementId="a76ee" arrowHead="mim-cleavage" x="63.79596830950422" y="212.02112214045005" elementRef="a9089" relX="0.0" relY="0.0" />
+        <Point elementId="e77bc" arrowHead="mim-cleavage" x="8.718701581614479" y="209.06254225879331" elementRef="ebb99" relX="0.0" relY="0.0" />
+        <Point elementId="d03e7" arrowHead="mim-cleavage" x="63.79596830950422" y="212.02112214045005" elementRef="a9089" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33189" />
     </Interaction>
     <Interaction elementId="a70b0">
       <Waypoints>
-        <Point elementId="ee87f" arrowHead="Binding" x="8.718701581614479" y="238.64834107536137" elementRef="feb51" relX="0.0" relY="0.0" />
-        <Point elementId="ac080" arrowHead="Binding" x="63.79596830950422" y="241.60692095701813" elementRef="c68cf" relX="0.0" relY="0.0" />
+        <Point elementId="d4e77" arrowHead="Binding" x="8.718701581614479" y="238.64834107536137" elementRef="feb51" relX="0.0" relY="0.0" />
+        <Point elementId="ed4d9" arrowHead="Binding" x="63.79596830950422" y="241.60692095701813" elementRef="c68cf" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33190" />
     </Interaction>
     <Interaction elementId="d8372">
       <Waypoints>
-        <Point elementId="f7d68" arrowHead="mim-branching-left" x="8.718701581614479" y="283.02703930021346" elementRef="c83de" relX="0.0" relY="0.0" />
-        <Point elementId="fd9ec" arrowHead="mim-branching-left" x="63.79596830950422" y="287.46490912269866" elementRef="fb473" relX="0.0" relY="0.0" />
+        <Point elementId="c8a09" arrowHead="mim-branching-left" x="8.718701581614479" y="283.02703930021346" elementRef="c83de" relX="0.0" relY="0.0" />
+        <Point elementId="e045d" arrowHead="mim-branching-left" x="63.79596830950422" y="287.46490912269866" elementRef="fb473" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33191" />
     </Interaction>
     <Interaction elementId="a9daf">
       <Waypoints>
-        <Point elementId="c3b0c" arrowHead="mim-branching-right" x="8.718701581614479" y="312.61283811678146" elementRef="b268d" relX="0.0" relY="0.0" />
-        <Point elementId="dd355" arrowHead="mim-branching-right" x="63.79596830950422" y="315.5714179984382" elementRef="d925f" relX="0.0" relY="0.0" />
+        <Point elementId="a7f79" arrowHead="mim-branching-right" x="8.718701581614479" y="312.61283811678146" elementRef="b268d" relX="0.0" relY="0.0" />
+        <Point elementId="f9642" arrowHead="mim-branching-right" x="63.79596830950422" y="315.5714179984382" elementRef="d925f" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33192" />
     </Interaction>
     <Interaction elementId="ca2df">
       <Waypoints>
-        <Point elementId="c1b0f" arrowHead="TranscriptionTranslation" x="8.718701581614479" y="346.6365067558348" elementRef="b00c4" relX="0.0" relY="0.0" />
-        <Point elementId="dca1e" arrowHead="TranscriptionTranslation" x="63.79596830950422" y="345.1572168150063" elementRef="c9346" relX="0.0" relY="0.0" />
+        <Point elementId="b35f1" arrowHead="TranscriptionTranslation" x="8.718701581614479" y="346.6365067558348" elementRef="b00c4" relX="0.0" relY="0.0" />
+        <Point elementId="dcb8c" arrowHead="TranscriptionTranslation" x="63.79596830950422" y="345.1572168150063" elementRef="c9346" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33193" />
     </Interaction>
     <Interaction elementId="ffd34">
       <Waypoints>
-        <Point elementId="c3c44" arrowHead="mim-gap" x="8.718701581614479" y="364.38798604577556" elementRef="e728a" relX="0.0" relY="0.0" />
-        <Point elementId="e4dd0" arrowHead="mim-gap" x="63.79596830950422" y="364.38798604577556" elementRef="f1541" relX="0.0" relY="0.0" />
+        <Point elementId="abda3" arrowHead="mim-gap" x="8.718701581614479" y="364.38798604577556" elementRef="e728a" relX="0.0" relY="0.0" />
+        <Point elementId="bfb29" arrowHead="mim-gap" x="63.79596830950422" y="364.38798604577556" elementRef="f1541" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33194" />
     </Interaction>
     <Interaction elementId="d8363">
       <Waypoints>
-        <Point elementId="f1c06" arrowHead="Undirected" x="173.68036114417225" y="91.58973606101517" elementRef="ffa93" relX="0.0" relY="0.0" />
-        <Point elementId="cad2e" arrowHead="Undirected" x="216.48671685130387" y="13.886943360398647" elementRef="f2ae5" relX="0.0" relY="0.0" />
+        <Point elementId="ebb07" arrowHead="Undirected" x="173.68036114417225" y="91.58973606101517" elementRef="ffa93" relX="0.0" relY="0.0" />
+        <Point elementId="da8d9" arrowHead="Undirected" x="216.48671685130387" y="13.886943360398647" elementRef="f2ae5" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33227" />
     </Interaction>
     <Interaction elementId="e3c3b">
       <Waypoints>
-        <Point elementId="a1597" arrowHead="Directed" x="173.68036114417225" y="105.22058452063665" elementRef="e4d26" relX="0.0" relY="0.0" />
-        <Point elementId="a3f5c" arrowHead="Directed" x="216.48671685130387" y="27.548780302910203" elementRef="b42eb" relX="0.0" relY="0.0" />
+        <Point elementId="a1ee7" arrowHead="Directed" x="173.68036114417225" y="105.22058452063665" elementRef="e4d26" relX="0.0" relY="0.0" />
+        <Point elementId="af930" arrowHead="Directed" x="216.48671685130387" y="27.548780302910203" elementRef="b42eb" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33230" />
     </Interaction>
     <Interaction elementId="df9c0">
       <Waypoints>
-        <Point elementId="db767" arrowHead="Inhibition" x="173.68036114417225" y="121.25687682607379" elementRef="f6475" relX="0.0" relY="0.0" />
-        <Point elementId="fd66b" arrowHead="Inhibition" x="216.48671685130387" y="43.621529647041555" elementRef="ecb58" relX="0.0" relY="0.0" />
+        <Point elementId="c6a7e" arrowHead="Inhibition" x="173.68036114417225" y="121.25687682607379" elementRef="f6475" relX="0.0" relY="0.0" />
+        <Point elementId="bdbfe" arrowHead="Inhibition" x="216.48671685130387" y="43.621529647041555" elementRef="ecb58" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33231" />
     </Interaction>
     <Interaction elementId="c3e17">
       <Waypoints>
-        <Point elementId="d1841" arrowHead="Stimulation" x="173.68036114417225" y="138.09498374678265" elementRef="a4c00" relX="0.0" relY="0.0" />
-        <Point elementId="a52f7" arrowHead="Stimulation" x="216.48671685130387" y="60.49791645837933" elementRef="d9e4d" relX="0.0" relY="0.0" />
+        <Point elementId="ba3cd" arrowHead="Stimulation" x="173.68036114417225" y="138.09498374678265" elementRef="a4c00" relX="0.0" relY="0.0" />
+        <Point elementId="fdfff" arrowHead="Stimulation" x="216.48671685130387" y="60.49791645837933" elementRef="d9e4d" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33232" />
     </Interaction>
     <Interaction elementId="f1c63">
       <Waypoints>
-        <Point elementId="bcecf" arrowHead="Binding" x="173.68036114417225" y="154.93309066749163" elementRef="dedac" relX="0.0" relY="0.0" />
-        <Point elementId="cf6e4" arrowHead="Binding" x="216.48671685130387" y="77.37430326971723" elementRef="c4ca5" relX="0.0" relY="0.0" />
+        <Point elementId="a3366" arrowHead="Binding" x="173.68036114417225" y="154.93309066749163" elementRef="dedac" relX="0.0" relY="0.0" />
+        <Point elementId="b2231" arrowHead="Binding" x="216.48671685130387" y="77.37430326971723" elementRef="c4ca5" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33233" />
     </Interaction>
     <Interaction elementId="a8fad">
       <Waypoints>
-        <Point elementId="f5ab8" arrowHead="Conversion" x="173.68036114417225" y="171.7711975882005" elementRef="adeed" relX="0.0" relY="0.0" />
-        <Point elementId="d217d" arrowHead="Conversion" x="216.48671685130387" y="94.25069008105501" elementRef="ff3b5" relX="0.0" relY="0.0" />
+        <Point elementId="abfbc" arrowHead="Conversion" x="173.68036114417225" y="171.7711975882005" elementRef="adeed" relX="0.0" relY="0.0" />
+        <Point elementId="b1f17" arrowHead="Conversion" x="216.48671685130387" y="94.25069008105501" elementRef="ff3b5" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33234" />
     </Interaction>
     <Interaction elementId="fcfd3">
       <Waypoints>
-        <Point elementId="d3e4b" arrowHead="Stimulation" x="173.68036114417225" y="187.48486626145717" elementRef="a8e5e" relX="0.0" relY="0.0" />
-        <Point elementId="a0417" arrowHead="Stimulation" x="216.48671685130387" y="109.55641739287613" elementRef="f4bce" relX="0.0" relY="0.0" />
+        <Point elementId="fbfba" arrowHead="Stimulation" x="173.68036114417225" y="187.48486626145717" elementRef="a8e5e" relX="0.0" relY="0.0" />
+        <Point elementId="cca14" arrowHead="Stimulation" x="216.48671685130387" y="109.55641739287613" elementRef="f4bce" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33235" />
     </Interaction>
     <Interaction elementId="d6b7e">
       <Waypoints>
-        <Point elementId="d9216" arrowHead="Conversion" x="173.68036114417225" y="206.0416556933036" elementRef="a13d7" relX="0.0" relY="0.0" />
-        <Point elementId="d7b56" arrowHead="Conversion" x="216.48671685130387" y="128.15539398229424" elementRef="b074a" relX="0.0" relY="0.0" />
+        <Point elementId="d6c04" arrowHead="Conversion" x="173.68036114417225" y="206.0416556933036" elementRef="a13d7" relX="0.0" relY="0.0" />
+        <Point elementId="ea7a3" arrowHead="Conversion" x="216.48671685130387" y="128.15539398229424" elementRef="b074a" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33236" />
     </Interaction>
     <Interaction elementId="e71de">
       <Waypoints>
-        <Point elementId="b2f23" arrowHead="Catalysis" x="173.68036114417225" y="317.21222921061246" elementRef="deabf" relX="0.0" relY="0.0" />
-        <Point elementId="a8dbd" arrowHead="Catalysis" x="216.48671685130387" y="238.76840160272496" elementRef="b7b2f" relX="0.0" relY="0.0" />
+        <Point elementId="ea9e8" arrowHead="Catalysis" x="173.68036114417225" y="317.21222921061246" elementRef="deabf" relX="0.0" relY="0.0" />
+        <Point elementId="cd2e7" arrowHead="Catalysis" x="216.48671685130387" y="238.76840160272496" elementRef="b7b2f" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33237" />
     </Interaction>
     <Interaction elementId="eea8f">
       <Waypoints>
-        <Point elementId="c7b83" arrowHead="Inhibition" x="173.68036114417225" y="234.31866816087899" elementRef="b36a2" relX="0.0" relY="0.0" />
-        <Point elementId="dd7e6" arrowHead="Inhibition" x="216.48671685130387" y="159.15368829799118" elementRef="a2874" relX="0.0" relY="0.0" />
+        <Point elementId="f140b" arrowHead="Inhibition" x="173.68036114417225" y="234.31866816087899" elementRef="b36a2" relX="0.0" relY="0.0" />
+        <Point elementId="be0b5" arrowHead="Inhibition" x="216.48671685130387" y="159.15368829799118" elementRef="a2874" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33238" />
     </Interaction>
     <Interaction elementId="bf145">
       <Waypoints>
-        <Point elementId="f2d9b" arrowHead="mim-cleavage" x="173.68036114417225" y="260.9992114591331" elementRef="da36c" relX="0.0" relY="0.0" />
-        <Point elementId="d50b2" arrowHead="mim-cleavage" x="216.48671685130387" y="186.9932536737307" elementRef="d4091" relX="0.0" relY="0.0" />
+        <Point elementId="b2100" arrowHead="mim-cleavage" x="173.68036114417225" y="260.9992114591331" elementRef="da36c" relX="0.0" relY="0.0" />
+        <Point elementId="f90e4" arrowHead="mim-cleavage" x="216.48671685130387" y="186.9932536737307" elementRef="d4091" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33239" />
     </Interaction>
     <Interaction elementId="db53a">
       <Waypoints>
-        <Point elementId="aa47c" arrowHead="Binding" x="173.68036114417225" y="290.58501027570117" elementRef="cae8b" relX="0.0" relY="0.0" />
-        <Point elementId="c5674" arrowHead="Binding" x="216.48671685130387" y="216.57905249029884" elementRef="a7504" relX="0.0" relY="0.0" />
+        <Point elementId="b1d28" arrowHead="Binding" x="173.68036114417225" y="290.58501027570117" elementRef="cae8b" relX="0.0" relY="0.0" />
+        <Point elementId="a6140" arrowHead="Binding" x="216.48671685130387" y="216.57905249029884" elementRef="a7504" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33240" />
     </Interaction>
     <Interaction elementId="f4227">
       <Waypoints>
-        <Point elementId="b6185" arrowHead="mim-branching-left" x="173.68036114417225" y="334.9637085005533" elementRef="c2df3" relX="0.0" relY="0.0" />
-        <Point elementId="ab928" arrowHead="mim-branching-left" x="216.48671685130387" y="262.43704065597956" elementRef="dfcc6" relX="0.0" relY="0.0" />
+        <Point elementId="dd437" arrowHead="mim-branching-left" x="173.68036114417225" y="334.9637085005533" elementRef="c2df3" relX="0.0" relY="0.0" />
+        <Point elementId="f24c2" arrowHead="mim-branching-left" x="216.48671685130387" y="262.43704065597956" elementRef="dfcc6" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33241" />
     </Interaction>
     <Interaction elementId="f25ab">
       <Waypoints>
-        <Point elementId="d961e" arrowHead="mim-branching-right" x="173.68036114417225" y="364.5495073171214" elementRef="e27ce" relX="0.0" relY="0.0" />
-        <Point elementId="df096" arrowHead="mim-branching-right" x="216.48671685130387" y="290.54354953171924" elementRef="e6a53" relX="0.0" relY="0.0" />
+        <Point elementId="f5d77" arrowHead="mim-branching-right" x="173.68036114417225" y="364.5495073171214" elementRef="e27ce" relX="0.0" relY="0.0" />
+        <Point elementId="f94d3" arrowHead="mim-branching-right" x="216.48671685130387" y="290.54354953171924" elementRef="e6a53" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33242" />
     </Interaction>
     <Interaction elementId="fc305">
       <Waypoints>
-        <Point elementId="d5614" arrowHead="TranscriptionTranslation" x="173.68036114417225" y="398.57317595617474" elementRef="a919c" relX="0.0" relY="0.0" />
-        <Point elementId="fc1c5" arrowHead="TranscriptionTranslation" x="216.48671685130387" y="309.42654164359635" elementRef="c6dd4" relX="0.0" relY="0.0" />
+        <Point elementId="c9bb0" arrowHead="TranscriptionTranslation" x="173.68036114417225" y="398.57317595617474" elementRef="a919c" relX="0.0" relY="0.0" />
+        <Point elementId="ac3fe" arrowHead="TranscriptionTranslation" x="216.48671685130387" y="309.42654164359635" elementRef="c6dd4" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33243" />
     </Interaction>
     <Interaction elementId="da405">
       <Waypoints>
-        <Point elementId="a5f29" arrowHead="mim-gap" x="173.68036114417225" y="416.3246552461155" elementRef="fe9a8" relX="0.0" relY="0.0" />
-        <Point elementId="c05d9" arrowHead="mim-gap" x="216.48671685130387" y="339.3601175790567" elementRef="bacc9" relX="0.0" relY="0.0" />
+        <Point elementId="fdcca" arrowHead="mim-gap" x="173.68036114417225" y="416.3246552461155" elementRef="fe9a8" relX="0.0" relY="0.0" />
+        <Point elementId="f8e20" arrowHead="mim-gap" x="216.48671685130387" y="339.3601175790567" elementRef="bacc9" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="33244" />
     </Interaction>
     <Interaction elementId="d2810">
       <Waypoints>
-        <Point elementId="ec7d4" arrowHead="Undirected" x="330.94752795917856" y="9.159034138218146" elementRef="a766c" relX="0.0" relY="0.0" />
-        <Point elementId="fbc21" arrowHead="Undirected" x="422.6306250671367" y="9.57535387177353" elementRef="e9964" relX="0.0" relY="0.0" />
+        <Point elementId="a6c9c" arrowHead="Undirected" x="330.94752795917856" y="9.159034138218146" elementRef="a766c" relX="0.0" relY="0.0" />
+        <Point elementId="a084a" arrowHead="Undirected" x="422.6306250671367" y="9.57535387177353" elementRef="e9964" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="33cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33261" />
     </Interaction>
     <Interaction elementId="bc331">
       <Waypoints>
-        <Point elementId="d2a20" arrowHead="Directed" x="330.94752795917856" y="23.01881865543084" elementRef="ec06c" relX="0.0" relY="0.0" />
-        <Point elementId="d967a" arrowHead="Directed" x="422.6306250671367" y="22.841796213556727" elementRef="d33d3" relX="0.0" relY="0.0" />
+        <Point elementId="f969f" arrowHead="Directed" x="330.94752795917856" y="23.01881865543084" elementRef="ec06c" relX="0.0" relY="0.0" />
+        <Point elementId="ddbb1" arrowHead="Directed" x="422.6306250671367" y="22.841796213556727" elementRef="d33d3" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="33cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33264" />
     </Interaction>
     <Interaction elementId="a822d">
       <Waypoints>
-        <Point elementId="b17f5" arrowHead="Inhibition" x="330.94752795917856" y="54.67714014705629" elementRef="d0631" relX="0.0" relY="0.0" />
-        <Point elementId="b8a80" arrowHead="Inhibition" x="422.6306250671367" y="55.77887439782001" elementRef="c2325" relX="0.0" relY="0.0" />
+        <Point elementId="e0464" arrowHead="Inhibition" x="330.94752795917856" y="54.67714014705629" elementRef="d0631" relX="0.0" relY="0.0" />
+        <Point elementId="efaf6" arrowHead="Inhibition" x="422.6306250671367" y="55.77887439782001" elementRef="c2325" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="33cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33265" />
     </Interaction>
     <Interaction elementId="ee213">
       <Waypoints>
-        <Point elementId="d5f65" arrowHead="Stimulation" x="330.94752795917856" y="87.79282613659043" elementRef="d1b18" relX="0.0" relY="0.0" />
-        <Point elementId="bfb6b" arrowHead="Stimulation" x="422.6306250671367" y="89.2686550924295" elementRef="c5d2c" relX="0.0" relY="0.0" />
+        <Point elementId="b88ff" arrowHead="Stimulation" x="330.94752795917856" y="87.79282613659043" elementRef="d1b18" relX="0.0" relY="0.0" />
+        <Point elementId="e10a9" arrowHead="Stimulation" x="422.6306250671367" y="89.2686550924295" elementRef="c5d2c" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="33cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33266" />
     </Interaction>
     <Interaction elementId="ac845">
       <Waypoints>
-        <Point elementId="b38db" arrowHead="Binding" x="330.94752795917856" y="107.57622296150694" elementRef="ca4c8" relX="0.0" relY="0.0" />
-        <Point elementId="dd5f2" arrowHead="Binding" x="422.6306250671367" y="109.87775090449689" elementRef="fe289" relX="0.0" relY="0.0" />
+        <Point elementId="df611" arrowHead="Binding" x="330.94752795917856" y="107.57622296150694" elementRef="ca4c8" relX="0.0" relY="0.0" />
+        <Point elementId="b1e68" arrowHead="Binding" x="422.6306250671367" y="109.87775090449689" elementRef="fe289" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="33cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33267" />
     </Interaction>
     <Interaction elementId="e0b05">
       <Waypoints>
-        <Point elementId="aff95" arrowHead="Conversion" x="330.94752795917856" y="133.8107274467223" elementRef="d7172" relX="0.0" relY="0.0" />
-        <Point elementId="bcac1" arrowHead="Conversion" x="422.6306250671367" y="135.6391206695811" elementRef="c42b1" relX="0.0" relY="0.0" />
+        <Point elementId="fd03a" arrowHead="Conversion" x="330.94752795917856" y="133.8107274467223" elementRef="d7172" relX="0.0" relY="0.0" />
+        <Point elementId="aa94f" arrowHead="Conversion" x="422.6306250671367" y="135.6391206695811" elementRef="c42b1" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="33cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33268" />
     </Interaction>
     <Interaction elementId="a8cb2">
       <Waypoints>
-        <Point elementId="a5846" arrowHead="Stimulation" x="330.94752795917856" y="159.61515808791776" elementRef="d75ef" relX="0.0" relY="0.0" />
-        <Point elementId="e6760" arrowHead="Stimulation" x="422.6306250671367" y="160.97113427191394" elementRef="b33bc" relX="0.0" relY="0.0" />
+        <Point elementId="eaccc" arrowHead="Stimulation" x="330.94752795917856" y="159.61515808791776" elementRef="d75ef" relX="0.0" relY="0.0" />
+        <Point elementId="d0120" arrowHead="Stimulation" x="422.6306250671367" y="160.97113427191394" elementRef="b33bc" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="33cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33269" />
     </Interaction>
     <Interaction elementId="b14b9">
       <Waypoints>
-        <Point elementId="f2036" arrowHead="Conversion" x="330.94752795917856" y="182.4090718209737" elementRef="b98ee" relX="0.0" relY="0.0" />
-        <Point elementId="dc0a5" arrowHead="Conversion" x="422.6306250671367" y="187.59121636250097" elementRef="be016" relX="0.0" relY="0.0" />
+        <Point elementId="a5b44" arrowHead="Conversion" x="330.94752795917856" y="182.4090718209737" elementRef="b98ee" relX="0.0" relY="0.0" />
+        <Point elementId="c7cbd" arrowHead="Conversion" x="422.6306250671367" y="187.59121636250097" elementRef="be016" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="33cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33270" />
     </Interaction>
     <Interaction elementId="fcb86">
       <Waypoints>
-        <Point elementId="c1e96" arrowHead="Catalysis" x="330.94752795917856" y="341.4221309468348" elementRef="d83cf" relX="0.0" relY="0.0" />
-        <Point elementId="f8ebc" arrowHead="Catalysis" x="422.6306250671367" y="342.0453624669617" elementRef="b63c4" relX="0.0" relY="0.0" />
+        <Point elementId="bb04c" arrowHead="Catalysis" x="330.94752795917856" y="341.4221309468348" elementRef="d83cf" relX="0.0" relY="0.0" />
+        <Point elementId="edc4f" arrowHead="Catalysis" x="422.6306250671367" y="342.0453624669617" elementRef="b63c4" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="33cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33271" />
     </Interaction>
     <Interaction elementId="cdbbb">
       <Waypoints>
-        <Point elementId="c8c14" arrowHead="Inhibition" x="330.94752795917856" y="227.13675159904582" elementRef="b02ad" relX="0.0" relY="0.0" />
-        <Point elementId="aa57d" arrowHead="Inhibition" x="422.6306250671367" y="226.6626271728787" elementRef="a82ec" relX="0.0" relY="0.0" />
+        <Point elementId="f3992" arrowHead="Inhibition" x="330.94752795917856" y="227.13675159904582" elementRef="b02ad" relX="0.0" relY="0.0" />
+        <Point elementId="aec8c" arrowHead="Inhibition" x="422.6306250671367" y="226.6626271728787" elementRef="a82ec" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="33cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33272" />
     </Interaction>
     <Interaction elementId="f2748">
       <Waypoints>
-        <Point elementId="e037c" arrowHead="mim-cleavage" x="330.94752795917856" y="274.44487444123746" elementRef="b89ea" relX="0.0" relY="0.0" />
-        <Point elementId="e0e64" arrowHead="mim-cleavage" x="422.6306250671367" y="275.60922972653873" elementRef="e9dd6" relX="0.0" relY="0.0" />
+        <Point elementId="fa71f" arrowHead="mim-cleavage" x="330.94752795917856" y="274.44487444123746" elementRef="b89ea" relX="0.0" relY="0.0" />
+        <Point elementId="c649e" arrowHead="mim-cleavage" x="422.6306250671367" y="275.60922972653873" elementRef="e9dd6" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="33cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33273" />
     </Interaction>
     <Interaction elementId="b4c09">
       <Waypoints>
-        <Point elementId="bda9e" arrowHead="Binding" x="330.94752795917856" y="310.57107733891104" elementRef="aa6d8" relX="0.0" relY="0.0" />
-        <Point elementId="a6861" arrowHead="Binding" x="422.6306250671367" y="309.95772274665103" elementRef="c41da" relX="0.0" relY="0.0" />
+        <Point elementId="a4ed6" arrowHead="Binding" x="330.94752795917856" y="310.57107733891104" elementRef="aa6d8" relX="0.0" relY="0.0" />
+        <Point elementId="ca09c" arrowHead="Binding" x="422.6306250671367" y="309.95772274665103" elementRef="c41da" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="33cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33274" />
     </Interaction>
     <Interaction elementId="cfd5e">
       <Waypoints>
-        <Point elementId="ec686" arrowHead="mim-branching-left" x="330.94752795917856" y="373.8236721769262" elementRef="e4b54" relX="0.0" relY="0.0" />
-        <Point elementId="f3166" arrowHead="mim-branching-left" x="422.6306250671367" y="366.781664197728" elementRef="e1237" relX="0.0" relY="0.0" />
+        <Point elementId="ca1b2" arrowHead="mim-branching-left" x="330.94752795917856" y="373.8236721769262" elementRef="e4b54" relX="0.0" relY="0.0" />
+        <Point elementId="e5eb8" arrowHead="mim-branching-left" x="422.6306250671367" y="366.781664197728" elementRef="e1237" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="33cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33275" />
     </Interaction>
     <Interaction elementId="b52ab">
       <Waypoints>
-        <Point elementId="b7221" arrowHead="mim-branching-right" x="330.94752795917856" y="383.3535372446002" elementRef="a074c" relX="0.0" relY="0.0" />
-        <Point elementId="e8f32" arrowHead="mim-branching-right" x="422.6306250671367" y="406.10604130817694" elementRef="fbd33" relX="0.0" relY="0.0" />
+        <Point elementId="e0a4b" arrowHead="mim-branching-right" x="330.94752795917856" y="383.3535372446002" elementRef="a074c" relX="0.0" relY="0.0" />
+        <Point elementId="a8f5b" arrowHead="mim-branching-right" x="422.6306250671367" y="406.10604130817694" elementRef="fbd33" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="33cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33276" />
     </Interaction>
     <Interaction elementId="e6752">
       <Waypoints>
-        <Point elementId="dfcac" arrowHead="TranscriptionTranslation" x="330.94752795917856" y="429.5643780464393" elementRef="b4229" relX="0.0" relY="0.0" />
-        <Point elementId="ab541" arrowHead="TranscriptionTranslation" x="422.6306250671367" y="427.43591958603514" elementRef="a8bb2" relX="0.0" relY="0.0" />
+        <Point elementId="a7a1c" arrowHead="TranscriptionTranslation" x="330.94752795917856" y="429.5643780464393" elementRef="b4229" relX="0.0" relY="0.0" />
+        <Point elementId="f0f3a" arrowHead="TranscriptionTranslation" x="422.6306250671367" y="427.43591958603514" elementRef="a8bb2" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="33cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33277" />
     </Interaction>
     <Interaction elementId="ff21d">
       <Waypoints>
-        <Point elementId="b7deb" arrowHead="mim-gap" x="330.94752795917856" y="453.8745387453875" elementRef="f0bde" relX="0.0" relY="0.0" />
-        <Point elementId="a2c0c" arrowHead="mim-gap" x="422.6306250671367" y="453.6758523288814" elementRef="fa2c4" relX="0.0" relY="0.0" />
+        <Point elementId="a7d56" arrowHead="mim-gap" x="330.94752795917856" y="453.8745387453875" elementRef="f0bde" relX="0.0" relY="0.0" />
+        <Point elementId="f2378" arrowHead="mim-gap" x="422.6306250671367" y="453.6758523288814" elementRef="fa2c4" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="33cc00" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="33278" />
     </Interaction>
     <Interaction elementId="cc7d7">
       <Waypoints>
-        <Point elementId="ecad9" arrowHead="Undirected" x="524.6478593336846" y="24.22757300161927" elementRef="f9fb4" relX="0.0" relY="0.0" />
-        <Point elementId="a389c" arrowHead="Undirected" x="586.1321271965027" y="23.4893179680624" elementRef="f62dc" relX="0.0" relY="0.0" />
+        <Point elementId="c33e8" arrowHead="Undirected" x="524.6478593336846" y="24.22757300161927" elementRef="f9fb4" relX="0.0" relY="0.0" />
+        <Point elementId="e215f" arrowHead="Undirected" x="586.1321271965027" y="23.4893179680624" elementRef="f62dc" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="33295" />
     </Interaction>
     <Interaction elementId="b7d31">
       <Waypoints>
-        <Point elementId="ea610" arrowHead="Directed" x="524.6478593336846" y="37.85842146124075" elementRef="de29e" relX="0.0" relY="0.0" />
-        <Point elementId="ab158" arrowHead="Directed" x="586.1321271965027" y="37.15115491057393" elementRef="aa062" relX="0.0" relY="0.0" />
+        <Point elementId="f633a" arrowHead="Directed" x="524.6478593336846" y="37.85842146124075" elementRef="de29e" relX="0.0" relY="0.0" />
+        <Point elementId="fafa3" arrowHead="Directed" x="586.1321271965027" y="37.15115491057393" elementRef="aa062" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="33298" />
     </Interaction>
     <Interaction elementId="ce50a">
       <Waypoints>
-        <Point elementId="eb280" arrowHead="Inhibition" x="524.6478593336846" y="53.89471376667791" elementRef="b034e" relX="0.0" relY="0.0" />
-        <Point elementId="e4b7c" arrowHead="Inhibition" x="586.1321271965027" y="53.223904254705246" elementRef="a40f9" relX="0.0" relY="0.0" />
+        <Point elementId="fd68c" arrowHead="Inhibition" x="524.6478593336846" y="53.89471376667791" elementRef="b034e" relX="0.0" relY="0.0" />
+        <Point elementId="e93d6" arrowHead="Inhibition" x="586.1321271965027" y="53.223904254705246" elementRef="a40f9" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="33299" />
     </Interaction>
     <Interaction elementId="eec82">
       <Waypoints>
-        <Point elementId="f4cc4" arrowHead="Stimulation" x="524.6478593336846" y="70.73282068738678" elementRef="c9af2" relX="0.0" relY="0.0" />
-        <Point elementId="d12bd" arrowHead="Stimulation" x="586.1321271965027" y="70.10029106604298" elementRef="d670e" relX="0.0" relY="0.0" />
+        <Point elementId="d5b11" arrowHead="Stimulation" x="524.6478593336846" y="70.73282068738678" elementRef="c9af2" relX="0.0" relY="0.0" />
+        <Point elementId="a20b1" arrowHead="Stimulation" x="586.1321271965027" y="70.10029106604298" elementRef="d670e" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="33300" />
     </Interaction>
     <Interaction elementId="baaad">
       <Waypoints>
-        <Point elementId="b5e1e" arrowHead="Binding" x="524.6478593336846" y="87.57092760809576" elementRef="abdba" relX="0.0" relY="0.0" />
-        <Point elementId="f8435" arrowHead="Binding" x="586.1321271965027" y="86.97667787738085" elementRef="a158f" relX="0.0" relY="0.0" />
+        <Point elementId="bde65" arrowHead="Binding" x="524.6478593336846" y="87.57092760809576" elementRef="abdba" relX="0.0" relY="0.0" />
+        <Point elementId="d5cad" arrowHead="Binding" x="586.1321271965027" y="86.97667787738085" elementRef="a158f" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="33301" />
     </Interaction>
     <Interaction elementId="e67ef">
       <Waypoints>
-        <Point elementId="a2d6f" arrowHead="Conversion" x="524.6478593336846" y="104.40903452880463" elementRef="e5a2b" relX="0.0" relY="0.0" />
-        <Point elementId="b4e54" arrowHead="Conversion" x="586.1321271965027" y="103.8530646887186" elementRef="ff746" relX="0.0" relY="0.0" />
+        <Point elementId="e4e21" arrowHead="Conversion" x="524.6478593336846" y="104.40903452880463" elementRef="e5a2b" relX="0.0" relY="0.0" />
+        <Point elementId="ec0bd" arrowHead="Conversion" x="586.1321271965027" y="103.8530646887186" elementRef="ff746" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="33302" />
     </Interaction>
     <Interaction elementId="b49f6">
       <Waypoints>
-        <Point elementId="db806" arrowHead="Stimulation" x="524.6478593336846" y="120.1227032020613" elementRef="d63d8" relX="0.0" relY="0.0" />
-        <Point elementId="c85fa" arrowHead="Stimulation" x="586.1321271965027" y="119.15879200053968" elementRef="b6a4e" relX="0.0" relY="0.0" />
+        <Point elementId="bf9c3" arrowHead="Stimulation" x="524.6478593336846" y="120.1227032020613" elementRef="d63d8" relX="0.0" relY="0.0" />
+        <Point elementId="ca597" arrowHead="Stimulation" x="586.1321271965027" y="119.15879200053968" elementRef="b6a4e" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="33303" />
     </Interaction>
     <Interaction elementId="cbba9">
       <Waypoints>
-        <Point elementId="f1833" arrowHead="Conversion" x="524.6478593336846" y="138.67949263390776" elementRef="d33ec" relX="0.0" relY="0.0" />
-        <Point elementId="c221f" arrowHead="Conversion" x="586.1321271965027" y="137.75776858995775" elementRef="e4de2" relX="0.0" relY="0.0" />
+        <Point elementId="ee29b" arrowHead="Conversion" x="524.6478593336846" y="138.67949263390776" elementRef="d33ec" relX="0.0" relY="0.0" />
+        <Point elementId="f6f51" arrowHead="Conversion" x="586.1321271965027" y="137.75776858995775" elementRef="e4de2" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="33304" />
     </Interaction>
     <Interaction elementId="bd5b2">
       <Waypoints>
-        <Point elementId="a961d" arrowHead="Catalysis" x="524.6478593336846" y="249.8500661512167" elementRef="aea86" relX="0.0" relY="0.0" />
-        <Point elementId="f7621" arrowHead="Catalysis" x="586.1321271965027" y="248.37077621038827" elementRef="a71c1" relX="0.0" relY="0.0" />
+        <Point elementId="e3986" arrowHead="Catalysis" x="524.6478593336846" y="249.8500661512167" elementRef="aea86" relX="0.0" relY="0.0" />
+        <Point elementId="f3b3b" arrowHead="Catalysis" x="586.1321271965027" y="248.37077621038827" elementRef="a71c1" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="33305" />
     </Interaction>
     <Interaction elementId="ae2af">
       <Waypoints>
-        <Point elementId="cfbb0" arrowHead="Inhibition" x="524.6478593336846" y="166.95650510148317" elementRef="e3b70" relX="0.0" relY="0.0" />
-        <Point elementId="ff9b5" arrowHead="Inhibition" x="586.1321271965027" y="168.75606290565463" elementRef="aa9ed" relX="0.0" relY="0.0" />
+        <Point elementId="e2c20" arrowHead="Inhibition" x="524.6478593336846" y="166.95650510148317" elementRef="e3b70" relX="0.0" relY="0.0" />
+        <Point elementId="dae40" arrowHead="Inhibition" x="586.1321271965027" y="168.75606290565463" elementRef="aa9ed" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="33306" />
     </Interaction>
     <Interaction elementId="ed589">
       <Waypoints>
-        <Point elementId="c19f3" arrowHead="mim-cleavage" x="524.6478593336846" y="193.6370483997373" elementRef="c3a09" relX="0.0" relY="0.0" />
-        <Point elementId="ef81e" arrowHead="mim-cleavage" x="586.1321271965027" y="196.59562828139408" elementRef="dd333" relX="0.0" relY="0.0" />
+        <Point elementId="f666b" arrowHead="mim-cleavage" x="524.6478593336846" y="193.6370483997373" elementRef="c3a09" relX="0.0" relY="0.0" />
+        <Point elementId="e5924" arrowHead="mim-cleavage" x="586.1321271965027" y="196.59562828139408" elementRef="dd333" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="33307" />
     </Interaction>
     <Interaction elementId="be0b9">
       <Waypoints>
-        <Point elementId="c74af" arrowHead="Binding" x="524.6478593336846" y="223.2228472163054" elementRef="e72c7" relX="0.0" relY="0.0" />
-        <Point elementId="ccd6a" arrowHead="Binding" x="586.1321271965027" y="226.1814270979622" elementRef="b859f" relX="0.0" relY="0.0" />
+        <Point elementId="e4a25" arrowHead="Binding" x="524.6478593336846" y="223.2228472163054" elementRef="e72c7" relX="0.0" relY="0.0" />
+        <Point elementId="a312d" arrowHead="Binding" x="586.1321271965027" y="226.1814270979622" elementRef="b859f" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="33308" />
     </Interaction>
     <Interaction elementId="b37cf">
       <Waypoints>
-        <Point elementId="e4dc4" arrowHead="mim-branching-left" x="524.6478593336846" y="267.6015454411575" elementRef="b1721" relX="0.0" relY="0.0" />
-        <Point elementId="ef5b4" arrowHead="mim-branching-left" x="586.1321271965027" y="272.0394152636428" elementRef="c1510" relX="0.0" relY="0.0" />
+        <Point elementId="b7ac0" arrowHead="mim-branching-left" x="524.6478593336846" y="267.6015454411575" elementRef="b1721" relX="0.0" relY="0.0" />
+        <Point elementId="dd9cd" arrowHead="mim-branching-left" x="586.1321271965027" y="272.0394152636428" elementRef="c1510" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="33309" />
     </Interaction>
     <Interaction elementId="e71bb">
       <Waypoints>
-        <Point elementId="fc80e" arrowHead="mim-branching-right" x="524.6478593336846" y="297.1873442577256" elementRef="e0a02" relX="0.0" relY="0.0" />
-        <Point elementId="e7571" arrowHead="mim-branching-right" x="586.1321271965027" y="300.1459241393824" elementRef="eeb78" relX="0.0" relY="0.0" />
+        <Point elementId="aba70" arrowHead="mim-branching-right" x="524.6478593336846" y="297.1873442577256" elementRef="e0a02" relX="0.0" relY="0.0" />
+        <Point elementId="eac7a" arrowHead="mim-branching-right" x="586.1321271965027" y="300.1459241393824" elementRef="eeb78" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="33310" />
     </Interaction>
     <Interaction elementId="cd95e">
       <Waypoints>
-        <Point elementId="d9e7e" arrowHead="TranscriptionTranslation" x="524.6478593336846" y="331.2110128967789" elementRef="c86e0" relX="0.0" relY="0.0" />
-        <Point elementId="d4f10" arrowHead="TranscriptionTranslation" x="586.1321271965027" y="329.7317229559505" elementRef="e5601" relX="0.0" relY="0.0" />
+        <Point elementId="cb404" arrowHead="TranscriptionTranslation" x="524.6478593336846" y="331.2110128967789" elementRef="c86e0" relX="0.0" relY="0.0" />
+        <Point elementId="ce262" arrowHead="TranscriptionTranslation" x="586.1321271965027" y="329.7317229559505" elementRef="e5601" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="33311" />
     </Interaction>
     <Interaction elementId="a1e0f">
       <Waypoints>
-        <Point elementId="da585" arrowHead="mim-gap" x="524.6478593336846" y="348.96249218671977" elementRef="ffeee" relX="0.0" relY="0.0" />
-        <Point elementId="a1b01" arrowHead="mim-gap" x="586.1321271965027" y="348.96249218671977" elementRef="e4082" relX="0.0" relY="0.0" />
+        <Point elementId="bf639" arrowHead="mim-gap" x="524.6478593336846" y="348.96249218671977" elementRef="ffeee" relX="0.0" relY="0.0" />
+        <Point elementId="ffb46" arrowHead="mim-gap" x="586.1321271965027" y="348.96249218671977" elementRef="e4082" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="33312" />
     </Interaction>
@@ -612,8 +611,8 @@
   <GraphicalLines>
     <GraphicalLine elementId="idcbb4bf31">
       <Waypoints>
-        <Point elementId="faaf5" arrowHead="Undirected" x="8.718701581614479" y="39.65306686067555" />
-        <Point elementId="d48ee" arrowHead="Undirected" x="8.718701581614479" y="364.38798604577556" />
+        <Point elementId="da5dd" arrowHead="Undirected" x="8.718701581614479" y="39.65306686067555" />
+        <Point elementId="f18ff" arrowHead="Undirected" x="8.718701581614479" y="364.38798604577556" />
         <Anchor elementId="ba6f0" position="0.19506172839506203" shapeType="None" />
         <Anchor elementId="fbbf4" position="0.041975308641975254" shapeType="None" />
         <Anchor elementId="bca16" position="0.35244722039593873" shapeType="None" />
@@ -635,8 +634,8 @@
     </GraphicalLine>
     <GraphicalLine elementId="adff8">
       <Waypoints>
-        <Point elementId="d0edb" arrowHead="Undirected" x="63.79596830950422" y="38.914811827118626" />
-        <Point elementId="c4cb6" arrowHead="Undirected" x="63.79596830950422" y="364.38798604577556" />
+        <Point elementId="ffa06" arrowHead="Undirected" x="63.79596830950422" y="38.914811827118626" />
+        <Point elementId="ebc27" arrowHead="Undirected" x="63.79596830950422" y="364.38798604577556" />
         <Anchor elementId="dd33f" position="0.19506172839506203" shapeType="None" />
         <Anchor elementId="c07f6" position="0.041975308641975254" shapeType="None" />
         <Anchor elementId="bde62" position="0.35108408210972314" shapeType="None" />
@@ -658,8 +657,8 @@
     </GraphicalLine>
     <GraphicalLine elementId="e4dce">
       <Waypoints>
-        <Point elementId="b245c" arrowHead="Undirected" x="173.68036114417225" y="91.58973606101517" />
-        <Point elementId="cbb0f" arrowHead="Undirected" x="173.68036114417225" y="416.3246552461155" />
+        <Point elementId="f3f5b" arrowHead="Undirected" x="173.68036114417225" y="91.58973606101517" />
+        <Point elementId="e6786" arrowHead="Undirected" x="173.68036114417225" y="416.3246552461155" />
         <Anchor elementId="dedac" position="0.19506172839506203" shapeType="None" />
         <Anchor elementId="e4d26" position="0.041975308641975254" shapeType="None" />
         <Anchor elementId="a13d7" position="0.35244722039593873" shapeType="None" />
@@ -681,8 +680,8 @@
     </GraphicalLine>
     <GraphicalLine elementId="e7fc7">
       <Waypoints>
-        <Point elementId="a8cb8" arrowHead="Undirected" x="216.48671685130387" y="13.886943360398647" />
-        <Point elementId="a23c9" arrowHead="Undirected" x="216.48671685130387" y="339.3601175790567" />
+        <Point elementId="b44c8" arrowHead="Undirected" x="216.48671685130387" y="13.886943360398647" />
+        <Point elementId="e9679" arrowHead="Undirected" x="216.48671685130387" y="339.3601175790567" />
         <Anchor elementId="c4ca5" position="0.19506172839506203" shapeType="None" />
         <Anchor elementId="b42eb" position="0.041975308641975254" shapeType="None" />
         <Anchor elementId="b074a" position="0.35108408210972314" shapeType="None" />
@@ -704,8 +703,8 @@
     </GraphicalLine>
     <GraphicalLine elementId="dec6d">
       <Waypoints>
-        <Point elementId="d7ae2" arrowHead="Undirected" x="330.94752795917856" y="9.159034138218146" />
-        <Point elementId="e1ccb" arrowHead="Undirected" x="330.94752795917856" y="453.8745387453875" />
+        <Point elementId="e4a46" arrowHead="Undirected" x="330.94752795917856" y="9.159034138218146" />
+        <Point elementId="a326e" arrowHead="Undirected" x="330.94752795917856" y="453.8745387453875" />
         <Anchor elementId="ca4c8" position="0.22130370496127333" shapeType="None" />
         <Anchor elementId="ec06c" position="0.031165507776607572" shapeType="None" />
         <Anchor elementId="b98ee" position="0.38957498870158025" shapeType="None" />
@@ -727,8 +726,8 @@
     </GraphicalLine>
     <GraphicalLine elementId="f34aa">
       <Waypoints>
-        <Point elementId="b8e47" arrowHead="Undirected" x="422.6306250671367" y="9.57535387177353" />
-        <Point elementId="dfea7" arrowHead="Undirected" x="422.6306250671367" y="453.6758523288814" />
+        <Point elementId="cc7c1" arrowHead="Undirected" x="422.6306250671367" y="9.57535387177353" />
+        <Point elementId="c277b" arrowHead="Undirected" x="422.6306250671367" y="453.6758523288814" />
         <Anchor elementId="fe289" position="0.2258551777833926" shapeType="None" />
         <Anchor elementId="d33d3" position="0.0298726130411324" shapeType="None" />
         <Anchor elementId="be016" position="0.40084589661391834" shapeType="None" />
@@ -750,8 +749,8 @@
     </GraphicalLine>
     <GraphicalLine elementId="f563b">
       <Waypoints>
-        <Point elementId="c412d" arrowHead="Undirected" x="524.6478593336846" y="24.22757300161927" />
-        <Point elementId="a5140" arrowHead="Undirected" x="524.6478593336846" y="348.96249218671977" />
+        <Point elementId="ad6b6" arrowHead="Undirected" x="524.6478593336846" y="24.22757300161927" />
+        <Point elementId="d7e62" arrowHead="Undirected" x="524.6478593336846" y="348.96249218671977" />
         <Anchor elementId="abdba" position="0.19506172839506203" shapeType="None" />
         <Anchor elementId="de29e" position="0.041975308641975254" shapeType="None" />
         <Anchor elementId="d33ec" position="0.35244722039593873" shapeType="None" />
@@ -773,8 +772,8 @@
     </GraphicalLine>
     <GraphicalLine elementId="c2cf1">
       <Waypoints>
-        <Point elementId="c97f0" arrowHead="Undirected" x="586.1321271965027" y="23.4893179680624" />
-        <Point elementId="b8122" arrowHead="Undirected" x="586.1321271965027" y="348.96249218671977" />
+        <Point elementId="bfda6" arrowHead="Undirected" x="586.1321271965027" y="23.4893179680624" />
+        <Point elementId="d368e" arrowHead="Undirected" x="586.1321271965027" y="348.96249218671977" />
         <Anchor elementId="a158f" position="0.19506172839506203" shapeType="None" />
         <Anchor elementId="aa062" position="0.041975308641975254" shapeType="None" />
         <Anchor elementId="e4de2" position="0.35108408210972314" shapeType="None" />
@@ -1006,7 +1005,7 @@
   </Labels>
   <Shapes>
     <Shape elementId="a050d">
-      <Graphics centerX="554.1601255886969" centerY="187.59811616954474" width="91.05180533751957" height="340.65934065934067" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ff0000" shapeType="Rectangle" zOrder="-2" rotation="0.0" />
+      <Graphics centerX="554.1601255886969" centerY="187.59811616954474" width="91.05180533751957" height="340.65934065934067" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ff0000" shapeType="Rectangle" zOrder="-2" />
     </Shape>
   </Shapes>
 </Pathway>

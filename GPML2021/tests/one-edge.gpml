@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20140130">
   <Graphics boardWidth="197.0" boardHeight="237.0" />
-  <InfoBox centerX="0.0" centerY="0.0" />
   <Interactions>
-    <Interaction elementId="f7701">
+    <Interaction elementId="a1d18">
       <Waypoints>
-        <Point elementId="b9fc2" arrowHead="Undirected" x="96.0" y="127.0" />
-        <Point elementId="a64e2" arrowHead="Undirected" x="167.0" y="207.0" />
+        <Point elementId="de270" arrowHead="Undirected" x="96.0" y="127.0" />
+        <Point elementId="a1d9f" arrowHead="Undirected" x="167.0" y="207.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>

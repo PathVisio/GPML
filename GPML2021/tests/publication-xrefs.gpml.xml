@@ -2,7 +2,6 @@
 <Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20130815">
   <CitationRef elementRef="ee4" />
   <Graphics boardWidth="412.7991886409736" boardHeight="378.76221498371376" />
-  <InfoBox centerX="0.0" centerY="0.0" />
   <DataNodes>
     <DataNode elementId="e114e" textLabel="Hmgcr" type="GeneProduct">
       <Xref identifier="15357" dataSource="ncbigene" />
@@ -24,16 +23,16 @@
   <Interactions>
     <Interaction elementId="id9ee2ea1d">
       <Waypoints>
-        <Point elementId="f13de" arrowHead="Undirected" x="148.2084690553746" y="194.03908794788273" elementRef="e114e" relX="0.0" relY="1.0" />
-        <Point elementId="f4a1a" arrowHead="Directed" x="195.4397394136808" y="328.76221498371376" elementRef="c9fbc" relX="0.0" relY="-1.0" />
+        <Point elementId="cbd3a" arrowHead="Undirected" x="148.2084690553746" y="194.03908794788273" elementRef="e114e" relX="0.0" relY="1.0" />
+        <Point elementId="c498f" arrowHead="Directed" x="195.4397394136808" y="328.76221498371376" elementRef="c9fbc" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
       <CitationRef elementRef="b7a" />
     </Interaction>
     <Interaction elementId="id8ee9f3be">
       <Waypoints>
-        <Point elementId="edc5c" arrowHead="Undirected" x="235.4397394136808" y="338.76221498371376" elementRef="c9fbc" relX="1.0" relY="0.0" />
-        <Point elementId="adfaf" arrowHead="Directed" x="311.10708469055373" y="234.5276872964169" />
+        <Point elementId="d4170" arrowHead="Undirected" x="235.4397394136808" y="338.76221498371376" elementRef="c9fbc" relX="1.0" relY="0.0" />
+        <Point elementId="e98cf" arrowHead="Directed" x="311.10708469055373" y="234.5276872964169" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
       <CitationRef elementRef="b8e" />
@@ -41,15 +40,15 @@
     </Interaction>
     <Interaction elementId="id788e2f55">
       <Waypoints>
-        <Point elementId="ea572" arrowHead="Undirected" x="285.01628664495115" y="262.214983713355" />
-        <Point elementId="f5bcc" arrowHead="Directed" x="188.2084690553746" y="184.03908794788273" elementRef="e114e" relX="1.0" relY="0.0" />
+        <Point elementId="ef86e" arrowHead="Undirected" x="285.01628664495115" y="262.214983713355" />
+        <Point elementId="ef4e0" arrowHead="Directed" x="188.2084690553746" y="184.03908794788273" elementRef="e114e" relX="1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
   </Interactions>
   <Shapes>
     <Shape elementId="ed0ee">
-      <Graphics centerX="331.18322475570034" centerY="207.40472312703582" width="80.3045602605863" height="54.2459283387622" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Mitochondria" zOrder="16384" rotation="0.0" />
+      <Graphics centerX="331.18322475570034" centerY="207.40472312703582" width="80.3045602605863" height="54.2459283387622" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Mitochondria" zOrder="16384" />
       <CitationRef elementRef="b8e" />
       <CitationRef elementRef="c86" />
       <CitationRef elementRef="d54" />

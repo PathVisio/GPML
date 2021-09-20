@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20130813">
   <Graphics boardWidth="1442.3016983016983" boardHeight="185.993665670104" />
-  <InfoBox centerX="0.0" centerY="0.0" />
   <Labels>
     <Label elementId="a14a0" textLabel="Label&#xA;font:  Times New Roman">
       <Graphics centerX="135.38705458426008" centerY="112.58468126724739" width="176.21451268746466" height="86.8179688057132" textColor="000000" fontName="Times New Roman" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="15" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="99ffff" shapeType="Rectangle" zOrder="32832" />

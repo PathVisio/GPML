@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20130715">
   <Graphics boardWidth="233.44556677890117" boardHeight="198.66442199775517" />
-  <InfoBox centerX="0.0" centerY="0.0" />
   <DataNodes>
     <DataNode elementId="faa53" textLabel="GeneProduct" type="GeneProduct">
       <Graphics centerX="163.44556677890117" centerY="158.66442199775517" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
@@ -10,19 +9,19 @@
   <Interactions>
     <Interaction elementId="idaf905386">
       <Waypoints>
-        <Point elementId="ac0a1" arrowHead="Undirected" x="30.452674897119397" y="66.6666666666666" />
-        <Point elementId="daa74" arrowHead="Undirected" x="10.452674897119397" y="77.42424242424238" />
-        <Point elementId="ab99a" arrowHead="Undirected" x="95.22633744855968" y="88.18181818181817" />
-        <Point elementId="f336e" arrowHead="Undirected" x="179.99999999999997" y="77.42424242424238" />
-        <Point elementId="cef79" arrowHead="Undirected" x="163.78600823045275" y="66.66666666666659" />
+        <Point elementId="ca46c" arrowHead="Undirected" x="30.452674897119397" y="66.6666666666666" />
+        <Point elementId="e3490" arrowHead="Undirected" x="10.452674897119397" y="77.42424242424238" />
+        <Point elementId="db0dd" arrowHead="Undirected" x="95.22633744855968" y="88.18181818181817" />
+        <Point elementId="b6504" arrowHead="Undirected" x="179.99999999999997" y="77.42424242424238" />
+        <Point elementId="a0e67" arrowHead="Undirected" x="163.78600823045275" y="66.66666666666659" />
         <Anchor elementId="e0874" position="0.5617283950617287" shapeType="None" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Curved" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id28382a1c">
       <Waypoints>
-        <Point elementId="b2450" arrowHead="Undirected" x="163.44556677890117" y="148.66442199775517" elementRef="faa53" relX="0.0" relY="-1.0" />
-        <Point elementId="fa318" arrowHead="Catalysis" x="107.31199399397426" y="88.03521680709882" elementRef="e0874" relX="0.0" relY="0.0" />
+        <Point elementId="ea12f" arrowHead="Undirected" x="163.44556677890117" y="148.66442199775517" elementRef="faa53" relX="0.0" relY="-1.0" />
+        <Point elementId="a55c2" arrowHead="Catalysis" x="107.31199399397426" y="88.03521680709882" elementRef="e0874" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Curved" zOrder="12288" />
     </Interaction>

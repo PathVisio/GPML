@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20130813">
   <Graphics boardWidth="1047.7865523249097" boardHeight="825.09187756604" />
-  <InfoBox centerX="0.0" centerY="0.0" />
   <DataNodes>
     <DataNode elementId="ad716" textLabel="GeneProduct" type="GeneProduct">
       <Graphics centerX="244.46501540477257" centerY="120.62567176545976" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32948" />
@@ -13,11 +12,11 @@
   <Interactions>
     <Interaction elementId="f8809">
       <Waypoints>
-        <Point elementId="ee0f6" arrowHead="Inhibition" x="58.771795096245356" y="100.80986117035668" elementRef="ea3a3" relX="0.0" relY="-1.0" />
-        <Point elementId="aff1a" arrowHead="Undirected" x="119.28612545485854" y="68.99683298432036" />
-        <Point elementId="a4d61" arrowHead="Undirected" x="179.8004558134717" y="117.31898063532702" />
-        <Point elementId="ac3ad" arrowHead="Undirected" x="212.1327356091221" y="165.64112828633367" />
-        <Point elementId="ab550" arrowHead="Directed" x="244.46501540477254" y="130.62567176545974" elementRef="ad716" relX="0.0" relY="1.0" />
+        <Point elementId="ff3fa" arrowHead="Inhibition" x="58.771795096245356" y="100.80986117035668" elementRef="ea3a3" relX="0.0" relY="-1.0" />
+        <Point elementId="f530d" arrowHead="Undirected" x="119.28612545485854" y="68.99683298432036" />
+        <Point elementId="eada5" arrowHead="Undirected" x="179.8004558134717" y="117.31898063532702" />
+        <Point elementId="bb781" arrowHead="Undirected" x="212.1327356091221" y="165.64112828633367" />
+        <Point elementId="f7bc0" arrowHead="Directed" x="244.46501540477254" y="130.62567176545974" elementRef="ad716" relX="0.0" relY="1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Curved" zOrder="32947" />
     </Interaction>

@@ -2,22 +2,21 @@
 <Pathway xmlns="http://pathvisio.org/GPML/2021" title="Male mating" organism="Caenorhabditis elegans">
   <Description>Caenorhabditis elegans males exhibit sterotypic and invariant mating behavior starting the moment the animal senses a hermaphrodite and ending with insemination.  This complex behavior has been broken down into six steps or sub behaviors: male response to hermaphrodite contact, backwards movement along her body, sharply turning in a ventral coil upon reaching the head or tail, continued backing until his tail contacts the vulva (vulval location), spicule insertion, and ejaculation into the hermaphrodite uterus. Each of these sub behaviors have been molecularly dissected and it has been found that two of these sub behaviors, male response to hermaphrodite contact and vulval location involve similar molecules.  In particular these behaviors involve cell autonomous signaling through LOV-1 and PKD-2, which are homologs of human polycystin kidney disease (PKD) associated genes PC-1 and PC-2 respectively. Studies in C. elegans have shown that these genes likely have a sensory function rather than structural or development role in the cilia of male sensory neurons. The identification and characterization of LOV-1 and PKD-2 in C. elegans has lead to insights and new avenues of inquiry in the study of human PKD polycystin pathways.</Description>
   <Comment source="WikiPathways-category">Physiological Process</Comment>
-  <AnnotationRef elementRef="d1fb3" />
-  <AnnotationRef elementRef="a5e3e" />
-  <AnnotationRef elementRef="f042a" />
-  <AnnotationRef elementRef="e1b11" />
+  <AnnotationRef elementRef="e3081" />
+  <AnnotationRef elementRef="c9ca6" />
+  <AnnotationRef elementRef="e94f1" />
+  <AnnotationRef elementRef="f63b0" />
   <CitationRef elementRef="b60" />
   <CitationRef elementRef="d1b" />
   <CitationRef elementRef="eed" />
   <CitationRef elementRef="f83" />
   <Graphics boardWidth="2371.0" boardHeight="997.0" />
-  <InfoBox centerX="0.0" centerY="0.0" />
   <DataNodes>
     <DataNode elementId="d2970" textLabel="PKD-2/PC-2" type="GeneProduct">
       <Xref identifier="Y73F8A.1" dataSource="wormbase" />
       <States>
         <State elementId="cdf74" textLabel="P" type="Undefined">
-          <Graphics relX="1.0" relY="1.0" width="15.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffcc00" shapeType="Oval" />
+          <Graphics relX="1.0" relY="1.0" width="15.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffcc00" shapeType="Oval" zOrder="16399" />
         </State>
       </States>
       <Graphics centerX="620.6986247153073" centerY="101.12639570656778" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="66ffcc" shapeType="Oval" zOrder="16398" />
@@ -284,7 +283,7 @@
       <Xref identifier="Y73F8A.1" dataSource="wormbase" />
       <States>
         <State elementId="ee38b" textLabel="P" type="Undefined">
-          <Graphics relX="1.0" relY="1.0" width="15.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffcc00" shapeType="Oval" />
+          <Graphics relX="1.0" relY="1.0" width="15.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffcc00" shapeType="Oval" zOrder="32892" />
         </State>
       </States>
       <Graphics centerX="803.7417280934579" centerY="79.64685740646286" width="80.0" height="20.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="66ffcc" shapeType="Oval" zOrder="32891" />
@@ -315,50 +314,50 @@
   <Interactions>
     <Interaction elementId="c8c0d">
       <Waypoints>
-        <Point elementId="a59ff" arrowHead="Undirected" x="710.0" y="308.0" />
-        <Point elementId="ac4b3" arrowHead="Undirected" x="1676.0" y="288.0" />
+        <Point elementId="de623" arrowHead="Undirected" x="710.0" y="308.0" />
+        <Point elementId="f6b0a" arrowHead="Undirected" x="1676.0" y="288.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="-9" />
     </Interaction>
     <Interaction elementId="idee60a74f">
       <Waypoints>
-        <Point elementId="dd121" arrowHead="Undirected" x="51.39172636180672" y="452.71317829457365" elementRef="d9f7b" relX="-1.0" relY="0.0" />
-        <Point elementId="e5188" arrowHead="Directed" x="7.751937984496124" y="452.71317829457365" />
+        <Point elementId="fde90" arrowHead="Undirected" x="51.39172636180672" y="452.71317829457365" elementRef="d9f7b" relX="-1.0" relY="0.0" />
+        <Point elementId="e0f3a" arrowHead="Directed" x="7.751937984496124" y="452.71317829457365" />
       </Waypoints>
       <Graphics lineColor="ffcc00" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="idd094022b">
       <Waypoints>
-        <Point elementId="edf33" arrowHead="Undirected" x="50.0" y="505.0" />
-        <Point elementId="aa720" arrowHead="mim-cleavage" x="22.0" y="505.0" />
+        <Point elementId="a0e75" arrowHead="Undirected" x="50.0" y="505.0" />
+        <Point elementId="c9267" arrowHead="mim-cleavage" x="22.0" y="505.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id38f32654">
       <Waypoints>
-        <Point elementId="c9b46" arrowHead="Undirected" x="1731.6982124079914" y="342.2053101997899" elementRef="f7b0f" relX="-1.0" relY="0.0" />
-        <Point elementId="bee01" arrowHead="Directed" x="1308.9426919032594" y="345.5565194532077" elementRef="df912" relX="1.0" relY="0.0" />
+        <Point elementId="d019a" arrowHead="Undirected" x="1731.6982124079914" y="342.2053101997899" elementRef="f7b0f" relX="-1.0" relY="0.0" />
+        <Point elementId="cb2eb" arrowHead="Directed" x="1308.9426919032594" y="345.5565194532077" elementRef="df912" relX="1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="0066cc" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="12296" />
     </Interaction>
     <Interaction elementId="idd26df72c">
       <Waypoints>
-        <Point elementId="e9288" arrowHead="Undirected" x="1246.3512092534165" y="345.5565194532077" elementRef="df912" relX="-1.0" relY="0.0" />
-        <Point elementId="c142d" arrowHead="Directed" x="1105.0" y="345.0" />
+        <Point elementId="d190d" arrowHead="Undirected" x="1246.3512092534165" y="345.5565194532077" elementRef="df912" relX="-1.0" relY="0.0" />
+        <Point elementId="c3fc9" arrowHead="Directed" x="1105.0" y="345.0" />
       </Waypoints>
       <Graphics lineColor="0066cc" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="12298" />
     </Interaction>
     <Interaction elementId="id10e73b6c">
       <Waypoints>
-        <Point elementId="b8b85" arrowHead="Undirected" x="1883.0621975418399" y="342.43092389953813" elementRef="f2d1a" relX="-1.0" relY="0.5" />
-        <Point elementId="fbee8" arrowHead="Directed" x="1794.2896950578343" y="342.2053101997899" elementRef="f7b0f" relX="1.0" relY="0.0" />
+        <Point elementId="a0136" arrowHead="Undirected" x="1883.0621975418399" y="342.43092389953813" elementRef="f2d1a" relX="-1.0" relY="0.5" />
+        <Point elementId="d1554" arrowHead="Directed" x="1794.2896950578343" y="342.2053101997899" elementRef="f7b0f" relX="1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="0066cc" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="12300" />
     </Interaction>
     <Interaction elementId="idf453b44b">
       <Waypoints>
-        <Point elementId="ddcf5" arrowHead="mim-cleavage" x="1025.0577124868837" y="75.55089192025184" elementRef="e5093" relX="-1.0" relY="0.0" />
-        <Point elementId="a64b1" arrowHead="Undirected" x="966.4048109089501" y="50.17634587563619" elementRef="bb2d7" relX="1.0" relY="0.0" />
+        <Point elementId="f0e7f" arrowHead="mim-cleavage" x="1025.0577124868837" y="75.55089192025184" elementRef="e5093" relX="-1.0" relY="0.0" />
+        <Point elementId="f7705" arrowHead="Undirected" x="966.4048109089501" y="50.17634587563619" elementRef="bb2d7" relX="1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12306" />
       <Comment>PKD-2 degradation does not require K48 polyubiquitination and is likely due to STAM-1-Hrs-mediated degradation.</Comment>
@@ -366,23 +365,23 @@
     </Interaction>
     <Interaction elementId="ida414c24f">
       <Waypoints>
-        <Point elementId="c253e" arrowHead="Undirected" x="707.0" y="310.0" />
-        <Point elementId="b1cbf" arrowHead="Undirected" x="1875.0" y="310.0" />
+        <Point elementId="d4a2a" arrowHead="Undirected" x="707.0" y="310.0" />
+        <Point elementId="babe6" arrowHead="Undirected" x="1875.0" y="310.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12308" />
     </Interaction>
     <Interaction elementId="iddbb52592">
       <Waypoints>
-        <Point elementId="cb676" arrowHead="Undirected" x="932.5495316853362" y="219.41758866176946" elementRef="a092a" relX="1.0" relY="0.0" />
-        <Point elementId="c480f" arrowHead="Catalysis" x="1001.3583241455351" y="246.24200661521496" elementRef="b085a" relX="-1.0" relY="0.0" />
+        <Point elementId="f6908" arrowHead="Undirected" x="932.5495316853362" y="219.41758866176946" elementRef="a092a" relX="1.0" relY="0.0" />
+        <Point elementId="f37c8" arrowHead="Catalysis" x="1001.3583241455351" y="246.24200661521496" elementRef="b085a" relX="-1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12312" />
       <CitationRef elementRef="da8" />
     </Interaction>
     <Interaction elementId="idd8f6598">
       <Waypoints>
-        <Point elementId="c37e7" arrowHead="Undirected" x="61.64388092612944" y="223.31050165380384" elementRef="aed88" relX="-1.0" relY="0.0" />
-        <Point elementId="cc1de" arrowHead="Directed" x="20.0" y="223.0" />
+        <Point elementId="fb776" arrowHead="Undirected" x="61.64388092612944" y="223.31050165380384" elementRef="aed88" relX="-1.0" relY="0.0" />
+        <Point elementId="b0cfd" arrowHead="Directed" x="20.0" y="223.0" />
       </Waypoints>
       <Graphics lineColor="0066ff" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="12314" />
       <Comment>IFT Complex A poly peptides DAF-10 and CHE-11 move at the same rate as IFT Complex B poly peptides OSM-5, OSM-1, and OSM-6. | OSM-5 undergoes anterograde and retrograde transport.</Comment>
@@ -390,8 +389,8 @@
     </Interaction>
     <Interaction elementId="idb1599886">
       <Waypoints>
-        <Point elementId="efb7e" arrowHead="Undirected" x="852.5495316853362" y="219.41758866176946" elementRef="a092a" relX="-1.0" relY="0.0" />
-        <Point elementId="be9d5" arrowHead="Directed" x="700.0496141124593" y="156.2557883131202" elementRef="e3618" relX="1.0" relY="0.0" />
+        <Point elementId="a600b" arrowHead="Undirected" x="852.5495316853362" y="219.41758866176946" elementRef="a092a" relX="-1.0" relY="0.0" />
+        <Point elementId="c7362" arrowHead="Directed" x="700.0496141124593" y="156.2557883131202" elementRef="e3618" relX="1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="0066cc" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="16397" />
       <Comment>CIL-1 localizes PKD-2 to the cilia</Comment>
@@ -400,8 +399,8 @@
     </Interaction>
     <Interaction elementId="id28ad2f7f">
       <Waypoints>
-        <Point elementId="bae42" arrowHead="Undirected" x="660.6986247153073" y="101.12639570656778" elementRef="d2970" relX="1.0" relY="0.0" />
-        <Point elementId="dee74" arrowHead="Directed" x="763.7417280934579" y="79.64685740646286" elementRef="d7cde" relX="-1.0" relY="0.0" />
+        <Point elementId="a526f" arrowHead="Undirected" x="660.6986247153073" y="101.12639570656778" elementRef="d2970" relX="1.0" relY="0.0" />
+        <Point elementId="d3fab" arrowHead="Directed" x="763.7417280934579" y="79.64685740646286" elementRef="d7cde" relX="-1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="0066cc" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="16401" />
       <Comment>Consitutive phophorylation of PKD-2 results in a loss of PKD-2 from cilia.</Comment>
@@ -409,29 +408,29 @@
     </Interaction>
     <Interaction elementId="ide476c211">
       <Waypoints>
-        <Point elementId="c3b70" arrowHead="Undirected" x="3.851157662624059" y="272.5380374862184" />
-        <Point elementId="f1123" arrowHead="Undirected" x="673.6493936052922" y="272.3263506063947" />
+        <Point elementId="aa978" arrowHead="Undirected" x="3.851157662624059" y="272.5380374862184" />
+        <Point elementId="adfb4" arrowHead="Undirected" x="673.6493936052922" y="272.3263506063947" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="16403" />
     </Interaction>
     <Interaction elementId="feba6">
       <Waypoints>
-        <Point elementId="e86ed" arrowHead="Undirected" x="721.0" y="306.0" />
-        <Point elementId="cf07a" arrowHead="Undirected" x="1876.0" y="306.0" />
+        <Point elementId="bd395" arrowHead="Undirected" x="721.0" y="306.0" />
+        <Point elementId="c5e96" arrowHead="Undirected" x="1876.0" y="306.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32767" />
     </Interaction>
     <Interaction elementId="ac32a">
       <Waypoints>
-        <Point elementId="d0c32" arrowHead="Undirected" x="3.851157662624059" y="281.5380374862184" />
-        <Point elementId="e9151" arrowHead="Undirected" x="672.5468577728776" y="281.14663726571115" />
+        <Point elementId="a9c35" arrowHead="Undirected" x="3.851157662624059" y="281.5380374862184" />
+        <Point elementId="b50e9" arrowHead="Undirected" x="672.5468577728776" y="281.14663726571115" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32807" />
     </Interaction>
     <Interaction elementId="f8830">
       <Waypoints>
-        <Point elementId="d7d3c" arrowHead="Undirected" x="62.84895259095856" y="320.8456449834621" elementRef="dd215" relX="-1.0" relY="0.0" />
-        <Point elementId="b74f8" arrowHead="Directed" x="20.8955223880597" y="320.14925373134326" />
+        <Point elementId="caa0d" arrowHead="Undirected" x="62.84895259095856" y="320.8456449834621" elementRef="dd215" relX="-1.0" relY="0.0" />
+        <Point elementId="f4cfd" arrowHead="Directed" x="20.8955223880597" y="320.14925373134326" />
       </Waypoints>
       <Graphics lineColor="0066ff" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="32813" />
       <Comment>IFT Complex A poly peptides DAF-10 and CHE-11 move at the same rate as IFT Complex B poly peptides OSM-5, OSM-1, and OSM-6.</Comment>
@@ -439,8 +438,8 @@
     </Interaction>
     <Interaction elementId="f9a44">
       <Waypoints>
-        <Point elementId="d5cbe" arrowHead="Undirected" x="165.64388092612944" y="223.31050165380384" elementRef="aed88" relX="1.0" relY="0.0" />
-        <Point elementId="c0e85" arrowHead="Directed" x="205.0" y="223.0" />
+        <Point elementId="d2bfb" arrowHead="Undirected" x="165.64388092612944" y="223.31050165380384" elementRef="aed88" relX="1.0" relY="0.0" />
+        <Point elementId="fee17" arrowHead="Directed" x="205.0" y="223.0" />
       </Waypoints>
       <Graphics lineColor="0066ff" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="32839" />
       <Comment>IFT Complex A poly peptides DAF-10 and CHE-11 move at the same rate as IFT Complex B poly peptides OSM-5, OSM-1, and OSM-6. | OSM-5 undergoes anterograde and retrograde transport.</Comment>
@@ -448,8 +447,8 @@
     </Interaction>
     <Interaction elementId="ce8fa">
       <Waypoints>
-        <Point elementId="afd50" arrowHead="Undirected" x="166.84895259095856" y="320.8456449834621" elementRef="dd215" relX="1.0" relY="0.0" />
-        <Point elementId="ef376" arrowHead="Directed" x="201.0" y="320.0" />
+        <Point elementId="f098d" arrowHead="Undirected" x="166.84895259095856" y="320.8456449834621" elementRef="dd215" relX="1.0" relY="0.0" />
+        <Point elementId="da3ad" arrowHead="Directed" x="201.0" y="320.0" />
       </Waypoints>
       <Graphics lineColor="0066ff" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="32841" />
       <Comment>IFT Complex A poly peptides DAF-10 and CHE-11 move at the same rate as IFT Complex B poly peptides OSM-5, OSM-1, and OSM-6. | OSM-5 undergoes anterograde and retrograde transport.</Comment>
@@ -458,24 +457,24 @@
     <Interaction elementId="cc63f">
       <Xref identifier="dephosphorylation" dataSource="kegg.reaction" />
       <Waypoints>
-        <Point elementId="a2ff9" arrowHead="Undirected" x="527.0066203450049" y="144.6217851749959" elementRef="dcadf" relX="0.0" relY="-1.0" />
-        <Point elementId="d4bd3" arrowHead="Conversion" x="527.5938189845475" y="110.37527593818986" />
+        <Point elementId="f98de" arrowHead="Undirected" x="527.0066203450049" y="144.6217851749959" elementRef="dcadf" relX="0.0" relY="-1.0" />
+        <Point elementId="ce6aa" arrowHead="Conversion" x="527.5938189845475" y="110.37527593818986" />
       </Waypoints>
       <Graphics lineColor="ffcc00" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="32847" />
       <Comment>CK2 phosphorylated PKD-2 is dephosphorylated by calcineurin</Comment>
     </Interaction>
     <Interaction elementId="id6a8131b9">
       <Waypoints>
-        <Point elementId="e6be7" arrowHead="Undirected" x="557.7276003156097" y="72.23819517313743" elementRef="e158c" relX="0.5" relY="1.0" />
-        <Point elementId="ef49a" arrowHead="Conversion" x="620.6986247153073" y="91.12639570656778" elementRef="d2970" relX="0.0" relY="-1.0" />
+        <Point elementId="c74b3" arrowHead="Undirected" x="557.7276003156097" y="72.23819517313743" elementRef="e158c" relX="0.5" relY="1.0" />
+        <Point elementId="a2968" arrowHead="Conversion" x="620.6986247153073" y="91.12639570656778" elementRef="d2970" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="ffcc00" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="32849" />
       <Comment>PKD-2(S534) is one but not the only in vitro CK2 phosphorylation site.</Comment>
     </Interaction>
     <Interaction elementId="idfe217ef2">
       <Waypoints>
-        <Point elementId="ff4f1" arrowHead="Undirected" x="852.5495316853362" y="219.41758866176946" elementRef="a092a" relX="-1.0" relY="0.0" />
-        <Point elementId="cf99f" arrowHead="Directed" x="699.2967762226401" y="225.23308519456913" elementRef="bb606" relX="1.0" relY="0.0" />
+        <Point elementId="e82e2" arrowHead="Undirected" x="852.5495316853362" y="219.41758866176946" elementRef="a092a" relX="-1.0" relY="0.0" />
+        <Point elementId="aefae" arrowHead="Directed" x="699.2967762226401" y="225.23308519456913" elementRef="bb606" relX="1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="0066ff" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="32855" />
       <Comment>CIL-1 localizes LOV-1 to cilia.</Comment>
@@ -484,22 +483,22 @@
     </Interaction>
     <Interaction elementId="fd5d6">
       <Waypoints>
-        <Point elementId="c16c2" arrowHead="Undirected" x="51.39172636180672" y="427.295918367347" elementRef="fe669" relX="-1.0" relY="0.0" />
-        <Point elementId="d5992" arrowHead="Directed" x="6.660828510508695" y="427.08802924154753" />
+        <Point elementId="adada" arrowHead="Undirected" x="51.39172636180672" y="427.295918367347" elementRef="fe669" relX="-1.0" relY="0.0" />
+        <Point elementId="e02a6" arrowHead="Directed" x="6.660828510508695" y="427.08802924154753" />
       </Waypoints>
       <Graphics lineColor="0066ff" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="32894" />
     </Interaction>
     <Interaction elementId="e4119">
       <Waypoints>
-        <Point elementId="e908e" arrowHead="Undirected" x="51.39172636180672" y="478.2170542635658" elementRef="ea725" relX="-1.0" relY="0.0" />
-        <Point elementId="c41f0" arrowHead="Conversion" x="4.241781548250265" y="477.73064687168613" />
+        <Point elementId="e7de0" arrowHead="Undirected" x="51.39172636180672" y="478.2170542635658" elementRef="ea725" relX="-1.0" relY="0.0" />
+        <Point elementId="d3de1" arrowHead="Conversion" x="4.241781548250265" y="477.73064687168613" />
       </Waypoints>
       <Graphics lineColor="ffcc00" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="32896" />
     </Interaction>
     <Interaction elementId="e8c8c">
       <Waypoints>
-        <Point elementId="d5f97" arrowHead="Undirected" x="659.2967762226401" y="215.23308519456913" elementRef="bb606" relX="0.0" relY="-1.0" />
-        <Point elementId="b9dee" arrowHead="Undirected" x="661.9458613530774" y="187.2557883131202" elementRef="fe9e4" relX="0.0" relY="1.0" />
+        <Point elementId="b0f20" arrowHead="Undirected" x="659.2967762226401" y="215.23308519456913" elementRef="bb606" relX="0.0" relY="-1.0" />
+        <Point elementId="fefa9" arrowHead="Undirected" x="661.9458613530774" y="187.2557883131202" elementRef="fe9e4" relX="0.0" relY="1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="32911" />
       <Comment>LOV-1 localizes CWP-5 to neuronal cilia</Comment>
@@ -507,8 +506,8 @@
     </Interaction>
     <Interaction elementId="d3047">
       <Waypoints>
-        <Point elementId="cada9" arrowHead="Undirected" x="580.6986247153073" y="101.12639570656778" elementRef="d2970" relX="-1.0" relY="0.0" />
-        <Point elementId="f66c5" arrowHead="Conversion" x="481.30299891531854" y="106.08762523149032" elementRef="ee71e" relX="1.0" relY="0.0" />
+        <Point elementId="f0feb" arrowHead="Undirected" x="580.6986247153073" y="101.12639570656778" elementRef="d2970" relX="-1.0" relY="0.0" />
+        <Point elementId="b57af" arrowHead="Conversion" x="481.30299891531854" y="106.08762523149032" elementRef="ee71e" relX="1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="ffcc00" lineStyle="Solid" lineWidth="3.0" connectorType="Straight" zOrder="32916" />
     </Interaction>
@@ -560,46 +559,46 @@
   </Labels>
   <Shapes>
     <Shape elementId="c7112">
-      <Graphics centerX="1950.75" centerY="443.25" width="780.5" height="1047.5" textColor="cccccc" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="cccccc" borderStyle="Double" borderWidth="3.0" fillColor="ffffff" shapeType="Nucleus" zOrder="-7" rotation="0.0" />
+      <Graphics centerX="1950.75" centerY="443.25" width="780.5" height="1047.5" textColor="cccccc" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="cccccc" borderStyle="Double" borderWidth="3.0" fillColor="ffffff" shapeType="Nucleus" zOrder="-7" />
     </Shape>
     <Shape elementId="de93c">
-      <Graphics centerX="1309.8404097730813" centerY="289.5782108676511" width="1219.7949283351709" height="643.1775082690187" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="ffffff" shapeType="Cell" zOrder="-5" rotation="0.0" />
+      <Graphics centerX="1309.8404097730813" centerY="289.5782108676511" width="1219.7949283351709" height="643.1775082690187" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="ffffff" shapeType="Cell" zOrder="-5" />
     </Shape>
     <Shape elementId="aea4c">
-      <Graphics centerX="336.9683020948181" centerY="187.95068205666317" width="729.0633958103638" height="360.0" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Organelle" zOrder="2" rotation="0.0" />
+      <Graphics centerX="336.9683020948181" centerY="187.95068205666317" width="729.0633958103638" height="360.0" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Organelle" zOrder="2" />
     </Shape>
     <Shape elementId="de478">
-      <Graphics centerX="1946.0" centerY="442.25" width="758.0" height="1023.5" textColor="ffffff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="3.0" fillColor="ffffff" shapeType="Nucleus" zOrder="5" rotation="0.0" />
+      <Graphics centerX="1946.0" centerY="442.25" width="758.0" height="1023.5" textColor="ffffff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="ffffff" borderStyle="Solid" borderWidth="3.0" fillColor="ffffff" shapeType="Nucleus" zOrder="5" />
     </Shape>
     <Shape elementId="f186f">
-      <Graphics centerX="2006.25" centerY="551.75" width="273.5" height="208.5" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Nucleus" zOrder="16384" rotation="0.0" />
+      <Graphics centerX="2006.25" centerY="551.75" width="273.5" height="208.5" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Double" borderWidth="3.0" fillColor="00000000" shapeType="Nucleus" zOrder="16384" />
     </Shape>
     <Shape elementId="f7b0f" groupRef="f58f0">
-      <Graphics centerX="1762.9939537329128" centerY="342.2053101997899" width="62.591482649842646" height="46.767087276551045" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Vesicle" zOrder="16386" rotation="0.0" />
+      <Graphics centerX="1762.9939537329128" centerY="342.2053101997899" width="62.591482649842646" height="46.767087276551045" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Vesicle" zOrder="16386" />
     </Shape>
     <Shape elementId="a1673">
-      <Graphics centerX="1090.864917957683" centerY="82.89611752360966" width="99.48737289890441" height="90.24134312696748" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Lysosome" zOrder="16388" rotation="0.0" />
+      <Graphics centerX="1090.864917957683" centerY="82.89611752360966" width="99.48737289890441" height="90.24134312696748" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Lysosome" zOrder="16388" />
     </Shape>
     <Shape elementId="c8fdf" groupRef="f2d1a">
       <Graphics centerX="1993.2331862795836" centerY="266.8990023433056" width="188.60050184710963" height="275.60462670872784" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="EndoplasmicReticulum" zOrder="16390" rotation="0.0583123107589704" />
     </Shape>
     <Shape elementId="ee476">
-      <Graphics centerX="749.2251591041336" centerY="23.861174484104616" width="58.78609995013706" height="37.98621830209481" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Organelle" zOrder="16392" rotation="0.0" />
+      <Graphics centerX="749.2251591041336" centerY="23.861174484104616" width="58.78609995013706" height="37.98621830209481" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Organelle" zOrder="16392" />
     </Shape>
     <Shape elementId="b6564">
-      <Graphics centerX="704.2703969128999" centerY="181.91841234840138" width="51.216648291069305" height="379.27232635060636" textColor="cccccc" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="cccccc" borderStyle="Solid" borderWidth="4.0" fillColor="ffffff" shapeType="Oval" zOrder="16396" rotation="0.0" />
+      <Graphics centerX="704.2703969128999" centerY="181.91841234840138" width="51.216648291069305" height="379.27232635060636" textColor="cccccc" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="cccccc" borderStyle="Solid" borderWidth="4.0" fillColor="ffffff" shapeType="Oval" zOrder="16396" />
     </Shape>
     <Shape elementId="aef97" groupRef="ce441">
-      <Graphics centerX="990.8911428462116" centerY="481.86678759100573" width="129.74032208885905" height="75.86447272470105" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Mitochondria" zOrder="16405" rotation="0.0" />
+      <Graphics centerX="990.8911428462116" centerY="481.86678759100573" width="129.74032208885905" height="75.86447272470105" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Mitochondria" zOrder="16405" />
     </Shape>
     <Shape elementId="b085a">
       <Graphics centerX="1016.358324145535" centerY="246.242006615215" width="55.0" height="30.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Arc" zOrder="16407" rotation="1.5707963267948966" />
     </Shape>
     <Shape elementId="fe06a">
-      <Graphics centerX="703.7596471885337" centerY="181.91841234840132" width="36.802646085997594" height="357.2216097023154" textColor="cccccc" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="cccccc" borderStyle="Solid" borderWidth="4.0" fillColor="00000000" shapeType="Oval" zOrder="32851" rotation="0.0" />
+      <Graphics centerX="703.7596471885337" centerY="181.91841234840132" width="36.802646085997594" height="357.2216097023154" textColor="cccccc" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="cccccc" borderStyle="Solid" borderWidth="4.0" fillColor="00000000" shapeType="Oval" zOrder="32851" />
     </Shape>
     <Shape elementId="df912" groupRef="ddb38">
-      <Graphics centerX="1277.646950578338" centerY="345.5565194532077" width="62.591482649842646" height="46.767087276551045" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Vesicle" zOrder="32861" rotation="0.0" />
+      <Graphics centerX="1277.646950578338" centerY="345.5565194532077" width="62.591482649842646" height="46.767087276551045" textColor="c0c0c0" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="c0c0c0" borderStyle="Solid" borderWidth="3.0" fillColor="00000000" shapeType="Vesicle" zOrder="32861" />
     </Shape>
   </Shapes>
   <Groups>
@@ -639,16 +638,16 @@
     </Group>
   </Groups>
   <Annotations>
-    <Annotation elementId="d1fb3" value="polycystic kidney disease" type="Ontology">
+    <Annotation elementId="e3081" value="polycystic kidney disease" type="Ontology">
       <Xref identifier="898" dataSource="DOID" />
     </Annotation>
-    <Annotation elementId="a5e3e" value="lysosomes based pathway of protein degradation" type="Ontology">
+    <Annotation elementId="c9ca6" value="lysosomes based pathway of protein degradation" type="Ontology">
       <Xref identifier="0000182" dataSource="PW" />
     </Annotation>
-    <Annotation elementId="f042a" value="protein sorting pathway" type="Ontology">
+    <Annotation elementId="e94f1" value="protein sorting pathway" type="Ontology">
       <Xref identifier="0000426" dataSource="PW" />
     </Annotation>
-    <Annotation elementId="e1b11" value="ciliated cell" type="Ontology">
+    <Annotation elementId="f63b0" value="ciliated cell" type="Ontology">
       <Xref identifier="0000064" dataSource="CL" />
     </Annotation>
   </Annotations>

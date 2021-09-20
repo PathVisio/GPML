@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20130815">
   <Graphics boardWidth="602.9155931563928" boardHeight="786.4815301392441" />
-  <InfoBox centerX="0.0" centerY="0.0" />
   <DataNodes>
     <DataNode elementId="bbd97" textLabel="CCR5" type="GeneProduct">
       <Xref identifier="1234" dataSource="ncbigene" />
@@ -83,10 +82,10 @@
   </DataNodes>
   <Shapes>
     <Shape elementId="ae6ab">
-      <Graphics centerX="434.38777388828225" centerY="182.111074798108" width="105.05563853622105" height="342.74091068227204" textColor="000000" fontName="Helvetica" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="333333" shapeType="Rectangle" zOrder="-2" rotation="0.0" />
+      <Graphics centerX="434.38777388828225" centerY="182.111074798108" width="105.05563853622105" height="342.74091068227204" textColor="000000" fontName="Helvetica" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="333333" shapeType="Rectangle" zOrder="-2" />
     </Shape>
     <Shape elementId="db4be">
-      <Graphics centerX="310.1242201513961" centerY="182.111074798108" width="105.05563853622105" height="342.7409106822721" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="333333" shapeType="Rectangle" zOrder="16384" rotation="0.0" />
+      <Graphics centerX="310.1242201513961" centerY="182.111074798108" width="105.05563853622105" height="342.7409106822721" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="10" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="333333" shapeType="Rectangle" zOrder="16384" />
     </Shape>
   </Shapes>
 </Pathway>
