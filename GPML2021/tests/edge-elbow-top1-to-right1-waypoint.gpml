@@ -12,10 +12,10 @@
   <Interactions>
     <Interaction elementId="c0fac">
       <Waypoints>
-        <Point elementId="acb8a" arrowHead="Inhibition" x="63.354108824975164" y="75.64749377680056" elementRef="fc22c" relX="0.0" relY="-1.0" />
-        <Point elementId="db422" arrowHead="Undirected" x="182.6889787043376" y="66.33070321840864" />
-        <Point elementId="b91c8" arrowHead="Undirected" x="302.0238485837" y="85.6248932980672" />
-        <Point elementId="f74f1" arrowHead="Directed" x="253.9937029287637" y="104.91908337772578" elementRef="fe12c" relX="1.0" relY="0.0" />
+        <Point elementId="d9408" arrowHead="Inhibition" x="63.354108824975164" y="75.64749377680056" elementRef="fc22c" relX="0.0" relY="-1.0" />
+        <Point elementId="b8f49" arrowHead="Undirected" x="182.6889787043376" y="66.33070321840864" />
+        <Point elementId="a240f" arrowHead="Undirected" x="302.0238485837" y="85.6248932980672" />
+        <Point elementId="aee31" arrowHead="Directed" x="253.9937029287637" y="104.91908337772578" elementRef="fe12c" relX="1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="32971" />
     </Interaction>

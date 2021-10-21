@@ -23,16 +23,16 @@
   <Interactions>
     <Interaction elementId="id9ee2ea1d">
       <Waypoints>
-        <Point elementId="cbd3a" arrowHead="Undirected" x="148.2084690553746" y="194.03908794788273" elementRef="e114e" relX="0.0" relY="1.0" />
-        <Point elementId="c498f" arrowHead="Directed" x="195.4397394136808" y="328.76221498371376" elementRef="c9fbc" relX="0.0" relY="-1.0" />
+        <Point elementId="f72e5" arrowHead="Undirected" x="148.2084690553746" y="194.03908794788273" elementRef="e114e" relX="0.0" relY="1.0" />
+        <Point elementId="c0fbf" arrowHead="Directed" x="195.4397394136808" y="328.76221498371376" elementRef="c9fbc" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
       <CitationRef elementRef="b7a" />
     </Interaction>
     <Interaction elementId="id8ee9f3be">
       <Waypoints>
-        <Point elementId="d4170" arrowHead="Undirected" x="235.4397394136808" y="338.76221498371376" elementRef="c9fbc" relX="1.0" relY="0.0" />
-        <Point elementId="e98cf" arrowHead="Directed" x="311.10708469055373" y="234.5276872964169" />
+        <Point elementId="d8052" arrowHead="Undirected" x="235.4397394136808" y="338.76221498371376" elementRef="c9fbc" relX="1.0" relY="0.0" />
+        <Point elementId="fb402" arrowHead="Directed" x="311.10708469055373" y="234.5276872964169" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
       <CitationRef elementRef="b8e" />
@@ -40,8 +40,8 @@
     </Interaction>
     <Interaction elementId="id788e2f55">
       <Waypoints>
-        <Point elementId="ef86e" arrowHead="Undirected" x="285.01628664495115" y="262.214983713355" />
-        <Point elementId="ef4e0" arrowHead="Directed" x="188.2084690553746" y="184.03908794788273" elementRef="e114e" relX="1.0" relY="0.0" />
+        <Point elementId="ed493" arrowHead="Undirected" x="285.01628664495115" y="262.214983713355" />
+        <Point elementId="bf247" arrowHead="Directed" x="188.2084690553746" y="184.03908794788273" elementRef="e114e" relX="1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
@@ -55,38 +55,38 @@
     </Shape>
   </Shapes>
   <Citations>
-    <Citation elementId="ba5">
-      <Xref identifier="25" dataSource="pubmed" />
-    </Citation>
-    <Citation elementId="d54">
-      <Xref identifier="363" dataSource="pubmed" />
-    </Citation>
-    <Citation elementId="cf5">
-      <Xref identifier="326" dataSource="pubmed" />
-    </Citation>
-    <Citation elementId="e88">
-      <Xref identifier="272" dataSource="pubmed" />
-    </Citation>
     <Citation elementId="ee4">
       <Xref identifier="34578" dataSource="pubmed" />
-    </Citation>
-    <Citation elementId="c86">
-      <Xref identifier="346" dataSource="pubmed" />
-    </Citation>
-    <Citation elementId="e0d">
-      <Xref identifier="6798456" dataSource="pubmed" />
     </Citation>
     <Citation elementId="b8e">
       <Xref identifier="15719025" dataSource="pubmed" />
     </Citation>
+    <Citation elementId="c86">
+      <Xref identifier="346" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="d54">
+      <Xref identifier="363" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="e0d">
+      <Xref identifier="6798456" dataSource="pubmed" />
+    </Citation>
     <Citation elementId="c0d">
       <Xref identifier="2451" dataSource="pubmed" />
     </Citation>
-    <Citation elementId="b7a">
-      <Xref identifier="2324" dataSource="pubmed" />
+    <Citation elementId="cf5">
+      <Xref identifier="326" dataSource="pubmed" />
     </Citation>
     <Citation elementId="b4f">
       <Xref identifier="264" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="ba5">
+      <Xref identifier="25" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="e88">
+      <Xref identifier="272" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="b7a">
+      <Xref identifier="2324" dataSource="pubmed" />
     </Citation>
   </Citations>
 </Pathway>

@@ -2,10 +2,10 @@
 <Pathway xmlns="http://pathvisio.org/GPML/2021" title="test case" version="20140130">
   <Graphics boardWidth="197.0" boardHeight="237.0" />
   <Interactions>
-    <Interaction elementId="a1d18">
+    <Interaction elementId="f9cae">
       <Waypoints>
-        <Point elementId="de270" arrowHead="Undirected" x="96.0" y="127.0" />
-        <Point elementId="a1d9f" arrowHead="Undirected" x="167.0" y="207.0" />
+        <Point elementId="e7ba2" arrowHead="Undirected" x="96.0" y="127.0" />
+        <Point elementId="a3e82" arrowHead="Undirected" x="167.0" y="207.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>

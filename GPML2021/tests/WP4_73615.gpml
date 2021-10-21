@@ -2,24 +2,24 @@
 <Pathway xmlns="http://pathvisio.org/GPML/2021" title="Sandbox Pathway" organism="Homo sapiens" license="CC BY 2.0">
   <Description>This is just a test pathway with a variety of object types including datanodes which can be connected to database entries (double-click on them when in edit mode). Feel free to edit anything on this page.</Description>
   <Comment source="BotTest">20140201000004</Comment>
-  <AnnotationRef elementRef="e1db6" />
-  <AnnotationRef elementRef="ec974" />
-  <AnnotationRef elementRef="f7c1b" />
-  <AnnotationRef elementRef="e98e8" />
-  <AnnotationRef elementRef="f990c" />
-  <AnnotationRef elementRef="c078c" />
-  <AnnotationRef elementRef="b66e8" />
-  <AnnotationRef elementRef="c7b12" />
-  <AnnotationRef elementRef="bd361" />
-  <AnnotationRef elementRef="eff29" />
-  <AnnotationRef elementRef="e2f32" />
-  <AnnotationRef elementRef="f919d" />
-  <AnnotationRef elementRef="c7521" />
-  <AnnotationRef elementRef="fed1a" />
-  <AnnotationRef elementRef="ea9b4" />
-  <AnnotationRef elementRef="f55bd" />
-  <AnnotationRef elementRef="f28b5" />
-  <AnnotationRef elementRef="b52f0" />
+  <AnnotationRef elementRef="b6417" />
+  <AnnotationRef elementRef="b0d7a" />
+  <AnnotationRef elementRef="c1010" />
+  <AnnotationRef elementRef="a92c0" />
+  <AnnotationRef elementRef="c0c6f" />
+  <AnnotationRef elementRef="a4c72" />
+  <AnnotationRef elementRef="fa7d3" />
+  <AnnotationRef elementRef="ff810" />
+  <AnnotationRef elementRef="ae7fb" />
+  <AnnotationRef elementRef="f378e" />
+  <AnnotationRef elementRef="b9aee" />
+  <AnnotationRef elementRef="f41ad" />
+  <AnnotationRef elementRef="baf0b" />
+  <AnnotationRef elementRef="a8ce3" />
+  <AnnotationRef elementRef="d43cc" />
+  <AnnotationRef elementRef="b9f74" />
+  <AnnotationRef elementRef="ac07b" />
+  <AnnotationRef elementRef="ed045" />
   <CitationRef elementRef="bf7" />
   <Graphics boardWidth="768.6990077177508" boardHeight="540.0" />
   <DataNodes>
@@ -76,48 +76,48 @@
   <Interactions>
     <Interaction elementId="idd31b36db">
       <Waypoints>
-        <Point elementId="aa8f3" arrowHead="Undirected" x="293.88250118128843" y="180.6562713288181" elementRef="a489f" relX="1.0" relY="0.0" />
-        <Point elementId="e4e60" arrowHead="Conversion" x="373.88250118128843" y="180.6562713288181" elementRef="daafb" relX="-1.0" relY="0.0" />
+        <Point elementId="ad183" arrowHead="Undirected" x="293.88250118128843" y="180.6562713288181" elementRef="a489f" relX="1.0" relY="0.0" />
+        <Point elementId="c3ad4" arrowHead="Conversion" x="373.88250118128843" y="180.6562713288181" elementRef="daafb" relX="-1.0" relY="0.0" />
         <Anchor elementId="ac1b7" position="0.5" shapeType="None" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id1b82938b">
       <Waypoints>
-        <Point elementId="ec061" arrowHead="Undirected" x="333.88250118128843" y="138.6562713288181" elementRef="c7084" relX="0.0" relY="1.0" />
-        <Point elementId="fc48d" arrowHead="Catalysis" x="333.88250118128843" y="180.6562713288181" elementRef="ac1b7" relX="0.0" relY="0.0" />
+        <Point elementId="fc597" arrowHead="Undirected" x="333.88250118128843" y="138.6562713288181" elementRef="c7084" relX="0.0" relY="1.0" />
+        <Point elementId="f31db" arrowHead="Catalysis" x="333.88250118128843" y="180.6562713288181" elementRef="ac1b7" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="iddb017374">
       <Waypoints>
-        <Point elementId="e0be3" arrowHead="Undirected" x="453.88250118128843" y="180.6562713288181" elementRef="daafb" relX="1.0" relY="0.0" />
-        <Point elementId="d7f00" arrowHead="Directed" x="558.6222575489527" y="220.15503875968992" elementRef="d8bae" relX="-1.0" relY="0.0" />
+        <Point elementId="bb4cd" arrowHead="Undirected" x="453.88250118128843" y="180.6562713288181" elementRef="daafb" relX="1.0" relY="0.0" />
+        <Point elementId="f42d4" arrowHead="Directed" x="558.6222575489527" y="220.15503875968992" elementRef="d8bae" relX="-1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id476a1b22">
       <Waypoints>
-        <Point elementId="a9817" arrowHead="Undirected" x="243.41085271317831" y="307.82945736434135" elementRef="da9a8" relX="0.0" relY="-1.0" />
-        <Point elementId="def05" arrowHead="Undirected" x="213.13399778516057" y="243.4108527131783" />
-        <Point elementId="be3d2" arrowHead="Undirected" x="182.85714285714283" y="212.0335620209982" />
-        <Point elementId="aaafa" arrowHead="Conversion" x="213.88250118128843" y="180.6562713288181" elementRef="a489f" relX="-1.0" relY="0.0" />
+        <Point elementId="d8848" arrowHead="Undirected" x="243.41085271317831" y="307.82945736434135" elementRef="da9a8" relX="0.0" relY="-1.0" />
+        <Point elementId="bf799" arrowHead="Undirected" x="213.13399778516057" y="243.4108527131783" />
+        <Point elementId="fbbda" arrowHead="Undirected" x="182.85714285714283" y="212.0335620209982" />
+        <Point elementId="d39b6" arrowHead="Conversion" x="213.88250118128843" y="180.6562713288181" elementRef="a489f" relX="-1.0" relY="0.0" />
         <Anchor elementId="d144a" position="0.19253891532885647" shapeType="None" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="12288" />
     </Interaction>
     <Interaction elementId="ida549ffdf">
       <Waypoints>
-        <Point elementId="bfb59" arrowHead="Undirected" x="262.2158476719392" y="438.27662352688367" elementRef="ca79c" relX="1.0" relY="-0.5" />
-        <Point elementId="a59aa" arrowHead="Catalysis" x="294.957125723838" y="415.5704732069022" elementRef="fee36" relX="0.0" relY="0.0" />
+        <Point elementId="ed7dd" arrowHead="Undirected" x="262.2158476719392" y="438.27662352688367" elementRef="ca79c" relX="1.0" relY="-0.5" />
+        <Point elementId="ea53c" arrowHead="Catalysis" x="294.957125723838" y="415.5704732069022" elementRef="fee36" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
       <CitationRef elementRef="afa" />
     </Interaction>
     <Interaction elementId="ida7510884">
       <Waypoints>
-        <Point elementId="c7155" arrowHead="Undirected" x="366.74418604651123" y="401.3953488372092" elementRef="f9e19" relX="-0.5" relY="1.0" />
-        <Point elementId="af21a" arrowHead="Conversion" x="263.4108527131783" y="327.82945736434135" elementRef="da9a8" relX="0.5" relY="1.0" />
+        <Point elementId="db4d9" arrowHead="Undirected" x="366.74418604651123" y="401.3953488372092" elementRef="f9e19" relX="-0.5" relY="1.0" />
+        <Point elementId="b5eb7" arrowHead="Conversion" x="263.4108527131783" y="327.82945736434135" elementRef="da9a8" relX="0.5" relY="1.0" />
         <Anchor elementId="fee36" position="0.45501286271416125" shapeType="None" />
         <Anchor elementId="ab8e9" position="0.7141711819012988" shapeType="None" />
         <Anchor elementId="baddb" position="0.12411762777416682" shapeType="None" />
@@ -127,30 +127,30 @@
     </Interaction>
     <Interaction elementId="id1006ca65">
       <Waypoints>
-        <Point elementId="e6c9c" arrowHead="Undirected" x="293.333333333333" y="265.11627906976736" elementRef="f376f" relX="-1.0" relY="0.0" />
-        <Point elementId="b66d9" arrowHead="Catalysis" x="243.41085271317831" y="265.71113561190737" elementRef="d144a" relX="0.0" relY="0.0" />
+        <Point elementId="d8c4d" arrowHead="Undirected" x="293.333333333333" y="265.11627906976736" elementRef="f376f" relX="-1.0" relY="0.0" />
+        <Point elementId="d3db9" arrowHead="Catalysis" x="243.41085271317831" y="265.71113561190737" elementRef="d144a" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id3a237139">
       <Xref identifier="10003" dataSource="rhea" />
       <Waypoints>
-        <Point elementId="c606a" arrowHead="Undirected" x="513.4883720930228" y="390.6976744186048" elementRef="d32e4" relX="-1.0" relY="0.0" />
-        <Point elementId="d4532" arrowHead="Conversion" x="426.74418604651123" y="391.3953488372092" elementRef="f9e19" relX="1.0" relY="0.0" />
+        <Point elementId="d7702" arrowHead="Undirected" x="513.4883720930228" y="390.6976744186048" elementRef="d32e4" relX="-1.0" relY="0.0" />
+        <Point elementId="f0634" arrowHead="Conversion" x="426.74418604651123" y="391.3953488372092" elementRef="f9e19" relX="1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id55ba47f0">
       <Waypoints>
-        <Point elementId="b4cb2" arrowHead="Undirected" x="272.5889076292645" y="383.16222959363637" elementRef="add43" relX="0.0" relY="0.0" />
-        <Point elementId="df0d3" arrowHead="Conversion" x="232.0" y="354.5" elementRef="f917f" relX="1.0" relY="0.0" />
+        <Point elementId="c9e1a" arrowHead="Undirected" x="272.5889076292645" y="383.16222959363637" elementRef="add43" relX="0.0" relY="0.0" />
+        <Point elementId="a26f9" arrowHead="Conversion" x="232.0" y="354.5" elementRef="f917f" relX="1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Curved" zOrder="12288" />
     </Interaction>
     <Interaction elementId="idd937525f">
       <Waypoints>
-        <Point elementId="c1cb0" arrowHead="Undirected" x="346.5" y="456.0" elementRef="d6c00" relX="-0.5" relY="-1.0" />
-        <Point elementId="c1ac7" arrowHead="Conversion" x="351.7875185532506" y="416.04611755912117" elementRef="baddb" relX="0.0" relY="0.0" />
+        <Point elementId="daeff" arrowHead="Undirected" x="346.5" y="456.0" elementRef="d6c00" relX="-0.5" relY="-1.0" />
+        <Point elementId="abc22" arrowHead="Conversion" x="351.7875185532506" y="416.04611755912117" elementRef="baddb" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
@@ -184,73 +184,73 @@
     </Group>
   </Groups>
   <Annotations>
-    <Annotation elementId="e1db6" value="disease of biological process" type="Ontology">
+    <Annotation elementId="b6417" value="disease of biological process" type="Ontology">
       <Xref identifier="344" dataSource="DOID" />
     </Annotation>
-    <Annotation elementId="ec974" value="disease of biological process" type="Ontology">
+    <Annotation elementId="b0d7a" value="disease of biological process" type="Ontology">
       <Xref identifier="344" dataSource="DOID" />
     </Annotation>
-    <Annotation elementId="f7c1b" value="disease of biological process" type="Ontology">
+    <Annotation elementId="c1010" value="disease of biological process" type="Ontology">
       <Xref identifier="344" dataSource="DOID" />
     </Annotation>
-    <Annotation elementId="e98e8" value="disease of biological process" type="Ontology">
+    <Annotation elementId="a92c0" value="disease of biological process" type="Ontology">
       <Xref identifier="344" dataSource="DOID" />
     </Annotation>
-    <Annotation elementId="f990c" value="disease of biological process" type="Ontology">
+    <Annotation elementId="c0c6f" value="disease of biological process" type="Ontology">
       <Xref identifier="344" dataSource="DOID" />
     </Annotation>
-    <Annotation elementId="c078c" value="abscisic acid biosynthetic pathway" type="Ontology">
+    <Annotation elementId="a4c72" value="abscisic acid biosynthetic pathway" type="Ontology">
       <Xref identifier="0001310" dataSource="PW" />
     </Annotation>
-    <Annotation elementId="b66e8" value="disease of biological process" type="Ontology">
+    <Annotation elementId="fa7d3" value="disease of biological process" type="Ontology">
       <Xref identifier="344" dataSource="DOID" />
     </Annotation>
-    <Annotation elementId="c7b12" value="disease of biological process" type="Ontology">
+    <Annotation elementId="ff810" value="disease of biological process" type="Ontology">
       <Xref identifier="344" dataSource="DOID" />
     </Annotation>
-    <Annotation elementId="bd361" value="disease of biological process" type="Ontology">
+    <Annotation elementId="ae7fb" value="disease of biological process" type="Ontology">
       <Xref identifier="344" dataSource="DOID" />
     </Annotation>
-    <Annotation elementId="eff29" value="disease of biological process" type="Ontology">
+    <Annotation elementId="f378e" value="disease of biological process" type="Ontology">
       <Xref identifier="344" dataSource="DOID" />
     </Annotation>
-    <Annotation elementId="e2f32" value="disease of biological process" type="Ontology">
+    <Annotation elementId="b9aee" value="disease of biological process" type="Ontology">
       <Xref identifier="344" dataSource="DOID" />
     </Annotation>
-    <Annotation elementId="f919d" value="disease of biological process" type="Ontology">
+    <Annotation elementId="f41ad" value="disease of biological process" type="Ontology">
       <Xref identifier="344" dataSource="DOID" />
     </Annotation>
-    <Annotation elementId="c7521" value="G protein mediated signaling pathway" type="Ontology">
+    <Annotation elementId="baf0b" value="G protein mediated signaling pathway" type="Ontology">
       <Xref identifier="0000125" dataSource="PW" />
     </Annotation>
-    <Annotation elementId="fed1a" value="disease of biological process" type="Ontology">
+    <Annotation elementId="a8ce3" value="disease of biological process" type="Ontology">
       <Xref identifier="344" dataSource="DOID" />
     </Annotation>
-    <Annotation elementId="ea9b4" value="disease of biological process" type="Ontology">
+    <Annotation elementId="d43cc" value="disease of biological process" type="Ontology">
       <Xref identifier="344" dataSource="DOID" />
     </Annotation>
-    <Annotation elementId="f55bd" value="disease of biological process" type="Ontology">
+    <Annotation elementId="b9f74" value="disease of biological process" type="Ontology">
       <Xref identifier="344" dataSource="DOID" />
     </Annotation>
-    <Annotation elementId="f28b5" value="disease of biological process" type="Ontology">
+    <Annotation elementId="ac07b" value="disease of biological process" type="Ontology">
       <Xref identifier="344" dataSource="DOID" />
     </Annotation>
-    <Annotation elementId="b52f0" value="disease of biological process" type="Ontology">
+    <Annotation elementId="ed045" value="disease of biological process" type="Ontology">
       <Xref identifier="344" dataSource="DOID" />
     </Annotation>
   </Annotations>
   <Citations>
-    <Citation elementId="afa">
-      <Xref identifier="22096230" dataSource="pubmed" />
-    </Citation>
-    <Citation elementId="fbe">
-      <Xref identifier="20824171" dataSource="pubmed" />
+    <Citation elementId="bf7">
+      <Xref identifier="18651794" dataSource="pubmed" />
     </Citation>
     <Citation elementId="b25">
       <Xref identifier="19649250" dataSource="pubmed" />
     </Citation>
-    <Citation elementId="bf7">
-      <Xref identifier="18651794" dataSource="pubmed" />
+    <Citation elementId="fbe">
+      <Xref identifier="20824171" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="afa">
+      <Xref identifier="22096230" dataSource="pubmed" />
     </Citation>
   </Citations>
 </Pathway>

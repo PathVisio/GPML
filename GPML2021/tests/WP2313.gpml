@@ -2,8 +2,8 @@
 <Pathway xmlns="http://pathvisio.org/GPML/2021" title="Aging" organism="Caenorhabditis elegans">
   <Description>Aging in C. elegans involves measurable declines in morphology, reproduction, and behavior.  Understanding the cellular and molecular processes leading to senescence in this nematode began in the early 1980s with the targeted identification of mutants that extended life span (an AGE phenotype). These studies identified at least two key regulators of life span, DAF-2, an insulin/IGF receptor ortholog, and DAF-16, a Forkhead-related transcription factor. Since then many more genes and pathways involved in senescence have been identified. Almost all of these genes play important roles in cellular and organismal-level processes other than aging, such as dauer formation, stress response, feeding, and chemosensation.</Description>
   <Comment source="WikiPathways-category">Physiological Process</Comment>
-  <AnnotationRef elementRef="c7d06" />
-  <AnnotationRef elementRef="bea14" />
+  <AnnotationRef elementRef="d00a5" />
+  <AnnotationRef elementRef="a74a1" />
   <CitationRef elementRef="c18" />
   <CitationRef elementRef="d3a" />
   <Graphics boardWidth="956.0" boardHeight="946.0" />
@@ -182,8 +182,8 @@ the transcriptional repressor activity of DAF-16</Comment>
   <Interactions>
     <Interaction elementId="idf5d46ea5">
       <Waypoints>
-        <Point elementId="a4b6b" arrowHead="Undirected" x="299.5" y="208.0" elementRef="ab2b3" relX="-0.5" relY="1.0" />
-        <Point elementId="cc998" arrowHead="Directed" x="230.0" y="208.0" elementRef="f7754" relX="0.5" relY="1.0" />
+        <Point elementId="d454c" arrowHead="Undirected" x="299.5" y="208.0" elementRef="ab2b3" relX="-0.5" relY="1.0" />
+        <Point elementId="bed28" arrowHead="Directed" x="230.0" y="208.0" elementRef="f7754" relX="0.5" relY="1.0" />
         <Anchor elementId="e3f96" position="0.46871129788625526" shapeType="None" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
@@ -191,8 +191,8 @@ the transcriptional repressor activity of DAF-16</Comment>
     </Interaction>
     <Interaction elementId="id5f8928d9">
       <Waypoints>
-        <Point elementId="b434f" arrowHead="Undirected" x="268.0" y="106.0" elementRef="ee0b6" relX="0.0" relY="1.0" />
-        <Point elementId="da6de" arrowHead="Stimulation" x="267.0" y="152.0" elementRef="c95c0" relX="0.0" relY="-1.0" />
+        <Point elementId="bf7c1" arrowHead="Undirected" x="268.0" y="106.0" elementRef="ee0b6" relX="0.0" relY="1.0" />
+        <Point elementId="f1fdd" arrowHead="Stimulation" x="267.0" y="152.0" elementRef="c95c0" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
       <Comment>AGE-1 works in a parallel pathway downstream of daf-2 signaling.</Comment>
@@ -201,16 +201,16 @@ the transcriptional repressor activity of DAF-16</Comment>
     <Interaction elementId="id3be9044e">
       <Xref identifier="WBInteraction000518714" dataSource="wormbase" />
       <Waypoints>
-        <Point elementId="f2359" arrowHead="Undirected" x="208.0" y="208.0" elementRef="f7754" relX="-0.5" relY="1.0" />
-        <Point elementId="f26dd" arrowHead="Stimulation" x="208.0" y="335.0" elementRef="fd8e3" relX="0.0" relY="-1.0" />
+        <Point elementId="d534a" arrowHead="Undirected" x="208.0" y="208.0" elementRef="f7754" relX="-0.5" relY="1.0" />
+        <Point elementId="b75e6" arrowHead="Stimulation" x="208.0" y="335.0" elementRef="fd8e3" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
       <CitationRef elementRef="d91" />
     </Interaction>
     <Interaction elementId="id2a1a0c7b">
       <Waypoints>
-        <Point elementId="faa51" arrowHead="Undirected" x="320.5" y="208.0" elementRef="ab2b3" relX="0.5" relY="1.0" />
-        <Point elementId="e4117" arrowHead="Stimulation" x="406.0" y="326.0" elementRef="cffec" relX="0.0" relY="-1.0" />
+        <Point elementId="b4963" arrowHead="Undirected" x="320.5" y="208.0" elementRef="ab2b3" relX="0.5" relY="1.0" />
+        <Point elementId="fcea1" arrowHead="Stimulation" x="406.0" y="326.0" elementRef="cffec" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
       <Comment>an activating mutation in akt-1 or increased dosage of akt-1(+) can bypass the normal requirement for AGE-1 PI3K signaling but still partially depends on DAF-2 signaling,
@@ -220,16 +220,16 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
     <Interaction elementId="id1f4633b6">
       <Xref identifier="WBInteraction000518714" dataSource="wormbase" />
       <Waypoints>
-        <Point elementId="ee0bf" arrowHead="Undirected" x="248.0" y="345.0" elementRef="fd8e3" relX="1.0" relY="0.0" />
-        <Point elementId="af643" arrowHead="Stimulation" x="316.0" y="344.0" elementRef="cffec" relX="-1.0" relY="0.0" />
+        <Point elementId="f4cb3" arrowHead="Undirected" x="248.0" y="345.0" elementRef="fd8e3" relX="1.0" relY="0.0" />
+        <Point elementId="e64d9" arrowHead="Stimulation" x="316.0" y="344.0" elementRef="cffec" relX="-1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
       <CitationRef elementRef="d91" />
     </Interaction>
     <Interaction elementId="id43cd63bf">
       <Waypoints>
-        <Point elementId="c46a6" arrowHead="Undirected" x="570.0" y="452.0" elementRef="fc419" relX="0.0" relY="1.0" />
-        <Point elementId="f5ce7" arrowHead="Undirected" x="570.0" y="468.0" elementRef="e9b6a" relX="0.0" relY="-1.0" />
+        <Point elementId="f9787" arrowHead="Undirected" x="570.0" y="452.0" elementRef="fc419" relX="0.0" relY="1.0" />
+        <Point elementId="acbc0" arrowHead="Undirected" x="570.0" y="468.0" elementRef="e9b6a" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="009933" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="12288" />
       <CitationRef elementRef="a81" />
@@ -237,8 +237,8 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
     </Interaction>
     <Interaction elementId="id4c215f69">
       <Waypoints>
-        <Point elementId="feb06" arrowHead="Undirected" x="116.0" y="415.0" elementRef="fe08c" relX="0.0" relY="1.0" />
-        <Point elementId="f8af6" arrowHead="Conversion" x="172.0" y="440.0" elementRef="e2e8a" relX="-0.5" relY="-1.0" />
+        <Point elementId="e6041" arrowHead="Undirected" x="116.0" y="415.0" elementRef="fe08c" relX="0.0" relY="1.0" />
+        <Point elementId="d15b1" arrowHead="Conversion" x="172.0" y="440.0" elementRef="e2e8a" relX="-0.5" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
       <Comment>JKK-1 is the upstream kinase of JNK-1 and phosphorylation of JNK-1 is required for lifespan extension.</Comment>
@@ -247,8 +247,8 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
     <Interaction elementId="idf01f90f2">
       <Xref identifier="" dataSource="wormbase" />
       <Waypoints>
-        <Point elementId="aa2ef" arrowHead="Undirected" x="406.0" y="362.0" elementRef="cffec" relX="0.0" relY="1.0" />
-        <Point elementId="daa18" arrowHead="Conversion" x="493.54831733627856" y="445.5562617232899" elementRef="b7101" relX="0.0" relY="0.0" />
+        <Point elementId="b5975" arrowHead="Undirected" x="406.0" y="362.0" elementRef="cffec" relX="0.0" relY="1.0" />
+        <Point elementId="f5129" arrowHead="Conversion" x="493.54831733627856" y="445.5562617232899" elementRef="b7101" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
       <Comment>AKT phosphorylates DAF-16 at site T242, promoting its binding to 14-3-3.</Comment>
@@ -256,8 +256,8 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
     </Interaction>
     <Interaction elementId="id98d96a57">
       <Waypoints>
-        <Point elementId="c8761" arrowHead="Undirected" x="338.0" y="417.0" elementRef="c1060" relX="0.0" relY="1.0" />
-        <Point elementId="e1463" arrowHead="Conversion" x="330.0" y="463.2" elementRef="b68c2" relX="0.0" relY="0.0" />
+        <Point elementId="f0fff" arrowHead="Undirected" x="338.0" y="417.0" elementRef="c1060" relX="0.0" relY="1.0" />
+        <Point elementId="c536e" arrowHead="Conversion" x="330.0" y="463.2" elementRef="b68c2" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
       <Comment>PRMT-1 methylates DAF-16, thereby blocking its phosphorylation by AKT.</Comment>
@@ -267,8 +267,8 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
     </Interaction>
     <Interaction elementId="id9eaaace1">
       <Waypoints>
-        <Point elementId="e40d3" arrowHead="Undirected" x="233.0" y="493.0" elementRef="dd9c0" relX="0.0" relY="1.0" />
-        <Point elementId="d59b0" arrowHead="Directed" x="407.0" y="603.0" elementRef="bb21e" relX="0.0" relY="-1.0" />
+        <Point elementId="bcfe8" arrowHead="Undirected" x="233.0" y="493.0" elementRef="dd9c0" relX="0.0" relY="1.0" />
+        <Point elementId="a018d" arrowHead="Directed" x="407.0" y="603.0" elementRef="bb21e" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="9999ff" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
       <Comment>PRMT-1 phosphorylated DAF-16 translocates to the nucleus.</Comment>
@@ -278,15 +278,15 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
     </Interaction>
     <Interaction elementId="idef34bebb">
       <Waypoints>
-        <Point elementId="fd27a" arrowHead="Undirected" x="407.0" y="623.0" elementRef="bb21e" relX="0.0" relY="1.0" />
-        <Point elementId="b1553" arrowHead="Directed" x="385.00000000000006" y="811.0" elementRef="a11d5" relX="0.5" relY="-1.0" />
+        <Point elementId="df89c" arrowHead="Undirected" x="407.0" y="623.0" elementRef="bb21e" relX="0.0" relY="1.0" />
+        <Point elementId="f6bae" arrowHead="Directed" x="385.00000000000006" y="811.0" elementRef="a11d5" relX="0.5" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="9999ff" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="idb38535b4">
       <Waypoints>
-        <Point elementId="f7efd" arrowHead="Undirected" x="365.00000000000006" y="831.0" elementRef="a11d5" relX="0.0" relY="1.0" />
-        <Point elementId="d5230" arrowHead="Directed" x="424.5" y="884.0" elementRef="c5294" relX="0.0" relY="-1.0" />
+        <Point elementId="c2b9c" arrowHead="Undirected" x="365.00000000000006" y="831.0" elementRef="a11d5" relX="0.0" relY="1.0" />
+        <Point elementId="d00a1" arrowHead="Directed" x="424.5" y="884.0" elementRef="c5294" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
       <Comment>RLE-1 regulates the cytoplasmic sequestration of DAF-16.</Comment>
@@ -294,15 +294,15 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
     </Interaction>
     <Interaction elementId="id9f3c866">
       <Waypoints>
-        <Point elementId="d9e68" arrowHead="Undirected" x="268.0" y="52.0" elementRef="f4db3" relX="0.0" relY="1.0" />
-        <Point elementId="b8a96" arrowHead="Stimulation" x="268.0" y="86.0" elementRef="ee0b6" relX="0.0" relY="-1.0" />
+        <Point elementId="e9063" arrowHead="Undirected" x="268.0" y="52.0" elementRef="f4db3" relX="0.0" relY="1.0" />
+        <Point elementId="ad432" arrowHead="Stimulation" x="268.0" y="86.0" elementRef="ee0b6" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="ida293497b">
       <Waypoints>
-        <Point elementId="c9c34" arrowHead="Undirected" x="365.0" y="792.0" elementRef="d0ba6" relX="0.5" relY="1.0" />
-        <Point elementId="e7ea7" arrowHead="Undirected" x="365.00000000000006" y="811.0" elementRef="a11d5" relX="0.0" relY="-1.0" />
+        <Point elementId="d66cc" arrowHead="Undirected" x="365.0" y="792.0" elementRef="d0ba6" relX="0.5" relY="1.0" />
+        <Point elementId="a4037" arrowHead="Undirected" x="365.00000000000006" y="811.0" elementRef="a11d5" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="339900" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="12288" />
       <Comment>RLE-1 physically interacts with DAF-16.  RLE-1 C terminus is required for the interaction of RLE-1 with DAF-16.</Comment>
@@ -310,15 +310,15 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
     </Interaction>
     <Interaction elementId="id2b98bb7b">
       <Waypoints>
-        <Point elementId="ff96f" arrowHead="Undirected" x="557.0" y="353.0" elementRef="a9aac" relX="0.0" relY="1.0" />
-        <Point elementId="ec7df" arrowHead="Conversion" x="570.0" y="432.0" elementRef="fc419" relX="0.0" relY="-1.0" />
+        <Point elementId="ebfe3" arrowHead="Undirected" x="557.0" y="353.0" elementRef="a9aac" relX="0.0" relY="1.0" />
+        <Point elementId="efd11" arrowHead="Conversion" x="570.0" y="432.0" elementRef="fc419" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id21672e4c">
       <Waypoints>
-        <Point elementId="b0f49" arrowHead="Undirected" x="288.0" y="106.0" elementRef="ee0b6" relX="0.5" relY="1.0" />
-        <Point elementId="a4de1" arrowHead="Inhibition" x="397.0" y="123.5" elementRef="ac0b7" relX="-1.0" relY="0.0" />
+        <Point elementId="a029a" arrowHead="Undirected" x="288.0" y="106.0" elementRef="ee0b6" relX="0.5" relY="1.0" />
+        <Point elementId="a28bd" arrowHead="Inhibition" x="397.0" y="123.5" elementRef="ac0b7" relX="-1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
       <Comment>insulin/IGF-1 pathway can diverge to regulate the timing of reproduction independently of longevity (Dillin et al., 2002a).</Comment>
@@ -327,46 +327,46 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
     </Interaction>
     <Interaction elementId="id9fa508f8">
       <Waypoints>
-        <Point elementId="e1a80" arrowHead="Undirected" x="267.0" y="172.0" elementRef="c95c0" relX="0.0" relY="1.0" />
-        <Point elementId="ecfb5" arrowHead="Catalysis" x="266.92456479690526" y="189.0" elementRef="c531f" relX="0.0" relY="0.0" />
+        <Point elementId="d9426" arrowHead="Undirected" x="267.0" y="172.0" elementRef="c95c0" relX="0.0" relY="1.0" />
+        <Point elementId="f0294" arrowHead="Catalysis" x="266.92456479690526" y="189.0" elementRef="c531f" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id45855ca0">
       <Waypoints>
-        <Point elementId="dd5fb" arrowHead="Undirected" x="267.0" y="235.0" elementRef="f4b20" relX="0.0" relY="-1.0" />
-        <Point elementId="c91c9" arrowHead="Catalysis" x="266.92456479690526" y="208.0" elementRef="e3f96" relX="0.0" relY="0.0" />
+        <Point elementId="a67b4" arrowHead="Undirected" x="267.0" y="235.0" elementRef="f4b20" relX="0.0" relY="-1.0" />
+        <Point elementId="b2470" arrowHead="Catalysis" x="266.92456479690526" y="208.0" elementRef="e3f96" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id7c2bea8f">
       <Waypoints>
-        <Point elementId="c35e3" arrowHead="Undirected" x="448.0" y="450.0" elementRef="d29ee" relX="1.0" relY="0.0" />
-        <Point elementId="a0ef9" arrowHead="Conversion" x="530.0" y="442.0" elementRef="fc419" relX="-1.0" relY="0.0" />
+        <Point elementId="b7e9a" arrowHead="Undirected" x="448.0" y="450.0" elementRef="d29ee" relX="1.0" relY="0.0" />
+        <Point elementId="a641f" arrowHead="Conversion" x="530.0" y="442.0" elementRef="fc419" relX="-1.0" relY="0.0" />
         <Anchor elementId="b7101" position="0.5554672845887629" shapeType="None" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id66f46233">
       <Waypoints>
-        <Point elementId="cc135" arrowHead="Undirected" x="368.0" y="450.0" elementRef="d29ee" relX="-1.0" relY="0.0" />
-        <Point elementId="d1e61" arrowHead="Conversion" x="273.0" y="483.0" elementRef="dd9c0" relX="1.0" relY="0.0" />
+        <Point elementId="e4698" arrowHead="Undirected" x="368.0" y="450.0" elementRef="d29ee" relX="-1.0" relY="0.0" />
+        <Point elementId="c362d" arrowHead="Conversion" x="273.0" y="483.0" elementRef="dd9c0" relX="1.0" relY="0.0" />
         <Anchor elementId="b68c2" position="0.4" shapeType="None" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="ea1de">
       <Waypoints>
-        <Point elementId="b2be0" arrowHead="Undirected" x="230.0" y="189.0" elementRef="f7754" relX="0.5" relY="-1.0" />
-        <Point elementId="c2bc5" arrowHead="Directed" x="299.5" y="189.0" elementRef="ab2b3" relX="-0.5" relY="-1.0" />
+        <Point elementId="c10ab" arrowHead="Undirected" x="230.0" y="189.0" elementRef="f7754" relX="0.5" relY="-1.0" />
+        <Point elementId="c7f4a" arrowHead="Directed" x="299.5" y="189.0" elementRef="ab2b3" relX="-0.5" relY="-1.0" />
         <Anchor elementId="c531f" position="0.5312887021137447" shapeType="None" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32771" />
     </Interaction>
     <Interaction elementId="c8b89">
       <Waypoints>
-        <Point elementId="ea21c" arrowHead="Undirected" x="192.0" y="460.0" elementRef="e2e8a" relX="0.0" relY="1.0" />
-        <Point elementId="b37d3" arrowHead="Undirected" x="213.0" y="473.0" elementRef="dd9c0" relX="-0.5" relY="-1.0" />
+        <Point elementId="d6c60" arrowHead="Undirected" x="192.0" y="460.0" elementRef="e2e8a" relX="0.0" relY="1.0" />
+        <Point elementId="ff1f2" arrowHead="Undirected" x="213.0" y="473.0" elementRef="dd9c0" relX="-0.5" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="339900" lineStyle="Solid" lineWidth="2.0" connectorType="Straight" zOrder="32781" />
       <Comment>JNK-1 phosphorylates DAF-16 leading to its translocation to the nucleus.</Comment>
@@ -374,8 +374,8 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
     </Interaction>
     <Interaction elementId="ffa37">
       <Waypoints>
-        <Point elementId="eeffc" arrowHead="Undirected" x="288.0" y="106.0" elementRef="ee0b6" relX="0.5" relY="1.0" />
-        <Point elementId="ec699" arrowHead="Inhibition" x="389.0" y="160.75" elementRef="bde8d" relX="-1.0" relY="-0.5" />
+        <Point elementId="baddf" arrowHead="Undirected" x="288.0" y="106.0" elementRef="ee0b6" relX="0.5" relY="1.0" />
+        <Point elementId="fe995" arrowHead="Inhibition" x="389.0" y="160.75" elementRef="bde8d" relX="-1.0" relY="-0.5" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32797" />
     </Interaction>
@@ -383,68 +383,68 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
   <GraphicalLines>
     <GraphicalLine elementId="id470cff36">
       <Waypoints>
-        <Point elementId="d9f5e" arrowHead="Undirected" x="345.6108041743401" y="640.8839779005525" />
-        <Point elementId="cf596" arrowHead="Undirected" x="346.22467771639043" y="631.3689379987723" />
-        <Point elementId="a0a0b" arrowHead="Inhibition" x="324.1252302025783" y="621.853898096992" />
+        <Point elementId="f7f3e" arrowHead="Undirected" x="345.6108041743401" y="640.8839779005525" />
+        <Point elementId="c95b9" arrowHead="Undirected" x="346.22467771639043" y="631.3689379987723" />
+        <Point elementId="bab5a" arrowHead="Inhibition" x="324.1252302025783" y="621.853898096992" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="12288" />
     </GraphicalLine>
     <GraphicalLine elementId="id8bcbba03">
       <Waypoints>
-        <Point elementId="db7ad" arrowHead="Undirected" x="219.53327571305098" y="641.3137424373379" />
-        <Point elementId="fd5f6" arrowHead="Undirected" x="616.2489196197062" y="641.3137424373379" />
+        <Point elementId="fc346" arrowHead="Undirected" x="219.53327571305098" y="641.3137424373379" />
+        <Point elementId="a3ccd" arrowHead="Undirected" x="616.2489196197062" y="641.3137424373379" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </GraphicalLine>
     <GraphicalLine elementId="id1a1510f9">
       <Waypoints>
-        <Point elementId="d87e7" arrowHead="Undirected" x="699.8556998556998" y="54.35305435305435" />
-        <Point elementId="c5370" arrowHead="Inhibition" x="729.1967291967292" y="54.35305435305435" />
+        <Point elementId="c94a7" arrowHead="Undirected" x="699.8556998556998" y="54.35305435305435" />
+        <Point elementId="afa62" arrowHead="Inhibition" x="729.1967291967292" y="54.35305435305435" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </GraphicalLine>
     <GraphicalLine elementId="idc547796a">
       <Waypoints>
-        <Point elementId="ab524" arrowHead="Undirected" x="700.3367003367002" y="75.51707551707551" />
-        <Point elementId="bae2f" arrowHead="Binding" x="726.3107263107263" y="75.51707551707551" />
+        <Point elementId="a9703" arrowHead="Undirected" x="700.3367003367002" y="75.51707551707551" />
+        <Point elementId="e07d1" arrowHead="Binding" x="726.3107263107263" y="75.51707551707551" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </GraphicalLine>
     <GraphicalLine elementId="idc7e0d5ef">
       <Waypoints>
-        <Point elementId="e4ac7" arrowHead="Undirected" x="701.2987012987012" y="96.71909571909572" />
-        <Point elementId="d0c27" arrowHead="Undirected" x="727.2727272727273" y="96.71909571909572" />
+        <Point elementId="f454f" arrowHead="Undirected" x="701.2987012987012" y="96.71909571909572" />
+        <Point elementId="b9edb" arrowHead="Undirected" x="727.2727272727273" y="96.71909571909572" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </GraphicalLine>
     <GraphicalLine elementId="id5e1c090">
       <Waypoints>
-        <Point elementId="cdd26" arrowHead="Undirected" x="702.2607022607021" y="114.47811447811446" />
-        <Point elementId="f1d1f" arrowHead="Stimulation" x="728.2347282347282" y="114.47811447811446" />
+        <Point elementId="c8104" arrowHead="Undirected" x="702.2607022607021" y="114.47811447811446" />
+        <Point elementId="f75f4" arrowHead="Stimulation" x="728.2347282347282" y="114.47811447811446" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </GraphicalLine>
     <GraphicalLine elementId="idd40ab9d9">
       <Waypoints>
-        <Point elementId="fc5e5" arrowHead="Undirected" x="698.8034188034188" y="153.16239316239316" />
-        <Point elementId="b1348" arrowHead="Conversion" x="728.3554741181858" y="153.45854328905173" />
+        <Point elementId="c46b1" arrowHead="Undirected" x="698.8034188034188" y="153.16239316239316" />
+        <Point elementId="cf6b2" arrowHead="Conversion" x="728.3554741181858" y="153.45854328905173" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </GraphicalLine>
     <GraphicalLine elementId="idec31a51b">
       <Waypoints>
-        <Point elementId="e34b7" arrowHead="Undirected" x="698.6496090973704" y="135.74982231698652" />
-        <Point elementId="d71c5" arrowHead="Conversion" x="729.2110874200421" y="135.7498223169865" />
+        <Point elementId="c3d31" arrowHead="Undirected" x="698.6496090973704" y="135.74982231698652" />
+        <Point elementId="b0d54" arrowHead="Conversion" x="729.2110874200421" y="135.7498223169865" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Dashed" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </GraphicalLine>
     <GraphicalLine elementId="fbdab">
       <Waypoints>
-        <Point elementId="c183a" arrowHead="Undirected" x="463.78708551483425" y="640.9249563699826" />
-        <Point elementId="f95ce" arrowHead="Undirected" x="463.91082442252497" y="636.8856383581515" />
-        <Point elementId="f4b25" arrowHead="Undirected" x="463.91082442252497" y="632.8463203463203" />
-        <Point elementId="e90e6" arrowHead="Undirected" x="463.91082442252497" y="628.884793076782" />
-        <Point elementId="bd03c" arrowHead="Directed" x="484.16865131018614" y="624.9232658072438" />
+        <Point elementId="d55a8" arrowHead="Undirected" x="463.78708551483425" y="640.9249563699826" />
+        <Point elementId="bfb48" arrowHead="Undirected" x="463.91082442252497" y="636.8856383581515" />
+        <Point elementId="b06f5" arrowHead="Undirected" x="463.91082442252497" y="632.8463203463203" />
+        <Point elementId="e7bff" arrowHead="Undirected" x="463.91082442252497" y="628.884793076782" />
+        <Point elementId="b499d" arrowHead="Directed" x="484.16865131018614" y="624.9232658072438" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="32801" />
     </GraphicalLine>
@@ -529,36 +529,45 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
     </Shape>
   </Shapes>
   <Groups>
-    <Group elementId="cffec" type="Group">
-      <Graphics centerX="406.0" centerY="344.0" width="180.0" height="36.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    <Group elementId="cffec" type="Transparent">
+      <Graphics centerX="406.0" centerY="344.0" width="180.0" height="36.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="0" />
     </Group>
     <Group elementId="ce35a" type="Complex">
       <Graphics centerX="570.0" centerY="460.0" width="104.0" height="80.0" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
     </Group>
   </Groups>
   <Annotations>
-    <Annotation elementId="c7d06" value="insulin signaling pathway" type="Ontology">
+    <Annotation elementId="d00a5" value="insulin signaling pathway" type="Ontology">
       <Xref identifier="0000143" dataSource="PW" />
     </Annotation>
-    <Annotation elementId="bea14" value="aging pathway" type="Ontology">
+    <Annotation elementId="a74a1" value="aging pathway" type="Ontology">
       <Xref identifier="0000651" dataSource="PW" />
     </Annotation>
   </Annotations>
   <Citations>
-    <Citation elementId="f8b">
-      <Xref identifier="15767565" dataSource="pubmed" />
+    <Citation elementId="c18">
+      <Xref identifier="22939742" dataSource="pubmed" />
     </Citation>
-    <Citation elementId="a81">
-      <Xref identifier="9716402" dataSource="pubmed" />
-    </Citation>
-    <Citation elementId="ee4">
-      <Xref identifier="17276341" dataSource="pubmed" />
+    <Citation elementId="d3a">
+      <Xref identifier="21937765" dataSource="pubmed" />
     </Citation>
     <Citation elementId="ee0">
       <Xref identifier="9885576" dataSource="pubmed" />
     </Citation>
-    <Citation elementId="e0e">
-      <Xref identifier="16530049" dataSource="pubmed" />
+    <Citation elementId="e61">
+      <Xref identifier="7789761" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="f57">
+      <Xref identifier="8700226" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="eef">
+      <Xref identifier="9252323" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="d91">
+      <Xref identifier="10364160" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="a81">
+      <Xref identifier="9716402" dataSource="pubmed" />
     </Citation>
     <Citation elementId="a47">
       <Xref identifier="9353126" dataSource="pubmed" />
@@ -569,26 +578,17 @@ showing that akt-1 is the major output of PI3K signaling but not the only output
     <Citation elementId="ed9">
       <Xref identifier="21531333" dataSource="pubmed" />
     </Citation>
+    <Citation elementId="f8b">
+      <Xref identifier="15767565" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="ee4">
+      <Xref identifier="17276341" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="e0e">
+      <Xref identifier="16530049" dataSource="pubmed" />
+    </Citation>
     <Citation elementId="fa0">
       <Xref identifier="12399591" dataSource="pubmed" />
-    </Citation>
-    <Citation elementId="f57">
-      <Xref identifier="8700226" dataSource="pubmed" />
-    </Citation>
-    <Citation elementId="eef">
-      <Xref identifier="9252323" dataSource="pubmed" />
-    </Citation>
-    <Citation elementId="e61">
-      <Xref identifier="7789761" dataSource="pubmed" />
-    </Citation>
-    <Citation elementId="c18">
-      <Xref identifier="22939742" dataSource="pubmed" />
-    </Citation>
-    <Citation elementId="d3a">
-      <Xref identifier="21937765" dataSource="pubmed" />
-    </Citation>
-    <Citation elementId="d91">
-      <Xref identifier="10364160" dataSource="pubmed" />
     </Citation>
   </Citations>
 </Pathway>

@@ -12,8 +12,8 @@
   <Interactions>
     <Interaction elementId="d6ee8">
       <Waypoints>
-        <Point elementId="f9188" arrowHead="Inhibition" x="54.993106861058784" y="84.27400896748527" elementRef="a0723" relX="0.0" relY="-1.0" />
-        <Point elementId="c5d93" arrowHead="Directed" x="196.7289428223533" y="124.44624526539923" elementRef="af9e0" relX="-1.0" relY="0.0" />
+        <Point elementId="af0f5" arrowHead="Inhibition" x="54.993106861058784" y="84.27400896748527" elementRef="a0723" relX="0.0" relY="-1.0" />
+        <Point elementId="e5263" arrowHead="Directed" x="196.7289428223533" y="124.44624526539923" elementRef="af9e0" relX="-1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="32953" />
     </Interaction>

@@ -81,85 +81,85 @@
   <GraphicalLines>
     <GraphicalLine elementId="a0014">
       <Waypoints>
-        <Point elementId="c97f0" arrowHead="Undirected" x="187.3100085302312" y="76.34195847303447" />
-        <Point elementId="ea8c0" arrowHead="Undirected" x="187.31000853023113" y="622.3880501261713" />
+        <Point elementId="bfd96" arrowHead="Undirected" x="187.3100085302312" y="76.34195847303447" />
+        <Point elementId="ea570" arrowHead="Undirected" x="187.31000853023113" y="622.3880501261713" />
       </Waypoints>
       <Graphics lineColor="ffff33" lineStyle="Solid" lineWidth="5.0" connectorType="Straight" zOrder="-11" />
     </GraphicalLine>
     <GraphicalLine elementId="bab68">
       <Waypoints>
-        <Point elementId="f1848" arrowHead="Undirected" x="355.90031690027547" y="66.518169926779" />
-        <Point elementId="fe996" arrowHead="Undirected" x="355.90031690027547" y="612.5642615799167" />
+        <Point elementId="c7923" arrowHead="Undirected" x="355.90031690027547" y="66.518169926779" />
+        <Point elementId="eec77" arrowHead="Undirected" x="355.90031690027547" y="612.5642615799167" />
       </Waypoints>
       <Graphics lineColor="ffff33" lineStyle="Solid" lineWidth="5.0" connectorType="Straight" zOrder="-9" />
     </GraphicalLine>
     <GraphicalLine elementId="dc328">
       <Waypoints>
-        <Point elementId="e917e" arrowHead="Undirected" x="498.0589072086452" y="74.3155267549728" />
-        <Point elementId="b27a4" arrowHead="Undirected" x="498.0589072086452" y="620.3616184081101" />
+        <Point elementId="b3d0e" arrowHead="Undirected" x="498.0589072086452" y="74.3155267549728" />
+        <Point elementId="ca6cf" arrowHead="Undirected" x="498.0589072086452" y="620.3616184081101" />
       </Waypoints>
       <Graphics lineColor="ffff33" lineStyle="Solid" lineWidth="5.0" connectorType="Straight" zOrder="-8" />
     </GraphicalLine>
     <GraphicalLine elementId="bbea7">
       <Waypoints>
-        <Point elementId="b507d" arrowHead="Undirected" x="631.4069248297905" y="77.70759723955429" />
-        <Point elementId="a06af" arrowHead="Undirected" x="631.4069248297905" y="623.7536888926917" />
+        <Point elementId="d2884" arrowHead="Undirected" x="631.4069248297905" y="77.70759723955429" />
+        <Point elementId="c42df" arrowHead="Undirected" x="631.4069248297905" y="623.7536888926917" />
       </Waypoints>
       <Graphics lineColor="ffff33" lineStyle="Solid" lineWidth="5.0" connectorType="Straight" zOrder="-7" />
     </GraphicalLine>
     <GraphicalLine elementId="dbc4c">
       <Waypoints>
-        <Point elementId="a30e0" arrowHead="Undirected" x="784.5787309971913" y="65.68116552149266" />
-        <Point elementId="e397b" arrowHead="Undirected" x="784.5787309971913" y="611.7272571746303" />
+        <Point elementId="af915" arrowHead="Undirected" x="784.5787309971913" y="65.68116552149266" />
+        <Point elementId="a4a99" arrowHead="Undirected" x="784.5787309971913" y="611.7272571746303" />
       </Waypoints>
       <Graphics lineColor="ffff33" lineStyle="Solid" lineWidth="5.0" connectorType="Straight" zOrder="-6" />
     </GraphicalLine>
     <GraphicalLine elementId="eb60f">
       <Waypoints>
-        <Point elementId="c8dc3" arrowHead="Undirected" x="35.23952394873337" y="66.34195847303447" />
-        <Point elementId="d2adf" arrowHead="Undirected" x="35.239523948733314" y="612.3880501261713" />
+        <Point elementId="a3a0d" arrowHead="Undirected" x="35.23952394873337" y="66.34195847303447" />
+        <Point elementId="b2374" arrowHead="Undirected" x="35.239523948733314" y="612.3880501261713" />
       </Waypoints>
       <Graphics lineColor="ffff33" lineStyle="Solid" lineWidth="5.0" connectorType="Straight" zOrder="-4" />
     </GraphicalLine>
     <GraphicalLine elementId="c451b">
       <Waypoints>
-        <Point elementId="f3f11" arrowHead="Undirected" x="59.29238738485673" y="71.67235494880538" />
-        <Point elementId="a621b" arrowHead="Undirected" x="59.292387384856696" y="617.7184466019417" />
+        <Point elementId="d5437" arrowHead="Undirected" x="59.29238738485673" y="71.67235494880538" />
+        <Point elementId="a8afd" arrowHead="Undirected" x="59.292387384856696" y="617.7184466019417" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32939" />
     </GraphicalLine>
     <GraphicalLine elementId="d2a4a">
       <Waypoints>
-        <Point elementId="cc179" arrowHead="Undirected" x="206.42830971495383" y="74.39080155074714" />
-        <Point elementId="efd05" arrowHead="Undirected" x="206.4283097149538" y="620.4368932038835" />
+        <Point elementId="c80fe" arrowHead="Undirected" x="206.42830971495383" y="74.39080155074714" />
+        <Point elementId="ee2d3" arrowHead="Undirected" x="206.4283097149538" y="620.4368932038835" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32940" />
     </GraphicalLine>
     <GraphicalLine elementId="beae0">
       <Waypoints>
-        <Point elementId="f5a01" arrowHead="Undirected" x="377.83607670524503" y="73.46847145365979" />
-        <Point elementId="e07ee" arrowHead="Undirected" x="377.836076705245" y="619.5145631067958" />
+        <Point elementId="c7cb9" arrowHead="Undirected" x="377.83607670524503" y="73.46847145365979" />
+        <Point elementId="c64a6" arrowHead="Undirected" x="377.836076705245" y="619.5145631067958" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32941" />
     </GraphicalLine>
     <GraphicalLine elementId="d1eb8">
       <Waypoints>
-        <Point elementId="c21aa" arrowHead="Undirected" x="521.3312223363132" y="78.61410252162091" />
-        <Point elementId="c6c76" arrowHead="Undirected" x="521.3312223363132" y="624.6601941747568" />
+        <Point elementId="ff9a2" arrowHead="Undirected" x="521.3312223363132" y="78.61410252162091" />
+        <Point elementId="cbff9" arrowHead="Undirected" x="521.3312223363132" y="624.6601941747568" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32942" />
     </GraphicalLine>
     <GraphicalLine elementId="d9aec">
       <Waypoints>
-        <Point elementId="e701b" arrowHead="Undirected" x="652.6904456372839" y="80.11895689055295" />
-        <Point elementId="e1f0c" arrowHead="Undirected" x="652.6904456372839" y="626.165048543689" />
+        <Point elementId="b7347" arrowHead="Undirected" x="652.6904456372839" y="80.11895689055295" />
+        <Point elementId="a8621" arrowHead="Undirected" x="652.6904456372839" y="626.165048543689" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32943" />
     </GraphicalLine>
     <GraphicalLine elementId="ebf90">
       <Waypoints>
-        <Point elementId="d228b" arrowHead="Undirected" x="805.8943291324306" y="68.27429669637824" />
-        <Point elementId="e523d" arrowHead="Undirected" x="805.8943291324305" y="614.3203883495137" />
+        <Point elementId="c617e" arrowHead="Undirected" x="805.8943291324306" y="68.27429669637824" />
+        <Point elementId="bd425" arrowHead="Undirected" x="805.8943291324305" y="614.3203883495137" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="32944" />
     </GraphicalLine>
@@ -263,10 +263,10 @@
   </Shapes>
   <Groups>
     <Group elementId="a2288" type="Pathway">
-      <Graphics centerX="805.6428509121224" centerY="116.29803044891685" width="96.0" height="85.01743659509837" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="32" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="00ff000c" shapeType="Rectangle" zOrder="0" />
+      <Graphics centerX="805.6428509121224" centerY="116.29803044891685" width="96.0" height="85.01743659509837" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="32" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="00ff000c" shapeType="Rectangle" zOrder="0" />
     </Group>
     <Group elementId="bcc7b" type="Group">
-      <Graphics centerX="805.6428509121225" centerY="225.27413966393357" width="96.00000000000023" height="85.0174365950987" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+      <Graphics centerX="805.6428509121225" centerY="225.27413966393357" width="96.00000000000023" height="85.0174365950987" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="b4b46419" shapeType="Rectangle" zOrder="0" />
     </Group>
     <Group elementId="d570a" type="Complex">
       <Graphics centerX="805.6428509121225" centerY="344.4891567287797" width="104.00000000000023" height="93.01743659509856" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
@@ -274,8 +274,8 @@
     <Group elementId="ef522" type="Complex">
       <Graphics centerX="805.6428509121225" centerY="453.70417379362675" width="104.0" height="93.01743659509953" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
     </Group>
-    <Group elementId="b05e0" type="Group">
-      <Graphics centerX="804.3059525164006" centerY="566.1673926109933" width="96.00000000000011" height="85.01743659509839" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    <Group elementId="b05e0" type="Transparent">
+      <Graphics centerX="804.3059525164006" centerY="566.1673926109933" width="96.00000000000011" height="85.01743659509839" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="0" />
     </Group>
   </Groups>
 </Pathway>

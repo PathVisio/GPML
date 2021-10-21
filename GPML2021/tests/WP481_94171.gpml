@@ -2,7 +2,7 @@
 <Pathway xmlns="http://pathvisio.org/GPML/2021" title="Insulin Signaling" organism="Homo sapiens">
   <Description>Insulin signaling influences energy metabolism as well as growth. The presence of insulin signals the fed state, and this signal is passed via the AKT branch, which leads to the uptake of glucose from the blood. Other branches of the signal cascade lead to cell growth and differentation.</Description>
   <Comment source="WikiPathways-category">Cellular Process</Comment>
-  <AnnotationRef elementRef="b5777" />
+  <AnnotationRef elementRef="f0382" />
   <CitationRef elementRef="b27" />
   <CitationRef elementRef="d3b" />
   <Graphics boardWidth="1444.37125748503" boardHeight="1144.9700598802397" />
@@ -822,136 +822,136 @@
     </DataNode>
   </DataNodes>
   <Interactions>
-    <Interaction elementId="d6e0c">
+    <Interaction elementId="d2f3f">
       <Waypoints>
-        <Point elementId="c5bb5" arrowHead="Undirected" x="579.4001996007983" y="233.55279409832383" elementRef="bcaa0" relX="-1.0" relY="0.0" />
-        <Point elementId="f48fa" arrowHead="Directed" x="501.5673981191226" y="332.23197492163024" elementRef="c21a5" relX="0.0" relY="-1.0" />
+        <Point elementId="b8a56" arrowHead="Undirected" x="579.4001996007983" y="233.55279409832383" elementRef="bcaa0" relX="-1.0" relY="0.0" />
+        <Point elementId="ff243" arrowHead="Directed" x="501.5673981191226" y="332.23197492163024" elementRef="c21a5" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="12288" />
     </Interaction>
     <Interaction elementId="a42c7">
       <Waypoints>
-        <Point elementId="deeb5" arrowHead="Undirected" x="212.71656686626721" y="515.8642714570859" elementRef="bb23b" relX="-0.5" relY="1.0" />
-        <Point elementId="bae79" arrowHead="Directed" x="137.07472001251801" y="566.6782952828826" elementRef="e0c7d" relX="0.0" relY="-1.0" />
+        <Point elementId="fb8b1" arrowHead="Undirected" x="212.71656686626721" y="515.8642714570859" elementRef="bb23b" relX="-0.5" relY="1.0" />
+        <Point elementId="aae1b" arrowHead="Directed" x="137.07472001251801" y="566.6782952828826" elementRef="e0c7d" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="a6d8e">
       <Waypoints>
-        <Point elementId="dc5d4" arrowHead="Undirected" x="334.5668662674645" y="445.53093812375255" elementRef="bb23b" relX="1.0" relY="0.0" />
-        <Point elementId="c94a8" arrowHead="Inhibition" x="680.8482165352916" y="446.1950442059408" elementRef="aed8b" relX="-1.0" relY="0.5" />
+        <Point elementId="f6679" arrowHead="Undirected" x="334.5668662674645" y="445.53093812375255" elementRef="bb23b" relX="1.0" relY="0.0" />
+        <Point elementId="d950d" arrowHead="Inhibition" x="680.8482165352916" y="446.1950442059408" elementRef="aed8b" relX="-1.0" relY="0.5" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="a883d">
       <Waypoints>
-        <Point elementId="cd07b" arrowHead="Undirected" x="745.5148832019584" y="466.085220337858" elementRef="aed8b" relX="0.0" relY="1.0" />
-        <Point elementId="a34b5" arrowHead="Inhibition" x="746.0000000000002" y="495.88822355289403" elementRef="b1c" relX="0.0" relY="-1.0" />
+        <Point elementId="ebb18" arrowHead="Undirected" x="745.5148832019584" y="466.085220337858" elementRef="aed8b" relX="0.0" relY="1.0" />
+        <Point elementId="a8d03" arrowHead="Inhibition" x="746.0000000000002" y="495.88822355289403" elementRef="b1c" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="b42f3">
       <Waypoints>
-        <Point elementId="a943c" arrowHead="Undirected" x="501.5673981191226" y="396.23197492163024" elementRef="c21a5" relX="0.0" relY="1.0" />
-        <Point elementId="db0b2" arrowHead="Directed" x="334.5668662674645" y="410.36427145708586" elementRef="bb23b" relX="1.0" relY="-0.5" />
+        <Point elementId="b94a2" arrowHead="Undirected" x="501.5673981191226" y="396.23197492163024" elementRef="c21a5" relX="0.0" relY="1.0" />
+        <Point elementId="c15e2" arrowHead="Directed" x="334.5668662674645" y="410.36427145708586" elementRef="bb23b" relX="1.0" relY="-0.5" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="12288" />
     </Interaction>
     <Interaction elementId="c6490">
       <Waypoints>
-        <Point elementId="c6137" arrowHead="Undirected" x="1132.4378709740568" y="807.3333333333334" elementRef="acdf9" relX="0.0" relY="1.0" />
-        <Point elementId="d64e6" arrowHead="Directed" x="1132.3671933020746" y="912.4131839622642" elementRef="e8e46" relX="0.0" relY="-1.0" />
+        <Point elementId="abd0a" arrowHead="Undirected" x="1132.4378709740568" y="807.3333333333334" elementRef="acdf9" relX="0.0" relY="1.0" />
+        <Point elementId="f65c1" arrowHead="Directed" x="1132.3671933020746" y="912.4131839622642" elementRef="e8e46" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="d1ddc">
       <Waypoints>
-        <Point elementId="b104f" arrowHead="Undirected" x="616.6666666666667" y="113.33333333333333" elementRef="c27" relX="0.0" relY="1.0" />
-        <Point elementId="c55d0" arrowHead="Directed" x="688.9096806387225" y="173.84031936127735" elementRef="bcaa0" relX="0.0" relY="-1.0" />
+        <Point elementId="bb4a8" arrowHead="Undirected" x="616.6666666666667" y="113.33333333333333" elementRef="c27" relX="0.0" relY="1.0" />
+        <Point elementId="c2518" arrowHead="Directed" x="688.9096806387225" y="173.84031936127735" elementRef="bcaa0" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="d6ebf">
       <Waypoints>
-        <Point elementId="e6ff1" arrowHead="Undirected" x="1132.3688495349938" y="319.9486249399485" elementRef="d0df9" relX="0.0" relY="1.0" />
-        <Point elementId="a8187" arrowHead="Directed" x="1132.4378709740568" y="363.33333333333337" elementRef="acdf9" relX="0.0" relY="-1.0" />
+        <Point elementId="ee8f5" arrowHead="Undirected" x="1132.3688495349938" y="319.9486249399485" elementRef="d0df9" relX="0.0" relY="1.0" />
+        <Point elementId="d76b8" arrowHead="Directed" x="1132.4378709740568" y="363.33333333333337" elementRef="acdf9" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="db9dc">
       <Waypoints>
-        <Point elementId="e7ab7" arrowHead="Undirected" x="803.3333333333337" y="563.3333333333334" elementRef="eeb" relX="1.0" relY="0.0" />
-        <Point elementId="dbf1c" arrowHead="Inhibition" x="743.6644211576847" y="293.2652688353703" elementRef="bcaa0" relX="0.5" relY="1.0" />
+        <Point elementId="a52a0" arrowHead="Undirected" x="803.3333333333337" y="563.3333333333334" elementRef="eeb" relX="1.0" relY="0.0" />
+        <Point elementId="e335b" arrowHead="Inhibition" x="743.6644211576847" y="293.2652688353703" elementRef="bcaa0" relX="0.5" relY="1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="12288" />
     </Interaction>
     <Interaction elementId="e16ae">
       <Waypoints>
-        <Point elementId="c0bcb" arrowHead="Undirected" x="763.3333333333334" y="113.33333333333333" elementRef="d20" relX="0.0" relY="1.0" />
-        <Point elementId="ebfa5" arrowHead="Directed" x="688.9096806387225" y="173.84031936127735" elementRef="bcaa0" relX="0.0" relY="-1.0" />
+        <Point elementId="bbca2" arrowHead="Undirected" x="763.3333333333334" y="113.33333333333333" elementRef="d20" relX="0.0" relY="1.0" />
+        <Point elementId="cd2ab" arrowHead="Directed" x="688.9096806387225" y="173.84031936127735" elementRef="bcaa0" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="e502a">
       <Waypoints>
-        <Point elementId="e3689" arrowHead="Undirected" x="746.666666666667" y="573.3333333333334" elementRef="eeb" relX="0.0" relY="1.0" />
-        <Point elementId="d9969" arrowHead="Directed" x="687.8754879292277" y="623.1432782852396" elementRef="dcaa7" relX="0.5" relY="-1.0" />
+        <Point elementId="c1f57" arrowHead="Undirected" x="746.666666666667" y="573.3333333333334" elementRef="eeb" relX="0.0" relY="1.0" />
+        <Point elementId="aa463" arrowHead="Directed" x="687.8754879292277" y="623.1432782852396" elementRef="dcaa7" relX="0.5" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Segmented" zOrder="12288" />
     </Interaction>
     <Interaction elementId="e6bf6">
       <Waypoints>
-        <Point elementId="d3125" arrowHead="Undirected" x="746.0000000000002" y="515.888223552894" elementRef="b1c" relX="0.0" relY="1.0" />
-        <Point elementId="d5f5d" arrowHead="Directed" x="746.666666666667" y="553.3333333333334" elementRef="eeb" relX="0.0" relY="-1.0" />
+        <Point elementId="b3cd5" arrowHead="Undirected" x="746.0000000000002" y="515.888223552894" elementRef="b1c" relX="0.0" relY="1.0" />
+        <Point elementId="d54a9" arrowHead="Directed" x="746.666666666667" y="553.3333333333334" elementRef="eeb" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="f03f3">
       <Waypoints>
-        <Point elementId="d93b7" arrowHead="Undirected" x="96.06317782316812" y="566.6782952828826" elementRef="e0c7d" relX="-0.5" relY="-1.0" />
-        <Point elementId="ce014" arrowHead="Directed" x="96.66666666666667" y="113.33333333333333" elementRef="ce3" relX="0.0" relY="1.0" />
+        <Point elementId="c0fd4" arrowHead="Undirected" x="96.06317782316812" y="566.6782952828826" elementRef="e0c7d" relX="-0.5" relY="-1.0" />
+        <Point elementId="eaac2" arrowHead="Directed" x="96.66666666666667" y="113.33333333333333" elementRef="ce3" relX="0.0" relY="1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="f48fc">
       <Waypoints>
-        <Point elementId="a8cba" arrowHead="Undirected" x="293.95009980039873" y="515.8642714570859" elementRef="bb23b" relX="0.5" relY="1.0" />
-        <Point elementId="bd40e" arrowHead="Directed" x="375.5882315921024" y="572.6663192349782" elementRef="c6600" relX="0.0" relY="-1.0" />
+        <Point elementId="f11e6" arrowHead="Undirected" x="293.95009980039873" y="515.8642714570859" elementRef="bb23b" relX="0.5" relY="1.0" />
+        <Point elementId="d28e5" arrowHead="Directed" x="375.5882315921024" y="572.6663192349782" elementRef="c6600" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="f74bc">
       <Waypoints>
-        <Point elementId="be3cf" arrowHead="Undirected" x="798.4191616766468" y="203.6965567298006" elementRef="bcaa0" relX="1.0" relY="-0.5" />
-        <Point elementId="d7a1d" arrowHead="Directed" x="1056.7021828683273" y="204.2655993487595" elementRef="d0df9" relX="-1.0" relY="-0.5" />
+        <Point elementId="e3457" arrowHead="Undirected" x="798.4191616766468" y="203.6965567298006" elementRef="bcaa0" relX="1.0" relY="-0.5" />
+        <Point elementId="a4aaf" arrowHead="Directed" x="1056.7021828683273" y="204.2655993487595" elementRef="d0df9" relX="-1.0" relY="-0.5" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="fada3">
       <Waypoints>
-        <Point elementId="f8368" arrowHead="Undirected" x="746.666666666667" y="573.3333333333334" elementRef="eeb" relX="0.0" relY="1.0" />
-        <Point elementId="d535a" arrowHead="Directed" x="796.7668144975574" y="626.0075497423254" elementRef="a1f56" relX="-0.5" relY="-1.0" />
+        <Point elementId="f00ba" arrowHead="Undirected" x="746.666666666667" y="573.3333333333334" elementRef="eeb" relX="0.0" relY="1.0" />
+        <Point elementId="a3ecc" arrowHead="Directed" x="796.7668144975574" y="626.0075497423254" elementRef="a1f56" relX="-0.5" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id4e7e2d08">
       <Waypoints>
-        <Point elementId="ecfac" arrowHead="Undirected" x="419.9760479041919" y="260.7452211564333" elementRef="e58f8" relX="1.0" relY="0.5" />
-        <Point elementId="d11c1" arrowHead="Directed" x="501.5673981191226" y="332.23197492163024" elementRef="c21a5" relX="0.0" relY="-1.0" />
+        <Point elementId="a32cd" arrowHead="Undirected" x="419.9760479041919" y="260.7452211564333" elementRef="e58f8" relX="1.0" relY="0.5" />
+        <Point elementId="a377d" arrowHead="Directed" x="501.5673981191226" y="332.23197492163024" elementRef="c21a5" relX="0.0" relY="-1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Elbow" zOrder="12288" />
     </Interaction>
     <Interaction elementId="idaf8a5c9d">
       <Waypoints>
-        <Point elementId="a3dac" arrowHead="Undirected" x="505.66076377641" y="164.40172047655048" elementRef="a2c5c" relX="0.0" relY="-1.0" />
-        <Point elementId="ca982" arrowHead="Directed" x="616.6666666666667" y="113.33333333333333" elementRef="c27" relX="0.0" relY="1.0" />
+        <Point elementId="bc04f" arrowHead="Undirected" x="505.66076377641" y="164.40172047655048" elementRef="a2c5c" relX="0.0" relY="-1.0" />
+        <Point elementId="e41f1" arrowHead="Directed" x="616.6666666666667" y="113.33333333333333" elementRef="c27" relX="0.0" relY="1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="idf40d6d0f">
       <Waypoints>
-        <Point elementId="b80e7" arrowHead="Undirected" x="1211.7712043073907" y="585.3333333333334" elementRef="acdf9" relX="1.0" relY="0.0" />
-        <Point elementId="f063c" arrowHead="Directed" x="1269.051742668512" y="585.0268437484001" elementRef="f45dd" relX="-1.0" relY="0.0" />
+        <Point elementId="d3f6d" arrowHead="Undirected" x="1211.7712043073907" y="585.3333333333334" elementRef="acdf9" relX="1.0" relY="0.0" />
+        <Point elementId="cbcf4" arrowHead="Directed" x="1269.051742668512" y="585.0268437484001" elementRef="f45dd" relX="-1.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
@@ -1009,60 +1009,60 @@
     </Shape>
   </Shapes>
   <Groups>
-    <Group elementId="a7ec4" type="Group">
-      <Graphics centerX="486.6666666666667" centerY="896.6369002627506" width="156.33333333333337" height="178.60713385883446" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    <Group elementId="a7ec4" type="Transparent">
+      <Graphics centerX="486.6666666666667" centerY="896.6369002627506" width="156.33333333333337" height="178.60713385883446" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="0" />
     </Group>
-    <Group elementId="ec3a2" type="Group">
-      <Graphics centerX="741.5169660678639" centerY="948.372298917983" width="197.33333333333337" height="281.5589690934511" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    <Group elementId="ec3a2" type="Transparent">
+      <Graphics centerX="741.5169660678639" centerY="948.372298917983" width="197.33333333333337" height="281.5589690934511" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="0" />
     </Group>
-    <Group elementId="d0df9" type="Group">
-      <Graphics centerX="1132.3688495349938" centerY="242.82660787915583" width="151.33333333333326" height="154.24403412158534" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    <Group elementId="d0df9" type="Transparent">
+      <Graphics centerX="1132.3688495349938" centerY="242.82660787915583" width="151.33333333333326" height="154.24403412158534" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="0" />
     </Group>
-    <Group elementId="acdf9" type="Group">
-      <Graphics centerX="1132.4378709740568" centerY="585.3333333333334" width="158.66666666666765" height="444.00000000000006" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    <Group elementId="acdf9" type="Transparent">
+      <Graphics centerX="1132.4378709740568" centerY="585.3333333333334" width="158.66666666666765" height="444.00000000000006" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="0" />
     </Group>
-    <Group elementId="c6600" type="Group">
-      <Graphics centerX="375.5882315921024" centerY="669.9103533565632" width="232.04671921678715" height="194.4880682431699" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    <Group elementId="c6600" type="Transparent">
+      <Graphics centerX="375.5882315921024" centerY="669.9103533565632" width="232.04671921678715" height="194.4880682431699" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="0" />
     </Group>
-    <Group elementId="bb23b" type="Group">
-      <Graphics centerX="253.33333333333297" centerY="445.53093812375255" width="162.46706586826303" height="140.66666666666669" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    <Group elementId="bb23b" type="Transparent">
+      <Graphics centerX="253.33333333333297" centerY="445.53093812375255" width="162.46706586826303" height="140.66666666666669" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="0" />
     </Group>
-    <Group elementId="a1f56" type="Group">
-      <Graphics centerX="838.1001478308908" centerY="667.0536750707636" width="165.33333333333337" height="82.09225065687644" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    <Group elementId="a1f56" type="Transparent">
+      <Graphics centerX="838.1001478308908" centerY="667.0536750707636" width="165.33333333333337" height="82.09225065687644" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="0" />
     </Group>
     <Group elementId="c21a5" type="Complex">
       <Graphics centerX="501.5673981191226" centerY="364.23197492163024" width="104.00000000000006" height="63.99999999999994" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Solid" borderWidth="1.0" fillColor="b4b46419" shapeType="Octagon" zOrder="0" />
     </Group>
-    <Group elementId="e58f8" type="Group">
-      <Graphics centerX="337.6225026436159" centerY="216.48357829794963" width="164.70709052115194" height="177.04657143393464" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    <Group elementId="e58f8" type="Transparent">
+      <Graphics centerX="337.6225026436159" centerY="216.48357829794963" width="164.70709052115194" height="177.04657143393464" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="0" />
     </Group>
-    <Group elementId="dcaa7" type="Group">
-      <Graphics centerX="658.7921545958943" centerY="664.6894036136779" width="116.33333333333337" height="83.09225065687656" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    <Group elementId="dcaa7" type="Transparent">
+      <Graphics centerX="658.7921545958943" centerY="664.6894036136779" width="116.33333333333337" height="83.09225065687656" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="0" />
     </Group>
-    <Group elementId="e8e46" type="Group">
-      <Graphics centerX="1132.3671933020746" centerY="993.2465172955974" width="122.33333333333326" height="161.66666666666652" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    <Group elementId="e8e46" type="Transparent">
+      <Graphics centerX="1132.3671933020746" centerY="993.2465172955974" width="122.33333333333326" height="161.66666666666652" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="0" />
     </Group>
-    <Group elementId="e0c7d" type="Group">
-      <Graphics centerX="137.07472001251801" centerY="802.6485288789663" width="164.04616875739958" height="471.9404671921676" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    <Group elementId="e0c7d" type="Transparent">
+      <Graphics centerX="137.07472001251801" centerY="802.6485288789663" width="164.04616875739958" height="471.9404671921676" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="0" />
     </Group>
-    <Group elementId="bcaa0" type="Group">
-      <Graphics centerX="688.9096806387225" centerY="233.55279409832383" width="219.01896207584855" height="119.42494947409298" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    <Group elementId="bcaa0" type="Transparent">
+      <Graphics centerX="688.9096806387225" centerY="233.55279409832383" width="219.01896207584855" height="119.42494947409298" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="0" />
     </Group>
-    <Group elementId="aed8b" type="Group">
-      <Graphics centerX="745.5148832019584" centerY="426.30486807402355" width="129.33333333333337" height="79.56070452766892" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="808080" borderStyle="Dashed" borderWidth="1.0" fillColor="0000ff0c" shapeType="Rectangle" zOrder="0" />
+    <Group elementId="aed8b" type="Transparent">
+      <Graphics centerX="745.5148832019584" centerY="426.30486807402355" width="129.33333333333337" height="79.56070452766892" textColor="808080" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="00000000" shapeType="Rectangle" zOrder="0" />
     </Group>
   </Groups>
   <Annotations>
-    <Annotation elementId="b5777" value="insulin signaling pathway" type="Ontology">
+    <Annotation elementId="f0382" value="insulin signaling pathway" type="Ontology">
       <Xref identifier="0000143" dataSource="PW" />
     </Annotation>
   </Annotations>
   <Citations>
-    <Citation elementId="d3b">
-      <Xref identifier="1890850" dataSource="pubmed" />
-    </Citation>
     <Citation elementId="b27">
       <Xref identifier="11742412" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="d3b">
+      <Xref identifier="1890850" dataSource="pubmed" />
     </Citation>
     <Citation elementId="e4b">
       <Xref identifier="11282018" dataSource="pubmed" />

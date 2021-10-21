@@ -9,16 +9,16 @@
   <Interactions>
     <Interaction elementId="idaf905386">
       <Waypoints>
-        <Point elementId="cf68c" arrowHead="Undirected" x="30.452674897119397" y="66.6666666666666" />
-        <Point elementId="bf643" arrowHead="Undirected" x="163.78600823045275" y="66.66666666666659" />
+        <Point elementId="d836e" arrowHead="Undirected" x="30.452674897119397" y="66.6666666666666" />
+        <Point elementId="f4d3a" arrowHead="Undirected" x="163.78600823045275" y="66.66666666666659" />
         <Anchor elementId="e0874" position="0.5617283950617287" shapeType="None" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>
     <Interaction elementId="id28382a1c">
       <Waypoints>
-        <Point elementId="a0270" arrowHead="Undirected" x="106.172839506174" y="133.20987654320976" elementRef="faa53" relX="0.0" relY="-1.0" />
-        <Point elementId="ffa82" arrowHead="Catalysis" x="105.34979423868322" y="66.66666666666659" elementRef="e0874" relX="0.0" relY="0.0" />
+        <Point elementId="f319e" arrowHead="Undirected" x="106.172839506174" y="133.20987654320976" elementRef="faa53" relX="0.0" relY="-1.0" />
+        <Point elementId="cbf81" arrowHead="Catalysis" x="105.34979423868322" y="66.66666666666659" elementRef="e0874" relX="0.0" relY="0.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
     </Interaction>

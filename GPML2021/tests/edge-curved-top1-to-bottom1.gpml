@@ -12,11 +12,11 @@
   <Interactions>
     <Interaction elementId="f8809">
       <Waypoints>
-        <Point elementId="ff3fa" arrowHead="Inhibition" x="58.771795096245356" y="100.80986117035668" elementRef="ea3a3" relX="0.0" relY="-1.0" />
-        <Point elementId="f530d" arrowHead="Undirected" x="119.28612545485854" y="68.99683298432036" />
-        <Point elementId="eada5" arrowHead="Undirected" x="179.8004558134717" y="117.31898063532702" />
-        <Point elementId="bb781" arrowHead="Undirected" x="212.1327356091221" y="165.64112828633367" />
-        <Point elementId="f7bc0" arrowHead="Directed" x="244.46501540477254" y="130.62567176545974" elementRef="ad716" relX="0.0" relY="1.0" />
+        <Point elementId="abc2b" arrowHead="Inhibition" x="58.771795096245356" y="100.80986117035668" elementRef="ea3a3" relX="0.0" relY="-1.0" />
+        <Point elementId="c61e9" arrowHead="Undirected" x="119.28612545485854" y="68.99683298432036" />
+        <Point elementId="e5606" arrowHead="Undirected" x="179.8004558134717" y="117.31898063532702" />
+        <Point elementId="ee118" arrowHead="Undirected" x="212.1327356091221" y="165.64112828633367" />
+        <Point elementId="c90c5" arrowHead="Directed" x="244.46501540477254" y="130.62567176545974" elementRef="ad716" relX="0.0" relY="1.0" />
       </Waypoints>
       <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Curved" zOrder="32947" />
     </Interaction>
